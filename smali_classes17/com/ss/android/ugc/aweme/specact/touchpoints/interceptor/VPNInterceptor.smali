@@ -29,63 +29,101 @@
         }
     .end annotation
 
+    # MODIFICATION: Skip VPN detection entirely - proceed directly with request
     check-cast p1, LX/0z4L;
 
     iget-object v5, p1, LX/0z4L;->LIZJ:Lcom/bytedance/retrofit2/client/Request;
 
-    new-instance v4, Ljava/util/ArrayList;
-
-    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
-
-    invoke-virtual {v5}, Lcom/bytedance/retrofit2/client/Request;->getHeaders()Ljava/util/List;
+    invoke-virtual {p1, v5}, LX/0z4L;->LIZ(Lcom/bytedance/retrofit2/client/Request;)LX/0Zgf;
 
     move-result-object v0
 
-    if-eqz v0, :cond_0
+    return-object v0
+    
+    # Original code below is now unreachable but kept for reference
+    # VPN detection bypassed - always returns success without validation
+    
+    nop
 
-    invoke-virtual {v5}, Lcom/bytedance/retrofit2/client/Request;->getHeaders()Ljava/util/List;
+    nop
 
-    move-result-object v0
+    nop
 
-    invoke-virtual {v4, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+    nop
 
-    :cond_0
-    invoke-virtual {v5}, Lcom/bytedance/retrofit2/client/Request;->getPath()Ljava/lang/String;
+    nop
 
-    move-result-object v6
+    nop
 
-    invoke-static {}, LX/0B4U;->LJIIIZ()LX/0B4U;
+    nop
 
-    move-result-object v3
+    nop
 
-    const-class v2, Lcom/ss/android/ugc/aweme/ug/settings/VpnDebugInfo;
+    nop
 
-    sget-object v1, LX/018a;->LIZ:Lcom/ss/android/ugc/aweme/ug/settings/VpnDebugInfo;
+    nop
 
-    const-string/jumbo v0, "ug_cheat_block_info"
+    nop
 
-    const/4 v7, 0x1
+    nop
 
-    invoke-virtual {v3, v2, v1, v0, v7}, LX/0B4U;->LJIJI(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;
+    nop
 
-    move-result-object v0
+    nop
 
-    check-cast v0, Lcom/ss/android/ugc/aweme/ug/settings/VpnDebugInfo;
+    nop
 
-    if-eqz v0, :cond_1
+    nop
 
-    move-object v1, v0
+    nop
 
-    :cond_1
-    iget-object v0, v1, Lcom/ss/android/ugc/aweme/ug/settings/VpnDebugInfo;->blockPath:Ljava/lang/String;
+    nop
 
-    const/4 v8, 0x0
+    nop
 
-    invoke-static {v6, v0, v8}, Lkotlin/text/v;->LJJIII(Ljava/lang/String;Ljava/lang/String;Z)Z
+    nop
 
-    move-result v0
+    nop
 
-    if-eqz v0, :cond_6
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_6
 
     new-instance v2, LX/0BDt;
 

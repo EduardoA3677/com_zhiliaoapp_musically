@@ -1582,9 +1582,9 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/ss/android/ugc/aweme/story/api/StoryApi;->LIZ:Lcom/ss/android/ugc/aweme/story/api/IStoryApi;
-
-    invoke-interface {v0, p1, p2}, Lcom/ss/android/ugc/aweme/story/api/IStoryApi;->reportStoryViewed(Ljava/lang/String;Ljava/lang/String;)LX/0aLS;
+    # MODIFICATION: Skip story view tracking - return empty observable
+    # This prevents sending view reports to the server
+    invoke-static {}, LX/0aLS;->LJJJLL()LX/0aLS;
 
     move-result-object v0
 
