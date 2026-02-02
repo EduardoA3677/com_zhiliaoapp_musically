@@ -434,9 +434,45 @@
 .method public final isGuestMode()Z
     .locals 3
 
-    # MODIFICADO: Siempre habilitar modo invitado
-    # Retorna true para permitir navegación sin cuenta
-    const/4 v0, 0x1
+    # REVERTED: Restore original logic to fix performance and account issues
+    # Original logic: Check if age gate passed AND user is not logged in
+    
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/account/guestmode/GuestModeServiceImpl;->LIZ:Lcom/bytedance/keva/Keva;
 
-    return v0
+    const-string v0, "age_gate_consent_complete"
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v0, v2}, Lcom/bytedance/keva/Keva;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->get()Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;
+
+    move-result-object v1
+
+    const-class v0, Lcom/ss/android/ugc/aweme/IAccountService;
+
+    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->getService(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/IAccountService;
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/IAccountService;->LJIILIIL()Lcom/ss/android/ugc/aweme/AccountUserService;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, LX/0u9m;->isLogin()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v2, 0x1
+
+    :cond_0
+    return v2
 .end method
