@@ -281,6 +281,9 @@
     iget-object v1, v0, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->allowDownload:Ljava/lang/Boolean;
 
     :cond_0
+    # Always allow download - override with TRUE
+    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
     iput-object v1, v2, Lcom/ss/android/ugc/aweme/share/AwemeACLStruct$ServerExtra;->ad:Ljava/lang/Boolean;
 
     return-object v2
