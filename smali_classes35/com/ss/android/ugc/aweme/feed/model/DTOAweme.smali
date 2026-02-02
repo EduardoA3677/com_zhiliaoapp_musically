@@ -4751,7 +4751,9 @@
 .method public isPreventDownload()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->preventDownload:Z
+    # MODIFIED: Always return false (0) to allow downloads
+    # Original: iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->preventDownload:Z
+    const/4 v0, 0x0
 
     return v0
 .end method

@@ -4035,7 +4035,9 @@
 .method public getDownloadSetting()I
     .locals 1
 
-    iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
+    # MODIFIED: Always return 0 (allow downloads from everyone)
+    # Original: iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
+    const/4 v0, 0x0
 
     return v0
 .end method
@@ -6989,7 +6991,9 @@
 .method public isPreventDownload()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
+    # MODIFIED: Always return false (0) to allow downloads
+    # Original: iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
+    const/4 v0, 0x0
 
     return v0
 .end method
