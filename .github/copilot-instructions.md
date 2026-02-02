@@ -36,10 +36,9 @@ This repository contains a decompiled Android APK for TikTok (com.zhiliaoapp.mus
 ## Development Guidelines
 
 ### When Working with Smali Files
-1. **Read-Only Analysis:** This is a decompiled APK, primarily for educational and analysis purposes
-2. **Package Structure:** The codebase is split across 41 smali_classes directories due to the large size
-3. **Obfuscation:** Many classes use short names (e.g., `x7.smali`, `c4.smali`) indicating code obfuscation
-4. **Native Code:** The app includes native libraries in the `lib/` directory
+1. **Package Structure:** The codebase is split across 41 smali_classes directories due to the large size
+2. **Obfuscation:** Many classes use short names (e.g., `x7.smali`, `c4.smali`) indicating code obfuscation
+3. **Native Code:** The app includes native libraries in the `lib/` directory
 
 ### When Working with Resources
 1. **Resource Files:** Standard Android resource structure in `res/` directory
