@@ -162,26 +162,7 @@
 .method public static final LJ(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z
     .locals 2
 
-    const/4 v1, 0x1
-
-    if-eqz p0, :cond_1
-
-    invoke-static {p0}, Lcom/ss/android/ugc/aweme/feed/model/AwemeExtKt;->isAdTraffic(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z
-
-    move-result v0
-
-    if-eq v0, v1, :cond_0
-
-    invoke-static {p0}, LX/0V2j;->LLILLL(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z
-
-    move-result v0
-
-    if-ne v0, v1, :cond_1
-
-    :cond_0
-    return v1
-
-    :cond_1
+    # Modified to always return false (never hide download button)
     const/4 v1, 0x0
 
     return v1

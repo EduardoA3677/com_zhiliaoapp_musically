@@ -49647,13 +49647,13 @@
 
     invoke-direct {v2}, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;-><init>()V
 
-    iget-object v0, p0, LX/004d;->allow_download:Ljava/lang/Boolean;
+    # Modified to always allow download
+    const/4 v0, 0x1
 
-    if-nez v0, :cond_1
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
-    iget-object v0, v2, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->allowDownload:Ljava/lang/Boolean;
+    move-result-object v0
 
-    :cond_1
     iput-object v0, v2, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->allowDownload:Ljava/lang/Boolean;
 
     iget-object v1, p0, LX/004d;->share_type:Ljava/lang/Integer;
@@ -49706,13 +49706,8 @@
 
     iput-boolean v0, v2, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->isAllowReact:Z
 
-    iget-object v1, p0, LX/004d;->prevent_download_type:Ljava/lang/Integer;
-
-    iget v0, v2, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->preventDownloadType:I
-
-    invoke-static {v0, v1}, LX/001G;->LJFF(ILjava/lang/Integer;)I
-
-    move-result v0
+    # Modified to always set preventDownloadType to 0 (allow download)
+    const/4 v0, 0x0
 
     iput v0, v2, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->preventDownloadType:I
 
