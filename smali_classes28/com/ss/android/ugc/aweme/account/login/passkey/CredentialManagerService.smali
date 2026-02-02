@@ -423,36 +423,9 @@
 .method public final LIZLLL()Z
     .locals 2
 
-    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/account/login/passkey/CredentialManagerService;->LJIILL()Z
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    if-nez v0, :cond_0
-
-    return v1
-
-    :cond_0
-    invoke-static {}, LX/0sH8;->LJIILIIL()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    return v1
-
-    :cond_1
-    invoke-static {}, LX/0ZYe;->LJFF()Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    return v1
-
-    :cond_2
-    const/4 v0, 0x1
+    # MODIFICADO: Deshabilitar Credential Manager
+    # Siempre retorna false para evitar conflictos con OAuth tradicional
+    const/4 v0, 0x0
 
     return v0
 .end method
@@ -513,49 +486,10 @@
 .method public final LJFF()Z
     .locals 4
 
-    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/account/login/passkey/CredentialManagerService;->LJJIIZ()Z
-
-    move-result v0
-
+    # MODIFICADO: Deshabilitar Passkeys
+    # Siempre retorna false - Passkeys no disponibles
     const/4 v3, 0x0
 
-    if-eqz v0, :cond_0
-
-    sget-object v0, LX/0u8e;->LIZ:Ljava/util/Set;
-
-    invoke-static {}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->get()Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;
-
-    move-result-object v1
-
-    const-class v0, Lcom/ss/android/ugc/aweme/IAccountService;
-
-    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->getService(Ljava/lang/Class;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/ss/android/ugc/aweme/IAccountService;
-
-    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/IAccountService;->getStoreRegionUpperCase()Ljava/lang/String;
-
-    move-result-object v2
-
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v0, 0x1c
-
-    if-lt v1, v0, :cond_0
-
-    sget-object v0, LX/0u8e;->LIZ:Ljava/util/Set;
-
-    invoke-interface {v0, v2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v3, 0x1
-
-    :cond_0
     return v3
 .end method
 
@@ -854,48 +788,10 @@
 .method public final LJIIJJI()Z
     .locals 4
 
-    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/account/login/passkey/CredentialManagerService;->LJIILL()Z
-
-    move-result v0
-
+    # MODIFICADO: Deshabilitar UI de Passkeys
+    # Siempre retorna false - No mostrar UI de passkeys
     const/4 v3, 0x0
 
-    if-eqz v0, :cond_1
-
-    sget-object v2, LX/09zL;->LIZ:LX/05ta;
-
-    invoke-interface {v2}, LX/05ta;->getValue()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Number;
-
-    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
-
-    move-result v1
-
-    const/4 v0, 0x1
-
-    if-eq v1, v0, :cond_0
-
-    invoke-interface {v2}, LX/05ta;->getValue()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Number;
-
-    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
-
-    move-result v1
-
-    const/4 v0, 0x2
-
-    if-ne v1, v0, :cond_1
-
-    :cond_0
-    const/4 v3, 0x1
-
-    :cond_1
     return v3
 .end method
 
@@ -995,25 +891,10 @@
 .method public final LJIILL()Z
     .locals 3
 
-    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/account/login/passkey/CredentialManagerService;->LJJIIZ()Z
-
-    move-result v0
-
+    # MODIFICADO: Deshabilitar configuración de Passkeys
+    # Siempre retorna false
     const/4 v2, 0x0
 
-    if-eqz v0, :cond_0
-
-    sget-object v0, LX/0u8e;->LIZ:Ljava/util/Set;
-
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v0, 0x1c
-
-    if-lt v1, v0, :cond_0
-
-    const/4 v2, 0x1
-
-    :cond_0
     return v2
 .end method
 
