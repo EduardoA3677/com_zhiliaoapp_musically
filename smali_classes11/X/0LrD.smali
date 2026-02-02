@@ -3359,14 +3359,9 @@
 .method public final reportStoryViewed(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
 
-    sget-object v1, Lcom/ss/android/ugc/aweme/story/api/StoryApi;->LIZIZ:Lcom/ss/android/ugc/aweme/story/api/StoryApi;
-
-    if-nez p2, :cond_1
-
-    const-string v0, ""
-
-    :goto_0
-    invoke-virtual {v1, p1, v0}, Lcom/ss/android/ugc/aweme/story/api/StoryApi;->reportStoryViewed(Ljava/lang/String;Ljava/lang/String;)LX/0aLS;
+    # DISABLED: Do not report story view
+    return-void
+.end method
 
     move-result-object v1
 

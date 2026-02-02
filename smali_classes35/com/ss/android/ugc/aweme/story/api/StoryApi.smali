@@ -1582,11 +1582,9 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/ss/android/ugc/aweme/story/api/StoryApi;->LIZ:Lcom/ss/android/ugc/aweme/story/api/IStoryApi;
-
-    invoke-interface {v0, p1, p2}, Lcom/ss/android/ugc/aweme/story/api/IStoryApi;->reportStoryViewed(Ljava/lang/String;Ljava/lang/String;)LX/0aLS;
-
-    move-result-object v0
+    # DISABLED: Do not report story view to server
+    # Return null to prevent notification
+    const/4 v0, 0x0
 
     return-object v0
 .end method
