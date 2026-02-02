@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?zq" n1:fitsSystemWindows="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/bbp" n1:layout_width="match_parent" n1:layout_height="276.0dp" n1:scaleType="matrix" />
+    <LinearLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.navigation.TuxNavBar n1:layout_gravity="top" n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="44.0dp" n2:ax0="?sz" n2:ax8="?zw" n2:ax9="@integer/m" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/ean" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="208.0dp">
+        <FrameLayout n1:id="@id/b_1" n1:layout_width="136.0dp" n1:layout_height="136.0dp">
+            <X.0CzV n1:layout_gravity="start|top" n1:id="@id/nud" n1:layout_width="136.0dp" n1:layout_height="136.0dp" n3:etn="@raw/icon_color_default_avatar" n3:eyq="8.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/wc0" n1:layout_width="49.0dp" n1:layout_height="49.0dp" n1:layout_marginRight="3.5dp" n1:layout_marginBottom="3.5dp" n1:importantForAccessibility="no" n4:fjq="@raw/icon_color_tiktok_logo_light" n4:fjt="27.0dp" n4:fk6="27.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="26.0dp" n1:layout_marginRight="32.0dp" n1:textAlignment="center" n5:fj2="ot" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/btu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="32.0dp" n1:textAlignment="center" n6:fj2="p_" n6:fmy="?zy" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:id="@id/b11" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginRight="32.0dp" n1:text="@null" n7:fib="l9r" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

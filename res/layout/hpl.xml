@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CM1 n1:id="@id/znc" n1:background="@drawable/fao" n1:clipChildren="true" n1:clipToPadding="true" n1:layout_width="129.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/ws6" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/viewer_wishes_banner" n1:visibility="gone" n1:layout_width="129.0dp" n1:layout_height="30.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0cPZ n1:id="@id/wv0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/aml" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/viewer_wishes_banner" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?c3r" n1:id="@id/ehp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/wv0" style="@style/qc" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0d6D n1:id="@id/dip" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="14.0dp" n6:bwk="@id/ehp" n6:bwq="owf" n6:bx9="owf" n6:bxc="@id/ehp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/pbt" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n7:bwq="owf" n7:bx9="owf" n7:bxb="@id/ehp" layout="@layout/hq4" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <View n1:theme="@style/xr" n1:id="@id/fd6" n1:background="?ej7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/amf" n1:layout_marginLeft="@dimen/amh" n1:layout_marginTop="@dimen/amg" n1:layout_marginRight="@dimen/amh" n1:layout_marginHorizontal="@dimen/amh" n8:bwq="owf" n8:bx9="owf" n8:bxb="@id/pbt" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/wqi" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n9:b74="bwg" n9:bfm="viewer_wishes_banner,ehp,dip,ws6,wv0,fd6,pbt" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <X.0DAL n1:id="@id/znd" n1:paddingBottom="@dimen/aml" n1:clipChildren="true" n1:clipToPadding="true" n1:layout_width="match_parent" n1:layout_height="0.0dp" n10:bwl="@id/bxk" n10:bwq="owf" n10:bwv="wrap" n10:bx9="owf" n10:bxb="@id/wqi" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/bxk" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n11:b74="wor" n11:bfm="by5,bzo" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/by5" n1:background="@drawable/faq" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="14.0dp" n12:bwk="owf" n12:bwq="owf" n12:bx9="owf" xmlns:n12="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:id="@id/by6" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="center" n12:br4="?cun" n12:brl="?ej7" />
+    </FrameLayout>
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/bzo" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n13:bwk="owf" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+</X.0CM1>

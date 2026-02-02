@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="?c0q" n1:paddingBottom="10.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ehx" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:text="Reco Full Trace" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/a74" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/kie" n1:background="@drawable/eqq" n1:padding="10.0dp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="10.0dp" n4:bwl="@id/xu1" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/yti" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="?ehx" n1:ellipsize="end" n1:gravity="left" n1:id="@id/xtq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:includeFontPadding="false" style="@style/a74" />
+    </ScrollView>
+    <X.12nN n1:textColor="?c3r" n1:id="@id/xu1" n1:background="@drawable/dwj" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:focusable="true" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Copy to clipboard" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" n5:bwk="owf" n5:bwr="@id/ynl" n5:bx0="ujj" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?c3r" n1:id="@id/ynl" n1:background="@drawable/dwj" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:focusable="true" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Send to my Lark" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx0="ujj" n6:bx8="@id/xu1" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/view_stub_no_media_permission" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/io5" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="@color/dn" n1:gravity="center" n1:id="@id/iw9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="13.0dp" n1:layout_marginBottom="13.0dp" n1:layout_weight="0.0" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_weight="1.0">
+                <X.0HU2 n1:id="@id/jlj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="@color/uk" n1:layout_gravity="center" n1:id="@id/o4_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0Chg n1:id="@id/jma" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</FrameLayout>

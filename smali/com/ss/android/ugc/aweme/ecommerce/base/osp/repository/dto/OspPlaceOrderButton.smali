@@ -1,0 +1,744 @@
+.class public final Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public benefitEmphasisStyle:Ljava/lang/Integer;
+    .annotation runtime LX/0B9U;
+        value = "benefit_emphasis_style"
+    .end annotation
+.end field
+
+.field public buttonStyle:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;
+    .annotation runtime LX/0B9U;
+        value = "button_style"
+    .end annotation
+.end field
+
+.field public buttonText:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "button_text"
+    .end annotation
+.end field
+
+.field public buttonTextList:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "button_text_list"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ButtonTextInfo;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public daInfo:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "da_info"
+    .end annotation
+.end field
+
+.field public disable:Ljava/lang/Boolean;
+    .annotation runtime LX/0B9U;
+        value = "disable"
+    .end annotation
+.end field
+
+.field public disableToast:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "disable_toast"
+    .end annotation
+.end field
+
+.field public hidePriceSubTextSavings:Ljava/lang/Boolean;
+    .annotation runtime LX/0B9U;
+        value = "hide_price_sub_text_savings"
+    .end annotation
+.end field
+
+.field public hideTotalPrice:Ljava/lang/Boolean;
+    .annotation runtime LX/0B9U;
+        value = "hide_total_price"
+    .end annotation
+.end field
+
+.field public paymentPlaceOrderButton:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;
+    .annotation runtime LX/0B9U;
+        value = "payment_place_order_button"
+    .end annotation
+.end field
+
+.field public placeOrderButtonByScene:Ljava/util/Map;
+    .annotation runtime LX/0B9U;
+        value = "place_order_button_by_scene"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonInfo;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public subtextArea:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;
+    .annotation runtime LX/0B9U;
+        value = "subtext_area"
+    .end annotation
+.end field
+
+.field public tooltips:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;
+    .annotation runtime LX/0B9U;
+        value = "tooltips"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 14
+
+    const/4 v1, 0x0
+
+    move-object v0, p0
+
+    move-object v2, v1
+
+    move-object v3, v1
+
+    move-object v4, v1
+
+    move-object v5, v1
+
+    move-object v6, v1
+
+    move-object v7, v1
+
+    move-object v8, v1
+
+    move-object v9, v1
+
+    move-object v10, v1
+
+    move-object v11, v1
+
+    move-object v12, v1
+
+    move-object v13, v1
+
+    invoke-direct/range {v0 .. v13}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;-><init>(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;Ljava/lang/String;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/Map;Ljava/util/List;Ljava/lang/Boolean;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;Ljava/lang/String;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/Map;Ljava/util/List;Ljava/lang/Boolean;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Boolean;",
+            "Ljava/lang/String;",
+            "Ljava/lang/Integer;",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;",
+            "Ljava/lang/String;",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;",
+            "Ljava/lang/String;",
+            "Ljava/lang/Boolean;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonInfo;",
+            ">;",
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ButtonTextInfo;",
+            ">;",
+            "Ljava/lang/Boolean;",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disable:Ljava/lang/Boolean;
+
+    iput-object p2, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disableToast:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->benefitEmphasisStyle:Ljava/lang/Integer;
+
+    iput-object p4, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->subtextArea:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;
+
+    iput-object p5, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->tooltips:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;
+
+    iput-object p6, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->daInfo:Ljava/lang/String;
+
+    iput-object p7, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonStyle:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;
+
+    iput-object p8, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonText:Ljava/lang/String;
+
+    iput-object p9, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hideTotalPrice:Ljava/lang/Boolean;
+
+    iput-object p10, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->placeOrderButtonByScene:Ljava/util/Map;
+
+    iput-object p11, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonTextList:Ljava/util/List;
+
+    iput-object p12, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hidePriceSubTextSavings:Ljava/lang/Boolean;
+
+    iput-object p13, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->paymentPlaceOrderButton:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v3
+
+    :cond_0
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;
+
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disable:Ljava/lang/Boolean;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disable:Ljava/lang/Boolean;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disableToast:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disableToast:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->benefitEmphasisStyle:Ljava/lang/Integer;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->benefitEmphasisStyle:Ljava/lang/Integer;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->subtextArea:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->subtextArea:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->tooltips:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->tooltips:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    return v2
+
+    :cond_6
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->daInfo:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->daInfo:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_7
+
+    return v2
+
+    :cond_7
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonStyle:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonStyle:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_8
+
+    return v2
+
+    :cond_8
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonText:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonText:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_9
+
+    return v2
+
+    :cond_9
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hideTotalPrice:Ljava/lang/Boolean;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hideTotalPrice:Ljava/lang/Boolean;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_a
+
+    return v2
+
+    :cond_a
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->placeOrderButtonByScene:Ljava/util/Map;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->placeOrderButtonByScene:Ljava/util/Map;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_b
+
+    return v2
+
+    :cond_b
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonTextList:Ljava/util/List;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonTextList:Ljava/util/List;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_c
+
+    return v2
+
+    :cond_c
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hidePriceSubTextSavings:Ljava/lang/Boolean;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hidePriceSubTextSavings:Ljava/lang/Boolean;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_d
+
+    return v2
+
+    :cond_d
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->paymentPlaceOrderButton:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->paymentPlaceOrderButton:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_e
+
+    return v2
+
+    :cond_e
+    return v3
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disable:Ljava/lang/Boolean;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_c
+
+    const/4 v0, 0x0
+
+    :goto_0
+    mul-int/lit8 v1, v0, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disableToast:Ljava/lang/String;
+
+    if-nez v0, :cond_b
+
+    const/4 v0, 0x0
+
+    :goto_1
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->benefitEmphasisStyle:Ljava/lang/Integer;
+
+    if-nez v0, :cond_a
+
+    const/4 v0, 0x0
+
+    :goto_2
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->subtextArea:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;
+
+    if-nez v0, :cond_9
+
+    const/4 v0, 0x0
+
+    :goto_3
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->tooltips:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;
+
+    if-nez v0, :cond_8
+
+    const/4 v0, 0x0
+
+    :goto_4
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->daInfo:Ljava/lang/String;
+
+    if-nez v0, :cond_7
+
+    const/4 v0, 0x0
+
+    :goto_5
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonStyle:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;
+
+    if-nez v0, :cond_6
+
+    const/4 v0, 0x0
+
+    :goto_6
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonText:Ljava/lang/String;
+
+    if-nez v0, :cond_5
+
+    const/4 v0, 0x0
+
+    :goto_7
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hideTotalPrice:Ljava/lang/Boolean;
+
+    if-nez v0, :cond_4
+
+    const/4 v0, 0x0
+
+    :goto_8
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->placeOrderButtonByScene:Ljava/util/Map;
+
+    if-nez v0, :cond_3
+
+    const/4 v0, 0x0
+
+    :goto_9
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonTextList:Ljava/util/List;
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    :goto_a
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hidePriceSubTextSavings:Ljava/lang/Boolean;
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    :goto_b
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->paymentPlaceOrderButton:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;->hashCode()I
+
+    move-result v2
+
+    :cond_0
+    add-int/2addr v1, v2
+
+    return v1
+
+    :cond_1
+    invoke-virtual {v0}, Ljava/lang/Boolean;->hashCode()I
+
+    move-result v0
+
+    goto :goto_b
+
+    :cond_2
+    invoke-interface {v0}, Ljava/util/List;->hashCode()I
+
+    move-result v0
+
+    goto :goto_a
+
+    :cond_3
+    invoke-interface {v0}, Ljava/util/Map;->hashCode()I
+
+    move-result v0
+
+    goto :goto_9
+
+    :cond_4
+    invoke-virtual {v0}, Ljava/lang/Boolean;->hashCode()I
+
+    move-result v0
+
+    goto :goto_8
+
+    :cond_5
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_7
+
+    :cond_6
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;->hashCode()I
+
+    move-result v0
+
+    goto :goto_6
+
+    :cond_7
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_5
+
+    :cond_8
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;->hashCode()I
+
+    move-result v0
+
+    goto :goto_4
+
+    :cond_9
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;->hashCode()I
+
+    move-result v0
+
+    goto :goto_3
+
+    :cond_a
+    invoke-virtual {v0}, Ljava/lang/Integer;->hashCode()I
+
+    move-result v0
+
+    goto/16 :goto_2
+
+    :cond_b
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto/16 :goto_1
+
+    :cond_c
+    invoke-virtual {v0}, Ljava/lang/Boolean;->hashCode()I
+
+    move-result v0
+
+    goto/16 :goto_0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v0, "OspPlaceOrderButton(disable="
+
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disable:Ljava/lang/Boolean;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", disableToast="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->disableToast:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", benefitEmphasisStyle="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->benefitEmphasisStyle:Ljava/lang/Integer;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", subtextArea="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->subtextArea:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/SubtextArea;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", tooltips="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->tooltips:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/ToolTips;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", daInfo="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->daInfo:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", buttonStyle="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonStyle:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PlaceOrderButtonStyle;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", buttonText="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonText:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", hideTotalPrice="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hideTotalPrice:Ljava/lang/Boolean;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", placeOrderButtonByScene="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->placeOrderButtonByScene:Ljava/util/Map;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", buttonTextList="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->buttonTextList:Ljava/util/List;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", hidePriceSubTextSavings="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->hidePriceSubTextSavings:Ljava/lang/Boolean;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", paymentPlaceOrderButton="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/OspPlaceOrderButton;->paymentPlaceOrderButton:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/repository/dto/PaymentPlaceOrderButton;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

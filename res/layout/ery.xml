@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/zt6" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <SurfaceView n1:id="@id/zop" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/zql" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ImageView n1:layout_gravity="center" n1:id="@id/kcz" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/a9z" n1:scaleType="centerInside" />
+    </FrameLayout>
+</FrameLayout>

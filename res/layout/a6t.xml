@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0jLk n1:id="@id/o_9" n1:focusable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingEnd="@dimen/j3" n1:screenReaderFocusable="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/o9i" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/iv" n1:layout_marginBottom="@dimen/iv" n1:layout_alignParentLeft="true" n1:layout_marginStart="@dimen/j5" n1:layout_toStartOf="@id/o_8" n1:layout_alignParentStart="true">
+        <X.0jKX n1:id="@id/o9j" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentStart="true" />
+        <X.0jKZ n1:id="@id/o9p" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/ij" n1:layout_marginBottom="@dimen/ij" n1:layout_toRightOf="@id/o9j" n1:layout_centerVertical="true" n1:layout_marginStart="9.0dp" n1:layout_toEndOf="@id/o9j" />
+    </RelativeLayout>
+    <X.0jKa n1:id="@id/o_8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_alignParentRight="true" n1:layout_marginStart="@dimen/ik" n1:layout_alignParentEnd="true" />
+    <X.0jOQ n1:id="@id/o8y" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp" n1:layout_below="@id/o9i" n1:layout_marginStart="@dimen/il" n1:layout_alignStart="@id/o9i" n1:layout_alignEnd="@id/o_8" />
+</X.0jLk>

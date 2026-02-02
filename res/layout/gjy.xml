@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hzc" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0pnA n1:id="@id/hzd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0pmf n1:id="@id/hzf" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" n1:overScrollMode="never">
+            <FrameLayout n1:id="@id/hze" n1:background="@drawable/exy" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <ViewStub n1:id="@id/d07" n1:layout="@layout/g4h" n1:inflatedId="@id/ean" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <View n1:id="@id/jts" n1:background="@drawable/ejh" n1:layout_width="match_parent" n1:layout_height="14.0dp" n1:elevation="10.0dp" n1:backgroundTint="?ej8" n1:backgroundTintMode="src_in" />
+            </FrameLayout>
+        </X.0pmf>
+        <include layout="@layout/gjf" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/j2l" n1:background="@drawable/diq" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginTop="49.0dp" n1:layout_marginStart="20.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:id="@id/j2k" n1:visibility="visible" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="55.0dp" n1:layout_marginStart="26.0dp" n3:br4="?ea0" n3:brl="?c3r" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

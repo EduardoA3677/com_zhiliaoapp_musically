@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0Mtu n1:id="@id/c44" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/k2z" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/lew" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_marginStart="12.0dp" n1:layout_alignParentStart="true" />
+    <FrameLayout n1:id="@id/uzq" n1:layout_width="match_parent" n1:layout_height="256.0dp" n1:layout_alignParentBottom="true" n1:layout_marginStart="15.0dp" n1:layout_marginEnd="72.0dp" />
+    <FrameLayout n1:id="@id/ad_feed_card_container" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:layout_alignParentBottom="true" n1:layout_marginStart="12.0dp" />
+</X.0Mtu>

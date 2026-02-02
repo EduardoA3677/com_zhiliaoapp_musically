@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/wpu" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="start|center" n1:orientation="horizontal" n1:id="@id/wjz" n1:paddingLeft="?biz" n1:paddingTop="@dimen/cm" n1:paddingRight="?biz" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@android:id/icon" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginRight="8.0dp" n1:src="@null" n1:scaleType="fitCenter" n1:layout_marginEnd="8.0dp" />
+        <X.0Cfr n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/al1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:singleLine="true" n1:textAlignment="viewStart" style="?android:windowTitleStyle" />
+    </LinearLayout>
+    <android.widget.Space n1:id="@id/wgk" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/cn" />
+</LinearLayout>

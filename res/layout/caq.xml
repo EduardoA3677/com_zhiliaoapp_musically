@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:paddingTop="@dimen/r7" n1:paddingBottom="@dimen/r8" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center_horizontal" n1:id="@id/bb4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="🥳" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_horizontal" n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qc" n1:text="@null" n1:maxLines="3" n1:layout_marginStart="@dimen/w7" n1:layout_marginEnd="@dimen/w7" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="pa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="center_horizontal" n1:id="@id/bat" n1:background="?yh" n1:paddingLeft="12.0dp" n1:paddingTop="7.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="7.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qf" n1:layoutDirection="locale" n1:paddingHorizontal="12.0dp" n1:paddingVertical="7.0dp" n4:bgf="@dimen/b7" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/baw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:autoMirrored="true" n4:fjq="@raw/icon_arrow_left_circle_fill" n4:fjt="@dimen/qi" n4:fk6="@dimen/qi" n4:fmy="?ye" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="start|center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="20.0dp" n4:fj2="pa" />
+    </com.bytedance.tux.widget.RadiusLayout>
+</LinearLayout>

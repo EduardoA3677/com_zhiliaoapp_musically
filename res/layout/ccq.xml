@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.ui.FragmentTabHost n1:id="@id/mtl" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.feed.ui.seekbar.VideoSeekBarMaskView n1:id="@id/mt0" n1:background="@null" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/vjf" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <View n1:layout_gravity="bottom" n1:id="@id/c3_" n1:background="?xy" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginBottom="47.0dp" />
+        <ViewStub n1:layout_gravity="end|bottom" n1:id="@id/eiu" n1:layout="@layout/cck" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="45.0dp" n1:layout_marginEnd="13.0dp" />
+        <X.0RCK n1:layout_gravity="bottom" n1:id="@id/msv" n1:layout_width="match_parent" n1:layout_height="@dimen/a22" />
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/jqt" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/r0" />
+        <X.11RT n1:id="@id/zvc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="99.0dp" n2:fi7="0.0" n2:fiy="0.18" n2:flv="?dm" n2:flw="frs" n2:fm_="zn0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <RelativeLayout n1:layout_gravity="start|bottom" n1:id="@id/zvb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="240.0dp" n1:layout_marginBottom="116.0dp">
+            <View n1:id="@id/c0i" n1:layout_width="match_parent" n1:layout_height="0.100000024dp" n1:layout_alignParentBottom="true" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/es6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="62.0dp" n1:layout_above="@id/c0i" n1:layout_toStartOf="@id/es5" n3:fj2="ov" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/es5" n1:layout_width="6.0dp" n1:layout_height="20.0dp" n1:text="/" n1:layout_alignTop="@id/es6" n1:layout_alignBottom="@id/es6" n1:layout_centerHorizontal="true" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp" n4:fj2="p3" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:id="@id/wxl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignTop="@id/es6" n1:layout_toEndOf="@id/es5" n5:fj2="ov" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+        <X.0NR9 n1:layout_gravity="start|bottom" n1:id="@id/zva" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginBottom="36.0dp" />
+        <FrameLayout n1:id="@id/a0i" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <ViewStub n1:layout_gravity="center|bottom" n1:id="@id/chd" n1:layout="@layout/ccw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="44.0dp" />
+        <ViewStub n1:id="@id/vs_edge_speedup_guide" n1:visibility="gone" n1:layout="@layout/b5i" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:layout_gravity="center|top" n1:id="@id/o6a" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="112.0dp" />
+        <FrameLayout n1:layout_gravity="center|top" n1:id="@id/alc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="112.0dp" />
+    </com.ss.android.ugc.aweme.feed.ui.seekbar.VideoSeekBarMaskView>
+    <View n1:id="@id/vw_shadow_for_setting" n1:background="#111111" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" />
+    <X.0CWY n1:layout_gravity="center" n1:id="@id/zvd" n1:visibility="gone" n1:layout_width="88.0dp" n1:layout_height="140.0dp" n1:layout_marginBottom="90.0dp" />
+    <FrameLayout n1:id="@id/hkf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</com.ss.android.ugc.aweme.ui.FragmentTabHost>

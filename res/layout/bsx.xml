@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kx6" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_alignParentTop="true" n1:layout_marginEnd="10.0dp" n1:layout_alignParentStart="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <LinearLayout n2:gravity="center_vertical" n2:id="@id/lk0" n2:visibility="gone" n2:layout_width="match_parent" n2:layout_height="wrap_content" n2:layout_marginBottom="5.0dp" n2:layout_alignParentTop="true" n2:layout_toEndOf="@id/kx6"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <com.bytedance.tux.input.TuxTextView n3:textColor="?zw" n3:ellipsize="end" n3:id="@id/ygi" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="4.0dp" n3:maxLines="1" n3:layout_below="@id/lk0" n3:layout_toEndOf="@id/kx6" n4:fj2="pv"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0CVT n5:gravity="left|bottom" n5:id="@id/lce" n5:visibility="gone" n5:layout_width="match_parent" n5:layout_height="16.0dp" n5:layout_marginBottom="2.0dp" n5:layout_below="@id/ygi" n5:layout_toEndOf="@id/kx6" n6:bo4="ll3" n6:bo6="1"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0CVT n7:gravity="left|bottom" n7:id="@id/meu" n7:layout_width="match_parent" n7:layout_height="19.0dp" n7:layout_below="@id/lce" n7:layout_toEndOf="@id/kx6" n8:bo4="ll3" n8:bo6="1"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n7:textColor="?dn" n7:gravity="bottom" n7:layout_gravity="start|bottom" n7:id="@id/yg4" n7:layout_width="wrap_content" n7:layout_height="match_parent" n7:maxLines="1" n8:fj2="q2" />
+        <com.bytedance.tux.input.TuxTextView n7:textColor="?dn" n7:gravity="bottom" n7:layout_gravity="start|bottom" n7:id="@id/ygh" n7:layout_width="wrap_content" n7:layout_height="match_parent" n7:maxLines="1" n8:fj2="p4" />
+        <com.bytedance.tux.input.TuxTextView n7:textColor="?zz" n7:gravity="bottom" n7:layout_gravity="start|bottom" n7:id="@id/yg9" n7:layout_width="wrap_content" n7:layout_height="match_parent" n7:maxLines="1" n7:layout_marginStart="4.0dp" n8:fj2="qf" />
+    </X.0CVT>
+</merge>

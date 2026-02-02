@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ekp" n1:id="@id/bct" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxc="owf" style="@style/a74" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bcu" n1:background="@drawable/e2l" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n3:bx9="owf" n3:bxb="@id/bct" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bd1" n1:background="?ehn" n1:layout_width="0.0dp" n1:layout_height="2.0dp" n4:bwk="@id/bcu" n4:bwq="owf" n4:bx8="@id/bcu" n4:bxc="@id/bcu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/bcs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" n5:bx9="owf" n5:bxb="@id/bcu" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.0D0r n1:id="@id/bcw" n1:layout_width="46.0dp" n1:layout_height="46.0dp" />
+        <X.12nN n1:textSize="32.0sp" n1:textColor="?c3r" n1:gravity="center" n1:id="@id/bd9" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginStart="2.0dp" n5:bp3="btv" />
+    </LinearLayout>
+    <View n1:layout_width="40.0dp" n1:layout_height="1.0dp" n6:bwk="@id/bcs" n6:bwq="owf" n6:bwz="0.0" n6:bx8="@id/bcs" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</merge>

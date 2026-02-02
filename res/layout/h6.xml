@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/lv1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="45.0dp" n1:layout_marginTop="160.0dp" n1:layout_marginRight="45.0dp" n1:text="@null" n1:layout_centerHorizontal="true" n1:layout_marginStart="45.0dp" n1:layout_marginEnd="45.0dp" n2:fj2="ot" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CzQ n1:id="@id/luy" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_marginTop="98.0dp" n1:layout_below="@id/lv1" n1:layout_centerHorizontal="true" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?dm" n1:id="@id/lv0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_below="@id/luy" n1:layout_centerHorizontal="true" n3:fj2="p3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/lv3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.5dp" n1:layout_below="@id/lv0" n1:layout_centerHorizontal="true" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center" n1:id="@id/luu" n1:background="@drawable/ct1" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="32.5dp" n1:layout_marginRight="32.0dp" n1:layout_below="@id/lv3" n5:fj2="p7" style="?android:borderlessButtonStyle" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/lut" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="21.0dp" n1:layout_marginBottom="33.0dp" n1:text="@null" n1:layout_below="@id/luu" n6:fj2="p7" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

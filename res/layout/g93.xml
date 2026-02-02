@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sfr" n1:background="@color/g2" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="17.0sp" n1:textColor="@color/abj" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="60.0dp" n1:text="@null" n2:bp3="n2i" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <View n1:background="#80ffffff" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/fq5" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="12.0dp" n1:layout_weight="1.0" />
+            <X.12pz n1:id="@id/e71" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="20.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a59" />
+        </LinearLayout>
+        <X.0rBl n1:id="@id/mlu" n1:background="?c0t" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ck8" n1:layout_width="match_parent" n1:layout_height="32.0dp">
+        <X.0D0r n1:id="@id/cl5" n1:visibility="visible" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="16.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?zz" n1:ellipsize="none" n1:gravity="center_vertical" n1:id="@id/cp2" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_marginStart="7.0dp" n1:layout_marginEnd="16.0dp" n3:bwg="true" n3:bwr="@id/zzy" n3:bx8="@id/cl5" n3:bxc="owf" style="@style/a74" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/cp0" n1:background="@drawable/dmi" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="23.0dp" n4:bwk="owf" n4:bx9="@id/cp2" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/ckr" n1:background="@drawable/dmj" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="23.0dp" n5:bwk="owf" n5:bwq="@id/cp2" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/zzy" n1:visibility="gone" n1:layout_width="26.0dp" n1:layout_height="32.0dp" n6:bwq="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j6j" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="9.0dp" n1:layout_marginEnd="16.0dp" n7:br4="?cu_" n7:brl="?eks" n7:bwq="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/cia" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="32.0dp">
+        <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/cic" n1:visibility="visible" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="16.0dp" n8:bwk="owf" n8:bx9="owf" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?zz" n1:ellipsize="none" n1:gravity="center_vertical" n1:id="@id/cid" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_marginStart="7.0dp" n1:layout_marginEnd="16.0dp" n9:bwg="true" n9:bwr="@id/zym" n9:bx8="@id/cic" n9:bxc="owf" style="@style/a74" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/cib" n1:background="@drawable/dmj" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="23.0dp" n10:bwk="owf" n10:bwq="@id/cid" n10:bxc="owf" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/zym" n1:visibility="gone" n1:layout_width="26.0dp" n1:layout_height="32.0dp" n11:bwq="owf" n11:bxc="owf" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j6i" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="9.0dp" n1:layout_marginEnd="16.0dp" n12:br4="?cu_" n12:brl="?eks" n12:bwq="owf" n12:bxc="owf" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

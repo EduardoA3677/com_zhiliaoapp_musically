@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/dyh" n1:layout_width="match_parent" n1:layout_height="70.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="24.0dp" n1:layout_marginHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/b7n" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0D0r n1:id="@id/zei" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/d5c" n2:bwk="owf" n2:bwr="@id/zel" n2:bx9="owf" n2:bxc="owf" n2:eyo="?ef6" n2:eyq="2.0dp" />
+        <X.0D0r n1:id="@id/zel" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/d5c" n1:layout_marginStart="-10.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/zei" n2:bxc="owf" n2:eyo="?ef6" n2:eyq="2.0dp" />
+    </LinearLayout>
+    <X.12nN n1:textColor="?ekr" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/w0d" n1:layout_width="0.0dp" n1:layout_height="51.0dp" n1:text="@null" n1:maxLines="3" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="8.0dp" n3:bwk="owf" n3:bwr="@id/w0b" n3:bx8="@id/b7n" n3:bxc="owf" style="@style/a77" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:id="@id/w0b" n1:layout_width="82.0dp" n1:layout_height="32.0dp" n1:text="@null" n1:layout_marginEnd="16.0dp" n4:bc0="true" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/w0d" n4:bxc="owf" style="@style/a65" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

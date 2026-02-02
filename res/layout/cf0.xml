@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="?xr" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.tux.widget.RadiusLayout n1:id="@id/raf" n1:background="?zq" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bgh="@dimen/b3" n2:bgj="@dimen/b3" n2:bwk="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/ras" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" />
+            <com.bytedance.tux.widget.RadiusLayout n1:id="@id/rao" n1:background="?yh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bgf="@dimen/b2" n2:bx9="owf" n2:bxb="@id/ras">
+                <X.0x9L n1:textColor="?zw" n1:gravity="start" n1:id="@id/ran" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="175.0dp" n1:hint="@null" n1:inputType="textMultiLine" n1:textCursorDrawable="@drawable/cc6" n1:textAlignment="viewStart" n2:bx9="owf" n2:bxb="@id/ras" n2:fj2="p_" />
+            </com.bytedance.tux.widget.RadiusLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/raa" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bx9="owf" n2:bxb="@id/rao">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/rab" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="inline" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_exclamation_mark_triangle_inline" n2:fmy="?a00" />
+                <X.0D0Q n1:textColor="?a00" n1:ellipsize="end" n1:id="@id/rad" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="3.0dp" n2:bwg="true" n2:bwr="@id/rac" n2:bx8="@id/rab" n2:bxc="owf" n2:fj2="pz" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/rac" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="3.0dp" n2:bwq="owf" n2:bxc="owf" n2:fj2="pz" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.bytedance.tux.widget.RadiusLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingBottom="26.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:paddingBottom="22.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/ltq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n1:layout_marginStart="4.0dp" n2:fj2="pa" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0xSo n1:id="@id/lsy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <X.11AV n1:id="@id/lsx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n1:layout_marginHorizontal="32.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/fci" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n1:layout_marginStart="4.0dp" n3:fj2="pa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0xSo n1:id="@id/fca" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:hint="My link on TikTok" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <X.11AV n1:id="@id/fc_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n1:layout_marginHorizontal="32.0dp" />
+</LinearLayout>

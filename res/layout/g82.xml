@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="@dimen/ap3" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CIT n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="@dimen/aoz" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/ap0" n1:layout_marginRight="@dimen/ap2">
+        <X.12nN n1:textSize="15.0dp" n1:textColor="@color/bj" n1:gravity="center" n1:id="@id/rut" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a6u" />
+        <View n1:id="@id/fd_" n1:background="@color/bg" n1:layout_width="307.0dp" n1:layout_height="0.5dp" />
+        <X.12nN n1:textSize="15.0dp" n1:textColor="@color/bj" n1:gravity="center" n1:id="@id/nrp" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a6u" />
+        <View n1:id="@id/fda" n1:background="@color/bg" n1:layout_width="307.0dp" n1:layout_height="0.5dp" />
+        <X.12nN n1:textSize="15.0dp" n1:textColor="@color/bj" n1:gravity="center" n1:id="@id/l77" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a6u" />
+        <View n1:id="@id/fdb" n1:background="@color/bg" n1:layout_width="307.0dp" n1:layout_height="0.5dp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/jvq" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginLeft="13.0dp" n1:layout_marginRight="13.0dp" n1:layout_marginStart="13.0dp" n1:layout_marginEnd="13.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cxq n1:textSize="14.0sp" n1:textColor="@color/aaj" n1:gravity="start|center" n1:id="@id/uso" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:textDirection="locale" n1:textAlignment="viewStart" />
+</FrameLayout>

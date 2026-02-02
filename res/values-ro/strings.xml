@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Activați</string>
+    <string name="en0">%1$s nu va funcționa decât dacă activați serviciile Google Play.</string>
+    <string name="en1">Activați serviciile Google Play</string>
+    <string name="en2">Instalați</string>
+    <string name="en3">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe dispozitivul dvs.</string>
+    <string name="en4">Descărcați serviciile Google Play</string>
+    <string name="en5">Disponibilitatea serviciilor Google Play</string>
+    <string name="en6">Eroare a serviciilor Google Play</string>
+    <string name="en7">%1$s întâmpină probleme privind serviciile Google Play. Încercați din nou.</string>
+    <string name="en8">%1$s nu va rula fără serviciile Google Play, care nu sunt acceptate de dispozitivul dvs.</string>
+    <string name="en9">Actualizați</string>
+    <string name="en_">%1$s nu va rula decât dacă actualizați serviciile Google Play.</string>
+    <string name="ena">Actualizați serviciile Google Play</string>
+    <string name="enb">%1$s nu va rula fără serviciile Google Play, care momentan se actualizează.</string>
+    <string name="enc">Este necesară o nouă versiune a serviciilor Google Play. Se vor actualiza automat în curând.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

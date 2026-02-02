@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="@integer/bx" n1:layout_width="wrap_content" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dt9" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/nhs" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/nhr" n1:paddingLeft="@dimen/a6v" n1:paddingRight="@dimen/a6v" n1:paddingBottom="@dimen/a6u" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n1:paddingStart="@dimen/a6v" n1:paddingEnd="@dimen/a6v" />
+        <include n1:layout_width="match_parent" n1:layout_height="@dimen/a6s" layout="@layout/dt6" />
+    </LinearLayout>
+</LinearLayout>

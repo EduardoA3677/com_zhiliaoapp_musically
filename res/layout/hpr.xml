@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="@dimen/ay4" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vw_queue_order" n1:paddingTop="18.0dp" n1:paddingBottom="18.0dp" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:paddingEnd="16.0dp" n1:paddingVertical="18.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0D0r n1:id="@id/vw_queue_order_gift" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" />
+        <X.12nN n1:textColor="?eks" n1:ellipsize="end" n1:gravity="center" n1:id="@id/vw_queue_order_num" n1:layout_width="38.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginEnd="1.0dp" n2:bwk="owf" n2:bwr="@id/oc2" n2:bxc="owf" style="@style/pw" />
+        <X.0l1c n1:orientation="vertical" n1:id="@id/oc2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bws="44.0dp" />
+        <X.12nN n1:textColor="?ehx" n1:ellipsize="end" n1:id="@id/vw_queue_order_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:bwg="true" n2:bwr="@id/vw_queue_order_priority_icon" n2:bwz="0.0" n2:bx0="ori" n2:bx8="@id/oc2" n2:bxc="owf" style="@style/pz" />
+        <X.137x n1:id="@id/vw_queue_order_priority_icon" n1:background="?ej_" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginStart="8.0dp" n2:bwk="@id/vw_queue_order_text" n2:bwr="@id/vw_queue_order_gift" n2:bwz="0.0" n2:bx8="@id/vw_queue_order_text" n2:bxc="@id/vw_queue_order_text" n2:ffh="2.25dp">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n2:br4="?e9a" n2:brl="?eio" />
+        </X.137x>
+        <X.137x n1:id="@id/vw_queue_order_self_tag" n1:background="?ej9" n1:paddingLeft="8.0dp" n1:paddingTop="3.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="3.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="3.0dp" n2:bwk="owf" n2:bwr="@id/vw_queue_order_gift" n2:bwz="0.0" n2:bx8="@id/oc2" n2:ffh="4.0dp">
+            <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" style="@style/qh" />
+        </X.137x>
+        <X.0D0r n1:id="@id/vw_queue_order_avatar" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:br4="?e9a" n2:brl="?ej_" n2:bwk="@id/vw_queue_order_username" n2:bx8="@id/oc2" n2:bxc="@id/vw_queue_order_username" n2:ey2="true" />
+        <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:id="@id/vw_queue_order_username" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="4.0dp" n2:bwk="owf" n2:bwr="@id/vw_queue_order_gift" n2:bwz="0.0" n2:bx8="@id/vw_queue_order_avatar" style="@style/qb" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/vw_queue_order_swipe_delete" n1:background="?ejo" n1:paddingLeft="34.0dp" n1:paddingTop="30.5dp" n1:paddingRight="34.0dp" n1:paddingBottom="30.5dp" n1:layout_width="@dimen/ay5" n1:layout_height="0.0dp" n1:paddingHorizontal="34.0dp" n1:paddingVertical="30.5dp" n3:br4="?e71" n3:brl="?eio" n3:bwk="owf" n3:bx8="@id/vw_queue_order" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/vw_queue_order_divider" n1:background="?ej8" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_marginStart="44.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0rBl n1:id="@id/vw_queue_order_loading" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+.class public final Lcom/ss/android/ugc/aweme/music/model/AddSongEntranceViewModel$DefaultImpls;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/music/model/AddSongEntranceViewModel;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "DefaultImpls"
+.end annotation
+
+
+# direct methods
+.method public static getDisplayedDsp(Lcom/ss/android/ugc/aweme/music/model/AddSongEntranceViewModel;)Lcom/ss/android/ugc/aweme/music/model/DspPlatform;
+    .locals 0
+
+    sget-object p0, Lcom/ss/android/ugc/aweme/music/model/DspPlatform;->UNKNOWN:Lcom/ss/android/ugc/aweme/music/model/DspPlatform;
+
+    return-object p0
+.end method
+
+.method public static onClick(Lcom/ss/android/ugc/aweme/music/model/AddSongEntranceViewModel;Landroidx/fragment/app/Fragment;Landroid/app/Activity;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static onShow(Lcom/ss/android/ugc/aweme/music/model/AddSongEntranceViewModel;Z)V
+    .locals 0
+
+    return-void
+.end method

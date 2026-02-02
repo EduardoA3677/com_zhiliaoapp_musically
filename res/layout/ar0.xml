@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="52.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/waist_bg" n1:background="?yi" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwr="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/e2k" n1:layout="@layout/aqq" n1:inflatedId="@id/e2k" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hl9" n1:layout="@layout/aqy" n1:inflatedId="@id/hl9" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hld" n1:layout="@layout/amp" n1:inflatedId="@id/hld" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hle" n1:layout="@layout/amq" n1:inflatedId="@id/hle" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hl4" n1:layout="@layout/aqv" n1:inflatedId="@id/hl4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/e2m" n1:layout="@layout/aqs" n1:inflatedId="@id/e2m" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hlf" n1:layout="@layout/aqz" n1:inflatedId="@id/hlf" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hl6" n1:layout="@layout/aqx" n1:inflatedId="@id/hl6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/e2l" n1:layout="@layout/aqr" n1:inflatedId="@id/e2l" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hl5" n1:layout="@layout/aqw" n1:inflatedId="@id/hl5" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:splitMotionEvents="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/aiq" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ain" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/aio" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="2.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_vertical" n1:id="@id/aip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Transition" n1:layout_marginStart="4.0dp" n2:fj2="px" />
+    </LinearLayout>
+    <X.0Euv n1:id="@id/gjk" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/aiq" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0EvF n1:id="@id/gjl" n1:layout_width="0.0dp" n1:layout_height="28.0dp" n1:layout_marginTop="12.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/gjk" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

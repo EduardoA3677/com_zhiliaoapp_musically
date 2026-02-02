@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:fitsSystemWindows="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/jln" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentTop="true" />
+    <View n1:id="@id/uod" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/uod">
+        <FrameLayout n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0Cze n1:id="@id/ron" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n2:fj3="true" n2:fl9="oh9" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/hmi" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/uny" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="52.0dp" n1:layout_below="@id/uod" />
+    <FrameLayout n1:layout_gravity="center|bottom" n1:id="@id/bxe" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <X.12nR n1:id="@id/ub6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

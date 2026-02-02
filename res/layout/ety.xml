@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/nzi" n1:background="?bm5" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="84.0dp" n1:clipToOutline="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.widget.RadiusLayout n1:id="@id/nzj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bgf="?bm3" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:layout_width="match_parent" n1:layout_height="match_parent" n1:src="@drawable/bq9" n1:scaleType="fitXY" n1:contentDescription="@null" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_horizontal" n1:id="@id/nzk" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_circle_plus_fill" n3:fmy="?xo" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:layout_gravity="center" n1:id="@id/nzl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n4:fj2="p3" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:layout_gravity="end|top" n1:orientation="horizontal" n1:id="@id/aed" n1:background="@drawable/ahh" n1:paddingTop="4.0dp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-2.0dp" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n1:layout_marginEnd="-2.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:layout_gravity="center_vertical" n1:id="@id/ah5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="101.0dp" n1:text="Create with AI" n1:maxLines="1" n5:fj2="qd" n5:fl1="7.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

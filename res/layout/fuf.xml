@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/sed" n1:layout_width="152.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/cup" n1:visibility="invisible" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true">
+        <ImageView n1:layout_gravity="end|top" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="4.5dp" n1:src="@drawable/a_4" n1:scaleType="fitXY" n1:layout_marginEnd="4.0dp" />
+    </FrameLayout>
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/ij_" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="152.0dp" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp">
+        <X.13dw n1:layout_gravity="center" n1:id="@id/kow" n1:layout_width="112.0dp" n1:layout_height="67.0dp" n2:emb="stickpoint_switch_music_loading.json" n2:eme="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/mlp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/ija" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="152.0dp" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp">
+        <X.13dw n1:layout_gravity="center" n1:id="@id/kox" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n4:emb="sound_sync_new_loading.json" n4:eme="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/mlq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="@null" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

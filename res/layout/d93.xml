@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/f0z" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13dw n1:id="@id/x0o" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n2:emb="creation_delete_sticker_tux_lottie.json" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center_vertical" n1:id="@id/f1b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/fi4" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

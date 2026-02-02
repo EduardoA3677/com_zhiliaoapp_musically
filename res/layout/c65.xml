@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="@color/ko" n1:gravity="center" n1:id="@android:id/text1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:textAllCaps="false" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/lsk" n1:visibility="gone" n1:layout_width="6.0dp" n1:layout_height="6.0dp" n1:layout_marginLeft="3.0dp" n1:src="@drawable/ciz" n1:layout_toRightOf="@android:id/text1" n1:layout_alignParentTop="true" n1:layout_marginStart="3.0dp" n1:layout_toEndOf="@android:id/text1" />
+</RelativeLayout>

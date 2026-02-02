@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/rv7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:ax0="?y4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ScrollView n1:id="@id/nbs" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:fillViewport="true" n1:layout_weight="1.0">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/rv6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </ScrollView>
+        <X.0D2z n1:textColor="?z4" n1:id="@id/v5l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qf" n1:layout_marginTop="@dimen/qi" n1:layout_marginRight="@dimen/qf" n1:layout_marginBottom="@dimen/qi" n1:text="@null" n3:eyn="@dimen/b8" n3:fib="l9r" n3:fid="qhx" n3:fj2="pa" n3:fmy="?yi" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

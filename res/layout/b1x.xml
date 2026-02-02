@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:id="@id/u4g" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0DFo n1:id="@id/u6o" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <include n1:id="@id/u6f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/b1z" />
+</FrameLayout>

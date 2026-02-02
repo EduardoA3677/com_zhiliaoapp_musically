@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/dle" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/bai" n1:padding="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginStart="6.0dp" n2:br4="?ctx" n2:brl="?ekp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/whs" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/a6q" />
+            <X.12nN n1:textColor="?eks" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/yi1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" style="@style/a7f" />
+        </LinearLayout>
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/gxy" n1:padding="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginEnd="6.0dp" n3:br4="?dy4" n3:brl="?ekp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <ScrollView n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.12nN n1:textColor="?ekr" n1:id="@id/desc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="20.0dp" n1:text="@null" n1:layout_marginHorizontal="20.0dp" style="@style/a77" />
+            <X.12nN n1:textColor="?ekz" n1:id="@id/zzq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:text="@null" n1:layout_marginStart="20.0dp" style="@style/a79" />
+            <X.12nN n1:textColor="?ekp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n1:layout_marginStart="20.0dp" style="@style/pz" />
+            <LinearLayout n1:orientation="vertical" n1:background="@drawable/e3y" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp">
+                <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="215.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp">
+                    <X.0d3Z n1:id="@id/qdl" n1:layout_width="@dimen/atn" n1:layout_height="199.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                    <X.125u n1:id="@id/rdv" n1:layout_width="230.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="102.0dp" n1:layout_marginStart="13.0dp" n5:bx9="@id/qdl" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <X.12nN n1:textColor="?eks" n1:gravity="center_horizontal" n1:id="@id/qef" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginHorizontal="20.0dp" style="@style/a77" />
+                <View n1:background="?eg1" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginHorizontal="20.0dp" />
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="18.0dp" n1:layout_marginRight="20.0dp" n1:minHeight="32.0dp" n1:layout_marginHorizontal="20.0dp">
+                    <X.12nN n1:textColor="?ekp" n1:layout_gravity="center_vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" style="@style/pz" />
+                    <X.0oaM n1:layout_gravity="center_vertical" n1:id="@id/b40" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </LinearLayout>
+                <X.12nN n1:textColor="?eks" n1:id="@id/b41" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginHorizontal="20.0dp" style="@style/a77" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="20.0dp" n1:layout_marginHorizontal="16.0dp" n6:ba3="?eid" n6:ba4="8.0dp" n6:ba5="0.0dp" n6:ba7="0.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="?ejv" n1:gravity="center" n1:id="@id/ee_" n1:background="?ej_" n1:layout_width="match_parent" n1:layout_height="match_parent" style="@style/pz" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

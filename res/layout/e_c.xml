@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/pwh" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/pwf" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:bx9="owf" n2:bxc="owf" n2:eyl="@dimen/b8" n2:eyo="?yh" n2:eyq="1.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/pwj" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n3:bwl="@id/pwg" n3:bwq="owf" n3:bx8="@id/pwf" n3:bxc="owf" n3:bxe="ori" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/pwk" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/pwi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n3:fj2="pv" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="end|center" n1:orientation="horizontal" n1:id="@id/pwe" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/pwd" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="2.0dp" n3:fjt="12.0dp" n3:fk6="12.0dp" n3:fmy="?zy" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/pwc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n3:fj2="px" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:id="@id/pwg" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n4:bwk="owf" n4:bwq="@id/pwj" n4:bx9="@id/pwj" n4:bxb="@id/pwj" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

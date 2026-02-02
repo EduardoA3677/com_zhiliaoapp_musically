@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="175.0">
+            <View n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="35.0" />
+            <X.12nN n1:textSize="18.0sp" n1:textColor="?e0" n1:gravity="center" n1:id="@id/x8h" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="80.0" style="@style/a6l" />
+        </LinearLayout>
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="507.0">
+            <X.0qod n1:id="@id/ctj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layoutDirection="ltr">
+                <ImageView n1:layout_gravity="start|top" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_margin="24.0dp" n2:f49="@drawable/ejt" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <ImageView n1:layout_gravity="end|top" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_margin="24.0dp" n3:f49="@drawable/ejv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <ImageView n1:layout_gravity="start|bottom" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_margin="24.0dp" n4:f49="@drawable/ejs" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <ImageView n1:layout_gravity="end|bottom" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_margin="24.0dp" n5:f49="@drawable/eju" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+        </FrameLayout>
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="156.0">
+            <X.12nN n1:textSize="18.0sp" n1:textColor="?e0" n1:layout_gravity="start" n1:id="@id/x8b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_marginStart="14.0dp" n1:layout_alignParentStart="true" style="@style/a6l" />
+            <ImageView n1:id="@id/x8j" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:src="@drawable/ejw" n1:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="34.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <X.13dw n1:layout_gravity="center" n1:id="@id/x8c" n1:visibility="gone" n1:layout_width="247.0dp" n1:layout_height="500.0dp" n1:scaleType="centerCrop" n6:bwk="owf" n6:bx3="owf" n6:bx7="owf" n6:bxc="owf" n6:em4="false" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/vaq" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="40.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center" n1:id="@id/vas" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="px" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/dju" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n3:fjq="@raw/icon_x_mark_small" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/var" n1:paddingTop="8.0dp" n1:paddingBottom="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

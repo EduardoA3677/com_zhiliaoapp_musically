@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nv9" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.widget.RadiusLayout n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginHorizontal="12.0dp" n1:layout_marginVertical="16.0dp" n2:bgf="@dimen/b2" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0oaU n1:id="@id/mn0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fie="vhs" />
+    </com.bytedance.tux.widget.RadiusLayout>
+</LinearLayout>

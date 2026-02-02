@@ -1,0 +1,33 @@
+.class public final Lwebcast/api/sub/GetGiftSubPurchaseHistoryRequest;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public anchorId:J
+    .annotation runtime LX/0B9U;
+        value = "anchor_id"
+    .end annotation
+.end field
+
+.field public cursor:I
+    .annotation runtime LX/0B9U;
+        value = "cursor"
+    .end annotation
+.end field
+
+.field public size:I
+    .annotation runtime LX/0B9U;
+        value = "size"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/bb" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/ixg" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:foreground="@color/a5t" n1:scaleType="centerCrop" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/mhd" n1:layout_width="match_parent" n1:layout_height="209.0dp" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/myo" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_below="@id/mhd" n1:layout_centerInParent="true" n1:layout_centerHorizontal="true" n3:br7="@style/ir" n3:brl="@color/bk" n3:cln="@color/a_1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/myp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_below="@id/myo" n1:layout_centerHorizontal="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" style="@style/a6r" />
+    <X.12nN n1:textColor="@color/bj" n1:gravity="center" n1:id="@id/myn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_below="@id/myp" n1:layout_centerHorizontal="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" style="@style/a74" />
+    <X.12pz n1:id="@id/myq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="206.0dp" n1:text="@null" n1:layout_below="@id/myn" n1:layout_centerHorizontal="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" style="@style/a59" />
+    <X.12pz n1:id="@id/mym" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n1:layout_below="@id/myq" n1:layout_centerHorizontal="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" style="@style/a4x" />
+</RelativeLayout>

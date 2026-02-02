@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:id="@id/sfl" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:flz="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMn n1:layout_width="109.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="16.0dp" n2:fly="24.0dp" n2:fm4="2.0dp" n2:fm7="109.0dp" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp">
+            <include layout="@layout/ecf" />
+            <include layout="@layout/ecf" />
+            <include layout="@layout/ecf" />
+            <include layout="@layout/ecf" />
+        </LinearLayout>
+    </LinearLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

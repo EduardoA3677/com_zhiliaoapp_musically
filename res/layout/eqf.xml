@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/o6p" n1:visibility="gone" n1:layout="@layout/eqc" n1:inflatedId="@id/o6o" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/nzn" n1:visibility="gone" n1:layout="@layout/eqb" n1:inflatedId="@id/nzm" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

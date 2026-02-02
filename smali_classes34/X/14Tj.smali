@@ -1,0 +1,40 @@
+.class public interface abstract LX/14Tj;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseResultModel;
+
+
+# annotations
+.annotation runtime LX/03l1;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/14Tl;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract getEditStateResult()LX/14Ti;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "editStateResult"
+        nestedClassType = LX/14Ti;
+        required = true
+    .end annotation
+.end method
+
+.method public abstract setEditStateResult(LX/14Ti;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "editStateResult"
+        nestedClassType = LX/14Ti;
+        required = true
+    .end annotation
+.end method

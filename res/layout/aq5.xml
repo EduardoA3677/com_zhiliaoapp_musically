@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/tvt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwr="@id/tvr" n2:bx0="ori" n2:bx9="owf" n2:bxc="owf" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/tvr" n1:layout_width="@dimen/qf" n1:layout_height="@dimen/qf" n1:importantForAccessibility="no" n1:layout_marginStart="@dimen/qu" n3:bwk="@id/tvt" n3:bwq="owf" n3:bx8="@id/tvt" n3:bxc="@id/tvt" n3:fjq="@raw/icon_thumbs_up_fill" n3:fmy="?xx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:id="@id/tvs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/tvt" n4:fj2="qc" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

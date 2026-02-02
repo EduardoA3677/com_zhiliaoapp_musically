@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:elevation="4.0dp" n2:ba3="?zs" n2:ba4="@dimen/b5" n2:ba9="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/ogh" n1:paddingLeft="14.0dp" n1:paddingTop="12.0dp" n1:paddingRight="14.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginVertical="4.0dp" n1:paddingHorizontal="14.0dp" n1:paddingVertical="12.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_exclamation_mark_circle_fill" n2:fmy="?y7" />
+        <X.0CfU n1:layout_width="8.0dp" n1:layout_height="0.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="3" n1:layout_weight="1.0" n2:fj2="px" />
+        <X.0CfU n1:layout_width="8.0dp" n1:layout_height="0.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/jdf" n1:background="@drawable/cbr" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_x_mark_small" n2:fjt="10.0dp" n2:fk6="10.0dp" n2:fmy="?zy" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

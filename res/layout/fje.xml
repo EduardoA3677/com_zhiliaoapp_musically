@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sed" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/vly" n1:layout="@layout/baa" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.13Yj n1:id="@id/long_press_layout" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0RJ3 n1:id="@id/zxj" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/player_view" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/zp0" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0Col n1:layout_gravity="center" n1:id="@id/cover" n1:background="@drawable/cis" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <X.0Col n1:layout_gravity="center" n1:id="@id/ml0" n1:background="@drawable/cis" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+    </X.0RJ3>
+    <X.0M1k n1:id="@id/nl8" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/k3c" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0CaA n1:layout_gravity="center" n1:id="@id/k3b" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

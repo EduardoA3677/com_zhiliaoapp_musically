@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingLeft="@dimen/r5" n1:paddingRight="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="319.0dp" n1:paddingHorizontal="@dimen/r5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" layout="@layout/csr" />
+    <View n1:layout_width="6.0dp" n1:layout_height="match_parent" />
+    <include n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" layout="@layout/csr" />
+</LinearLayout>

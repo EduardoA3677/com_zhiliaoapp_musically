@@ -1,0 +1,85 @@
+.class public final Lwebcast/data/MGHostGrowthUserClaimReward;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public activityId:J
+    .annotation runtime LX/0B9U;
+        value = "activity_id"
+    .end annotation
+.end field
+
+.field public aggregationDuration:I
+    .annotation runtime LX/0B9U;
+        value = "aggregation_duration"
+    .end annotation
+.end field
+
+.field public claimStatus:I
+    .annotation runtime LX/0B9U;
+        value = "claim_status"
+    .end annotation
+.end field
+
+.field public flareTier:J
+    .annotation runtime LX/0B9U;
+        value = "flare_tier"
+    .end annotation
+.end field
+
+.field public id:J
+    .annotation runtime LX/0B9U;
+        value = "id"
+    .end annotation
+.end field
+
+.field public idStr:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "id_str"
+    .end annotation
+.end field
+
+.field public rewardId:J
+    .annotation runtime LX/0B9U;
+        value = "reward_id"
+    .end annotation
+.end field
+
+.field public rewardNum:J
+    .annotation runtime LX/0B9U;
+        value = "reward_num"
+    .end annotation
+.end field
+
+.field public type:I
+    .annotation runtime LX/0B9U;
+        value = "type"
+    .end annotation
+.end field
+
+.field public updateTimeMs:J
+    .annotation runtime LX/0B9U;
+        value = "update_time_ms"
+    .end annotation
+.end field
+
+.field public userTagEnumForReward:I
+    .annotation runtime LX/0B9U;
+        value = "user_tag_enum_for_reward"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lwebcast/data/MGHostGrowthUserClaimReward;->idStr:Ljava/lang/String;
+
+    return-void
+.end method

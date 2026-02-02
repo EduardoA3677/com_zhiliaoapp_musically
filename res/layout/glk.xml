@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?c0q" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/erk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="8.0dp">
+        <X.12nN n1:textColor="?ei6" n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/a79" />
+        <X.12nN n1:textColor="?ei6" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/xx3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:drawablePadding="4.0dp" n1:layout_marginStart="4.0dp" style="@style/a79" />
+        <X.12nN n1:textColor="?ees" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/xx5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:layout_marginStart="4.0dp" style="@style/a77" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gq6" n1:background="@drawable/eej" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingVertical="12.0dp" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textSize="14.0dp" n1:textColor="@color/mf" n1:id="@id/gis" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="30.0dp" app:bwq="owf" app:bx9="owf" app:bxc="owf" style="@style/a6u" />
+        <X.0CoN n1:id="@id/gib" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="2.0dp" n1:layout_marginEnd="30.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/gis">
+            <X.12nN n1:textColor="@color/me" n1:id="@id/gic" n1:layout_width="match_parent" n1:layout_height="wrap_content" app:bwq="owf" app:bx9="owf" app:bxb="@id/gis" style="@style/a77" />
+        </X.0CoN>
+        <ImageView n1:id="@id/gq8" n1:layout_width="8.0dp" n1:layout_height="20.0dp" n1:src="@drawable/f5y" n1:layout_marginEnd="30.0dp" app:bwq="owf" app:bxb="@id/gis" />
+        <X.0d3Z n1:id="@id/gi3" n1:layout_width="8.0dp" n1:layout_height="14.0dp" n1:src="@drawable/ey_" n1:layout_marginEnd="12.0dp" app:bwk="owf" app:bwq="owf" app:bxc="owf" app:fb9="?ehx" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

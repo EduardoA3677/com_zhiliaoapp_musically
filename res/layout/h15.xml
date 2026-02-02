@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/n7s" n1:background="@drawable/dys" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginEnd="8.0dp" n2:bwg="true" n2:bwk="owf" n2:bwr="@id/n7n" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0d3Z n1:id="@id/n7i" n1:background="@drawable/ep1" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="2.0dp" n1:layout_marginStart="2.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+        <X.12nN n1:textColor="@color/bi" n1:ellipsize="end" n1:id="@id/tyl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="6.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="6.0dp" n2:bwg="true" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/n7i" n2:bxc="owf" n2:ewn="true" style="@style/a7b" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/n7n" n1:background="@drawable/dys" n1:layout_width="0.0dp" n1:layout_height="22.0dp" n1:paddingEnd="4.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/n7s" n3:bxc="owf" n3:bxg="wrap" n3:bxh="184.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ipi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dp" n1:layout_marginStart="2.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf">
+            <X.0cPR n1:id="@id/aqp" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+            <X.0D0r n1:id="@id/any" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/nux" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:layout_marginStart="4.0dp" n3:bwk="owf" n3:bwr="@id/ho_" n3:bwz="0.0" n3:bx0="ori" n3:bx8="@id/ipi" n3:bxc="owf" n3:bxg="wrap" n3:bxz="2.0dp" n3:by1="2.0dp">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/zer" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bx3="owf" n3:bx9="owf" n3:bxc="owf">
+                <X.12nN n1:textColor="?c3r" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/app" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_weight="1.0" n3:ewn="true" style="@style/a7b" />
+                <ImageView n1:id="@id/b1_" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="centerCrop" n1:contentDescription="authentication badge icon" n1:layout_marginStart="4.0dp" n3:bx8="@id/app" n3:bxg="wrap" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View n1:gravity="center" n1:id="@id/gut" n1:visibility="gone" n1:layout_width="45.0dp" n1:layout_height="28.0dp" n1:layout_marginLeft="4.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/nux" n3:bxc="owf" />
+        <FrameLayout n1:id="@id/ho_" n1:background="@drawable/dy2" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginStart="4.0dp" n3:bwk="owf" n3:bwq="owf" n3:bwz="1.0" n3:bx8="@id/nux" n3:bxc="owf">
+            <FrameLayout n1:layout_gravity="center" n1:id="@id/hob" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <LinearLayout n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/a4x" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="3.0dp" n3:br4="?dxh" n3:brl="@color/a2d" />
+                    <X.12nN n1:textSize="11.0dp" n1:textColor="@color/a2d" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/hn7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:paddingEnd="6.0dp" n3:bp3="n2i" n3:ewn="true" />
+                </LinearLayout>
+                <X.0d6D n1:layout_gravity="center" n1:id="@id/hou" n1:padding="3.0dp" n1:layout_width="16.0dp" n1:layout_height="16.0dp" />
+            </FrameLayout>
+            <LinearLayout n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <ImageView n1:gravity="center" n1:id="@id/v6a" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="16.0dp" n1:src="@drawable/f9t" n1:scaleType="centerInside" />
+                    <ImageView n1:gravity="center" n1:id="@id/qjd" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="16.0dp" n1:scaleType="centerInside" />
+                </FrameLayout>
+                <X.12nN n1:textSize="11.0dp" n1:textColor="@color/a3c" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/v6l" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="-4.0dp" n1:layout_marginEnd="6.0dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:id="@id/v69" n1:visibility="visible" n1:layout_width="39.0dp" n1:layout_height="22.0dp" n1:layout_marginRight="0.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

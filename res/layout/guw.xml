@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:paddingLeft="32.0dp" n1:paddingTop="16.0dp" n1:paddingRight="32.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:paddingHorizontal="32.0dp" n1:paddingVertical="16.0dp">
+        <View n1:id="@id/bkm" n1:layout_width="120.0dp" n1:layout_height="80.0dp" />
+        <X.12nN n1:textColor="?zw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="35.0dp" n1:text="@null" style="@style/a6q" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="22.0dp" n1:layout_height="22.0dp" n2:br4="?duw" n2:brl="@color/g2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <X.12nN n1:textColor="?ffc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" style="@style/a6s" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dp">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="22.0dp" n1:layout_height="22.0dp" n3:br4="?dz_" n3:brl="@color/g2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <X.12nN n1:textColor="?ffc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" style="@style/a6s" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dp">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="22.0dp" n1:layout_height="22.0dp" n4:br4="?di8" n4:brl="@color/g2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <X.12nN n1:textColor="?ffc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" style="@style/a6s" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

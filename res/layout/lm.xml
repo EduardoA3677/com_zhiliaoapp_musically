@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0mEN n1:gravity="center" n1:orientation="horizontal" n1:id="@id/ana" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_marginBottom="6.0dp" n1:paddingHorizontal="12.0dp" n2:fdb="?dp" n2:fdr="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:scaleType="fitXY" n1:layout_marginEnd="6.0dp" n2:fjq="@raw/icon_pen" n2:fmy="?e0" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center_vertical" n1:id="@id/anb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="pz" />
+</X.0mEN>

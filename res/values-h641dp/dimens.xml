@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tw">44.0dp</dimen>
+    <dimen name="tz">60.0dp</dimen>
+    <dimen name="u0">20.0dp</dimen>
+    <dimen name="u1">16.0dp</dimen>
+    <dimen name="u2">314.0dp</dimen>
+    <dimen name="u3">183.0dp</dimen>
+    <dimen name="u4">192.0dp</dimen>
+    <dimen name="u5">112.0dp</dimen>
+    <dimen name="u6">190.0dp</dimen>
+    <dimen name="u9">32.0dp</dimen>
+    <dimen name="u_">60.0dp</dimen>
+    <dimen name="ud">32.0dp</dimen>
+    <dimen name="ue">60.0dp</dimen>
+</resources>

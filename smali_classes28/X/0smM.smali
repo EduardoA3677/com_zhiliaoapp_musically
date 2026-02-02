@@ -1,0 +1,104 @@
+.class public interface abstract LX/0smM;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseResultModel;
+
+
+# annotations
+.annotation runtime LX/03l1;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0smL;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract getCid()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "cid"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract getClickType()Ljava/lang/Number;
+    .annotation runtime LX/0Ws3;
+        option = {
+            0x1,
+            0x2,
+            0x3
+        }
+    .end annotation
+
+    .annotation runtime LX/0WsC;
+        isEnum = true
+        isGetter = true
+        keyPath = "clickType"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract getServerStatusCode()Ljava/lang/Number;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "serverStatusCode"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract getServerStatusMsg()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "serverStatusMsg"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract setCid(Ljava/lang/String;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "cid"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract setClickType(Ljava/lang/Number;)V
+    .annotation runtime LX/0Ws3;
+        option = {
+            0x1,
+            0x2,
+            0x3
+        }
+    .end annotation
+
+    .annotation runtime LX/0WsC;
+        isEnum = true
+        isGetter = false
+        keyPath = "clickType"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract setServerStatusCode(Ljava/lang/Number;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "serverStatusCode"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract setServerStatusMsg(Ljava/lang/String;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "serverStatusMsg"
+        required = false
+    .end annotation
+.end method

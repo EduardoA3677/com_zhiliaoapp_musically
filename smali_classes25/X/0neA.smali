@@ -1,0 +1,49 @@
+.class public final synthetic LX/0neA;
+.super LX/10fW;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LL:LX/0neA;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0neA;
+
+    invoke-direct {v0}, LX/0neA;-><init>()V
+
+    sput-object v0, LX/0neA;->LL:LX/0neA;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 4
+
+    const-class v3, LX/0PLf;
+
+    const-string v2, "getSelectedPage()Lkotlin/Pair;"
+
+    const/4 v1, 0x0
+
+    const-string v0, "selectedPage"
+
+    invoke-direct {p0, v3, v0, v2, v1}, LX/10fW;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, LX/0PLf;
+
+    iget-object v0, p1, LX/0PLf;->LLILIL:Lkotlin/Pair;
+
+    return-object v0
+.end method

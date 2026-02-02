@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/zx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="4.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/zu" n1:background="@drawable/brk" n1:layout_width="3.0dp" n1:layout_height="3.0dp" n1:layout_marginTop="7.0dp" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/zw" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="9.0dp" n4:bx8="@id/zu" n4:bxc="owf" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/a09" n1:paddingTop="4.0dp" n1:visibility="gone" n1:layout_width="16.5dp" n1:layout_height="16.5dp" n1:paddingStart="2.0dp" n5:bx8="@id/zw" n5:bxc="owf" n5:fjq="@raw/icon_question_mark_circle_fill_ltr" n5:fmy="?a04" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/zv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=":" n1:paddingStart="2.0dp" n6:bx8="@id/a09" n6:bxc="owf" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/a07" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:paddingStart="4.0dp" n1:paddingEnd="20.0dp" n7:bwq="owf" n7:bx8="@id/zv" n7:bxc="owf" n7:fj2="p5" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:id="@id/a08" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="6.0dp" />
+</LinearLayout>

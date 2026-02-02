@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/yra" n1:background="@drawable/btv" n1:paddingLeft="5.0dp" n1:paddingRight="5.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="15.0dp" n1:layout_marginLeft="-8.0dp" n1:layout_marginTop="13.0dp" n1:minWidth="16.0dp" n1:text="99+" n1:layout_marginStart="-8.0dp" n2:fj2="q1" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

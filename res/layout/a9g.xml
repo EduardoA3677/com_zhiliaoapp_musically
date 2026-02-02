@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/sfr" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <SurfaceView n1:id="@id/rm9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="90.0dp" n1:layout_alignParentBottom="true" n1:layout_marginHorizontal="32.0dp">
+        <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/cee" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp" n1:paddingVertical="12.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/j_h" n1:layout_width="40.0dp" n1:layout_height="40.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/w8c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" n2:fj2="q2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/cgj" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n1:paddingVertical="12.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/jb0" n1:layout_width="40.0dp" n1:layout_height="40.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/w9k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/ian" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13KZ n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0RCK n1:layout_gravity="bottom" n1:id="@id/msh" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/a22" />
+    <include layout="@layout/ccx" />
+    <ViewStub n1:id="@id/a0p" n1:layout="@layout/b4b" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/a0g" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/a0n" n1:layout="@layout/cci" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/e51" n1:layout="@layout/b58" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/jt4" n1:layout="@layout/djg" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:layout_gravity="bottom" n1:id="@id/fra" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/qa" />
+</FrameLayout>

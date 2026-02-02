@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?y4" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/zj2" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/zj3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bw5="androidx.recyclerview.widget.LinearLayoutManager" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View n1:id="@id/zj4" n1:background="@drawable/b68" n1:layout_width="match_parent" n1:layout_height="53.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="@id/tls" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

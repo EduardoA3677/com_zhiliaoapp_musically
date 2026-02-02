@@ -1,0 +1,29 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/toptab/ui/ILiveSingleFeedContentAssemAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/02g2;
+
+
+# virtual methods
+.method public abstract IK1(Landroid/content/Context;Lcom/ss/android/ugc/aweme/feed/model/Aweme;Lcom/bytedance/android/livesdkapi/session/EnterRoomConfig;)V
+.end method
+
+.method public abstract Kz0(LX/0RTl;)V
+.end method
+
+.method public abstract LJIJJ()Z
+.end method
+
+.method public abstract LJJLIIIJJI()Z
+.end method
+
+.method public abstract LJJLIL(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z
+.end method
+
+.method public abstract LJLILLLLZI()V
+.end method
+
+.method public abstract LLIIIZ()Z
+.end method

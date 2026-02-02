@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/t2o" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nR n1:id="@id/t2m" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/t2l" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/t2j" n1:background="?zp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bgh="@dimen/b5" n2:bgj="@dimen/b5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/t2n" n1:background="?zq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bgh="@dimen/b5" n3:bgj="@dimen/b5" n3:bw_="com.ss.android.ugc.aweme.search.pages.sevensplitscreen.ui.SearchSevenSplitScreenBehavior" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:id="@id/t2k" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </com.bytedance.tux.widget.RadiusLayout>
+    </X.12nR>
+    <X.0KI2 n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

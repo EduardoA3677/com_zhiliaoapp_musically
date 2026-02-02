@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <X.12nN android:textSize="28.0dp" android:textColor="?ekp" android:id="@id/vir" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:text="@null" android:textAlignment="center" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxc="owf" style="@style/a6m" />
+        <X.12nN android:textColor="?ekp" android:id="@id/vis" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@null" android:textAlignment="center" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/vir" style="@style/a6s" />
+        <View android:id="@id/lql" android:background="?ej8" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="@dimen/qi" android:layout_marginStart="32.0dp" android:layout_marginEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/vis" />
+        <X.12nN android:textColor="?ekr" android:gravity="start" android:id="@id/vit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@null" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/lql" style="@style/a76" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/lr_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qg" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/vit">
+            <X.12nN android:textSize="15.0dp" android:textColor="?ekr" android:id="@id/fhd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" />
+            <X.12nN android:textColor="?ekr" android:gravity="start" android:id="@id/oa3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:layout_marginStart="12.0dp" style="@style/a74" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/lra" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qi" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/lr_">
+            <X.12nN android:textSize="15.0dp" android:textColor="?ekr" android:id="@id/fhe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" />
+            <X.12nN android:textColor="?ekr" android:gravity="start" android:id="@id/oa4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:layout_marginStart="12.0dp" style="@style/a74" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/lrb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qi" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/lra">
+            <X.12nN android:textSize="15.0dp" android:textColor="?ekr" android:id="@id/fhf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" />
+            <X.12nN android:textColor="?ekr" android:gravity="start" android:id="@id/oa5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:layout_marginStart="12.0dp" style="@style/a74" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.137G>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/yxw" n1:background="?y4" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.137G n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/yy3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <ImageView n1:gravity="center" n1:id="@id/yxz" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="80.0dp" n1:layout_marginBottom="16.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/yy1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="2-step verification is off" n2:fj2="ot" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/yy2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="Turning this on will require an additional verification code when you log in from an untrusted device. Learn more" n1:paddingStart="48.0dp" n1:paddingEnd="48.0dp" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="start" n1:id="@id/u9z" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="Select at least 2 methods" n1:layout_marginStart="24.0dp" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <X.0o06 n1:id="@id/yy0" n1:background="@drawable/ac2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:nestedScrollingEnabled="false" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="start" n1:id="@id/x24" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n1:layout_marginStart="24.0dp" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <X.0oaU n1:id="@id/x20" n1:background="@drawable/ac2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" />
+        </LinearLayout>
+    </X.137G>
+    <View n1:id="@id/xf5" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0D2z n1:id="@id/xf2" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginBottom="4.0dp" n1:text="@null" n6:fib="l9r" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/fc5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="24.0dp" n1:layout_marginRight="24.0dp" n7:fj2="pa" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.0oCE n1:layout_gravity="bottom" n1:id="@id/uo6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n8:fkf="h_s" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <X.0Vcb n1:id="@id/uim" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/uiq" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <X.0VSV n1:id="@id/a1y" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

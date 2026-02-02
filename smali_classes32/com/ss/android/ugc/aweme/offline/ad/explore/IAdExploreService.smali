@@ -1,0 +1,3 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/offline/ad/explore/IAdExploreService;
+.super Ljava/lang/Object;
+.source "SourceFile"

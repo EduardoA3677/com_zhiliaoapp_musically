@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginVertical="16.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="28.0dp" n1:layout_marginRight="28.0dp" n1:text="@null" n1:textAlignment="center" n1:layout_marginHorizontal="28.0dp" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end" n1:id="@id/bam" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:scaleType="centerInside" n1:layout_marginEnd="8.0dp" n3:fjq="@raw/icon_x_mark_small" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <View n1:background="?lv" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginVertical="4.0dp" />
+    <include n1:id="@id/rp7" layout="@layout/bh_" />
+    <include n1:id="@id/rp8" layout="@layout/bh_" />
+    <include n1:id="@id/rp9" layout="@layout/bh_" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingLeft="16.0dp" n1:paddingTop="8.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="8.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/rou" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:fj2="p5" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0x9L n1:id="@id/rov" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:hint="@null" n1:maxLength="200" n1:inputType="textMultiLine" n1:paddingHorizontal="16.0dp" />
+    <X.0D2z n1:enabled="false" n1:gravity="bottom" n1:layout_gravity="bottom" n1:id="@id/rpr" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginHorizontal="16.0dp" n1:layout_marginVertical="12.0dp" n6:fib="l9r" n6:fid="qhx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

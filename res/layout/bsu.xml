@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kxa" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <com.bytedance.lighten.loader.SmartImageView n2:id="@id/kx_" n2:visibility="gone" n2:layout_width="11.0dp" n2:layout_height="11.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <com.bytedance.tux.input.TuxTextView n3:id="@id/ygn" n3:visibility="gone" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:maxLines="1" n4:b5l="o6b" n4:fj2="qd"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

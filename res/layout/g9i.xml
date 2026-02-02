@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:b8t="34.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.137G n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0D0r n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="147.0dp" n1:layout_marginTop="40.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+            <X.12nN n1:textSize="28.0dp" n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="36.0dp" n1:layout_weight="1.0" n1:textAlignment="center" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/cover" style="@style/a6q" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/f57" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </X.137G>
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end" n1:id="@id/j6z" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="14.0dp" n1:layout_marginEnd="16.0dp" n2:br4="?ea0" n2:brl="?ehx" n2:bwq="owf" n2:bxc="owf" />
+</androidx.constraintlayout.widget.ConstraintLayout>

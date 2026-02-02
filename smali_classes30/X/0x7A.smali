@@ -1,0 +1,116 @@
+.class public final LX/0x7A;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0fn0;
+
+
+# instance fields
+.field public final synthetic LIZ:LX/0x77;
+
+.field public final synthetic LIZIZ:LX/13dw;
+
+.field public final synthetic LIZJ:Ltikcast/api/anchor_data/FinishEncourageLiveJourney;
+
+
+# direct methods
+.method public constructor <init>(LX/13dw;LX/0x77;Ltikcast/api/anchor_data/FinishEncourageLiveJourney;)V
+    .locals 0
+
+    iput-object p2, p0, LX/0x7A;->LIZ:LX/0x77;
+
+    iput-object p1, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    iput-object p3, p0, LX/0x7A;->LIZJ:Ltikcast/api/anchor_data/FinishEncourageLiveJourney;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onFinish(Z)V
+    .locals 3
+
+    if-eqz p1, :cond_1
+
+    iget-object v2, p0, LX/0x7A;->LIZ:LX/0x77;
+
+    iget-object v1, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    iget-object v0, p0, LX/0x7A;->LIZJ:Ltikcast/api/anchor_data/FinishEncourageLiveJourney;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v1, v0}, LX/0x77;->LIZ(LX/13dw;Ltikcast/api/anchor_data/FinishEncourageLiveJourney;)LX/0x7V;
+
+    move-result-object v1
+
+    iget-object v0, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    invoke-virtual {v0, v1}, LX/13dw;->setTextDelegate(LX/0x8I;)V
+
+    iget-object v0, p0, LX/0x7A;->LIZ:LX/0x77;
+
+    iget-object v1, v0, LX/0x77;->LJI:LX/0x7C;
+
+    iget-object v0, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    invoke-interface {v1, v0}, LX/0x7C;->gr(LX/13dw;)V
+
+    iget-object v1, p0, LX/0x7A;->LIZ:LX/0x77;
+
+    iget-object v0, p0, LX/0x7A;->LIZJ:Ltikcast/api/anchor_data/FinishEncourageLiveJourney;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v0}, LX/0x77;->LIZJ(Ltikcast/api/anchor_data/FinishEncourageLiveJourney;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    invoke-static {v0}, LX/0cTD;->LJIIL(Landroid/view/View;)V
+
+    iget-object v0, p0, LX/0x7A;->LIZ:LX/0x77;
+
+    iget-object v0, v0, LX/0x77;->LIZJ:LX/13dw;
+
+    if-eqz v0, :cond_0
+
+    invoke-static {v0}, LX/0cTD;->LJZI(Landroid/view/View;)V
+
+    :cond_0
+    :goto_0
+    iget-object v0, p0, LX/0x7A;->LIZ:LX/0x77;
+
+    iget-object v0, v0, LX/0x77;->LJFF:Ljava/util/List;
+
+    invoke-static {v0}, LX/0zFB;->LJJJLL(Ljava/util/List;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0x78;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, LX/0x78;->play()V
+
+    :cond_1
+    return-void
+
+    :cond_2
+    iget-object v0, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    invoke-static {v0}, LX/0cTD;->LJZI(Landroid/view/View;)V
+
+    iget-object v0, p0, LX/0x7A;->LIZIZ:LX/13dw;
+
+    invoke-virtual {v0}, LX/13dw;->playAnimation()V
+
+    goto :goto_0
+.end method

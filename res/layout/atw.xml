@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/fh_" n1:background="@drawable/b33" n1:layout_width="3.0dp" n1:layout_height="3.0dp" n1:layout_marginTop="7.0dp" n1:layout_marginStart="7.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center_vertical" n1:id="@id/ug4" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="7.0dp" n3:bwq="owf" n3:bx8="@id/fh_" n3:bxc="owf" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

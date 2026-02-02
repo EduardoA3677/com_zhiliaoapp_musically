@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="bottom" n1:background="?c3d" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?c3r" n1:id="@id/trf" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n2:bwk="@id/tre" n2:bx9="owf" n2:bxc="@id/tre" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/tre" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n3:bx8="@id/trf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?c3r" n1:id="@id/bcc" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n4:bwk="@id/bbo" n4:bx9="owf" n4:bxc="@id/bbo" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/bbo" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n5:bx8="@id/bcc" n5:bxb="@id/tre" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?c3r" n1:id="@id/nra" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n6:bwk="@id/nps" n6:bx9="owf" n6:bxc="@id/nps" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/nps" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n7:bx8="@id/nra" n7:bxb="@id/bbo" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?c3r" n1:id="@id/voice_effect_text" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n8:bwk="@id/voice_effect_icon" n8:bx9="owf" n8:bxc="@id/voice_effect_icon" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/voice_effect_icon" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n9:bx8="@id/voice_effect_text" n9:bxb="@id/nps" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?c3r" n1:id="@id/r2p" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n10:bwk="@id/r2o" n10:bx9="owf" n10:bxc="@id/r2o" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/r2o" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n11:bx8="@id/r2p" n11:bxb="@id/voice_effect_icon" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?c3r" n1:id="@id/ush" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n12:bwk="@id/usf" n12:bx9="owf" n12:bxc="@id/usf" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/usf" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n13:bx8="@id/ush" n13:bxb="@id/r2o" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_selected="false" n1:drawable="@drawable/ec0"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_selected="true" n2:drawable="@drawable/ebz"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/b_a" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/b__" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/gv" n2:bwl="@id/o2n" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:bxd="0.0" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/z3b" n1:background="?c7" n1:paddingLeft="@dimen/gf" n1:paddingTop="@dimen/ga" n1:paddingRight="@dimen/gf" n1:paddingBottom="@dimen/ga" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="pu" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center" n1:id="@id/os7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/gp" n1:layout_marginBottom="@dimen/gf" n1:text="@null" n2:fj2="ow" />
+            <X.12hp n1:layout_gravity="center" n1:id="@id/wxo" n1:layout_width="@dimen/ge" n1:layout_height="@dimen/ge" n1:layout_marginTop="@dimen/gt" />
+            <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center" n1:id="@id/wxp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/gn" n1:maxLines="1" n1:paddingStart="@dimen/gq" n1:paddingEnd="@dimen/gq" n2:fj2="p3" n2:fl1="@dimen/gb" />
+            <X.0D2z n1:layout_gravity="center" n1:id="@id/eeq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/gb" n1:text="@null" n2:fi8="true" n2:fib="n2i" n2:fid="t69" />
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/wxn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/gl" n1:paddingStart="@dimen/gq" n1:paddingEnd="@dimen/gq" n2:fj2="pu" />
+        </LinearLayout>
+        <X.0D2z n1:id="@id/o2n" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/gf" n1:layout_marginRight="@dimen/gf" n1:layout_marginBottom="@dimen/gj" n1:text="@string/km6" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:fib="l9r" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

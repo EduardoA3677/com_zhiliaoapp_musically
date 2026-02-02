@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?sz" n1:layout_width="86.0dp" n1:layout_height="86.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0xJs n1:id="@id/qvh" n1:layout_width="58.0dp" n1:layout_height="58.0dp" n1:layout_marginTop="4.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/dl6" n1:focusable="false" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:importantForAccessibility="no" n3:bwk="@id/qvh" n3:bwq="@id/qvh" n3:bx9="@id/qvh" n3:bxc="@id/qvh" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/dkx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="11.0dp" n4:bwk="@id/dl6" n4:bwq="@id/dl6" n4:bx9="@id/dl6" n4:fj2="qd" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0xJv n1:gravity="center" n1:id="@id/egt" n1:layout_width="48.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="4.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

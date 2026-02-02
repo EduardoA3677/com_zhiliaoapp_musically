@@ -1,0 +1,14 @@
+.class public final LX/14Fo;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/socialavatar/mixstudio/resultspage/v2/cells/LoadingV2Cell;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation

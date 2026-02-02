@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/zqd" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/uns" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

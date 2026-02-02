@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingLeft="12.0dp" n1:paddingRight="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="12.0dp" n1:paddingEnd="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/uss" n1:background="@drawable/bg8" n1:layout_width="36.0dp" n1:layout_height="36.0dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:layout_gravity="center" n1:id="@id/usr" n1:layout_width="32.0dp" n1:layout_height="32.0dp" />
+    </FrameLayout>
+    <include n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/bk6" />
+    <include n1:id="@id/bxu" layout="@layout/bk8" />
+</LinearLayout>

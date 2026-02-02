@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:textColor="?z4" n1:layout_gravity="center_vertical" n1:id="@id/pre" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:fi8="true" n2:fib="n2i" n2:fid="t69" n2:fk4="@raw/icon_bookmark" n2:fl1="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

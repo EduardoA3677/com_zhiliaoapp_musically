@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="?eis" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/c4_" n1:layout_width="1.0dp" n1:layout_height="1.0dp" />
+    <X.12nN n1:textColor="?el1" n1:gravity="center" n1:id="@id/lzg" n1:paddingLeft="40.0dp" n1:paddingRight="40.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="165.0dp" n1:text="@null" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n1:paddingHorizontal="40.0dp" style="@style/a6z" />
+    <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:id="@id/lzf" n1:paddingLeft="40.0dp" n1:paddingRight="40.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:text="@null" n1:layout_below="@id/lzg" n1:paddingHorizontal="40.0dp" style="@style/a6j" />
+    <RelativeLayout n1:id="@id/cgz" n1:background="@drawable/een" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_marginBottom="12.0dp" n1:layout_above="@id/cgy" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="26.0dp" n1:layout_height="26.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="19.0dp" n1:layout_alignParentStart="true" n2:br4="?dga" n2:brl="?el0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?eju" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="220.0dp" n1:text="@null" n1:layout_centerInParent="true" n1:layout_centerVertical="true" style="@style/a6o" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/cgy" n1:background="@drawable/eem" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_marginBottom="72.0dp" n1:layout_above="@id/czy" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="26.0dp" n1:layout_height="26.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="19.0dp" n1:layout_alignParentStart="true" n3:br4="?dph" n3:brl="?ekp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="220.0dp" n1:text="@null" n1:layout_centerInParent="true" n1:layout_centerVertical="true" style="@style/a6o" />
+    </RelativeLayout>
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/czy" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="8.0dp" n1:layout_above="@id/yc6" n1:layout_centerHorizontal="true" n4:br4="?cuk" n4:brl="?eks" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?eks" n1:id="@id/yc6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="34.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" style="@style/a79" />
+</RelativeLayout>

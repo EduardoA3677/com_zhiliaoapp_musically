@@ -1,0 +1,14 @@
+.class public final LX/0SWC;
+.super LX/0SWD;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/cut_ui_impl/core/TemplateService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation

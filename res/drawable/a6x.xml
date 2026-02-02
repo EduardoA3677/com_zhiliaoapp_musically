@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item>
+        <shape n1:shape="oval"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <solid n1:color="@color/cy" />
+        </shape>
+    </item>
+    <item n2:drawable="@drawable/c3i" n2:left="10.0dp" n2:top="10.0dp" n2:right="10.0dp" n2:bottom="10.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</layer-list>

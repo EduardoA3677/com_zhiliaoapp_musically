@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:background="@drawable/cdk" n1:layout_width="210.0dp" n1:layout_height="130.0dp" n1:alpha="0.5">
+        <X.0Cg1 n1:background="?xz" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginStart="10.0dp" n2:eyn="@dimen/ba" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0Cg1 n1:background="?xz" n1:layout_width="32.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="34.0dp" n1:layout_marginStart="63.0dp" n3:eyn="@dimen/ba" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0Cg1 n1:background="?xz" n1:layout_width="32.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="34.0dp" n1:layout_marginStart="115.0dp" n4:eyn="@dimen/ba" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0Cg1 n1:background="?xz" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginStart="184.0dp" n5:eyn="@dimen/ba" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:background="@drawable/cdl" n1:layout_width="210.0dp" n1:layout_height="68.0dp" n1:layout_marginTop="130.0dp" n1:alpha="0.5" />
+    <RelativeLayout n1:layout_gravity="center_horizontal" n1:id="@id/n56" n1:background="@drawable/cdm" n1:paddingLeft="@dimen/qf" n1:paddingTop="@dimen/qf" n1:paddingRight="@dimen/qf" n1:paddingBottom="@dimen/qf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="66.0dp" n1:layout_marginRight="32.0dp" n1:minWidth="234.0dp" n1:minHeight="64.0dp" n1:layout_marginHorizontal="32.0dp" n1:paddingHorizontal="@dimen/qf" n1:paddingVertical="@dimen/qf">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/n55" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_centerVertical="true" n1:contentDescription="the default avatar icon view of the im message request push guide popup" n1:layout_alignParentStart="true" n6:fjq="@raw/icon_color_default_avatar" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_marginStart="52.0dp" n1:layout_alignStart="@id/n55">
+            <X.0Cg1 n1:background="?yh" n1:layout_width="63.0dp" n1:layout_height="13.0dp" n7:eyn="@dimen/ba" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/n57" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="2" n1:breakStrategy="balanced" n8:fj2="px" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

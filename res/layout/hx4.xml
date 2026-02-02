@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="71.0dp" n1:paddingEnd="10.0dp" n1:paddingVertical="3.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.avatar.AvatarComponentView n1:layout_gravity="start|top" n1:id="@id/rw5" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n2:fhr="u1z" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/n8l" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="5.0dp" n1:paddingVertical="3.0dp">
+        <X.0CLg n1:id="@id/nun" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:ellipsize="end" n1:id="@id/zjf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Hawe" n1:maxLines="1" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ky8" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:contentDescription="@null" n4:fjq="@raw/icon_arrow_triangle_right_fill_ltr" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:ellipsize="end" n1:id="@id/wlm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Hawe" n1:maxLines="1" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </X.0CLg>
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/dwa" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/n8i" n1:paddingTop="2.5dp" n1:paddingBottom="2.5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:paddingVertical="2.5dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:id="@id/wf1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="3d ago" n1:layout_marginEnd="12.0dp" n7:fj2="q1" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?sx" n1:id="@id/rty" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n8:fj2="q2" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <X.0hnO n1:layout_gravity="end|top" n1:id="@id/rxt" n1:paddingTop="8.5dp" n1:paddingBottom="5.5dp" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="wrap_content" n1:paddingStart="12.0dp" />
+</LinearLayout>

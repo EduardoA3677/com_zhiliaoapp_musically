@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mEH n1:id="@id/db2" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n2:bpc="48.0dp" n2:bpe="30.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D2s n1:id="@id/on1" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_alignStart="@id/db2" n1:layout_alignEnd="@id/db2" />
+    <X.0D2s n1:id="@id/rkn" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_alignStart="@id/db2" n1:layout_alignEnd="@id/db2" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/k4d" n1:background="@drawable/cg_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/a1d" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/k4e" n1:layout_width="@dimen/a1e" n1:layout_height="@dimen/a1e" n1:layout_marginTop="@dimen/a1a" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/k4a" n1:background="@drawable/cgb" n1:layout_width="@dimen/a1i" n1:layout_height="@dimen/a1i" n1:layout_marginTop="@dimen/a1j" n1:layout_marginEnd="@dimen/a1c" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_horizontal" n1:id="@id/k4m" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/a1m" n1:layout_marginBottom="@dimen/a1f" n1:maxLines="2" n1:lines="2" n1:layout_marginStart="@dimen/a1l" n1:layout_marginEnd="@dimen/a1l" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/k4e" n4:fj2="p7" n4:fl1="10.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

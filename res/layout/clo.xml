@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="165.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/uvr" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:etn="?c7" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/uvt" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginStart="4.0dp" n3:bwk="owf" n3:bx9="owf" n3:fjq="@raw/icon_play_small" n3:fmy="?e0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/uvs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n4:bwk="@id/uvt" n4:bx8="@id/uvt" n4:bxc="@id/uvt" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingBottom="1.5dp" n1:layout_width="match_parent" n1:layout_height="165.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMn n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n2:fly="mzu" n2:fm7="mzu" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_width="1.5dp" n1:layout_height="match_parent" />
+    <X.0mMn n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n3:fly="mzu" n3:fm7="mzu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_width="1.5dp" n1:layout_height="match_parent" />
+    <X.0mMn n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n4:fly="mzu" n4:fm7="mzu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

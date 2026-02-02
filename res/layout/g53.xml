@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="490.0dp" n1:layout_height="match_parent" n1:layoutDirection="ltr" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CIU n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.12nR n1:layout_width="392.0dp" n1:layout_height="match_parent" n1:layout_marginStart="98.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12nk n1:id="@id/av_" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="118.0dp" n1:layoutDirection="locale" n1:layout_marginStart="16.0dp">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ior" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="1.0" n2:byn="spv|ghm">
+                <ImageView n1:id="@id/iot" n1:layout_width="86.0dp" n1:layout_height="86.0dp" n1:layout_marginTop="16.0dp" n2:bx9="owf" n2:bxc="owf" />
+                <X.12nN n1:textColor="@color/a6t" n1:id="@id/ip3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" n2:bx8="@id/iot" n2:bxc="@id/iot" style="@style/a6m" />
+                <X.12pz n1:id="@id/um7" n1:visibility="gone" n1:layout_width="94.0dp" n1:layout_height="28.0dp" n1:layout_marginLeft="16.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n2:br4="@drawable/ej8" n2:br5="false" n2:brh="18.0dp" n2:bwk="@id/iot" n2:bx4="@id/iot" n2:bx8="@id/iot" style="@style/a4z" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </X.12nk>
+        <X.0rmm n1:id="@id/ios" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bg5="@layout/g56" n2:bmd="@layout/ga5" n2:bw_="com.bytedance.android.livesdk.hashtag.HashtagAudienceLayoutBehavior" n2:elu="@layout/ga7" n2:erh="@layout/ga8" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/wh4" n1:background="@color/au" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:alpha="0.0" n1:layoutDirection="locale" n1:layout_marginHorizontal="16.0dp">
+            <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:id="@id/ip4" n1:layout_width="match_parent" n1:layout_height="21.0dp" n2:bwk="owf" n2:bxc="owf" style="@style/a6q" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/um8" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:alpha="0.0" n1:layout_marginEnd="5.0dp" n2:br4="?e9h" n2:brl="@color/df" n2:bwk="owf" n2:bwq="owf" n2:bx7="owf" n2:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </X.12nR>
+</androidx.constraintlayout.widget.ConstraintLayout>

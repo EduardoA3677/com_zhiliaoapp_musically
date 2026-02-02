@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center|bottom" n1:id="@id/trp" n1:layout_width="124.0dp" n1:layout_height="165.0dp" n2:bne="?ly" n2:etn="?ly" n2:eyl="4.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:layout_gravity="start|bottom" n1:id="@id/trv" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="11.5dp" n3:bne="@raw/icon_color_default_avatar" n3:eyo="@android:color/white" n3:eyq="@dimen/qu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</FrameLayout>

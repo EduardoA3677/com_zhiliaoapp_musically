@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?bx" n1:padding="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/ygd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" layout="@layout/ars" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/ygb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n3:bxb="@id/ygd" layout="@layout/arm" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/yga" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n4:bxb="@id/ygb" layout="@layout/ari" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/ygc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n5:bxb="@id/yga" layout="@layout/arp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/ygf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n6:bxb="@id/ygc" layout="@layout/arx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

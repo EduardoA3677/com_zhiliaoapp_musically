@@ -1,0 +1,81 @@
+.class public final LX/0J1h;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0JRl;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LX/0JRl<",
+        "LX/03GP;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LL:LX/05ta;
+
+.field public final LLILIL:LX/05ta;
+
+.field public final LLILL:LX/0J1g;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/16 v0, 0x112
+
+    invoke-static {v0}, Lkotlin/jvm/internal/AFwS179S0000000_8;->get$arr$(I)Lkotlin/jvm/internal/AFwS179S0000000_8;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0J1h;->LL:LX/05ta;
+
+    new-instance v1, Lkotlin/jvm/internal/AwS484S0100000_8;
+
+    const/16 v0, 0x45c
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS484S0100000_8;-><init>(LX/0J1h;I)V
+
+    invoke-static {v1}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0J1h;->LLILIL:LX/05ta;
+
+    new-instance v0, LX/0J1g;
+
+    invoke-direct {v0, p0}, LX/0J1g;-><init>(LX/0J1h;)V
+
+    iput-object v0, p0, LX/0J1h;->LLILL:LX/0J1g;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic getOperator()LX/02FO;
+    .locals 1
+
+    iget-object v0, p0, LX/0J1h;->LLILL:LX/0J1g;
+
+    return-object v0
+.end method
+
+.method public final release()V
+    .locals 0
+
+    return-void
+.end method

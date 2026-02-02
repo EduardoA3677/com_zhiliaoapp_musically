@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bm">24.0dp</dimen>
+    <dimen name="bn">80.0dp</dimen>
+    <dimen name="bo">64.0dp</dimen>
+    <dimen name="bp">8.0dp</dimen>
+    <dimen name="bq">8.0dp</dimen>
+    <dimen name="c9">580.0dp</dimen>
+    <dimen name="dq">16.0dp</dimen>
+    <dimen name="ds">20.0dp</dimen>
+    <dimen name="p1">320.0dp</dimen>
+    <dimen name="p4">0.0dp</dimen>
+    <dimen name="p6">2.0dp</dimen>
+    <dimen name="p9">576.0dp</dimen>
+    <dimen name="p_">320.0dp</dimen>
+    <dimen name="pc">@dimen/pb</dimen>
+    <dimen name="pf">160.0dp</dimen>
+    <dimen name="a64">64.0dp</dimen>
+    <dimen name="a_d">64.0dp</dimen>
+    <dimen name="afq">1.0dp</dimen>
+</resources>

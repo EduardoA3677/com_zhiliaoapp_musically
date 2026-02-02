@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:ax0="?bx" n2:ax8="?zw" n2:ax9="@integer/m" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

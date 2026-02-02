@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0xa5 n1:layout_gravity="center_vertical" n1:id="@id/h3g" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bfi="p5" n2:f3p="25.0dp" n2:fnr="?e0" n2:fns="@color/d2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/h33" n1:background="@drawable/bft" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="match_parent" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="6.0dp" />
+    <View n1:layout_gravity="end" n1:id="@id/h3z" n1:background="@drawable/bfv" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="match_parent" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="6.0dp" />
+</FrameLayout>

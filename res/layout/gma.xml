@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+        <X.12nN n1:textSize="16.0dp" n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/bp_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_weight="1.0" n1:textAlignment="viewStart" style="@style/a6x" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/bpf" n1:focusable="false" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="5.0dp" n2:br4="?cpl" n2:brl="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/bpa" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginStart="20.0dp" n3:br4="?e95" n3:brl="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+</LinearLayout>

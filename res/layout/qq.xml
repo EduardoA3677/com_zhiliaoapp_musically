@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/k8z" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView n1:id="@id/urb" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" n2:ba3="@color/a10" n2:ba4="@dimen/b5" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/klq" n1:layout_width="52.0dp" n1:layout_height="52.0dp" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/klc" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_margin="1.0dp" n1:scaleType="fitXY" n2:fjq="@raw/icon_arrow_down_circle_fill" n2:fmy="?e1" />
+            <X.0mtD n1:layout_gravity="center" n1:id="@id/kt3" n1:background="@drawable/a9a" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fdo="4.0dp" n2:fdp="16.0dp" />
+        </androidx.cardview.widget.CardView>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="marquee" n1:gravity="center_horizontal" n1:id="@id/xy3" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="74.0dp" n1:layout_height="28.0dp" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

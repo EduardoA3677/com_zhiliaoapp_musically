@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ge9" n1:layout_width="46.0dp" n1:layout_height="46.0dp" n1:scaleType="fitCenter" n2:br4="?dlp" n2:brl="?e3" n2:bwl="@id/ge6" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:bxe="ori" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="17.0dp" n1:textColor="?e0" n1:gravity="center" n1:id="@id/ge6" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n1:paddingHorizontal="32.0dp" n3:bwl="@id/ge7" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/ge9" style="@style/a6u" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0dp" n1:textColor="?e2" n1:gravity="center" n1:id="@id/ge7" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n1:paddingHorizontal="32.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ge6" style="@style/a74" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

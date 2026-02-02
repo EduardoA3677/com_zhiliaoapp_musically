@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/sfr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/f5h" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bw_="com.ss.android.ugc.tools.view.widget.ViewPagerBottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <android.widget.Space n1:id="@id/uea" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/ake" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:id="@id/wit" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/bam" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="centerInside" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_marginStart="16.0dp" n2:fjq="@raw/icon_x_mark" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?zw" />
+                <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/d66" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:layout_marginEnd="40.0dp" n1:layout_toEndOf="@id/bam">
+                    <LinearLayout n1:orientation="horizontal" n1:id="@id/d67" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:maxLines="1" n1:layout_marginEnd="4.0dp" n2:fj2="p3" />
+                        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/l1b" n1:layout_width="16.0dp" n1:layout_height="match_parent" n1:importantForAccessibility="no" n2:fjq="@raw/icon_chevron_down_fill" n2:fjt="16.0dp" n2:fk6="16.0dp" n2:fmy="?zw" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout n1:id="@id/hs4" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/ryt" n1:background="@drawable/ayg" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_margin="12.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/lm1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="16.0dp" n2:fjq="@raw/icon_image_alt_1" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?zw" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center_vertical" n1:id="@id/wg_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="12.0dp" />
+                <X.0D2z n1:id="@id/ibl" n1:layout_width="72.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="16.0dp" n1:text="@null" n1:layout_marginStart="8.0dp" n2:fib="wf4" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/djy" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n2:fjq="@raw/icon_x_mark" n2:fjt="16.0dp" n2:fk6="16.0dp" n2:fmy="?a04" />
+            </LinearLayout>
+            <FrameLayout n1:id="@id/ebi" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/ndl" n1:layout_below="@id/ryt">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/ak8" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <FrameLayout n1:id="@id/p7k" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout n1:id="@id/ndl" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+                <include n1:id="@id/ndk" n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/ati" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</X.12nR>

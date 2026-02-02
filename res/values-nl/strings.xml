@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Aanzetten</string>
+    <string name="en0">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="en1">Google Play-services aanzetten</string>
+    <string name="en2">Installeren</string>
+    <string name="en3">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="en4">Google Play-services ophalen</string>
+    <string name="en5">Beschikbaarheid van Google Play-services</string>
+    <string name="en6">Fout met Google Play-services</string>
+    <string name="en7">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="en8">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="en9">Updaten</string>
+    <string name="en_">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="ena">Google Play-services updaten</string>
+    <string name="enb">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="enc">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

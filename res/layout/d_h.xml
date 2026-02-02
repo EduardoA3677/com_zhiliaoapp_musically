@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CIi n1:background="?my" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Wub n1:layout_gravity="center_vertical" n1:id="@id/spark_center_view_container" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="33.0dp" />
+</X.0CIi>

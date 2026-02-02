@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:id="@id/qek" n1:background="@drawable/adx" n1:paddingLeft="12.0dp" n1:paddingTop="12.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginHorizontal="16.0dp" n1:layout_marginVertical="8.0dp" n1:paddingHorizontal="12.0dp" n1:paddingVertical="12.0dp" n2:flz="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMn n1:layout_gravity="center_vertical" n1:id="@id/qf8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp" n2:fm1="?yh" n2:fm4="@dimen/bd">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/qfv" n1:background="@drawable/adw" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_link_fill" n2:fjt="16.0dp" n2:fk6="16.0dp" n2:fmy="?zx" />
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/qel" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:scaleType="centerCrop" n2:eyl="@dimen/bd" />
+        </X.0mMn>
+        <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <X.0n4v n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fm0="47%" n2:fm1="?yh" n2:fm4="2.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/qen" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="@integer/a2" />
+            </X.0n4v>
+            <X.0n4v n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n2:fm0="90%" n2:fm1="?yh" n2:fm4="2.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/qem" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="@integer/a7" />
+            </X.0n4v>
+        </LinearLayout>
+    </LinearLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

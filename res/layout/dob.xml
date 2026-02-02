@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/d1" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/wit" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="45.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/yqy" n1:padding="14.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="2.0dp" n1:layout_alignParentEnd="true" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/t9p" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_centerInParent="true">
+            <View n1:layout_gravity="center" n1:id="@id/bji" n1:layout_width="20.0dp" n1:layout_height="20.0dp" />
+            <View n1:layout_gravity="center" n1:id="@id/bjj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/eb3" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/wit">
+        <RelativeLayout n1:id="@id/k0c" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_weight="1.0">
+            <X.0mzc n1:textSize="28.0sp" n1:textStyle="bold" n1:textColor="?e0" n1:gravity="center" n1:id="@id/go6" n1:background="@null" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:lineSpacingExtra="0.0dp" n1:inputType="textMultiLine" n1:textCursorDrawable="@drawable/cmz" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" />
+        </RelativeLayout>
+        <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/mgx" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:gravity="center_vertical" n1:id="@id/ofu" n1:layout_width="wrap_content" n1:layout_height="52.0dp" n1:layout_marginStart="12.0dp">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/hqa" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <X.0Cib n1:gravity="center_vertical" n1:id="@id/dpo" n1:layout_width="match_parent" n1:layout_height="52.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

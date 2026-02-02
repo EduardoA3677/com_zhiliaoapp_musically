@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <X.0mEX n1:textStyle="bold" n1:textColor="@color/df" n1:gravity="center_vertical" n1:id="@id/xlf" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginLeft="16.0dp" n1:shadowColor="?nd" n1:shadowRadius="2.0" n1:layout_marginStart="16.0dp" n2:b5w="n2i" style="@style/aa_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="end" n1:orientation="horizontal" n1:id="@id/wol" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginRight="20.0dp" n1:layout_marginEnd="20.0dp">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/rt_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+                <X.0mEY n1:id="@id/kd8" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/a_6" />
+                <X.0mEX n1:textSize="13.0sp" n1:textColor="?e0" n1:id="@id/kd9" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:lineSpacingExtra="3.0sp" />
+            </LinearLayout>
+            <X.12uL n1:id="@id/kdh" n1:visibility="invisible" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n3:f0g="@drawable/bel" n3:fo5="@drawable/bek" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.0mEY n1:id="@id/kdd" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginLeft="20.0dp" n1:src="@drawable/c7s" n1:layout_marginStart="20.0dp" />
+            <X.0mEY n1:id="@id/kc8" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginLeft="20.0dp" n1:src="@drawable/c8b" n1:layout_marginStart="20.0dp" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

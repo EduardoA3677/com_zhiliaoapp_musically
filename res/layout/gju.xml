@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingLeft="@dimen/qi" n1:paddingRight="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="p7" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="60.599976dp" n1:layout_marginTop="@dimen/qf">
+            <FrameLayout n1:gravity="center" n1:id="@id/i00" n1:background="@drawable/efs" n1:layout_width="60.599976dp" n1:layout_height="60.599976dp" n2:bwk="owf" n2:bwr="@id/i1c" n2:bwz="0.0" n2:bx9="owf" n2:bxc="owf">
+                <X.0D0r n1:layout_gravity="center" n1:id="@id/hzy" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:scaleType="fitXY" n2:eyl="8.0dp" />
+            </FrameLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/i1c" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qf" n1:layout_marginRight="@dimen/qf" n1:layout_marginHorizontal="@dimen/qf" n2:bwk="owf" n2:bwr="@id/hyx" n2:bx1="1.0" n2:bx8="@id/i00" n2:bxc="owf">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/i1a" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:maxLines="1" n2:fj2="p7" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:id="@id/i1b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:maxLines="2" n2:fj2="pu" />
+            </LinearLayout>
+            <X.0D2z n1:textColor="?zw" n1:id="@id/hyx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwq="owf" n2:bwz="1.0" n2:bx8="@id/i1c" n2:bxc="owf" n2:fib="u9x" n2:fid="t69" n2:fmy="?yh" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

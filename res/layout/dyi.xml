@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/oe4" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:ellipsize="end" n1:id="@id/oe5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="All offline videos watched" n1:lines="1" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n1:layout_toStartOf="@id/oe2" n1:layout_alignParentStart="true" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/oe2" n1:background="@drawable/csv" n1:layout_width="wrap_content" n1:layout_height="33.0dp" n1:maxWidth="150.0dp" n1:minWidth="70.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/oe3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:text="Settings1" n1:lines="1" n1:layout_marginHorizontal="12.0dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

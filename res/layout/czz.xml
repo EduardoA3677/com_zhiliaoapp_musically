@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:id="@id/mat" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/bf1" n1:layout_width="match_parent" n1:layout_height="165.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp">
+        <X.0GEV n1:layout_gravity="top" n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <View n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+        <X.0kkB n1:layout_gravity="center|bottom" n1:id="@id/fhi" n1:paddingBottom="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bsj="5.0dp" n2:bsl="5.0dp" n2:bsp="0.34" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</merge>

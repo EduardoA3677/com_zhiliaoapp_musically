@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:id="@id/n13" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/n0h" layout="@layout/dp1" />
+    <include n1:id="@id/n0m" layout="@layout/dp3" />
+    <X.130C n1:layout_gravity="center" n1:id="@id/n0i" n1:layout_width="@dimen/a4t" n1:layout_height="@dimen/a4t" n1:layout_marginTop="36.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/n0h" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</merge>

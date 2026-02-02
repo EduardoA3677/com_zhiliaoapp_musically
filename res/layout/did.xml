@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/j3" n1:orientation="vertical" n1:background="@drawable/ckp" n1:layout_width="155.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/hom" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/jnd" n1:layout_width="match_parent" n1:layout_height="65.0dp" n1:scaleType="fitXY" />
+        <TextView n1:textSize="11.0sp" n1:textStyle="bold" n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/yls" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="20.0dp" n1:text="@string/n5t" n1:lines="2" />
+        <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="?bx" n1:gravity="center" n1:id="@id/ylr" n1:background="@drawable/cks" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="12.0dp" n1:text="@string/n5u" n1:lines="1" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/hon" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ImageView n1:layout_gravity="end" n1:layout_width="13.0dp" n1:layout_height="15.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="3.0dp" n1:layout_marginEnd="12.0dp" />
+        <ImageView n1:layout_gravity="center" n1:id="@id/jnc" n1:layout_width="68.0dp" n1:layout_height="68.0dp" />
+        <RelativeLayout n1:gravity="center" n1:id="@id/hop" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <ImageView n1:layout_gravity="end|center" n1:id="@id/jlu" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginStart="-16.0dp" n1:layout_alignParentEnd="true" />
+            <RelativeLayout n1:id="@id/hp2" n1:background="@drawable/ckx" n1:layout_width="59.0dp" n1:layout_height="59.0dp" n1:layout_toStartOf="@id/jlu">
+                <ImageView n1:id="@id/jlt" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout n1:gravity="center" n1:id="@id/hoo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <ImageView n1:layout_gravity="end|center" n1:id="@id/jlr" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginStart="-25.5dp" n1:layout_alignParentEnd="true" />
+            <RelativeLayout n1:layout_gravity="center_vertical" n1:id="@id/hp0" n1:background="@drawable/ckx" n1:layout_width="59.0dp" n1:layout_height="59.0dp" n1:layout_marginStart="-25.5dp" n1:layout_toStartOf="@id/jlr">
+                <ImageView n1:id="@id/jls" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:layout_gravity="center_vertical" n1:id="@id/hoz" n1:background="@drawable/ckx" n1:layout_width="59.0dp" n1:layout_height="59.0dp" n1:layout_toStartOf="@id/hp0">
+                <ImageView n1:id="@id/jlq" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView n1:textSize="10.0sp" n1:textStyle="bold" n1:textColor="?bx" n1:gravity="center" n1:id="@id/ylq" n1:background="@drawable/cku" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.5dp" n1:text="@string/thi" n1:includeFontPadding="false" n1:paddingStart="4.0dp" n1:paddingEnd="4.0dp" n1:layout_marginStart="16.0dp" />
+        <TextView n1:textSize="12.0sp" n1:textStyle="bold" n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/ylp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.5dp" n1:layout_marginBottom="16.0dp" n1:maxLines="2" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+</FrameLayout>

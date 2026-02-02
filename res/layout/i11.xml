@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/lcv" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/rnj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="21.0dp" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

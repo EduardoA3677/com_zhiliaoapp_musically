@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/vgb" n1:padding="2.0dp" n1:layout_width="148.0dp" n1:layout_height="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.05jT n1:id="@id/epk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.05jT n1:id="@id/twh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

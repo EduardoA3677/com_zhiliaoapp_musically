@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="@dimen/asc" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.05tk n1:orientation="horizontal" n1:id="@id/rna" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="12.0dp" n2:bw5="androidx.recyclerview.widget.LinearLayoutManager" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

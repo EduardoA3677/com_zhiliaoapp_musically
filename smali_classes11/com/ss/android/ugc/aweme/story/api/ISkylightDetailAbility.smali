@@ -1,0 +1,6 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/story/api/ISkylightDetailAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/02g2;

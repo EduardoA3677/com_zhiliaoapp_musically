@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/ah6" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/mav" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="44.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n2:fj2="p3" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/kie" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerVertical="true" n1:contentDescription="Close dislike reason dialog" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_x_mark_small" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center_vertical" n1:id="@id/ynb" n1:layout_width="match_parent" n1:layout_height="42.0dp" n1:paddingStart="16.0sp" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/sil" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/m_g" n1:paddingTop="12.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp">
+            <X.0D2z n1:textColor="@android:color/white" n1:id="@id/cdz" n1:background="@drawable/ahb" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:text="@null" n1:contentDescription="Submit button for dislike reasons." n5:fib="l9r" n5:fid="qhx" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

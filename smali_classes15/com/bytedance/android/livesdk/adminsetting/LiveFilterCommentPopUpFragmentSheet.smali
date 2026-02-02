@@ -1,0 +1,269 @@
+.class public final Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;
+.super Lcom/bytedance/android/live/design/view/sheet/LiveSheetFragment;
+.source "SourceFile"
+
+
+# static fields
+.field public static final _pnsPageId:Ljava/lang/String; = "KyohZy0qPCAoKCEwLWstJyshJywoZyM6PiA/LSR9KSEhICEgLTE4HELIOSICE0ZgklPyoVISk4LD0QJyghLCEnGCo8HD8VOiQrJCo9PBYkLCon"
+
+
+# instance fields
+.field public final LLJJL:LX/05ta;
+
+.field public final LLJJLIIIJLLLLLLLZ:LX/05ta;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Lcom/bytedance/android/live/design/view/sheet/LiveSheetFragment;-><init>()V
+
+    new-instance v1, Lkotlin/jvm/internal/AwS490S0100000_14;
+
+    const/16 v0, 0x4f
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS490S0100000_14;-><init>(Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;I)V
+
+    invoke-static {v1}, LX/03KV;->LIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;->LLJJL:LX/05ta;
+
+    new-instance v1, Lkotlin/jvm/internal/AwS490S0100000_14;
+
+    const/16 v0, 0x4e
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS490S0100000_14;-><init>(Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;I)V
+
+    invoke-static {v1}, LX/03KV;->LIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;->LLJJLIIIJLLLLLLLZ:LX/05ta;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bO()LX/0U1G;
+    .locals 6
+
+    new-instance v5, LX/0U1G;
+
+    invoke-direct {v5}, LX/0U1G;-><init>()V
+
+    new-instance v4, Ljava/util/ArrayList;
+
+    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
+
+    new-instance v3, LX/0dF0;
+
+    const v0, 0x7f123eae
+
+    invoke-static {v0}, LX/0cwH;->LJIJJLI(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    new-instance v1, LX/0UWf;
+
+    const/4 v0, 0x6
+
+    invoke-direct {v1, p0, v0}, LX/0UWf;-><init>(Ljava/lang/Object;I)V
+
+    const v0, 0x7f130475
+
+    invoke-direct {v3, v2, v0, v1}, LX/0dF0;-><init>(Ljava/lang/CharSequence;ILX/0GqO;)V
+
+    invoke-virtual {v4, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-virtual {v5, v4}, LX/0U1G;->LIZ(Ljava/util/List;)V
+
+    return-object v5
+.end method
+
+.method public final cO(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    .locals 2
+
+    const v1, 0x7f0e23de
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v1, p2, v0}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final dO()LX/0poQ;
+    .locals 5
+
+    new-instance v4, LX/0poQ;
+
+    invoke-direct {v4}, LX/0poQ;-><init>()V
+
+    new-instance v3, Ljava/util/ArrayList;
+
+    invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
+
+    new-instance v2, LX/0TvZ;
+
+    new-instance v1, LY/ACListenerS103S0100000_14;
+
+    const/16 v0, 0x3b
+
+    invoke-direct {v1, p0, v0}, LY/ACListenerS103S0100000_14;-><init>(Ljava/lang/Object;I)V
+
+    const v0, 0x7f061a90
+
+    invoke-direct {v2, v0, v1}, LX/0TvZ;-><init>(ILandroid/view/View$OnClickListener;)V
+
+    invoke-virtual {v3, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    iput-object v3, v4, LX/0poQ;->LJFF:Ljava/util/List;
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, v4, LX/0poQ;->LJI:Z
+
+    return-object v4
+.end method
+
+.method public final iO(Landroid/content/Context;)Lcom/bytedance/android/live/design/view/sheet/SheetOptions;
+    .locals 3
+
+    new-instance v2, Lcom/bytedance/android/live/design/view/sheet/SheetOptions;
+
+    invoke-direct {v2}, Lcom/bytedance/android/live/design/view/sheet/SheetOptions;-><init>()V
+
+    const/4 v1, 0x0
+
+    const/4 v0, 0x2
+
+    invoke-virtual {v2, v0, v1}, Lcom/bytedance/android/live/design/view/sheet/SheetOptions;->LIZ(ILandroid/content/Context;)V
+
+    return-object v2
+.end method
+
+.method public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 1
+
+    invoke-super {p0, p1, p2}, Lcom/bytedance/android/live/design/view/sheet/LiveSheetFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    const-string v0, "livesdk_comment_filter_setting_popup_see"
+
+    invoke-virtual {p0, v0}, Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;->vO(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final vO(Ljava/lang/String;)V
+    .locals 4
+
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;->LLJJL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;->LLJJLIIIJLLLLLLLZ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v3
+
+    :goto_0
+    invoke-static {p1}, LX/0E0g;->LIZ(Ljava/lang/String;)LX/0qns;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, LX/0qns;->LJIJJ()LX/0qns;
+
+    invoke-static {}, Lcom/bytedance/android/livesdk/userservice/UserService;->getInstance()Lcom/bytedance/android/livesdk/userservice/UserService;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/bytedance/android/livesdk/userservice/UserService;->user()LX/0cMr;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0cMr;->getCurrentUserId()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    const-string v0, "user_id"
+
+    invoke-virtual {v2, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    if-eqz v3, :cond_1
+
+    const-string v1, "anchor"
+
+    :goto_1
+    const-string v0, "admin_type"
+
+    invoke-virtual {v2, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/adminsetting/LiveFilterCommentPopUpFragmentSheet;->LLJJL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/android/livesdkapi/depend/model/live/Room;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/bytedance/android/livesdkapi/depend/model/live/Room;->getId()J
+
+    move-result-wide v0
+
+    :goto_2
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    const-string v0, "room_id"
+
+    invoke-virtual {v2, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "first_time_see"
+
+    const-string v0, "1"
+
+    invoke-virtual {v2, v0, v1}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v2}, LX/0qns;->LIZ()V
+
+    return-void
+
+    :cond_0
+    const-wide/16 v0, 0x0
+
+    goto :goto_2
+
+    :cond_1
+    const-string v1, "admin"
+
+    goto :goto_1
+
+    :cond_2
+    const/4 v3, 0x1
+
+    goto :goto_0
+.end method

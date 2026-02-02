@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hjt" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/hjs" n1:layout_width="169.0dp" n1:layout_height="140.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/wkm" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="6.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="6.0dp" n2:fjq="@raw/icon_x_mark" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/xd8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="16.0dp" n1:text="Share this video to win rewards" n1:layout_marginHorizontal="20.0dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:id="@id/dg8" n1:paddingBottom="8.0dp" n1:clipToPadding="false" n1:layout_width="50.0dp" n1:layout_height="wrap_content" n1:importantForAccessibility="noHideDescendants">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/sak" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:src="@drawable/cij" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/wkr" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:translationX="2.0dp" n1:translationY="3.0dp" n5:bwk="@id/sak" n5:bwq="@id/sak" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

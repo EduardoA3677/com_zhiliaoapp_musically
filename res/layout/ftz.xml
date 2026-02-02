@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="81.5dp" n1:layout_marginRight="81.5dp" n1:layout_centerInParent="true" n1:layoutDirection="ltr" n1:layout_marginStart="81.5dp" n1:layout_marginEnd="81.5dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cxq n1:textSize="26.0sp" n1:textColor="@color/a0l" n1:gravity="center" n1:id="@id/h_5" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="140.0dp" n1:layout_centerInParent="true" />
+    <X.0Cxq n1:textSize="26.0sp" n1:textColor="@color/a0l" n1:gravity="center" n1:id="@id/t61" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="25.0dp" n1:minWidth="140.0dp" n1:layout_centerInParent="true" n1:layout_marginStart="25.0dp" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/an0" />
+    <X.05jR n1:layout_gravity="start|top" n1:id="@id/vho" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" />
+    <X.05js n1:layout_gravity="end|bottom" n1:id="@id/vhp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <FrameLayout n1:layout_gravity="start|bottom" n1:id="@id/nrz" n1:background="@drawable/b41" n1:visibility="gone" n1:layout_width="34.0dp" n1:layout_height="20.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="16.0dp">
+        <X.0D1L n1:layout_gravity="center" n1:id="@id/nry" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:brs="16.0dp" n2:bru="@raw/icon_speaker_x_mark_fill_ltr" n2:brv="?xx" n2:brw="16.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <X.0DX1 n1:layout_gravity="end|top" n1:id="@id/chr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:layout_marginEnd="@dimen/qi" />
+    <X.0DX4 n1:layout_gravity="end|top" n1:id="@id/gi8" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:layout_marginEnd="@dimen/qi" n3:ba3="?zs" n3:ba4="@dimen/b8" n3:ba5="24.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/elg" n1:background="?zw" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.03" />
+</FrameLayout>

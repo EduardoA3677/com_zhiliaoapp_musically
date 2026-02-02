@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/ec9" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12pz n1:id="@id/watch_live" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n2:br4="@drawable/fb1" n2:br5="false" style="@style/a61" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:id="@id/ayl" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n3:br4="?cl5" n3:br5="false" style="@style/a61" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:id="@id/o8q" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n4:br4="?cmc" n4:br5="false" style="@style/a61" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:id="@id/v5y" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n5:br4="?e2x" n5:br5="false" style="@style/a59" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cxw n1:id="@id/ysw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="-1.0dp" />
+    <X.0Cxw n1:id="@id/ysx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="-1.0dp" n1:layout_marginEnd="-1.0dp" />
+    <X.0CxY n1:id="@id/ysy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="1.0dp" n1:paddingEnd="1.0dp" n1:layout_marginStart="-1.0dp" n1:layout_marginEnd="-1.0dp" />
+    <X.0Cxw n1:id="@id/yt0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="-1.0dp" />
+    <X.0Cxw n1:id="@id/yt1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="-1.0dp" n1:layout_marginEnd="-1.0dp" />
+    <X.0CxY n1:id="@id/yt2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="1.0dp" n1:paddingEnd="1.0dp" n1:layout_marginStart="-1.0dp" n1:layout_marginEnd="-1.0dp" />
+    <X.0Cxw n1:id="@id/yt4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="-1.0dp" n1:layout_marginEnd="-1.0dp" />
+    <X.0Cxw n1:id="@id/yt5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="-1.0dp" />
+</merge>

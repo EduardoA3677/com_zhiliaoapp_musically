@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/jgl" n1:paddingBottom="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/jgt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:maxLines="1" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/jgr" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <View n1:id="@id/jgq" n1:layout_width="4.0dp" n1:layout_height="match_parent" n1:layout_marginEnd="4.0dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:id="@id/jgk" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp">
+            <com.ss.android.ugc.aweme.im.common.view.TightTuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/jgu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.0CI6 n1:id="@id/jgo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp">
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jgm" n1:layout_width="42.0dp" n1:layout_height="42.0dp" />
+                <View n1:id="@id/jgp" n1:layout_width="42.0dp" n1:layout_height="42.0dp" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/jgn" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" />
+            </X.0CI6>
+        </LinearLayout>
+        <View n1:id="@id/jgs" n1:layout_width="4.0dp" n1:layout_height="match_parent" n1:layout_marginStart="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

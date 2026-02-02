@@ -1,0 +1,501 @@
+.class public final LX/0PZz;
+.super LX/0Rc7;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0Rc7<",
+        "Lcom/ss/android/ugc/aweme/feed/model/survey/Option;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LLILLJJLI:Landroid/content/Context;
+
+.field public final LLILLL:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Lcom/ss/android/ugc/aweme/feed/model/survey/Option;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final LLILZ:I
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;ILjava/util/ArrayList;)V
+    .locals 0
+
+    invoke-direct {p0, p1, p3}, LX/0Rc7;-><init>(Landroid/content/Context;Ljava/util/ArrayList;)V
+
+    iput-object p1, p0, LX/0PZz;->LLILLJJLI:Landroid/content/Context;
+
+    iput-object p3, p0, LX/0PZz;->LLILLL:Ljava/util/ArrayList;
+
+    iput p2, p0, LX/0PZz;->LLILZ:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getItemCount()I
+    .locals 1
+
+    iget-object v0, p0, LX/0PZz;->LLILLL:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+    .locals 6
+
+    instance-of v0, p1, LX/0Pa1;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    iget-object v2, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    new-instance v1, Lt8b/AkS144S0201000_12;
+
+    const/4 v0, 0x0
+
+    invoke-direct {v1, p0, p1, p2, v0}, Lt8b/AkS144S0201000_12;-><init>(Ljava/lang/Object;Ljava/lang/Object;II)V
+
+    invoke-static {v1, v2}, LX/0X3I;->y3(Landroid/view/View$OnClickListener;Landroid/view/View;)V
+
+    iget v1, p0, LX/0PZz;->LLILZ:I
+
+    const/4 v0, 0x3
+
+    if-eq v1, v0, :cond_6
+
+    const/4 v0, 0x4
+
+    if-ne v1, v0, :cond_4
+
+    check-cast p1, LX/0Pa1;
+
+    iget-object v4, p1, LX/0Pa1;->LL:Landroid/view/View;
+
+    check-cast v4, Lcom/bytedance/lighten/loader/SmartImageView;
+
+    iget-object v0, p0, LX/0PZz;->LLILLL:Ljava/util/ArrayList;
+
+    invoke-static {v0, p2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/ss/android/ugc/aweme/feed/model/survey/Option;
+
+    invoke-virtual {v5}, Lcom/ss/android/ugc/aweme/feed/model/survey/Option;->getImages()Ljava/util/Map;
+
+    move-result-object v1
+
+    const/4 v3, 0x0
+
+    if-eqz v1, :cond_5
+
+    const-string v0, "selected_image"
+
+    invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/feed/model/survey/ForceVideo;
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/survey/ForceVideo;->getUrlList()[Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_5
+
+    invoke-static {v0}, LX/0n4t;->LJIL([Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    :goto_0
+    invoke-virtual {v5}, Lcom/ss/android/ugc/aweme/feed/model/survey/Option;->getImages()Ljava/util/Map;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_1
+
+    const-string v0, "unselected_image"
+
+    invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/feed/model/survey/ForceVideo;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/survey/ForceVideo;->getUrlList()[Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-static {v0}, LX/0n4t;->LJIL([Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/lang/String;
+
+    :cond_1
+    invoke-virtual {v5}, Lcom/ss/android/ugc/aweme/feed/model/survey/Option;->isSelected()Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    move-object v0, v3
+
+    move-object v3, v2
+
+    move-object v2, v0
+
+    :cond_2
+    if-eqz v2, :cond_3
+
+    invoke-static {v2}, Lcom/bytedance/mt/protector/impl/UriProtector;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/12A8;->LJII(Landroid/net/Uri;)LX/129q;
+
+    move-result-object v2
+
+    iput-object v4, v2, LX/129q;->LJJIIZ:LX/01rY;
+
+    new-instance v1, LX/0Pa0;
+
+    const-string v0, "emoji"
+
+    invoke-direct {v1, v0}, LX/0Pa0;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2, v1}, LX/129q;->LJIIIZ(LX/0D2E;)V
+
+    :cond_3
+    if-eqz v3, :cond_4
+
+    invoke-static {v3}, Lcom/bytedance/mt/protector/impl/UriProtector;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/12A8;->LJII(Landroid/net/Uri;)LX/129q;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, LX/129q;->LJIIL()V
+
+    :cond_4
+    return-void
+
+    :cond_5
+    move-object v2, v3
+
+    goto :goto_0
+
+    :cond_6
+    check-cast p1, LX/0Pa1;
+
+    iget-object v1, p1, LX/0Pa1;->LL:Landroid/view/View;
+
+    check-cast v1, Lcom/bytedance/tux/icon/TuxIconView;
+
+    iget-object v0, p0, LX/0PZz;->LLILLL:Ljava/util/ArrayList;
+
+    invoke-static {v0, p2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/feed/model/survey/Option;
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/survey/Option;->isSelected()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_7
+
+    const v0, 0x7f0601a0
+
+    invoke-virtual {v1, v0}, Lcom/bytedance/tux/icon/TuxIconView;->setTintColorRes(I)V
+
+    return-void
+
+    :cond_7
+    const v0, 0x7f06006c
+
+    invoke-virtual {v1, v0}, Lcom/bytedance/tux/icon/TuxIconView;->setTintColorRes(I)V
+
+    return-void
+.end method
+
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    .locals 6
+
+    const-string v4, "onCreateViewHolder getParent() != null crash hook, holder "
+
+    iget v1, p0, LX/0PZz;->LLILZ:I
+
+    const/16 v0, 0x2c
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    const/4 v0, 0x4
+
+    if-ne v1, v0, :cond_0
+
+    new-instance v3, Lcom/bytedance/lighten/loader/SmartImageView;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-direct {v3, v0}, Lcom/bytedance/lighten/loader/SmartImageView;-><init>(Landroid/content/Context;)V
+
+    new-instance v2, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
+
+    invoke-static {v5}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v1
+
+    invoke-static {v5}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    invoke-direct {v2, v1, v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(II)V
+
+    invoke-static {v3, v2}, LX/0X3I;->y2(Lcom/bytedance/lighten/loader/SmartImageView;Landroid/view/ViewGroup$LayoutParams;)V
+
+    sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
+
+    invoke-virtual {v3, v0}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+
+    :goto_0
+    new-instance v2, LX/0Pa1;
+
+    invoke-direct {v2, v3}, LX/0Pa1;-><init>(Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_0
+    new-instance v3, Lcom/bytedance/tux/icon/TuxIconView;
+
+    iget-object v2, p0, LX/0PZz;->LLILLJJLI:Landroid/content/Context;
+
+    const/4 v1, 0x0
+
+    const v0, 0x7f060314
+
+    invoke-direct {v3, v2, v1, v0}, Lcom/bytedance/tux/icon/TuxIconView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    new-instance v1, LX/0Cls;
+
+    invoke-direct {v1}, LX/0Cls;-><init>()V
+
+    const v0, 0x7f0109bd
+
+    iput v0, v1, LX/0Cls;->LIZ:I
+
+    invoke-static {v5}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    iput v0, v1, LX/0Cls;->LIZIZ:I
+
+    invoke-static {v5}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    iput v0, v1, LX/0Cls;->LIZJ:I
+
+    const v0, 0x7f06006c
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, v1, LX/0Cls;->LJ:Ljava/lang/Integer;
+
+    invoke-virtual {v3, v1}, Lcom/bytedance/tux/icon/TuxIconView;->setTuxIcon(LX/0Cls;)V
+
+    goto :goto_0
+
+    :goto_1
+    :try_start_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-eqz v3, :cond_1
+
+    invoke-static {p1}, LX/05Ro;->LIZ(Landroid/view/View;)Landroidx/fragment/app/Fragment;
+
+    move-result-object v1
+
+    const v0, 0x7f0b17d6
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    :cond_1
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const v0, 0x7f0b7c70
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+
+    :try_start_1
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    const/4 v3, 0x1
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    :try_start_2
+    invoke-static {}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZLLL()Lcom/bytedance/ies/abmock/SettingsManager;
+
+    move-result-object v1
+
+    const-string v0, "catch_onCreateViewHolder_crash"
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v0, v3}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZ(Ljava/lang/String;Z)Z
+
+    move-result v3
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catch_0
+    if-eqz v3, :cond_2
+
+    :try_start_3
+    new-instance v1, Ljava/lang/StringBuffer;
+
+    invoke-direct {v1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+
+    const-class v0, LX/0Pa1;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " parent "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " viewType "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuffer;->append(I)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0tSY;->LIZJ(Ljava/lang/String;)V
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_2
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-static {v0, v1}, LX/0X3I;->LJJIZ(Landroid/view/View;Landroid/view/ViewGroup;)V
+
+    goto :goto_2
+    :try_end_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+
+    :catch_1
+    move-exception v0
+
+    invoke-static {v0}, LX/0H5y;->LIZ(Ljava/lang/Exception;)V
+
+    invoke-static {v0}, LX/0YM6;->LIZ(Ljava/lang/Exception;)V
+
+    :cond_2
+    :goto_2
+    const-class v0, LX/0Pa1;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, LX/0RKz;->LIZ:Ljava/lang/String;
+
+    return-object v2
+.end method

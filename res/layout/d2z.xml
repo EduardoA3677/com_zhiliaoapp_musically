@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:paddingBottom="18.0dp" n1:layout_width="320.0dp" n1:layout_height="match_parent" n1:layout_marginLeft="4.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginHorizontal="4.0dp" n1:layout_marginVertical="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/w2u" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:text="title" n1:maxLines="1" n1:layout_marginVertical="8.0dp" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.13dw n1:layout_gravity="center_vertical" n1:id="@id/w1r" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="28.0dp" />
+        </LinearLayout>
+        <View n1:background="?yh" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" />
+    </LinearLayout>
+</X.137G>

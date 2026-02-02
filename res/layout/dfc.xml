@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/view_stub_mixed_sound_sync_tip" n1:layout="@layout/dfj" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="12.0dp">
+        <FrameLayout n1:id="@id/nda" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="6.0dp">
+            <ViewStub n1:layout_gravity="start" n1:id="@id/view_stub_mixed_layout_switch" n1:layout="@layout/s1" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_marginTop="8.0dp" />
+            <ViewStub n1:layout_gravity="start" n1:id="@id/view_stub_mixed_grid_btn" n1:layout="@layout/s0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="2.0dp" />
+        </FrameLayout>
+        <FrameLayout n1:id="@id/ndb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp">
+            <ViewStub n1:layout_gravity="end" n1:id="@id/view_stub_mixed_clear_last_selection" n1:layout="@layout/rz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="2.0dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <ViewStub n1:id="@id/view_stub_mixed_recyclerview" n1:layout="@layout/s2" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/view_stub_one_minute_video_tips" n1:layout="@layout/dfk" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ViewStub n1:id="@id/fga" n1:layout="@layout/dfd" n1:layout_width="match_parent" n1:layout_height="52.0dp" />
+        <ViewStub n1:id="@id/fgh" n1:layout="@layout/dfe" n1:layout_width="match_parent" n1:layout_height="76.0dp" />
+        <ViewStub n1:id="@id/fgi" n1:layout="@layout/dff" n1:layout_width="match_parent" n1:layout_height="68.0dp" />
+        <ViewStub n1:id="@id/fge" n1:layout="@layout/dfg" n1:layout_width="match_parent" n1:layout_height="68.0dp" />
+        <ViewStub n1:id="@id/fgg" n1:layout="@layout/dfi" n1:layout_width="match_parent" n1:layout_height="68.0dp" />
+        <ViewStub n1:id="@id/fgf" n1:layout="@layout/dfh" n1:layout_width="match_parent" n1:layout_height="76.0dp" />
+        <ViewStub n1:id="@id/fgb" n1:layout="@layout/db8" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

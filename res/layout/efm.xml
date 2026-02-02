@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/iyb" n1:layout_width="match_parent" n1:layout_height="44.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/enj" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="@null" n1:layout_weight="1.0" n2:fj2="p7" n2:fl1="16.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/d69" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:layout_marginStart="6.0dp">
+        <com.bytedance.tux.status.loading.TuxSpinner n1:id="@id/v_" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n3:fjq="@raw/icon_spinner_normal" n3:fmy="?e0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/d6_" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:text="@null" n1:layout_marginStart="6.0dp" n4:fj2="p7" n4:fl1="16.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

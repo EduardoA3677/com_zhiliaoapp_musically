@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0vD6 n1:layout_gravity="bottom" n1:background="@drawable/bj9" n1:layout_width="match_parent" n1:layout_height="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/ftd" n1:background="@drawable/bj9" n1:layout_width="match_parent" n1:layout_height="14.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <View n1:layout_gravity="center" n1:background="@drawable/bi2" n1:layout_width="36.0dp" n1:layout_height="4.0dp" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/ftc" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bx3="owf" n3:bx7="owf" n3:bxb="@id/ftd" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</X.0vD6>

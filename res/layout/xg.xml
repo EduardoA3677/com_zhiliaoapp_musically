@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/q8n" n1:background="?dz" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:id="@id/q87" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:bxh="360.0dp" n2:bxj="0.68" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/q_v" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n2:bxc="owf" n2:fj2="ot" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/q_t" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxWidth="300.0dp" n1:text="@null" n2:bxb="@id/q_v" n2:fj2="p5" />
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/q8m" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="20.0dp" n2:bwp="h,10:16" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/q_t" n2:bxh="300.0dp" n2:bxj="0.794">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/q8l" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0N0M n1:id="@id/el1" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="start" n1:id="@id/ely" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginHorizontal="20.0dp">
+                    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/elx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bnc="0" n2:bx9="owf" n2:bxc="owf" n2:eyl="@dimen/qu" />
+                    <View n1:id="@id/elz" n1:background="@drawable/ace" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="@id/elx" n2:bwp="h,1:1" n2:bwq="@id/elx" n2:bx9="@id/elx" n2:eyl="@dimen/qu" />
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:id="@id/elw" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:maxLines="1" n1:layout_marginStart="6.0dp" n2:bwk="@id/elx" n2:bwq="@id/elx" n2:bx9="@id/elx" n2:fj2="qg" n2:fl1="8.0dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <FrameLayout n1:id="@id/up1" n1:background="?ds" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0oBn n1:layout_gravity="center" n1:id="@id/foq" n1:layout_width="32.0dp" n1:layout_height="32.0dp" />
+            </FrameLayout>
+            <com.bytedance.tux.icon.TuxIconView n1:theme="@style/xr" n1:layout_gravity="center" n1:id="@id/gn8" n1:background="?ds" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fjq="@raw/icon_tiktok_logo" n2:fjt="58.0dp" n2:fk6="58.0dp" n2:fmy="?bw" />
+        </com.bytedance.tux.widget.RadiusLayout>
+        <X.0D2z n1:id="@id/q8e" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/q8m" n2:fib="l9r" n2:fj2="p7" n2:fjt="20.0dp" n2:fk4="@raw/icon_post" n2:fk6="20.0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/gqh" n1:padding="8.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginBottom="24.0dp" n1:layout_marginEnd="-8.0dp" n3:bwl="@id/q87" n3:bwq="@id/q87" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:background="@drawable/acf" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:foregroundGravity="center" n3:fjq="@raw/icon_x_mark" n3:fjt="21.0dp" n3:fk6="21.0dp" n3:fmy="?e2" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

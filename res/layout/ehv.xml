@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:clipChildren="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.05e4 n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" n1:layout_below="@id/wh4" n2:bw_="@null" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="8.0dp">
+            <X.13i7 n1:id="@id/ujy" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView n1:id="@id/sj7" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </X.13i7>
+            <X.0oCE n1:id="@id/upc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fkf="h_s" />
+        </FrameLayout>
+    </X.05e4>
+</RelativeLayout>

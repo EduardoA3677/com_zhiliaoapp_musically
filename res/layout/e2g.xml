@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="top" n1:id="@id/oyx" n1:background="@drawable/cwu" n1:layout_width="24.0dp" n1:layout_height="15.0dp" n1:layout_marginTop="4.0dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginStart="8.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView android:textColor="?zw" android:id="@id/oyz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" app:fj2="pu" />
+        <com.bytedance.tux.input.TuxTextView android:textColor="?zz" android:id="@id/oyu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:textAlignment="viewStart" app:fj2="q1" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/bhp" n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="@dimen/r5" n1:paddingEnd="@dimen/qf" n1:paddingVertical="@dimen/r5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0dyk n1:id="@id/m08" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n2:bwq="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0dyh n1:id="@id/i5u" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n3:bwq="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0oj1 n1:id="@id/viewer_picks_bubble" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n4:bwq="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0e4y n1:id="@id/gpk" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0e4y n1:id="@id/jt9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n6:bwk="owf" n6:bwq="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

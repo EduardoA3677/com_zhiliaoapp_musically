@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0kvb n1:id="@id/vsb" n1:background="?y2" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o06 n1:id="@id/vsa" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/vs_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/vs9" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/vs_" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/vs_" n1:layout_width="match_parent" n1:layout_height="44.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/vs5" n1:layout_width="match_parent" n1:layout_height="98.0dp" n5:bwk="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/vqm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:bwk="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/vs6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="42.0dp" n1:layout_marginHorizontal="12.0dp">
+            <X.05fg n1:layout_gravity="center" n1:id="@id/vs4" n1:layout_width="match_parent" n1:layout_height="48.0dp" />
+            <X.0kw4 n1:id="@id/vqn" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <X.0o06 n1:id="@id/vs3" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n1:paddingVertical="8.0dp" n7:bwl="@id/vs6" n7:bwq="owf" n7:bx9="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</X.0kvb>

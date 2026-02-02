@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d3Z n1:id="@id/lv6" n1:visibility="gone" n1:duplicateParentState="true" n1:layout_width="@dimen/a2w" n1:layout_height="@dimen/a2w" n1:layout_marginRight="@dimen/a3p" n1:layout_marginEnd="@dimen/a3p" />
+    <X.0d3Z n1:gravity="end" n1:id="@id/lv7" n1:visibility="gone" n1:duplicateParentState="true" n1:layout_width="@dimen/a2w" n1:layout_height="@dimen/a2w" n1:layout_marginRight="@dimen/a3q" n1:layout_marginEnd="@dimen/a3q" n2:fb9="?fff" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/lv8" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" style="@style/a6u" />
+        <View n1:layout_gravity="center_vertical" n1:id="@id/j_9" n1:visibility="gone" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginStart="2.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</merge>

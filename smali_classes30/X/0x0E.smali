@@ -1,0 +1,72 @@
+.class public final LX/0x0E;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/privacy/setting/tpsc/account/ui/privateaccount/QuitBaAccountProcessor$CanQuitBusinessAccountApi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# static fields
+.field public static final synthetic LIZ:LX/0x0E;
+
+.field public static final LIZIZ:Lcom/ss/android/ugc/aweme/privacy/setting/tpsc/account/ui/privateaccount/QuitBaAccountProcessor$CanQuitBusinessAccountApi;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, LX/0x0E;
+
+    invoke-direct {v0}, LX/0x0E;-><init>()V
+
+    sput-object v0, LX/0x0E;->LIZ:LX/0x0E;
+
+    invoke-static {}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->get()Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;
+
+    move-result-object v1
+
+    const-class v0, Lcom/bytedance/ies/ugc/aweme/network/IRetrofitFactory;
+
+    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->getService(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/bytedance/ies/ugc/aweme/network/IRetrofitFactory;
+
+    sget-object v0, LX/03mb;->LIZ:Ljava/lang/String;
+
+    sget-object v0, LX/03mb;->LIZ:Ljava/lang/String;
+
+    invoke-interface {v1, v0}, Lcom/bytedance/ies/ugc/aweme/network/IRetrofitFactory;->create(Ljava/lang/String;)LX/03Sa;
+
+    move-result-object v1
+
+    const-class v0, Lcom/ss/android/ugc/aweme/privacy/setting/tpsc/account/ui/privateaccount/QuitBaAccountProcessor$CanQuitBusinessAccountApi;
+
+    invoke-interface {v1, v0}, LX/03Sa;->create(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/privacy/setting/tpsc/account/ui/privateaccount/QuitBaAccountProcessor$CanQuitBusinessAccountApi;
+
+    sput-object v0, LX/0x0E;->LIZIZ:Lcom/ss/android/ugc/aweme/privacy/setting/tpsc/account/ui/privateaccount/QuitBaAccountProcessor$CanQuitBusinessAccountApi;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

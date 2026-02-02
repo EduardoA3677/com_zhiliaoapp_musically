@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="top" n1:id="@id/hb4" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="100.0dp">
+        <FrameLayout n1:id="@id/usd" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwl="@id/utx" n2:bwp="4:3" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:bxe="ori" n2:bxh="252.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.1295 n1:id="@id/uty" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="6.0dp" n2:b41="d4s" />
+            <ImageView n1:layout_gravity="end|top" n1:id="@id/usi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginRight="4.0dp" n1:src="@drawable/cnl" n1:layout_marginEnd="4.0dp" />
+        </FrameLayout>
+        <X.0Cxq n1:textColor="@color/x7" n1:gravity="center" n1:id="@id/utx" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:shadowColor="@color/abj" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="2.0" n1:layout_centerHorizontal="true" n1:layout_marginStart="56.0dp" n1:layout_marginEnd="56.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/usd" style="@style/aet" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

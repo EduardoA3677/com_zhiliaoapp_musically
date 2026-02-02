@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/l4_" n1:background="@drawable/b_v" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_centerInParent="true">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/l4b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_centerVertical="true" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0Cru n1:id="@id/l49" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="6.0dp" n1:layout_toEndOf="@id/l4b" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:id="@id/l4a" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_centerVertical="true" n1:layout_marginStart="6.0dp" n1:layout_toEndOf="@id/l49" n3:bwg="true" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</RelativeLayout>

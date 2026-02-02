@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/boi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="6.0dp" />
+    <FrameLayout n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <RelativeLayout n1:id="@id/k9u" n1:background="?f0l" n1:layout_width="match_parent" n1:layout_height="64.0dp">
+            <FrameLayout n1:id="@id/ljp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="12.0dp">
+                <X.0D1b n1:layout_gravity="center" n1:id="@id/kfb" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:etn="@color/d2" n2:eto="d4s" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_toStartOf="@id/bia" n1:layout_toEndOf="@id/ljp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/yz8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_weight="1.0" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/bia" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="4.0dp" n1:layout_toStartOf="@id/axa" n4:fjq="@raw/icon_bell" n4:fmy="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/axa" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="20.0dp" n1:layout_alignParentEnd="true" n5:fjq="@raw/icon_chevron_right_offset_ltr" n5:fmy="?zz" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+    </FrameLayout>
+    <View n1:id="@id/bop" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="6.0dp" />
+</LinearLayout>

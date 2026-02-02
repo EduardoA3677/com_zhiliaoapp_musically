@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/mqh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/og2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" layout="@layout/ae0" />
+    <View n1:layout_gravity="center_vertical" n1:id="@id/og1" n1:background="?ly" n1:layout_width="0.5dp" n1:layout_height="20.0dp" />
+    <X.0qLN n1:gravity="center_vertical" n1:id="@id/ofx" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/mwn" n1:paddingTop="14.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_pen_on_paper" n2:fmy="?yi" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?yi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="4.0dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

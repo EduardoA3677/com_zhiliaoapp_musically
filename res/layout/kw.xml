@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vu n1:theme="@style/rq" n1:layout_width="76.0dp" n1:layout_height="100.0dp" n1:layout_marginEnd="8.0dp" n2:ba4="@dimen/b4" n2:f7a="@drawable/a34" n2:f7d="1.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0mER n1:id="@id/jk5" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n1:contentDescription="@null" />
+        <View n1:layout_gravity="center|bottom" n1:background="@drawable/a36" n1:layout_width="match_parent" n1:layout_height="56.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="@drawable/a35" n1:ellipsize="end" n1:layout_gravity="center|bottom" n1:id="@id/title" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Change" n1:maxLines="1" n1:paddingHorizontal="6.0dp" n2:fj2="qc" />
+    </FrameLayout>
+</X.12vu>

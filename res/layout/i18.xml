@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/r7p" n1:background="@drawable/d51" n1:layout_width="316.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/cyt" n1:layout_width="match_parent" n1:layout_height="250.0dp" n1:layout_marginTop="50.0dp" n1:src="@drawable/aop" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/hr8" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:layout_gravity="center_horizontal" n1:id="@id/r7m" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="24.0dp" n2:etn="@drawable/cf8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?sq" n1:ellipsize="end" n1:layout_gravity="center_horizontal" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:maxLines="1" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?sr" n1:ellipsize="end" n1:layout_gravity="center_horizontal" n1:id="@id/desc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxLines="1" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?st" n1:ellipsize="end" n1:layout_gravity="center_horizontal" n1:id="@id/qzi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="56.0dp" n1:maxLines="2" n5:fj2="q1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/mnj" n1:layout_width="wrap_content" n1:layout_height="36.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="20.0dp" n1:src="@drawable/cf_" />
+    </LinearLayout>
+</FrameLayout>

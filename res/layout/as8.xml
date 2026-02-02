@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/lgc" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="110.0dp" n1:minHeight="75.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kx6" n1:layout_width="wrap_content" n1:layout_height="90.0dp" n1:foreground="?uq" n1:adjustViewBounds="true" n1:layout_alignParentTop="true" n1:layout_alignParentStart="true" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:etn="?bv" n2:eyl="6.0dp" n2:eyo="?ly" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:ellipsize="end" n1:id="@id/ygi" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="12.0dp" n3:bwq="owf" n3:bwz="0.0" n3:bx8="@id/kx6" n3:bxc="owf" n3:bxg="wrap" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="start" n1:orientation="horizontal" n1:id="@id/mes" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="8.0dp" n4:bwq="owf" n4:bwz="0.0" n4:bx8="@id/kx6" n4:bxb="@id/ygi" n4:bxg="wrap" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ect" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx8="@id/kx6" n5:bxg="ujj" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/yg6" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginEnd="8.0dp" n5:bwk="owf" n5:bwr="@id/cdo" n5:bwz="0.0" n5:bx9="owf" n5:bxc="owf" n5:bxg="wrap" n5:fj2="pa" />
+        <X.0D2z n1:textColor="?e0" n1:id="@id/cdo" n1:background="?yi" n1:layout_width="68.0dp" n1:layout_height="26.0dp" n1:paddingStart="@dimen/qz" n1:paddingEnd="@dimen/qz" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" n5:fi8="true" n5:fib="o6b" n5:fid="o6b" n5:fj2="pz" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

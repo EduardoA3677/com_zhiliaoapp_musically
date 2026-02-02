@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="16.0sp" n1:textColor="?android:textColorSecondary" n1:ellipsize="marquee" n1:id="@id/h8e" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp" />
+        <TextView n1:textSize="16.0sp" n1:textColor="?android:textColorSecondary" n1:id="@id/h8b" n1:paddingTop="0.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="4" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp" />
+        <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/h8d" n1:layout_width="@dimen/vx" n1:layout_height="@dimen/vx" n1:layout_marginTop="32.0dp" n1:scaleType="fitXY" n1:contentDescription="@null" />
+        <TextView n1:textSize="14.0sp" n1:textColor="?android:textColorSecondary" n1:gravity="center_horizontal" n1:id="@id/h8c" n1:paddingTop="16.0dp" n1:paddingBottom="24.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp" n1:accessibilityLiveRegion="polite" />
+    </LinearLayout>
+</ScrollView>

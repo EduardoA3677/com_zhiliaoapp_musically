@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/le8" n1:paddingTop="24.0dp" n1:paddingBottom="24.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Size Guide" n2:bx9="owf" n2:bxc="owf" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ghr" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" n3:fjq="@raw/icon_chevron_right_offset_ltr" n3:fmy="?a04" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ne3" n1:paddingTop="8.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi">
+        <X.0CzU n1:id="@id/b64" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/wear_size" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="12.0dp" n5:bx8="@id/b64" n5:bxc="owf" n5:fj2="pu" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/ne4" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="12.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx8="@id/b64" n6:bxb="@id/wear_size" xmlns:n6="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/llm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/s93" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qo" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

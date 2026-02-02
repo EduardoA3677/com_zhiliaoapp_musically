@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.13Rz n1:id="@id/i3f" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.1295 n1:id="@id/fnl" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/jpd" n1:visibility="gone" n1:layout_width="120.0dp" n1:layout_height="120.0dp" n1:src="@drawable/bz8" n1:scaleType="fitCenter" />
+</X.13Rz>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:layout_gravity="center" n1:id="@id/ysk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.12nN n1:layout_gravity="center" n1:id="@id/ysj" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="50.0dp" />
+    <FrameLayout n1:id="@id/voice_chat_guest_container" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

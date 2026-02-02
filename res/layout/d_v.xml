@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="20.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12pz n1:id="@id/tjt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="10.0dp" n1:text="Setting Manager" n2:bx3="owf" n2:bxc="owf" style="@style/a59" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:id="@id/l64" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="10.0dp" n1:text="Keva Manager" n3:bx3="owf" n3:bxb="@id/tjt" style="@style/a59" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bx3="owf" n4:bxb="@id/l64" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.12pz n1:id="@id/mn5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="10.0dp" n1:text="Log Level Verbose" style="@style/a59" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

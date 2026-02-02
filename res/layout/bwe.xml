@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_vertical" n1:layout_gravity="bottom" n1:id="@id/wub" n1:background="@drawable/blu" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:layout_marginBottom="@dimen/sk" n1:scrollHorizontally="true" n1:singleLine="true" n1:shadowColor="?nd" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n1:paddingStart="@dimen/s0" n1:paddingEnd="@dimen/sk" n1:layout_marginStart="@dimen/rx" n2:fj2="pw" n2:fl1="9.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/wu_" n1:layout_width="22.0dp" n1:layout_height="22.0dp" />
+</FrameLayout>

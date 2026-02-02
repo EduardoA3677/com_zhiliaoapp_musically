@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CMF n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0l1c n1:orientation="vertical" n1:id="@id/imh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwu="0.25" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="vertical" n1:id="@id/cyn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwu="0.15" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/cna" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="4.0dp" n4:bwg="true" n4:bwl="@id/in0" n4:bwq="owf" n4:bwz="1.0" n4:bx9="@id/imh" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0xDJ n1:orientation="vertical" n1:id="@id/ck_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwg="true" n5:bwl="@id/ung" n5:bwq="owf" n5:bwz="1.0" n5:bx9="@id/imh" n5:bxb="@id/in0" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <ViewStub n1:id="@id/cka" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/ck7" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </X.0xDJ>
+    <X.130R n1:id="@id/ung" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:b74="wor" n6:bfm="ckq,coi,cl_" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/ckq" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n7:bwg="true" n7:bwq="owf" n7:bwz="1.0" n7:bx9="@id/imh" n7:bxb="@id/ung" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/coi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n8:bwq="owf" n8:bxb="@id/ckq" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/cl_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n9:bwg="true" n9:bwq="owf" n9:bwz="1.0" n9:bx9="@id/imh" n9:bxb="@id/ckq" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/a2o" />
+</X.0CMF>

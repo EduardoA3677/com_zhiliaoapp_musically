@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o06 n1:id="@id/uu9" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:nestedScrollingEnabled="true" n2:bwf="true" n2:bwl="@id/uuu" n2:bxc="owf" n2:bxd="0.0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/uuu" n1:background="?zq" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwk="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0D2z n1:id="@id/uut" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n3:fib="l9r" n3:fid="t69" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/uub" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0oCE n1:id="@id/uua" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:fkf="h_s" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0oBn n1:id="@id/uu_" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

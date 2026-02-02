@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/dgq" n1:layout_width="match_parent" n1:layout_height="64.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/xce" n1:visibility="gone" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_centerVertical="true" />
+    <FrameLayout n1:id="@id/ta7" n1:background="?dj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/xcd" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/kf_" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:src="@drawable/a9_" n1:scaleType="fitXY" n1:layout_alignBottom="@id/xcd" n1:importantForAccessibility="no" n1:layout_alignEnd="@id/xcd" />
+    <X.0mtB n1:layout_gravity="center" n1:id="@id/kt3" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_alignTop="@id/xcd" n1:layout_alignStart="@id/xcd" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/mdr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n1:layout_toEndOf="@id/xcd">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="marquee" n1:id="@id/yut" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:ellipsize="marquee" n1:id="@id/yus" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

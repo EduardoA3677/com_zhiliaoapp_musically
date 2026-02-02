@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ean" n1:background="@drawable/dpb" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12w1 n1:id="@id/x7l" n1:layout_width="match_parent" n1:layout_height="51.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:f8e="@color/a28" n2:f8u="@color/a28" n2:f8y="@style/ai9" n2:f8z="@color/a7o" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="@color/a_v" n1:id="@id/x7j" n1:background="@color/b1" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" />
+    <androidx.viewpager.widget.ViewPager n1:id="@id/x7m" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e92" n1:background="?bx" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvb" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" n2:ax0="?c3" n2:ax2="?mp" n2:ax3="@integer/aa" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwl="@id/fd6" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/nvb" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0o06 n1:id="@id/pdc" n1:paddingTop="12.0dp" n1:focusable="true" n1:focusableInTouchMode="true" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+    <View n1:id="@id/fd6" n1:background="?lv" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginBottom="12.0dp" n4:bwl="@id/xjp" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.1310 n1:id="@id/ica" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bfm="xjp,xjq" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/xjp" n1:layout_width="12.0dp" n1:layout_height="15.0dp" n1:layout_marginBottom="12.0dp" n6:bwl="@id/bxv" n6:bwr="@id/xjq" n6:bx0="ori" n6:bx9="owf" n6:f49="@drawable/c47" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/xjq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="6.0dp" n7:bwk="@id/xjp" n7:bwq="owf" n7:bx8="@id/xjp" n7:bxc="@id/xjp" n7:fj2="px" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/f_2" n1:background="@drawable/ayq" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n8:bwl="@id/bxv" n8:bwq="owf" n8:bx9="owf" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/bxv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n9:b74="wor" n9:bfm="c6d,f_1" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.ecommerce.base.osp.payment.view.DirectCheckoutBottomWidget n1:id="@id/f_1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n10:bwl="@id/ozj" n10:bwq="owf" n10:bx9="owf" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:enabled="false" n1:id="@id/c6d" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n11:bwl="@id/ozj" n11:bwq="owf" n11:bx9="owf" n11:fi8="false" n11:fib="l9r" n11:fid="qhx" n11:fj2="p7" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/ozj" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n12:bwk="owf" n12:bwq="owf" n12:bx9="owf" n12:fj2="p7" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/kdn" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/haa" n1:background="@drawable/bke" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp">
+        <X.13dw n1:layout_gravity="center" n1:id="@id/mox" n1:visibility="gone" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n2:em4="false" n2:emb="commerce_audio_wave_anim_tux_lottie.json" n2:eme="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</FrameLayout>

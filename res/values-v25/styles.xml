@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="kb" parent="@style/km" />
+    <style name="kc" parent="@style/kn" />
+    <style name="km" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="kn" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

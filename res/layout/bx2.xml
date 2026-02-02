@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="start|bottom" n1:orientation="horizontal" n1:id="@id/mps" n1:background="@drawable/blf" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:layout_marginBottom="@dimen/sk" n1:paddingStart="@dimen/s0" n1:paddingEnd="@dimen/sk" n1:layout_marginStart="@dimen/rx">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_vertical" n1:id="@id/mpt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:shadowColor="?nd" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n2:fj2="pw" n2:fl1="9.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/mpx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:shadowColor="?nd" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n3:fj2="pw" n3:fl1="9.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView n1:layout_width="22.0dp" n1:layout_height="22.0dp" n4:f49="@drawable/bzs" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

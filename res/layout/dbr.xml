@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="end|top" n1:orientation="vertical" n1:id="@id/h_u" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <View n1:layout_gravity="end" n1:id="@id/lr6" n1:background="@drawable/dgn" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="1.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginEnd="18.0dp" />
+    <com.ss.android.ugc.aweme.toolbar.widget.ToolbarScrollView n1:layout_gravity="end|top" n1:id="@id/u87" n1:scrollbars="none" n1:fadingEdgeLength="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:splitMotionEvents="false" n1:requiresFadingEdge="vertical">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/u86" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </com.ss.android.ugc.aweme.toolbar.widget.ToolbarScrollView>
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end" n1:id="@id/woc" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="5.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="14.0dp" n2:fjq="@raw/icon_chevron_down_small_fill" n2:fjt="24.0dp" n2:fk6="24.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</merge>

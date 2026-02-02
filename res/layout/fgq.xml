@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dg0" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13Yj n1:id="@id/long_press_layout" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/hgr" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0M1k n1:id="@id/hex" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/hj5" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/ham" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/p7e" n1:layout="@layout/fir" n1:inflatedId="@id/p7e" n1:layout_width="@dimen/r9" n1:layout_height="@dimen/r9" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cg3 n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

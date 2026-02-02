@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wit" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwl="@id/y00" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/k8j" n1:background="@drawable/cai" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n3:bwk="@id/uej" n3:bxb="@id/wit" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/y00" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="22.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n4:bwl="@id/y01" n4:bwr="@id/vgh" n4:bx9="@id/k8j" n4:bxb="@id/wit" n4:fj2="p3" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0oaM n1:id="@id/vgh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="16.0dp" n5:bwk="@id/y00" n5:bwq="@id/k8j" n5:bx8="@id/y00" n5:bxc="@id/y00" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/y01" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_margin="@dimen/qi" n1:text="@null" n6:bwl="@id/voa" n6:bwq="@id/k8j" n6:bwz="0.0" n6:bx9="@id/k8j" n6:bxb="@id/y00" n6:fj2="pu" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0afT n1:id="@id/voa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n7:bwl="@id/uej" n7:bxb="@id/y01" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/uej" n1:layout_width="match_parent" n1:layout_height="10.0dp" n8:bxb="@id/voa" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/xvs" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="22.0dp" n1:text="Clear Add Keywords Bottom Sheet Cache" n1:layout_marginStart="16.0dp" n9:bxb="@id/uej" n9:fj2="p3" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

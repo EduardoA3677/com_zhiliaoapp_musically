@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="72.0dp" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/vn3" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="15.0dp" n1:textColor="@drawable/f75" n1:id="@id/vmq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:textAlignment="viewStart" n1:layout_marginStart="12.0dp" n3:bwk="owf" n3:bx8="@id/vn3" n3:bxc="owf" style="@style/a6s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

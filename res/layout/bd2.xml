@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:orientation="vertical" n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nk n1:id="@id/aup" n1:background="@null" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12pB n1:id="@id/dnr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|gqf">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="24.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" n2:bwd="owd" n2:byn="spv|ghl|ghm">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="pk" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n2:fj2="pu" />
+            </LinearLayout>
+        </X.12pB>
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.1357 n1:layout_gravity="start" n1:id="@id/vk5" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n2:f84="@null" n2:f8e="?ye" n2:f8j="2.0dp" n2:f8l="0.0dp" n2:f8m="0.0dp" n2:f8n="sqt" n2:f8q="16.0dp" n2:f8r="16.0dp" n2:f8u="?zz" n2:f8z="?zw" />
+            <View n1:layout_gravity="bottom" n1:background="?lw" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        </FrameLayout>
+    </X.12nk>
+    <X.13KU n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bw_="@null" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</X.12nR>

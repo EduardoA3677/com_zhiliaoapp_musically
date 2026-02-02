@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cfc n1:id="@id/h34" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:accessibilityTraversalAfter="@id/ils" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/tt3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/gf9" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:id="@id/up3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="53.0dp">
+            <X.0oBn n1:layout_gravity="center_horizontal" n1:id="@id/upa" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="40.0dp" />
+            <X.0oCE n1:id="@id/up1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fm9="40.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <ViewStub n1:id="@id/v0p" n1:visibility="invisible" n1:layout="@layout/ent" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/v0b" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ils" n1:background="?bx" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:accessibilityTraversalBefore="@id/h34">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/lpx" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n3:bwk="owf" n3:bwr="@id/kie" n3:bx9="owf" n3:bxc="owf" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kie" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_x_mark_small" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

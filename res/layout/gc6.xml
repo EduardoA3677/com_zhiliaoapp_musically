@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/b6v" n1:background="@drawable/edf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/b7s" n1:background="@drawable/eic" n1:focusable="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="1.0dp" n1:importantForAccessibility="no" />
+</FrameLayout>

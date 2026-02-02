@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/t07" n1:background="@drawable/cbn" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/kz1" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n2:fjq="@raw/icon_tab_explore" n2:fmy="?zz" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="start|center" n1:id="@id/sx1" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:text="@null" n1:maxLines="1" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSearch" n1:importantForAccessibility="no" n1:textAlignment="viewStart" n1:layout_marginStart="4.0dp" n2:fj2="p5" />
+</LinearLayout>

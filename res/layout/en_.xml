@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:paddingLeft="16.0dp" n1:paddingTop="6.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cfz n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/sga" n1:background="?y3" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n2:eyn="10.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginEnd="18.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/w5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.5dp" n1:layout_marginBottom="5.5dp" n1:layout_marginVertical="5.5dp" n2:fj2="pa" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/wm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:alpha="0.34" n2:fj2="pu" />
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/vs" n1:paddingLeft="10.0dp" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n2:fjt="22.0dp" n2:fk6="22.0dp" n2:fmy="?zw" />
+    </X.0Cfz>
+</FrameLayout>

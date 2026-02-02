@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/qi" n1:layout_marginRight="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginEnd="12.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/workbench_card_middle_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:textDirection="locale" n1:textAlignment="viewStart" n2:fj2="p3" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/workbench_card_middle_subtitle_container" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/workbench_card_middle_subtitle_icon" n1:layout_width="@dimen/qg" n1:layout_height="@dimen/qg" n1:layout_marginEnd="@dimen/qu" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/workbench_card_middle_subtitle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="dhksladhlksadjadhksladhlksadjadhksladhlksadjadhksladhlksadja" n1:maxLines="1" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/workbench_card_middle_icon" n1:layout_width="@dimen/r9" n1:layout_height="@dimen/r9" n1:scaleType="centerCrop" />
+    </LinearLayout>
+    <X.0o06 n1:id="@id/workbench_card_middle_content_list" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/qf" n1:layout_marginRight="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi" />
+    <X.0o06 n1:id="@id/workbench_card_middle_banner_list" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qf" n1:layout_marginBottom="@dimen/qz" />
+</LinearLayout>

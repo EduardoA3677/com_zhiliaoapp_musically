@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/hq3" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@string/i_k" n1:layout_weight="1.0" n2:fj2="pz"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n3:gravity="center" n3:id="@id/ud6" n3:layout_width="wrap_content" n3:layout_height="wrap_content"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <com.bytedance.tux.input.TuxTextView n3:textColor="?zw" n3:id="@id/ud7" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="@null" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n3:layout_width="12.0dp" n3:layout_height="12.0dp" n3:layout_marginStart="4.0dp" n5:fjq="@raw/icon_arrow_triangle_down_large_fill" n5:fjt="12.0dp" n5:fk6="12.0dp" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n6:textColor="?zw" n6:layout_gravity="end|center" n6:id="@id/mu9" n6:visibility="gone" n6:layout_width="wrap_content" n6:layout_height="wrap_content" n6:text="@null" n7:fj2="pz"
+      xmlns:n6="http://schemas.android.com/apk/res/android" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</merge>

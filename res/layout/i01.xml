@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kqv" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:b69="@drawable/aqu" n2:bwq="@id/cg5" n2:bx9="@id/cg5" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/cg5" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwq="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ViewStub n1:layout_gravity="center_horizontal" n1:id="@id/view_stub_save_local_progress" n1:layout="@layout/fud" n1:layout_width="32.0dp" n1:layout_height="32.0dp" />
+            <X.0CWK n1:layout_gravity="center_horizontal" n1:id="@id/cg7" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n3:b41="d4s" n3:eto="d4s" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/cg9" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:scaleType="centerInside" n3:fjq="@raw/icon_color_right_bottom_checkbox" />
+            <View n1:layout_gravity="end" n1:id="@id/rnq" n1:background="@drawable/a5t" n1:visibility="invisible" n1:layout_width="4.0dp" n1:layout_height="4.0dp" n1:layout_marginTop="2.0dp" />
+        </FrameLayout>
+        <X.0mEX n1:textSize="10.0sp" n1:textStyle="bold" n1:textColor="@color/uu" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/cg_" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:maxLines="4" n1:shadowColor="?nd" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="2.0" n3:b5w="n2i" n3:erj="true" />
+    </LinearLayout>
+    <X.0CWG n1:id="@id/l2n" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="19.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n4:etn="@drawable/c2r" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

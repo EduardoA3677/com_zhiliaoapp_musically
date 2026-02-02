@@ -1,0 +1,3 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/scope/SearchPlayerScope;
+.super Ljava/lang/Object;
+.source "SourceFile"

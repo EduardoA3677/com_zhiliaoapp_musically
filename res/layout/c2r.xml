@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="bottom" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/oiw" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <RelativeLayout n1:gravity="center_vertical" n1:layout_gravity="bottom" n1:id="@id/scv" n1:background="@color/fw" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="60.0dp">
+        <ImageView n1:textSize="14.0sp" n1:id="@id/kvq" n1:layout_width="45.0dp" n1:layout_height="45.0dp" n1:src="@drawable/boj" n1:scaleType="centerInside" n1:layout_centerVertical="true" n1:layout_marginEnd="20.0dp" n1:layout_alignParentEnd="true" />
+        <TextView n1:textSize="14.0sp" n1:textColor="@color/i1" n1:id="@id/yd9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:layout_centerVertical="true" />
+        <RelativeLayout n1:id="@id/rzv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp">
+            <ImageView n1:id="@id/kvr" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/bom" n1:layout_centerVertical="true" />
+            <TextView n1:textSize="14.0sp" n1:textColor="@color/i1" n1:id="@id/yk2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_marginStart="7.0dp" n1:layout_toEndOf="@id/kvr" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

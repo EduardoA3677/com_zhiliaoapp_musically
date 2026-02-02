@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/leg" n1:background="@drawable/doh" n1:paddingLeft="12.0dp" n1:paddingTop="8.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:paddingHorizontal="12.0dp" n1:paddingVertical="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0cPR n1:layout_gravity="center" n1:id="@id/kp7" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:etn="@drawable/eic" n2:ewz="h_j" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12hi n1:textColor="?ffc" n1:ellipsize="end" n1:gravity="start" n1:id="@id/yvg" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" n3:bwg="true" n3:bwk="@id/kp7" n3:bwq="owf" n3:bx8="@id/kp7" n3:bxc="@id/kp7" style="@style/a6u" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

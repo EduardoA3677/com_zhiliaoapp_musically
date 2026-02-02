@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/mgf" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:background="@drawable/c2o" n1:layout_width="72.0dp" n1:layout_height="72.0dp" />
+        <TextView n1:textSize="@dimen/lh" n1:textStyle="bold" n1:textColor="@color/bp" n1:ellipsize="end" n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@string/effect_tool_noconnection1" n1:maxLines="1" />
+        <TextView n1:textSize="@dimen/le" n1:textStyle="normal" n1:textColor="@color/bq" n1:ellipsize="end" n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@string/effect_tool_noconnection2" n1:maxLines="1" />
+    </LinearLayout>
+    <TextView n1:textSize="@dimen/lf" n1:textStyle="bold" n1:textColor="@color/bp" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/c7m" n1:background="@drawable/aw_" n1:layout_width="240.0dp" n1:layout_height="44.0dp" n1:text="@string/effect_tool_noconnection_retry" />
+</FrameLayout>

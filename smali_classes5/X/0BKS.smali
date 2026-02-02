@@ -1,0 +1,41 @@
+.class public final LX/0BKS;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/concurrent/RejectedExecutionHandler;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0BKT;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final rejectedExecution(Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V
+    .locals 1
+
+    invoke-static {}, LX/0XRp;->LIZ()Ljava/util/concurrent/ExecutorService;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
+
+    return-void
+.end method

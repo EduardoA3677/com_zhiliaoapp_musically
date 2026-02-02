@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.feed.VideoViewCellRootView n1:id="@id/view_rootview" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13Yj n1:id="@id/long_press_layout" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:contentDescription="@null" />
+    <X.0MlN n1:id="@id/player_view_pager" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <include n1:id="@id/zqe" layout="@layout/bak" />
+    <FrameLayout n1:id="@id/pdq" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/pg5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/cim" n1:contentDescription="play_icon" n1:alpha="0.0" />
+    <View n1:layout_gravity="top" n1:id="@id/ffe" n1:background="@drawable/b_7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="126.0dp" />
+</com.ss.android.ugc.aweme.feed.VideoViewCellRootView>

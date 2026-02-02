@@ -1,0 +1,76 @@
+.class public final LX/0hTM;
+.super LX/0PAw;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime LX/0PaH;
+    c = "com.ss.android.ugc.aweme.im.sharepanel.impl.editshare.vm.suggested.EditShareSuggestedDataSource"
+    f = "EditShareSuggestedDataSource.kt"
+    l = {
+        0x95,
+        0x97,
+        0x99
+    }
+    m = "loadSuggestedContactList"
+.end annotation
+
+
+# instance fields
+.field public synthetic LL:Ljava/lang/Object;
+
+.field public final synthetic LLILIL:LX/0hTK;
+
+.field public LLILL:I
+
+
+# direct methods
+.method public constructor <init>(LX/0hTK;LX/02wT;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LX/0hTK;",
+            "LX/02wT<",
+            "-",
+            "LX/0hTM;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LX/0hTM;->LLILIL:LX/0hTK;
+
+    invoke-direct {p0, p2}, LX/0PAw;-><init>(LX/02wT;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    const-string v2, "EditShareSuggestedDataSource@8e47.loadSuggestedContactList$1"
+
+    invoke-static {v2}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    iput-object p1, p0, LX/0hTM;->LL:Ljava/lang/Object;
+
+    iget v1, p0, LX/0hTM;->LLILL:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr v1, v0
+
+    iput v1, p0, LX/0hTM;->LLILL:I
+
+    iget-object v0, p0, LX/0hTM;->LLILIL:LX/0hTK;
+
+    invoke-virtual {v0, p0}, LX/0hTK;->LIZIZ(LX/02wT;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v2}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-object v0
+.end method

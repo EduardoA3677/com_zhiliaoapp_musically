@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0hKz n1:id="@id/syf" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp" />
+    <X.0hKm n1:id="@id/tp0" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" />
+    <FrameLayout n1:id="@id/hmg" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMv n1:id="@id/skc" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="86.0dp" n1:layout_marginBottom="10.0dp" />
+    </FrameLayout>
+    <View n1:id="@id/wfp" n1:background="?lx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0hK1 n1:id="@id/toz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

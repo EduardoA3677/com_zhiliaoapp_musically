@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/aee" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/wm5" n1:paddingTop="@dimen/r6" n1:paddingBottom="@dimen/r6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qf" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi" n1:layout_marginStart="@dimen/r5" n1:layout_marginEnd="@dimen/r5">
+        <RelativeLayout n1:id="@id/aeh" n1:layout_width="match_parent" n1:layout_height="32.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/aei" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" n1:labelFor="@id/aeg" n2:fj2="pa" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0oaM n1:id="@id/aeg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/aef" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">सुरू करा</string>
+    <string name="en0">तुम्ही Google Play सेवा सक्षम केल्याशिवाय %1$s हा अ‍ॅप कार्य करणार नाही.</string>
+    <string name="en1">Google Play सेवा सुरू करा</string>
+    <string name="en2">स्‍थापित करा</string>
+    <string name="en3">Google Play सेवा आपल्या डिव्हाइसवर उपलब्ध नाही, त्याशिवाय %1$s चालणार नाही.</string>
+    <string name="en4">Google Play सेवा मिळवा</string>
+    <string name="en5">Google Play सेवा उपलब्धता</string>
+    <string name="en6">Google Play सेवा एरर</string>
+    <string name="en7">%1$s ला Google Play सेवांमध्ये समस्या येत आहे. कृपया पुन्हा प्रयत्न करा.</string>
+    <string name="en8">तुमचे डिव्हाइस सपोर्ट करत नसलेल्या, Google Play सेवांशिवाय %1$s चालणार नाही.</string>
+    <string name="en9">अपडेट करा</string>
+    <string name="en_">तुम्ही Google Play सेवा अपडेट करेपर्यंत %1$s चालणार नाही.</string>
+    <string name="ena">Google Play सेवा अपडेट करा</string>
+    <string name="enb">सध्‍या अपडेट होत असलेल्‍या, Google Play सेवांशिवाय %1$s चालणार नाही.</string>
+    <string name="enc">Google Play सेवांच्या नवीन आवृत्तीची आवश्यकता आहे. हे स्वत:ला लवकरच अपडेट करेल.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

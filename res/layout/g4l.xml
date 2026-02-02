@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?bx" n1:descendantFocusability="blocksDescendants" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/x60" n1:background="@drawable/drv" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="53.0dp" n1:layout_marginTop="15.0dp" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/l07" n1:focusable="true" n1:clickable="true" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/eiz" n1:scaleType="centerCrop" n2:bwk="@id/yp2" n2:bx9="owf" n2:bxc="@id/yp2" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/kep" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:br4="?cu_" n2:brl="?zz" n2:bwk="@id/yp2" n2:bwq="owf" n2:bxc="@id/yp2" />
+        <X.12nN n1:textColor="?zz" n1:layout_gravity="center_vertical" n1:id="@id/ylm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" n2:bwk="owf" n2:bwr="@id/kep" n2:bxc="owf" style="@style/a6s" />
+        <X.12nN n1:ellipsize="end" n1:id="@id/yp2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="55.0dp" n2:bwk="owf" n2:bwr="@id/ylm" n2:bx9="owf" n2:bxc="owf" style="@style/a6s" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/x5z" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/x60" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

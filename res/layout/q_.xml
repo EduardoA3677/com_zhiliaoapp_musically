@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:layout_width="wrap_content" n1:layout_height="75.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D1z n1:id="@id/vop_item_img_view" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_centerHorizontal="true" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" />
+    <X.0CHX n1:id="@id/vop_item_selected_view" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_centerHorizontal="true" />
+    <X.0mtB n1:id="@id/vop_item_loading_v2" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/vop_item_plus_view" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_alignBottom="@id/vop_item_img_view" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" n2:fjq="@raw/icon_color_right_bottom_plus" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/vop_item_text_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_below="@id/vop_item_img_view" n1:layout_centerHorizontal="true" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

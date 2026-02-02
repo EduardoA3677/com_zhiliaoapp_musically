@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="56.0dp" n1:layout_height="56.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:layout_gravity="center" n1:id="@id/kfb" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:eyl="8.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.134A n1:layout_gravity="center" n1:id="@id/b8k" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fdo="4.0dp" n3:fdp="16.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="center" n1:id="@id/b96" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:id="@id/kfq" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n4:br4="?e2d" n4:brl="?ejv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|top" n1:id="@id/kfk" n1:padding="2.0dp" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n5:br4="?e_x" n5:brl="?eju" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

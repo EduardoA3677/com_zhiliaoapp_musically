@@ -1,0 +1,137 @@
+.class public final Lcom/oplus/ocs/base/task/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/oplus/ocs/base/task/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<TResult:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/oplus/ocs/base/task/b<",
+        "TTResult;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/util/concurrent/Executor;
+
+.field public final b:Ljava/lang/Object;
+
+.field public volatile c:Lcom/oplus/ocs/base/task/OnCanceledListener;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/concurrent/Executor;Lcom/oplus/ocs/base/task/OnCanceledListener;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v0, p0, Lcom/oplus/ocs/base/task/d;->b:Ljava/lang/Object;
+
+    const-string v0, "Executor is not null"
+
+    invoke-static {p1, v0}, Lcom/oplus/ocs/base/utils/d;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v0, "OnCanceledListener is not null"
+
+    invoke-static {p2, v0}, Lcom/oplus/ocs/base/utils/d;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iput-object p1, p0, Lcom/oplus/ocs/base/task/d;->a:Ljava/util/concurrent/Executor;
+
+    iput-object p2, p0, Lcom/oplus/ocs/base/task/d;->c:Lcom/oplus/ocs/base/task/OnCanceledListener;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/oplus/ocs/base/task/OnCanceledListener;
+    .locals 2
+
+    iget-object v1, p0, Lcom/oplus/ocs/base/task/d;->b:Ljava/lang/Object;
+
+    monitor-enter v1
+
+    :try_start_0
+    iget-object v0, p0, Lcom/oplus/ocs/base/task/d;->c:Lcom/oplus/ocs/base/task/OnCanceledListener;
+
+    monitor-exit v1
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+.end method
+
+.method public final a(Lcom/oplus/ocs/base/task/Task;)V
+    .locals 2
+
+    const-string v0, "Task is not null"
+
+    invoke-static {p1, v0}, Lcom/oplus/ocs/base/utils/d;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    invoke-virtual {p1}, Lcom/oplus/ocs/base/task/Task;->isCanceled()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v1, p0, Lcom/oplus/ocs/base/task/d;->b:Ljava/lang/Object;
+
+    monitor-enter v1
+
+    :try_start_0
+    iget-object v0, p0, Lcom/oplus/ocs/base/task/d;->c:Lcom/oplus/ocs/base/task/OnCanceledListener;
+
+    if-nez v0, :cond_0
+
+    monitor-exit v1
+
+    return-void
+
+    :cond_0
+    monitor-exit v1
+
+    goto :goto_0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    move-exception v0
+
+    :try_start_1
+    monitor-exit v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v0
+
+    :goto_0
+    iget-object v1, p0, Lcom/oplus/ocs/base/task/d;->a:Ljava/util/concurrent/Executor;
+
+    new-instance v0, Lcom/oplus/ocs/base/task/e;
+
+    invoke-direct {v0, p0}, Lcom/oplus/ocs/base/task/e;-><init>(Lcom/oplus/ocs/base/task/d;)V
+
+    invoke-interface {v1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    :cond_1
+    return-void
+.end method

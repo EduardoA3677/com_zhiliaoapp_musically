@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/mrk" n1:background="@drawable/dxm" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:text="@null" style="@style/a6q" />
+    <View n1:layout_gravity="center_horizontal" n1:id="@id/lrj" n1:background="#161823" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:alpha="0.2" />
+    <RelativeLayout n1:id="@id/pby" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp">
+        <X.12q1 n1:id="@id/pbz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" />
+        <X.12nN n1:textColor="?ffc" n1:id="@id/pc0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:text="@null" style="@style/a6s" />
+        <X.12nN n1:textColor="#80161832" n1:id="@id/pbv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:text="@null" n1:layout_below="@id/pc0" n1:layout_marginEnd="34.0dp" style="@style/a7_" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/b01" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp">
+        <X.12q1 n1:id="@id/b09" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" />
+        <X.12nN n1:textColor="?ffc" n1:id="@id/b0_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:text="@null" style="@style/a6s" />
+        <X.12nN n1:textColor="#80161832" n1:id="@id/azo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:text="@null" n1:layout_below="@id/b0_" n1:layout_marginEnd="34.0dp" style="@style/a7_" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/o6i" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp">
+        <X.12q1 n1:id="@id/o6k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" />
+        <X.12nN n1:textColor="?ffc" n1:id="@id/o6l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:text="@null" style="@style/a6s" />
+        <X.12nN n1:textColor="#80161832" n1:id="@id/o6e" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:text="@null" n1:layout_below="@id/o6l" n1:layout_marginEnd="34.0dp" style="@style/a7_" />
+    </RelativeLayout>
+</LinearLayout>

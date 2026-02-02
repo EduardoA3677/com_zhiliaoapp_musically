@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:descendantFocusability="blocksDescendants" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/mcx" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <include n1:visibility="gone" layout="@layout/d5p" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/ltz" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+    <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:background="?bx" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

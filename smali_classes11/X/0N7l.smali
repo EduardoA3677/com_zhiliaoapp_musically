@@ -1,0 +1,25 @@
+.class public final LX/0N7l;
+.super Lcom/google/gson/reflect/TypeToken;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/gson/reflect/TypeToken<",
+        "Ljava/util/List<",
+        "+",
+        "Lcom/ss/android/ugc/aweme/sticker/data/NormalTrackTimeStamp;",
+        ">;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V
+
+    return-void
+.end method

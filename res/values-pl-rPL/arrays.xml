@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Internetowa biblioteka dźwięków</item>
+        <item>Mój dźwięk</item>
+    </string-array>
+    <string-array name="q">
+        <item>Usuń</item>
+        <item>Anuluj</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trendy</item>
+        <item>Najnowsze</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Niedziela</item>
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="a_">
+        <item>chiński uproszczony</item>
+        <item>Tradycyjny chiński</item>
+        <item>angielski</item>
+        <item>Japoński</item>
+        <item>Koreański</item>
+        <item>Rosyjski</item>
+        <item>Indonezyjski</item>
+        <item>Malajski</item>
+        <item>Portugalski</item>
+        <item>Tajski</item>
+        <item>Wietnamski</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normalny</item>
+        <item>Czarny/biały</item>
+        <item>Sztuka</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Wysokie nasycenie</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Sty</item>
+        <item>Lut</item>
+        <item>Mar</item>
+        <item>Kwi</item>
+        <item>Maj</item>
+        <item>Cze</item>
+        <item>Lip</item>
+        <item>Sie</item>
+        <item>Wrz</item>
+        <item>Paź</item>
+        <item>Lis</item>
+        <item>Gru</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Priorytet: zapisywanie danych</item>
+        <item>Priorytet: wysoka rozdzielczość</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Wszyscy</item>
+        <item>Tylko znajomi</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+        <item>Niedziela</item>
+    </string-array>
+</resources>

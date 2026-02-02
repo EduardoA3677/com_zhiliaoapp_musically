@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.notice.api.view.MultiSelectConstraintLayout n1:id="@id/tih" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Ci6 n1:id="@id/niz" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qi" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/fex" n1:visibility="gone" n1:layout_width="@dimen/qc" n1:layout_height="@dimen/yh" n1:contentDescription="starred icon for starred chat cell" n3:bwk="owf" n3:bwr="@id/tif" n3:bxc="owf" n3:fjq="@raw/icon_star_fill" n3:fmy="?rr" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/tif" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="64.0dp" n1:minHeight="64.0dp" n1:layout_marginStart="@dimen/qf" n4:bwk="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/u0n" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n5:bwk="owf" n5:bwr="@id/fev" n5:bx8="@id/tif" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.0Cfp n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/wit" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView n1:ellipsize="end" n1:id="@id/w07" n1:visibility="gone" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:contentDescription="tcm icon for tcm account chat" n1:layout_marginEnd="5.0dp" n5:fjq="@raw/icon_film_star_fill" n5:fmy="?me" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/zh0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="20.0dp" n1:maxLines="1" n1:labelFor="@id/niz" n5:fj2="pv" />
+            <FrameLayout n1:id="@id/uys" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/la0" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/bp7" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="block icon for the chat whose related user has been blocked" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_block" n5:fmy="?zz" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/pan" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="pin icon for the chat which is pinned" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_pin_fill" n5:fmy="?zz" />
+            </LinearLayout>
+        </X.0Cfp>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/ec9" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/kzl" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="4.0dp" />
+            <X.0Cfp n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/g_m" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/l_3" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:bufferType="spannable" n1:maxLines="1" n1:singleLine="true" n5:fj2="px" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_vertical" n1:id="@id/l_9" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n5:fj2="px" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/nsb" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="mute icon alongside the content" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_bell_slash" n5:fmy="?zz" />
+            </X.0Cfp>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/fet" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n5:fj2="q1" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/fev" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="72.0dp" n1:minWidth="60.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="8.0dp" n6:bwk="@id/tih" n6:bwq="@id/tih" n6:bxc="@id/tih" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/fey" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <FrameLayout n1:id="@id/feu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <X.0l1c n1:orientation="vertical" n1:id="@id/zne" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n7:bwt="60.0dp" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/iym" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n8:bwu="0.5" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="vertical" n1:id="@id/znl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n9:bwt="4.0dp" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</com.ss.android.ugc.aweme.notice.api.view.MultiSelectConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/gdf" n1:layout="@layout/fx_" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/avl" n1:layout="@layout/h7b" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginHorizontal="4.0dp" />
+    <ViewStub n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/adi" n1:layout="@layout/h6j" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginHorizontal="4.0dp" />
+    <FrameLayout n1:id="@id/hfv" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ViewStub n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/iil" n1:layout="@layout/h8y" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/ldc" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <FrameLayout n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/geo" n1:background="@drawable/eu0" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n2:br4="?dxb" n2:brl="?c3r" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <ViewStub n1:id="@id/ge4" n1:layout="@layout/fxa" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            </FrameLayout>
+            <X.12nN n1:textSize="13.0dp" n1:textColor="?c3r" n1:layout_gravity="center" n1:id="@id/ger" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n1:text="@null" style="@style/pn" />
+        </LinearLayout>
+        <X.0D0r n1:layout_gravity="center" n1:id="@id/ldd" n1:background="@drawable/em9" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

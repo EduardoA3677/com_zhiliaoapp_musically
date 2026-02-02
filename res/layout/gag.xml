@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/e4g" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="12.0dp" n1:textColor="@color/dl" n1:gravity="start" n1:id="@id/xmu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginRight="32.0dp" n1:text="@null" n1:lineSpacingExtra="3.0sp" n1:translationY="-1.5sp" n1:layout_marginEnd="32.0dp" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/m_2" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="12.0dp" n1:textColor="@color/df" n1:gravity="center" n1:id="@id/y02" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="5.0dp" n1:layout_marginEnd="5.0dp" n2:bp3="btv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:id="@id/zkf" n1:background="@color/c8" n1:layout_width="1.0dp" n1:layout_height="8.0dp" />
+        <X.12nN n1:textSize="12.0dp" n1:textColor="@color/df" n1:gravity="center" n1:id="@id/ymw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:layout_marginStart="5.0dp" n3:bp3="btv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/q36" n1:paddingTop="16.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/q35" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/wk7" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginEnd="16.0dp" n2:bwg="true" n2:bwk="owf" n2:bwr="@id/yw7" n2:bx9="owf" n2:bxc="owf" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12vl n1:textColor="?zy" n1:id="@id/yw7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="@id/wk7" n3:bwq="owf" n3:bx8="@id/wk7" n3:bxc="@id/wk7" n3:fj2="pu" n3:fjs="@raw/icon_chevron_right_slim_thin_ltr" n3:fjv="14.399994dp" n3:fjy="2.8299866dp" n3:fk8="7.1999817dp" n3:fn0="?zy" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

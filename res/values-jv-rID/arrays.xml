@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Kapustakan swara online</item>
+        <item>Swaraku</item>
+    </string-array>
+    <string-array name="q">
+        <item>Busak</item>
+        <item>Wurung</item>
+    </string-array>
+    <string-array name="t">
+        <item>Ngetren</item>
+        <item>Paling anyar</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Minggu</item>
+        <item>Senen</item>
+        <item>Selasa</item>
+        <item>Rebo</item>
+        <item>Kemis</item>
+        <item>Jemuwah</item>
+        <item>Setu</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Mandarin Prasaja</item>
+        <item>Basa Mandarin Tradisional</item>
+        <item>Inggris</item>
+        <item>Basa Jepang</item>
+        <item>Basa Korea</item>
+        <item>Basa Rusia</item>
+        <item>Basa Indonesia</item>
+        <item>Basa Melayu</item>
+        <item>Basa Portugis</item>
+        <item>Basa Thailand</item>
+        <item>Basa Vietnam</item>
+        <item>Basa India</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Ireng/Putih</item>
+        <item>Seni</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Kenthel</item>
+        <item>Krom</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Agu</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Nyimpen data dhisik</item>
+        <item>Resolusi dhuwur dhisik</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Kabeh wong</item>
+        <item>Mung Kanca-kanca</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Senen</item>
+        <item>Selasa</item>
+        <item>Rebo</item>
+        <item>Kemis</item>
+        <item>Jemuwah</item>
+        <item>Setu</item>
+        <item>Minggu</item>
+    </string-array>
+</resources>

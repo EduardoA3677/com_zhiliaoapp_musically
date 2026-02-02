@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:descendantFocusability="blocksDescendants" n1:layout_width="@dimen/ut" n1:layout_height="@dimen/ut" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/gbi" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

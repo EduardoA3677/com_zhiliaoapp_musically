@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12vY n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bps="@array/bi" n2:bpu="wv2" n2:bpv="@array/bj" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0D0r n1:id="@id/b8p" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n3:bwk="owf" n3:bwl="@id/yaj" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:bxe="ori" n3:ey2="true" n3:eyo="@color/bk" n3:eyq="1.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/b80" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n4:bwk="@id/b8p" n4:bwq="@id/b8p" n4:bx9="@id/b8p" n4:bxc="@id/b8p" n4:ey2="true" n4:eyo="@color/bk" n4:eyq="1.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="@color/a2z" n1:id="@id/yaj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/b8p" style="@style/qa" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

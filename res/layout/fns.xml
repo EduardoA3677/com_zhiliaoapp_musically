@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/vwx" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.136r n1:textColor="?so" n1:gravity="start|top" n1:id="@id/vwt" n1:padding="16.0dp" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="116.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginRight="16.0dp" n1:fadeScrollbars="true" n1:textCursorDrawable="@drawable/deu" n1:layout_marginHorizontal="16.0dp" n2:fj2="p_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/vwu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/vwv" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_exclamation_mark_triangle_fill" n3:fmy="?y7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a00" n1:layout_gravity="center_vertical" n1:id="@id/vww" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="4.0dp" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/vwz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" n1:layout_marginStart="24.0dp" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/vwy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="/200" n6:fj2="px" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,357 @@
+.class public final LX/0KJB;
+.super LX/13M6;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/13M6<",
+        "LX/0KJC;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public LL:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/ClickSearchWord;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public LLILIL:Lcom/ss/android/ugc/aweme/search/source/neo/ISearchContextAbility;
+
+.field public LLILL:LX/0Klx;
+
+.field public LLILLIZIL:LX/0KF0;
+
+.field public LLILLJJLI:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, LX/13M6;-><init>()V
+
+    sget-object v0, LX/0Pgk;->INSTANCE:LX/0Pgk;
+
+    iput-object v0, p0, LX/0KJB;->LL:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getItemCount()I
+    .locals 1
+
+    iget-object v0, p0, LX/0KJB;->LL:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+    .locals 9
+
+    move-object v5, p1
+
+    check-cast v5, LX/0KJC;
+
+    iget-object v0, p0, LX/0KJB;->LL:Ljava/util/List;
+
+    invoke-static {v0, p2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/ClickSearchWord;
+
+    iget-object v0, p0, LX/0KJB;->LLILIL:Lcom/ss/android/ugc/aweme/search/source/neo/ISearchContextAbility;
+
+    iget-object v6, p0, LX/0KJB;->LLILL:LX/0Klx;
+
+    iget-object v7, p0, LX/0KJB;->LLILLJJLI:Ljava/lang/String;
+
+    iget-object v8, p0, LX/0KJB;->LLILLIZIL:LX/0KF0;
+
+    iput-object v4, v5, LX/0KJC;->LLILLJJLI:Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/ClickSearchWord;
+
+    iput-object v7, v5, LX/0KJC;->LLILLL:Ljava/lang/String;
+
+    if-eqz v4, :cond_0
+
+    iput-object v0, v5, LX/0KJC;->LLILIL:Lcom/ss/android/ugc/aweme/search/source/neo/ISearchContextAbility;
+
+    iput-object v6, v5, LX/0KJC;->LLILL:LX/0Klx;
+
+    iput-object v8, v5, LX/0KJC;->LLILLIZIL:LX/0KF0;
+
+    iget-object v2, v5, LX/0KJC;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    iget-object v0, v5, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    new-instance v1, LX/0KJD;
+
+    invoke-direct {v1, v5, v0}, LX/0KJD;-><init>(LX/0KJC;Landroid/content/Context;)V
+
+    new-instance v0, LX/0KG6;
+
+    invoke-direct {v0, v4, v5, v6}, LX/0KG6;-><init>(Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/ClickSearchWord;LX/0KJC;LX/0Klx;)V
+
+    iput-object v0, v1, LX/0KSZ;->LLILZ:LX/0KSa;
+
+    new-instance v3, LX/0KG5;
+
+    invoke-direct/range {v3 .. v8}, LX/0KG5;-><init>(Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/ClickSearchWord;LX/0KJC;LX/0Klx;Ljava/lang/String;LX/0KF0;)V
+
+    iput-object v3, v1, LX/0KSZ;->LLILZIL:Landroid/view/View$OnTouchListener;
+
+    invoke-virtual {v2, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+
+    iget-object v1, v5, LX/0KJC;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    iget-object v0, v4, Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/ClickSearchWord;->word:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    .locals 6
+
+    const-string v4, "onCreateViewHolder getParent() != null crash hook, holder "
+
+    sget v0, LX/0KJC;->LLILZ:I
+
+    new-instance v3, Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v5
+
+    const/4 v1, 0x0
+
+    const/4 v0, 0x6
+
+    const/4 v2, 0x0
+
+    invoke-direct {v3, v5, v1, v0, v2}, Lcom/bytedance/tux/input/TuxTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+    const/4 v0, -0x2
+
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setWidth(I)V
+
+    sget v0, LX/0KJC;->LLILZLL:I
+
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setHeight(I)V
+
+    const/4 v0, 0x5
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->setTextDirection(I)V
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->setTextAlignment(I)V
+
+    sget v0, LX/0KJC;->LLILZ:I
+
+    invoke-virtual {v3, v0, v2, v0, v2}, Landroid/widget/TextView;->setPaddingRelative(IIII)V
+
+    const/4 v0, 0x2
+
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setMaxLines(I)V
+
+    sget-object v0, Landroid/text/TextUtils$TruncateAt;->END:Landroid/text/TextUtils$TruncateAt;
+
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const v0, 0x7f060016
+
+    invoke-static {v0, v1}, LX/0YcJ;->LIZJ(ILandroid/content/Context;)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    :cond_0
+    invoke-virtual {v3, v2}, Landroid/view/View;->setBackgroundColor(I)V
+
+    const v0, 0x7f060393
+
+    invoke-virtual {v3, v0}, Lcom/bytedance/tux/input/TuxTextView;->setTextColorRes(I)V
+
+    const/16 v0, 0x34
+
+    invoke-virtual {v3, v0}, Lcom/bytedance/tux/input/TuxTextView;->setTuxFont(I)V
+
+    const v0, 0x800013
+
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setGravity(I)V
+
+    const v0, 0x7f0b6703
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->setId(I)V
+
+    new-instance v2, LX/0KJC;
+
+    invoke-direct {v2, v3}, LX/0KJC;-><init>(Lcom/bytedance/tux/input/TuxTextView;)V
+
+    :try_start_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-eqz v3, :cond_1
+
+    invoke-static {p1}, LX/05Ro;->LIZ(Landroid/view/View;)Landroidx/fragment/app/Fragment;
+
+    move-result-object v1
+
+    const v0, 0x7f0b17d6
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    :cond_1
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const v0, 0x7f0b7c70
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+
+    :try_start_1
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    const/4 v3, 0x1
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    :try_start_2
+    invoke-static {}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZLLL()Lcom/bytedance/ies/abmock/SettingsManager;
+
+    move-result-object v1
+
+    const-string v0, "catch_onCreateViewHolder_crash"
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v0, v3}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZ(Ljava/lang/String;Z)Z
+
+    move-result v3
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catch_0
+    if-eqz v3, :cond_2
+
+    :try_start_3
+    new-instance v1, Ljava/lang/StringBuffer;
+
+    invoke-direct {v1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+
+    const-class v0, LX/0KJC;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " parent "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " viewType "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuffer;->append(I)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0tSY;->LIZJ(Ljava/lang/String;)V
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_2
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-static {v0, v1}, LX/0X3I;->LJJIZ(Landroid/view/View;Landroid/view/ViewGroup;)V
+
+    goto :goto_0
+    :try_end_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+
+    :catch_1
+    move-exception v0
+
+    invoke-static {v0}, LX/0H5y;->LIZ(Ljava/lang/Exception;)V
+
+    invoke-static {v0}, LX/0YM6;->LIZ(Ljava/lang/Exception;)V
+
+    :cond_2
+    :goto_0
+    const-class v0, LX/0KJC;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, LX/0RKz;->LIZ:Ljava/lang/String;
+
+    return-object v2
+.end method

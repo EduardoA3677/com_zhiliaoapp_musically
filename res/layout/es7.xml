@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hbh" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/rld" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/vjd" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="top" n1:id="@id/pmi" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:layout_gravity="top" n1:id="@id/qb4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

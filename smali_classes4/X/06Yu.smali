@@ -1,0 +1,34 @@
+.class public final LX/06Yu;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/06Yt;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(Ljava/util/Map;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    return-void
+.end method

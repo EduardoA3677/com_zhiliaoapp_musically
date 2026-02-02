@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="external_path" path="." />
+    <external-path name="share_path0" path="share/" />
+    <external-path name="download_path2" path="Download/" />
+    <external-path name="dcim" path="dcim/" />
+    <external-path name="dcim2" path="DCIM/" />
+    <external-path name="movies" path="Movies/" />
+    <external-path name="tiktok" path="TIKTOK/" />
+    <external-files-path name="gif3" path="cache/gif/" />
+    <external-files-path name="share_path1" path="share/" />
+    <external-files-path name="install_path" path="update/" />
+    <external-files-path name="livewallpaper" path="livewallpaper/" />
+    <external-files-path name="dcim3" path="DCIM/" />
+    <external-files-path name="external_files_path" path="." />
+    <external-cache-path name="share_image_path0" path="picture/" />
+    <external-cache-path name="share_image_path2" path="head/" />
+    <external-cache-path name="share_image_path3" path="feedback/" />
+    <external-cache-path name="share_image_path4" path="tmpimages/" />
+    <external-cache-path name="external_cache_ttlive" path="ttlive/" />
+    <external-cache-path name="external_cache_path" path="." />
+    <cache-path name="cache_cke" path="cke/" />
+    <cache-path name="cache_live" path="live/" />
+    <cache-path name="cache_ttlive" path="ttlive/" />
+    <cache-path name="xbridge" path="xbridge/" />
+    <cache-path name="share_image_path1" path="picture/" />
+    <cache-path name="share_image_path3" path="head/" />
+    <cache-path name="share_image_path4" path="tmpimages/" />
+    <cache-path name="share_sdk_path_0" path="share_content_cache/" />
+    <cache-path name="live_share" path="live_share/" />
+    <cache-path name="gif" path="gif/" />
+    <files-path name="gif2" path="cache/gif/" />
+    <files-path name="files_creative_tool" path="CreativeTool/" />
+    <files-path name="jsbdownload" path="jsbdownload" />
+</paths>

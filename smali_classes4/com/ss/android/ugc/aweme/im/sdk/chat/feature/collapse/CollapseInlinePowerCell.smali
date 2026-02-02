@@ -1,0 +1,46 @@
+.class public final Lcom/ss/android/ugc/aweme/im/sdk/chat/feature/collapse/CollapseInlinePowerCell;
+.super Lcom/bytedance/ext_power_list/AssemPowerCell;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/bytedance/ext_power_list/AssemPowerCell<",
+        "Lcom/ss/android/ugc/aweme/im/sdk/chat/feature/collapse/CollapseInlineAssem;",
+        "LX/08Ko;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/bytedance/ext_power_list/AssemPowerCell;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onBindItemView(LX/0jXU;)V
+    .locals 0
+
+    invoke-super {p0, p1}, Lcom/bytedance/ext_power_list/AssemPowerCell;->onBindItemView(LX/0jXU;)V
+
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getLayoutPosition()I
+
+    return-void
+.end method
+
+.method public final y6()Lcom/bytedance/assem/arch/reused/ReusedUISlotAssem;
+    .locals 1
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/im/sdk/chat/feature/collapse/CollapseInlineAssem;
+
+    invoke-direct {v0}, Lcom/ss/android/ugc/aweme/im/sdk/chat/feature/collapse/CollapseInlineAssem;-><init>()V
+
+    return-object v0
+.end method

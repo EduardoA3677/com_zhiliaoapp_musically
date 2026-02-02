@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/iu4" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <FrameLayout n1:gravity="center" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.12ij n1:gravity="center" n1:layout_gravity="center" n1:id="@id/y3h" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/y3e" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="p0" n2:fl1="15.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="?y4" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/a6y" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0oCE n1:id="@id/nc2" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/a6y" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ls_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:layout_alignParentBottom="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp">
+        <X.0D2z n1:textColor="?zw" n1:id="@id/cax" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n3:fib="l9r" n3:fid="t69" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

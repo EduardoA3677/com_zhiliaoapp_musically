@@ -1,0 +1,62 @@
+.class public interface abstract LX/0tTT;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseParamModel;
+
+
+# annotations
+.annotation runtime LX/03l0;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0tTR;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract getEnterFrom()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "enterFrom"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract getMerchantId()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "merchantId"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract getMerchantUid()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "merchantUid"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract getRequestId()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "requestId"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract getShowInAppPopupIfUndecided()Ljava/lang/Boolean;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "showInAppPopupIfUndecided"
+        required = false
+    .end annotation
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ogm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/ogu" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:foreground="?eam" n1:scaleType="fitXY" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/ogr" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0egx n1:id="@id/voice_wave_with_dress" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwk="@id/ogr" n4:bwq="@id/ogr" n4:bx9="@id/ogr" n4:bxc="@id/ogr" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/oh3" n1:visibility="invisible" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?fem" n1:gravity="center" n1:id="@id/xu7" n1:background="@drawable/f2b" n1:visibility="gone" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n6:bwk="@id/ogr" n6:bx3="@id/ogr" n6:bx7="@id/ogr" n6:bxc="@id/ogr" style="@style/a6k" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/k1l" n1:background="@drawable/azq" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:id="@id/rhs" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n2:bx9="owf" n2:bxc="owf" n2:fj2="qg" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/eaz" n1:padding="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/xk2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:fj2="pz" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/xk3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n3:fj2="q1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?g5" n1:id="@id/xka" n1:background="@drawable/azl" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" n3:fj2="qd" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/xiv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n3:fj2="qc" />
+        <X.12xb n1:id="@id/qza" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n3:bjf="@drawable/b4m" n3:bo0="wrap" n3:f21="n8a">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?g5" n1:ellipsize="end" n1:id="@id/xj9" n1:background="@drawable/azl" n1:paddingTop="@dimen/qm" n1:paddingBottom="@dimen/qm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:paddingStart="@dimen/qz" n1:paddingEnd="@dimen/qz" n1:layout_marginEnd="@dimen/r5" n3:fj2="qd" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?g5" n1:ellipsize="end" n1:id="@id/xjz" n1:background="@drawable/azl" n1:paddingTop="@dimen/qm" n1:paddingBottom="@dimen/qm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:paddingStart="@dimen/qz" n1:paddingEnd="@dimen/qz" n1:layout_marginEnd="@dimen/r5" n3:fj2="qd" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?g5" n1:ellipsize="end" n1:id="@id/xj8" n1:background="@drawable/azl" n1:paddingTop="@dimen/qm" n1:paddingBottom="@dimen/qm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:paddingStart="@dimen/qz" n1:paddingEnd="@dimen/qz" n3:fj2="qd" />
+        </X.12xb>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/xhi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n3:fj2="qc" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/xj_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?a02" n1:id="@id/xjb" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="qf" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/xja" n1:focusable="false" n1:visibility="visible" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="-2.0dp" n3:fjq="@raw/icon_chevron_right_offset_small_ltr" n3:fmy="?a02" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

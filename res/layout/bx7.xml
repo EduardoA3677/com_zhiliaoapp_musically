@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D1z n1:layout_gravity="center" n1:id="@id/tcr" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="@dimen/qu" n2:bwk="owf" n2:bwr="@id/td7" n2:bx9="owf" n2:bxc="owf" n2:etn="?br" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/td7" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n3:bwk="owf" n3:bwr="@id/tcv" n3:bx8="@id/tcr" n3:bxc="owf" n3:bxg="wrap" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D1z n1:layout_gravity="center" n1:id="@id/tcv" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_marginStart="@dimen/qu" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/td7" n4:bxc="owf" n4:etn="?br" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

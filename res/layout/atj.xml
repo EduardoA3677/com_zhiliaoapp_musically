@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/zqv" n1:paddingLeft="12.0dp" n1:paddingTop="@dimen/qf" n1:paddingRight="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="12.0dp" n2:bwl="@id/byr" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <FrameLayout n1:layout_width="56.0dp" n1:layout_height="56.0dp">
+        <X.1295 n1:id="@id/zqn" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="d4s" n2:eyl="@dimen/b9" />
+        <FrameLayout n1:layout_gravity="end|top" n1:id="@id/f14" n1:layout_width="30.0dp" n1:layout_height="30.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/f12" n1:padding="2.0dp" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_x_mark_small" n2:fjt="16.0dp" n2:fjz="true" n2:fk6="16.0dp" n2:fmy="?e0" />
+        </FrameLayout>
+        <View n1:id="@id/qdn" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

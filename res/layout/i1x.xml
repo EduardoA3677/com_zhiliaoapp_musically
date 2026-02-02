@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="center" n1:layout_width="80.0dp" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/hen" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginTop="12.0dp" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true">
+        <X.12AJ n1:id="@id/l39" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_margin="2.0dp" n1:antialias="true" n2:etn="@drawable/ceo" n2:eyl="@dimen/b8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kx3" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="centerInside" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" />
+        <ImageView n1:id="@id/zyt" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:src="@drawable/ar_" />
+    </RelativeLayout>
+</RelativeLayout>

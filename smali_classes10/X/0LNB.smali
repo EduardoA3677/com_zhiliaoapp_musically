@@ -1,0 +1,31 @@
+.class public final LX/0LNB;
+.super LX/0KTa;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0KTa<",
+        "LX/0LNB;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const-string v0, "mt_report_submit_success"
+
+    invoke-direct {p0, v0}, LX/0KTa;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

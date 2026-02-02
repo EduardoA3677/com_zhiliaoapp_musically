@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/view_stub_no_media_permission" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/io5" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0HU2 n1:id="@id/idr" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="@color/uk" n1:layout_gravity="center" n1:id="@id/y3j" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/view_stub_multi_select_view" n1:layout="@layout/rg" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="24.0dp" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp" />
+        <X.0Chg n1:id="@id/ztr" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <include n1:layout_gravity="center_horizontal" n1:id="@id/aec" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:layout_marginTop="15.0dp" layout="@layout/kn" />
+        <include n1:layout_gravity="center_horizontal" n1:id="@id/m3z" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:layout_marginTop="15.0dp" layout="@layout/dlt" />
+    </FrameLayout>
+</FrameLayout>

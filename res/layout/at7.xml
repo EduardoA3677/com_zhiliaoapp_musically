@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/s5a" n1:layout_width="match_parent" n1:layout_height="match_parent" layout="@layout/ate" />
+    <X.0oBn n1:layout_gravity="center" n1:id="@id/mjj" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+</FrameLayout>

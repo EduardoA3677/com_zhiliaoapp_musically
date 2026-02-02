@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Βιβλιοθήκη ήχων online</item>
+        <item>Ο ήχος μου</item>
+    </string-array>
+    <string-array name="l">
+        <item>Καθαρισμός</item>
+    </string-array>
+    <string-array name="q">
+        <item>Διαγραφή</item>
+        <item>Ακύρωση</item>
+    </string-array>
+    <string-array name="t">
+        <item>Δημοφιλή</item>
+        <item>Πιο πρόσφατα</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Απλοποιημένα Κινέζικα</item>
+        <item>Παραδοσιακά κινεζικά</item>
+        <item>Αγγλικά</item>
+        <item>Ιαπωνικά</item>
+        <item>Κορεάτικα</item>
+        <item>Ρωσικά</item>
+        <item>Ινδονησιακά</item>
+        <item>Μαλαϊκά</item>
+        <item>Πορτογαλικά</item>
+        <item>Ταϊλανδέζικα</item>
+        <item>Βιετναμέζικα</item>
+        <item>Χίντι</item>
+    </string-array>
+    <string-array name="ab">
+        <item>1X</item>
+        <item>Ασπρόμαυρο</item>
+        <item>Τέχνες</item>
+        <item>Εποχής</item>
+        <item>Φίλτρο Retrolux</item>
+        <item>Κορεσμένο</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Ιαν.</item>
+        <item>Φεβ.</item>
+        <item>Μαρ.</item>
+        <item>Απρ.</item>
+        <item>Μάιος</item>
+        <item>Ιούν.</item>
+        <item>Ιούλ.</item>
+        <item>Αύγ.</item>
+        <item>Σεπ.</item>
+        <item>Οκτ.</item>
+        <item>Νοέμ.</item>
+        <item>Δεκ.</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Προτεραιότητα στην εξοικονόμηση δεδομένων</item>
+        <item>Προτεραιότητα στην υψηλή ανάλυση</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Όλοι</item>
+        <item>Μόνο φίλοι</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+        <item>Κυριακή</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hyn" n1:layout_width="100.0dp" n1:layout_height="100.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/s4n" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|top" n1:id="@id/pg3" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="4.0dp" n1:scaleType="fitCenter" n1:contentDescription="play_icon" n1:layout_marginStart="4.0dp" n2:fjq="@drawable/c15" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="end|bottom" n1:id="@id/fc9" n1:background="?xr" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:paddingBottom="2.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="4.0dp" n3:bgh="@dimen/b1" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?gy" n1:id="@id/fc8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="qd" />
+    </com.bytedance.tux.widget.RadiusLayout>
+</FrameLayout>

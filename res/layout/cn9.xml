@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/rbe" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/rbf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</FrameLayout>

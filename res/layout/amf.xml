@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:foreground="@drawable/b4q" n2:ba3="@color/a10" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/ax_" n1:paddingLeft="@dimen/qf" n1:paddingTop="@dimen/r5" n1:paddingRight="@dimen/qf" n1:paddingBottom="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/qf" n1:paddingVertical="@dimen/r5">
+        <LinearLayout n1:gravity="top" n1:orientation="vertical" n1:id="@id/ll8" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:layout_marginEnd="@dimen/r5" n2:bwk="owf" n2:bx3="owf" n2:bx6="@id/n8f" n2:bxc="owf" />
+        <LinearLayout n1:gravity="start" n1:orientation="vertical" n1:id="@id/n8f" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="@dimen/r5" n2:bwk="owf" n2:bx4="@id/ll8" n2:bx6="@id/s8g" n2:bxc="owf" n2:bxz="0.0dp" n2:by2="0.0dp" />
+        <LinearLayout n1:gravity="top" n1:orientation="vertical" n1:id="@id/s8g" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n2:bwk="owf" n2:bx4="@id/n8f" n2:bx7="owf" n2:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

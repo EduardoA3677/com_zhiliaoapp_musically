@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/lpq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" n1:paddingStart="10.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ks2" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="20.0dp" n1:layout_height="24.0dp" n1:paddingStart="1.0dp" n1:paddingEnd="1.0dp" n2:fjq="@raw/icon_heart_fill" n2:fmy="?yi" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kl6" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="20.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:paddingStart="1.0dp" n1:paddingEnd="1.0dp" n3:fjq="@raw/icon_heart" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="start|center" n1:id="@id/y7l" n1:paddingTop="2.0dp" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:minWidth="26.0dp" n1:maxLines="1" n1:layout_marginStart="2.0dp" n1:layout_toEndOf="@id/kl6" n4:fj2="q1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/ip8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" n1:layout_toEndOf="@id/lpq">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kp4" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="40.0dp" n1:layout_height="24.0dp" n1:rotation="180.0" n1:paddingStart="11.0dp" n1:paddingEnd="11.0dp" n5:fjq="@raw/icon_thumbs_up_fill" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/l37" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="40.0dp" n1:layout_height="24.0dp" n1:rotation="180.0" n1:importantForAccessibility="no" n1:paddingStart="11.0dp" n1:paddingEnd="11.0dp" n6:fjq="@raw/icon_thumbs_up" n6:fmy="?zz" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</RelativeLayout>

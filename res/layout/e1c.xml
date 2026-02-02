@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/c5n" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oBn n1:layout_gravity="center_horizontal" n1:id="@id/fu8" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="10.0dp" />
+    <FrameLayout n1:id="@id/t4_" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/sy3" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/uw7" n1:background="?y1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <X.0oCE n1:id="@id/fu9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.05Sw n1:id="@id/ftf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <FrameLayout n1:layout_gravity="end|bottom" n1:id="@id/t4m" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout n1:id="@id/dkw" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/zl1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/zl0" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.12nR>

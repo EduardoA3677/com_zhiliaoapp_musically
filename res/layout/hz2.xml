@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/anb" n1:layout_width="106.0dp" n1:layout_height="141.0dp" n1:layout_marginStart="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/cz1" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="1.0dp">
+        <FrameLayout n1:id="@id/zqd" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kjf" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:etn="?yh" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.11RT n1:id="@id/myz" n1:layout_width="match_parent" n1:layout_height="58.0dp" n1:layout_alignParentBottom="true" n3:fi7="0.0" n3:fiy="0.5" n3:flv="?dm" n3:flw="frs" n3:fm_="zn0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kw_" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_centerInParent="true" n1:importantForAccessibility="no" n4:fjq="@raw/icon_play_fill" n4:fjt="22.0dp" n4:fjz="true" n4:fk6="22.0dp" n4:fmy="?y0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j3b" n1:layout_width="12.789978dp" n1:layout_height="12.789978dp" n1:layout_marginBottom="7.0dp" n1:layout_alignParentBottom="true" n1:importantForAccessibility="no" n1:layout_marginStart="6.399994dp" n5:fjq="@raw/icon_like" n5:fmy="?xx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/y7k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="6.399994dp" n1:layout_alignParentBottom="true" n1:layout_marginStart="21.199982dp" n6:fj2="qc" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:gravity="center" n1:id="@id/cgi" n1:background="@drawable/a80" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="28.0dp" n1:layout_marginLeft="6.0dp" n1:layout_marginRight="6.0dp" n1:layout_marginBottom="6.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n1:layout_marginHorizontal="6.0dp" n7:fj2="q2" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:id="@id/xc9" n1:padding="12.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:flz="true" n2:fm4="2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:fly="160.0dp" n2:fm0="80%" n2:fm4="12.0dp" n2:fm7="mzu" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/hvi" />
+    </LinearLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

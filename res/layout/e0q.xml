@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/v33" n1:visibility="gone" n1:layout_width="86.0dp" n1:layout_height="86.0dp" n1:layout_marginStart="-100.0dp">
+        <X.0D0r n1:id="@id/ltc" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/lta" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:ey2="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/v34" n1:visibility="gone" n1:layout_width="346.0dp" n1:layout_height="346.0dp" n1:layout_marginStart="-500.0dp">
+        <X.0D0r n1:id="@id/ltd" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bwk="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/ltb" n1:layout_width="76.0dp" n1:layout_height="76.0dp" n1:layout_marginTop="92.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" n5:ey2="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ffc" n1:ellipsize="end" n1:id="@id/ltf" n1:layout_width="wrap_content" n1:layout_height="18.0dp" n1:maxLines="1" n1:paddingStart="72.0dp" n1:paddingEnd="72.0dp" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/ltb" style="@style/a74" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="26.0sp" n1:textColor="?ffc" n1:gravity="center_horizontal" n1:id="@id/lte" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="72.0dp" n1:paddingEnd="72.0dp" n7:bp3="btv" n7:bwq="owf" n7:bx9="owf" n7:bxb="@id/ltf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/ltg" n1:layout_width="166.0dp" n1:layout_height="31.0dp" n8:bwq="owf" n8:bx9="owf" n8:bxb="@id/lte" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

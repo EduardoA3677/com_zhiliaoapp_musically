@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/nd0" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/el2" n1:layout_width="64.0dp" n1:layout_height="84.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginStart="16.0dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/elf" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bne="@color/b_" n2:etn="@color/b_" n2:eyl="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/eep" />
+    </FrameLayout>
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="56.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="56.0dp" n1:layout_toEndOf="@id/el2">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/ncu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="3" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_below="@id/ncu">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ncv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="12.0dp" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ncy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView n1:id="@id/krm" n1:visibility="visible" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/cfx" n1:scaleType="center" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+    <X.0Ci6 n1:id="@id/j3a" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" n6:fih="dbb" n6:fii="n2i" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

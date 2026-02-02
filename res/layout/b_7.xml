@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:id="@id/ovi" n1:background="?y4" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="220.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/rmz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/up1" n1:paddingTop="14.0dp" n1:paddingBottom="20.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/uor" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:id="@id/cef" n1:layout_width="88.0dp" n1:layout_height="28.0dp" n1:layout_marginTop="20.0dp" n1:text="@null" n3:fib="wf4" n3:fid="t69" n3:fk4="@raw/icon_arrow_clockwise" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.status.loading.TuxSpinner n1:layout_gravity="center" n1:id="@id/r1h" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n4:fmy="?a04" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

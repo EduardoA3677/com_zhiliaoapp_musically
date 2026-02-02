@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/wgu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="21.0dp" n1:layout_marginBottom="16.0dp">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/wgv" n1:layout_width="0.0px" n1:layout_height="21.0dp" n2:b41="d4v" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <ImageView n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:src="@drawable/bv7" />
+            <ImageView n1:layout_width="40.5dp" n1:layout_height="18.0dp" n1:src="@drawable/bv6" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/npy" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingEnd="8.0dp" />
+        <X.0oCE n1:id="@id/nqo" n1:background="?bx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fkf="h_s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

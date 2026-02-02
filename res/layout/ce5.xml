@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:elevation="4.0dp" n2:ba3="?zs" n2:ba4="@dimen/b5" n2:ba9="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/ogh" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginVertical="4.0dp" n1:paddingVertical="6.0dp">
+        <Space n1:layout_width="15.0dp" n1:layout_height="wrap_content" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ct9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n2:fjq="@raw/icon_color_ai_group_shot" n2:fjt="26.0dp" n2:fk6="26.0dp" />
+        <Space n1:layout_width="8.0dp" n1:layout_height="wrap_content" />
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/ig7" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp" n2:fj2="pu" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/l47" n1:paddingLeft="10.0dp" n1:paddingRight="10.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@null" n1:maxLines="2" n1:paddingHorizontal="10.0dp" n2:fj2="p7" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/fc3" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="5.0dp" n1:paddingVertical="5.0dp" n2:fjq="@raw/icon_x_mark" n2:fjt="16.0dp" n2:fk6="16.0dp" n2:fmy="?zz" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

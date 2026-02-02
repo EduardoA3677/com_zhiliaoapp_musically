@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/e92" n1:background="@drawable/dui" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <EditText n1:id="@id/wi_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:hint="please input title" n1:inputType="textMultiLine" style="@style/a6s" />
+    <X.12pz n1:id="@id/wi9" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="29.0dp" n1:text="@null" n1:layout_marginHorizontal="32.0dp" style="@style/ahs" />
+</LinearLayout>

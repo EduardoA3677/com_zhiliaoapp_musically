@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/wo" n1:id="@id/sf8" n1:background="?xv" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|top" n1:id="@id/j8i" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:contentDescription="icon" n1:layout_marginStart="16.0dp" n2:fjq="@raw/icon_bitmap_live_daily_ranking_fire" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_gravity="center_vertical" n1:id="@id/wk7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:paddingStart="40.0dp" n1:paddingEnd="32.0dp" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="end" n1:id="@id/djv" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/djp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="close icon" n4:fjq="@raw/icon_x_mark" n4:fjt="16.0dp" n4:fk6="16.0dp" n4:fmy="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</FrameLayout>

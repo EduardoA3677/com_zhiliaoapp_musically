@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/hla" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bwr="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/hll" n1:layout_width="90.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="3.0dp" n3:bx9="owf" n3:bxc="owf" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0qMv n1:textColor="?yi" n1:id="@id/hlc" n1:layout_width="60.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="6.0dp" n1:text="@null" n1:textAlignment="center" n1:layout_marginEnd="10.0dp" n4:bwq="owf" n4:bxc="owf" n4:fib="wf4" n4:fj2="q2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/rsc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:layout_marginStart="10.0dp" n5:bx9="owf" n5:bxb="@id/hll" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n1:layout_marginEnd="10.0dp" n6:bwq="owf" n6:bxb="@id/hlc" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?bo" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/hl1" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="2.0dp" n6:fj2="q1" />
+        <X.0DQh n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/hl2" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n6:fj2="q1" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

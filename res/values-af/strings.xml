@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Aktiveer</string>
+    <string name="en0">%1$s sal nie werk nie tensy jy Google Play Dienste aktiveer.</string>
+    <string name="en1">Aktiveer Google Play Dienste</string>
+    <string name="en2">Installeer</string>
+    <string name="en3">%1$s sal nie sonder Google Play Dienste werk nie, wat nie op jou toestel is nie.</string>
+    <string name="en4">Kry Google Play Dienste</string>
+    <string name="en5">Beskikbaarheid van Google Play Dienste</string>
+    <string name="en6">Google Play Services-fout</string>
+    <string name="en7">%1$s ondervind probleme met Google Play Dienste. Probeer asseblief weer.</string>
+    <string name="en8">%1$s sal nie werk sonder Google Play Dienste nie, wat nie deur jou toestel gesteun word nie.</string>
+    <string name="en9">Dateer op</string>
+    <string name="en_">%1$s sal nie werk nie tensy jy Google Play Dienste opdateer.</string>
+    <string name="ena">Dateer Google Play Dienste op</string>
+    <string name="enb">%1$s sal nie sonder Google Play Dienste werk nie, wat tans opdateer.</string>
+    <string name="enc">Nuwe weergawe van Google Play Dienste is nodig. Dit sal binnekort self opdateer.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/k2n" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="@dimen/qk" n1:layout_marginStart="@dimen/qz" n1:layout_marginEnd="@dimen/qz" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:id="@id/k2m" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:ffh="@dimen/qf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/myl" n1:background="@drawable/du7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="70.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/bru" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.0nJk n1:id="@id/brt" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </RelativeLayout>
+    <X.12nN n1:textColor="?eju" n1:id="@id/rk2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="9.0dp" n1:paddingStart="@dimen/r5" n1:paddingEnd="@dimen/r5" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" style="@style/a7b" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

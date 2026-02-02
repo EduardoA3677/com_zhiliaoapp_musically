@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:paddingLeft="@dimen/qc" n1:paddingRight="@dimen/qc" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="@dimen/qc" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="match_parent" n2:ba4="12.0dp" n2:ba5="4.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0D0r n1:id="@id/jo3" n1:background="?zr" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:scaleType="centerCrop" n1:contentDescription="image" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+            <FrameLayout n1:id="@id/zqd" n1:background="?xo" n1:visibility="invisible" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="@id/jo3" n2:bwq="@id/jo3" n2:bx9="@id/jo3" n2:bxc="@id/jo3" />
+            <X.11RT n1:id="@id/whz" n1:layout_width="0.0dp" n1:layout_height="100.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:fi7="0.0" n2:fiy="0.5" n2:flv="?xo" n2:flw="frs" n2:fm_="zn0" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/whs" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qc" n1:layout_marginRight="@dimen/qc" n1:layout_marginBottom="@dimen/qc" n1:layout_marginHorizontal="@dimen/qc" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="start" n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_marginEnd="@dimen/r5" n2:bwk="owf" n2:bwr="@id/fq3" n2:bx9="owf" n2:bxz="@dimen/qa" n2:fj2="pz" n2:fl1="16.0dp" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/fq3" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="duration" n1:layout_marginEnd="4.0dp" n2:bwk="@id/fpl" n2:bwr="@id/fpl" n2:bxc="@id/fpl" n2:fjq="@raw/icon_play" n2:fmy="?xx" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:gravity="start" n1:id="@id/fpl" n1:layout_width="40.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n2:bwk="@id/title" n2:bwq="owf" n2:fj2="px" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/ox9" n1:visibility="invisible" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="pause" n2:bwk="@id/jo3" n2:bwq="@id/jo3" n2:bx9="@id/jo3" n2:bxc="@id/jo3" n2:fjq="@raw/icon_pause_fill" n2:fmy="?xx" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/pfq" n1:visibility="invisible" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="play" n2:bwk="@id/jo3" n2:bwq="@id/jo3" n2:bx9="@id/jo3" n2:bxc="@id/jo3" n2:fjq="@raw/icon_play_fill" n2:fmy="?xx" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/s1t" n1:visibility="invisible" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="resume" n2:bwk="@id/jo3" n2:bwq="@id/jo3" n2:bx9="@id/jo3" n2:bxc="@id/jo3" n2:fjq="@raw/icon_play_fill" n2:fmy="?xx" />
+            <com.bytedance.tux.status.loading.TuxSpinner n1:id="@id/mjn" n1:visibility="invisible" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:bwk="@id/jo3" n2:bwq="@id/jo3" n2:bx9="@id/jo3" n2:bxc="@id/jo3" n2:fjq="@raw/icon_spinner_thin" n2:fmy="?xx" />
+            <X.11RT n1:id="@id/ebn" n1:visibility="invisible" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fi7="0.5" n2:fiy="0.5" n2:flv="?xo" />
+            <com.bytedance.tux.tag.TuxTag n1:id="@id/gyx" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginRight="@dimen/qi" n1:layout_marginBottom="@dimen/qi" n1:text="@null" n1:layout_marginHorizontal="@dimen/qi" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:fhu="?sz" n2:fj2="pa" n2:fjt="18.0dp" n2:fk4="@raw/icon_camera_meter_2" n2:fk6="18.0dp" n2:fmj="?ye" n2:fml="n2i" n2:fmm="?e0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

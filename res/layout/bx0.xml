@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/j01" n1:layout_width="@dimen/sd" n1:layout_height="@dimen/sd" n1:layout_marginTop="@dimen/sc" n1:layout_marginBottom="@dimen/sc" n1:layout_marginStart="@dimen/sc" n2:f49="@drawable/bl9" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/j00" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:maxLines="1" n1:layout_marginStart="@dimen/sc" n1:layout_marginEnd="@dimen/sk" n3:fj2="q0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/izu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n4:fj2="q0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

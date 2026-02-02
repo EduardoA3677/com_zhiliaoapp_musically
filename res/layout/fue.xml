@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/tst" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wxr" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" n1:importantForAccessibility="no" />
+    <X.12nR n1:id="@id/rc9" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0xUI n1:layout_gravity="center|top" n1:id="@id/tsa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bw_="com.bytedance.scene.sheet.widgets.CreativeBottomSheetBehavior" style="?b8x" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.0o9f n1:id="@id/tsq" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <FrameLayout n1:id="@id/tsd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/tsq" />
+            <X.0xUV n1:id="@id/tsi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" />
+        </X.0xUI>
+    </X.12nR>
+</FrameLayout>

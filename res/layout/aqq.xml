@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/qhb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" layout="@layout/ar1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:gravity="end" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="end" n1:id="@id/qz2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="pv" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?y7" n1:gravity="end" n1:id="@id/xk" n1:background="?e0" n1:paddingLeft="3.0dp" n1:paddingRight="3.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="3.0dp" n1:paddingEnd="3.0dp" n3:fj2="qg" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:background="@drawable/e4d" n1:paddingLeft="18.0dp" n1:paddingRight="18.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="18.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="end" n1:id="@id/gpy" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="14.0dp" n1:layout_marginBottom="14.0dp" n1:src="@drawable/eo1" n1:tint="?ffc" n1:layout_marginVertical="14.0dp" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:paddingLeft="14.0dp" n1:paddingRight="14.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="14.0dp">
+        <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@id/gq0" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_marginBottom="12.0dp" n1:src="@drawable/eo2" />
+        <X.12nN n1:textSize="24.0sp" n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gq4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:textDirection="locale" n2:bxc="owf" style="@style/a6j" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="16.0sp" n1:textColor="?ffe" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gpz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:textDirection="locale" n3:bxc="owf" style="@style/a6v" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gq2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:maxLines="1" n1:textDirection="locale" n4:bxc="owf" n4:fj2="p7" n4:fl1="10.0sp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp">
+            <X.12nN n1:textSize="16.0sp" n1:textColor="?c2o" n1:gravity="center" n1:id="@id/gq1" n1:background="@drawable/e4e" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n5:bxc="owf" style="@style/a6x" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <X.12nN n1:textSize="16.0sp" n1:textColor="?ffc" n1:gravity="center" n1:id="@id/gq3" n1:background="@drawable/e4f" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginBottom="22.0dp" n1:text="@null" n6:bxc="owf" style="@style/a6x" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

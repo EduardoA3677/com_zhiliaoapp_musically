@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/dxe" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="wrap_content" n1:layout_height="48.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/dsn" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/a9x">
+        <FrameLayout n1:id="@id/dtu" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <ImageView n1:layout_gravity="center" n1:id="@id/dtm" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:src="@drawable/cif" />
+            <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:layout_gravity="center" n1:id="@id/ds6" n1:focusable="false" n1:focusableInTouchMode="false" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:src="@drawable/cif" />
+            <ImageView n1:layout_gravity="end" n1:id="@id/dti" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/bzv" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/dt7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/dsq" n1:focusable="false" n1:focusableInTouchMode="false" n1:visibility="visible" n1:maxWidth="70.0dp" n1:maxLines="1" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n2:fj2="pz" n2:fl1="10.0dp" style="@style/a_0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/dst" n1:focusable="false" n1:focusableInTouchMode="false" n1:visibility="gone" n1:maxWidth="70.0dp" n1:maxLines="1" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n3:fj2="pz" style="@style/a_0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

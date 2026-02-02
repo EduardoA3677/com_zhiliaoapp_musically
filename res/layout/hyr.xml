@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/b6v" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/kfr" n1:layout_width="150.0dp" n1:layout_height="80.0dp" />
+    <X.065M n1:id="@id/niy" n1:visibility="gone" n1:layout_width="200.0dp" n1:layout_height="96.0dp" />
+</FrameLayout>

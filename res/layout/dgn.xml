@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <androidx.cardview.widget.CardView n1:id="@id/jl0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:ba4="@dimen/b5" n2:ba5="8.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/vyg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+</merge>

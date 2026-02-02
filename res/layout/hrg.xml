@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="83.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="15.0sp" n1:textColor="?ef7" n1:gravity="top" n1:id="@id/wif" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="25.0dp" n1:text="@null" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/wii" n1:padding="10.0dp" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n3:bwk="@id/wif" n3:bx8="@id/wif" n3:bxc="@id/wif" n3:fjq="@raw/icon_question_mark_circle_ltr" n3:fmy="?ehx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12q2 n1:id="@id/vgl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n4:bwk="@id/wif" n4:bwq="owf" n4:bxc="@id/wif" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="?ed_" n1:gravity="top" n1:id="@id/wg5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n5:bx9="owf" n5:bxb="@id/wif" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ean" n1:background="@drawable/e89" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137G n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/sq6" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/wnj" n1:background="?c0o" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/wnk" n1:background="?c0o" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="16.0dp" />
+            <X.12nN n1:textSize="15.0sp" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/rvt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="32.0dp" n1:includeFontPadding="false" n1:layout_marginHorizontal="32.0dp" n1:layout_marginVertical="32.0dp" />
+        </LinearLayout>
+    </X.137G>
+</LinearLayout>

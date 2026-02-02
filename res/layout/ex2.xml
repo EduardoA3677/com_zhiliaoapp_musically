@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/xcu" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/p7r" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n3:bx9="owf" n3:bxc="owf" n3:fjq="@raw/icon_square_corner_border_fill" n3:fjz="true" n3:fmy="?xx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/xct" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

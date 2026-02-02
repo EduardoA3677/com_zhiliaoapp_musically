@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/ark" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/v8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/ark">
+        <X.12pz n1:id="@id/ayn" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/ark" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="@dimen/ark" style="@style/a4x" />
+        <X.12pz n1:id="@id/watch_live_button" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="@dimen/ark" style="@style/a5x" />
+        <X.12pz n1:id="@id/ltv" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/arj" n1:layout_weight="1.0" n2:br4="?dia" n2:brl="?zw" style="@style/a5x" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12pz n1:id="@id/z1y" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/arj" n1:layout_weight="1.0" n3:br4="@drawable/f4v" style="@style/a5x" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12pz n1:id="@id/hnq" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/arj" n1:layout_marginRight="@dimen/ark" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="@dimen/arj" n1:layout_marginEnd="@dimen/ark" style="@style/a59" />
+        <X.12pz n1:id="@id/v62" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/ark" n1:text="@null" n1:layout_weight="3.1" n1:layout_marginEnd="@dimen/ark" style="@style/a59" />
+    </LinearLayout>
+</LinearLayout>

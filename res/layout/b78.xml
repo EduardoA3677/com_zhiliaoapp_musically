@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0hHS n1:id="@id/f3i" n1:background="@drawable/amz" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+        <View n1:background="@color/c_" n1:layout_width="0.5dp" n1:layout_height="20.0dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:id="@id/ng3" n1:background="@drawable/amz" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="@color/df" n1:gravity="end|center" n1:id="@id/yae" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@string/k5w" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/axa" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n3:fjq="@raw/icon_chevron_right_offset_ltr" n3:fmy="@color/df" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <View n1:layout_gravity="bottom" n1:id="@id/c47" n1:background="@color/c_" n1:layout_width="match_parent" n1:layout_height="0.5px" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" />
+</LinearLayout>

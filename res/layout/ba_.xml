@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:id="@id/b3n" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="7.0dp" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="end" n1:id="@id/b3i" n1:background="@drawable/b8n" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/b3j" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:paddingStart="3.0dp" n1:paddingEnd="3.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center" n1:id="@id/vl5" n1:padding="8.0dp" n1:visibility="visible" n1:layout_width="42.0dp" n1:layout_height="42.0dp" n1:contentDescription="@null" n1:alpha="0.0" n2:fjq="@raw/icon_auto_scroll_off_fill" n2:fmy="?e1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center" n1:id="@id/vl4" n1:padding="8.0dp" n1:visibility="gone" n1:layout_width="42.0dp" n1:layout_height="42.0dp" n1:contentDescription="@null" n1:alpha="1.0" n3:fjq="@raw/icon_auto_scroll_fill" n3:fmy="?e1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

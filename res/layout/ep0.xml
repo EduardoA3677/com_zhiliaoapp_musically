@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/rf2" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/rf9" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/rf8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.10cu n1:id="@id/rf3" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/rf8" n3:fj3="true" n3:fl9="oh9" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <X.12PX n1:id="@id/rf4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </X.10cu>
+        <LinearLayout n1:id="@id/rf7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/rfa" n1:layout_width="match_parent" n1:layout_height="0.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/rf8" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/rf6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/rf5" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_weight="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/hel" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/zoom_image_layer" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.10po n1:layout_gravity="center" n1:id="@id/zoom_image" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.10po n1:layout_gravity="center" n1:id="@id/p90" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:b41="h_f" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <X.0oBn n1:layout_gravity="center" n1:id="@id/xge" n1:layout_width="32.0dp" n1:layout_height="32.0dp" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/p91" n1:background="?xq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n4:fj2="oz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <X.0D2z n1:id="@id/p8z" n1:layout_width="182.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n5:fib="l9r" n5:fid="t69" n5:fk4="@raw/icon_camera_fill" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <X.13dw n1:id="@id/p92" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</FrameLayout>

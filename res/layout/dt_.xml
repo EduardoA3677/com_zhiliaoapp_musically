@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="@dimen/a78" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center|top" n1:orientation="horizontal" n1:paddingLeft="@dimen/a75" n1:paddingTop="@dimen/a75" n1:paddingRight="@dimen/a75" n1:layout_width="match_parent" n1:layout_height="@dimen/a78" n1:paddingStart="@dimen/a75" n1:paddingEnd="@dimen/a75" style="?eny">
+        <X.12u8 n1:gravity="center" n1:layout_gravity="top" n1:id="@id/cuu" n1:padding="12.0dp" n1:layout_width="@dimen/a91" n1:layout_height="@dimen/a91" n1:insetTop="0.0dp" n1:insetBottom="0.0dp" n1:contentDescription="@string/k7n" n2:br4="@drawable/cny" n2:exj="@color/qa" style="?env" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/ni4" n1:paddingLeft="@dimen/a7_" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:paddingStart="@dimen/a7_">
+            <TextView n1:gravity="start|bottom" n1:layout_gravity="start|top" n1:id="@id/ni9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bns="@dimen/a7q" style="?eo0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:gravity="start|bottom" n1:layout_gravity="start|top" n1:id="@id/ni3" n1:paddingBottom="@dimen/a7j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bns="@dimen/a7k" n4:bzi="@dimen/a79" style="?enz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <LinearLayout n1:orientation="@integer/bx" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.12u8 n1:layout_gravity="end|top" n1:id="@id/e6s" n1:layout_width="wrap_content" n1:layout_height="@dimen/a91" n1:text="@null" n1:contentDescription="@null" style="?enw" />
+            <include layout="@layout/dtc" />
+        </LinearLayout>
+    </LinearLayout>
+    <View n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="@dimen/a76" style="?enx" />
+</merge>

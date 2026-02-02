@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:theme="@style/wo" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:id="@id/rm7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="80.0dp" n1:maxWidth="320.0dp" n1:text="@null" n1:maxLines="1" n1:layout_alignParentTop="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:fj2="p_" n2:fl1="3.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/rm5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:maxHeight="400.0dp" n1:text="" n1:maxLines="10" n1:layout_below="@id/rm7" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:fj2="pk" n3:fl1="3.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/iw4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="175.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/rkw" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_marginBottom="67.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true">
+        <View n1:background="@drawable/fdd" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_centerInParent="true" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/rkv" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_centerInParent="true" n1:contentDescription="record_btn_icon" n5:fjq="@raw/icon_mic_fill" n5:fjt="32.0dp" n5:fk6="32.0dp" n5:fmy="?e0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <View n1:id="@id/rks" n1:background="@drawable/fdd" n1:visibility="gone" n1:layout_width="110.0dp" n1:layout_height="110.0dp" n1:layout_marginBottom="52.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n1:alpha="0.2" />
+    <View n1:id="@id/qw7" n1:background="@drawable/fdh" n1:layout_width="79.0dp" n1:layout_height="79.0dp" n1:layout_marginBottom="68.0dp" n1:layout_alignParentBottom="true" n1:layout_centerInParent="true" n1:layout_centerHorizontal="true" />
+    <X.0mtB n1:id="@id/qw5" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_marginBottom="67.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <View n1:id="@id/qw6" n1:background="@drawable/fdg" n1:layout_width="70.0dp" n1:layout_height="70.0dp" n1:layout_marginBottom="72.0dp" n1:layout_alignParentBottom="true" n1:layout_centerInParent="true" />
+</RelativeLayout>

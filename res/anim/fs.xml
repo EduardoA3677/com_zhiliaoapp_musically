@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns="">
+    <translate n1:duration="300" n1:fromYDelta="10.000002%p" n1:toYDelta="0.0%p"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <scale n2:duration="300" n2:pivotX="50.0%" n2:pivotY="50.0%" n2:fromXScale="0.8" n2:toXScale="1.0" n2:fromYScale="0.8" n2:toYScale="1.0"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <alpha n3:duration="300" n3:fromAlpha="0.0" n3:toAlpha="1.0"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</set>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/y1" n1:id="@id/lqe" n1:background="?mz" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:translationY="-30.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/lqf" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:translationY="-38.0dp" n1:layout_marginStart="55.0dp" n1:layout_marginEnd="55.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/edp" n2:bxe="ori" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:background="@drawable/bbd" n1:paddingTop="38.0dp" n1:paddingBottom="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="20.0dp" n1:paddingEnd="20.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?cw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/lqh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="3" n2:fj2="pk" n2:fl1="20.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/lqg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n2:fj2="pz" />
+            <X.0D2z n1:textColor="?z4" n1:id="@id/ume" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginTop="16.0dp" n1:text="@null" n2:fi8="true" n2:fi9="true" n2:fib="l9r" n2:fid="qhx" n2:fj2="p_" />
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/efe" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="19.0dp" n2:fj2="px" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/edp" n1:clickable="true" n1:layout_width="280.0dp" n1:layout_height="wrap_content" n3:bwl="@id/lqf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:bxe="ori" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

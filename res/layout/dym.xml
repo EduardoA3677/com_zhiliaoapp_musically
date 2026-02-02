@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0msj n1:layout_gravity="center" n1:id="@id/hgk" n1:layout_width="56.0dp" n1:layout_height="56.0dp">
+        <X.0Cru n1:layout_gravity="center" n1:id="@id/b7s" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:eyo="?ly" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </X.0msj>
+    <X.0kLD n1:layout_gravity="end|bottom" n1:id="@id/y7" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bjv="?bx" n3:bjw="2.5dp" n3:f27="false" n3:fa1="@integer/aa" n3:fa3="4.0dp" n3:fa4="4.0dp" n3:fag="?bx" n3:fah="2.5dp" n3:faj="0.0dp" n3:fp0="16.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

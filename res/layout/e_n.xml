@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/omj" n1:background="?y3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <FrameLayout n1:id="@id/omo" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/omk" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="7.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:id="@id/omr" n1:layout_width="wrap_content" n1:layout_height="33.0dp" n2:bx9="owf" n2:bxc="owf" n2:fj2="p5" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/omc" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n2:bwk="@id/omr" n2:bx8="@id/omr" n2:bxc="@id/omr" n2:fjq="@raw/icon_chevron_up_thin" n2:fmy="?zx" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:id="@id/oms" n1:layout_width="wrap_content" n1:layout_height="31.0dp" n2:bwq="owf" n2:bxc="owf" n2:fj2="oz" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/omn" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="4.0dp" n2:bwk="@id/omm" n2:bwr="@id/omm" n2:bxc="@id/omm" n2:fjq="@raw/icon_medal_tick_fill" n2:fmy="?a06" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:gravity="center_vertical" n1:id="@id/omm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwq="owf" n2:bxb="@id/oms" n2:fj2="q1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0D2z n1:id="@id/pe9" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" n2:fib="l9r" n2:fid="qhx" />
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/e61" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="18.0dp" n1:layout_marginBottom="12.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:id="@id/e6c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="px" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/e6a" n1:layout_width="67.0dp" n1:layout_height="15.0dp" n1:scaleType="centerInside" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n2:fmy="?dg" />
+    </LinearLayout>
+</LinearLayout>

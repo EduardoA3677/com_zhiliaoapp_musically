@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:textColor="?e0" n1:id="@id/hcq" n1:paddingLeft="10.0dp" n1:paddingRight="10.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="10.0dp" n2:fj2="pz" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ma2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="top" n1:id="@id/kiy" n1:focusable="false" n1:visibility="gone" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginTop="1.5dp" n1:importantForAccessibility="no" n1:layout_marginEnd="2.0dp" n2:fjq="@raw/icon_fire_3_fill" n2:fjt="14.0dp" n2:fk6="14.0dp" n2:fmy="?e0" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/xt8" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" n2:fj2="q2" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="bottom" n1:id="@id/key" n1:focusable="false" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="17.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_chevron_right_fill_ltr" n2:fjt="12.0dp" n2:fk6="12.0dp" n2:fmy="?e0" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="bottom" n1:id="@id/ma3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:minHeight="20.0dp" n1:alpha="0.0">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kj0" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="2.0dp" n2:fjt="16.0dp" n2:fk6="16.0dp" n2:fmy="?e0" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/xta" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="q2" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+.class public Lcom/tiktok/pns/logging/managment/slardar/R$string;
+.super Lcom/ss/android/ugc/aweme/app/R$string;
+.source "SourceFile"

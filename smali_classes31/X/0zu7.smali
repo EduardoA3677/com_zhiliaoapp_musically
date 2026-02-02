@@ -1,0 +1,38 @@
+.class public final synthetic LX/0zu7;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0zMS;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, LX/0zu7;->create()Ljava/lang/Object;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final create()Ljava/lang/Object;
+    .locals 1
+
+    new-instance v0, Lcom/bytedance/pia/core/bridge/methods/WorkerRunTask;
+
+    invoke-direct {v0}, Lcom/bytedance/pia/core/bridge/methods/WorkerRunTask;-><init>()V
+
+    return-object v0
+.end method

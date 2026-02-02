@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0mEN n1:orientation="horizontal" n1:id="@id/urf" n1:background="?xv" n1:paddingLeft="6.0dp" n1:paddingTop="6.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="60.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n2:fdb="?xv" n2:fdr="@dimen/b9" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView n1:id="@id/l20" n1:visibility="gone" n1:layout_width="@dimen/af9" n1:layout_height="@dimen/af9" n2:ba3="?dp" n2:ba4="@dimen/b9">
+        <ImageView n1:id="@id/w6r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/c38" n1:scaleType="centerInside" n1:importantForAccessibility="no" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView n1:id="@id/kzi" n1:layout_width="@dimen/af9" n1:layout_height="@dimen/af9" n1:layout_marginEnd="8.0dp" n2:ba3="?dp" n2:ba4="@dimen/b9" n2:ba5="0.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/t94" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/c46" n1:scaleType="centerInside" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView n1:id="@id/kom" n1:visibility="gone" n1:layout_width="@dimen/af9" n1:layout_height="@dimen/af9" n1:layout_marginLeft="2.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="8.0dp" n2:ba3="?dp" n2:ba4="@dimen/b9" n2:ba5="0.0dp">
+        <TextView n1:textSize="8.0sp" n1:textColor="?e0" n1:gravity="center_horizontal" n1:layout_gravity="center" n1:id="@id/ia8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="GIPHY" n1:drawableTop="@drawable/byu" n1:drawablePadding="4.0dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/lh7" n1:fadingEdgeLength="3.0dp" n1:layout_width="match_parent" n1:layout_height="@dimen/af9" n1:requiresFadingEdge="horizontal" />
+</X.0mEN>

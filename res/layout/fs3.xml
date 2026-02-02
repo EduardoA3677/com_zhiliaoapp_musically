@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginTop="210.0dp" n1:layout_marginRight="24.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_horizontal" n1:id="@id/v_e" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="68.0dp" n1:contentDescription="Tick icon" n2:fjq="@raw/icon_color_tick_circle_green" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/w_0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:text="@null" n3:fj2="ot" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ruz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+    <X.0D2z n1:layout_gravity="center" n1:id="@id/of8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n5:fib="l9r" n5:fid="qhx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:background="?e0" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <View n1:orientation="vertical" n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+        <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+            <ViewSwitcher n1:layout_gravity="start|center" n1:id="@id/jqh" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/jp4" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:fjq="@raw/icon_x_mark" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/jow" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n3:fjq="@raw/icon_chevron_left_offset_ltr" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </ViewSwitcher>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="@color/df" n1:layout_gravity="center" n1:id="@id/yz7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:fj2="p0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <ViewSwitcher n1:layout_gravity="end|center" n1:id="@id/yz_" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="@color/df" n1:layout_gravity="end" n1:id="@id/yyf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Edit" n5:fj2="p5" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="@color/cy" n1:id="@id/yyb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Delete all" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            </ViewSwitcher>
+        </FrameLayout>
+        <X.0Chg n1:id="@id/mjr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <androidx.recyclerview.widget.RecyclerView n1:orientation="vertical" n1:id="@id/rna" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/viewer_area_container" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0DtN n1:layout_gravity="center" n1:id="@id/e04" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0Dtc n1:layout_gravity="center" n1:id="@id/fr8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="65.0dp" n1:layout_marginStart="@dimen/qi" />
+        <FrameLayout n1:layout_gravity="start|bottom" n1:id="@id/cha" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qi" n1:clipToOutline="true">
+            <X.0Da0 n1:id="@id/chk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </FrameLayout>
+        <X.0Dt3 n1:layout_gravity="start|bottom" n1:id="@id/h81" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="24.0dp" n1:layout_marginStart="16.0dp" />
+        <X.0CxH n1:layout_gravity="end|bottom" n1:id="@id/x2m" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="24.0dp" n1:layout_marginEnd="16.0dp" />
+        <X.0D1L n1:layout_gravity="end|bottom" n1:id="@id/zqk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginEnd="16.0dp" n2:b_b="?dp" n2:brs="20.0dp" n2:brt="7.0dp" n2:bru="@raw/icon_play_fill" n2:brv="?e0" n2:brw="20.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0CV6 n1:layout_gravity="center|bottom" n1:id="@id/jwp" n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <X.0DX1 n1:layout_gravity="end|top" n1:id="@id/chr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="@dimen/qi" />
+    </FrameLayout>
+    <X.13KH n1:layout_gravity="center" n1:id="@id/e05" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="12.0dp" />
+    <FrameLayout n1:id="@id/e07" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.06NK n1:layout_gravity="center" n1:id="@id/jtt" n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:padding="2.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_gravity="center" n1:id="@id/ez9" n1:background="@drawable/dhz" n1:visibility="visible" n1:layout_width="155.0dp" n1:layout_height="155.0dp">
+        <ImageView n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="12.0dp" n1:src="@drawable/di7" n1:layout_marginEnd="10.0dp" n1:layout_alignParentEnd="true" />
+        <ImageView n1:id="@id/kkf" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n1:layout_marginTop="12.0dp" n1:src="@drawable/dhx" n1:layout_centerInParent="true" n1:layout_marginEnd="10.0dp" />
+    </RelativeLayout>
+    <RelativeLayout n1:layout_gravity="center" n1:id="@id/o7e" n1:background="@drawable/dhw" n1:visibility="gone" n1:layout_width="155.0dp" n1:layout_height="155.0dp">
+        <ImageView n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="12.0dp" n1:src="@drawable/di2" n1:layout_marginEnd="10.0dp" n1:layout_alignParentEnd="true" />
+        <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@string/wqy" n1:layout_alignParentBottom="true" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" />
+    </RelativeLayout>
+    <RelativeLayout n1:layout_gravity="center" n1:id="@id/u0e" n1:background="@drawable/dhz" n1:visibility="gone" n1:layout_width="155.0dp" n1:layout_height="155.0dp">
+        <ImageView n1:id="@id/l31" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="12.0dp" n1:src="@drawable/di2" n1:layout_marginEnd="10.0dp" n1:layout_alignParentEnd="true" />
+        <TextView n1:textSize="14.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_marginTop="12.0dp" n1:text="@string/cyw" n1:includeFontPadding="false" n1:layout_marginStart="15.0dp" n1:layout_marginEnd="30.0dp" />
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_below="@id/yti" n1:layout_marginStart="14.0dp" n1:layout_marginEnd="10.0dp">
+            <TextView n1:textSize="46.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/xxc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:singleLine="true" n1:includeFontPadding="false" n1:paddingStart="1.0dp" n1:paddingEnd="24.0dp" />
+            <ImageView n1:id="@id/kzz" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/dhx" n1:layout_centerVertical="true" n1:layout_marginStart="4.0dp" n1:layout_alignEnd="@id/xxc" />
+        </RelativeLayout>
+        <ProgressBar n1:id="@id/qvh" n1:layout_width="match_parent" n1:layout_height="4.0dp" n1:layout_marginBottom="37.0dp" n1:max="100" n1:progress="30" n1:progressDrawable="@drawable/di1" n1:layout_alignParentBottom="true" n1:layout_marginStart="15.0dp" n1:layout_marginEnd="15.0dp" style="@style/zs" />
+        <TextView n1:textSize="11.0dp" n1:textColor="#99ffffff" n1:ellipsize="end" n1:id="@id/ygk" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:text="@string/cyw" n1:maxLines="2" n1:includeFontPadding="false" n1:layout_alignTop="@id/qvh" n1:layout_marginStart="15.0dp" n1:layout_marginEnd="15.0dp" />
+    </RelativeLayout>
+    <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/luh" n1:background="@drawable/dhz" n1:visibility="gone" n1:layout_width="155.0dp" n1:layout_height="155.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp">
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="43.0dp">
+            <TextView n1:textSize="10.0dp" n1:textColor="#b3ffffff" n1:ellipsize="end" n1:id="@id/frn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="11.0dp" n1:text="@string/cyw" n1:includeFontPadding="false" n1:layout_alignParentTop="true" />
+            <ImageView n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="5.0dp" n1:src="@drawable/dhx" n1:layout_below="@id/frn" />
+            <TextView n1:textSize="10.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/dl8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:text="@string/cyw" n1:includeFontPadding="false" n1:layout_below="@id/frn" n1:layout_marginStart="16.0dp" />
+            <ImageView n1:id="@id/l32" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="12.0dp" n1:src="@drawable/di2" n1:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <FrameLayout n1:background="@drawable/di0" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/vyn" n1:layout_width="match_parent" n1:layout_height="36.0dp">
+            <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/vz6" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:maxLines="2" n1:includeFontPadding="false" n1:layout_weight="1.0" />
+            <ImageView n1:id="@id/jon" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:src="@drawable/dhx" />
+            <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="end" n1:id="@id/dkt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" />
+        </LinearLayout>
+        <FrameLayout n1:background="@drawable/di0" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/vyo" n1:layout_width="match_parent" n1:layout_height="36.0dp">
+            <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/vz7" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:maxLines="2" n1:includeFontPadding="false" n1:layout_weight="1.0" />
+            <ImageView n1:id="@id/joo" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:src="@drawable/dhx" />
+            <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="end" n1:id="@id/dku" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" />
+        </LinearLayout>
+        <FrameLayout n1:background="@drawable/di0" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/vyp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/vz8" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:maxLines="2" n1:includeFontPadding="false" n1:layout_weight="1.0" />
+            <ImageView n1:id="@id/jop" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:src="@drawable/dhx" />
+            <TextView n1:textSize="12.0dp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="end" n1:id="@id/dkv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/cyw" n1:singleLine="true" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

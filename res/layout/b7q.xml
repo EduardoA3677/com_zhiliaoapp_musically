@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.08DB n1:layout_width="64.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/b6v" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n1:layout_marginTop="4.0dp" n1:layout_centerHorizontal="true">
+        <X.0msj n1:id="@id/hgj" n1:layout_width="54.0dp" n1:layout_height="54.0dp" n1:layout_centerInParent="true">
+            <X.0CzV n1:layout_gravity="center" n1:id="@id/ubd" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_centerInParent="true" />
+            <X.0CzV n1:layout_gravity="center" n1:id="@id/ze0" n1:visibility="visible" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_centerInParent="true" />
+            <X.0Csl n1:layout_gravity="center" n1:id="@id/uba" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_centerInParent="true" />
+        </X.0msj>
+        <View n1:id="@id/zeh" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_centerInParent="true" />
+        <ImageView n1:id="@id/kmr" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:src="@drawable/b_k" n1:scaleType="fitXY" n1:layout_alignTop="@id/zeh" n1:layout_alignBottom="@id/zeh" n1:layout_alignStart="@id/zeh" n1:layout_alignEnd="@id/zeh" />
+        <X.0ChR n1:id="@id/ze7" n1:padding="3.0dp" n1:visibility="gone" n1:layout_width="54.0dp" n1:layout_height="54.0dp" n1:layout_centerInParent="true" n2:elm="1.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/qum" n1:layout_width="64.0dp" n1:layout_height="32.0dp" n1:scaleType="fitCenter" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n3:b41="h_f" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0qzH n1:id="@id/zek" n1:visibility="invisible" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_alignTop="@id/zeh" n1:layout_centerInParent="true" n1:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/b70" n1:visibility="gone" n1:layout_width="50.0dp" n1:layout_height="45.0dp" n1:src="@drawable/icon" n1:scaleType="fitCenter" n1:layout_centerHorizontal="true" />
+    <RelativeLayout n1:id="@id/hnx" n1:paddingBottom="16.0dp" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="48.0dp" n1:layout_centerHorizontal="true">
+        <X.0d5Y n1:layout_gravity="center" n1:id="@id/hn7" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerHorizontal="true" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/ho7" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="24.0dp" n1:layout_centerHorizontal="true" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/fe9" n1:paddingTop="5.0dp" n1:paddingBottom="3.0dp" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerHorizontal="true" n1:paddingStart="4.0dp" n1:paddingEnd="4.0dp" n4:fjq="@raw/icon_paperplane_fill" n4:fjt="16.0dp" n4:fk6="16.0dp" n4:fmy="?yi" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/fcu" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_centerHorizontal="true" n1:contentDescription="link icon" n5:fjq="@raw/icon_link_fill" n5:fjt="12.0dp" n5:fk6="12.0dp" n5:fmy="?a06" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</X.08DB>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/sed" n1:paddingLeft="10.0dp" n1:paddingRight="10.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center_vertical" n1:id="@id/j4y" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginRight="18.0dp" n1:layout_marginBottom="4.0dp" n1:src="@drawable/icon" n1:scaleType="centerCrop" n1:layout_marginEnd="18.0dp" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <TextView n1:textStyle="bold" n1:ellipsize="end" n1:gravity="start" n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dp" n1:singleLine="true" n1:layout_weight="1.0" n1:textAlignment="viewStart" n1:layout_marginEnd="10.0dp" style="@style/k3" />
+            <TextView n1:id="@id/time" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/k2" />
+        </LinearLayout>
+        <TextView n1:ellipsize="end" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" style="@style/k2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/zqe" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/d4q" n1:background="?dm" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <X.0RJ3 n1:layout_gravity="center" n1:id="@id/zxj" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <X.0MlN n1:id="@id/pmc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0Lcf n1:layout_gravity="center_horizontal" n1:id="@id/player_view" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/n2h" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/zp0" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0Col n1:id="@id/cover" n1:background="@drawable/cis" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <X.0Ca2 n1:id="@id/video_effective_area" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+        <X.0Ca2 n1:id="@id/video_obstructed_area" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </X.0RJ3>
+    <View n1:id="@id/d4a" n1:background="?dm" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+</LinearLayout>

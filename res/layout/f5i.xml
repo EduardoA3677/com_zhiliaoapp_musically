@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/stu" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12oK n1:id="@id/ak0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/cz2" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" />
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/ak1" n1:layout_width="162.0dp" n1:layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center" n1:id="@id/ak3" n1:layout_width="90.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:textDirection="locale" n1:textAlignment="center" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <ImageView n1:layout_gravity="center" n1:id="@id/mkp" n1:visibility="gone" n1:layout_width="16.5dp" n1:layout_height="16.5dp" n1:src="@drawable/d85" n1:layout_marginStart="6.0dp" />
+            <View n1:id="@id/ak2" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" />
+        </LinearLayout>
+    </X.12oK>
+    <ViewStub n1:id="@id/wz" n1:layout="@layout/f1w" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

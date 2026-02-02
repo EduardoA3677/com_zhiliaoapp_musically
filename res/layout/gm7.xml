@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/jk5" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n1:importantForAccessibility="no" n2:eyl="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0sp" n1:textColor="@color/a61" n1:id="@id/text" n1:paddingLeft="5.5dp" n1:paddingRight="5.5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="15.0dp" n1:layout_marginBottom="16.0dp" n1:layout_alignLeft="@id/jk5" n1:layout_alignBottom="@id/jk5" n1:importantForAccessibility="no" n1:paddingStart="5.5dp" n1:paddingEnd="5.5dp" n1:layout_marginStart="15.0dp" n1:layout_alignStart="@id/jk5" />
+    <X.12nN n1:textSize="10.0sp" n1:textColor="#a3ffffff" n1:id="@id/l81" n1:background="@drawable/dlm" n1:paddingLeft="6.0dp" n1:paddingTop="3.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="3.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginBottom="6.0dp" n1:includeFontPadding="false" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n1:importantForAccessibility="no" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n1:layout_marginStart="8.0dp" n1:layout_alignParentStart="true" />
+</RelativeLayout>

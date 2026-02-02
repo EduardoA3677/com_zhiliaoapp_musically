@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/n7y" n1:background="@drawable/b_y" n1:layout_width="256.0dp" n1:layout_height="108.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12AI n1:id="@id/n9p" n1:layout_width="92.0dp" n1:layout_height="92.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginStart="8.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:etn="@color/dh" n2:eyl="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/n9q" n1:layout_width="120.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="12.0dp" n1:maxLines="2" n1:layout_marginStart="8.0dp" n3:bx8="@id/n9p" n3:bxc="owf" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/n9n" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/b_p" n1:scaleType="center" n4:bx8="@id/n9q" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="@color/dn" n1:id="@id/n9m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dp" n1:layout_marginBottom="13.0dp" n1:layout_marginStart="10.0dp" n5:bwk="owf" n5:bx8="@id/n9p" n5:fj2="qc" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/n9o" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="18.0dp" n1:layout_marginBottom="13.0dp" n1:text="@null" n1:layout_marginEnd="18.0dp" n6:bwk="owf" n6:bwq="owf" n6:fj2="q1" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginBottom="14.0dp" n1:src="@drawable/b_o" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="8.0dp" n7:bwk="owf" n7:bwq="owf" n7:bx4="@id/n9o" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

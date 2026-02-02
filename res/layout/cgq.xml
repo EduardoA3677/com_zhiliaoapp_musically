@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <X.0bas n1:layout_gravity="center" n1:id="@id/je1" n1:layout_width="match_parent" n1:layout_height="match_parent"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <View n2:layout_gravity="center" n2:id="@id/je2" n2:layout_width="match_parent" n2:layout_height="match_parent"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <com.bytedance.tux.icon.TuxIconView n3:layout_gravity="center" n3:id="@id/je3" n3:visibility="gone" n3:layout_width="28.75dp" n3:layout_height="32.429993dp" n3:importantForAccessibility="no" n4:fjq="@raw/icon_play_fill" n4:fmy="?e0"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.status.loading.TuxSpinner n5:layout_gravity="center" n5:id="@id/je5" n5:visibility="gone" n5:layout_width="26.0dp" n5:layout_height="26.0dp" n5:importantForAccessibility="no" n6:fmy="?a04"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n7:layout_gravity="center" n7:id="@id/je4" n7:visibility="gone" n7:layout_width="26.0dp" n7:layout_height="26.0dp" n7:importantForAccessibility="no" n8:fjq="@raw/icon_arrow_clockwise" n8:fmy="?zy"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</merge>

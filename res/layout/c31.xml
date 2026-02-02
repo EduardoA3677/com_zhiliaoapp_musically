@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/zxm" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="44.0dp" n1:layout_marginBottom="282.0dp" n1:layout_centerHorizontal="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/kw_" n1:padding="50.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/a9z" n1:layout_centerInParent="true" />
+    <X.0oBn n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_centerInParent="true" />
+    <RelativeLayout n1:gravity="center" n1:id="@id/sbk" n1:background="@drawable/a5s" n1:paddingLeft="20.0dp" n1:paddingTop="16.0dp" n1:paddingRight="20.0dp" n1:paddingBottom="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <X.0Cxl n1:textSize="13.0sp" n1:textColor="?e1" n1:gravity="center" n1:id="@id/xy0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:lineSpacingExtra="3.0sp" />
+    </RelativeLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ro3" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="40.0dp" n1:layout_alignParentBottom="true" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/lin" n1:background="?y1" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <SurfaceView n1:id="@id/qgc" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:id="@id/r4m" n1:background="?bo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/zut" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitCenter" />
+    <X.11NI n1:id="@id/qf_" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerHorizontal="true" />
+    <FrameLayout n1:id="@id/w5e" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/v0o" n1:visibility="invisible" n1:layout="@layout/dcc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/v0n" n1:visibility="invisible" n1:layout="@layout/dcb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/o0m" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:id="@id/view_frame_cover" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

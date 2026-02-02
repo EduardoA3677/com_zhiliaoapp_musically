@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/unb" app:bfk="@id/une" app:bfl="@id/un_" app:bkp="350" app:epo="frp">
+        <OnSwipe app:bjx="flh" app:erp="b20" app:fcn="ll3" />
+        <KeyFrameSet>
+            <KeyPosition app:bpd="50" app:buz="ox6" app:eps="@id/h_a" app:esr="-5.0" />
+            <KeyPosition app:bpd="50" app:buz="owh" app:eps="@id/t66" app:esq="0.65" />
+            <KeyAttribute android:scaleX="0.65" android:scaleY="0.65" app:bpd="50" app:eps="@id/waj" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/unf" app:bfk="@id/unc" app:bfl="@id/une" app:bkp="350" app:epo="frp">
+        <OnSwipe app:bjx="flh" app:erp="b20" app:fcn="ll3" />
+        <KeyFrameSet>
+            <KeyPosition app:bpd="50" app:buz="ox6" app:eps="@id/t66" app:esr="-5.0" />
+            <KeyPosition app:bpd="50" app:buz="owh" app:eps="@id/waj" app:esq="0.65" />
+            <KeyAttribute android:scaleX="0.65" android:scaleY="0.65" app:bpd="50" app:eps="@id/h_a" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/una" app:bfk="@id/unc" app:bfl="@id/un_" app:bkp="350" app:epo="frp">
+        <OnSwipe app:bjx="fli" app:erp="b20" app:fcn="s88" />
+        <KeyFrameSet>
+            <KeyPosition app:bpd="50" app:buz="ox6" app:eps="@id/h_a" app:esr="5.0" />
+            <KeyPosition app:bpd="50" app:buz="owh" app:eps="@id/waj" app:esq="0.35" />
+            <KeyAttribute android:scaleX="0.65" android:scaleY="0.65" app:bpd="50" app:eps="@id/t66" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/und" app:bfk="@id/un_" app:bfl="@id/unc" app:bkp="350" app:epo="frp">
+        <OnSwipe app:bjx="flh" app:erp="b20" app:fcn="ll3" />
+        <KeyFrameSet>
+            <KeyPosition app:bpd="50" app:buz="ox6" app:eps="@id/waj" app:esr="-5.0" />
+            <KeyAttribute android:scaleX="0.65" android:scaleY="0.65" app:bpd="50" app:eps="@id/t66" />
+            <KeyPosition app:bpd="50" app:buz="owh" app:eps="@id/h_a" app:esq="0.65" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/un_">
+        <Constraint android:id="@id/h_a">
+            <Layout android:layout_width="@dimen/u3" android:layout_height="@dimen/u2" app:ba4="@dimen/u0" app:bwm="@id/ij6" app:bwn="0" app:bwo="0.0dp" />
+            <Transform android:translationX="0.0dp" android:translationZ="8.0dp" android:elevation="8.0dp" />
+        </Constraint>
+        <Constraint android:id="@id/t66">
+            <Layout android:layout_width="@dimen/u5" android:layout_height="@dimen/u4" app:ba4="@dimen/u1" app:bwm="@id/ij6" app:bwn="0" app:bwo="10.0dp" />
+            <Transform android:translationX="110.0dp" android:translationZ="2.0dp" android:elevation="2.0dp" />
+        </Constraint>
+        <Constraint android:id="@id/waj">
+            <Layout android:layout_width="@dimen/u5" android:layout_height="@dimen/u4" app:ba4="@dimen/u1" app:bwm="@id/ij6" app:bwn="0" app:bwo="10.0dp" />
+            <Transform android:translationX="-110.0dp" android:translationZ="2.0dp" android:elevation="2.0dp" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/une">
+        <Constraint android:id="@id/h_a">
+            <Layout android:layout_width="@dimen/u5" android:layout_height="@dimen/u4" app:ba4="@dimen/u1" app:bwm="@id/ij6" app:bwn="0" app:bwo="10.0dp" />
+            <Transform android:translationX="-110.0dp" android:translationZ="2.0dp" android:elevation="2.0dp" />
+        </Constraint>
+        <Constraint android:id="@id/t66">
+            <Layout android:layout_width="@dimen/u3" android:layout_height="@dimen/u2" app:ba4="@dimen/u0" app:bwm="@id/ij6" app:bwn="0" app:bwo="0.0dp" />
+            <Transform android:translationX="0.0dp" android:translationZ="8.0dp" android:elevation="8.0dp" />
+        </Constraint>
+        <Constraint android:id="@id/waj">
+            <Layout android:layout_width="@dimen/u5" android:layout_height="@dimen/u4" app:ba4="@dimen/u1" app:bwm="@id/ij6" app:bwn="0" app:bwo="10.0dp" />
+            <Transform android:translationX="110.0dp" android:translationZ="2.0dp" android:elevation="2.0dp" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/unc">
+        <Constraint android:id="@id/h_a">
+            <Layout android:layout_width="@dimen/u5" android:layout_height="@dimen/u4" app:ba4="@dimen/u1" app:bwm="@id/ij6" app:bwn="0" app:bwo="10.0dp" />
+            <Transform android:translationX="110.0dp" android:translationZ="2.0dp" android:elevation="2.0dp" />
+        </Constraint>
+        <Constraint android:id="@id/t66">
+            <Layout android:layout_width="@dimen/u5" android:layout_height="@dimen/u4" app:ba4="@dimen/u1" app:bwm="@id/ij6" app:bwn="0" app:bwo="10.0dp" />
+            <Transform android:translationX="-110.0dp" android:translationZ="2.0dp" android:elevation="2.0dp" />
+        </Constraint>
+        <Constraint android:id="@id/waj">
+            <Layout android:layout_width="@dimen/u3" android:layout_height="@dimen/u2" app:ba4="@dimen/u0" app:bwm="@id/ij6" app:bwn="0" app:bwo="0.0dp" />
+            <Transform android:translationX="0.0dp" android:translationZ="8.0dp" android:elevation="8.0dp" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

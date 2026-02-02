@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/r5" n1:layout_marginTop="@dimen/r5" n1:layout_marginRight="@dimen/r5" n1:layout_marginBottom="@dimen/qw" n1:layout_marginHorizontal="@dimen/r5" n2:ba3="@color/a10" n2:ba4="@dimen/b4" n2:ba5="@dimen/r6" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:background="?zq" n1:padding="@dimen/r6" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kfx" n1:layout_width="34.0dp" n1:layout_height="44.0dp" n1:layout_marginStart="@dimen/qz" n1:layout_marginEnd="@dimen/qi" n2:bwk="owf" n2:bwr="@id/yiu" n2:bx9="owf" n2:bxc="owf" n2:eyl="@dimen/b9" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/yiu" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_marginEnd="@dimen/qf" n2:bwk="owf" n2:bwr="@id/j70" n2:bx8="@id/kfx" n2:bxc="owf" n2:fj2="pz" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j70" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n1:importantForAccessibility="no" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/yiu" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fjt="@dimen/qi" n2:fk6="@dimen/qi" n2:fmy="?zz" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

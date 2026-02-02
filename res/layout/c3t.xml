@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingBottom="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Space n1:id="@id/umw" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n2:bwr="@id/jo4" n2:bx1="1.0" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/jo4" n1:layout_width="64.0dp" n1:layout_height="36.0dp" n3:bwr="@id/n8z" n3:bx8="@id/umw" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/n8z" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n4:bwr="@id/jo5" n4:bx1="1.0" n4:bx8="@id/jo4" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/jo5" n1:layout_width="64.0dp" n1:layout_height="36.0dp" n5:bwr="@id/n90" n5:bx8="@id/n8z" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/n90" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n6:bwr="@id/jo6" n6:bx1="1.0" n6:bx8="@id/jo5" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/jo6" n1:layout_width="64.0dp" n1:layout_height="36.0dp" n7:bwr="@id/n91" n7:bx8="@id/n90" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/n91" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n8:bwr="@id/jo7" n8:bx1="1.0" n8:bx8="@id/jo6" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/jo7" n1:layout_width="64.0dp" n1:layout_height="36.0dp" n9:bwr="@id/n92" n9:bx8="@id/n91" n9:bxc="owf" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/n92" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n10:bwr="@id/jo8" n10:bx1="1.0" n10:bx8="@id/jo7" n10:bxc="owf" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/jo8" n1:layout_width="64.0dp" n1:layout_height="36.0dp" n11:bwr="@id/ggi" n11:bx8="@id/n92" n11:bxc="owf" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/ggi" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n12:bwr="@id/gbu" n12:bx1="1.0" n12:bx8="@id/jo8" n12:bxc="owf" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/gbu" n1:paddingLeft="14.0dp" n1:paddingTop="4.0dp" n1:paddingRight="14.0dp" n1:layout_width="60.0dp" n1:layout_height="36.0dp" n1:paddingHorizontal="14.0dp" n13:bwq="owf" n13:bx8="@id/ggi" n13:bxc="owf" n13:fjq="@raw/icon_3pt_plus_circle" n13:fmy="?e0" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

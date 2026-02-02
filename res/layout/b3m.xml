@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/qyd" n1:layout_width="wrap_content" n1:layout_height="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?bx" n1:id="@id/qzb" n1:background="@drawable/b0q" n1:paddingTop="@dimen/qm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="Flash sale" n1:paddingStart="@dimen/qw" n1:paddingEnd="@dimen/qf" n2:bx9="owf" n2:fj2="qg" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?g5" n1:id="@id/qyc" n1:background="?g2" n1:paddingLeft="@dimen/qf" n1:paddingTop="@dimen/qm" n1:paddingRight="@dimen/qw" n1:layout_width="wrap_content" n1:layout_height="match_parent" n3:bx8="@id/qzb" n3:fj2="qg" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/qyt" n1:layout_width="10.0dp" n1:layout_height="wrap_content" n4:bwk="@id/qyc" n4:bwr="@id/qyc" n4:bx8="@id/qzb" n4:bxc="@id/qyc" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

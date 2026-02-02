@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/wk7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginRight="24.0dp" n1:layout_marginBottom="6.0dp" n1:text="@null" n1:layout_marginHorizontal="24.0dp" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/v57" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginRight="24.0dp" n1:layout_marginBottom="20.0dp" n1:text="@null" n1:layout_marginHorizontal="24.0dp" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:gravity="center" n1:id="@id/tiq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginRight="24.0dp" n1:layout_marginBottom="20.0dp" n1:text="@null" n1:layout_marginHorizontal="24.0dp" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

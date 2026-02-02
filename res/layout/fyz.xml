@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout n1:id="@id/sed" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bgf="28.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:id="@id/w0s" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true">
+        <X.137w n1:id="@id/brw" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:ffh="@dimen/qs" />
+        <View n1:id="@id/myl" n1:background="@drawable/du6" n1:layout_width="match_parent" n1:layout_height="250.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" />
+        <X.0CWt n1:id="@id/soo" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <X.137w n1:id="@id/brx" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:ffh="@dimen/qo" />
+        <X.0nHj n1:id="@id/exu" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/qq" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf">
+            <X.0D2z n1:id="@id/zdl" n1:layout_width="128.0dp" n1:layout_height="wrap_content" n1:text="@null" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:fi9="true" n2:fib="n2i" n2:fid="qhx" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.bytedance.tux.widget.RadiusLayout>

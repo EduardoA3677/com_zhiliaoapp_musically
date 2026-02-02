@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/st7" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/uo_" n1:layout_width="match_parent" n1:layout_height="44.0dp" n2:bwl="@id/swp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <View n1:id="@id/swp" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/uo_" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/wmz" n1:background="?bx" n1:paddingTop="18.0dp" n1:paddingBottom="26.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="24.0dp" n1:paddingEnd="0.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/st7" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/wmq" n1:background="@drawable/b3t" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="7.0dp" n3:bwl="@id/wn2" n3:bx9="owf" n3:bxc="owf" />
+        <View n1:id="@id/wn2" n1:background="@drawable/b3n" n1:layout_width="42.0dp" n1:layout_height="11.0dp" n1:layout_marginTop="8.0dp" n3:bwq="@id/wmq" n3:bx9="@id/wmq" n3:bxb="@id/wmq" />
+        <View n1:id="@id/wmr" n1:background="@drawable/b3t" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="49.0dp" n3:bwl="@id/wn3" n3:bx8="@id/wmq" n3:bxc="owf" />
+        <View n1:id="@id/wn3" n1:background="@drawable/b3n" n1:layout_width="42.0dp" n1:layout_height="11.0dp" n1:layout_marginTop="8.0dp" n3:bwq="@id/wmr" n3:bx9="@id/wmr" n3:bxb="@id/wmr" />
+        <View n1:id="@id/wms" n1:background="@drawable/b3t" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="49.0dp" n3:bwl="@id/wn4" n3:bx8="@id/wmr" n3:bxc="owf" />
+        <View n1:id="@id/wn4" n1:background="@drawable/b3n" n1:layout_width="42.0dp" n1:layout_height="11.0dp" n1:layout_marginTop="8.0dp" n3:bwq="@id/wms" n3:bx9="@id/wms" n3:bxb="@id/wms" />
+        <View n1:id="@id/wmt" n1:background="@drawable/b3t" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="49.0dp" n3:bwl="@id/wn5" n3:bx8="@id/wms" n3:bxc="owf" />
+        <View n1:id="@id/wn5" n1:background="@drawable/b3n" n1:layout_width="42.0dp" n1:layout_height="11.0dp" n1:layout_marginTop="8.0dp" n3:bwq="@id/wmt" n3:bx9="@id/wmt" n3:bxb="@id/wmt" />
+        <View n1:id="@id/wmu" n1:background="@drawable/b3t" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="49.0dp" n3:bwl="@id/wn6" n3:bx8="@id/wmt" n3:bxc="owf" />
+        <View n1:id="@id/wn6" n1:background="@drawable/b3n" n1:layout_width="42.0dp" n1:layout_height="11.0dp" n1:layout_marginTop="8.0dp" n3:bwq="@id/wmu" n3:bx9="@id/wmu" n3:bxb="@id/wmu" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/mr4" n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/wmz" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ibv" n1:background="@drawable/b3q" n1:paddingTop="10.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" n4:bwl="@id/ibw" n4:bwq="owf" n4:bx1="4.0" n4:bx9="owf" n4:bxc="owf">
+            <View n1:id="@id/wso" n1:background="@drawable/b3p" n1:layout_width="match_parent" n1:layout_height="24.0dp" n1:layout_marginEnd="175.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" />
+            <View n1:id="@id/awd" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="10.0dp" n4:bwp="1:1" n4:bwr="@id/awf" n4:bx1="1.0" n4:bx9="owf" n4:bxb="@id/wso" />
+            <View n1:id="@id/awe" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awd" n4:bx1="1.0" n4:bx9="@id/awd" n4:bxb="@id/awd" />
+            <View n1:id="@id/awf" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginStart="8.0dp" n4:bwp="1:1" n4:bwr="@id/awh" n4:bx1="1.0" n4:bx8="@id/awd" n4:bxc="@id/awd" />
+            <View n1:id="@id/awg" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awf" n4:bx1="1.0" n4:bx9="@id/awf" n4:bxb="@id/awf" />
+            <View n1:id="@id/awh" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginStart="8.0dp" n4:bwp="1:1" n4:bwr="@id/awj" n4:bx1="1.0" n4:bx8="@id/awf" n4:bxc="@id/awd" />
+            <View n1:id="@id/awi" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awh" n4:bx1="1.0" n4:bx9="@id/awh" n4:bxb="@id/awh" />
+            <View n1:id="@id/awj" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginStart="8.0dp" n4:bwp="1:1" n4:bwq="owf" n4:bx1="1.0" n4:bx8="@id/awh" n4:bxc="@id/awh" />
+            <View n1:id="@id/awk" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awj" n4:bx1="1.0" n4:bx9="@id/awj" n4:bxb="@id/awj" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ibw" n1:background="@drawable/b3q" n1:paddingTop="10.0dp" n1:paddingBottom="11.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" n4:bwq="owf" n4:bx1="4.0" n4:bx9="owf" n4:bxb="@id/ibv">
+            <View n1:id="@id/wsp" n1:background="@drawable/b3p" n1:layout_width="match_parent" n1:layout_height="24.0dp" n1:layout_marginEnd="175.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" />
+            <View n1:id="@id/awl" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="10.0dp" n4:bwp="1:1" n4:bwr="@id/awo" n4:bx1="1.0" n4:bx9="owf" n4:bxb="@id/wsp" />
+            <View n1:id="@id/awn" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awl" n4:bx1="1.0" n4:bx9="@id/awl" n4:bxb="@id/awl" />
+            <View n1:id="@id/awm" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="19.0dp" n4:bwq="@id/awn" n4:bx1="1.0" n4:bx9="@id/awn" n4:bxb="@id/awn" />
+            <View n1:id="@id/awo" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginStart="8.0dp" n4:bwp="1:1" n4:bwr="@id/awr" n4:bx1="1.0" n4:bx8="@id/awl" n4:bxc="@id/awl" />
+            <View n1:id="@id/awq" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awo" n4:bx1="1.0" n4:bx9="@id/awo" n4:bxb="@id/awo" />
+            <View n1:id="@id/awp" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="19.0dp" n4:bwq="@id/awq" n4:bx1="1.0" n4:bx9="@id/awq" n4:bxb="@id/awq" />
+            <View n1:id="@id/awr" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginStart="8.0dp" n4:bwp="1:1" n4:bwr="@id/awu" n4:bx1="1.0" n4:bx8="@id/awo" n4:bxc="@id/awo" />
+            <View n1:id="@id/awt" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awr" n4:bx1="1.0" n4:bx9="@id/awr" n4:bxb="@id/awr" />
+            <View n1:id="@id/aws" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="19.0dp" n4:bwq="@id/awt" n4:bx1="1.0" n4:bx9="@id/awt" n4:bxb="@id/awt" />
+            <View n1:id="@id/awu" n1:background="@drawable/b3p" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginStart="8.0dp" n4:bwp="1:1" n4:bwq="owf" n4:bx1="1.0" n4:bx8="@id/awr" n4:bxc="@id/awr" />
+            <View n1:id="@id/aww" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="13.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="26.0dp" n4:bwq="@id/awu" n4:bx1="1.0" n4:bx9="@id/awu" n4:bxb="@id/awu" />
+            <View n1:id="@id/awv" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="19.0dp" n4:bwq="@id/aww" n4:bx1="1.0" n4:bx9="@id/aww" n4:bxb="@id/aww" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View n1:id="@id/viv" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="19.0dp" n1:layout_marginStart="10.0dp" n4:bwr="@id/viw" n4:bx1="1.0" n4:bx9="owf" n4:bxb="@id/ibw" />
+        <View n1:id="@id/viw" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="20.0dp" n4:bwr="@id/vix" n4:bx1="1.0" n4:bx8="@id/viv" n4:bxc="@id/viv" />
+        <View n1:id="@id/vix" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="20.0dp" n4:bwr="@id/viy" n4:bx1="1.0" n4:bx8="@id/viw" n4:bxc="@id/viv" />
+        <View n1:id="@id/viy" n1:background="@drawable/b3n" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="9.0dp" n4:bwq="owf" n4:bx1="1.0" n4:bx8="@id/vix" n4:bxc="@id/viv" />
+        <View n1:id="@id/h11" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="277.0dp" n1:layout_marginTop="23.0dp" n1:layout_marginEnd="4.0dp" n4:bwr="@id/h12" n4:bx1="1.0" n4:bx9="owf" n4:bxb="@id/viv" />
+        <View n1:id="@id/h12" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="277.0dp" n1:layout_marginStart="4.0dp" n4:bwq="owf" n4:bx1="1.0" n4:bx8="@id/h11" n4:bxc="@id/h11" />
+        <View n1:id="@id/h13" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="277.0dp" n1:layout_marginTop="23.0dp" n1:layout_marginEnd="4.0dp" n4:bwr="@id/h14" n4:bx1="1.0" n4:bx9="owf" n4:bxb="@id/h11" />
+        <View n1:id="@id/h14" n1:background="@drawable/b3o" n1:layout_width="0.0dp" n1:layout_height="277.0dp" n1:layout_marginStart="4.0dp" n4:bwq="owf" n4:bx1="1.0" n4:bx8="@id/h13" n4:bxc="@id/h13" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:padding="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/eiz" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="12.0dp" n2:bwk="owf" n2:bwr="@id/eit" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/ejy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="40 % off from TikTok Shop" n1:maxLines="1" n2:bwl="@id/ej8" n2:bx9="owf" n2:bxc="owf" n2:fj2="p4" />
+        <X.0CrZ n1:id="@id/ej8" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxb="@id/ejy" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0D2z n1:id="@id/eit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Claim" n3:bwk="owf" n3:bwo="4.0dp" n3:bwq="owf" n3:bxc="owf" n3:fi8="true" n3:fib="wf4" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

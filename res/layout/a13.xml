@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/mkp" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="7.0dp" n1:layout_marginVertical="4.0dp" n2:fjq="@raw/icon_spinner_normal" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/x00" n1:paddingTop="4.0dp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:layout_width="35.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:paddingStart="13.0dp" n1:paddingEnd="6.0dp" n1:paddingVertical="4.0dp" n3:fjq="@raw/icon_languages_tick" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/wln" n1:paddingTop="4.0dp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:layout_width="35.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:paddingStart="12.0dp" n1:paddingEnd="7.0dp" n1:paddingVertical="4.0dp" n4:fjq="@raw/icon_languages" n4:fmy="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

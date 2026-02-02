@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?bx" n1:paddingTop="@dimen/qf" n1:paddingBottom="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/beg" n1:background="@drawable/du_" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.137w n1:id="@id/jox" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:eyl="@dimen/r5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:ellipsize="end" n1:id="@id/edd" n1:paddingTop="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_alignParentTop="true" n1:lineSpacingMultiplier="0.9" n1:paddingStart="@dimen/qf" n1:paddingEnd="@dimen/r5" n1:layout_toStartOf="@id/jpr" n1:layout_alignParentStart="true" n3:b5h="16.0sp" n3:b5i="15.0sp" n3:b5l="z1f" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="12.0sp" n1:ellipsize="end" n1:id="@id/ede" n1:paddingTop="7.0dp" n1:paddingBottom="@dimen/qf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_toLeftOf="@id/jpr" n1:layout_below="@id/edd" n1:layout_alignParentBottom="true" n1:lineSpacingMultiplier="0.9" n1:paddingStart="@dimen/qf" n1:paddingEnd="@dimen/r5" n1:layout_alignParentStart="true" />
+        <X.137w n1:id="@id/jpr" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_alignParentEnd="true" n4:ey4="false" n4:ey5="true" n4:eya="false" n4:eyb="true" n4:eyl="@dimen/r5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/c_g" n1:background="@drawable/dua" n1:padding="@dimen/r1" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" n5:br4="@raw/icon_x_mark" n5:fb9="@color/aaa" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</FrameLayout>

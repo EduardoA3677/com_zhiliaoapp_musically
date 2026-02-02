@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/lru" n1:background="?zo" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_toLeftOf="@id/ex9" n1:layout_alignParentLeft="true">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/lse" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/vj_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <X.12nN n1:textColor="?edk" n1:layout_gravity="center_horizontal" n1:id="@id/yr9" n1:paddingTop="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" style="@style/a74" />
+                <View n1:layout_gravity="center_horizontal" n1:id="@id/lr3" n1:background="?edk" n1:layout_width="30.0dp" n1:layout_height="2.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/vke" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <X.12nN n1:textColor="?edk" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/yrg" n1:paddingTop="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" style="@style/a74" />
+                <View n1:layout_gravity="center_horizontal" n1:id="@id/lre" n1:background="?edk" n1:layout_width="30.0dp" n1:layout_height="2.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" />
+            </LinearLayout>
+            <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/vk9" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <X.12nN n1:textColor="?edk" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/yrf" n1:paddingTop="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" style="@style/a74" />
+                <View n1:layout_gravity="center_horizontal" n1:id="@id/lrd" n1:background="?edk" n1:layout_width="30.0dp" n1:layout_height="2.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.12nN n1:textColor="?c3" n1:gravity="left" n1:id="@id/xvt" n1:padding="4.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:includeFontPadding="false" style="@style/a74" />
+        </ScrollView>
+    </LinearLayout>
+    <X.12q2 n1:id="@id/ex9" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:layout_alignParentRight="true" />
+</RelativeLayout>

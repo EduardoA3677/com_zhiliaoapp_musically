@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/k0q" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:orientation="vertical" n1:background="@drawable/dq4" n1:layout_width="108.0dp" n1:layout_height="108.0dp">
+        <X.137w n1:layout_gravity="center" n1:id="@id/kqx" n1:layout_width="94.0dp" n1:layout_height="94.0dp" n1:scaleType="fitXY" n2:ffh="6.0dp" n2:fox="1.0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:layout_gravity="center" n1:id="@id/klz" n1:background="@drawable/dq5" n1:visibility="gone" n1:layout_width="94.0dp" n1:layout_height="94.0dp" n1:scaleType="fitXY" />
+        <X.12nN n1:textColor="?c3r" n1:ellipsize="end" n1:layout_gravity="start|bottom" n1:id="@id/b1s" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="11.0dp" n1:maxLines="1" n1:layout_marginStart="13.0dp" n1:layout_marginEnd="13.0dp" style="@style/a7b" />
+    </FrameLayout>
+    <ImageView n1:id="@id/l2z" n1:layout_width="16.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="-1.5dp" n1:src="@drawable/eil" />
+</LinearLayout>

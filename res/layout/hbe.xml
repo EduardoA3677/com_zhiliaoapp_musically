@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:focusable="true" n1:focusableInTouchMode="true" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/vcp" n1:background="?c3d" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/vcj" n1:background="?c3d" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0nK1 n1:id="@id/lw0" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/lz9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/alu" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.125u n1:id="@id/fsk" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="44.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.125u n1:id="@id/dka" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginStart="6.0dp" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.0CVT n1:id="@id/hmr" n1:tag="foldable_area" n1:layout_width="306.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="18.0dp" n1:paddingStart="2.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="0.0dp" n6:bo4="ll3" n6:bwl="@id/ibh" n6:bwq="owf" n6:bx9="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+            <X.125u n1:id="@id/s3b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/bi3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/uw0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/tk1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/ngv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/lw2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/tr6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/lze" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/cud" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/m07" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/v6m" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/gxm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/z4q" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/ti9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/fsr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <X.125u n1:id="@id/cpr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <X.125u n1:id="@id/eue" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/k3g" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/plg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/viewer_wishes_widget_container" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+            <X.125u n1:id="@id/qxm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </X.0CVT>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/elt" n1:background="@drawable/e2h" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="40.0dp" n1:layout_marginStart="40.0dp" n1:layout_marginEnd="40.0dp" n7:bwq="owf" n7:bwz="0.0" n7:bx9="owf" n7:bxb="@id/dka" xmlns:n7="http://schemas.android.com/apk/res-auto">
+            <X.125u n1:id="@id/wke" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="8.0dp" n7:bwq="owf" n7:bx8="@id/em3" n7:bxc="owf" n7:by2="6.0dp" />
+            <X.125u n1:id="@id/f5g" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n7:bwk="owf" n7:bwq="owf" n7:bwv="wrap" n7:bx9="@id/wke" n7:bxb="@id/wke" n7:bxd="1.0" />
+            <X.125u n1:id="@id/em3" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="6.0dp" n7:bwk="owf" n7:bx9="owf" n7:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/h9j" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n8:bwq="@id/elt" n8:bx9="@id/elt" n8:bxb="@id/elt" xmlns:n8="http://schemas.android.com/apk/res-auto">
+            <X.125u n1:id="@id/ion" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="28.0dp" n8:bwr="@id/uz7" n8:bx9="owf" n8:bxc="owf" />
+            <X.125u n1:id="@id/uz7" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp" n8:bwq="owf" n8:bx8="@id/ion" n8:bxc="owf" n8:by2="0.0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.125u n1:id="@id/ey4" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n9:bwq="@id/elt" n9:bx9="@id/elt" n9:bxb="@id/h9j" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/alk" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="8.0dp" n10:bwl="@id/hmr" n10:bwq="@id/elt" n10:bwz="0.0" n10:bx9="@id/elt" n10:bxb="@id/ey4" n10:bxd="0.0" xmlns:n10="http://schemas.android.com/apk/res-auto">
+            <X.125u n1:id="@id/o_u" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/nhm" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/qk2" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/nzu" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/apo" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/aov" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/apl" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/m3g" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/m0g" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/ige" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/m0s" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/fvd" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="54.0dp" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/rtl" n1:background="@color/dx" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/beg" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwk="owf" n10:bwq="owf" n10:bwz="0.0" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+            <X.125u n1:id="@id/pj4" n1:background="@color/dx" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf" n10:bxd="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout n1:id="@id/ibh" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n11:bwl="@id/um9" n11:bwq="@id/um9" n11:bx3="@id/um9" n11:bx7="@id/um9" n11:bx9="@id/um9" n11:bxg="wrap" xmlns:n11="http://schemas.android.com/apk/res-auto">
+            <X.125u n1:id="@id/avo" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/um9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n12:bwl="@id/m23" n12:bwq="owf" n12:bx9="owf" n12:bxy="80.0dp" xmlns:n12="http://schemas.android.com/apk/res-auto">
+            <X.125u n1:id="@id/uma" n1:layout_width="@dimen/auc" n1:layout_height="52.0dp" n12:bwk="owf" n12:bwq="owf" n12:bx9="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View n1:id="@id/iah" n1:layout_width="wrap_content" n1:layout_height="1.0dp" n13:bwl="@id/m23" n13:bwq="owf" n13:bx9="owf" n13:bxy="80.0dp" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/m23" n1:layout_width="match_parent" n1:layout_height="112.0dp" n14:bwk="owf" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+        <X.125u n1:id="@id/i3h" n1:layout_width="match_parent" n1:layout_height="match_parent" n15:bwk="owf" n15:bwq="owf" n15:bx9="owf" n15:bxc="owf" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/urf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n16:bwk="owf" n16:bx3="owf" n16:bx7="owf" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+        <X.125u n1:id="@id/h7n" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/hmy" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n17:bwk="owf" n17:bwq="owf" n17:bwz="0.36" n17:bx9="owf" n17:bxc="owf" n17:bxd="0.5" xmlns:n17="http://schemas.android.com/apk/res-auto">
+            <X.0d3Z n1:layout_gravity="center" n1:id="@id/hmz" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n1:layout_marginTop="6.0dp" n1:src="@drawable/e_m" n17:bwq="owf" n17:bwz="0.36" n17:bx9="owf" n17:bxc="owf" />
+            <X.0d3Z n1:id="@id/gsp" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:src="@drawable/eri" n17:bwk="@id/hmz" n17:bx8="@id/hmz" n17:bxc="@id/hmz" />
+            <X.0D0r n1:layout_gravity="center_horizontal" n1:id="@id/ikd" n1:layout_width="200.0dp" n1:layout_height="200.0dp" n1:layout_marginTop="92.0dp" n1:scaleType="centerCrop" n1:layout_marginStart="44.0dp" n17:bwk="@id/hmz" n17:bx9="@id/hmz" n17:bxc="@id/hmz" />
+            <X.12nN n1:textSize="20.0dp" n1:textColor="?c3r" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/ild" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="68.0dp" n1:text="@null" n17:bwq="owf" n17:bx9="owf" n17:bxb="@id/hmz" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.125u n1:id="@id/m0_" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.125u n1:id="@id/bmy" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0nGp n1:id="@id/bsw" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/cpk" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0UJW n1:id="@id/ibf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

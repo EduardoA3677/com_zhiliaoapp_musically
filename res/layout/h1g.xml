@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/f7w" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/kkr" n1:layout_width="120.0dp" n1:layout_height="240.0dp" />
+    <com.bytedance.android.live.design.widget.LiveEditText n1:textColor="@color/a7v" n1:gravity="start|top" n1:layout_gravity="start" n1:id="@id/gnx" n1:padding="5.0dp" n1:layout_width="match_parent" n1:layout_height="240.0dp" n1:textCursorDrawable="@drawable/ec5" n1:layout_marginStart="5.0dp" style="@style/a6s" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:gravity="start" n1:orientation="vertical" n1:id="@id/znw" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12hi n1:textSize="11.0dp" n1:textColor="?eio" n1:ellipsize="end" n1:id="@id/yti" n1:layout_width="140.0dp" n1:layout_height="12.0dp" n1:includeFontPadding="false" n1:alpha="0.4" n2:b5h="11.0dp" n2:b5i="9.0dp" n2:b5l="z1f" style="@style/qg" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/kqn" n1:layout_width="14.0dp" n1:layout_height="14.0dp" />
+        <X.12hi n1:textSize="16.0dp" n1:textColor="?eio" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start|center" n1:id="@id/xtk" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_marginStart="18.0dp" style="@style/px" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/kqs" n1:visibility="gone" n1:layout_width="14.0dp" n1:layout_height="14.0dp" />
+        <X.12hi n1:textSize="16.0dp" n1:textColor="?eio" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/xto" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_marginStart="18.0dp" style="@style/px" />
+    </FrameLayout>
+</merge>

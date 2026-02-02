@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0n0T n1:background="@drawable/b9s" n1:visibility="visible" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:layout_alignParentBottom="true" n1:alpha="0.0" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="92.0dp" n2:eot="375.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout n1:id="@id/d04" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j6z" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" n1:layout_alignParentEnd="true" n2:fjq="@raw/icon_x_mark" n2:fjz="true" n2:fmy="?e3" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="start" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_toStartOf="@id/j6z" n1:layout_alignParentStart="true" n2:fj2="p7" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e4" n1:gravity="start" n1:id="@id/yqa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:layout_below="@id/yti" n1:layout_alignStart="@id/yti" n1:layout_alignEnd="@id/yti" n2:fj2="px" />
+        <androidx.recyclerview.widget.RecyclerView n1:orientation="horizontal" n1:id="@id/mqq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_below="@id/yqa" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" />
+        <RelativeLayout n1:id="@id/k0c" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="33.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_below="@id/mqq" n1:alpha="0.0" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/dhx" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n1:layout_alignParentEnd="true" n2:fjq="@raw/icon_x_mark_circle_fill" n2:fmy="?e3" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:textColorHint="?e4" n1:ellipsize="end" n1:id="@id/k0y" n1:layout_width="match_parent" n1:layout_height="17.0dp" n1:hint="@null" n1:singleLine="true" n1:layout_centerVertical="true" n1:textAlignment="viewStart" n1:layout_toStartOf="@id/dhx" n2:fj2="pu" />
+            <View n1:background="?e3" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <X.0D2z n1:enabled="false" n1:gravity="center" n1:id="@id/cfg" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_marginTop="12.0dp" n1:layout_below="@id/d04" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fi8="false" n2:fid="e7z" n2:fj2="pv" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e3" n1:gravity="center" n1:id="@id/iaw" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="8.0dp" n1:layout_below="@id/cfg" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="pv" />
+</X.0n0T>

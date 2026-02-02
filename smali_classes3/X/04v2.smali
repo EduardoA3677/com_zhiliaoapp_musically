@@ -1,0 +1,77 @@
+.class public final LX/04v2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0E38;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LX/0E38;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final LL:LX/04v2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/04v2<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/04v2;
+
+    invoke-direct {v0}, LX/04v2;-><init>()V
+
+    sput-object v0, LX/04v2;->LL:LX/04v2;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 3
+
+    const-string v2, "LocalNotifyTasksPublisher@ef0c.clearNUGuideLocalNotifyTasks$2"
+
+    invoke-static {v2}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    sget-object v0, LX/04v7;->LIZ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/bytedance/keva/Keva;
+
+    const-string v0, "nu_local_notify_wm_status"
+
+    invoke-virtual {v1, v0}, Lcom/bytedance/keva/Keva;->erase(Ljava/lang/String;)V
+
+    invoke-static {v2}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-void
+.end method

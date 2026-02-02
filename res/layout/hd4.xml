@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/e52" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/as9" n1:paddingEnd="@dimen/as9" n1:paddingVertical="6.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/jb2" n1:background="@drawable/ds3" n1:padding="6.0dp" n1:layout_width="@dimen/any" n1:layout_height="@dimen/any" n2:br4="?dhm" n2:brl="?fem" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0d6t n1:textColor="?fen" n1:gravity="start|center" n1:layout_gravity="center_vertical" n1:id="@id/text" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:minHeight="18.0dp" n1:textIsSelectable="false" n1:textDirection="anyRtl" n1:textAlignment="viewStart" n1:layout_marginStart="6.0dp" style="@style/a76" />
+    </LinearLayout>
+</FrameLayout>

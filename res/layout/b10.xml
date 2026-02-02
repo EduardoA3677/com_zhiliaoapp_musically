@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/z89" n1:paddingLeft="8.0dp" n1:paddingTop="12.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="12.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxb="@id/z83" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?fk" n1:id="@id/z8_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="You have saved $20 on Shipping from Perk Pack" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="q2" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/z88" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="8.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/z8_" n2:fj2="q1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

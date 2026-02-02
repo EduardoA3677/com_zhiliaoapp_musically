@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/i1p" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/i1n" n1:layout_width="match_parent" n1:layout_height="54.0dp" n1:layout_below="@id/i1p" />
+    <FrameLayout n1:id="@id/i1o" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/i1n" />
+    <FrameLayout n1:id="@id/i1m" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:longClickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/i1n" />
+    <LinearLayout n1:gravity="center" n1:id="@id/i1l" n1:background="@drawable/arm" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="54.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="44.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp" n1:elevation="10.0dp">
+        <ImageView n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/c4e" n1:importantForAccessibility="no" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:text="@null" n1:layout_marginStart="8.0dp" n2:fj2="p4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

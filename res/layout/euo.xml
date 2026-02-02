@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/e5n" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_color_adjust_compare" n2:fjt="24.0dp" n2:fjz="true" n2:fk6="24.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CUq n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n3:bwl="@id/c1i" n3:bwr="@id/ro2" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/t7z" n1:visibility="invisible" n1:layout_width="53.0dp" n1:layout_height="33.0dp" n1:text="0" n3:fj2="pa" />
+        <X.0n2h n1:id="@id/a_s" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="50.0dp" n3:eqc="0.5" n3:eqe="100" n3:eqf="-100" />
+    </X.0CUq>
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/z17" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="2.0dp" n4:bwl="@id/c1i" n4:bwr="@id/ro2" n4:fjq="@raw/icon_arrow_turn_left_ltr" n4:fjt="20.0dp" n4:fjz="true" n4:fk6="20.0dp" n4:fmy="?xz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ro2" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="2.0dp" n1:layout_marginEnd="10.0dp" n5:bwl="@id/c1i" n5:bwq="owf" n5:fjq="@raw/icon_arrow_turn_right_ltr" n5:fjt="20.0dp" n5:fjz="true" n5:fk6="20.0dp" n5:fmy="?xz" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/c1i" n1:layout_width="match_parent" n1:layout_height="176.0dp" n6:bwk="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/a_q" n1:paddingLeft="12.0dp" n1:paddingTop="16.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="8.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="12.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:layout_gravity="start|bottom" n1:id="@id/xqg" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:text="@string/dzy" n1:paddingHorizontal="16.0dp" n6:fj2="p_" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:layout_gravity="end|bottom" n1:id="@id/ylu" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:text="@string/q6_" n1:paddingHorizontal="16.0dp" n6:fj2="pa" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

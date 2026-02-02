@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/e11" n1:padding="@dimen/qq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/qi" n1:layout_marginRight="@dimen/qi" n1:layout_marginBottom="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi" n1:layout_marginVertical="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0n4v n1:id="@id/cyq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qo">
+        <X.12nN n1:textColor="?ekp" n1:gravity="start" n1:id="@id/cyp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textAlignment="textStart" style="@style/a6r" />
+    </X.0n4v>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/cy7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/r5" />
+    <X.12pz n1:id="@id/qy3" n1:background="@drawable/e14" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:b5_="true" style="@style/a5e" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/qy4" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qf">
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/cyi" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginEnd="@dimen/r5">
+            <X.0mMn n1:id="@id/cyj" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/cyh" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+                <X.12nN n1:textSize="@dimen/qc" n1:textColor="?ejv" n1:gravity="center_horizontal" n1:id="@id/cyk" n1:paddingRight="@dimen/r5" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qo" n1:layoutDirection="ltr" style="@style/a6j" />
+            </X.0mMn>
+        </FrameLayout>
+        <X.0n4v n1:id="@id/cym" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.12nN n1:textColor="?eks" n1:id="@id/cyl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/a77" />
+        </X.0n4v>
+    </LinearLayout>
+</LinearLayout>

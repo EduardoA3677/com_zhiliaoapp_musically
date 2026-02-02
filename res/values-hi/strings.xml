@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">चालू करें</string>
+    <string name="en0">जब तक आप Google Play सेवाएं चालू नहीं करते, %1$s काम नहीं करेगा.</string>
+    <string name="en1">Google Play सेवाएं चालू करें</string>
+    <string name="en2">इंस्टॉल करें</string>
+    <string name="en3">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं.</string>
+    <string name="en4">Google Play सेवाएं इंस्टॉल करें</string>
+    <string name="en5">Google Play सेवाएं उपलब्ध हैं</string>
+    <string name="en6">Google Play सेवाओं से जुड़ी गड़बड़ी</string>
+    <string name="en7">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
+    <string name="en8">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं.</string>
+    <string name="en9">अपडेट करें</string>
+    <string name="en_">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string name="ena">Google Play सेवाओं को अपडेट करें</string>
+    <string name="enb">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं.</string>
+    <string name="enc">Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

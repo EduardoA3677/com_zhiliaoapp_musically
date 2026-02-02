@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/dwn" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/bai" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n1:layout_alignParentStart="true" n2:br4="?cty" n2:brl="?ekp" />
+        <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerInParent="true" style="@style/a6q" />
+    </RelativeLayout>
+    <FrameLayout n1:id="@id/hs4" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxb="@id/wh4" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

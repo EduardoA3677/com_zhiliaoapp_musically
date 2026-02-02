@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="left|bottom" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/gr0" n1:background="?xr" n1:padding="1.0dp" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:contentDescription="Expand preview" n2:fjq="@raw/icon_chevron_expand" n2:fmy="?z4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

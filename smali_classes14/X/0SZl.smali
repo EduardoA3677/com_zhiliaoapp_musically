@@ -1,0 +1,124 @@
+.class public final LX/0SZl;
+.super LX/0SMz;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/129U;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "e"
+.end annotation
+
+
+# static fields
+.field public static final LJIILIIL:LX/0SZl;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0SZl;
+
+    invoke-direct {v0}, LX/0SZl;-><init>()V
+
+    sput-object v0, LX/0SZl;->LJIILIIL:LX/0SZl;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/0SMz;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZIZ(Landroid/graphics/Matrix;Landroid/graphics/Rect;IIFFFF)V
+    .locals 6
+
+    invoke-static {p7, p8}, Ljava/lang/Math;->min(FF)F
+
+    move-result v1
+
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    invoke-static {v1, v0}, Ljava/lang/Math;->min(FF)F
+
+    move-result v5
+
+    iget v0, p2, Landroid/graphics/Rect;->left:I
+
+    int-to-float v4, v0
+
+    invoke-virtual {p2}, Landroid/graphics/Rect;->width()I
+
+    move-result v0
+
+    int-to-float v1, v0
+
+    int-to-float v0, p3
+
+    mul-float/2addr v0, v5
+
+    sub-float/2addr v1, v0
+
+    const/high16 v3, 0x3f000000    # 0.5f
+
+    mul-float/2addr v1, v3
+
+    add-float/2addr v4, v1
+
+    iget v0, p2, Landroid/graphics/Rect;->top:I
+
+    int-to-float v2, v0
+
+    invoke-virtual {p2}, Landroid/graphics/Rect;->height()I
+
+    move-result v0
+
+    int-to-float v1, v0
+
+    int-to-float v0, p4
+
+    mul-float/2addr v0, v5
+
+    sub-float/2addr v1, v0
+
+    mul-float/2addr v1, v3
+
+    add-float/2addr v2, v1
+
+    invoke-virtual {p1, v5, v5}, Landroid/graphics/Matrix;->setScale(FF)V
+
+    add-float/2addr v4, v3
+
+    float-to-int v0, v4
+
+    int-to-float v1, v0
+
+    add-float/2addr v2, v3
+
+    float-to-int v0, v2
+
+    int-to-float v0, v0
+
+    invoke-virtual {p1, v1, v0}, Landroid/graphics/Matrix;->postTranslate(FF)Z
+
+    return-void
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "center_inside"
+
+    return-object v0
+.end method

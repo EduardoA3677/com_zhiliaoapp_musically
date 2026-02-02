@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/djl" n1:paddingTop="11.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:paddingLeft="16.0dp" n1:paddingTop="6.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="6.0dp">
+        <X.12hi n1:textColor="?ekp" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/xv9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp" style="@style/a6x" />
+        <X.12hi n1:textColor="?ekr" n1:layout_gravity="end|center" n1:id="@id/xx_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/a74" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/b8z" n1:paddingLeft="12.0dp" n1:paddingTop="8.0dp" n1:paddingRight="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:paddingHorizontal="12.0dp" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/b90" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:paddingHorizontal="12.0dp" />
+</LinearLayout>

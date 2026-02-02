@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:baselineAligned="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:id="@id/rsf" n1:layout_width="100.0dp" n1:layout_height="32.0dp" n1:text="@string/pug" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp" n2:fib="u9x" n2:fid="t69" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:id="@id/rqw" n1:layout_width="100.0dp" n1:layout_height="32.0dp" n1:layout_weight="1.0" n3:fib="u9x" n3:fid="qhx" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

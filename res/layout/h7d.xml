@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/dkm" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12hi n1:textSize="15.0sp" n1:textColor="?ehx" n1:ellipsize="end" n1:id="@id/dkq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:maxLines="2" n1:layout_alignParentTop="true" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="12.0dp" n1:layout_alignParentStart="true" style="@style/a6w" />
+    <X.12hi n1:textSize="13.0sp" n1:textColor="?eks" n1:ellipsize="end" n1:id="@id/dkn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:maxLines="5" n1:layout_below="@id/dkq" n1:lineSpacingExtra="3.0dp" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n1:layout_alignParentStart="true" n2:bp3="rqc" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:gravity="center_vertical" n1:id="@id/dkp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_alignBottom="@id/dkq" n1:layout_alignParentTop="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true">
+        <X.0oaM n1:gravity="center_vertical" n1:id="@id/dko" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/vue" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:bne="?bv" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:etn="?bv" n2:eyl="@dimen/b8" n2:eyo="?y0" n2:eyq="1.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/vuc" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:paddingStart="10.0dp" n3:bwk="@id/vue" n3:bwq="@id/vue" n3:bx9="@id/vue" n3:bxc="@id/vue" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/vub" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n3:fj2="q1" />
+    </FrameLayout>
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/vuf" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginEnd="30.0dp" n4:bne="?bv" n4:bwk="owf" n4:bwq="@id/vue" n4:bxc="owf" n4:etn="?bv" n4:eyl="@dimen/b8" n4:eyo="?y0" n4:eyq="1.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/vug" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginEnd="30.0dp" n5:bne="?bv" n5:bwk="owf" n5:bwq="@id/vuf" n5:bxc="owf" n5:etn="?bv" n5:eyl="@dimen/b8" n5:eyo="?y0" n5:eyq="1.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/ipu" n1:paddingLeft="16.0dp" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/qdj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:fjq="@raw/icon_x_mark" n2:fjz="true" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.13QH n1:id="@id/qfa" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="\@string/" n1:layout_centerVertical="true" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

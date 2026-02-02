@@ -1,0 +1,130 @@
+.class public final LX/02RY;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0E38;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LX/0E38;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:LX/02Qy;
+
+.field public final synthetic LLILIL:J
+
+.field public final synthetic LLILL:Lcom/bytedance/android/livesdk/comp/api/linkcore/model/KickOutData;
+
+
+# direct methods
+.method public constructor <init>(LX/02Qy;JLcom/bytedance/android/livesdk/comp/api/linkcore/model/KickOutData;)V
+    .locals 0
+
+    iput-object p1, p0, LX/02RY;->LL:LX/02Qy;
+
+    iput-wide p2, p0, LX/02RY;->LLILIL:J
+
+    iput-object p4, p0, LX/02RY;->LLILL:Lcom/bytedance/android/livesdk/comp/api/linkcore/model/KickOutData;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 20
+
+    move-object/from16 v4, p1
+
+    const-string v3, "Linker@1743.moderatorKickOut$1"
+
+    invoke-static {v3}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    check-cast v4, Lcom/bytedance/android/live/network/response/BaseResponse;
+
+    if-eqz v4, :cond_1
+
+    iget-object v0, v4, Lcom/bytedance/android/live/network/response/BaseResponse;->data:Ljava/lang/Object;
+
+    if-eqz v0, :cond_1
+
+    move-object/from16 v2, p0
+
+    iget-object v6, v2, LX/02RY;->LL:LX/02Qy;
+
+    iget-wide v0, v2, LX/02RY;->LLILIL:J
+
+    iget-object v2, v2, LX/02RY;->LLILL:Lcom/bytedance/android/livesdk/comp/api/linkcore/model/KickOutData;
+
+    iget-object v5, v6, LX/02Qy;->LLJJL:LX/0wT2;
+
+    const-string v7, "kick_out"
+
+    invoke-static {}, LX/0fE9;->LIZIZ()J
+
+    move-result-wide v8
+
+    sub-long/2addr v8, v0
+
+    iget-object v10, v4, Lcom/bytedance/android/live/network/response/BaseResponse;->LIZIZ:Ljava/lang/String;
+
+    if-nez v10, :cond_0
+
+    const-string v10, ""
+
+    :cond_0
+    new-instance v12, Lkotlin/Pair;
+
+    invoke-virtual {v2}, Lcom/bytedance/android/livesdk/comp/api/linkcore/model/KickOutData;->getKickOutReason()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "kickout_reason"
+
+    invoke-direct {v12, v0, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-virtual {v2}, Lcom/bytedance/android/livesdk/comp/api/linkcore/model/KickOutData;->getGuest()Lcom/bytedance/android/livesdk/comp/api/linkcore/model/LiveRoomUser;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/bytedance/android/livesdk/comp/api/linkcore/model/LiveRoomUser;->getLinkMicId()Ljava/lang/String;
+
+    move-result-object v14
+
+    const/4 v15, 0x0
+
+    const/4 v13, 0x1
+
+    const/4 v11, 0x0
+
+    move-object/from16 v16, v15
+
+    move-object/from16 v17, v15
+
+    move-object/from16 v18, v15
+
+    move-object/from16 v19, v15
+
+    invoke-virtual/range {v5 .. v19}, LX/0wT2;->LJIIIZ(LX/02Ur;Ljava/lang/String;JLjava/lang/String;ILkotlin/Pair;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_1
+    invoke-static {v3}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-void
+.end method

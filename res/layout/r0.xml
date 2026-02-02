@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/sed" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.06Tg n1:layout_gravity="center" n1:id="@id/fo2" n1:visibility="invisible" n1:layout_width="92.0dp" n1:layout_height="103.0dp" />
+    <X.0CIs n1:layout_gravity="center" n1:id="@id/dbf" n1:visibility="invisible" n1:layout_width="16.0dp" n1:layout_height="16.0dp" />
+</FrameLayout>

@@ -1,0 +1,41 @@
+.class public final Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing$EffectCleanConfig;
+
+.field public static final LIZIZ:LX/05ta;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 6
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing$EffectCleanConfig;
+
+    const-wide/16 v4, 0x7d0
+
+    const/4 v1, 0x0
+
+    const-wide/16 v2, 0x9c4
+
+    invoke-direct/range {v0 .. v5}, Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing$EffectCleanConfig;-><init>(ZJJ)V
+
+    sput-object v0, Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing;->LIZ:Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing$EffectCleanConfig;
+
+    const/16 v0, 0x62
+
+    invoke-static {v0}, Lkotlin/jvm/internal/AFwS199S0000000_23;->get$arr$(I)Lkotlin/jvm/internal/AFwS199S0000000_23;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/ss/android/ugc/aweme/property/EnableEffectCleanupOnUsing;->LIZIZ:LX/05ta;
+
+    return-void
+.end method

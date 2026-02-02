@@ -1,0 +1,35 @@
+.class public interface abstract LX/116f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseModel;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/116e;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "d"
+.end annotation
+
+
+# virtual methods
+.method public abstract isSufficient()Ljava/lang/Boolean;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "is_sufficient"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract setSufficient(Ljava/lang/Boolean;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "is_sufficient"
+        required = true
+    .end annotation
+.end method

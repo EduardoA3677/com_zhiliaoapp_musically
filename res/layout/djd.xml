@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="30.0dp" n1:layout_height="30.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:theme="@style/wo" n1:id="@id/kqn" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cfm n1:id="@id/mj6" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.status.loading.TuxSpinner n1:id="@id/uhq" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n4:bx9="owf" n4:bxc="owf" n4:fjq="@raw/icon_spinner_normal" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/qk_" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginBottom="2.0dp" n1:contentDescription="@null" n1:layout_marginEnd="2.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" n5:fjq="@raw/icon_color_right_bottom_checkbox" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

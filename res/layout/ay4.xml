@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:id="@id/u4s" n1:focusable="true" n1:focusableInTouchMode="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.06I0 n1:id="@id/n1n" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.137G n1:id="@id/sq1" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:overScrollMode="never">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/na4" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <FrameLayout n1:id="@id/iqe" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <FrameLayout n1:id="@id/whs" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <LinearLayout n1:gravity="center_vertical" n1:id="@id/q4d" n1:background="@drawable/ayy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="28.0dp" n1:layout_marginTop="12.0dp" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj">
+                    <com.bytedance.tux.icon.TuxIconView n1:id="@id/q4e" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n2:fjq="@raw/icon_tick_circle" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/q4c" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+                <View n1:id="@id/fcz" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0px" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+                <FrameLayout n1:id="@id/u4g" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <FrameLayout n1:id="@id/qmm" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <FrameLayout n1:id="@id/ehw" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+                <FrameLayout n1:id="@id/oyt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+                <FrameLayout n1:id="@id/ood" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+            </LinearLayout>
+        </X.137G>
+    </X.06I0>
+</merge>

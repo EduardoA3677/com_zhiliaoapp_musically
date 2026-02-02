@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <X.0Czc n1:id="@id/vi8" n1:layout_width="28.0dp" n1:layout_height="28.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <androidx.constraintlayout.widget.ConstraintLayout n2:layout_width="0.0dp" n2:layout_height="wrap_content" n2:layout_marginLeft="8.0dp" n2:layout_marginRight="8.0dp" n2:layout_weight="1.0" n2:layout_marginHorizontal="8.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <com.bytedance.tux.input.TuxTextView n2:textColor="?zy" n2:ellipsize="end" n2:id="@id/vi9" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:maxLines="1" n3:bwg="true" n3:bwk="owf" n3:bwr="@id/vij" n3:bwz="0.0" n3:bx0="ori" n3:bx9="owf" n3:bxc="owf" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0CU3 n2:id="@id/vij" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_marginStart="8.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/vi9" n4:bxc="owf" n4:fi6="fh_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.icon.TuxIconView n5:id="@id/vic" n5:visibility="gone" n5:layout_width="20.0dp" n5:layout_height="20.0dp" n5:importantForAccessibility="no" n6:fjq="@raw/icon_ellipsis_horizontal" n6:fmy="?a04"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</merge>

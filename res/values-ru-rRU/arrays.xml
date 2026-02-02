@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Онлайн-библиотека звуков</item>
+        <item>Моя музыка</item>
+    </string-array>
+    <string-array name="q">
+        <item>Удалить</item>
+        <item>Отмена</item>
+    </string-array>
+    <string-array name="t">
+        <item>В тренде</item>
+        <item>Недавние</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Китайский (упрощенный)</item>
+        <item>Традиционный китайский</item>
+        <item>Английский</item>
+        <item>Японский</item>
+        <item>Корейский</item>
+        <item>Русский</item>
+        <item>Индонезийский</item>
+        <item>Малайский</item>
+        <item>Португальский</item>
+        <item>Тайский</item>
+        <item>Вьетнамский</item>
+        <item>Хинди</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Обычный</item>
+        <item>Черно-белый</item>
+        <item>Живопись</item>
+        <item>Винтаж</item>
+        <item>Ретро-люкс</item>
+        <item>Контрастный</item>
+        <item>Хроматический</item>
+    </string-array>
+    <string-array name="af">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Экономия трафика</item>
+        <item>Высокое разрешение</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Все</item>
+        <item>Только для друзей</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+</resources>

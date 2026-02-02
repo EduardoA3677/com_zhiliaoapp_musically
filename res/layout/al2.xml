@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/zcy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/zd0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p7" />
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/zcz" n1:layout_width="8.0dp" n1:layout_height="15.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n2:fjq="@raw/icon_chevron_right_slim_thin_ltr" n2:fmy="?zw" />
+    </LinearLayout>
+    <X.0CVT n1:id="@id/zct" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n3:bo4="ll3" n3:bo6="3" n3:bx9="@id/zcy" n3:bxb="@id/zcy" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?yf" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="16.0dp" n4:bx9="owf" n4:bxb="@id/zct" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

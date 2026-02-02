@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:background="@drawable/dlf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ogx" n1:paddingLeft="9.5dp" n1:paddingRight="9.5dp" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:id="@id/viewers_icon" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n2:br4="?dv3" n2:fb9="?e0" />
+        <ImageView n1:layout_gravity="center" n1:id="@id/gqc" n1:visibility="gone" n1:layout_width="11.0dp" n1:layout_height="11.0dp" n1:layout_marginLeft="8.5dp" n1:src="@drawable/ew_" n1:layout_marginStart="8.5dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+        <ViewStub n1:layout_gravity="center" n1:id="@id/ogj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/ahc" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

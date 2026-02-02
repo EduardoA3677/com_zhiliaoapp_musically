@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="76.0dp" n1:layout_height="66.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0Chi n1:id="@id/koa" n1:padding="3.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b8r="12.0dp" n2:b8v="12.0dp" n2:bwk="owf" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" n2:f26="false" n2:fcf="12.0dp" n2:fcj="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.0CWA n1:layout_gravity="center" n1:id="@id/koc" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:scaleType="centerCrop" n2:b8r="12.0dp" n2:b8v="12.0dp" n2:fcf="12.0dp" n2:fcj="12.0dp" />
+        </X.0Chi>
+        <View n1:id="@id/kob" n1:background="@drawable/aw8" n1:layout_width="66.0dp" n1:layout_height="66.0dp" n3:bwk="owf" n3:bx3="owf" n3:bx7="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

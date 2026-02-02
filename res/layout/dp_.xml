@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12uH n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bm_="@null" n2:bqs="false" n2:f1_="?f1b" n2:f1c="@null" style="@style/a47" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <EditText n1:id="@id/n14" n1:paddingBottom="6.0dp" n1:layout_width="96.0dp" n1:layout_height="80.0dp" n1:textCursorDrawable="@drawable/cnw" style="@style/a4f" />
+    <TextView n1:textAppearance="?f__" n1:id="@id/n0t" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:labelFor="@id/n14" />
+</X.12uH>

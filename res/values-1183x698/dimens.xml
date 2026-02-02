@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="g9">1.0dp</dimen>
+    <dimen name="g_">10.0dp</dimen>
+    <dimen name="ga">12.0dp</dimen>
+    <dimen name="gb">13.0dp</dimen>
+    <dimen name="gd">15.0dp</dimen>
+    <dimen name="ge">150.0dp</dimen>
+    <dimen name="gf">16.0dp</dimen>
+    <dimen name="gi">2.0dp</dimen>
+    <dimen name="gj">20.0dp</dimen>
+    <dimen name="gk">21.0dp</dimen>
+    <dimen name="gl">24.0dp</dimen>
+    <dimen name="gm">25.0dp</dimen>
+    <dimen name="gn">30.0dp</dimen>
+    <dimen name="go">31.0dp</dimen>
+    <dimen name="gp">32.0dp</dimen>
+    <dimen name="gq">33.0dp</dimen>
+    <dimen name="gt">40.0dp</dimen>
+    <dimen name="gu">48.0dp</dimen>
+    <dimen name="gv">49.0dp</dimen>
+    <dimen name="gw">5.0dp</dimen>
+    <dimen name="gx">5.5dp</dimen>
+    <dimen name="gz">72.0dp</dimen>
+    <dimen name="h0">8.0dp</dimen>
+    <dimen name="ns">15.0dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/rym" n1:focusable="true" n1:focusableInTouchMode="true" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="yes" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="end" n1:id="@id/rwd" n1:focusable="false" n1:focusableInTouchMode="false" n1:clipChildren="false" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:importantForAccessibility="noHideDescendants" style="@style/a9x">
+        <ImageView n1:layout_gravity="center" n1:id="@id/tm4" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:src="@raw/icon_bitmap_shadow" n1:contentDescription="shadow_view" />
+        <X.0Mtx n1:layout_gravity="center" n1:id="@id/rx7" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerInside" n1:contentDescription="@null" />
+    </FrameLayout>
+    <RelativeLayout n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/rwf" n1:paddingBottom="16.0dp" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_marginTop="-6.399994dp" n1:maxLines="1" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n1:layoutDirection="locale" n2:fj2="pz" style="@style/a_0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

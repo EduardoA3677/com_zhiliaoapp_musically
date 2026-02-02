@@ -1,0 +1,73 @@
+.class public final LX/0a0n;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function0<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:LX/0a0m;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/0a0m<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(LX/0a0m;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LX/0a0m<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LX/0a0n;->LL:LX/0a0m;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
+
+    iget-object v0, p0, LX/0a0n;->LL:LX/0a0m;
+
+    iget-object v0, v0, LX/0a0m;->LLILIL:Lkotlin/jvm/functions/Function0;
+
+    invoke-interface {v0}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    move-result-object v1
+
+    iget-object v0, p0, LX/0a0n;->LL:LX/0a0m;
+
+    iput-object v1, v0, LX/0a0m;->LLILL:Ljava/lang/Object;
+
+    return-object v1
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="@drawable/bif" n1:layout_width="match_parent" n1:layout_height="176.0dp" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="4.0dp" />
+    <View n1:background="@drawable/big" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="12.0dp" />
+    <View n1:background="@drawable/big" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginRight="12.0dp" />
+    <View n1:background="@drawable/big" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginRight="52.0dp" />
+    <View n1:background="@drawable/big" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginRight="92.0dp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.10kz n1:layout_gravity="center" n1:id="@id/be9" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/dbd" n1:padding="10.0dp" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

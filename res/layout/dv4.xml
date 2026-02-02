@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0D2z n1:enabled="true" n1:id="@id/cps" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxWidth="200.0dp" n1:text="@null" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n2:fi8="false" n2:fib="n2i" n2:fid="t69" n2:fk4="@raw/icon_headphone" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

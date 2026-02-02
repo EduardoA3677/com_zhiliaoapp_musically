@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <ImageView n1:layout_gravity="start" n1:id="@id/wdk" n1:visibility="invisible" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginRight="20.0dp" n1:src="@drawable/fce" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/yz7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="22.0dp" n1:layout_marginRight="20.0dp" n1:text="@string/sl7" n2:fj2="ou" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/yyc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="40.0dp" n1:text="@null" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <include layout="@layout/bco" />
+        </LinearLayout>
+        <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:fkf="h_s" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</ScrollView>

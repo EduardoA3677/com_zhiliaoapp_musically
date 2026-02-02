@@ -1,0 +1,39 @@
+.class public final LX/04iR;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:Lcom/ss/android/ugc/aweme/search/pages/result/common/tabs/core/ai/SearchSmartDynamicTabConfig;
+
+.field public static final LIZIZ:LX/05ta;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 3
+
+    new-instance v2, Lcom/ss/android/ugc/aweme/search/pages/result/common/tabs/core/ai/SearchSmartDynamicTabConfig;
+
+    const/4 v1, 0x0
+
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    invoke-direct {v2, v1, v0}, Lcom/ss/android/ugc/aweme/search/pages/result/common/tabs/core/ai/SearchSmartDynamicTabConfig;-><init>(Lcom/ss/android/ugc/aweme/ml/infra/SmartSceneConfig;Ljava/util/Map;)V
+
+    sput-object v2, LX/04iR;->LIZ:Lcom/ss/android/ugc/aweme/search/pages/result/common/tabs/core/ai/SearchSmartDynamicTabConfig;
+
+    new-instance v0, LX/04iS;
+
+    invoke-direct {v0}, LX/04iS;-><init>()V
+
+    invoke-static {v0}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    sput-object v0, LX/04iR;->LIZIZ:LX/05ta;
+
+    return-void
+.end method

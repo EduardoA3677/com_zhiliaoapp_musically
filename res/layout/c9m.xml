@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:ax0="?bx" n2:ax1="?lv" n2:ax8="?zw" n2:ax9="@integer/m" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nR n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nk n1:id="@id/av3" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bld="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <X.0mM8 n1:id="@id/st7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:ayi="?zz" n3:ayl="@raw/icon_x_mark_circle_fill" n3:aym="?zz" n3:byn="spv|ub8" n3:fit="8.0dp" n3:fke="@android:color/transparent" n3:flx="false" />
+        </X.12nk>
+        <FrameLayout n1:id="@id/d_8" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bw_="@null" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </X.12nR>
+</LinearLayout>

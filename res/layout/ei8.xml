@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/qtv" layout="@layout/enr" />
+    <View n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/qtv" />
+    <ScrollView n1:background="?bx" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/qtv">
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <include n1:id="@id/k65" layout="@layout/eih" />
+            <View n1:id="@id/fdx" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_below="@id/k65" />
+            <include layout="@layout/enp" />
+            <FrameLayout n1:id="@id/jk5" n1:layout_width="90.0dp" n1:layout_height="90.0dp" n1:layout_below="@id/fdx" n1:layout_centerHorizontal="true">
+                <X.0CzQ n1:layout_gravity="center" n1:id="@id/iqz" n1:layout_width="90.0dp" n1:layout_height="90.0dp" />
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:layout_width="match_parent" n1:layout_height="match_parent" n2:etn="@color/dn" n2:eto="d4s" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n3:fjq="@raw/icon_3pt_camera" n3:fmy="?e0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:text="@null" n1:layout_below="@id/jk5" n1:layout_centerHorizontal="true" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+    </ScrollView>
+    <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/wo" n1:id="@id/sf8" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/lrw" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0bSo n1:id="@id/i11" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <X.0bTH n1:id="@id/i12" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <X.0D2z n1:layout_gravity="center_horizontal" n1:id="@id/gm2" n1:visibility="gone" n1:layout_width="120.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="24.0dp" n2:fid="t69" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/orq" n1:layout_width="match_parent" n1:layout_height="120.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:background="@drawable/d17" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="1.0dp" n2:bp9="h_y" n2:fps="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0Cg1 n1:background="?by" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="2.0dp" n2:eyn="19.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jk5" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="3.0dp" n1:scaleType="fitCenter" n2:b41="h_f" n2:eyl="16.0dp" />
+        <X.0Ci6 n1:layout_gravity="end|top" n1:id="@id/d8q" n1:background="?by" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginEnd="12.0dp" n2:fig="?by" n2:fih="dbb" n2:fii="n2i" n2:fij="?by" />
+    </X.0Cg1>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

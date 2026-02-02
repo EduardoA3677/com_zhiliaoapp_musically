@@ -1,0 +1,91 @@
+.class public final LX/0R8V;
+.super LX/0R8K;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0R8K;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "f"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    const/4 v2, 0x6
+
+    const/4 v1, 0x0
+
+    const-string v0, "CAN_SHOW_IN_TOP_LIVE_SPECIAL"
+
+    invoke-direct {p0, v0, v2, v1}, LX/0R8K;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final operatorInvoke()Z
+    .locals 2
+
+    invoke-static {}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->get()Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;
+
+    move-result-object v1
+
+    const-class v0, Lcom/ss/android/ugc/aweme/live/ILiveOuterService;
+
+    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->getService(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/live/ILiveOuterService;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/live/ILiveOuterService;->J3()LX/0RV3;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, LX/0RV3;->M()Ljava/lang/String;
+
+    move-result-object v1
+
+    :goto_0
+    const-string v0, "live_tab_single"
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const-string v0, "live_tab_double"
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v0, 0x1
+
+    return v0
+.end method

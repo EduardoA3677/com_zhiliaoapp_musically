@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/quh" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="72.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0Cru n1:layout_gravity="center_vertical" n1:id="@id/kfb" n1:layout_width="56.0dp" n1:layout_height="56.0dp" />
+        <X.0rmn n1:layout_gravity="end|bottom" n1:id="@id/y7" n1:visibility="visible" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n2:b3w="@color/eo" n2:b5p="true" n2:bk8="true" n2:bsc="?a04" n2:f6x="?c3" n2:f6y="2.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="16.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/yb4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.ss.android.ugc.aweme.relation.label.RelationLabelTextView n1:textColor="?sw" n1:gravity="center_vertical" n1:id="@id/rr8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?sw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/xm7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?sw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/yv4" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n6:fj2="px" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:layout_gravity="center_vertical" n1:id="@id/rqw" n1:layout_width="88.0dp" n1:layout_height="28.0dp" />
+</LinearLayout>

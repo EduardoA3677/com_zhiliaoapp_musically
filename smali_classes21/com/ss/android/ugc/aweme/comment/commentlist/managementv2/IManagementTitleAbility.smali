@@ -1,0 +1,11 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/comment/commentlist/managementv2/IManagementTitleAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ss/android/ugc/aweme/comment/api/LimitRootAbility;
+
+
+# virtual methods
+.method public abstract sG1()V
+.end method

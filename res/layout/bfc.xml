@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/watermark_bg" n1:padding="20.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:alpha="0.8" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/mnp" n1:background="@drawable/fdp" n1:layout_width="wrap_content" n1:layout_height="40.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j91" n1:layout_width="88.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="7.0dp" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="5.0dp" n2:fjq="@raw/icon_tiktok_text_logo" n2:fjt="22.0dp" n2:fk6="88.0dp" n2:fmy="?xo" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <View n1:id="@id/eey" n1:background="?xx" n1:layout_width="20.0dp" n1:layout_height="40.0dp" n1:layout_toRightOf="@id/mnp" />
+    <View n1:background="@drawable/fdo" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_toRightOf="@id/eey" />
+    <RelativeLayout n1:background="@drawable/fdq" n1:layout_width="wrap_content" n1:layout_height="40.0dp" n1:layout_toRightOf="@id/mnp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/mnu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" n3:fj2="ow" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</RelativeLayout>

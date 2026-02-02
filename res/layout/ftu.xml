@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0mEN n1:gravity="center" n1:orientation="horizontal" n1:id="@id/bfo" n1:paddingLeft="15.0dp" n1:paddingTop="14.0dp" n1:paddingRight="15.0dp" n1:paddingBottom="14.0dp" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="18.0dp" n1:layout_marginTop="15.0dp" n1:layout_marginRight="18.0dp" n1:layout_marginBottom="15.0dp" n1:layoutDirection="ltr" n1:layout_marginHorizontal="18.0dp" n1:layout_marginVertical="15.0dp" n1:paddingHorizontal="15.0dp" n1:paddingVertical="14.0dp" n2:fdb="#ffbf9356" n2:fdr="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:fjq="@raw/icon_exclamation_mark_triangle_fill" n2:fmy="?e0" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/bfh" n1:layout_width="16.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:layout_marginStart="15.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/fc3" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:fjq="@raw/icon_x_mark" n2:fmy="?e0" />
+</X.0mEN>

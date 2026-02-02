@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="wb" parent="@style/wa">
+        <item name="android:navigationBarColor">@color/bb</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="fqm">false</item>
+    </style>
+    <style name="we" parent="@style/w_">
+        <item name="android:windowBackground">@drawable/ci5</item>
+        <item name="android:listSelector">?f0l</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/bb</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="bcc">?f0l</item>
+        <item name="bd7">@color/d6</item>
+        <item name="fqm">false</item>
+    </style>
+    <style name="aim" parent="@style/qx">
+        <item name="android:windowBackground">@color/dx</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/ain</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateAlwaysVisible|adjustNothing</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="bd3">#ff4081</item>
+        <item name="bdf">@color/au</item>
+        <item name="bdg">@color/au</item>
+    </style>
+    <style name="aio" parent="@style/qx">
+        <item name="android:windowBackground">@color/dx</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="bd3">#ff4081</item>
+        <item name="bdf">@color/au</item>
+        <item name="bdg">@color/au</item>
+    </style>
+</resources>

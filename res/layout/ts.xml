@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="horizontal" n1:layout_width="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Ci6 n1:id="@id/d9u" n1:clickable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:fif="?mp" n2:fih="dbb" n2:fii="u9x" n2:fij="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/d9w" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="8.0dp" n1:labelFor="@id/d9u" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</merge>

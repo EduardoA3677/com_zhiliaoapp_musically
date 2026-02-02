@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/eda" n1:paddingLeft="8.0dp" n1:paddingTop="20.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="58.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:background="@drawable/edb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp">
+        <include n1:id="@id/gzi" layout="@layout/gc2" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/edb" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <include n1:id="@id/rv3" layout="@layout/gc2" />
+        <include n1:id="@id/rsi" layout="@layout/gc2" />
+    </LinearLayout>
+</LinearLayout>

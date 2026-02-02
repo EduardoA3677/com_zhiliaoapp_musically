@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0RhU n1:id="@id/dyv" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwk="owf" n2:bwp="w,1:1" n2:bwq="owf" n2:bx3="owf" n2:bx7="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:gravity="center_vertical" n1:id="@id/ju2" n1:background="@drawable/b3b" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:minHeight="20.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.06NK n1:id="@id/jtw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/dyx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:scaleType="center" n5:bwk="owf" n5:bwp="h,1:1" n5:bwq="owf" n5:bx3="owf" n5:bx7="owf" n5:bx9="owf" n5:bxc="owf" n5:f49="@drawable/b36" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

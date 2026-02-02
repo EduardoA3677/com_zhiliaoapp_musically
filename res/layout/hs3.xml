@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="#e6ffffff" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gee" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n1:layout_marginStart="33.0dp" n1:layout_marginEnd="33.0dp" style="@style/a6r" />
+    <X.12nN n1:textColor="#e6ffffff" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/o4m" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n1:layout_marginStart="33.0dp" n1:layout_marginEnd="33.0dp" style="@style/a6r" />
+    <X.0d4p n1:id="@id/i7o" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="28.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="6.0dp" />
+    <View n1:layout_gravity="bottom" n1:id="@id/i7p" n1:background="@drawable/dt0" n1:layout_width="match_parent" n1:layout_height="@dimen/an9" />
+    <X.0PnT n1:layout_gravity="center" n1:id="@id/mzn" n1:visibility="gone" n1:layout_width="310.0dp" n1:layout_height="wrap_content" />
+    <X.0PnT n1:layout_gravity="center" n1:id="@id/i7k" n1:visibility="gone" n1:layout_width="310.0dp" n1:layout_height="wrap_content" />
+    <X.0rBl n1:layout_gravity="center" n1:id="@id/i7r" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+    <X.0oiD n1:id="@id/dqt" n1:visibility="invisible" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</FrameLayout>

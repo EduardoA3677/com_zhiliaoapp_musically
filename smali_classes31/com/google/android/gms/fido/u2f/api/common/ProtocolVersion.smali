@@ -1,0 +1,270 @@
+.class public final enum Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;",
+        ">;",
+        "Landroid/os/Parcelable;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final enum UNKNOWN:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+.field public static final enum V1:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+.field public static final enum V2:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+.field public static final synthetic zza:[Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+
+# instance fields
+.field public final zzb:Ljava/lang/String;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 8
+
+    new-instance v7, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    const-string v0, "UNKNOWN"
+
+    const/4 v6, 0x0
+
+    invoke-direct {v7, v0, v6, v0}, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v7, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->UNKNOWN:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    new-instance v5, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    const-string v1, "V1"
+
+    const/4 v4, 0x1
+
+    const-string v0, "U2F_V1"
+
+    invoke-direct {v5, v1, v4, v0}, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v5, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->V1:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    new-instance v3, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    const-string v2, "V2"
+
+    const/4 v1, 0x2
+
+    const-string v0, "U2F_V2"
+
+    invoke-direct {v3, v2, v1, v0}, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v3, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->V2:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    const/4 v0, 0x3
+
+    new-array v0, v0, [Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    aput-object v7, v0, v6
+
+    aput-object v5, v0, v4
+
+    aput-object v3, v0, v1
+
+    sput-object v0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->zza:[Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    new-instance v0, LX/0yFw;
+
+    invoke-direct {v0}, LX/0yFw;-><init>()V
+
+    sput-object v0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput-object p3, p0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->zzb:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static fromBytes([B)Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+    .locals 2
+
+    :try_start_0
+    new-instance v1, Ljava/lang/String;
+
+    const-string v0, "UTF-8"
+
+    invoke-direct {v1, p0, v0}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
+    :try_end_0
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
+
+    invoke-static {v1}, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->fromString(Ljava/lang/String;)Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    move-result-object v0
+
+    return-object v0
+
+    :catch_0
+    move-exception v1
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+
+    throw v0
+.end method
+
+.method public static fromString(Ljava/lang/String;)Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+    .locals 5
+
+    if-nez p0, :cond_0
+
+    sget-object v0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->UNKNOWN:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    return-object v0
+
+    :cond_0
+    invoke-static {}, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->values()[Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    move-result-object v4
+
+    array-length v3, v4
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v3, :cond_2
+
+    aget-object v1, v4, v2
+
+    iget-object v0, v1, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->zzb:Ljava/lang/String;
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    return-object v1
+
+    :cond_1
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    new-instance v0, LX/0yFu;
+
+    invoke-direct {v0, p0}, LX/0yFu;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+    .locals 1
+
+    const-class v0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    invoke-static {v0, p0}, LX/0ZD5;->LIZ(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    return-object v0
+.end method
+
+.method public static values()[Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+    .locals 1
+
+    sget-object v0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->zza:[Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public isCompatible(Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;)Z
+    .locals 2
+
+    sget-object v1, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->UNKNOWN:Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;
+
+    invoke-virtual {p0, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p1, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->zzb:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/fido/u2f/api/common/ProtocolVersion;->zzb:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    return-void
+.end method

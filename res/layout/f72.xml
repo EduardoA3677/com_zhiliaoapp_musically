@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingTop="14.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o6h n1:id="@id/xgy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:azo="?zq" n2:fmi="text" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:id="@id/qb3" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/h7i" n1:background="?zo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="56.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Filter" n1:maxLines="1" n1:layout_marginStart="12.0dp" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <Space n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/j71" n1:background="@drawable/d8o" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:importantForAccessibility="no" n1:layout_marginHorizontal="12.0dp" n4:fjq="@raw/icon_chevron_up_small_fill" n4:fjt="20.0dp" n4:fk6="20.0dp" n4:fmy="?ye" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <FrameLayout n1:id="@id/h7g" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <com.bytedance.tux.widget.RadiusLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bgg="@dimen/b3" n5:bgi="@dimen/b3" xmlns:n5="http://schemas.android.com/apk/res-auto">
+                    <X.0o06 n1:id="@id/h7h" n1:background="?y5" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="24.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" />
+                </com.bytedance.tux.widget.RadiusLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

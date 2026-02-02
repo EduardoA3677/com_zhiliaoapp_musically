@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/dwc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/apv" n1:layout_marginRight="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/oqr" n1:paddingTop="@dimen/qi" n1:paddingBottom="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="@dimen/qi">
+        <X.12nN n1:textColor="@color/a8g" n1:id="@id/oqt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" style="@style/a6u" />
+        <ViewStub n1:orientation="horizontal" n1:id="@id/oqq" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/tuy" n1:paddingTop="@dimen/qi" n1:paddingBottom="@dimen/qi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="@dimen/qi">
+        <X.12nN n1:textColor="@color/a8g" n1:id="@id/twj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" style="@style/a6u" />
+        <GridLayout n1:orientation="horizontal" n1:id="@id/tux" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:columnCount="2">
+            <include n1:id="@id/k_p" layout="@layout/gwl" />
+            <include n1:id="@id/ka6" layout="@layout/gwl" />
+            <include n1:id="@id/k8m" layout="@layout/gwl" />
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>

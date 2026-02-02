@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="154.0dp" n1:layout_height="28.0dp" n1:layout_marginTop="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:gravity="center" n1:id="@id/c80" n1:layout_width="0.0dp" n1:layout_height="28.0dp" n1:text="@null" n1:layout_weight="1.0" n2:fi8="true" n2:fib="u9x" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.cardview.widget.CardView n1:id="@id/c81" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="8.0dp" n3:ba3="?br" n3:ba4="5.0dp" n3:ba5="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/kca" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n3:fjq="@raw/icon_pen" n3:fmy="?zw" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

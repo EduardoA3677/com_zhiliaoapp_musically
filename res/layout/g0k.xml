@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vY n1:id="@id/cu6" n1:background="?eid" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/x5f" n1:visibility="gone" layout="@layout/g0l" />
+    <include n1:id="@id/x5g" n1:visibility="gone" layout="@layout/g0m" />
+</X.12vY>

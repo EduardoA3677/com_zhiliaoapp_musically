@@ -1,0 +1,118 @@
+.class public final LX/0q0O;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:Lcom/google/gson/n;
+
+.field public static final LIZIZ:LX/05ta;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/google/gson/n;
+
+    invoke-direct {v0}, Lcom/google/gson/n;-><init>()V
+
+    sput-object v0, LX/0q0O;->LIZ:Lcom/google/gson/n;
+
+    const/16 v0, 0x1b0
+
+    invoke-static {v0}, Lkotlin/jvm/internal/AFwS201S0000000_25;->get$arr$(I)Lkotlin/jvm/internal/AFwS201S0000000_25;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    sput-object v0, LX/0q0O;->LIZIZ:LX/05ta;
+
+    return-void
+.end method
+
+.method public static LIZ(Ljava/lang/String;)Lcom/ss/android/ugc/aweme/ecommercelive/business/settings/EcShopBagTooltipConfig;
+    .locals 4
+
+    sget-object v0, LX/0q0O;->LIZIZ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/google/gson/n;
+
+    invoke-static {v0, p0}, LX/0a6q;->LJ(Lcom/google/gson/n;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v3, 0x0
+
+    if-eqz p0, :cond_2
+
+    :try_start_0
+    invoke-static {}, LX/0qCx;->LJFF()Lcom/google/gson/Gson;
+
+    move-result-object v2
+
+    invoke-static {}, LX/06cC;->LIZIZ()LX/06cy;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-boolean v1, v0, LX/06cy;->LJII:Z
+
+    const/4 v0, 0x1
+
+    if-ne v1, v0, :cond_0
+
+    const-class v0, Lcom/ss/android/ugc/aweme/ecommercelive/business/settings/EcShopBagTooltipConfig;
+
+    invoke-static {v0}, LX/0mTc;->LJI(Ljava/lang/Class;)LX/0mSw;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0mTS;->LIZJ(LX/0mSw;)Ljava/lang/reflect/Type;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-static {v2, p0, v0}, Lcom/bytedance/mt/protector/impl/GsonProtectorUtils;->fromJson(Lcom/google/gson/Gson;Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    instance-of v0, v1, Lcom/ss/android/ugc/aweme/ecommercelive/business/settings/EcShopBagTooltipConfig;
+
+    if-nez v0, :cond_1
+
+    goto :goto_1
+
+    :cond_0
+    new-instance v0, LX/0q0N;
+
+    invoke-direct {v0}, LX/0q0N;-><init>()V
+
+    invoke-virtual {v0}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :goto_1
+    move-object v1, v3
+
+    :cond_1
+    check-cast v1, Lcom/ss/android/ugc/aweme/ecommercelive/business/settings/EcShopBagTooltipConfig;
+
+    return-object v1
+    :try_end_0
+    .catch Lcom/google/gson/s; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    :cond_2
+    return-object v3
+.end method

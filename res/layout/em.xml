@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/e92" n1:fitsSystemWindows="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nR n1:id="@id/eek" n1:fitsSystemWindows="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <View n1:id="@id/wxr" n1:focusable="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" n1:importantForAccessibility="no" />
+        <X.14iG n1:id="@id/sf8" n1:fitsSystemWindows="true" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <FrameLayout n1:id="@id/tlz" n2:bwa="100% - 16dp" n2:bwb="50%" n2:by4="wrap_content" n2:byv="min(match_parent - 32dp, 420dp)" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <com.bytedance.tux.widget.RadiusLayout n1:id="@id/rc9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bgf="36.0dp">
+                    <X.0Cj6 n1:orientation="vertical" n1:id="@id/ec9" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <FrameLayout n1:layout_gravity="end|top" n1:id="@id/djq" n1:paddingTop="24.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="24.0dp">
+                        <X.0CWT n1:id="@id/djj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                    </FrameLayout>
+                </com.bytedance.tux.widget.RadiusLayout>
+            </FrameLayout>
+        </X.14iG>
+    </X.12nR>
+</FrameLayout>

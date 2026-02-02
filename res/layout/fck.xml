@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="375.0dp" n1:layout_height="375.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/da1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <X.0D1z n1:layout_gravity="center" n1:id="@id/m50" n1:layout_width="127.5dp" n1:layout_height="127.5dp" n1:layout_marginTop="24.0dp" n2:etn="@raw/icon_color_default_avatar" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/m51" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:text="\@Tony Scott" n1:maxLines="1" n3:fj2="ov" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:gravity="center" n1:id="@id/m52" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" n1:maxLines="3" n1:maxEms="100" n4:fj2="p0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:gravity="center|bottom" n1:id="@id/m53" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:layout_weight="1.0" n5:fj2="p0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/da0" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ImageView n1:layout_gravity="center" n1:id="@id/m4x" n1:layout_width="104.0dp" n1:layout_height="25.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="20.0dp" n6:f49="@drawable/dad" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

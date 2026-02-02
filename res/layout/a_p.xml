@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/qf" n1:paddingTop="@dimen/qc" n1:paddingRight="@dimen/qf" n1:paddingBottom="@dimen/qc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/qf" n1:paddingVertical="@dimen/qc" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0b8D n1:orientation="vertical" n1:id="@id/ean" n1:background="@drawable/fc1" n1:padding="@dimen/qi" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/rb9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/rb5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r2" n3:bxb="@id/rb9" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </X.0b8D>
+</LinearLayout>

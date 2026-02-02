@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="16.0sp" n1:textColorHint="?ehy" n1:gravity="top" n1:id="@id/g1k" n1:background="@android:color/transparent" n1:paddingTop="3.0dp" n1:paddingBottom="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:hint="@null" n1:lines="7" n1:selectAllOnFocus="true" n1:layout_alignParentTop="true" n1:inputType="textMultiLine" n1:textDirection="anyRtl" n1:textAlignment="viewStart" n1:paddingStart="8.0dp" n1:paddingEnd="10.0dp" style="@style/nf" />
+    <X.12nN n1:textColor="?ekx" n1:id="@id/xrz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_marginEnd="@dimen/qu" n1:layout_alignParentEnd="true" style="@style/a77" />
+</RelativeLayout>

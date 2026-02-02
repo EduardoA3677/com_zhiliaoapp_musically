@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="40.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/bbc" n1:background="@drawable/e5j" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_margin="2.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/kqn" n1:layout_width="26.0dp" n1:layout_height="26.0dp" n1:scaleType="fitCenter" n1:layout_marginStart="5.0dp" n3:bwk="@id/bbc" n3:bwr="@id/yot" n3:bx0="ori" n3:bx9="@id/bbc" n3:bxc="@id/bbc" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="@color/bi" n1:gravity="center_vertical" n1:id="@id/yot" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:singleLine="true" n1:layout_marginEnd="8.0dp" n4:bwk="@id/bbc" n4:bwq="@id/bbc" n4:bx8="@id/kqn" n4:bxc="@id/bbc" style="@style/pw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/kld" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n5:bwk="@id/bbc" n5:bwq="@id/bbc" n5:f49="@drawable/ed1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.1349 n1:id="@id/mj6" n1:background="@drawable/edh" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n6:bwk="owf" n6:bwq="owf" n6:fdp="5.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bkd" n1:background="@drawable/e5k" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n7:bwk="owf" n7:bwq="owf" n7:bx9="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

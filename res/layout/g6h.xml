@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/dze" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12hi n1:textSize="17.0sp" n1:textColor="?ekp" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="15.0dp" n1:layout_marginBottom="15.0dp" n1:text="@null" n1:maxLines="1" n1:lineSpacingExtra="3.0sp" n1:layout_marginVertical="15.0dp" n2:bp3="btv" style="@style/ps" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:layout_gravity="bottom" n1:background="?ej9" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    </FrameLayout>
+    <X.0d4p n1:id="@id/zgn" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/qo" n1:layout_marginRight="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi" />
+</LinearLayout>

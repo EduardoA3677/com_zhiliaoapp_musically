@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@null" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:orientation="horizontal" n1:background="@drawable/due" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|center" n1:id="@id/cbu" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n2:br4="@raw/icon_x_mark_small" n2:brl="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:background="?c0q" n1:layout_width="match_parent" n1:layout_height="150.0dp">
+        <X.12hi n1:textSize="15.0sp" n1:textColor="?zy" n1:id="@id/mtm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="5" n1:textAlignment="viewStart" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" />
+    </FrameLayout>
+</LinearLayout>

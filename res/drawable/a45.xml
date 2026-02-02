@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item n1:height="156.0dp" n1:width="156.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="oval">
+            <gradient n1:startColor="#15c0f9" n1:endColor="#1ae3c6" n1:angle="315.0" n1:centerX="0.48" n1:centerY="1.0" n1:centerColor="#20d5ec" />
+        </shape>
+    </item>
+    <item n2:left="6.0dp" n2:top="6.0dp" n2:right="6.0dp" n2:bottom="6.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="oval">
+            <solid n2:color="@color/bb" />
+        </shape>
+    </item>
+    <item n3:left="10.0dp" n3:top="10.0dp" n3:right="10.0dp" n3:bottom="10.0dp"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <shape n3:shape="oval">
+            <solid n3:color="#26ffffff" />
+        </shape>
+    </item>
+    <item n4:gravity="center" n4:height="80.0dp" n4:width="80.0dp" n4:drawable="@drawable/a46"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</layer-list>

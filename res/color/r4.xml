@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_pressed="true" n1:color="?bde" n1:alpha="@dimen/a90"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="true" n2:color="?bde" n2:alpha="@dimen/a8y"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:color="?bde" n3:alpha="@dimen/a8z" n3:state_hovered="true"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:color="?bde" n4:alpha="@dimen/a8x"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</selector>

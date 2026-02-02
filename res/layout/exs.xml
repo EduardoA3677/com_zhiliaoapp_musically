@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="end|center" n1:orientation="horizontal" n1:id="@id/sta" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ndd" n1:focusable="true" n1:clickable="true" n1:layout_width="34.0dp" n1:layout_height="36.0dp" n1:contentDescription="@null" n2:fjq="@raw/icon_microphone" n2:fjt="@dimen/qo" n2:fk6="@dimen/qo" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ndc" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:focusable="true" n1:clickable="true" n1:layout_width="40.0dp" n1:layout_height="36.0dp" n1:contentDescription="@null" n1:paddingStart="7.0dp" n1:paddingEnd="13.0dp" n3:fjq="@raw/icon_camera" n3:fjt="@dimen/qo" n3:fk6="@dimen/qo" n3:fmy="?so" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

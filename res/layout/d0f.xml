@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="0.75" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.1295 n1:layout_gravity="center" n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+    </com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+    <View n1:background="@color/d1" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/gih" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n4:bwl="@id/qa4" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" n4:bxe="ori" n4:fjq="@raw/icon_draft" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_horizontal" n1:id="@id/qa4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/gih" n5:fj2="pv" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="98.0dp" n1:layout_marginTop="12.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/eau" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="160.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/zfg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="160.0dp" n1:maxLines="1" n1:textFontWeight="700" n2:bwl="@id/zff" n2:bx9="owf" n2:bxc="owf" n2:fj2="ow" />
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center_vertical" n1:id="@id/zfe" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="7.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n2:bx8="@id/zfg" n2:bxc="owf" n2:fjq="@raw/icon_info_circle" n2:fmy="?a04" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/zff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:maxWidth="160.0dp" n2:b5i="11.0sp" n2:bwk="owf" n2:bx9="owf" n2:bxb="@id/zfg" n2:fj2="q2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0D0r n1:id="@id/kk3" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:importantForAccessibility="no" n3:b41="h_j" n3:bwk="owf" n3:bwr="@id/kjv" n3:bxc="owf" n3:ey2="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/kjv" n1:padding="3.5dp" n1:layout_width="61.5dp" n1:layout_height="61.5dp" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n4:b41="h_j" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" n4:ey2="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0oFG n1:gravity="start|top" n1:orientation="vertical" n1:id="@id/owg" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fm" />
+    <FrameLayout n1:id="@id/eay" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dp">
+        <ImageView n1:layout_gravity="top" n1:id="@id/spy" n1:background="#1f000000" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0dp" n2:b6g="?android:colorForeground" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.137G n1:id="@id/spz" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <android.widget.Space n1:id="@id/w4e" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/cm" />
+                <TextView n1:id="@android:id/message" n1:paddingLeft="?biz" n1:paddingRight="?biz" n1:layout_width="match_parent" n1:layout_height="wrap_content" style="@style/nv" />
+                <android.widget.Space n1:id="@id/w4d" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/cm" />
+            </LinearLayout>
+        </X.137G>
+        <ImageView n1:layout_gravity="bottom" n1:id="@id/spx" n1:background="#1f000000" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0dp" n3:b6g="?android:colorForeground" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/esn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dp">
+        <FrameLayout n1:id="@id/esh" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/fk" />
+</X.0oFG>

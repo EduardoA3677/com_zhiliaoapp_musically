@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center" n1:id="@android:id/text1" n1:visibility="visible" n1:text="@string/spc" n2:fj2="p3" style="@style/aay" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/hq0" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="53.0dp">
+        <X.0Czc n1:id="@id/kjl" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="32.0dp" n1:layout_marginStart="32.0dp" />
+        <X.0Czc n1:id="@id/kjk" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" />
+        <X.0Czc n1:id="@id/kjj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+    </FrameLayout>
+    <View n1:id="@id/yr_" n1:background="@drawable/btu" n1:visibility="visible" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginTop="17.0dp" n1:layout_marginStart="-8.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/yra" n1:background="@drawable/btv" n1:paddingLeft="5.0dp" n1:paddingRight="5.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="15.0dp" n1:layout_marginLeft="-8.0dp" n1:layout_marginTop="13.0dp" n1:minWidth="16.0dp" n1:text="99+" n1:layout_marginStart="-8.0dp" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/m8g" n1:background="@drawable/btw" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="14.0dp" n1:layout_marginLeft="-18.0dp" n1:layout_marginTop="13.0dp" n1:maxWidth="64.0dp" n1:minWidth="16.0dp" n1:text="LIVE" n1:layout_marginStart="-18.0dp" n4:fj2="qg" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

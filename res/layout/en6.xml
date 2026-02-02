@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?zt" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/ubx" n1:background="?zt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx3="owf" n2:bx7="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ubq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/ubx" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/onq" n1:background="@drawable/d1t" n1:layout_width="96.0dp" n1:layout_height="96.0dp" n1:layout_marginEnd="32.0dp" n3:bwr="@id/o1y" n3:bwz="0.5" n3:bx0="ori" n3:bx9="owf" n3:bxc="owf">
+            <com.ss.android.ugc.aweme.avatar.AvatarComponentView n1:layout_gravity="center" n1:id="@id/onc" n1:layout_width="96.0dp" n1:layout_height="96.0dp" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/oni" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="Original static avatar" n3:fjq="@raw/icon_camera_fill" n3:fmy="?zy" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/xrr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n3:bwq="@id/onq" n3:bx9="@id/onq" n3:bxb="@id/onq" n3:fj2="pv" />
+        <X.0Ci6 n1:id="@id/onb" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="8.0dp" n1:button="@null" n1:contentDescription="Checkbox to choose original static avatar as profile" n3:bwq="@id/xrr" n3:bx9="@id/xrr" n3:bxb="@id/xrr" n3:fih="dbb" n3:fii="n2i" />
+        <FrameLayout n1:id="@id/o1y" n1:background="@drawable/d1t" n1:layout_width="96.0dp" n1:layout_height="96.0dp" n1:layout_marginStart="32.0dp" n3:bwq="owf" n3:bwz="0.5" n3:bx8="@id/onq" n3:bxc="owf">
+            <com.ss.android.ugc.aweme.avatar.AvatarComponentView n1:layout_gravity="center" n1:id="@id/ubr" n1:layout_width="96.0dp" n1:layout_height="96.0dp" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/o1z" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="New Social avatar" n3:fjq="@raw/icon_video_fill" n3:fmy="?zy" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/xru" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n3:bwq="@id/o1y" n3:bx9="@id/o1y" n3:bxb="@id/o1y" n3:fj2="pv" />
+        <X.0Ci6 n1:id="@id/ubk" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="8.0dp" n1:button="@null" n1:contentDescription="Checkbox to choose social avatar as profile" n3:bwq="@id/xru" n3:bx9="@id/xru" n3:bxb="@id/xru" n3:fih="dbb" n3:fii="n2i" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager.widget.ViewPager n1:layout_gravity="center" n1:id="@id/vf" n1:layout_width="match_parent" n1:layout_height="223.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ubq" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

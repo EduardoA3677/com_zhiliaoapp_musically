@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bgf="@dimen/b8" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0sej n1:id="@id/jkl" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwp="h,1:1" n2:bxc="owf" />
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/jtm" n1:background="?ms" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp" n1:layout_marginEnd="10.0dp" n2:bwk="@id/jkl" n2:bwq="@id/jkl" />
+        <X.0l1c n1:orientation="vertical" n1:id="@id/in5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bws="12.0dp" />
+        <X.0l1c n1:orientation="vertical" n1:id="@id/imr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwt="12.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/slq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n2:bx9="@id/in5" n2:bxb="@id/jkl" n2:fj2="ot" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/on4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:layout_marginStart="6.0dp" n2:bwk="@id/slq" n2:bx8="@id/slq" n2:fj2="p1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a05" n1:id="@id/faw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:layout_marginStart="4.0dp" n2:bwk="@id/on4" n2:bx8="@id/on4" n2:fj2="p1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/uco" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n2:bwk="@id/on4" n2:bwq="@id/imr" n2:fj2="q1" />
+        <X.0vA4 n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/wk0" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:maxLines="1" n2:bwl="@id/mxs" n2:bwr="@id/axf" n2:bx9="@id/in5" n2:bxb="@id/slq" n2:fj2="p1" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/axf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n2:bwk="@id/wk0" n2:bwq="@id/imr" n2:bx8="@id/wk0" n2:bxc="@id/wk0" n2:fjq="@raw/icon_chevron_right_ltr" n2:fjt="14.0dp" n2:fk6="14.0dp" n2:fmy="?zz" />
+        <X.0CVT n1:orientation="horizontal" n1:id="@id/mxs" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n2:bo4="ll3" n2:bo6="1" n2:bwl="@id/a5m" n2:bwq="@id/imr" n2:bx9="@id/in5" n2:bxb="@id/wk0" />
+        <X.0D2z n1:id="@id/a5m" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:text="Add to cart" n1:layout_marginEnd="8.0dp" n2:bwk="owf" n2:bwr="@id/crm" n2:bx0="ujj" n2:bx9="@id/in5" n2:bxb="@id/mxs" n2:fib="l9r" n2:fid="t69" />
+        <X.0D2z n1:id="@id/crm" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:text="Buy now" n2:bwk="@id/a5m" n2:bwq="@id/imr" n2:bx8="@id/a5m" n2:bxc="@id/a5m" n2:fib="l9r" n2:fid="qhx" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.bytedance.tux.widget.RadiusLayout>

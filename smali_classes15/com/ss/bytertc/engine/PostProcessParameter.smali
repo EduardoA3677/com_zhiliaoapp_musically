@@ -1,0 +1,57 @@
+.class public Lcom/ss/bytertc/engine/PostProcessParameter;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public anchorIDCName:Ljava/lang/String;
+
+.field public streamName:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/ss/bytertc/engine/PostProcessParameter;->anchorIDCName:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/ss/bytertc/engine/PostProcessParameter;->streamName:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getAnchorIDCName()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/bytertc/engine/PostProcessParameter;->anchorIDCName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getStreamName()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/bytertc/engine/PostProcessParameter;->streamName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public setAnchorIDCName(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/ss/bytertc/engine/PostProcessParameter;->anchorIDCName:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setStreamName(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/ss/bytertc/engine/PostProcessParameter;->streamName:Ljava/lang/String;
+
+    return-void
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:background="?zu" n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/qf" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/qf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/qi" n1:paddingVertical="@dimen/qf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.widget.RadiusLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bgf="@dimen/bc" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j4y" n1:layout_width="27.0dp" n1:layout_height="26.0dp" n1:button="@null" n1:scaleType="fitCenter" n1:contentDescription="@null" n2:ey2="true" n2:fjq="@raw/icon_block" n2:fjt="26.0dp" n2:fk6="26.0dp" n2:fmy="?zz" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="16.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:gravity="start" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:labelFor="@id/d9_" n3:fj2="p3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0hbF n1:id="@id/d9_" n1:clickable="false" n1:layout_width="26.0dp" n1:layout_height="26.0dp" />
+</LinearLayout>

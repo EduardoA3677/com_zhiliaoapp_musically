@@ -1,0 +1,36 @@
+.class public final LX/0eVJ;
+.super LX/0eVH;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0eVI;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0eVH<",
+        "LX/0eVJ;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, LX/0eVH;-><init>()V
+
+    const v0, 0x7f1303cc
+
+    iput v0, p0, LX/0eVH;->LIZIZ:I
+
+    return-void
+.end method

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Internetska zvučna zbirka</item>
+        <item>Moj zvuk</item>
+    </string-array>
+    <string-array name="l">
+        <item>Izbriši</item>
+    </string-array>
+    <string-array name="q">
+        <item>Izbriši</item>
+        <item>Otkaži</item>
+    </string-array>
+    <string-array name="t">
+        <item>Popularno</item>
+        <item>Najnovije</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Odaberi iz Galerije</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Nedjelja</item>
+        <item>Ponedjeljak</item>
+        <item>Utorak</item>
+        <item>Srijeda</item>
+        <item>Četvrtak</item>
+        <item>Petak</item>
+        <item>Subota</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Pojednostavljeni kineski</item>
+        <item>Tradicionalni kineski</item>
+        <item>Engleski</item>
+        <item>Japanski</item>
+        <item>Korejski</item>
+        <item>Ruski</item>
+        <item>Indonezijski</item>
+        <item>Malajski</item>
+        <item>Portugalski</item>
+        <item>Tajski</item>
+        <item>Vijetnamski</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normalno</item>
+        <item>Crno/bijelo</item>
+        <item>Umjetnost</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Zasićeno</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Sij</item>
+        <item>Velj</item>
+        <item>Ožu</item>
+        <item>Tra</item>
+        <item>Svi</item>
+        <item>Lip</item>
+        <item>Srp</item>
+        <item>Kol</item>
+        <item>Ruj</item>
+        <item>Lis</item>
+        <item>Stu</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Ušteda podataka ima prednost</item>
+        <item>Visoka razlučivost ima prednost</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Svi</item>
+        <item>Samo prijatelji</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Ponedjeljak</item>
+        <item>Utorak</item>
+        <item>Srijeda</item>
+        <item>Četvrtak</item>
+        <item>Petak</item>
+        <item>Subota</item>
+        <item>Nedjelja</item>
+    </string-array>
+</resources>

@@ -1,0 +1,175 @@
+.class public final Lcom/ss/android/ugc/aweme/search/pages/visualsearch/smartsearch/resultpage/findsimilar/info/FindSimilarDetailsInfoEmptyProtocol;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/ISearchCardProtocol;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/ISearchCardProtocol<",
+        "LX/0KJb;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LL:LX/0LbY;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v1, LX/0LbY;
+
+    const/16 v0, 0xc
+
+    invoke-direct {v1, v0}, LX/0LbY;-><init>(I)V
+
+    iput-object v1, p0, Lcom/ss/android/ugc/aweme/search/pages/visualsearch/smartsearch/resultpage/findsimilar/info/FindSimilarDetailsInfoEmptyProtocol;->LL:LX/0LbY;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final Lq2()Lcom/bytedance/assem/arch/reused/ReusedUIAssem;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/bytedance/assem/arch/reused/ReusedUIAssem<",
+            "+",
+            "LX/06Db;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/search/pages/visualsearch/smartsearch/resultpage/findsimilar/info/FindSimilarDetailsInfoEmptyAssem;
+
+    invoke-direct {v0}, Lcom/ss/android/ugc/aweme/search/pages/visualsearch/smartsearch/resultpage/findsimilar/info/FindSimilarDetailsInfoEmptyAssem;-><init>()V
+
+    return-object v0
+.end method
+
+.method public final Rn2(LX/0JxS;)LX/0KTK;
+    .locals 1
+
+    check-cast p1, Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/SearchMixFeedBase;
+
+    new-instance v0, LX/0KIh;
+
+    invoke-direct {v0, p1}, LX/0KIh;-><init>(Lcom/ss/android/ugc/aweme/search/arch/v2/protocol/card/model/SearchMixFeedBase;)V
+
+    return-object v0
+.end method
+
+.method public final eF1(LX/0JxS;)Z
+    .locals 2
+
+    check-cast p1, LX/0KJb;
+
+    invoke-virtual {p1}, LX/0KJb;->getSmartSearchFeedType()LX/0KIB;
+
+    move-result-object v1
+
+    sget-object v0, LX/0KIB;->TYPE_FIND_SIMILAR_DETAIL_INFO:LX/0KIB;
+
+    if-ne v1, v0, :cond_1
+
+    invoke-virtual {p1}, LX/0KJb;->getSearchListItemState()LX/0KLH;
+
+    move-result-object v1
+
+    sget-object v0, LX/0KLH;->EMPTY:LX/0KLH;
+
+    if-eq v1, v0, :cond_0
+
+    invoke-virtual {p1}, LX/0KJb;->getSearchListItemState()LX/0KLH;
+
+    move-result-object v1
+
+    sget-object v0, LX/0KLH;->NETWORK_ERROR:LX/0KLH;
+
+    if-ne v1, v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final g2()Ljava/lang/Class;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/bytedance/ies/powerlist/PowerCell<",
+            "+",
+            "LX/0jXU;",
+            ">;>;"
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final getConfig()LX/0JyP;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "LX/0JyP<",
+            "LX/0KJb;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/search/pages/visualsearch/smartsearch/resultpage/findsimilar/info/FindSimilarDetailsInfoEmptyProtocol;->LL:LX/0LbY;
+
+    return-object v0
+.end method
+
+.method public final getDataType()LX/0mPL;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "LX/0mPL<",
+            "LX/0KJb;",
+            ">;"
+        }
+    .end annotation
+
+    const-class v0, LX/0KJb;
+
+    invoke-static {v0}, LX/0mTc;->LIZ(Ljava/lang/Class;)LX/0mSo;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final l91()Ljava/lang/String;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method

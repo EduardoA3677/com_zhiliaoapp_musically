@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Online geluidsbibliotheek</item>
+        <item>Mijn geluid</item>
+    </string-array>
+    <string-array name="l">
+        <item>Leegmaken</item>
+    </string-array>
+    <string-array name="q">
+        <item>Verwijderen</item>
+        <item>Annuleren</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trending</item>
+        <item>Nieuw</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Selecteren uit de galerij</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Zondag</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Vereenvoudigd Chinees</item>
+        <item>Traditioneel Chinees</item>
+        <item>Engels</item>
+        <item>Japans</item>
+        <item>Koreaans</item>
+        <item>Russisch</item>
+        <item>Indonesisch</item>
+        <item>Maleis</item>
+        <item>Portugees</item>
+        <item>Thai</item>
+        <item>Vietnamees</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normaal</item>
+        <item>Zwart-wit</item>
+        <item>Kunst</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Verzadigd</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mrt</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Gegevensbesparing heeft prioriteit</item>
+        <item>Prioriteit aan hoge resolutie</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Iedereen</item>
+        <item>Alleen vrienden</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+        <item>Zondag</item>
+    </string-array>
+</resources>

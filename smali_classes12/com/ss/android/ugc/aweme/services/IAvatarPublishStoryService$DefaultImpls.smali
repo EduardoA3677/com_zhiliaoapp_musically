@@ -1,0 +1,101 @@
+.class public final Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService$DefaultImpls;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "DefaultImpls"
+.end annotation
+
+
+# direct methods
+.method public static synthetic openEditPage$default(Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;LX/0t7j;Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+    .locals 1
+
+    if-nez p8, :cond_1
+
+    and-int/lit8 v0, p7, 0x10
+
+    if-eqz v0, :cond_0
+
+    const/4 p5, 0x1
+
+    :cond_0
+    invoke-interface/range {p0 .. p6}, Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;->openEditPage(LX/0t7j;Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;ZLkotlin/jvm/functions/Function1;)V
+
+    return-void
+
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "Super calls with default arguments not supported in this target, function: openEditPage"
+
+    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static synthetic publishDirectly$default(Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;LX/0t7j;Landroid/os/Bundle;ZZLkotlin/jvm/functions/Function0;ILjava/lang/Object;)V
+    .locals 1
+
+    if-nez p7, :cond_2
+
+    and-int/lit8 v0, p6, 0x4
+
+    if-eqz v0, :cond_0
+
+    const/4 p3, 0x0
+
+    :cond_0
+    and-int/lit8 v0, p6, 0x8
+
+    if-eqz v0, :cond_1
+
+    const/4 p4, 0x1
+
+    :cond_1
+    invoke-interface/range {p0 .. p5}, Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;->publishDirectly(LX/0t7j;Landroid/os/Bundle;ZZLkotlin/jvm/functions/Function0;)V
+
+    return-void
+
+    :cond_2
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "Super calls with default arguments not supported in this target, function: publishDirectly"
+
+    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static requestUpdateAvatar(Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;Ljava/lang/String;LX/02wT;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;",
+            "Ljava/lang/String;",
+            "LX/02wT<",
+            "-",
+            "Lcom/ss/android/ugc/aweme/profile/model/AvatarUri;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-interface {p0, p1, v0, p2}, Lcom/ss/android/ugc/aweme/services/IAvatarPublishStoryService;->requestUpdateAvatar(Ljava/lang/String;Ljava/util/List;LX/02wT;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    return-object v0
+.end method

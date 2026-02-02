@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:background="@drawable/a4d" n1:layout_width="298.0dp" n1:layout_height="132.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="16.0sp" n1:textColor="@color/bi" n1:ellipsize="end" n1:gravity="start|center" n1:background="@drawable/a4e" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:maxLines="1" n1:drawablePadding="9.0dp" n1:layout_centerVertical="true" n1:drawableStart="@drawable/a4c" n1:drawableEnd="@drawable/a48" n1:paddingStart="12.75dp" n1:paddingEnd="13.519989dp" n1:layout_toStartOf="@id/kz1" n1:layout_alignParentStart="true" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_marginTop="12.0dp">
+        <TextView n1:textSize="13.0sp" n1:gravity="center_horizontal" n1:background="@drawable/a4e" n1:paddingTop="14.0dp" n1:clickable="false" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:drawablePadding="3.0dp" n1:layout_weight="1.0" />
+        <TextView n1:textSize="13.0sp" n1:textColor="@color/bi" n1:gravity="center_horizontal" n1:background="@drawable/a4e" n1:paddingTop="14.0dp" n1:clickable="false" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:drawablePadding="3.0dp" n1:layout_weight="1.0" n1:layout_marginStart="7.0dp" n1:layout_marginEnd="7.0dp" />
+        <TextView n1:textSize="13.0sp" n1:textColor="@color/bi" n1:gravity="center_horizontal" n1:background="@drawable/a4e" n1:paddingTop="14.0dp" n1:clickable="false" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:drawablePadding="3.0dp" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

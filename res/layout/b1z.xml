@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/u6g" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMn n1:layout_width="131.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="16.0dp" n2:fly="18.0dp" n2:flz="true" n2:fm7="131.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp">
+        <X.0mMn n1:layout_width="76.0dp" n1:layout_height="91.0dp" n1:layout_marginStart="16.0dp" n3:fly="91.0dp" n3:flz="true" n3:fm3="?yh" n3:fm4="8.0dp" n3:fm7="76.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0mMn n1:layout_width="76.0dp" n1:layout_height="91.0dp" n1:layout_marginStart="12.0dp" n4:fly="91.0dp" n4:flz="true" n4:fm3="?yh" n4:fm4="8.0dp" n4:fm7="76.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0mMn n1:layout_width="76.0dp" n1:layout_height="91.0dp" n1:layout_marginStart="12.0dp" n5:fly="91.0dp" n5:flz="true" n5:fm3="?yh" n5:fm4="8.0dp" n5:fm7="76.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.0mMn n1:layout_width="76.0dp" n1:layout_height="91.0dp" n1:layout_marginStart="12.0dp" n6:fly="91.0dp" n6:flz="true" n6:fm3="?yh" n6:fm4="8.0dp" n6:fm7="76.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.0mMn n1:layout_width="76.0dp" n1:layout_height="91.0dp" n1:layout_marginStart="12.0dp" n7:fly="91.0dp" n7:flz="true" n7:fm3="?yh" n7:fm4="8.0dp" n7:fm7="76.0dp" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

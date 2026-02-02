@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/f5h" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bw_="com.ss.android.ugc.aweme.base.opensourcemodified.android.support.design.widget.ViewPagerBottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0CfU n1:id="@id/uea" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <RelativeLayout n1:id="@id/wh7" n1:background="@drawable/ch4" n1:layout_width="match_parent" n1:layout_height="@dimen/az0">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/bam" n1:padding="10.0dp" n1:focusableInTouchMode="true" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginLeft="6.0dp" n1:scaleType="centerInside" n1:layout_centerVertical="true" n1:layout_marginStart="6.0dp" n2:fjq="@raw/icon_x_mark" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="#e6161823" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="@dimen/az0" n1:layout_centerInParent="true" n2:fj2="p0" />
+        </RelativeLayout>
+        <FrameLayout n1:id="@id/hs4" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true" />
+    </LinearLayout>
+</X.12nR>

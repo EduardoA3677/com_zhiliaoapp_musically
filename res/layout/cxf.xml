@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0GRm n1:id="@id/n2f" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/view_stub_selected_view" n1:layout="@layout/td" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:layout_gravity="end|bottom" n1:id="@id/view_stub_duration" n1:layout="@layout/i1t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <ViewStub n1:layout_gravity="end|bottom" n1:id="@id/view_stub_live_photo_indicator" n1:layout="@layout/i1h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/view_stub_content_new_flag" n1:layout="@layout/bf8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dp" />
+    <View n1:id="@id/tm4" n1:background="?dr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:layout_gravity="start|top" n1:id="@id/view_stub_multi_selected" n1:layout="@layout/i1q" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:layout_marginTop="5.0dp" n1:layout_marginStart="5.0dp" />
+    <FrameLayout n1:layout_gravity="end" n1:id="@id/heo" n1:layout_width="44.0dp" n1:layout_height="44.0dp">
+        <ViewStub n1:layout_gravity="end" n1:id="@id/view_stub_indicator_v1" n1:layout="@layout/i1m" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="6.0dp" />
+        <ViewStub n1:layout_gravity="end" n1:id="@id/view_stub_indicator_v2" n1:layout="@layout/i1n" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="6.0dp" />
+        <ViewStub n1:layout_gravity="end" n1:id="@id/view_stub_indicator_v3" n1:layout="@layout/i1o" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="6.0dp" />
+        <ViewStub n1:layout_gravity="end" n1:id="@id/view_stub_indicator_v6" n1:layout="@layout/i1p" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="6.0dp" />
+    </FrameLayout>
+    <View n1:id="@id/bo_" n1:background="?xr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

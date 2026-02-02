@@ -1,0 +1,441 @@
+.class public final LX/11Ux;
+.super LX/11Vu;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(LX/0obU;LX/11VG;)V
+    .locals 1
+
+    invoke-direct {p0, p1, p2}, LX/11Vu;-><init>(LX/0obU;LX/11VG;)V
+
+    invoke-static {}, LX/11VI;->LIZ()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const-string v0, "aweme://privacy/setting/page?page_tag=content_reuse_permission"
+
+    iput-object v0, p2, LX/11VG;->LJIIJJI:Ljava/lang/String;
+
+    :cond_0
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LJIIL(Ljava/util/List;)Ljava/util/List;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "LX/0ob1;",
+            ">;)",
+            "Ljava/util/List<",
+            "LX/0ob1;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, LX/11TI;->LIZ:LX/11TI;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    const/4 v2, 0x0
+
+    const-string v6, "content_reuse_permission"
+
+    invoke-static {v2, v6}, LX/11TI;->LJIIIIZZ(ILjava/lang/String;)Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v5
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x1
+
+    if-eqz v5, :cond_4
+
+    const-string v0, "content_reuse_batch"
+
+    invoke-static {v2, v0}, LX/11TI;->LJIIIIZZ(ILjava/lang/String;)Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;->getResType()I
+
+    move-result v1
+
+    const/16 v0, 0xf
+
+    if-eq v1, v0, :cond_0
+
+    const/16 v0, 0xe
+
+    if-eq v1, v0, :cond_0
+
+    const/16 v0, 0x10
+
+    if-ne v1, v0, :cond_4
+
+    :cond_0
+    invoke-virtual {v5}, Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;->getShowType()I
+
+    move-result v0
+
+    if-eq v0, v3, :cond_4
+
+    invoke-static {v5}, LX/11VB;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-static {v2, v6}, LX/11TI;->LJIIIIZZ(ILjava/lang/String;)Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;->getTipsType()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_3
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    if-ne v0, v4, :cond_2
+
+    iget-object v0, p0, LX/11Vu;->LJIIIIZZ:LX/0obU;
+
+    iget-object v1, v0, LX/0obU;->LIZ:Landroid/content/Context;
+
+    const v0, 0x7f125d5b
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-lez v0, :cond_1
+
+    new-instance v0, LX/0oah;
+
+    invoke-direct {v0, v1}, LX/0oah;-><init>(Ljava/lang/CharSequence;)V
+
+    invoke-static {p1, v2, v0}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->add(Ljava/util/List;ILjava/lang/Object;)V
+
+    :cond_1
+    return-object p1
+
+    :cond_2
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    if-ne v0, v3, :cond_3
+
+    iget-object v0, p0, LX/11Vu;->LJIIIIZZ:LX/0obU;
+
+    iget-object v1, v0, LX/0obU;->LIZ:Landroid/content/Context;
+
+    const v0, 0x7f1256a7
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    goto :goto_0
+
+    :cond_3
+    const-string v1, ""
+
+    goto :goto_0
+
+    :cond_4
+    return-object p1
+.end method
+
+.method public final LJIILJJIL(Z)Z
+    .locals 2
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11Vs;->LIZIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11U1;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    if-eqz p1, :cond_1
+
+    if-nez v0, :cond_1
+
+    return v1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v1, 0x0
+
+    return v1
+.end method
+
+.method public final LJIILLIIL(Landroid/content/Context;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    .locals 14
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11U1;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const v1, 0x7f124068
+
+    const-string v0, "reuse_of_content"
+
+    invoke-static {p1, v1, v0}, LX/11U1;->LIZJ(Landroid/content/Context;ILjava/lang/String;)Landroid/text/Spanned;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    const-class v2, Lcom/ss/android/ugc/tiktok/pns/privacy/setting/base/api/IPrivacySettingsDepService;
+
+    const/4 v3, 0x0
+
+    const/16 v6, 0xe
+
+    const/4 v7, 0x0
+
+    move v4, v3
+
+    move v5, v3
+
+    invoke-static/range {v2 .. v7}, Lcom/ss/android/ugc/aweme/framework/services/PluggableExtentionKt;->pluggableSpi$default(Ljava/lang/Class;ZZZILjava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/tiktok/pns/privacy/setting/base/api/IPrivacySettingsDepService;
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/tiktok/pns/privacy/setting/base/api/IPrivacySettingsDepService;->supportForwardMentionVideoToPost()Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v2
+
+    :goto_0
+    const-class v8, Lcom/ss/android/ugc/tiktok/pns/privacy/setting/base/api/IPrivacySettingsDepService;
+
+    move v9, v3
+
+    move v10, v3
+
+    move v11, v3
+
+    move v12, v6
+
+    move-object v13, v7
+
+    invoke-static/range {v8 .. v13}, Lcom/ss/android/ugc/aweme/framework/services/PluggableExtentionKt;->pluggableSpi$default(Ljava/lang/Class;ZZZILjava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/tiktok/pns/privacy/setting/base/api/IPrivacySettingsDepService;
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/tiktok/pns/privacy/setting/base/api/IPrivacySettingsDepService;->LJIILIIL()Z
+
+    move-result v1
+
+    const/4 v0, 0x1
+
+    if-ne v1, v0, :cond_1
+
+    const/4 v3, 0x1
+
+    :cond_1
+    if-eqz v2, :cond_4
+
+    if-nez v3, :cond_3
+
+    const v0, 0x7f1238ae
+
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_2
+    const/4 v2, 0x0
+
+    goto :goto_0
+
+    :cond_3
+    const v0, 0x7f120e8a
+
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_4
+    if-eqz v3, :cond_5
+
+    const v0, 0x7f120e88
+
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_5
+    return-object p2
+.end method
+
+.method public final LJIIZILJ(Landroid/content/Context;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    .locals 1
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11U1;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const v0, 0x7f124069
+
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    return-object p2
+.end method
+
+.method public final LJJ()Z
+    .locals 1
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11U1;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final LJJI()Ljava/lang/String;
+    .locals 1
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11U1;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const-string v0, ""
+
+    return-object v0
+
+    :cond_0
+    invoke-super {p0}, LX/11Vu;->LJJI()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final LJJIFFI(ILandroid/view/View;)V
+    .locals 1
+
+    invoke-virtual {p0}, LX/11Vt;->LJIJJ()Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/11U1;->LIZ(Lcom/ss/android/ugc/tiktok/tpsc/model/PrivacySettingsRestrictionItem;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    invoke-static {v0}, LX/0od6;->LIZ(Z)V
+
+    invoke-super {p0, v0, p2}, LX/11Vu;->LJJIFFI(ILandroid/view/View;)V
+
+    return-void
+.end method

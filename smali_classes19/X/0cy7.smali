@@ -1,0 +1,37 @@
+.class public abstract LX/0cy7;
+.super Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "LX/0cyB;",
+        ">",
+        "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract y6(LX/0cyB;I)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;I)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract z6(LX/0cxw;)V
+.end method

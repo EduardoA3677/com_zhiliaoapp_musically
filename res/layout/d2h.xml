@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/p3h" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n3:textColor="?zw" n3:ellipsize="end" n3:id="@id/p4l" n3:layout_width="0.0dp" n3:layout_height="wrap_content" n3:layout_marginStart="12.0dp" n3:layout_marginEnd="12.0dp" n4:bwl="@id/p3s" n4:bwr="@id/p3t" n4:bx4="@id/p3h" n4:bx6="@id/p3t" n4:bx8="@id/p3h" n4:bxc="owf" n4:bxe="ori" n4:fj2="p7"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n5:textColor="?zz" n5:ellipsize="end" n5:id="@id/p3s" n5:layout_width="0.0dp" n5:layout_height="wrap_content" n6:bwk="owf" n6:bwq="@id/p4l" n6:bwz="0.0" n6:bx3="@id/p4l" n6:bx6="@id/p3t" n6:bx9="@id/p4l" n6:bxb="@id/p4l" n6:bxd="0.0"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n7:id="@id/p3k" n7:layout_width="24.0dp" n7:layout_height="24.0dp" n8:bwk="owf" n8:bwq="owf" n8:bx7="owf" n8:bxc="owf" n8:fjq="@raw/icon_x_mark_small" n8:fmy="?a04"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n9:textColor="?e0" n9:ellipsize="end" n9:gravity="center" n9:id="@id/p3t" n9:paddingTop="6.0dp" n9:paddingBottom="6.0dp" n9:layout_width="88.0dp" n9:layout_height="28.0dp" n9:text="@null" n9:maxLines="1" n9:textAllCaps="false" n9:layout_marginEnd="8.0dp" n10:bwk="owf" n10:bwr="@id/p3k" n10:bxc="owf" n10:fib="wf4" n10:fid="qhx" style="@style/aas"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Etkinleştir</string>
+    <string name="en0">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="en1">Google Play hizmetlerini etkinleştirin</string>
+    <string name="en2">Yükle</string>
+    <string name="en3">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="en4">Google Play hizmetlerini edinin</string>
+    <string name="en5">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="en6">Google Play Hizmetleri hatası</string>
+    <string name="en7">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="en8">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="en9">Güncelle</string>
+    <string name="en_">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="ena">Google Play hizmetlerini güncelleyin</string>
+    <string name="enb">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="enc">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

@@ -1,0 +1,125 @@
+.class public Lcom/ss/android/ugc/aweme/commercialize/chatagent/botpage/cards/interceptor/CommerceAgentInterceptorAssem;
+.super Lcom/bytedance/assem/arch/reused/ReusedUISlotAssem;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0ME4;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/bytedance/assem/arch/reused/ReusedUISlotAssem<",
+        "Lcom/ss/android/ugc/aweme/commercialize/chatagent/botpage/cards/interceptor/CommerceAgentInterceptorAssem;",
+        ">;",
+        "LX/0ME4<",
+        "LX/0lCQ;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public LLJJJJJIL:Lcom/bytedance/tux/input/TuxTextView;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/bytedance/assem/arch/reused/ReusedUISlotAssem;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final Om()I
+    .locals 1
+
+    const v0, 0x7f0e057b
+
+    return v0
+.end method
+
+.method public final Qn(Ljava/lang/Object;)V
+    .locals 3
+
+    check-cast p1, LX/0lCQ;
+
+    iget-object v2, p0, Lcom/ss/android/ugc/aweme/commercialize/chatagent/botpage/cards/interceptor/CommerceAgentInterceptorAssem;->LLJJJJJIL:Lcom/bytedance/tux/input/TuxTextView;
+
+    const/4 v1, 0x0
+
+    if-nez v2, :cond_0
+
+    move-object v2, v1
+
+    :cond_0
+    iget-object v0, p1, LX/0lCQ;->LL:Ljava/lang/String;
+
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/commercialize/chatagent/botpage/cards/interceptor/CommerceAgentInterceptorAssem;->LLJJJJJIL:Lcom/bytedance/tux/input/TuxTextView;
+
+    if-eqz v0, :cond_1
+
+    move-object v1, v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    invoke-static {v1, v0}, LX/0X3I;->LLJJJIL(Lcom/bytedance/tux/input/TuxTextView;I)V
+
+    return-void
+.end method
+
+.method public final bridge synthetic Rn(Ljava/lang/Object;)Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final bridge synthetic Un(Ljava/lang/Object;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final Vn()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final Wn(LX/02A0;Ljava/util/List;)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lcom/ss/android/ugc/aweme/commercialize/chatagent/botpage/cards/interceptor/CommerceAgentInterceptorAssem;->Qn(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final unBind()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final ym(Landroid/view/View;)V
+    .locals 1
+
+    const v0, 0x7f0b49df
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/tux/input/TuxTextView;
+
+    iput-object v0, p0, Lcom/ss/android/ugc/aweme/commercialize/chatagent/botpage/cards/interceptor/CommerceAgentInterceptorAssem;->LLJJJJJIL:Lcom/bytedance/tux/input/TuxTextView;
+
+    return-void
+.end method

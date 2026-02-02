@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.tag.TuxTag n1:layout_gravity="start|top" n1:id="@id/xvo" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="@null" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" n1:layout_marginStart="6.0dp" n2:fhu="?dp" n2:fj2="q2" n2:fml="n2i" n2:fmm="?e0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

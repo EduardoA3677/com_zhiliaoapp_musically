@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="end" n1:orientation="vertical" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/qg9" n1:layout_width="match_parent" n1:layout_height="66.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginHorizontal="12.0dp">
+        <View n1:id="@id/lqm" n1:background="@drawable/bkv" n1:layout_width="140.0dp" n1:layout_height="36.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/lqn" n1:background="@drawable/bkv" n1:layout_width="40.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/lqo" n1:background="@drawable/bkv" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="4.0dp" n4:bwr="@id/lqn" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/lqp" n1:background="@drawable/bkv" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="4.0dp" n5:bwr="@id/lqo" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/lqq" n1:background="@drawable/bkv" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="4.0dp" n6:bwr="@id/lqp" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/lqs" n1:background="@drawable/bkv" n1:layout_width="140.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="8.0dp" n7:bx9="owf" n7:bxb="@id/lqm" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/lqt" n1:background="@drawable/bkv" n1:layout_width="70.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="8.0dp" n8:bwq="owf" n8:bxb="@id/lqm" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/bn0" n1:visibility="gone" n1:layout_width="117.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="12.0dp">
+        <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:id="@id/bn5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="158.0dp" />
+    </LinearLayout>
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jky" n1:visibility="gone" n1:layout_width="100.0dp" n1:layout_height="wrap_content" n1:scaleType="centerInside" n1:adjustViewBounds="true" n1:layout_marginEnd="12.0dp" n9:b41="d4v" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0msj n1:id="@id/hgj" n1:layout_width="58.0dp" n1:layout_height="58.0dp">
+        <X.0Cm7 n1:layout_gravity="center" n1:id="@id/b9x" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:contentDescription="@null" n2:eyo="?br" n2:eyq="1.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </X.0msj>
+</merge>

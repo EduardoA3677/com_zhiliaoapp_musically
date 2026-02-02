@@ -1,0 +1,42 @@
+.class public Lcom/ss/android/ugc/profile/business/ur/camera/datachannel/Channel;
+.super Lcom/ss/android/ugc/profile/business/ur/camera/datachannel/NextLiveData;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<O:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/ss/android/ugc/profile/business/ur/camera/datachannel/NextLiveData<",
+        "TO;>;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final $stable:I = 0x8
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/ss/android/ugc/profile/business/ur/camera/datachannel/NextLiveData;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TO;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1}, Lcom/ss/android/ugc/profile/business/ur/camera/datachannel/NextLiveData;-><init>(Ljava/lang/Object;)V
+
+    return-void
+.end method

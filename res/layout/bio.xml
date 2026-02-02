@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/j4y" n1:duplicateParentState="true" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="@dimen/oj" n1:layout_marginBottom="@dimen/oj" n1:contentDescription="@null"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <X.0o10 n2:layout_gravity="center|bottom" n2:id="@id/l83" n2:paddingBottom="@dimen/oi" n2:duplicateParentState="true" n2:clipChildren="false" n2:clipToPadding="false" n2:layout_width="wrap_content" n2:layout_height="wrap_content"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <TextView n2:textSize="@dimen/ol" n2:ellipsize="end" n2:id="@id/u9y" n2:duplicateParentState="true" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:maxLines="1" />
+        <TextView n2:textSize="@dimen/oc" n2:ellipsize="end" n2:id="@id/l9s" n2:visibility="invisible" n2:duplicateParentState="true" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:maxLines="1" />
+    </X.0o10>
+</merge>

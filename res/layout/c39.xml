@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/gbi" n1:layout_width="@dimen/uo" n1:layout_height="@dimen/uo" n2:b41="h_f" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

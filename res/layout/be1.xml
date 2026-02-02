@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/d4b" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:layout_weight="1.0" n1:layout_marginVertical="8.0dp" n2:bwg="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j8i" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n2:bx9="owf" n2:bxc="@id/wk7" n2:fjt="20.0dp" n2:fk6="20.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/wk7" n1:paddingTop="@dimen/r1" n1:paddingBottom="@dimen/r1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:textAlignment="viewStart" n1:labelFor="@id/rc7" n1:paddingVertical="@dimen/r1" n2:bwg="true" n2:bwl="@id/v_9" n2:bwr="@id/rc8" n2:bwz="0.0" n2:bx0="ujk" n2:bx8="@id/j8i" n2:bxc="owf" n2:fj2="p_" />
+        <FrameLayout n1:id="@id/rc8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/r5" n2:bwk="@id/wk7" n2:bwq="owf" n2:bxc="@id/wk7">
+            <X.10dF n1:layout_gravity="center" n1:id="@id/rc7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <com.bytedance.tux.status.loading.TuxSpinner n1:id="@id/uhx" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:fjq="@raw/icon_spinner_normal" n2:fmy="?a04" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="start" n1:id="@id/v_9" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:textAlignment="viewStart" n2:bwg="true" n2:bwk="owf" n2:bwq="owf" n2:bwz="0.0" n2:bx9="@id/wk7" n2:bxb="@id/wk7" n2:fj2="px" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

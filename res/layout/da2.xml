@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/bbc" n1:background="?xs" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" />
+    <FrameLayout n1:id="@id/ebi" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0oBn n1:layout_gravity="center" n1:id="@id/fot" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+        <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/ido" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:alpha="0.0">
+            <FrameLayout n1:id="@id/msx" n1:layout_width="296.0dp" n1:layout_height="456.0dp">
+                <View n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="20.0dp" />
+                <X.0bYV n1:layout_gravity="center_horizontal" n1:id="@id/mpg" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cy5" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitEnd" n1:alpha="0.0" />
+                <X.13bP n1:id="@id/amo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/u3u" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" />
+                <FrameLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="48.0dp" n1:layout_marginRight="48.0dp" n1:layout_marginBottom="44.0dp" n1:layout_marginHorizontal="48.0dp">
+                    <LinearLayout n1:gravity="start|bottom" n1:layout_gravity="bottom" n1:orientation="vertical" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="200.0dp" n1:layout_height="191.0dp">
+                        <X.0bYd n1:ellipsize="end" n1:id="@id/ri4" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:layout_width="132.0dp" n1:layout_height="wrap_content" n1:hint="@null" n1:scrollHorizontally="true" n1:singleLine="true" n1:paddingVertical="10.0dp" />
+                        <X.0bYd n1:layout_gravity="top" n1:id="@id/ebu" n1:layout_width="match_parent" n1:layout_height="122.0dp" n1:layout_marginBottom="12.0dp" n1:hint="@null" n1:overScrollMode="never" />
+                        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="32.0dp">
+                            <X.0bYd n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/tei" n1:layout_width="132.0dp" n1:layout_height="match_parent" n1:hint="@null" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_marginEnd="12.0dp" />
+                            <Space n1:layout_width="0.0dp" n1:layout_height="1.0px" n1:layout_weight="1.0" />
+                            <X.0D2z n1:id="@id/f9d" n1:layout_width="56.0dp" n1:layout_height="match_parent" n2:fjt="16.0dp" n2:fk4="@raw/icon_dices_fill" n2:fk6="16.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="240.0dp" n1:layout_height="wrap_content">
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <FrameLayout n1:id="@id/v8" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                        <X.0D2z n1:id="@id/v6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                    </FrameLayout>
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?adm" n1:layout_gravity="center_horizontal" n1:id="@id/view_status_text" n1:visibility="gone" n1:layout_width="200.0dp" n1:layout_height="48.0dp" n1:text="@null" n1:textAlignment="center" n1:elegantTextHeight="false" n1:useLocalePreferredLineHeightForMinimum="false" />
+                </FrameLayout>
+                <X.0D2z n1:id="@id/djb" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_marginTop="88.0dp" n3:fjt="24.0dp" n3:fk4="@raw/icon_x_mark_fill_small" n3:fk6="24.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <View n1:id="@id/die" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/umk" n1:layout_width="96.0dp" n1:layout_height="96.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:layout_gravity="center" n1:id="@id/umr" n1:background="@drawable/cia" n1:layout_width="71.0dp" n1:layout_height="71.0dp" />
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/umq" n1:layout_width="96.0dp" n1:layout_height="96.0dp" />
+</FrameLayout>

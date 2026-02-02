@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="d4" parent="@style/em">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowElevation">0.0dp</item>
+    </style>
+    <style name="da" parent="@style/eo">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowElevation">0.0dp</item>
+    </style>
+    <style name="e2" parent="@style/et">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowElevation">0.0dp</item>
+    </style>
+</resources>

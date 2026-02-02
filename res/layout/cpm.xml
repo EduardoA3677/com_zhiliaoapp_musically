@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/yzc" n1:paddingTop="14.0dp" n1:paddingBottom="14.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="14.0dp" n1:paddingEnd="12.0dp" n1:paddingVertical="14.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/yzd" n1:background="@drawable/cc4" n1:layout_width="7.0dp" n1:layout_height="7.0dp" />
+    <View n1:id="@id/yzf" n1:background="@drawable/cc4" n1:layout_width="7.0dp" n1:layout_height="7.0dp" n1:layout_marginLeft="5.0dp" n1:layout_marginRight="5.0dp" n1:layout_marginHorizontal="5.0dp" />
+    <View n1:id="@id/yze" n1:background="@drawable/cc4" n1:layout_width="7.0dp" n1:layout_height="7.0dp" />
+</LinearLayout>

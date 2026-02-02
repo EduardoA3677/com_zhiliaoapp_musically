@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="start" n1:orientation="vertical" n1:id="@id/ni2" n1:paddingLeft="@dimen/a74" n1:paddingRight="@dimen/a74" n1:paddingBottom="@dimen/a74" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="@dimen/a74" n1:paddingEnd="@dimen/a74" style="?eny">
+        <FrameLayout n1:id="@id/ni4" n1:paddingLeft="@dimen/a7_" n1:layout_width="@dimen/a7c" n1:layout_height="0.0dp" n1:layout_weight="1.0" n1:paddingStart="@dimen/a7_">
+            <include layout="@layout/dtb" />
+            <include layout="@layout/dta" />
+        </FrameLayout>
+        <include layout="@layout/dtc" />
+    </LinearLayout>
+    <View n1:layout_gravity="end" n1:layout_width="@dimen/a76" n1:layout_height="match_parent" style="?enx" />
+</merge>

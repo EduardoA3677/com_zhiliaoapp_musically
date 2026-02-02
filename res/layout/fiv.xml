@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_weight="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o06 n1:id="@id/viewer_list" n1:paddingTop="8.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="center_horizontal" n1:id="@id/t6l" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="12.0dp" n1:paddingStart="16.0dp" />
+    <FrameLayout n1:id="@id/up5" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

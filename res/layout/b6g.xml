@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout n1:id="@id/b_o" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/p9l" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0MU8 n1:orientation="vertical" n1:id="@id/b_n" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0ME7 n1:orientation="vertical" n1:id="@id/k37" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <ViewStub n1:id="@id/k38" n1:layout="@layout/b6l" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </X.0ME7>
+    </X.0MU8>
+    <include n1:id="@id/bnv" n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/b4j" />
+</com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Biblioteka e tingujve në linjë</item>
+        <item>Tingulli im</item>
+    </string-array>
+    <string-array name="l">
+        <item>Pastro</item>
+    </string-array>
+    <string-array name="q">
+        <item>Fshi</item>
+        <item>Anulo</item>
+    </string-array>
+    <string-array name="t">
+        <item>Në tendencë</item>
+        <item>Të fundit</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>20 të parët</item>
+        <item>40 të parët</item>
+        <item>60 të parët</item>
+        <item>80 të parët</item>
+        <item>100 të parët</item>
+    </string-array>
+    <string-array name="y">
+        <item>Zgjidh nga Galeria</item>
+    </string-array>
+    <string-array name="a7">
+        <item>E diel</item>
+        <item>E hënë</item>
+        <item>E martë</item>
+        <item>E mërkurë</item>
+        <item>E enjte</item>
+        <item>E premte</item>
+        <item>E shtunë</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Kinezisht e thjeshtuar</item>
+        <item>Kinezishte tradicionale</item>
+        <item>Anglisht</item>
+        <item>Japonisht</item>
+        <item>Koreanisht</item>
+        <item>Rusisht</item>
+        <item>Indonezisht</item>
+        <item>Malajzisht</item>
+        <item>Portugalisht</item>
+        <item>Tajlandisht</item>
+        <item>Vietnamisht</item>
+        <item>Hindisht</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>I bardhë/I zi</item>
+        <item>Artet</item>
+        <item>I vjetruar</item>
+        <item>Retroluks</item>
+        <item>I ngopur</item>
+        <item>Krom</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Shk</item>
+        <item>Mar</item>
+        <item>Pri</item>
+        <item>Maj</item>
+        <item>Qer</item>
+        <item>Korr</item>
+        <item>Gush</item>
+        <item>Sht</item>
+        <item>Tet</item>
+        <item>Nën</item>
+        <item>Dhj</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Ruajtja e të dhënave në fillim</item>
+        <item>Rezolucioni i lartë në fillim</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Të gjithë</item>
+        <item>Vetëm shoqëria</item>
+    </string-array>
+    <string-array name="bq">
+        <item>E hënë</item>
+        <item>E martë</item>
+        <item>E mërkurë</item>
+        <item>E enjte</item>
+        <item>E premte</item>
+        <item>E shtunë</item>
+        <item>E diel</item>
+    </string-array>
+</resources>

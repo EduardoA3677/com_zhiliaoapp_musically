@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/crw" n1:layout_width="match_parent" n1:layout_height="42.0dp" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/djj" n1:padding="3.0dp" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="2.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fmy="?zy" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/qhm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="230.0dp" n1:text="" n1:lines="1" n1:layout_marginStart="2.0dp" n3:bwk="owf" n3:bx8="@id/djj" n3:bxc="owf" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/a8z" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginEnd="2.0dp" n4:bwk="owf" n4:bwr="@id/a90" n4:bxc="owf" n4:eyl="2.0dp" n4:eyo="?ly" n4:eyq="0.5dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/a90" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="2.0dp" n5:bwk="owf" n5:bwr="@id/a91" n5:bxc="owf" n5:eyl="2.0dp" n5:eyo="?ly" n5:eyq="0.5dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/a91" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="4.0dp" n6:bwk="owf" n6:bwr="@id/a8t" n6:bxc="owf" n6:eyl="2.0dp" n6:eyo="?ly" n6:eyq="0.5dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/a8t" n1:layout_width="8.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="6.0dp" n7:bwk="owf" n7:bwq="owf" n7:bxc="owf" n7:fjq="@raw/icon_chevron_right_offset_ltr" n7:fmy="?zy" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

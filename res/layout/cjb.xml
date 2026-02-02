@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/r5" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/qi" n1:paddingVertical="@dimen/r5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kr2" n1:layout_width="40.0dp" n1:layout_height="50.0dp" n1:layout_marginStart="@dimen/qz" n1:layout_marginEnd="@dimen/qi" n2:bwk="owf" n2:bwr="@id/yiu" n2:bx9="owf" n2:bxc="owf" n2:eyl="@dimen/b9" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/yiu" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/kr2" n3:bxc="owf" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+.class public final LX/0JzI;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/rerank/config/SearchInflowUserFeatureWeights;
+
+.field public static final LIZIZ:LX/05ta;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 17
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/rerank/config/SearchInflowUserFeatureWeights;
+
+    const-wide/16 v1, 0x0
+
+    move-wide v3, v1
+
+    move-wide v5, v1
+
+    move-wide v7, v1
+
+    move-wide v9, v1
+
+    move-wide v11, v1
+
+    move-wide v13, v1
+
+    move-wide v15, v1
+
+    invoke-direct/range {v0 .. v16}, Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/rerank/config/SearchInflowUserFeatureWeights;-><init>(DDDDDDDD)V
+
+    sput-object v0, LX/0JzI;->LIZ:Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/rerank/config/SearchInflowUserFeatureWeights;
+
+    const/16 v0, 0x2a3
+
+    invoke-static {v0}, Lkotlin/jvm/internal/AFwS181S0000000_9;->get$arr$(I)Lkotlin/jvm/internal/AFwS181S0000000_9;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    sput-object v0, LX/0JzI;->LIZIZ:LX/05ta;
+
+    return-void
+.end method
+
+.method public static LIZ()Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/rerank/config/SearchInflowUserFeatureWeights;
+    .locals 1
+
+    sget-object v0, LX/0JzI;->LIZIZ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/rerank/config/SearchInflowUserFeatureWeights;
+
+    return-object v0
+.end method

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/gs0" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wv0" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/vs_explore_nav_bar" n1:visibility="gone" n1:layout="@layout/c5e" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/vs_search_layout" n1:visibility="gone" n1:layout="@layout/c5_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <X.12nR n1:id="@id/msy" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <X.12nk n1:id="@id/grk" n1:background="@color/dx" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <FrameLayout n1:id="@id/grl" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <FrameLayout n1:id="@id/gsa" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <X.0Cgt n1:id="@id/gs8" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.0ntf n1:id="@id/gs9" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/gs4" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n2:fjq="@raw/icon_ellipsis_horizontal" n2:fjt="20.0dp" n2:fk6="20.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                </X.0Cgt>
+            </FrameLayout>
+        </X.12nk>
+        <X.0ntv n1:id="@id/gsd" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="4.0dp" />
+    </X.12nR>
+    <View n1:id="@id/c35" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

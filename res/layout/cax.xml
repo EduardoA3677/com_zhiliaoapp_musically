@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CQX n1:id="@id/sed" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qi" n1:layout_marginBottom="@dimen/qi" n1:layout_marginVertical="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/cac" />
+    <LinearLayout n1:gravity="start" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <include layout="@layout/cbc" />
+        <FrameLayout n1:id="@id/f2h" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="68.0dp" n1:layout_marginEnd="@dimen/qi" />
+        <FrameLayout n1:id="@id/rwg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r2" n1:layout_marginStart="68.0dp" n1:layout_marginEnd="@dimen/qi" />
+        <FrameLayout n1:id="@id/eb5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qc" />
+        <FrameLayout n1:id="@id/k3v" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="68.0dp" n1:layout_marginEnd="@dimen/r5" />
+        <FrameLayout n1:id="@id/rxj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="68.0dp" n1:layout_marginEnd="@dimen/qi" />
+        <include layout="@layout/cag" />
+        <FrameLayout n1:id="@id/dtv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qf" n1:layout_marginStart="64.0dp" n1:layout_marginEnd="@dimen/qi" />
+    </LinearLayout>
+</X.0CQX>

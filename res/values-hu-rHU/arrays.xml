@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Online hangkönyvtár</item>
+        <item>Saját hangok</item>
+    </string-array>
+    <string-array name="q">
+        <item>Törlés</item>
+        <item>Mégse</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trendi</item>
+        <item>Legújabb</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Vasárnap</item>
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Egyszerűsített kínai</item>
+        <item>Hagyományos kínai</item>
+        <item>Angol</item>
+        <item>Japán</item>
+        <item>Koreai</item>
+        <item>Orosz</item>
+        <item>Indonéz</item>
+        <item>Maláj</item>
+        <item>Portugál</item>
+        <item>Thai</item>
+        <item>Vietnámi</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normál</item>
+        <item>Fekete-fehér</item>
+        <item>Művészetek</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Telített</item>
+        <item>Króm</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Már</item>
+        <item>Ápr</item>
+        <item>Máj</item>
+        <item>Jún</item>
+        <item>Júl</item>
+        <item>Aug</item>
+        <item>Szep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Adattakarékosság előnyben</item>
+        <item>Nagy felbontás előnyben</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Mindenki</item>
+        <item>Csak ismerősök</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+        <item>Vasárnap</item>
+    </string-array>
+</resources>

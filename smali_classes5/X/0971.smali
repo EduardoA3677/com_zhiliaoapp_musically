@@ -1,0 +1,47 @@
+.class public final LX/0971;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:F
+
+.field public static final LIZIZ:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0971;
+
+    sget-object v0, LX/08hk;->LIZ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->floatValue()F
+
+    move-result v0
+
+    sput v0, LX/0971;->LIZ:F
+
+    sget-object v0, LX/0970;->LIZ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    sput v0, LX/0971;->LIZIZ:I
+
+    return-void
+.end method

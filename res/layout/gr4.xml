@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/mg4" n1:background="@drawable/e3z" n1:paddingTop="2.0dp" n1:paddingBottom="2.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:paddingStart="4.0dp" n1:paddingEnd="4.0dp" n1:paddingVertical="2.0dp">
+        <X.0D0r n1:id="@id/krr" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="fitCenter" n1:layout_marginEnd="4.0dp" />
+        <X.12nN n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/y6y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" style="@style/a7h" />
+        <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/krp" n1:visibility="gone" n1:layout_width="11.0dp" n1:layout_height="11.0dp" n1:scaleType="fitCenter" />
+    </LinearLayout>
+    <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/krq" n1:visibility="gone" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:scaleType="fitCenter" />
+</FrameLayout>

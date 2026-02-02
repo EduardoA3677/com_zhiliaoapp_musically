@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/q7j" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/q7b" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:contentDescription="@null" />
+    <X.12nR n1:id="@id/q7e" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/q7c" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bw_="com.bytedance.hybrid.spark.anim.BottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:layout_gravity="center" n1:id="@id/q7l" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <X.06IB n1:layout_gravity="center_horizontal" n1:id="@id/q7h" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <FrameLayout n1:layout_gravity="center" n1:id="@id/ggv" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <ViewStub n1:layout_gravity="center|top" n1:id="@id/inq" n1:layout="@layout/fet" n1:inflatedId="@id/tsi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" />
+            </X.06IB>
+        </LinearLayout>
+    </X.12nR>
+</FrameLayout>

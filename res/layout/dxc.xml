@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/lh6" n1:background="?xs" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ivn" n1:background="@drawable/cs8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:translationY="-13.0dp" n1:layout_marginHorizontal="12.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="@id/h8a" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:id="@id/ivp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="27.5dp" n1:layout_marginBottom="27.5dp" n1:maxWidth="290.0dp" n1:text="@null" n1:layout_marginStart="12.0dp" n1:layout_marginVertical="27.5dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="ow" />
+        <ImageView n1:id="@id/ivo" n1:layout_width="50.0dp" n1:layout_height="28.0dp" n1:src="@drawable/cs9" n1:contentDescription="notification_setting_page_auth_guide_switch" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:gravity="center|top" n1:id="@id/chm" n1:layout_width="276.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="9.0dp" n1:text="@null" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/h8a" n3:fj2="ow" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_width="276.0dp" n1:layout_height="140.0dp" n1:layout_marginTop="12.0dp" n1:src="@drawable/cs7" n1:contentDescription="auth_guide_bubble_image" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/chm" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.13dw n1:id="@id/h8a" n1:layout_width="100.0dp" n1:layout_height="100.0dp" n1:layout_marginTop="100.0dp" n1:translationX="5.0dp" n1:layout_marginEnd="0.0dp" n5:bwq="owf" n5:bxc="owf" n5:em4="true" n5:eme="true" n5:emg="@raw/ug_authorization_guidance_tux_lottie" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

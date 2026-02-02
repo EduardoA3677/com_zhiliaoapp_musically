@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oBn n1:id="@id/pty" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_centerInParent="true" />
+    <X.12j4 n1:id="@id/ptt" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ptv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:paddingEnd="12.0dp" n1:layout_alignParentStart="true">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ptx" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="4.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/ptw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:elevation="1.0dp" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ptu" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_chevron_right_ltr" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View n1:id="@id/pu3" n1:background="@drawable/cyg" n1:layout_width="match_parent" n1:layout_height="66.0dp" />
+    <X.0oCE n1:id="@id/pu5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true" n4:azj="?zy" n4:azl="?zw" n4:fkf="j0v" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

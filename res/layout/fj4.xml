@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="0.75" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n2:etn="@color/ar" n2:eto="d4s" />
+    <View n1:id="@id/oq9" n1:background="?xp" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/eaa" n1:background="@drawable/dd9" n1:padding="6.0dp" n1:layout_width="match_parent" n1:layout_height="30.0dp">
+        <View n1:id="@id/jar" n1:background="@drawable/dd_" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="4.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/yu3" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:textDirection="locale" n2:fj2="pz" />
+    </LinearLayout>
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/e9a" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="4.0dp" n1:paddingEnd="4.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j6g" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n2:fjt="16.0dp" n2:fk6="16.0dp" />
+        <com.bytedance.tux.status.loading.TuxSpinner n1:id="@id/j8y" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/xps" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_weight="1.0" n1:textDirection="locale" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n2:fj2="pz" />
+    </LinearLayout>
+    <X.0Ci6 n1:layout_gravity="end|top" n1:id="@id/d9_" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="8.0dp" n1:contentDescription="checkbox" n1:layout_marginEnd="8.0dp" n2:fii="n2i" n2:fij="?e0" />
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

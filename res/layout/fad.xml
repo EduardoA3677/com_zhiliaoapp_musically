@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="@drawable/d_0" n1:layout_width="55.0dp" n1:layout_height="55.0dp" n1:layout_centerInParent="true" />
+    <X.0oBn n1:id="@id/fot" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_centerInParent="true" />
+</RelativeLayout>

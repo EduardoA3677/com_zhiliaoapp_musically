@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/zy7" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/ipx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="start|center" n1:id="@id/xi2" n1:paddingTop="14.0dp" n1:paddingBottom="14.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/dzy" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n2:fj2="p1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="end|center" n1:id="@id/xi3" n1:paddingTop="14.0dp" n1:paddingBottom="14.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/q6_" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n3:fj2="p3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/g7q" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/rn1" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/g7q" n1:layoutDirection="ltr" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/xi8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:text="@null" n4:fj2="q1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0SMl n1:layout_gravity="bottom" n1:id="@id/zoi" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_marginTop="14.0dp" n1:layout_marginBottom="14.0dp" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/zor" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/rn1" n1:layout_below="@id/ipx" n1:layout_centerInParent="true">
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/g7r" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/g7p" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</RelativeLayout>

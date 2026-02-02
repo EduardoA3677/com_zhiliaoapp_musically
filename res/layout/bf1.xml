@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/g49" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/g45" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="56.0dp">
+        <FrameLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/g57" n1:layout_width="match_parent" n1:layout_height="86.0dp" />
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/g46" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout n1:gravity="bottom" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/g48" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/g47" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/bxe" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:id="@id/iti" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/jmf" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/wcu" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

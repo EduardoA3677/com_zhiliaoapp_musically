@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/xq" n1:id="@id/ott" n1:background="?my" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/otl" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwu="0.23" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/ote" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bxb="@id/otl" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/otd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ote" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/otf" n1:layout_width="132.0dp" n1:layout_height="176.0dp" n4:b41="d4s" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" n4:etn="?yh" n4:eto="d4v" n4:eyl="@dimen/b_" n4:eyo="?xy" n4:eyq="1.0dp" />
+        <FrameLayout n1:id="@id/oth" n1:background="@drawable/bdu" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n4:bwk="@id/otf" n4:bwq="owf" n4:bx9="owf" n4:bxc="@id/otf">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/otg" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:importantForAccessibility="no" n4:fjq="@raw/icon_lock_large_fill" n4:fmy="?z4" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center" n1:id="@id/otr" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:maxLines="2" n1:layout_marginHorizontal="16.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/otf" n4:fj2="ow" n4:fl1="12.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:id="@id/otm" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/otr" n4:fj2="p5" n4:fl1="12.0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0D2z n1:id="@id/otj" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="28.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/otd" n5:eyl="@dimen/b8" n5:fi8="true" n5:fib="l9r" n5:fid="qhx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

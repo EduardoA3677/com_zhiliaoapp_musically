@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0QFY n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="48.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.06Jm n1:id="@id/x27" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oFo n1:id="@id/vhr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0dyY n1:id="@id/o6x" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0dyQ n1:id="@id/o6y" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.06Jl n1:id="@id/bcl" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0dwh n1:id="@id/rcb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0dx4 n1:id="@id/lo5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0e4C n1:id="@id/yzj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0e2S n1:id="@id/s20" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.06Jn n1:id="@id/c4i" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0wn4 n1:id="@id/zg5" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0dwW n1:id="@id/zg7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </X.0wn4>
+    <X.0e4D n1:id="@id/h96" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0dyf n1:id="@id/i4j" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0e0N n1:id="@id/i4i" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0dyc n1:id="@id/uiz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0e4L n1:id="@id/ink" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0kMA n1:id="@id/bh4" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="end" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+        <X.0d3Z n1:layout_gravity="center_vertical" n1:id="@id/mz6" n1:visibility="gone" n1:layout_width="41.0dp" n1:layout_height="match_parent" n1:src="@drawable/dsj" />
+        <View n1:id="@id/i5x" n1:background="@color/bh" n1:visibility="gone" n1:layout_width="1.0dp" n1:layout_height="match_parent" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginEnd="2.0dp" />
+        <X.0cGu n1:id="@id/beq" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" />
+    </LinearLayout>
+    <View n1:layout_gravity="bottom" n1:id="@id/c0h" n1:background="?fel" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+</X.0QFY>

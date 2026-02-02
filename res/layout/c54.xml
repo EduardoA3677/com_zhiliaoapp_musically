@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/k3m" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/wwo" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:text="Los Angeles Fire" n1:maxLines="3" n2:bwr="@id/djb" n2:bx9="owf" n2:bxc="@id/djb" n2:bxd="0.0" n2:fj2="ot" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/wwp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="Los Angeles Fire" n1:maxLines="1" n1:alpha="0.0" n2:bwq="@id/wwo" n2:bx9="@id/wwo" n2:bxc="@id/wwo" n2:bxd="0.0" n2:fj2="ot" />
+        <X.130R n1:id="@id/bxk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:b74="bwg" n2:bfm="wwo,djb" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/wwb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:bwk="owf" n2:bx9="owf" n2:bxb="@id/bxk" n2:fj2="pu" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gs6" n1:paddingLeft="16.0dp" n1:paddingTop="10.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" n1:paddingHorizontal="16.0dp" n1:paddingVertical="10.0dp" n2:bwr="@id/djb" n2:bwz="1.0" n2:bxc="@id/owf">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/pam" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n2:bwk="owf" n2:bwr="@id/pb1" n2:bx9="@id/owf" n2:bxc="@id/owf" n2:fjq="@raw/icon_pin" n2:fmy="?zw" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/z2n" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:alpha="0.0" n1:importantForAccessibility="no" n2:bwk="@id/pam" n2:bwq="@id/pam" n2:bx9="@id/pam" n2:bxc="@id/pam" n2:fjq="@raw/icon_pin_fill" n2:fmy="?zw" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/pb1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:paddingStart="4.0dp" n2:bwk="owf" n2:bx8="@id/pam" n2:bxc="owf" n2:fj2="p7" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.0D2z n1:id="@id/djb" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:bwq="owf" n2:bwz="1.0" n2:bxc="owf" n2:fi9="true" n2:fid="t69" n2:fk4="@raw/icon_x_mark" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0nyX n1:id="@id/gs1" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="52.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0oCE n1:id="@id/up1" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="4.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/k3m" n4:fkf="j0v" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/teq" n1:background="?yh" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n5:bwk="@id/k3m" n5:bwq="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

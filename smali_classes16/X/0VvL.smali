@@ -1,0 +1,69 @@
+.class public abstract LX/0VvL;
+.super LX/101b;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/101b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()Lcom/bytedance/hybrid/spark/security/web_js/setting/JSInjectConfig;
+    .locals 14
+
+    new-instance v1, Lcom/bytedance/hybrid/spark/security/web_js/setting/JSInjectConfig;
+
+    const-string v2, "_jsmanage_pns_thirdparty_sec"
+
+    const-string v3, "custom_manual"
+
+    const/4 v4, 0x2
+
+    const-string v0, "."
+
+    invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v5
+
+    sget-object v6, LX/0Pgk;->INSTANCE:LX/0Pgk;
+
+    const-string v7, "https://lf16-gecko-source.tiktokcdn.com/obj/tiktok-teko-source-sg/tt/webview/js_manage/tiktok_webview_js_inject_manage/assets/js/pns_thirdparty_sec.js"
+
+    const/4 v8, 0x0
+
+    const/4 v11, 0x0
+
+    const/16 v12, 0x1c0
+
+    move-object v9, v8
+
+    move-object v10, v8
+
+    move-object v13, v8
+
+    invoke-direct/range {v1 .. v13}, Lcom/bytedance/hybrid/spark/security/web_js/setting/JSInjectConfig;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-object v1
+.end method
+
+.method public final LJ()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "\"use strict\";!function(){var o,i,n,t,a,l,e=function(){for(var o=arguments.length,i=new Array(o),n=0;n<o;n++)i[n]=arguments[n];\"function\"==typeof i[1]&&i[1]({code:1,message:\"\"})};(null===(i=navigator)||void 0===i||null===(o=i.geolocation)||void 0===o?void 0:o.getCurrentPosition)&&(navigator.geolocation.getCurrentPosition=e),(null===(t=navigator)||void 0===t||null===(n=t.geolocation)||void 0===n?void 0:n.watchPosition)&&(navigator.geolocation.watchPosition=e),(null===(l=navigator)||void 0===l||null===(a=l.geolocation)||void 0===a?void 0:a.clearWatch)&&(navigator.geolocation.clearWatch=function(){})}();"
+
+    return-object v0
+.end method
+
+.method public final LJI()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "_jsmanage_pns_thirdparty_sec"
+
+    return-object v0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/l9d" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="56.0dp" n1:layout_marginEnd="56.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0MIW n1:id="@id/f9r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true" />
+    <X.0MIW n1:id="@id/dud" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_marginStart="24.0dp" n1:layout_toEndOf="@id/f9r" />
+    <X.0MIW n1:id="@id/gzr" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_marginStart="24.0dp" n1:layout_toEndOf="@id/dud" />
+    <X.0MIW n1:id="@id/tnw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" />
+    <FrameLayout n1:id="@id/evo" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:layout_alignParentBottom="true" n1:layout_marginStart="@dimen/r8" n1:layout_marginEnd="96.0dp" n1:layout_toStartOf="@id/s96" n1:layout_toEndOf="@id/gzr" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/s96" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_alignParentEnd="true">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/wkj" n1:padding="14.0dp" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_closed_captions_fill" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/uhe" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

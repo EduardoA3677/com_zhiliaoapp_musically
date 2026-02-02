@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/q_7" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/gru" n1:background="?bx" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0NBS n1:id="@id/est" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0NBy n1:id="@id/view_pager" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/grr" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <ImageView n1:id="@id/gs_" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:layout_marginTop="10.5dp" n1:scaleType="fitCenter" n1:alpha="0.0" n1:layout_marginEnd="10.5dp" n1:elevation="2.0dp" n2:bwq="@id/gro" n2:bxc="@id/gro" />
+                <ImageView n1:id="@id/gro" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:scaleType="fitCenter" n1:alpha="0.0" n2:bwl="@id/grq" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+                <FrameLayout n1:id="@id/grq" n1:background="?y1" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:alpha="0.0" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/gro">
+                    <ImageView n1:layout_gravity="top" n1:id="@id/grp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitStart" />
+                </FrameLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </X.0NBS>
+    </FrameLayout>
+    <FrameLayout n1:id="@id/ian" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bbc" n1:background="@color/iv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

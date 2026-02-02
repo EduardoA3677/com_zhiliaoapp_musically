@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:theme="@style/wo" n1:id="@id/bbc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n2:ba3="@android:color/transparent" n2:ba4="16.0dp" n2:ba5="0.0dp" n2:bww="248.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0o06 n1:id="@id/lkf" n1:scrollbars="vertical" n1:clipChildren="true" n1:clipToPadding="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.ui.IMSkeletonConstraintLayout n1:id="@id/u3j" n1:clipChildren="false" n1:clipToPadding="false" style="@style/ab0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/vex" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="@dimen/a0l" n2:bwk="@id/ean" n2:bwq="@id/ean" n2:bxc="@id/ean" layout="@layout/ct2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/rbg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwg="true" n3:bwl="@id/ean" n3:bwq="@id/ean" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/aj7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:b74="bwg" n4:bfm="rbg,ean" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/ebv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:b74="ul9" n5:bfm="ean" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/zh4" n1:inflatedId="@id/zh0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:layout_marginStart="8.0dp" n6:bwl="@id/rbg" n6:bwq="@id/ean" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0CfU n1:id="@id/mx6" n1:layout_width="12.0dp" n1:layout_height="0.0dp" n7:bx9="@id/ean" n7:bxb="@id/aj7" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.0b8D n1:id="@id/ean" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="12.0dp" n1:translationZ="-1.0dp" n8:bwg="true" n8:bwl="@id/ebb" n8:bwq="owf" n8:bxd="1.0" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/afu" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n9:bwk="@id/mx6" n9:bwq="@id/mx6" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/jdr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp" n10:bwk="@id/ean" n10:bwr="@id/ebv" n10:bxc="@id/ean" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/ebb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n11:b74="wor" n11:bfm="n5u,nhb" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <X.0CfU n1:id="@id/znk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n12:bwq="@id/maw" n12:bxc="@id/maw" n12:by3="0.0dp" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:layout_gravity="end" n1:id="@id/may" n1:inflatedId="@id/maw" n1:layout_width="wrap_content" n1:layout_height="@dimen/zz" n1:layout_marginEnd="4.0dp" n13:bwk="@id/n5u" n13:bwq="@id/ean" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/n5u" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n14:bwl="@id/n69" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/n69" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n15:bwl="@id/nhc" n15:bwq="@id/ean" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/n5k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n16:bwq="@id/ean" n16:bxb="@id/n5u" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/d2u" n1:inflatedId="@id/d2t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n17:bx9="owf" n17:bxc="@id/zh0" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+    <X.130R n1:id="@id/nhc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n18:b74="wor" n18:bfm="nhb,o8h" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/nhb" n1:inflatedId="@id/o8h" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginEnd="12.0dp" n19:bwk="owf" n19:bwq="owf" n19:bx9="owf" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/jhn" n1:inflatedId="@id/jhm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n20:bx9="owf" n20:bxc="owf" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/ji6" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginEnd="8.0dp" n1:elevation="-2.0dp" n21:bwk="@id/ean" n21:bwq="owf" n21:bx9="@id/ean" n21:bxc="@id/ean" xmlns:n21="http://schemas.android.com/apk/res-auto" />
+</com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.ui.IMSkeletonConstraintLayout>

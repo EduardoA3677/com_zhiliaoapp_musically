@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:splitMotionEvents="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="center_horizontal" n1:id="@id/rnl" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:overScrollMode="never" n1:splitMotionEvents="false" />
+    <X.0oCE n1:layout_gravity="center" n1:id="@id/os1" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center" n1:id="@id/s2x" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/ovb" n1:padding="@dimen/qi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/ovd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="p3" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/ovc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:text="@null" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

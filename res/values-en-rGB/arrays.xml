@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Online sound library</item>
+        <item>My Sound</item>
+    </string-array>
+    <string-array name="l">
+        <item>Clean</item>
+    </string-array>
+    <string-array name="q">
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trending</item>
+        <item>Latest</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Select from Gallery</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+        <item>English</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Russian</item>
+        <item>Indonesian</item>
+        <item>Malay</item>
+        <item>Portuguese</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Black/White</item>
+        <item>Arts</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturated</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Data-saving first</item>
+        <item>High-resolution first</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Everyone</item>
+        <item>Friends only</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

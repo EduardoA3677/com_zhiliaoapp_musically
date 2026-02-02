@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="start|bottom" n1:orientation="horizontal" n1:paddingBottom="@dimen/qz" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/b6v" android:clipChildren="false" android:layout_width="@dimen/zq" android:layout_height="@dimen/zq" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <X.0Cru android:id="@id/b80" android:layout_width="@dimen/zq" android:layout_height="@dimen/zq" />
+        <com.bytedance.tux.icon.TuxIconView android:layout_gravity="end|bottom" android:id="@id/b6l" android:visibility="gone" android:layout_width="@dimen/zp" android:layout_height="@dimen/zp" android:layout_marginBottom="-2.0dp" android:importantForAccessibility="no" android:layout_marginEnd="-2.0dp" />
+    </FrameLayout>
+    <include layout="@layout/cpm" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=" · " n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_gravity="start" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=" · " n5:fj2="p5" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=" · " n7:fj2="p5" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n8:fj2="p5" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d3Z n1:id="@id/wfm" n1:background="@drawable/eut" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:scaleType="centerInside" />
+    <X.12nN n1:textColor="?fem" n1:id="@id/wfq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" style="@style/a79" />
+</LinearLayout>

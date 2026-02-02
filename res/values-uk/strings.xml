@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Увімкнути</string>
+    <string name="en0">Додаток %1$s не працюватиме, якщо не ввімкнути сервіси Google Play.</string>
+    <string name="en1">Увімкнути сервіси Google Play</string>
+    <string name="en2">Установити</string>
+    <string name="en3">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому пристрої.</string>
+    <string name="en4">Установити сервіси Google Play</string>
+    <string name="en5">Доступність сервісів Google Play</string>
+    <string name="en6">Помилка сервісів Google Play</string>
+    <string name="en7">У додатку %1$s виникла проблема із сервісами Google Play. Повторіть спробу.</string>
+    <string name="en8">Додаток %1$s не працюватиме без сервісів Google Play, які не підтримуються на вашому пристрої.</string>
+    <string name="en9">Оновити</string>
+    <string name="en_">Додаток %1$s не працюватиме, якщо не оновити сервіси Google Play.</string>
+    <string name="ena">Оновіть сервіси Google Play</string>
+    <string name="enb">Додаток %1$s не працюватиме без сервісів Google Play, які зараз оновлюються.</string>
+    <string name="enc">Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться.</string>
+    <string name="jwo">Камера</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

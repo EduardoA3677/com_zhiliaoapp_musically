@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:ellipsize="end" n1:gravity="center" n1:id="@id/l5q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginHorizontal="32.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/pm" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0d3Z n1:id="@id/iwa" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="16.0dp" n1:src="@drawable/eoo" n1:scaleType="center" n1:layout_marginStart="32.0dp" n3:bx9="owf" n3:bxb="@id/l5q" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:id="@id/l5r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="32.0dp" n4:bwg="true" n4:bwq="owf" n4:bwz="0.0" n4:bx8="@id/iwa" n4:bxc="@id/iwa" style="@style/pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0d3Z n1:id="@id/iwb" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="16.0dp" n1:src="@drawable/eoo" n1:scaleType="center" n1:layout_marginStart="32.0dp" n5:bx0="ori" n5:bx9="owf" n5:bxb="@id/l5r" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:id="@id/l5s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="32.0dp" n6:bwg="true" n6:bwq="owf" n6:bwz="0.0" n6:bx8="@id/iwb" n6:bxc="@id/iwb" style="@style/pu" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:id="@id/l5p" n1:layout_width="311.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginBottom="32.0dp" n1:text="@null" n7:bwk="owf" n7:bwq="owf" n7:bx9="owf" n7:bxb="@id/l5s" style="@style/a5e" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

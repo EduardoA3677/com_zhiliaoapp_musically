@@ -1,0 +1,33 @@
+.class public final Lcom/bytedance/android/livesdk/chatroom/model/PlaylistReminderInfo;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public hasCreated:Z
+    .annotation runtime LX/0B9U;
+        value = "has_created"
+    .end annotation
+.end field
+
+.field public reminderCount:I
+    .annotation runtime LX/0B9U;
+        value = "reminder_count"
+    .end annotation
+.end field
+
+.field public type:I
+    .annotation runtime LX/0B9U;
+        value = "type"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

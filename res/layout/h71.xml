@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d3Z n1:id="@id/ai3" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/f8l" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|top" n1:id="@id/ai2" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:scaleType="center" n1:layout_marginEnd="@dimen/qi" n2:br4="@raw/icon_x_mark" n2:fb9="?ei6" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/f8n" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+            <X.12nN n1:textColor="?ehx" n1:gravity="start" n1:id="@id/f8f" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="@dimen/qo" n3:bp3="btv" n3:bx9="owf" n3:bxc="owf" style="@style/a6j" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.12nN n1:textSize="12.0sp" n1:textColor="?ei6" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/f94" n1:background="@drawable/f1m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="@dimen/qo" n4:bwl="@id/shx" n4:bx9="owf" n4:bxb="@id/f8f" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <X.0d4p n1:id="@id/shx" n1:background="@drawable/f1p" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/qf" n1:layout_marginRight="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/f94" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="113.0dp">
+            <X.12pz n1:textAppearance="@style/pu" n1:textSize="15.0sp" n1:gravity="center" n1:id="@id/ahs" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="@dimen/qo" n1:text="@null" n1:layout_centerHorizontal="true" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n6:bg_="@style/ht" n6:evp="@dimen/r5" style="@style/a59" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/c2u" n1:background="@drawable/dxs" n1:layout_width="match_parent" n1:layout_height="440.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/se9" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/se8" n1:layout_width="50.0dp" n1:layout_height="match_parent" n2:bx9="owf">
+            <androidx.appcompat.widget.AppCompatImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="14.0dp" n1:layout_marginStart="16.0dp" n2:f49="@drawable/eyo" />
+        </FrameLayout>
+        <X.12nN n1:textSize="17.0sp" n1:textColor="@color/a7z" n1:gravity="center" n1:id="@id/se7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bp3="btv" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <FrameLayout n1:id="@id/c8g" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n2:bwr="@id/cal">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginEnd="16.0dp" n2:br4="?dvi" n2:brl="?ehx" />
+        </FrameLayout>
+        <FrameLayout n1:id="@id/cal" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n2:bwq="owf">
+            <X.0d3Z n1:layout_gravity="center_vertical" n1:id="@id/gye" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginRight="16.0dp" n1:src="@drawable/ero" n1:layout_marginEnd="16.0dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxb="@id/se9" layout="@layout/g6c" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

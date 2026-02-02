@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?zq" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="@dimen/az0">
+        <View n1:id="@id/mtn" n1:background="?yh" n1:layout_width="120.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="@dimen/qf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:background="?yh" n1:layout_width="227.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/mtn" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:importantForAccessibility="no" n1:layout_marginVertical="8.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_x_mark_small" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:background="?yh" n1:layout_width="138.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="24.0dp" />
+    <include n1:id="@id/k83" layout="@layout/b2z" />
+    <include n1:id="@id/k84" layout="@layout/b2z" />
+    <include n1:id="@id/k85" layout="@layout/b2z" />
+    <include n1:id="@id/k86" layout="@layout/b2z" />
+    <include n1:id="@id/k87" layout="@layout/b2z" />
+    <include n1:id="@id/k88" layout="@layout/b2z" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:background="?yh" n1:layout_width="120.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="10.0dp" />
+        <View n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        <View n1:background="?yh" n1:layout_width="120.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="10.0dp" n1:paddingEnd="0.0dp" />
+    </LinearLayout>
+    <View n1:background="?yh" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginTop="8.0dp" />
+</LinearLayout>

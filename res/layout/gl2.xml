@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sfr" n1:background="@drawable/dxm" n1:layout_width="match_parent" n1:layout_height="440.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/l6i" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <FrameLayout n1:layout_gravity="start" n1:id="@id/l6k" n1:layout_width="52.0dp" n1:layout_height="match_parent" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="@color/a7z" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="0.0dp" n1:layout_height="52.0dp" n1:text="@null" n1:maxLines="1" n1:autoSizeTextType="uniform" n1:autoSizeMinTextSize="13.0sp" n1:autoSizeMaxTextSize="17.0sp" n3:bp3="btv" n3:bwk="owf" n3:bwr="@id/l6j" n3:bx8="@id/l6k" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_gravity="end" n1:id="@id/l6j" n1:layout_width="52.0dp" n1:layout_height="match_parent" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <X.0d3Z n1:layout_gravity="end" n1:layout_width="11.0dp" n1:layout_height="11.0dp" n1:layout_marginTop="20.5dp" n1:src="@drawable/eqo" n1:layout_marginEnd="22.5dp" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:background="@color/c8" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+        <FrameLayout n1:id="@id/l69" n1:background="@drawable/chd" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+            <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:focusable="true" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="50.0dp">
+                <X.12nN n1:textSize="20.0sp" n1:layout_gravity="center_vertical" n1:id="@id/l6b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <ImageView n1:layout_gravity="center_vertical" n1:id="@id/kip" n1:background="@drawable/eqv" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:scaleType="fitXY" />
+                <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="20.0sp" n1:textColor="@color/a7z" n1:textColorHint="@color/dn" n1:gravity="center_vertical" n1:id="@id/l6c" n1:background="@null" n1:focusable="true" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:hint="@null" n1:cursorVisible="true" n1:singleLine="true" n1:maxLength="13" n1:textCursorDrawable="@drawable/chf" n1:textDirection="locale" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" />
+            </LinearLayout>
+            <X.0d3Z n1:layout_gravity="end|center" n1:id="@id/l6d" n1:layout_width="18.329987dp" n1:layout_height="18.329987dp" n1:src="@drawable/ez2" n1:scaleType="centerCrop" n1:layout_marginEnd="13.829987dp" />
+        </FrameLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/l_o" n1:layout_width="match_parent" n1:layout_height="252.0dp" n1:animateLayoutChanges="true">
+            <FrameLayout n1:id="@id/l6t" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/l6o" n1:paddingTop="@dimen/qi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.0d3Z n1:layout_gravity="center" n1:id="@id/l6p" n1:layout_width="13.599976dp" n1:layout_height="12.0dp" n1:src="@drawable/ez3" />
+                    <X.12nN n1:textSize="13.0sp" n1:textColor="@color/cr" n1:layout_gravity="center_vertical" n1:id="@id/l6q" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="7.0dp" n1:lineHeight="17.0dp" n1:textFontWeight="400" />
+                </LinearLayout>
+                <X.12nN n1:textSize="13.0sp" n1:textColor="@color/do" n1:gravity="start" n1:layout_gravity="center_vertical" n1:id="@id/l6u" n1:paddingTop="@dimen/qi" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:textDirection="locale" n1:lineHeight="17.0dp" n1:textFontWeight="400" />
+            </FrameLayout>
+            <X.1681 n1:id="@id/l6h" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <X.12pz n1:id="@id/ce5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:text="@null" style="@style/a59" />
+</LinearLayout>

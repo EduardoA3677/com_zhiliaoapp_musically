@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/dxm" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="@color/g2" n1:layout_gravity="center_horizontal" n1:id="@id/xwo" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerInParent="true" style="@style/a6q" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end" n1:id="@id/f8v" n1:padding="14.0dp" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_alignParentEnd="true" n2:br4="?e_u" n2:brl="?dm" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <View n1:background="@color/de" n1:layout_width="match_parent" n1:layout_height="@dimen/qu" n1:layout_marginTop="3.0dp" n1:layout_marginBottom="3.0dp" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/eya" n1:layout_width="match_parent" n1:layout_height="100.0dp" n1:layout_weight="1.0" />
+    <X.12nN n1:textColor="@color/a7h" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/xwt" n1:background="@drawable/ebb" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" style="@style/a74" />
+</LinearLayout>

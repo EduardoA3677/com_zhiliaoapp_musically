@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AME_editEffect_inspector_aberration">خرابی</string>
+    <string name="AME_editEffect_inspector_angle">زاویہ</string>
+    <string name="AME_editEffect_inspector_bending">جھکنا</string>
+    <string name="AME_editEffect_inspector_bling">‏Bling</string>
+    <string name="AME_editEffect_inspector_blur">دھندلا</string>
+    <string name="AME_editEffect_inspector_border">بارڈر</string>
+    <string name="AME_editEffect_inspector_brightness">چمک</string>
+    <string name="AME_editEffect_inspector_color">رنگ</string>
+    <string name="AME_editEffect_inspector_coolness">ٹھنڈک</string>
+    <string name="AME_editEffect_inspector_crease">کریز</string>
+    <string name="AME_editEffect_inspector_definition">وضاحت</string>
+    <string name="AME_editEffect_inspector_deformation">بد صورتی</string>
+    <string name="AME_editEffect_inspector_degree">ڈگری</string>
+    <string name="AME_editEffect_inspector_diameter">قطر</string>
+    <string name="AME_editEffect_inspector_direction">سمت</string>
+    <string name="AME_editEffect_inspector_displacement1">فاصلہ 1</string>
+    <string name="AME_editEffect_inspector_displacement2">فاصلہ 2</string>
+    <string name="AME_editEffect_inspector_frequency">فریکوئنسی</string>
+    <string name="AME_editEffect_inspector_glare">چکاچوند</string>
+    <string name="AME_editEffect_inspector_grain">اناج</string>
+    <string name="AME_editEffect_inspector_haze">دھند</string>
+    <string name="AME_editEffect_inspector_height">قد</string>
+    <string name="AME_editEffect_inspector_horizontal">افقی</string>
+    <string name="AME_editEffect_inspector_intensity">شدت</string>
+    <string name="AME_editEffect_inspector_leftright">افقی</string>
+    <string name="AME_editEffect_inspector_leftsize">بایاں سائز</string>
+    <string name="AME_editEffect_inspector_lowQuality">کم تر معیار</string>
+    <string name="AME_editEffect_inspector_luminous">چمک</string>
+    <string name="AME_editEffect_inspector_material1">ساخت</string>
+    <string name="AME_editEffect_inspector_noise">شور</string>
+    <string name="AME_editEffect_inspector_offset">آف سیٹ</string>
+    <string name="AME_editEffect_inspector_offset1">آف سیٹ 1</string>
+    <string name="AME_editEffect_inspector_offset2">آف سیٹ 2</string>
+    <string name="AME_editEffect_inspector_opacity">دھندلا پن</string>
+    <string name="AME_editEffect_inspector_pattern">نمونہ</string>
+    <string name="AME_editEffect_inspector_position">پوزیشن</string>
+    <string name="AME_editEffect_inspector_position1">پوزیشن 1</string>
+    <string name="AME_editEffect_inspector_position2">پوزیشن 2</string>
+    <string name="AME_editEffect_inspector_quantity">مقدار</string>
+    <string name="AME_editEffect_inspector_radius">نصف قطر</string>
+    <string name="AME_editEffect_inspector_rate">رفتار</string>
+    <string name="AME_editEffect_inspector_ratio">تناسب</string>
+    <string name="AME_editEffect_inspector_ridges">چوٹیاں</string>
+    <string name="AME_editEffect_inspector_rightsize">دایاں سائز</string>
+    <string name="AME_editEffect_inspector_ripple">لہر</string>
+    <string name="AME_editEffect_inspector_rotation">گردش</string>
+    <string name="AME_editEffect_inspector_rotation1">‏Y-محور گردش</string>
+    <string name="AME_editEffect_inspector_rotation2">‏X-محور گردش</string>
+    <string name="AME_editEffect_inspector_rotationspeed">گردش</string>
+    <string name="AME_editEffect_inspector_roughness">اناج</string>
+    <string name="AME_editEffect_inspector_saturation">سیچوریشن</string>
+    <string name="AME_editEffect_inspector_scope">زوم</string>
+    <string name="AME_editEffect_inspector_scratch">اسکریچ</string>
+    <string name="AME_editEffect_inspector_screenratio">تناسب</string>
+    <string name="AME_editEffect_inspector_sharpness">واضح پن</string>
+    <string name="AME_editEffect_inspector_size">سائز</string>
+    <string name="AME_editEffect_inspector_size1">زوم 1</string>
+    <string name="AME_editEffect_inspector_size2">زوم 2</string>
+    <string name="AME_editEffect_inspector_size3">زوم 3</string>
+    <string name="AME_editEffect_inspector_speed">رفتار</string>
+    <string name="AME_editEffect_inspector_stroke">چوڑائی</string>
+    <string name="AME_editEffect_inspector_tempo">ٹیمپو</string>
+    <string name="AME_editEffect_inspector_texture">ساخت</string>
+    <string name="AME_editEffect_inspector_updown">عمودی</string>
+    <string name="AME_editEffect_inspector_vertical">عمودی</string>
+    <string name="AME_editEffect_inspector_vibe">آؤٹ لائن</string>
+    <string name="AME_editEffect_inspector_vignette">مختصر خاکہ</string>
+    <string name="AME_editEffect_inspector_vortex">گردش</string>
+    <string name="AME_editEffect_inspector_width">چوڑائی</string>
+    <string name="AME_editEffect_inspector_xAxis">‏X-محور گردش</string>
+    <string name="AME_editEffect_inspector_xaxis">‏X ایکسز</string>
+    <string name="AME_editEffect_inspector_xoffset">‏X-آف سیٹ</string>
+    <string name="AME_editEffect_inspector_yAxis">‏Y-محور گردش</string>
+    <string name="AME_editEffect_inspector_yaxis">‏Y ایکسز</string>
+    <string name="AME_editEffect_inspector_yoffset">‏Y-آف سیٹ</string>
+    <string name="AME_editEffect_inspector_zoom1">زوم 1</string>
+    <string name="AME_editEffect_inspector_zoom2">زوم 2</string>
+    <string name="AME_editEffect_inspector_zoom3">زوم 3</string>
+    <string name="AME_makeup_color">رنگ</string>
+    <string name="AME_makeup_finish">ساخت</string>
+    <string name="AME_makeup_selectProperty_toast">پہلے موجود پراپرٹی منتخب کریں</string>
+    <string name="AME_makeup_style">اسٹائل</string>
+    <string name="AME_makeup_switchProperty_tooltip">پراپرٹیز سوئچ کرنے کے لیے ٹیپ کریں</string>
+    <string name="bu_">گیلری سے منتخب کریں</string>
+    <string name="bua">تصویر لیں</string>
+    <string name="bz3">مزید جانیں</string>
+    <string name="c_l">دوست تلاش کریں</string>
+    <string name="c_z">پسندیدگان میں شامل کریں</string>
+    <string name="ca8">پسندیدگان میں شامل ہو گیا</string>
+    <string name="cd3">متفق ہوں</string>
+    <string name="cs6">البم</string>
+    <string name="cu0">ہر کوئی</string>
+    <string name="cvc">ڈاؤن لوڈ کیا جا رہا ہے...</string>
+    <string name="cys">TikTok</string>
+    <string name="cyu">‏TikTok</string>
+    <string name="d1k">مینشن کرنے کے لیے اکاؤنٹ تلاش کریں</string>
+    <string name="d5y">ترجمہ کیا جا رہا ہے...</string>
+    <string name="d6z">شکل</string>
+    <string name="d77">مسترد کریں</string>
+    <string name="d7a">شامل کردہ آواز</string>
+    <string name="dcu">واپس جائیں</string>
+    <string name="dez">خوبصورتی</string>
+    <string name="dgk">فون نمبر شامل کریں</string>
+    <string name="dm8">مسدود کریں</string>
+    <string name="dpx">جاری رکھیں</string>
+    <string name="dq0">کھولیں</string>
+    <string name="dzv">کاپی رائٹ ضوابط کی وجہ سے ویڈیو اس آواز کے ساتھ محفوظ نہیں کی جا سکتی۔</string>
+    <string name="dzy">منسوخ کریں</string>
+    <string name="e0b">پسندیدگان سے ہٹا دیا گیا</string>
+    <string name="e2r">‏%1$s ویوز</string>
+    <string name="e46">منتخب کردہ</string>
+    <string name="e47">تصویر دیکھیں</string>
+    <string name="e7j">انٹرنیٹ سے مربوط ہوں اور دوبارہ آزمائیں۔</string>
+    <string name="e8i">ملک/خطہ منتخب کریں</string>
+    <string name="ecs">گاڑیاں</string>
+    <string name="efk">ہیش ٹیگز</string>
+    <string name="eh_">تبصرہ</string>
+    <string name="eji">تبصرہ شامل نہیں کیا جا سکا</string>
+    <string name="emz">فعال کریں</string>
+    <string name="en0">‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، %1$s کام نہیں کرے گی۔</string>
+    <string name="en1">‏Google Play سروسز فعال کریں</string>
+    <string name="en2">انسٹال کریں</string>
+    <string name="en3">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جو آپ کے آلہ سے غائب ہیں۔</string>
+    <string name="en4">‏Google Play سروسز حاصل کریں</string>
+    <string name="en5">‏Google Play سروسز کی دستیابی</string>
+    <string name="en6">‏Google Play سروسز کی خرابی</string>
+    <string name="en7">‏%1$s کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="en8">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جن کی آپ کا آلہ معاونت نہیں کرتا۔</string>
+    <string name="en9">اپ ڈیٹ کریں</string>
+    <string name="en_">‏جب تک آپ Google Play سروسز اپ ڈیٹ نہیں کر لیتے ہیں %1$s تب تک نہیں چلے گی۔</string>
+    <string name="ena">‏Google Play سروسز اپ ڈیٹ کریں</string>
+    <string name="enb">‏%1$s Google Play سروسز کے بغیر نہیں چلے گی، جو فی الحال اپ ڈیٹ ہو رہی ہیں۔</string>
+    <string name="enc">‏Google Play سروسز کے نئے ورژن کی ضرورت ہے۔ یہ تھوڑی دیر میں خود ہی اپنے آپ کو اپ ڈیٹ کر لے گا۔</string>
+    <string name="eq1">کمیونٹی کے رہنما اصول</string>
+    <string name="eqj">تصدیق کریں</string>
+    <string name="eqk">ترتیبات کھولیں</string>
+    <string name="etu">نقل کردہ</string>
+    <string name="etw">لنک کاپی ہو گیا</string>
+    <string name="eu4">ریکارڈنگ شروع کریں</string>
+    <string name="creation_autocut_entry_point">‏AutoCut</string>
+    <string name="ffh">ویڈیو ریکارڈ کریں</string>
+    <string name="ffi">ویڈیوز دیکھیں</string>
+    <string name="fgl">چیک جمہوریہ</string>
+    <string name="fi4">حذف کریں</string>
+    <string name="fix">آخری کلپ برطرف کریں؟</string>
+    <string name="fkw">لائک کریں</string>
+    <string name="fkz">محدود کردہ موڈ</string>
+    <string name="dm_fortuneCookie_001">آپ کا نیا سال مٹھائی سے بھی شیریں تر ہو!</string>
+    <string name="dm_fortuneCookie_002">ہنسی اور بھرپور خوشیوں کے سال کا خیر مقدم ہے!</string>
+    <string name="dm_fortuneCookie_003">شعلے کی مانند چمکنے کے لیے تیار ہو جائیں!</string>
+    <string name="dm_fortuneCookie_004">شاندار مہمات سے بھرپور سال کو خوش آمدید!</string>
+    <string name="dm_fortuneCookie_005">آپ کے عزائم آپ کے اسنیکس کی مانند دلکش ہوں!</string>
+    <string name="dm_fortuneCookie_006">دلکش حیرت انگیز لمحات سے بھرپور سال کے لیے تیار ہوں!</string>
+    <string name="dm_fortuneCookie_007">نئے سال میں مثبت توانائیوں کو فروغ دیں!</string>
+    <string name="dm_fortuneCookie_008">آپ کا یہ سال قہقہوں سے بھرپور ہو!</string>
+    <string name="dm_fortuneCookie_009">نئے شینیگنز کا وقت!</string>
+    <string name="dm_fortuneCookie_010">جوش و خروش سے بھرپور لمحات جئیں!</string>
+    <string name="dm_fortuneCookie_011">آپ کو ایک پُرلطف سال کی مبارکباد!</string>
+    <string name="dm_fortuneCookie_012">خوشیاں آپ کا انتظار کر رہی ہیں!</string>
+    <string name="dm_fortuneCookie_013">مثبت توانائی کو فروغ دیں!</string>
+    <string name="dm_fortuneCookie_014">آپ کا یہ سال روشن ہو!</string>
+    <string name="dm_fortuneCookie_015">شیریں یادوں کا وقت!</string>
+    <string name="dm_fortuneCookie_016">خوشیاں آپ کے ہمراہ ہوں!</string>
+    <string name="dm_fortuneCookie_017">اس سال کو یادگار بنائیں!</string>
+    <string name="dm_fortuneCookie_018">دعا ہے کہ آپ کا لطف دوبالا ہو!</string>
+    <string name="dm_fortuneCookie_019">آپ کا دل شاد ہو!</string>
+    <string name="dm_fortuneCookie_020">بڑے خواب دیکھیں اور دل کھول کر ہنسیں!</string>
+    <string name="dm_fortuneCookie_021">ایک شاندار سال کی مبارکباد!</string>
+    <string name="dm_fortuneCookie_022">روشنی سے بھرپور چمکنے کے لیے تیار ہو جائیں!</string>
+    <string name="dm_fortuneCookie_023">آپ کو سب خوشیاں مبارک!</string>
+    <string name="dm_fortuneCookie_024">پورے جوبن سے زندگی گزاریں!</string>
+    <string name="dm_fortuneCookie_025">آپ کا سال پیسٹری کی طرح میٹھا ہو!</string>
+    <string name="dm_fortuneCookie_026">آپ کی قسمت چمک رہی ہے—کپ تھام لیں اور سفر سے لطف اندوز ہوں!</string>
+    <string name="dm_fortuneCookie_027">خوشیوں سے لبریز وقت گزاریں!</string>
+    <string name="dm_fortuneCookie_028">آپ کے لامتناہی قہقہوں کے لیے نیک خواہشات!</string>
+    <string name="dm_fortuneCookie_029">اس سال، آئیں یادیں تشکیل دیتے ہیں!</string>
+    <string name="dm_fortuneCookie_030">آپ کو ہر روز خوشی ملے!</string>
+    <string name="dm_fortuneCookie_031">یہاں مہمات کا جنون شروع ہو رہا ہے!</string>
+    <string name="dm_fortuneCookie_032">چمکنے کے لیے تیار ہو جائیں!</string>
+    <string name="dm_fortuneCookie_033">تفریح اور قہقہوں کا آغاز!</string>
+    <string name="dm_fortuneCookie_034">ہر لمحے کو ناقابل فراموش بنائیں!</string>
+    <string name="dm_fortuneCookie_035">آپ کی سج دھج اور مسکراہٹوں کے لیے نیک خواہشات!</string>
+    <string name="dm_fortuneCookie_036">آئیں اس سال کو یادگار بنائیں!</string>
+    <string name="dm_fortuneCookie_037">آپ کو خوشیوں کے ایک حصے کی مبارکباد!</string>
+    <string name="dm_fortuneCookie_038">آپ کو پُرتفریح اور حیرت انگیز وقت مبارک ہو!</string>
+    <string name="dm_fortuneCookie_039">مزے سے بھرپور اگلے سال کا آغاز ہونے جا رہا ہے!</string>
+    <string name="dm_fortuneCookie_040">نیا سال، نئی مہمات منتظر ہیں!</string>
+    <string name="dm_fortuneCookie_041">آپ کے افق پر خوشیوں اور کامیابی کا بسیرا ہو۔</string>
+    <string name="dm_fortuneCookie_042">مہم جوئی منتظر ہے—چلیں اس کا لطف لیں!</string>
+    <string name="dm_fortuneCookie_043">آپ جیسے ستارے کی مانند چمکنے کا وقت ہے!</string>
+    <string name="dm_fortuneCookie_044">آپ کو شیریں تعجبات کے سال کی مبارک ہو!</string>
+    <string name="dm_fortuneCookie_045">آپ کی خوشی آپ کے اسنیک کی سپلائی کی طرح لامتناہی ہو!</string>
+    <string name="dm_fortuneCookie_046">چمکنے اور خوشیاں بانٹنے کو ہو جائیں تیار!</string>
+    <string name="dm_fortuneCookie_047">ایک ایسے سال کا آغاز جہاں کا ہر دن چھٹی کی طرح حسین معلوم ہو!</string>
+    <string name="dm_fortuneCookie_048">اس روشنی کی مانند چمکنے کا وقت جو آپ ہی کا خاصہ ہے!</string>
+    <string name="dm_fortuneCookie_049">آپ کے خواب خوش اسلوبی سے پورے ہوں!</string>
+    <string name="dm_fortuneCookie_050">یہاں مزیدار لمحات آپ کے منتظر ہیں!</string>
+    <string name="dm_fortuneCookie_110">اپنے ہر دن کو ہنسی اور روشنی سے بھرپور بنائیں۔</string>
+    <string name="dm_fortuneCookie_111">اس سال آپ پر لطف اور محبتوں کی برسات ہو۔</string>
+    <string name="dm_fortuneCookie_112">خوشیاں اور مہم جوئی آپ کی منتظر ہیں!</string>
+    <string name="dm_fortuneCookie_113">چمکتے لمحات سے بھرپور سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_114">ہر دن مسکرانے کی ایک نئی وجہ بنے۔</string>
+    <string name="dm_fortuneCookie_115">موجودہ لمحے کی خوشی کا خیر مقدم کریں۔</string>
+    <string name="dm_fortuneCookie_116">آپ کو روشن خوشی کا سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_117">نئے سال کی مہم کو منکشف کریں!</string>
+    <string name="dm_fortuneCookie_118">آپ کے دن شہد کی طرح میٹھے ہوں۔</string>
+    <string name="dm_fortuneCookie_119">ہر چھوٹی سے چھوٹی کامیابی کا جشن منائیں!</string>
+    <string name="dm_fortuneCookie_120">آپ کو سحر انگیز لمحات سے بھرپور سال کی مبارک ہو!</string>
+    <string name="dm_fortuneCookie_121">آپ کی خوشی ہیرے کی مانند جگمگاتی رہے!</string>
+    <string name="dm_fortuneCookie_122">مسکراہٹ آپ کی مستقل ساتھی ہو۔</string>
+    <string name="dm_fortuneCookie_123">لامحدود امکانات سے بھرپور سال کے لیے مبارک ہو!</string>
+    <string name="dm_fortuneCookie_124">نئی شروعات کی جادوئی دنیا کو اپنائیں!</string>
+    <string name="dm_fortuneCookie_125">آپ کو قہقہے اور خوشی سے منور سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_126">آئیں اس سال کو خوشیوں کی شاندار داستان بنائیں!</string>
+    <string name="dm_fortuneCookie_127">آپ کے خواب حسین اور روشن ہوں۔</string>
+    <string name="dm_fortuneCookie_128">چاکلیٹ کی طرح میٹھے سال کا آغاز ہو رہا ہے!</string>
+    <string name="dm_fortuneCookie_129">آپ کو پرخلوص خوشی اور برکت کے لمحات مبارک ہوں!</string>
+    <string name="dm_fortuneCookie_130">آپ کے دن قہقہے اور پیار سے بھرپور ہوں!</string>
+    <string name="dm_fortuneCookie_131">پرمسرت دریافت کاریوں سے مزین سفر مبارک ہو!</string>
+    <string name="dm_fortuneCookie_132">خوشی آپ کے راستے کی رہبری کرے۔</string>
+    <string name="dm_fortuneCookie_133">آپ کے لیے یہ سال بھرپور تفریح سے بھرپور ہو!</string>
+    <string name="dm_fortuneCookie_134">ہر نئے دن کی خوشی منائیں!</string>
+    <string name="dm_fortuneCookie_135">آپ کا سال خوشیوں سے بھرا ہوا ایک زبردست سفر ہو!</string>
+    <string name="dm_fortuneCookie_136">مسکراہٹوں اور حیران کن لمحات سے بھرپور سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_137">آپ کو بے پناہ خوشیاں اور پر سکون دنوں کی مبارک ہو!</string>
+    <string name="dm_fortuneCookie_138">آئیں اس سال کو خوشگوار یادوں کا سال بنائیں!</string>
+    <string name="dm_fortuneCookie_139">آپ کا سال روشن لمحات سے لبریز ہو۔</string>
+    <string name="dm_fortuneCookie_140">خوشیوں بھری تقریبات سے بھرا ایک سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_141">آپ کے لیے ایک سال کی مبارک جو کسی روشن دن کی مانند ہو!</string>
+    <string name="dm_fortuneCookie_142">مہم جوئی کو اختیار کریں اور خوشی پائیں!</string>
+    <string name="dm_fortuneCookie_143">آپ کا ہر دن خوشی کی کہانی کا ایک صفحہ ہو۔</string>
+    <string name="dm_fortuneCookie_144">تسکین آمیز لمحات اور خوشیوں سے بھرپور سال ہو!</string>
+    <string name="dm_fortuneCookie_145">آپ کو خوشی اور روشنی سے منور سال مبارک ہو۔</string>
+    <string name="dm_fortuneCookie_146">خوشی کو اس سال آپ کی رہنمائی کا ذریعہ بننے دیں۔</string>
+    <string name="dm_fortuneCookie_147">آپ کا سال مہمات سے بھرپور ہو!</string>
+    <string name="dm_fortuneCookie_148">ہر نئی صبح کو خوشی سے منائیں!</string>
+    <string name="dm_fortuneCookie_149">آپ کو حیرت انگیز لمحات سے بھرپور سال کی مبارک ہو!</string>
+    <string name="dm_fortuneCookie_150">خوشی کے ساتھ اپنی جذبے کو پروان چڑھائیں!</string>
+    <string name="dm_fortuneCookie_151">تابندہ مسکراہٹوں سے لبریز سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_152">آپ کے دن خوشگوار لمحات سے بھر پور ہوں!</string>
+    <string name="dm_fortuneCookie_153">ہر نئے دن کی خوشی کو اپنائیں۔</string>
+    <string name="dm_fortuneCookie_154">آپ کو ہنسی اور خوشی کا ایک سلسلہ مبارک ہو!</string>
+    <string name="dm_fortuneCookie_155">آپ کا سال ایک خوشگوار گیت کی مانند ہو!</string>
+    <string name="dm_fortuneCookie_156">زندگی کی خوشی آپ کے دل میں آباد رہے۔</string>
+    <string name="dm_fortuneCookie_157">خوشگوار حیرتوں سے بھرپور سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_158">خوشی کے سنہرے لمحات آپ کو مبارک ہوں!</string>
+    <string name="dm_fortuneCookie_159">آئیں اس سال کو ایک خوشگوار سفر بنائیں!</string>
+    <string name="dm_fortuneCookie_160">آپ کا یہ سال قہقے اور پیار سے بھرپور ہو!</string>
+    <string name="dm_fortuneCookie_161">زندگی کی خوشی کا ہر دن جشن منائیں!</string>
+    <string name="dm_fortuneCookie_162">آپ کو خوشگوار مہمات کا سال مبارک ہو!</string>
+    <string name="dm_fortuneCookie_163">آپ کے دن خوشیوں سے بھرپور ہوں!</string>
+    <string name="dm_fortuneCookie_164">یہ روشن اور خوش یادوں کا ایک سال ہے!</string>
+    <string name="dm_fortuneCookie_165">آپ کا دل خوشی کا رواں چشمہ ہو!</string>
+    <string name="dm_fortuneCookie_166">خوشیوں سے بھرپور لمحات کا تسلسل مبارک ہو!</string>
+    <string name="dm_fortuneCookie_167">آپ کا سال بے انتہا خوشیوں سے بھر پور رہے!</string>
+    <string name="dm_fortuneCookie_168">آپ کو اس نئے سال میں غیر متوقع خوشیاں ملیں گی۔</string>
+    <string name="dm_fortuneCookie_169">اس سال کو شاندار مواقع سے بھرپور سال ہونا چاہیے۔</string>
+    <string name="dm_fortuneCookie_170">آپ کی کاوشیں بہت سی خوشیوں کا باعث بنیں گی۔</string>
+    <string name="dm_fortuneCookie_171">اس سال حیران کن لمحات آپ کے لیے پرمسرت ہوں گے۔</string>
+    <string name="dm_fortuneCookie_172">آپ کو غیر متوقع طور پر خوشی ملے گی۔</string>
+    <string name="dm_fortuneCookie_173">خوشگوار لمحات آپ کے منتظر ہیں۔</string>
+    <string name="dm_fortuneCookie_174">دلکش حیران کن لمحات کے لیے تیار ہو جائیں۔</string>
+    <string name="dm_fortuneCookie_175">غیر متوقع خوشی آپ کی منتظر ہے۔</string>
+    <string name="dm_fortuneCookie_176">اچانک خوشیوں بھرے واقعات سے لطف اٹھائیں۔</string>
+    <string name="dm_fortuneCookie_177">آپ کے لیے غیر متوقع طور پر خوشی کی آمد ہو گی۔</string>
+    <string name="dm_fortuneCookie_178">خوشگوار حیران کن لمحات کی توقع رکھیں۔</string>
+    <string name="dm_fortuneCookie_179">حیرت انگیز برکتیں آ رہی ہیں۔</string>
+    <string name="dm_fortuneCookie_180">یہ سال خوش کن لمحات سے بھرپور ہے۔</string>
+    <string name="dm_fortuneCookie_181">نئے مواقع آپ کو پرجوش کریں گے۔</string>
+    <string name="dm_fortuneCookie_182">پرجوش مواقع اس سال آپ کے منتظر ہیں۔</string>
+    <string name="dm_fortuneCookie_183">اس نئے سال میں مواقع کثرت سے دستک دیں گے۔</string>
+    <string name="dm_fortuneCookie_184">آپ کے مستقبل میں دلچسپ مواقع موجود ہیں۔</string>
+    <string name="dm_fortuneCookie_185">دلچسپ نئے مواقع سے فائدہ اٹھائیں۔</string>
+    <string name="dm_fortuneCookie_186">دلچسپ نئے منصوبوں کی توقع کریں۔</string>
+    <string name="dm_fortuneCookie_187">موقع آپ کو تلاش کر لے گا۔</string>
+    <string name="dm_fortuneCookie_188">دلچسپ پروجیکٹس منتظر ہیں۔</string>
+    <string name="dm_fortuneCookie_189">اس سال کی شروعات نہایت شاندار ہو گی۔</string>
+    <string name="dm_fortuneCookie_190">دلچسپ تبدیلیوں کا سال منتظر ہے۔</string>
+    <string name="dm_fortuneCookie_191">آپ کی محنت کا پھل اس سال ملے گا!</string>
+    <string name="dm_fortuneCookie_actionBar_fortuneCookie">‏🥠 خوش قسمتی کی کوکی</string>
+    <string name="dm_fortuneCookie_actionBar_panel_body">خوش قسمتی کی ایک کوکی بھیجیں جس میں حیرت انگیز مبارکبادیں اور نیک خواہشات شامل ہوں۔ کون جانتا ہے کہ انہیں کیا ملے گا؟</string>
+    <string name="dm_fortuneCookie_actionBar_panel_header">خوش قسمتی کی کوکی بھیجیں!</string>
+    <string name="dm_fortuneCookie_inAppPush_receiver">آپ کو خوش قسمتی کی ایک کوکی بھیجی 🥠</string>
+    <string name="dm_fortuneCookie_inboxPreview_receiver">آپ کو ایک 🥠 بھیجی</string>
+    <string name="dm_fortuneCookie_inline_YouGot_receiver">آپ کو خوش قسمتی کی کوکی مل گئی! اس میں موجود چیز کو دیکھنے کے لیے ٹیپ کریں۔</string>
+    <string name="dm_fortuneCookie_inline_fortuneCookieSent_sender">خوش قسمتی کی کوکی بھیج دی گئی۔</string>
+    <string name="dm_fortuneCookie_inline_fortuneCookieSent_sender2">قسمت کی کوکی بھیج دی گئی اور کھولے جانے کی منتظر ہے۔</string>
+    <string name="dm_fortuneCookie_inline_nickOpenedCookie">‏%1$s نے خوش قسمتی کی کوکی کا آغاز کیا!</string>
+    <string name="dm_fortuneCookie_outAppPush_receiver">آپ کو خوش قسمتی کی ایک کوکی بھیجی 🥠</string>
+    <string name="dm_fortuneCookie_quote_text">‏[قسمت کی کوکی]</string>
+    <string name="dm_remix_NYEprompts_bye_2025">الوداع 2025 👋</string>
+    <string name="dm_remix_NYEprompts_champagne_pop">شیمپین پاپ 🍾</string>
+    <string name="dm_remix_NYEprompts_cheers_to_2026">2026 کو خوش آمدید 🥂</string>
+    <string name="dm_remix_NYEprompts_countdownChaos">الٹی گنتی کا رش ⏰</string>
+    <string name="dm_remix_NYEprompts_countdownKiss">الٹی گنتی کے بوسے 💋</string>
+    <string name="dm_remix_NYEprompts_fireworkFever">آتش بازی کا طوفان 💥</string>
+    <string name="dm_remix_NYEprompts_freshStart">نئی شروعات کا احساس ✨</string>
+    <string name="dm_remix_NYEprompts_glow_up_2026">2026 کا سال روشن ہو 🌟</string>
+    <string name="dm_remix_NYEprompts_happy_new_year">نیا سال مبارک ہو! 🎇</string>
+    <string name="dm_remix_NYEprompts_make_a_wish">خواہش بیان کریں 🌟</string>
+    <string name="dm_remix_NYEprompts_midnightConfetti">نصف شب میں رنگین بارش 🎊</string>
+    <string name="dm_remix_NYEprompts_newYearWoe">نئے سال کے تفکرات 😭</string>
+    <string name="dm_remix_NYEprompts_new_year_new_me">نیا سال، نیا میں</string>
+    <string name="dm_remix_NYEprompts_new_year_same_me">سال نیا، مگر میں وہی</string>
+    <string name="dm_remix_NYEprompts_nye">نئے سال کی خوشی 🎉</string>
+    <string name="dm_remix_NYEprompts_party_vibes">پارٹی کا جوش و خروش 🎉</string>
+    <string name="dm_remix_NYEprompts_resolutionTime">ریزولوشن کا وقت ✍️</string>
+    <string name="dm_remix_prompts_christmas_feast">کرسمس کی ضیافت 🍗</string>
+    <string name="dm_remix_prompts_christmas_magic">کرسمس میجک ✨</string>
+    <string name="dm_remix_prompts_elf_yourself">اپنے آپ کو ایلف بنائیں 🧝‍♂️</string>
+    <string name="dm_remix_prompts_evilXmas">شرارتی کرسمس 😈</string>
+    <string name="dm_remix_prompts_frosty_the_snowman">فراسٹی دی اسنومین ☃️</string>
+    <string name="dm_remix_prompts_happy_holidays">چھٹیاں مبارک 🎁</string>
+    <string name="dm_remix_prompts_ho_ho_ho">ہو ہو ہو 🎅</string>
+    <string name="dm_remix_prompts_jingleBell">جِنگل بیلز 🔔</string>
+    <string name="dm_remix_prompts_merry_christmas">میری کرسمس 🎄</string>
+    <string name="dm_remix_prompts_mistletoe_magic">Mistletoe میجک ✨</string>
+    <string name="dm_remix_prompts_naughty_or_nice">شرارتی یا شائستہ 😏</string>
+    <string name="dm_remix_prompts_restGrinch">خفگی مائل سست چہرہ 😈</string>
+    <string name="dm_remix_prompts_santaExplain">سانتا، میں وضاحت کر سکتا/سکتی ہوں…🎅🏻</string>
+    <string name="dm_remix_prompts_santa_claus">سانتا کلاز 🎅</string>
+    <string name="dm_remix_prompts_santas_reindeer">سانتا کا رین ڈیئر 🦌</string>
+    <string name="dm_remix_prompts_seasons_greetings">موسم کی نیک تمنائیں 💌</string>
+    <string name="dm_remix_prompts_snowman">اسنو مین ☃️</string>
+    <string name="dm_remix_prompts_white_christmas">وائٹ کرسمس ❄️</string>
+    <string name="dm_remix_prompts_winter_wonderland">موسم سرما کا ونڈر لینڈ ❄️</string>
+    <string name="dm_remix_prompts_wrapping_a_gift">ایک گفٹ پیک کرنا 🎁</string>
+    <string name="gkb">Doctor</string>
+    <string name="gkz">ہو گیا</string>
+    <string name="gl5">دوست</string>
+    <string name="gl8">ڈاؤن لوڈ کریں</string>
+    <string name="gld">ڈاؤن لوڈ نہیں کی جا سکی</string>
+    <string name="gnz">دورانیہ</string>
+    <string name="gol">تیمور لیسٹے</string>
+    <string name="h4z">تبدیل کریں</string>
+    <string name="h50">دیکھیں</string>
+    <string name="h5o">آواز کے عنوان میں ترمیم کریں</string>
+    <string name="h6a">پروفائل میں ترمیم کریں</string>
+    <string name="effect_tool_Angry">غصیلے</string>
+    <string name="effect_tool_AnimationPlayMode_Loop">دہرائیں</string>
+    <string name="effect_tool_AnimationPlayMode_Once">ایک مرتبہ</string>
+    <string name="effect_tool_Appear">ظاہر ہوتا ہے</string>
+    <string name="effect_tool_BarrageScrollHorizontal">بائیں طرف سلائیڈ</string>
+    <string name="effect_tool_BarrageScrollHorizontalReverse">دائیں سلائیڈ کریں</string>
+    <string name="effect_tool_BigV">‏V</string>
+    <string name="effect_tool_BounceIn">اندر باؤنس کریں</string>
+    <string name="effect_tool_BounceOut">باہر باؤنس کریں</string>
+    <string name="effect_tool_Cabbage">چٹکی بجاتی انگلیاں</string>
+    <string name="effect_tool_Dance">باؤنس</string>
+    <string name="effect_tool_DanceSlightly">ڈریبل</string>
+    <string name="effect_tool_Disappear">غائب ہوتا ہے</string>
+    <string name="effect_tool_FPS">مقررہ رفتار</string>
+    <string name="effect_tool_Fear">خوف زدہ</string>
+    <string name="effect_tool_Fist">مٹھی</string>
+    <string name="effect_tool_FistBow">مٹھی کی کمان</string>
+    <string name="effect_tool_Flicker">جھپکائیں</string>
+    <string name="effect_tool_Flip">سوایول</string>
+    <string name="effect_tool_FlipOverIn">اوپر فلپ کریں</string>
+    <string name="effect_tool_FlipOverOut">نیچے فلپ کریں</string>
+    <string name="effect_tool_Four">‏4-انگلیاں اوپر کی جانب اشارہ کر رہی ہیں</string>
+    <string name="effect_tool_HandOpen">کھلی ہتھیلی</string>
+    <string name="effect_tool_Happy">مسرت کن</string>
+    <string name="effect_tool_HeartA">ہاتھ سے بنا دل (پسند کریں)</string>
+    <string name="effect_tool_HeartB">ہاتھ سے بنا دل (نہ پسند کریں)</string>
+    <string name="effect_tool_HeartC">کھلی مٹھی سے بنا دل</string>
+    <string name="effect_tool_HeartD">انگلی والا دل</string>
+    <string name="effect_tool_Heartbeat">نبض</string>
+    <string name="effect_tool_HoldFace">کلائی کو چھوئیں</string>
+    <string name="effect_tool_HomA">‏\"مجھے آپ سے محبت ہے\"</string>
+    <string name="effect_tool_HomB">سینگ</string>
+    <string name="effect_tool_HornA">‏\"مجھے آپ سے محبت ہے\"</string>
+    <string name="effect_tool_HornB">سینگ</string>
+    <string name="effect_tool_InOrder">ایک بار لوپ</string>
+    <string name="effect_tool_IndexFingerUp">اٹھی ہوئی شہادت کی انگلی</string>
+    <string name="effect_tool_Loop">لوپ</string>
+    <string name="effect_tool_Namaste">‏“شکریہ”</string>
+    <string name="effect_tool_Nausea">بیزار کن</string>
+    <string name="effect_tool_NoAnimation">کوئی نہیں</string>
+    <string name="effect_tool_NoTriggerAction">کوئی نہیں</string>
+    <string name="effect_tool_Nod">سر ہلائیں</string>
+    <string name="effect_tool_OK">ٹھیک ہے</string>
+    <string name="effect_tool_ObjectEnd">آبجیکٹ غائب ہو جاتا ہے</string>
+    <string name="effect_tool_ObjectStart">آبجیکٹ ظاہر ہوتا ہے</string>
+    <string name="effect_tool_OnStart">اثر کا آغاز ہوتا ہے</string>
+    <string name="effect_tool_OpacityIn">فیڈ ان</string>
+    <string name="effect_tool_OpacityOut">فیڈ آؤٹ</string>
+    <string name="effect_tool_OpenMouth">منہ کھولیں</string>
+    <string name="effect_tool_PalmUp">ہتھیلی اوپر کریں</string>
+    <string name="effect_tool_Pendulum">ڈینجل</string>
+    <string name="effect_tool_PhoneCall">‏\"ہینگ لوز\"</string>
+    <string name="effect_tool_PokerFace">غیر جانبدار</string>
+    <string name="effect_tool_PoutMouth">سکیڑیں</string>
+    <string name="effect_tool_Pray">‏\"دعا\"</string>
+    <string name="effect_tool_RaiseEyebrows">بھنویں اٹھائیں</string>
+    <string name="effect_tool_Random">شفل کریں</string>
+    <string name="effect_tool_Rotate">اسپن</string>
+    <string name="effect_tool_Sad">اداس</string>
+    <string name="effect_tool_Salute">سلیوٹ</string>
+    <string name="effect_tool_Second">ٹائمر</string>
+    <string name="effect_tool_ShakeHead">سر کو زور سے ہلائیں</string>
+    <string name="effect_tool_ShootA">شہادت کی انگلی سے اشارہ کرنا (پسند کریں)</string>
+    <string name="effect_tool_ShootB">‏2-انگلیاں اشارہ کر رہی ہیں</string>
+    <string name="effect_tool_SlowlyZoomIn">زوم ان کریں</string>
+    <string name="effect_tool_SlowlyZoomOut">زوم آؤٹ کریں</string>
+    <string name="effect_tool_StartPlay">ٹرگر کا پتہ چل جانے پر ترتیب میں ظاہر ہوں</string>
+    <string name="effect_tool_StopPlay">محرک کا پتہ چلنے تک شفل کریں</string>
+    <string name="effect_tool_SubtitleScrollVertical">اوپر کی جانب سلائیڈ</string>
+    <string name="effect_tool_SubtitleScrollVerticalReverse">نیچے کی طرف سلائیڈ</string>
+    <string name="effect_tool_Surprise">حیران کن</string>
+    <string name="effect_tool_Swing">وینگل</string>
+    <string name="effect_tool_SwitchFeature">ہر مرتبہ ٹرگر کا پتہ چل جانے پر سوئچ کریں</string>
+    <string name="effect_tool_TapScreen">اسکرین پر ٹیپ کریں</string>
+    <string name="effect_tool_Thanks">کنگ فو سلیوٹ</string>
+    <string name="effect_tool_Three">تین</string>
+    <string name="effect_tool_ThumbDown">ناپسند کریں</string>
+    <string name="effect_tool_Toggle">مرئیت کو ٹوگل کریں</string>
+    <string name="effect_tool_Tremble">ہلائیں</string>
+    <string name="effect_tool_UsePreEndAsStart">مسلسل</string>
+    <string name="effect_tool_Victory">‏\"امن\"</string>
+    <string name="effect_tool_Vow">‏3-انگلیاں اوپر کی جانب اشارہ کر رہی ہیں</string>
+    <string name="effect_tool_WhichObject">کون سا آبجیکٹ</string>
+    <string name="effect_tool_WinkEyes">آنکھ مارنا</string>
+    <string name="effect_tool_Wiper">لہر</string>
+    <string name="effect_tool_alert_back_content">آپ کے اثر میں چہرے کا پھیلاؤ شامل نہیں کیا جائے گا۔</string>
+    <string name="effect_tool_alert_deleteobj">اس آبجیکٹ کو حذف کریں؟</string>
+    <string name="effect_tool_alert_deleteseq">اس تسلسل میں موجود تمام آبجیکٹس بھی حذف کر دیے جائیں گے۔</string>
+    <string name="effect_tool_alert_discardedit_content">آپ کی تازہ ترین تبدیلیاں محفوظ نہیں کی جائیں گی۔</string>
+    <string name="effect_tool_alert_discardedit_title">تازہ ترین تبدیلیاں صاف کریں؟</string>
+    <string name="effect_tool_alert_emptyseq">آپ بعد میں تعاملات کے پینل میں آبجیکٹس شامل کر سکتے ہیں۔</string>
+    <string name="effect_tool_alert_emptyseq_add">تسلسل شامل کریں</string>
+    <string name="effect_tool_alert_emptyseq_title">ایک خالی سلسلہ شامل کریں؟</string>
+    <string name="effect_tool_alert_exceed7M">یہ اثر 7 MB کے سائز کی حد سے تجاوز کر گیا ہے۔ کچھ آبجیکٹس کو ہٹائیں اور دوبارہ کوشش کریں۔</string>
+    <string name="effect_tool_alert_exit_distortion">چہرے کا پھیلاؤ سے خارج ہوں؟</string>
+    <string name="effect_tool_alert_reset_content">تمام تبدیلیاں مٹا دی جائیں گی۔</string>
+    <string name="effect_tool_alert_reset_title">چہرے کا پھیلاؤ ری سیٹ کریں؟</string>
+    <string name="effect_tool_alert_triggerconflict">تضاد سے بچنے کے لیے کچھ اینڈ ٹریگرز کو \"کوئی نہیں\" پر سیٹ کیا جاتا ہے۔</string>
+    <string name="effect_tool_back">واپس جائیں</string>
+    <string name="effect_tool_cancel">منسوخ کریں</string>
+    <string name="effect_tool_canvas_body">جسم</string>
+    <string name="effect_tool_canvas_camera">کیمرا</string>
+    <string name="effect_tool_canvas_face">چہرہ</string>
+    <string name="effect_tool_canvas_hand">ہاتھ</string>
+    <string name="effect_tool_clear">صاف کریں</string>
+    <string name="effect_tool_copy">ڈپلیکیٹ</string>
+    <string name="effect_tool_copy_suffix">‏(کاپی کریں)</string>
+    <string name="effect_tool_create_album">البم</string>
+    <string name="effect_tool_create_camera">کیمرا</string>
+    <string name="effect_tool_create_draw">ڈرا کریں</string>
+    <string name="effect_tool_create_draw_brush">برش</string>
+    <string name="effect_tool_create_draw_crop">کاٹیں</string>
+    <string name="effect_tool_create_draw_eraser">مٹانے والا</string>
+    <string name="effect_tool_create_stickerlib">اسٹیکر کی لائبریری</string>
+    <string name="effect_tool_create_text">متن</string>
+    <string name="effect_tool_createsticker_title">اسٹیکر تخلیق کریں</string>
+    <string name="effect_tool_delete">حذف کریں</string>
+    <string name="effect_tool_delete_object">آبجیکٹ حذف کریں</string>
+    <string name="effect_tool_delete_sequence">تسلسل حذف کریں</string>
+    <string name="effect_tool_distortion_mirror">مرر</string>
+    <string name="effect_tool_distortion_reset">ری سیٹ کریں</string>
+    <string name="effect_tool_distortion_symmetry">تشاکل</string>
+    <string name="effect_tool_done">ہو گیا</string>
+    <string name="effect_tool_exit">خروج کریں</string>
+    <string name="effect_tool_exit_discard">مسترد کریں</string>
+    <string name="effect_tool_gotit">سمجھ آ گئی</string>
+    <string name="effect_tool_group_release">مسترد کریں</string>
+    <string name="effect_tool_guide_noshow_content">کچھ اثرات صرف مخصوص ماڈلز پر کام کرتے ہیں۔ اگر آپ کا منتخب کردہ آبجیکٹ کام نہیں کر رہا، تو ماڈل کو تبدیل کرنے کی کوشش کریں۔</string>
+    <string name="effect_tool_guide_noshow_title">درست ماڈل کے ساتھ پیش منظر</string>
+    <string name="effect_tool_guide_startcreating">تخلیق کرنے کا آغاز کریں</string>
+    <string name="effect_tool_guide_tooltip1">آبجیکٹس شامل کرنے کے لیے ٹیپ کریں</string>
+    <string name="effect_tool_guide_tooltip2">آبجیکٹ کی قسم کا انتخاب کریں</string>
+    <string name="effect_tool_guide_tooltip3">اپنے ماڈل میں شامل کرنے کے لیے آبجیکٹ منتخب کریں</string>
+    <string name="effect_tool_guide_tooltip4">اپنے اثر کا پیش منظر کریں اور ٹیسٹ کریں</string>
+    <string name="effect_tool_guide_tooltip5">یہ اب آپ کا اپنا اثر تخلیق کرنے کا وقت ہے!</string>
+    <string name="effect_tool_interaction">تعاملات</string>
+    <string name="effect_tool_interaction_addobject">آبجیکٹ شامل کریں</string>
+    <string name="effect_tool_interaction_addseq">تسلسل شامل کریں</string>
+    <string name="effect_tool_interaction_animation">اینیمیشن</string>
+    <string name="effect_tool_interaction_end">غائب ہوں</string>
+    <string name="effect_tool_interaction_endtrigger">غائب ہوں جب</string>
+    <string name="effect_tool_interaction_mode">آرڈر</string>
+    <string name="effect_tool_interaction_null">ابھی تک کوئی آبجیکٹس نہیں</string>
+    <string name="effect_tool_interaction_pleaseadd">اپنے اثر کے لیے تعاملات کو تخلیق کرنے کی غرض سے آبجیکٹس کو شامل کریں</string>
+    <string name="effect_tool_interaction_selectobj">آبجیکٹس منتخب کریں</string>
+    <string name="effect_tool_interaction_selectobjs">آبجیکٹس منتخب کریں</string>
+    <string name="effect_tool_interaction_seq">تسلسل</string>
+    <string name="effect_tool_interaction_seq_addobj">آبجیکٹس شامل کریں</string>
+    <string name="effect_tool_interaction_seq_editobj">آبجیکٹس میں ترمیم کریں</string>
+    <string name="effect_tool_interaction_seq_null">کوئی آبجیکٹس دستیاب نہیں</string>
+    <string name="effect_tool_interaction_seq_pleaseadd">اپنے تسلسل کے لیے تعاملات کے پینل میں آبجیکٹس شامل کریں</string>
+    <string name="effect_tool_interaction_start">ظاہر ہوں</string>
+    <string name="effect_tool_interaction_starttrigger">ظاہر ہوں جب</string>
+    <string name="effect_tool_interaction_stop">رکیں</string>
+    <string name="effect_tool_interaction_stoptrigger">محرکات روکیں</string>
+    <string name="effect_tool_interaction_switch">سوئچ کریں</string>
+    <string name="effect_tool_interaction_switchtrigger">محرکات سوئچ کریں</string>
+    <string name="effect_tool_interaction_trigger">متحرک کریں</string>
+    <string name="effect_tool_layer">تہیں</string>
+    <string name="effect_tool_layer_body">جسم</string>
+    <string name="effect_tool_more">مزید</string>
+    <string name="effect_tool_noconnection1">کوئی انٹرنیٹ کنکشن نہیں</string>
+    <string name="effect_tool_noconnection2">انٹرنیٹ سے مربوط ہوں اور دوبارہ کوشش کریں</string>
+    <string name="effect_tool_noconnection_retry">دوبارہ کوشش کریں</string>
+    <string name="effect_tool_object">آبجیکٹ</string>
+    <string name="effect_tool_object_delete">حذف کریں</string>
+    <string name="effect_tool_object_edit">ترمیم کریں</string>
+    <string name="effect_tool_object_hide">چھپائیں</string>
+    <string name="effect_tool_object_lock">لاک کریں</string>
+    <string name="effect_tool_object_name">نام</string>
+    <string name="effect_tool_object_rename">نام تبدیل کریں</string>
+    <string name="effect_tool_object_show">دکھائیں</string>
+    <string name="effect_tool_object_unlock">ان لاک کریں</string>
+    <string name="effect_tool_onboard_step1">تلاش کریں</string>
+    <string name="effect_tool_onboard_step1_content">فوری آغاز کے لیے ٹیمپلیٹ کا حامل اثر تخلیق کرنے کی کوشش کریں۔</string>
+    <string name="effect_tool_onboard_step2">تخلیق کریں</string>
+    <string name="effect_tool_onboard_step2_content">اپنے اثر کو ڈیزائن کرنے کے لیے اسٹیکرز اور تعاملات کو استعمال کریں اور اسے منفرد بنائیں۔</string>
+    <string name="effect_tool_onboard_step3">شیئر کریں</string>
+    <string name="effect_tool_onboard_step3_content">اپنے اثر کو ہماری عالمی کمیونٹی کے ساتھ شیئر کرنے کے لیے اسے TikTok پر شائع کریں۔</string>
+    <string name="effect_tool_onboard_title">اپنا ذاتی اثر تخلیق کریں</string>
+    <string name="effect_tool_onboard_trynow">ابھی آزمائیں</string>
+    <string name="effect_tool_open_camera_authorization">‏\"TikTok\" آپ کے کیمرے تک رسائی حاصل کرنا چاہتا ہے</string>
+    <string name="effect_tool_open_network_authorization">وائرلیس ڈیٹا استعمال کرنے کے لیے \"TikTok\" کو اجازت دیں؟</string>
+    <string name="effect_tool_popup_switchmodel_content">آپ تہوں میں اپنے تمام آبجیکٹس حاصل کر سکتے ہیں۔</string>
+    <string name="effect_tool_popup_switchmodel_title">ہم نے آپ کے آبجیکٹ کے انتخاب سے میچ کرنے کی غرض سے ماڈل سوئچ کیا ہے</string>
+    <string name="effect_tool_preview">پیش منظر</string>
+    <string name="effect_tool_preview_flip">فلپ</string>
+    <string name="effect_tool_preview_reset">ری اسٹارٹ کریں</string>
+    <string name="effect_tool_save">محفوظ کریں</string>
+    <string name="effect_tool_savedraft">ڈرافٹ محفوظ کریں</string>
+    <string name="effect_tool_selecteffect_title">آبجیکٹس</string>
+    <string name="effect_tool_sequence_name">نام</string>
+    <string name="effect_tool_starttutorial">ٹیوٹوریل کا آغاز کریں</string>
+    <string name="effect_tool_sticker_animation">اینیمیشن</string>
+    <string name="effect_tool_sticker_replace">بدلیں</string>
+    <string name="effect_tool_template_beginner">نیا آنے والا</string>
+    <string name="effect_tool_template_intermediate">انٹرمیڈیٹ</string>
+    <string name="effect_tool_templateadd_alert">یہ تمام حالیہ تبدیلیوں کو تبدیل کر دے گا۔</string>
+    <string name="effect_tool_templateadd_cancel">منسوخ کریں</string>
+    <string name="effect_tool_templateadd_confirm">لاگو کریں</string>
+    <string name="effect_tool_templateadd_title">ٹیمپلیٹ کا اطلاق کریں؟</string>
+    <string name="effect_tool_timerhits">ٹائمر ہٹس</string>
+    <string name="effect_tool_toast_gif_importfailed">‏Gif کا سائز %d MB کی حد سے تجاوز کر رہا ہے</string>
+    <string name="effect_tool_toast_gif_incompatible">پراجیکٹ کا ورژن اثاثے کی اس قسم کی معاونت نہیں کرتا</string>
+    <string name="effect_tool_toast_invalideffect">پہلے اپنا اثر تخلیق کریں اس کے بعد جمع کروائیں</string>
+    <string name="effect_tool_toast_modelmismatch">آبجیکٹ موجودہ ماڈل سے میچ نہیں کرتا</string>
+    <string name="effect_tool_toast_switchmodel_fail">کسی ایسے ماڈل پر سوئچ کریں جو آپ کے آبجیکٹ کے زمرے سے میچ کرتا ہو</string>
+    <string name="effect_tool_tooltip_objectshere">اپنے تمام آبجیکٹس یہاں دیکھیں</string>
+    <string name="effect_tool_update_toast">یہ اثر استعمال کرنے کے لیے TikTok کو اپ ڈیٹ کریں</string>
+    <string name="effect_tool_use_template">ٹیمپلیٹ استعمال کریں</string>
+    <string name="ho_">گیلری سے منتخب کریں</string>
+    <string name="hv2">انٹرنیٹ سے مربوط ہوں اور دوبارہ آزمائیں۔</string>
+    <string name="i03">پسندیدہ آوازیں</string>
+    <string name="i04">آپ کی پسندیدہ آوازیں یہاں ظاہر ہوں گی</string>
+    <string name="i3i">جمع کرائیں</string>
+    <string name="i4_">فلٹرز</string>
+    <string name="i82">فالو کریں</string>
+    <string name="i8j">کچھ غلط ہو گیا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="i92">فالو کر رہا ہے</string>
+    <string name="i94">نئے فالوورز</string>
+    <string name="i9b">درخواست کی گئی</string>
+    <string name="i9m">فالو کر رہا ہے</string>
+    <string name="i9q">فالوور</string>
+    <string name="i_k">فالو کر رہا ہے</string>
+    <string name="iai">آپ کے لیے</string>
+    <string name="ick">صرف دوستوں کو</string>
+    <string name="ig6">چھوڑ دیں</string>
+    <string name="igm">ٹھیک ہے</string>
+    <string name="ih2">گریجویٹ ڈگری</string>
+    <string name="ivj">‏%dگھنٹے</string>
+    <string name="iz6">کھولیں</string>
+    <string name="izm">نظم کریں</string>
+    <string name="izz">‏%s ویڈیوز</string>
+    <string name="j04">دوست</string>
+    <string name="j0b">ٹھیک ہے</string>
+    <string name="j0z">حالیہ</string>
+    <string name="j1j">کوئی نتائج نہیں ملے</string>
+    <string name="j1v">بھیج دیا</string>
+    <string name="j1x">اشتہارات کی معاونت</string>
+    <string name="j26">اکاؤںٹ کی اپ ڈیٹس</string>
+    <string name="j3b">عمل ناکام ہو گیا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag1">میں نے تم سے کہا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag10">اس نے مجھے توڑ دیا 💔</string>
+    <string name="imagineLab_prompting_samplePrompts_tag11">میرا مشروب تھامیں</string>
+    <string name="imagineLab_prompting_samplePrompts_tag12">بڑا خاص لمحہ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag13">بڑا تفکراتی لمحہ 🧠</string>
+    <string name="imagineLab_prompting_samplePrompts_tag14">تمام احساسات کو محسوس کرنا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag15">موجودہ بحران</string>
+    <string name="imagineLab_prompting_samplePrompts_tag16">میں بچہ ہوں 👶</string>
+    <string name="imagineLab_prompting_samplePrompts_tag17">زبردست موڈ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag18">یہ برا نہیں ہے اوباما</string>
+    <string name="imagineLab_prompting_samplePrompts_tag19">حیرت انگیز 🤯</string>
+    <string name="imagineLab_prompting_samplePrompts_tag2">ایک حیرت انگیز آدمی والی توانائی</string>
+    <string name="imagineLab_prompting_samplePrompts_tag20">دھیما آغاز</string>
+    <string name="imagineLab_prompting_samplePrompts_tag21">بے حد خوش ☁️</string>
+    <string name="imagineLab_prompting_samplePrompts_tag22">رو کر واپس آنا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag23">ہر جانب آنسو ہی آنسو 😢</string>
+    <string name="imagineLab_prompting_samplePrompts_tag24">100 لیول کا ادنیٰ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag25">پُر کشش محسوس کرنا 🌶️</string>
+    <string name="imagineLab_prompting_samplePrompts_tag26">کسی کو وقت نہیں ملا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag27">ہلکا سا غصہ 💢</string>
+    <string name="imagineLab_prompting_samplePrompts_tag28">نیند کے احساسات 😴</string>
+    <string name="imagineLab_prompting_samplePrompts_tag29">مطابقت نہیں ہو سکتی</string>
+    <string name="imagineLab_prompting_samplePrompts_tag3">ہر چیز پر زیادہ غور و فکر 🧠</string>
+    <string name="imagineLab_prompting_samplePrompts_tag30">انوکھا اظہار</string>
+    <string name="imagineLab_prompting_samplePrompts_tag31">4K 📸 میں لی گئی تصویر</string>
+    <string name="imagineLab_prompting_samplePrompts_tag32">بے ہنگم ہنسنا 😂</string>
+    <string name="imagineLab_prompting_samplePrompts_tag33">اپنی ولن کی بدلتی داستان پر</string>
+    <string name="imagineLab_prompting_samplePrompts_tag34">آزادانہ احساس کے ساتھ شرماہٹ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag35">میں جنگلی ہوں 🐾</string>
+    <string name="imagineLab_prompting_samplePrompts_tag36">خوشی کا انبار 😊</string>
+    <string name="imagineLab_prompting_samplePrompts_tag37">بے بسی کی لرزاہٹ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag38">شہرت کا احساس</string>
+    <string name="imagineLab_prompting_samplePrompts_tag39">اندرونی چیخ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag4">زبردست چمک 💅</string>
+    <string name="imagineLab_prompting_samplePrompts_tag40">جنون بھرا جوش 🔥</string>
+    <string name="imagineLab_prompting_samplePrompts_tag41">سالٹ بائے</string>
+    <string name="imagineLab_prompting_samplePrompts_tag42">صفر ٹھنڈک 🧊</string>
+    <string name="imagineLab_prompting_samplePrompts_tag43">آج نہیں 🙅</string>
+    <string name="imagineLab_prompting_samplePrompts_tag44">اداس مگر پیارا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag45">خوراک پر دھاوا 🍟</string>
+    <string name="imagineLab_prompting_samplePrompts_tag46">شرمیلا موڈ 😳</string>
+    <string name="imagineLab_prompting_samplePrompts_tag47">میٹرکس میں خرابی</string>
+    <string name="imagineLab_prompting_samplePrompts_tag48">100% ہو گیا ✅</string>
+    <string name="imagineLab_prompting_samplePrompts_tag49">معمولی خوف</string>
+    <string name="imagineLab_prompting_samplePrompts_tag5">دھوپ کی چمک کا لمحہ</string>
+    <string name="imagineLab_prompting_samplePrompts_tag50">جذباتی طور پر عدم دستیاب</string>
+    <string name="imagineLab_prompting_samplePrompts_tag51">پُر اسرار روحانی طاقت 🐱</string>
+    <string name="imagineLab_prompting_samplePrompts_tag6">گھبراہٹ کا موڈ 😱</string>
+    <string name="imagineLab_prompting_samplePrompts_tag7">پھر بھی کیوں</string>
+    <string name="imagineLab_prompting_samplePrompts_tag8">لاما ڈرامہ 🦙</string>
+    <string name="imagineLab_prompting_samplePrompts_tag9">میرے مشکل دور کی زندگی</string>
+    <string name="jb9">فون نمبر درج کریں</string>
+    <string name="jbe">ابھی انسٹال کریں</string>
+    <string name="jdh">اردن</string>
+    <string name="jdm">‏Junior college</string>
+    <string name="jdn">بالکل ابھی</string>
+    <string name="jgz">شاید بعد میں</string>
+    <string name="jh0">دیکھیں</string>
+    <string name="jis">لائکس</string>
+    <string name="jl2">لیتھوانیا</string>
+    <string name="jl3">‏LIVE</string>
+    <string name="jmi">‏LIVE ختم ہو گیا</string>
+    <string name="joa">لوڈ نہیں کیا جا سکا</string>
+    <string name="joe">لوڈ نہیں کیا جا سکا۔ دوبارہ کوشش کرنے کے لیے ٹیپ کریں۔</string>
+    <string name="jp6">اجازت دیں</string>
+    <string name="jqr">لاگ ان نہیں کیا جا سکا</string>
+    <string name="jqs">اور</string>
+    <string name="jsb">انعامات جیتیں</string>
+    <string name="jwa">اصل تصویر</string>
+    <string name="jwo">تصویر لیں</string>
+    <string name="k0m">مائکرونیشیا</string>
+    <string name="k1f">‏%dمنٹ</string>
+    <string name="mixStudio_remix_prompt_amazed">حیرت زدہ، آنکھوں میں بڑے بڑے اسٹار والے ایموجیز جگمگاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_baguette">بگیٹ ہاتھ میں لیے، پیرس کے انداز میں جینا</string>
+    <string name="mixStudio_remix_prompt_baseball">فتح مند بیس بال کا کھلاڑی بیٹ گھماتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_basketball">ٹینک ٹاپ پہنے باسکٹ بال کی خوبرو کھلاڑی</string>
+    <string name="mixStudio_remix_prompt_beer">پُراعتماد مسکراہٹ کے ساتھ بیئر کا مگ اُٹھا کر جشن مناتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_blushing">شرمائی ہوئی صورت اور ٹھوڑی کو ہاتھوں سے سہارا دیے ہوئے</string>
+    <string name="mixStudio_remix_prompt_bouquet">خوشی سے گلدستہ تھامے ہوئے</string>
+    <string name="mixStudio_remix_prompt_boxing">سرخ رنگ کے باکسنگ کے دستانے پہنے، اسٹرائک کرنے کے لیے تیار</string>
+    <string name="mixStudio_remix_prompt_brb">BRB</string>
+    <string name="mixStudio_remix_prompt_broken">ہاتھ سینے پر اور تیوری کے ساتھ اداسی بھرا چہرہ، بڑا ٹوٹا ہوا لال دل</string>
+    <string name="mixStudio_remix_prompt_builder">باڈی بلڈر</string>
+    <string name="mixStudio_remix_prompt_bulb">بڑے سے پیلے رنگ کے لائٹ بلب کے ساتھ غور و فکر کا انداز</string>
+    <string name="mixStudio_remix_prompt_burger">بڑا سا برگر کھاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_cash">نماز کے انداز میں ہاتھ جوڑے، آنکھیں بند، اور سامنے نقدی بارش کی طرح برس رہی ہے</string>
+    <string name="mixStudio_remix_prompt_cat">محبت سے بلی کو پکڑے ہوئے</string>
+    <string name="mixStudio_remix_prompt_chef">شیف 🧑‍🍳</string>
+    <string name="mixStudio_remix_prompt_chopsticks">چاپ اسٹکس سے سوشی کھاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_clown">جنونی جوکر 🤡</string>
+    <string name="mixStudio_remix_prompt_cocktail">ساحل سمندر پر کاک ٹیل پیتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_confused">الجھن بھرا تاثر، ساتھ میں ؟ کا نشان</string>
+    <string name="mixStudio_remix_prompt_donut">بڑا سا ڈونٹ کھاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_excited">پرجوش</string>
+    <string name="mixStudio_remix_prompt_fierce">مُٹھیاں بھینچ کر شدید غصے والا تاثر اور آگ میں لپٹا ہوا شخص</string>
+    <string name="mixStudio_remix_prompt_finger">انگلی سے بندوق کا اشارہ</string>
+    <string name="mixStudio_remix_prompt_fist">مضبوطی سے بند کی ہوئی مُٹھی</string>
+    <string name="mixStudio_remix_prompt_flabbergasted">حیران پریشان</string>
+    <string name="mixStudio_remix_prompt_graduated">ابھی فارغ التحصیل ہوئے</string>
+    <string name="mixStudio_remix_prompt_heart">لال رنگ کے بڑے سے دل کے نشان کو گلے لگانا</string>
+    <string name="mixStudio_remix_prompt_hi">پُرجوش انداز میں ہاتھ ہلاتے اور ہائے کہتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_horrified">خوفزدہ</string>
+    <string name="mixStudio_remix_prompt_idk">لاعلمی کا انداز</string>
+    <string name="mixStudio_remix_prompt_joyful">خوشی سے بھرا زور دار قہقہہ</string>
+    <string name="mixStudio_remix_prompt_kidding">شرارتی مسکراہٹ کے ساتھ مذاق کا اظہار کرنا</string>
+    <string name="mixStudio_remix_prompt_kimono">کیمونو پہنے ناچتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_kiss">بڑا سا پیار بھرا بوسہ دیتے ہوئے 🩷</string>
+    <string name="mixStudio_remix_prompt_laptop">بیزاری سے لیپ ٹاپ پر ٹائپنگ کرتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_mcdonalds">بڑے سائز کے میکڈونلڈز فرائز</string>
+    <string name="mixStudio_remix_prompt_neutral">غیر جانبدار</string>
+    <string name="mixStudio_remix_prompt_night">نیند میں ڈوبا نائٹ کیپ پہنے ہوئے</string>
+    <string name="mixStudio_remix_prompt_ninja">مضبوط اور ماسک پہنے ننجا</string>
+    <string name="mixStudio_remix_prompt_panda">پانڈا کو گلے لگاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_party">پارٹی ہیٹ 🥳</string>
+    <string name="mixStudio_remix_prompt_pink">بڑے گلابی دل جیسے غبارے والی آنکھیں</string>
+    <string name="mixStudio_remix_prompt_pizza">پیزا کا بڑا سلائس کھاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_police">واکی ٹاکی کے ساتھ پکا عزم رکھنے والی پولیس افسر</string>
+    <string name="mixStudio_remix_prompt_pouting">معصوم سا پاؤٹ کرتے ہونٹ جبکہ مٹھیاں گال کے قریب ہوں</string>
+    <string name="mixStudio_remix_prompt_puppy">ِپلے کو گلے لگاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_rabbit">خرگوش کو گلے لگاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_ramen">رامین کھاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_rugby">رگبی کا پیشہ ورانہ کھلاڑی</string>
+    <string name="mixStudio_remix_prompt_sadness">گہری اداسی</string>
+    <string name="mixStudio_remix_prompt_shopping">شاپنگ کا جنون</string>
+    <string name="mixStudio_remix_prompt_shy">شرماتے اور لجاتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_sighing">ہلکی سی جھنجلاہٹ کے ساتھ آہ بھرتے ہوئے، بازو لپیٹے ہوئے</string>
+    <string name="mixStudio_remix_prompt_sleepy">کافی پیتے ہوئے نیند کی کیفیت میں</string>
+    <string name="mixStudio_remix_prompt_snowboard">خوشی سے اسنوبورڈ تھامے، موسم سرما کے لباس میں</string>
+    <string name="mixStudio_remix_prompt_soccer">فٹ بال کھیلتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_sorry">معذرت کرتے ہوئے 😢😣</string>
+    <string name="mixStudio_remix_prompt_sunglasses">اعتماد سے چشمہ ٹھیک کرتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_taekwondo">تائیکوانڈو کے انداز میں</string>
+    <string name="mixStudio_remix_prompt_teddy">ٹیڈی بیئر کو زور سے دباتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_terrified">خوفزدہ</string>
+    <string name="mixStudio_remix_prompt_thumbs">زبردست قرار دینے والی علامت دینا</string>
+    <string name="mixStudio_remix_prompt_tilted">کندھے اچکاتے ہوئے، ہلکی سی مسکراہٹ اور ایک جانب جھکا ہوا سر</string>
+    <string name="mixStudio_remix_prompt_tired">مدھم آنکھوں کے ساتھ تھکا ہوا، ہاتھ پر سر رکھے ہوئے</string>
+    <string name="mixStudio_remix_prompt_toast">ٹوسٹ بناتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_vacation">چھٹیوں پر ⛱️</string>
+    <string name="mixStudio_remix_prompt_winking">خوبصورت انداز میں آنکھ جھپکتے ہوئے</string>
+    <string name="mixStudio_remix_prompt_zzz">بہت نیند میں، نیلی ZZZs کے ساتھ</string>
+    <string name="mixedEdits_editingPage_autoEdit_btn">خود کار ترمیم</string>
+    <string name="mixedEdits_editingPage_editsForYou_btn">‏‫آپ کے لیے‬ ترمیم کاریاں</string>
+    <string name="mixedEdits_editingPage_madeForYou_btn">‏‫آپ کے لیے‬</string>
+    <string name="mixedEdits_editingPage_quickEdits_btn">فوری ترمیم کاریاں</string>
+    <string name="k5w">مزید</string>
+    <string name="k7o">@android:string/ok</string>
+    <string name="k9y">ویڈیو تبدیل کریں</string>
+    <string name="k9z">ویڈیو ہٹائیں</string>
+    <string name="k_0">ویڈیو دیکھیں</string>
+    <string name="k_o">لاگ ان کریں</string>
+    <string name="kao">آوازیں</string>
+    <string name="kc6">آوازیں</string>
+    <string name="kcn">اصل آواز</string>
+    <string name="kd5">پسندیدگان</string>
+    <string name="kfx">میانمار</string>
+    <string name="khn">کوئی انٹرنیٹ کنکشن نہیں</string>
+    <string name="km6">اگلا</string>
+    <string name="kmq">نہیں</string>
+    <string name="koa">کوئی نہیں</string>
+    <string name="kpm">ابھی نہیں</string>
+    <string name="kq2">اطلاعات</string>
+    <string name="kqg">مینشنز</string>
+    <string name="kqk">منیٹائزیشن</string>
+    <string name="kr6">پچھلا</string>
+    <string name="kxk">آف کریں</string>
+    <string name="lcf">توقف کریں</string>
+    <string name="lm9">تصویر موجود نہیں</string>
+    <string name="pipo_common_quit">چھوڑ دیں</string>
+    <string name="pipo_payin_quit_content">ادائیگی مکمل کرنے کے لیے صرف چند مراحل</string>
+    <string name="pipo_payin_quit_continue_pay">ادائیگی کرنا جاری رکھیں</string>
+    <string name="pipo_payin_quit_title">ٹرانزیکشن چھوڑ دیں؟</string>
+    <string name="lwx">پلے لسٹ</string>
+    <string name="n5s">اپنے فالو کیے جانے والے LIVE تخلیق کاروں کی جانب سے تازہ ترین LIVE ویڈیوز کی فوری پڑتال کریں</string>
+    <string name="n5t">TikTok پر مقبول LIVE ویڈیوز دریافت کریں!</string>
+    <string name="n5u">ابھی دیکھیں</string>
+    <string name="n5v">ابھی LIVE ہے</string>
+    <string name="n5w">فالو کر رہا ہے</string>
+    <string name="n5x">لاگ ان کریں</string>
+    <string name="n5y">ان LIVE تخلیق کاروں کی LIVE ویڈیوز دیکھنے کے لیے لاگ ان کریں جنہیں آپ فالو کرتے ہیں</string>
+    <string name="n5z">%s LIVE ہے</string>
+    <string name="n60" formatted="false">%s اور %s LIVE ہیں</string>
+    <string name="n61" formatted="false">%s اور %d مزید LIVE تخلیق کار LIVE ہیں</string>
+    <string name="p6e">پیش منظر</string>
+    <string name="p91">رازداری کی پالیسی</string>
+    <string name="pag">پرائیویٹ</string>
+    <string name="pb9">پروسیس کیا جا رہا ہے</string>
+    <string name="pib">پروموٹ پروگرام کی شرائط</string>
+    <string name="pj7">سروس کی شرائط</string>
+    <string name="pjk">پبلک</string>
+    <string name="pk_">ویڈیو اپ لوڈ نہیں کر سکے۔ ڈرافٹ محفوظ ہو گیا۔</string>
+    <string name="pmy">اطلاعات</string>
+    <string name="pmz">ردعمل شروع کریں</string>
+    <string name="pnh">‏QR کوڈ</string>
+    <string name="poh">ڈرافٹ کی ترمیم کاری چھوڑ دیں؟</string>
+    <string name="poz">مزید کوئی نتائج نہیں</string>
+    <string name="pso">دوبارہ کوشش کریں</string>
+    <string name="pug">ہٹائیں</string>
+    <string name="pwj">رپورٹ کریں</string>
+    <string name="pyh">مالدوا</string>
+    <string name="q0d">دوبارہ بھیجیں</string>
+    <string name="q5x">سینٹ لوسیا</string>
+    <string name="q6_">محفوظ کریں</string>
+    <string name="q81">محفوظ نہیں کی جا سکی</string>
+    <string name="q8l">محفوظ ہو گیا</string>
+    <string name="q8y">اسکین کریں</string>
+    <string name="qed">تلاش کریں</string>
+    <string name="qff">فالو کر رہا ہے</string>
+    <string name="qfg">پوسٹ کریں</string>
+    <string name="qfh">ان باکس</string>
+    <string name="qfi">تلاش کا ویجیٹ</string>
+    <string name="qfj">اپنی دلچسپی کا حامل مواد تلاش کریں۔</string>
+    <string name="qfm">‏TikTok پر تلاش کریں</string>
+    <string name="qiv">اصل دیکھیں</string>
+    <string name="qiy">اشتہارات کا پلان دیکھیں</string>
+    <string name="ql8">بھیجیں</string>
+    <string name="qs4">نیا پاس ورڈ</string>
+    <string name="qs_">ویڈیو صرف دوستوں کے لیے پر سیٹ ہو گئی ہے</string>
+    <string name="qsj">رازداری اور تحفظ</string>
+    <string name="qsz">تجزیاتی</string>
+    <string name="qu3">فون نمبر</string>
+    <string name="qy1">شیئر کریں</string>
+    <string name="r01">مندرجہ ذیل پر شیئر کریں</string>
+    <string name="r03">پیغام</string>
+    <string name="r0c">پروفائل شیئر کریں</string>
+    <string name="r4a">آواز استعمال کریں</string>
+    <string name="r86">نظر انداز کریں</string>
+    <string name="r90">سلائیڈ شو (%d)</string>
+    <string name="r93">سلواکیہ</string>
+    <string name="rfw">جنوبی کوریا</string>
+    <string name="ri0">لوڈ نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="ri1">لوڈ کیا جا رہا ہے...</string>
+    <string name="ric">سنیٹ برتھلیمی</string>
+    <string name="rih">سینٹ پیئر &amp; میکلیئون</string>
+    <string name="rmw">کلپس خود کار طور پر سنک کیے جا رہے ہیں...</string>
+    <string name="rru">دیکھیں کہ آپ کے دوست ہوم اسکرین سے کیا کر رہے ہیں</string>
+    <string name="rrv">‏TikTok اسٹوری</string>
+    <string name="sar">محدود کردہ موڈ فعال کردہ ہے</string>
+    <string name="sl7">‏‫اسکرین ٹائم مینیجمنٹ‬ کا پاس کوڈ درج کریں</string>
+    <string name="soa">اثرات</string>
+    <string name="sod">لوڈ کیا جا رہا ہے...</string>
+    <string name="spc">فالو کیا جا رہا ہے</string>
+    <string name="spd">قریبی</string>
+    <string name="spe">نیا</string>
+    <string name="spf">آپ کے لیے</string>
+    <string name="sqq">ترجمہ کریں</string>
+    <string name="sri">مقبول</string>
+    <string name="tteh_newCreatorBonus_entry_createEffects">اثرات تخلیق کریں</string>
+    <string name="tteh_newCreatorBonus_h5_head">اثرات تخلیق کریں، انعام پائیں!</string>
+    <string name="thi">LIVE</string>
+    <string name="ttlive_mutliTopLIVE_tabName_discover">‏‫دریافت کریں‬</string>
+    <string name="ttlive_mutliTopLIVE_tabName_hangout">ہینگ آؤٹ</string>
+    <string name="w30">‏TikTok کیمرہ</string>
+    <string name="w8_">ابھی کوئی پیغامات نہیں</string>
+    <string name="w8e">ابھی کسی کو فالوو نہیں کر رہے</string>
+    <string name="w8t">غیر مسدود کریں</string>
+    <string name="w9h">‏Bachelor</string>
+    <string name="w_a">ان انسٹال کریں</string>
+    <string name="w_b">کیش صاف کریں</string>
+    <string name="w_c">‏TikTok کو ہٹائیں</string>
+    <string name="w_l">اکاؤنٹ ان لنک نہیں کیا جا سکا</string>
+    <string name="waw">پاس ورڈ تبدیل کریں</string>
+    <string name="wbc">براہ کرم TikTok کا جدید ترین ورژن انسٹال کریں</string>
+    <string name="wdf">ان فالو کریں</string>
+    <string name="wfl">ویڈیوز</string>
+    <string name="wp0">تصویر محفوظ کریں</string>
+    <string name="wqy">آپ کے علاقے میں ویجیٹ دستیاب نہیں ہیں۔</string>
+    <string name="wqz">ایک اسٹوری تخلیق کریں</string>
+    <string name="wra">حروف کی حد تجاوز ہو گئی</string>
+    <string name="wrc">ویڈیوز</string>
+    <string name="wrp">نہیں</string>
+    <string name="ws3">آلینڈ آئلینڈز</string>
+</resources>

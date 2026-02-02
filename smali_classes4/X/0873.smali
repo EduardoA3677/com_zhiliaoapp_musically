@@ -1,0 +1,125 @@
+.class public final LX/0873;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/08Jx;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/im/messagelist/protocols/TypingIndicatorSingleChatFakeMsgProtocol;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+
+# instance fields
+.field public final LIZ:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x1
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/util/Collections;->singleton(Ljava/lang/Object;)Ljava/util/Set;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0873;->LIZ:Ljava/util/Set;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()I
+    .locals 1
+
+    const/4 v0, 0x2
+
+    return v0
+.end method
+
+.method public final LIZIZ()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final LIZJ()Ljava/util/Set;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, LX/0873;->LIZ:Ljava/util/Set;
+
+    return-object v0
+.end method
+
+.method public final LIZLLL(LX/088W;)Lcom/ss/android/ugc/aweme/im/message/content/FakeMsgContent;
+    .locals 1
+
+    sget-object v0, LX/0874;->LL:LX/0874;
+
+    return-object v0
+.end method
+
+.method public final LJ()I
+    .locals 1
+
+    const/4 v0, 0x3
+
+    return v0
+.end method
+
+.method public final LJFF(LX/088W;LX/0i9W;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final LJI()I
+    .locals 1
+
+    const/4 v0, 0x2
+
+    return v0
+.end method
+
+.method public final LJII(LX/088W;)Z
+    .locals 1
+
+    invoke-static {}, LX/080H;->LIZIZ()Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
+
+    return v0
+.end method

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Onlayn ovozlar kutubxonasi</item>
+        <item>Mening ovozlarim</item>
+    </string-array>
+    <string-array name="l">
+        <item>Tozalash</item>
+    </string-array>
+    <string-array name="q">
+        <item>Oʻchirish</item>
+        <item>Bekor qilish</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trendda</item>
+        <item>Oxirgi</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Galereyadan tanlash</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Yakshanba</item>
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Xitoy (soddalashtirilgan)</item>
+        <item>Anʼanaviy xitoy</item>
+        <item>Ingliz</item>
+        <item>Yapon</item>
+        <item>Koreys</item>
+        <item>Rus</item>
+        <item>Indonez</item>
+        <item>Malay</item>
+        <item>Portugal</item>
+        <item>Tay</item>
+        <item>Vyetnam</item>
+        <item>Hind</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Odatiy</item>
+        <item>Qora/Oq</item>
+        <item>Sanʼat</item>
+        <item>Vintaj</item>
+        <item>Retro-lyuks</item>
+        <item>Toʻyingan</item>
+        <item>Xromatik</item>
+    </string-array>
+    <string-array name="af">
+        <item>Yan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Iyn</item>
+        <item>Iyl</item>
+        <item>Avg</item>
+        <item>Sen</item>
+        <item>Okt</item>
+        <item>Noy</item>
+        <item>Dek</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Trafikni tejash rejimi birinchi</item>
+        <item>Yuqori aniqlik rejimi birinchi</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Har kim</item>
+        <item>Faqat tanishlar</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+        <item>Yakshanba</item>
+    </string-array>
+</resources>

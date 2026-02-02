@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/m_u" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <ImageView n1:layout_gravity="end|center" n1:id="@id/khs" n1:background="@drawable/aok" n1:layout_width="54.0dp" n1:layout_height="32.0dp" n1:layout_marginRight="20.0dp" n1:src="@drawable/bwt" n1:scaleType="center" n1:layout_marginEnd="20.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <X.0mEd n1:orientation="vertical" n1:id="@id/volume_layout" n1:paddingLeft="32.0dp" n1:paddingTop="20.0dp" n1:paddingRight="36.0dp" n1:paddingBottom="34.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:paddingStart="32.0dp" n1:paddingEnd="36.0dp" n3:ey9="@dimen/fa" n3:fcd="true" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.0mEX n1:textStyle="bold" n1:textColor="@color/df" n1:layout_gravity="center_vertical" n1:id="@id/ydm" n1:layout_width="100.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:singleLine="false" n3:b5i="8.0dp" n3:b5w="n2i" style="@style/aar" />
+                <X.0CUr n1:layout_gravity="top" n1:orientation="vertical" n1:id="@id/w8f" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.0mEX n1:textSize="12.0sp" n1:textColor="#99ffffff" n1:id="@id/foi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="50" n3:erj="true" />
+                    <X.0n2k n1:id="@id/t7n" n1:background="@null" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="4.0dp" n1:max="100" n1:progress="50" n3:b8t="0.0dp" n3:evw="@color/dn" n3:evz="12.0dp" n3:ex8="20.0dp" n3:ey9="50.0dp" n3:f_w="true" n3:fat="20.0dp" n3:fb1="20.0dp" n3:fch="18.0dp" />
+                </X.0CUr>
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="52.0dp">
+                <X.0mEX n1:textStyle="bold" n1:textColor="@color/df" n1:layout_gravity="center_vertical" n1:id="@id/ydn" n1:layout_width="100.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:singleLine="false" n1:autoSizeMinTextSize="8.0dp" n3:b5w="n2i" style="@style/aar" />
+                <X.0CUr n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/w8e" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.0mEX n1:textSize="12.0sp" n1:textColor="#99ffffff" n1:id="@id/foh" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="50" n3:erj="true" />
+                    <X.0n2k n1:id="@id/t7o" n1:background="@null" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="4.0dp" n1:max="100" n1:progress="50" n3:b8t="0.0dp" n3:evw="@color/dn" n3:evz="12.0dp" n3:ex8="20.0dp" n3:ey9="50.0dp" n3:f_w="true" n3:fat="20.0dp" n3:fb1="20.0dp" n3:fch="18.0dp" />
+                </X.0CUr>
+            </LinearLayout>
+        </X.0mEd>
+    </LinearLayout>
+</FrameLayout>

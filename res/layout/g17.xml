@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:theme="@style/xr" n1:gravity="bottom" n1:layout_gravity="bottom" n1:id="@id/h_v" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:gravity="bottom" n1:id="@id/rd7" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="-2.399994dp" n1:layout_marginStart="0.0dp" n1:layout_marginEnd="2.0dp">
+        <X.12sz n1:textSize="23.0dp" n1:textColor="?eba" n1:layout_gravity="bottom" n1:id="@id/yhn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layoutDirection="ltr" />
+        <X.12sz n1:textSize="23.0dp" n1:textColor="?eba" n1:layout_gravity="bottom" n1:id="@id/yho" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layoutDirection="ltr" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0D0r n1:id="@id/kn_" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" />
+        <X.0D0r n1:id="@id/kn9" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0D0r n1:id="@id/kzg" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" n1:layout_marginStart="-1.0dp" />
+        <X.0D0r n1:id="@id/kzf" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" n1:layout_marginStart="-1.0dp" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0D0r n1:id="@id/l24" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" n1:layout_marginStart="-1.0dp" />
+        <X.0D0r n1:id="@id/l23" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" n1:layout_marginStart="-1.0dp" />
+    </FrameLayout>
+</LinearLayout>

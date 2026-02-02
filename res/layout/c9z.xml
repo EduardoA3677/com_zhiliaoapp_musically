@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:paddingTop="64.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginHorizontal="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="123.0dp" n1:layout_height="121.0dp">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:layout_gravity="start|top" n1:id="@id/nud" n1:layout_width="120.0dp" n1:layout_height="120.0dp" n2:etn="@raw/icon_color_default_avatar" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/wc1" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n3:fjq="@raw/icon_color_tiktok_logo_light" n3:fjt="28.0dp" n3:fk6="28.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="24.0dp" n1:textAlignment="center" n1:layout_marginVertical="24.0dp" n4:fj2="ot" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/e8p" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginBottom="10.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="4.0dp" n5:fjq="@raw/icon_phone_book_fill" n5:fjt="16.0dp" n5:fk6="16.0dp" n5:fmy="?e0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n6:fj2="p7" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/h00" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginBottom="10.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="4.0dp" n7:fjq="@raw/icon_color_facebook" n7:fjt="16.0dp" n7:fk6="16.0dp" n7:fmy="?e0" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n8:fj2="p7" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0D2z n1:textColor="?zw" n1:id="@id/k6d" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n9:fib="l9r" n9:fid="t69" n9:fj2="p7" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

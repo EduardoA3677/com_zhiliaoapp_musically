@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/les" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0l1c n1:orientation="vertical" n1:id="@id/iyw" n1:layout_width="1.0dp" n1:layout_height="100.0dp" n2:bwu="0.5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/leo" n1:layout_width="0.0dp" n1:layout_height="100.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <ViewStub n1:id="@id/vs_cohost_feed_title_layout" n1:visibility="gone" n1:layout="@layout/gw6" n1:inflatedId="@id/dkk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwg="true" n4:bx3="@id/leo" n4:bx7="@id/leo" n4:bxc="@id/leo" n4:bxh="270.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/iso" n1:layout_width="0.0dp" n1:layout_height="1.0dp" n1:layout_marginBottom="23.0dp" n5:bwl="@id/leo" n5:bx3="owf" n5:bx7="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <ViewStub n1:id="@id/vs_match_feed_health_bar" n1:visibility="gone" n1:layout="@layout/h23" n1:inflatedId="@id/mzb" n1:layout_width="0.0dp" n1:layout_height="30.0dp" n6:bx3="@id/leo" n6:bx7="@id/leo" n6:bxb="@id/iso" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

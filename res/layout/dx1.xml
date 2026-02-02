@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/hes" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bxb="@id/nvd" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.137G n1:id="@id/nyt" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/mcg" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0sJ0 n1:id="@id/jzc" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:paddingHorizontal="16.0dp" />
+                <X.0sJ0 n1:id="@id/jz9" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:paddingHorizontal="16.0dp" />
+            </LinearLayout>
+        </X.137G>
+    </FrameLayout>
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/hbw" n1:background="?bx" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/a7x" n1:padding="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:fj2="pu" />
+        <X.0D2z n1:enabled="false" n1:gravity="center" n1:id="@id/c8e" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:fi8="false" n4:fib="l9r" n4:fid="qhx" n4:fj2="pa" n4:fk4="@raw/icon_plus" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

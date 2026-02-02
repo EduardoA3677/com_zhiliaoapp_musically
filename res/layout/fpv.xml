@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="end|bottom" n1:id="@id/dg3" n1:clickable="true" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="112.0dp" n1:layout_height="142.0dp" n1:layout_marginEnd="10.0dp">
+        <X.0CW6 n1:id="@id/kyx" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginLeft="4.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginBottom="2.0dp" n1:scaleType="centerCrop" n1:layout_marginHorizontal="4.0dp" n2:bwf="true" n2:bwg="true" n2:bwl="@id/dg2" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/dg2" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:paddingBottom="4.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:paddingHorizontal="4.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <View n1:id="@id/bkc" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n3:bwk="@id/j4a" n3:bwq="@id/j4a" n3:bx9="@id/j4a" n3:bxc="@id/j4a" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/j4a" n1:layout_width="21.0dp" n1:layout_height="21.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="none" n1:id="@id/ym1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="4.0dp" n1:clipToOutline="false" n3:bwk="owf" n3:bx8="@id/j4a" n3:bxc="owf" n3:fj2="pv" n3:fl1="10.0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j4_" n1:paddingTop="4.0dp" n1:paddingBottom="12.0dp" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="4.0dp" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

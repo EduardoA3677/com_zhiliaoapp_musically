@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0Rhd n1:id="@id/edp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/vdg" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/vdh" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/zqn" n1:background="@color/dx" n1:layout_width="120.0dp" n1:layout_height="160.0dp" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n2:etn="@color/dx" n2:eyl="@dimen/b8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</X.0Rhd>

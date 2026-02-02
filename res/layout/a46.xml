@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/ae8" n1:padding="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="8.0dp" n1:elevation="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ff5" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwr="@id/ff3" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ff0" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf">
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/fez" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:importantForAccessibility="no" n1:paddingStart="2.0px" n2:bx9="owf" n2:bxc="owf" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/ff4" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:paddingStart="2.0px" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/ff6" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Invite people to hatch a Streak Pet together!" n1:maxLines="2" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n2:bwk="owf" n2:bwr="@id/ff1" n2:bx8="@id/ff0" n2:bxc="owf" n2:fj2="pz" />
+        <X.0D2z n1:id="@id/ff1" n1:paddingLeft="8.0dp" n1:paddingTop="11.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="11.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="62.0dp" n1:text="Invite" n1:maxLines="1" n1:layout_marginEnd="4.0dp" n1:paddingHorizontal="8.0dp" n1:paddingVertical="11.0dp" n2:b5h="14.0dp" n2:b5i="10.0dp" n2:b5k="1.0dp" n2:b5l="z1f" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:fi9="true" n2:fib="u9x" n2:fid="qhx" n2:fj2="pv" n2:fmy="?z4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/ff3" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingEnd="10.0dp" n1:paddingVertical="16.0dp" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ff2" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:scaleType="fitCenter" n1:contentDescription="@null" n3:fjq="@raw/icon_x_mark" n3:fmy="?zz" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

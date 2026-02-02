@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/aa3" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/w7r" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="@dimen/a3v">
+        <X.0E8K n1:id="@id/w76" n1:background="@drawable/dmo" n1:paddingTop="4.0dp" n1:paddingBottom="2.0dp" n1:layout_width="223.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="1.5dp" n1:paddingStart="6.0dp" n1:paddingEnd="2.0dp" n1:layout_marginEnd="12.0dp" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.12nN n1:id="@id/w6h" n1:layout_width="0.0dp" n1:layout_height="0.0dp" style="@style/a76" />
+            <LinearLayout n1:id="@id/cwx" n1:layout_width="211.0dp" n1:layout_height="36.0dp" n1:layout_marginBottom="2.0dp" n1:layout_marginEnd="2.0dp" n2:bx9="owf" n2:bxc="owf">
+                <X.0CJN n1:id="@id/cx_" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="36.0dp" />
+            </LinearLayout>
+            <X.12nN n1:textColor="@color/abj" n1:ellipsize="end" n1:gravity="start|top" n1:id="@id/cx2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="2" n1:includeFontPadding="false" n2:bx9="@id/cwx" n2:bxc="@id/cwx" style="@style/a76" />
+            <X.0d6D n1:id="@id/cwy" n1:visibility="invisible" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n2:bx9="owf" n2:bxc="owf" />
+            <X.130R n1:id="@id/bg9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:b74="bwg" n2:bfm="cx2,cwx" />
+            <X.12nN n1:textColor="@color/a_z" n1:gravity="start" n1:id="@id/flr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:text="@null" n1:layout_marginEnd="2.0dp" n2:bx9="owf" n2:bxb="@id/bg9" style="@style/qe" />
+            <X.130R n1:id="@id/bg2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:b74="gfo" n2:bfm="cwx,flr" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/wzx" n1:layout_width="@dimen/qg" n1:layout_height="@dimen/qg" n1:layout_marginStart="2.0dp" n2:br4="?cla" n2:brl="?fem" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/bg2" />
+        </X.0E8K>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:orientation="horizontal" n1:id="@id/cw6" n1:background="@color/a2a" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</LinearLayout>

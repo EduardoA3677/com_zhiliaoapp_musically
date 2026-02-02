@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/e92" n1:layout_width="wrap_content" n1:layout_height="52.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/yya" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_marginRight="12.0dp" n1:layout_centerVertical="true" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" n1:layout_marginEnd="12.0dp">
+        <X.0Ca5 n1:textSize="14.0dp" n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/wk8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/hqb" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/uom" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginRight="-5.0dp" n1:layout_marginBottom="-5.0dp" n1:src="@drawable/c88" n1:layout_alignRight="@id/yya" n1:layout_alignBottom="@id/yya" n1:layout_marginEnd="-5.0dp" n1:layout_alignEnd="@id/yya" />
+</RelativeLayout>

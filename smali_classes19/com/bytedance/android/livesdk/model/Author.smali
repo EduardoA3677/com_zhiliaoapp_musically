@@ -1,0 +1,33 @@
+.class public Lcom/bytedance/android/livesdk/model/Author;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public videoTotalCount:J
+    .annotation runtime LX/0B9U;
+        value = "video_total_count"
+    .end annotation
+.end field
+
+.field public videoTotalFavoriteCount:J
+    .annotation runtime LX/0B9U;
+        value = "video_total_favorite_count"
+    .end annotation
+.end field
+
+.field public videoTotalPlayCount:J
+    .annotation runtime LX/0B9U;
+        value = "video_total_play_count"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

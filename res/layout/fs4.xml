@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oaU n1:id="@id/aat" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:b1n="@integer/q" n2:fie="vhs" n2:fma="" n2:fn3="" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

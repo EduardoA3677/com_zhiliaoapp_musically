@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/tyx" n1:background="@drawable/ag9" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="16.0dp" n1:paddingEnd="42.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/iw4" n1:layout_width="match_parent" n1:layout_height="17.0dp" n1:layout_marginBottom="6.0dp" n2:fj2="px" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/r1f" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:maxLines="3" n3:fj2="p_" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <EditText n1:textColor="?zw" n1:textColorHint="?a04" n1:gravity="start|top" n1:id="@id/g4e" n1:background="@drawable/ag9" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="29.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scrollHorizontally="false" n1:inputType="textMultiLine" n1:overScrollMode="never" n1:paddingHorizontal="16.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/wyn" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginBottom="16.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="16.0dp" n4:fjq="@raw/icon_pen_on_paper" n4:fjt="20.0dp" n4:fk6="20.0dp" n4:fmy="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:layout_gravity="end|bottom" n1:id="@id/wyo" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:layout_marginEnd="12.0dp" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

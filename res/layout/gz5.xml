@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="start|center" n1:orientation="horizontal" n1:background="@drawable/dyo" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:paddingStart="4.0dp" n1:paddingEnd="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/aym" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:bne="@drawable/ewh" n2:bnf="d4s" n2:etn="?fey" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?few" n1:ellipsize="end" n1:gravity="center" n1:id="@id/ays" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="4.0dp" style="@style/a79" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/x9d" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="6.0dp" n3:f49="@drawable/elm" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

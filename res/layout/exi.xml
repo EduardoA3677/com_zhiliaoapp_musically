@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ssj" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/ssm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwl="@id/sso" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sso" n1:background="?dm" n1:layout_width="221.0dp" n1:layout_height="354.0dp" n1:layout_marginStart="16.0dp" n3:bwl="@id/ssl" n3:bx9="owf" n3:bxb="@id/ssm" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/ssk" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+        <X.11RT n1:id="@id/xgf" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="65.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:fi7="0.0" n3:fiy="0.3" n3:flv="#000000" n3:flw="lrn" />
+        <FrameLayout n1:id="@id/ssi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="36.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" />
+        <FrameLayout n1:id="@id/wup" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="8.0dp" n3:bwk="owf" n3:bx9="owf" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/o4s" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginBottom="8.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n3:bwk="owf" n3:bwq="owf" n3:fjq="@raw/icon_music_note_s_alt_slash" n3:fmy="?e3" />
+        <FrameLayout n1:id="@id/wus" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n3:bwk="owf" n3:bwq="owf" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/jlp" n1:layout_width="12.5dp" n1:layout_height="11.0dp" n1:layout_marginTop="8.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n3:bx9="owf" n3:bxc="owf" n3:fjq="@raw/icon_bag_fill" n3:fjz="true" n3:fmy="?xx" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/ssl" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/sso" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

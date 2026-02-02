@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/ss/ttlivestreamer/core/utils/SafeHandlerThread$IDispatchInterceptMainException;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/ttlivestreamer/core/utils/SafeHandlerThread;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "IDispatchInterceptMainException"
+.end annotation
+
+
+# virtual methods
+.method public abstract dispatchInterceptMainException(Ljava/lang/String;Ljava/lang/Throwable;)Z
+.end method

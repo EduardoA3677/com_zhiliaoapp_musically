@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="c75" />
+    <drawable name="co1">@drawable/co3</drawable>
+    <drawable name="co2">@drawable/co0</drawable>
+    <item type="drawable" name="d0_" format="string" />
+    <drawable name="dhg">@drawable/a9_</drawable>
+    <drawable name="dhh">@drawable/a9b</drawable>
+</resources>

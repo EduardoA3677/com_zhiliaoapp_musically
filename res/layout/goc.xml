@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="12.0sp" n1:textColor="?ei6" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/ywd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a7_" />
+    <FrameLayout n1:gravity="center_vertical" n1:id="@id/ljw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="14.0dp" n1:layout_marginStart="4.0dp">
+        <X.0cWm n1:id="@id/viewer_suggestion_avatar1" n1:background="@drawable/dv5" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n2:ffk="16.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0cWm n1:id="@id/viewer_suggestion_avatar2" n1:background="@drawable/dv5" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="12.0dp" n3:ffk="16.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ei2" n1:gravity="center_vertical" n1:id="@id/viewer_suggestion_user_count" n1:background="@drawable/dv6" n1:padding="2.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="18.0dp" n1:minWidth="18.0dp" n1:maxLines="1" n1:layout_marginStart="24.0dp" n4:b5h="10.0sp" n4:b5i="1.0sp" n4:b5l="z1f" style="@style/a79" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

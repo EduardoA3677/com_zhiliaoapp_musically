@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/f5l" n1:paddingLeft="12.0dp" n1:paddingTop="2.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:paddingHorizontal="12.0dp" n1:paddingVertical="2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:gravity="center" n1:id="@id/klx" n1:layout_width="wrap_content" n1:layout_height="match_parent" n2:eyl="2.0dp" n2:fox="1.0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

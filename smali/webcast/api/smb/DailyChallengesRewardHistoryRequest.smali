@@ -1,0 +1,39 @@
+.class public final Lwebcast/api/smb/DailyChallengesRewardHistoryRequest;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public limit:J
+    .annotation runtime LX/0B9U;
+        value = "limit"
+    .end annotation
+.end field
+
+.field public offset:J
+    .annotation runtime LX/0B9U;
+        value = "offset"
+    .end annotation
+.end field
+
+.field public rewardState:I
+    .annotation runtime LX/0B9U;
+        value = "reward_state"
+    .end annotation
+.end field
+
+.field public scene:I
+    .annotation runtime LX/0B9U;
+        value = "scene"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

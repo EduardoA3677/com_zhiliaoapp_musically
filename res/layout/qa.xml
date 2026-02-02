@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:id="@id/buu" n1:background="@drawable/a7v" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" n1:layout_centerHorizontal="true" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n2:ba4="@dimen/b5" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/vop_item_img_view" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:scaleType="centerCrop" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/hrb" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:contentDescription="@null" n1:elevation="7.0dp" n1:backgroundTint="?xr" n2:fjq="@raw/icon_pen" n2:fjt="20.0dp" n2:fk6="20.0dp" n2:fmy="?e0" />
+    </androidx.cardview.widget.CardView>
+    <X.0CHX n1:id="@id/vop_item_selected_view" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_centerHorizontal="true" />
+    <X.0mtB n1:id="@id/vop_item_loading_v2" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/vop_item_plus_view" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_alignBottom="@id/buu" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" n1:elevation="8.0dp" n3:fjq="@raw/icon_color_right_bottom_plus" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/vop_item_text_view" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:layout_below="@id/buu" n1:layout_centerHorizontal="true" n4:fj2="q2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

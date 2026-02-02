@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/sck" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="52.0dp" android:minHeight="34.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp">
+            <ImageView android:id="@id/kqn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.bytedance.tux.input.TuxTextView android:textColor="@color/bi" android:gravity="center_horizontal" android:id="@id/xtk" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

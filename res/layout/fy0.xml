@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dre" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="110.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/drd" n1:background="@drawable/dkb" n1:layout_width="12.0dp" n1:layout_height="110.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" />
+        <View n1:id="@id/drf" n1:background="@drawable/dkd" n1:layout_width="24.0dp" n1:layout_height="110.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dr4" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_marginBottom="40.0dp" n3:bwk="@id/dre" n3:bwq="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:id="@id/dr1" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/dka" n1:scaleType="fitXY" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+        <X.12nN n1:textSize="24.0dp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/dr8" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:textAlignment="center" n3:bwk="@id/dr1" n3:bwq="owf" n3:bx9="owf" n3:bxc="@id/dr1" />
+        <ImageView n1:id="@id/dr3" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/dkc" n1:scaleType="fitXY" n1:importantForAccessibility="no" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+        <X.12nN n1:textSize="22.0dp" n1:textColor="?c3r" n1:gravity="center" n1:id="@id/dr9" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:textAlignment="center" n3:bwk="@id/dr1" n3:bwq="owf" n3:bx9="owf" n3:bxc="@id/dr1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

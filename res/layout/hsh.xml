@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="end|center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="15.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/uok" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:src="@drawable/ep5" n1:scaleType="fitXY" />
+    <X.12nN n1:textColor="@color/a3_" n1:id="@id/uoy" n1:layout_width="wrap_content" n1:layout_height="15.0dp" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="8.0dp" n1:text="@null" n1:includeFontPadding="false" n1:shadowColor="@color/a6h" n1:shadowRadius="1.0" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="8.0dp" style="@style/qd" />
+</LinearLayout>

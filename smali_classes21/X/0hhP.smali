@@ -1,0 +1,149 @@
+.class public final LX/0hhP;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0IHJ;
+
+
+# instance fields
+.field public LL:Ljava/lang/String;
+
+.field public LLILIL:Ljava/lang/String;
+
+.field public LLILL:Ljava/lang/String;
+
+.field public LLILLIZIL:Ljava/lang/String;
+
+.field public LLILLJJLI:Ljava/lang/Integer;
+
+.field public LLILLL:Ljava/lang/Long;
+
+.field public LLILZ:Ljava/lang/String;
+
+.field public LLILZIL:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final checkExtraParamKey()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final filteredParams()Ljava/util/Map;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    invoke-virtual {p0}, LX/0hhP;->keyParams()Ljava/util/Map;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getExtraParam()Ljava/util/Map;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    invoke-static {}, LX/0PSl;->LJ()Ljava/util/Map;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final keyParams()Ljava/util/Map;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v2, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v2}, Ljava/util/LinkedHashMap;-><init>()V
+
+    const-string v1, "holiday_id"
+
+    iget-object v0, p0, LX/0hhP;->LL:Ljava/lang/String;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "from_new_user_journey_v2"
+
+    iget-object v0, p0, LX/0hhP;->LLILIL:Ljava/lang/String;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "hash_tag"
+
+    iget-object v0, p0, LX/0hhP;->LLILL:Ljava/lang/String;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "ugdp_id"
+
+    iget-object v0, p0, LX/0hhP;->LLILLIZIL:Ljava/lang/String;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "ugdp_type"
+
+    iget-object v0, p0, LX/0hhP;->LLILLJJLI:Ljava/lang/Integer;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "insert_aweme_duration"
+
+    iget-object v0, p0, LX/0hhP;->LLILLL:Ljava/lang/Long;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "external_sharer_uid"
+
+    iget-object v0, p0, LX/0hhP;->LLILZ:Ljava/lang/String;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "_oid"
+
+    iget-object v0, p0, LX/0hhP;->LLILZIL:Ljava/lang/String;
+
+    invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object v2
+.end method

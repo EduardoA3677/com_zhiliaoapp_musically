@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:theme="@style/wo" n1:gravity="center" n1:orientation="vertical" n1:id="@id/itv" n1:background="@drawable/aih" n1:paddingBottom="34.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="start|center" n1:id="@id/uoz" n1:layout_width="wrap_content" n1:layout_height="52.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/npy" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <View n1:background="?xy" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingLeft="16.0dp" n1:paddingTop="14.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="14.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="14.0dp">
+        <X.0Ci6 n1:id="@id/zdj" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:checked="true" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" n3:fii="u9x" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="8.0dp" n1:labelFor="@id/zdj" n4:bwk="owf" n4:bx8="@id/zdj" n4:bxc="owf" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/volume_container" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/volume_icon" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n5:fjq="@raw/icon_speaker_2_ltr" n5:fmy="?xx" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/volume_sign" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n5:fj2="p7" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

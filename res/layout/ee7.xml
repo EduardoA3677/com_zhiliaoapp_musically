@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/p9p" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:alpha="0.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0N9b n1:id="@id/p_8" n1:layout_width="0.0dp" n1:layout_height="match_parent" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0MU7 n1:id="@id/p9y" n1:background="@drawable/d0m" n1:paddingLeft="8.0dp" n1:paddingTop="4.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginEnd="16.0dp" n1:paddingHorizontal="8.0dp" n1:paddingVertical="4.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0MLn n1:id="@id/q9t" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwk="@id/p_8" n4:bwq="owf" n4:bx9="owf" n4:bxc="@id/p_8" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/q_h" n1:background="@drawable/d0g" n1:padding="6.0dp" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginBottom="12.0dp" n1:contentDescription="mute button" n1:layout_marginEnd="12.0dp" n5:bwk="@id/p_8" n5:bwq="owf" n5:fjq="@raw/icon_speaker_2_fill_ltr" n5:fmy="?xx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/hx8" n1:layout_width="match_parent" n1:layout_height="32.0dp" n6:bwk="@id/p_8" n6:bwq="owf" n6:bx9="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <View n1:layout_gravity="center" n1:id="@id/p_0" n1:layout_width="match_parent" n1:layout_height="32.0dp" />
+        <View n1:layout_gravity="center" n1:id="@id/p_3" n1:layout_width="@dimen/r4" n1:layout_height="@dimen/qq" />
+        <X.13l0 n1:gravity="center_vertical" n1:layout_gravity="center" n1:id="@id/hx6" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView n1:layout_gravity="center" n1:id="@id/q_3" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/cim" n1:contentDescription="play_img" n1:alpha="0.0" n7:bwk="@id/p_8" n7:bwq="owf" n7:bx9="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/pm1" n1:background="@drawable/d0q" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:alpha="0.0" n8:bwk="@id/p_7" n8:bwq="owf" n8:bx9="owf" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/pm5" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:contentDescription="@null" n8:fjq="@raw/icon_play_fill" n8:fmy="?xx" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/pm3" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:contentDescription="@null" n8:fjq="@raw/icon_pause_fill" n8:fmy="?xx" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

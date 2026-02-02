@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/lam" n1:background="@drawable/aj7" n1:padding="0.5dp" n1:layout_width="116.0dp" n1:layout_height="59.5dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/lf2" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/mm4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="9.0dp" n1:layout_marginRight="8.0dp" n1:lines="1" n1:textDirection="locale" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="8.0dp" n2:b5h="16.0sp" n2:b5i="5.0sp" n2:b5k="1.0sp" n2:b5l="z1f" n2:fj2="pt" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="start" n1:id="@id/gfd" n1:layout_width="65.0dp" n1:layout_height="14.5dp" n1:layout_marginBottom="7.0dp" n1:layout_alignParentBottom="true" n1:textDirection="locale" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" n3:b5h="12.0sp" n3:b5i="10.0sp" n3:b5k="1.0sp" n3:b5l="z1f" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/j4y" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_alignParentEnd="true" n4:b41="d4s" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <ImageView n1:id="@id/jq6" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.5dp" n1:src="@drawable/c63" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_marginEnd="8.0dp" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

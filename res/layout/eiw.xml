@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="0.75" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/sag" n1:background="?br" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:background="?zo" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.5" />
+    <View n1:id="@id/zku" n1:background="?dm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j2c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fjq="@raw/icon_calendar" n2:fjt="32.0dp" n2:fk6="32.0dp" n2:fmy="?e0" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/yc8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" n2:fj2="pv" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

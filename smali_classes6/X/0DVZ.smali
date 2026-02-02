@@ -1,0 +1,158 @@
+.class public final LX/0DVZ;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/sea/vm/SeaPdpMainState;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:LX/0DUY;
+
+.field public final synthetic LLILIL:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final synthetic LLILL:LX/00zH;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/00zH<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final synthetic LLILLIZIL:LX/00zH;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/00zH<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final synthetic LLILLJJLI:LX/00zH;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/00zH<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final synthetic LLILLL:J
+
+.field public final synthetic LLILZ:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(LX/0DUY;Ljava/util/Map;LX/00zH;LX/00zH;LX/00zH;JLjava/lang/String;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LX/0DUY;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;",
+            "LX/00zH<",
+            "Ljava/lang/Integer;",
+            ">;",
+            "LX/00zH<",
+            "Ljava/lang/String;",
+            ">;",
+            "LX/00zH<",
+            "Ljava/lang/String;",
+            ">;J",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LX/0DVZ;->LL:LX/0DUY;
+
+    iput-object p2, p0, LX/0DVZ;->LLILIL:Ljava/util/Map;
+
+    iput-object p3, p0, LX/0DVZ;->LLILL:LX/00zH;
+
+    iput-object p4, p0, LX/0DVZ;->LLILLIZIL:LX/00zH;
+
+    iput-object p5, p0, LX/0DVZ;->LLILLJJLI:LX/00zH;
+
+    iput-wide p6, p0, LX/0DVZ;->LLILLL:J
+
+    iput-object p8, p0, LX/0DVZ;->LLILZ:Ljava/lang/String;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 13
+
+    iget-object v0, p0, LX/0DVZ;->LL:LX/0DUY;
+
+    iget-object v0, v0, LX/0DUY;->LIZ:Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/sea/vm/SeaPdpViewModel;
+
+    invoke-static {v0}, Landroidx/lifecycle/ViewModelKt;->getViewModelScope(Landroidx/lifecycle/ViewModel;)LX/02uK;
+
+    move-result-object v2
+
+    sget-object v1, LX/0vka;->LIZJ:LX/15Bj;
+
+    new-instance v3, LX/0DVV;
+
+    iget-object v4, p0, LX/0DVZ;->LLILIL:Ljava/util/Map;
+
+    iget-object v5, p0, LX/0DVZ;->LL:LX/0DUY;
+
+    iget-object v6, p0, LX/0DVZ;->LLILL:LX/00zH;
+
+    iget-object v7, p0, LX/0DVZ;->LLILLIZIL:LX/00zH;
+
+    iget-object v8, p0, LX/0DVZ;->LLILLJJLI:LX/00zH;
+
+    iget-wide v9, p0, LX/0DVZ;->LLILLL:J
+
+    iget-object v11, p0, LX/0DVZ;->LLILZ:Ljava/lang/String;
+
+    const/4 v12, 0x0
+
+    invoke-direct/range {v3 .. v12}, LX/0DVV;-><init>(Ljava/util/Map;LX/0DUY;LX/00zH;LX/00zH;LX/00zH;JLjava/lang/String;LX/02wT;)V
+
+    const/4 v0, 0x2
+
+    invoke-static {v2, v1, v12, v3, v0}, LX/15Ap;->LIZLLL(LX/02uK;Lkotlin/coroutines/CoroutineContext;LX/0PB8;Lkotlin/jvm/functions/Function2;I)LX/040L;
+
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    return-object v0
+.end method

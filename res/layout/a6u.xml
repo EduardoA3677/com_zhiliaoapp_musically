@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/fcv" n1:layout_width="8.0dp" n1:layout_height="28.0dp" n1:layout_centerHorizontal="true" />
+    <X.0X4S n1:id="@id/nyo" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxWidth="500.0dp" n1:layout_toStartOf="@id/fcv" n1:layout_alignParentStart="true" n2:fib="u9x" n2:fid="t69" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0X4S n1:id="@id/q7w" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxWidth="500.0dp" n1:layout_toEndOf="@id/fcv" n1:layout_alignParentEnd="true" n3:fib="u9x" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

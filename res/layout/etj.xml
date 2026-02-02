@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:theme="@style/wo" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:theme="@style/wo" n1:id="@id/vop_layout" n1:background="@drawable/fdf" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="480.0dp" n1:layout_alignParentBottom="true" n2:bwk="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/vop_close_half" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:contentDescription="vop_close_half" n1:layout_marginEnd="10.0dp" n1:layout_alignParentEnd="true" n2:fjq="@raw/icon_x_mark_small" n2:fmy="?e0" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/vop_close_full" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:contentDescription="vop_close_full" n1:layout_marginStart="10.0dp" n1:layout_alignParentStart="true" n2:fjq="@raw/icon_x_mark_small" n2:fmy="?e0" />
+    </RelativeLayout>
+    <RelativeLayout n1:theme="@style/wo" n1:id="@id/adl" n1:background="?zq" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentBottom="true" n3:bwk="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/adk" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:contentDescription="agreement_detail_back" n1:layout_marginStart="16.0dp" n3:fjq="@raw/icon_chevron_left_ltr" n3:fjt="24.0dp" n3:fk6="24.0dp" n3:fmy="?e0" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/adm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:maxWidth="280.0dp" n1:text="@null" n1:maxLines="1" n1:layout_centerHorizontal="true" n3:fj2="p0" n3:fl1="3.0dp" />
+        <FrameLayout n1:id="@id/webview_container" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="68.0dp" n1:layout_marginBottom="90.0dp" n1:layout_alignParentBottom="true" />
+        <X.0D2z n1:id="@id/adr" n1:layout_width="145.0dp" n1:layout_height="48.0dp" n1:layout_marginBottom="20.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n1:layout_marginStart="30.0dp" />
+        <X.0D2z n1:id="@id/ads" n1:layout_width="145.0dp" n1:layout_height="48.0dp" n1:text="@null" n1:layout_alignTop="@id/adr" n1:layout_marginEnd="30.0dp" n1:layout_alignParentEnd="true" />
+        <X.0oCE n1:layout_gravity="center_vertical" n1:id="@id/mlj" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

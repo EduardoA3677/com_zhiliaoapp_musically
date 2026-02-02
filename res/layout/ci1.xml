@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/d8d" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:splitMotionEvents="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/d8e" n1:fitsSystemWindows="true" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/yzp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/d84" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:id="@id/up1" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+            <FrameLayout n1:id="@id/d8f" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <View n1:id="@id/tep" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            <X.08BN n1:id="@id/d8h" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <ViewStub n1:id="@id/d8g" n1:layout="@layout/ctd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <FrameLayout n1:id="@id/hda" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n1:splitMotionEvents="false" n1:translationZ="-1.0dp">
+                <ViewStub n1:id="@id/rn0" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <LinearLayout n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/hmn" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <ViewStub n1:id="@id/wrv" n1:layout="@layout/cte" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <LinearLayout n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/z31" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp">
+                        <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="end" n1:orientation="horizontal" n1:id="@id/z2x" n1:padding="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/r5" n1:elevation="8.0dp">
+                            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fjq="@raw/icon_chevron_up_double_fill" n2:fjt="12.0dp" n2:fk6="12.0dp" n2:fmy="?a06" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                            <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:layout_gravity="center_vertical" n1:id="@id/z2w" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                        </LinearLayout>
+                        <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="end" n1:orientation="horizontal" n1:id="@id/z2z" n1:padding="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginBottom="12.0dp" n1:elevation="8.0dp">
+                            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:fjq="@raw/icon_chevron_up_double_fill" n4:fjt="12.0dp" n4:fk6="12.0dp" n4:fmy="?a06" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                            <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:layout_gravity="center_vertical" n1:id="@id/z2y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n5:fj2="pz" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <include layout="@layout/cs_" />
+                <View n1:id="@id/fa4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <FrameLayout n1:id="@id/uz4" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="4.0dp" />
+                <FrameLayout n1:id="@id/jed" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </FrameLayout>
+            <FrameLayout n1:id="@id/d86" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <FrameLayout n1:id="@id/ue" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:translationZ="-2.0dp" />
+                <FrameLayout n1:id="@id/k05" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </FrameLayout>
+            <FrameLayout n1:id="@id/yzo" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:translationZ="-2.0dp" />
+            <X.0D2z n1:id="@id/e6s" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="28.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n6:fib="l9r" n6:fid="qhx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <ViewStub n1:id="@id/n4e" n1:layout="@layout/crb" n1:inflatedId="@id/n4b" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+        <ViewStub n1:id="@id/d88" n1:layout="@layout/cq3" n1:inflatedId="@id/d87" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <ViewStub n1:layout_gravity="bottom" n1:id="@id/jdw" n1:layout="@layout/ci4" n1:inflatedId="@id/jdv" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <ViewStub n1:layout_gravity="bottom" n1:id="@id/ji8" n1:layout="@layout/ci2" n1:inflatedId="@id/ji7" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/jin" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/jdb" n1:layout="@layout/cq1" n1:inflatedId="@id/jda" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/jj8" n1:layout="@layout/ct0" n1:inflatedId="@id/uz6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

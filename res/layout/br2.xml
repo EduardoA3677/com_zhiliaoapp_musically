@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dgc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxc="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <FrameLayout n1:id="@id/hbb" n1:clipChildren="false" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n1:layout_marginTop="8.0dp" n1:layout_centerVertical="true" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf">
+        <X.0qzH n1:layout_gravity="center" n1:id="@id/kfb" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="4.0dp" />
+        <X.0ChR n1:layout_gravity="center" n1:id="@id/k9y" n1:padding="3.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:elm="2.0dp" />
+    </FrameLayout>
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:layout_marginBottom="10.0dp" n1:minHeight="56.0dp" n1:layout_marginStart="8.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/hbb" n2:bxc="owf">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/xzy" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:layout_marginEnd="4.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/wqp" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="TopBrandIcon" n1:layout_marginEnd="2.0dp" n2:fjq="@raw/icon_tiktok_logo" n2:fmy="?ye" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/xzx" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:text="" n1:maxLines="1" n2:fj2="qd" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="19.0dp" n1:layout_marginBottom="4.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/yb4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:maxLines="1" n1:layout_weight="1.0" n2:fj2="p7" />
+                    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/bpu" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="blueV" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n2:fjq="@raw/icon_color_verified_badge" />
+                </LinearLayout>
+                <X.12xb n1:id="@id/mgh" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n2:bo0="wrap" n2:buy="hls" />
+                <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/mgi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginTop="4.0dp" />
+            </LinearLayout>
+            <X.0D2z n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/yps" n1:layout_width="93.0dp" n1:layout_height="32.0dp" n1:layout_marginStart="8.0dp" n2:fi8="true" n2:fib="u9x" n2:fid="qhx" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

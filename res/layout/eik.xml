@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/kb5" n1:background="?f0l" n1:layout_width="match_parent" n1:layout_height="76.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cru n1:id="@id/b64" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" n2:bwk="owf" n2:bx3="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="84.0dp" n1:layout_marginRight="60.0dp" n1:layout_marginStart="84.0dp" n1:layout_marginEnd="60.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx3="owf" n3:bx7="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/lqk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n3:fj2="p7" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/lql" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n3:fj2="px" />
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/erq" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_tick_fill" n4:fmy="?yi" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bx7="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.0CU3 n1:gravity="center" n1:id="@id/n5g" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:paddingStart="5.0dp" n1:paddingEnd="5.0dp" n1:layout_marginEnd="16.0dp" n5:fi1="n1d" n5:fi6="ocf" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ops" n1:layout_width="168.0dp" n1:layout_height="92.0dp" n1:layout_marginTop="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.128p n1:id="@id/v89" n1:background="@drawable/e7i" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n1:clipToOutline="true" />
+    <X.0D0r n1:id="@id/v8_" n1:background="@drawable/e7k" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="8.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/wi" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n2:br4="?dbg" n2:brl="?c3r" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="@color/a32" n1:gravity="center" n1:id="@id/v7z" n1:background="@drawable/e7j" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/jkk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/jk5" n1:layout_width="16.0dp" n1:layout_height="16.0dp" />
+            <X.12nN n1:layout_gravity="center_vertical" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" style="@style/a7_" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/violation_entrance" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginTop="2.0dp" n4:br4="?cu7" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/png" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n5:br4="?dx_" n5:brl="?ei6" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,152 @@
+.class public final LX/0XcI;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:LX/0XcK;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0XcK;
+
+    invoke-direct {v0}, LX/0XcK;-><init>()V
+
+    sput-object v0, LX/0XcI;->LIZ:LX/0XcK;
+
+    return-void
+.end method
+
+.method public static LIZ(Ljava/io/Closeable;)V
+    .locals 0
+
+    if-eqz p0, :cond_0
+
+    :try_start_0
+    invoke-interface {p0}, Ljava/io/Closeable;->close()V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    :cond_0
+    return-void
+.end method
+
+.method public static LIZIZ(Ljava/lang/String;)I
+    .locals 5
+
+    const/4 v4, -0x1
+
+    const/4 v1, 0x0
+
+    :try_start_0
+    new-instance v3, LX/0XgU;
+
+    invoke-direct {v3, p0}, LX/0XgU;-><init>(Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    :try_start_1
+    new-instance v2, Ljava/io/BufferedReader;
+
+    new-instance v0, Ljava/io/InputStreamReader;
+
+    invoke-direct {v0, v3}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+
+    invoke-direct {v2, v0}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :try_start_2
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    const-string v0, "0-[\\d]+$"
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x2
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/bytedance/mt/protector/impl/string2number/CastIntegerProtector;->parseInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    add-int/lit8 v4, v0, 0x1
+
+    goto :goto_3
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
+    .catchall {:try_start_2 .. :try_end_2} :catchall_2
+
+    :catchall_0
+    move-exception v0
+
+    goto :goto_0
+
+    :catchall_1
+    move-exception v0
+
+    move-object v2, v1
+
+    goto :goto_1
+
+    :catchall_2
+    move-exception v0
+
+    move-object v1, v2
+
+    :goto_0
+    move-object v2, v1
+
+    move-object v1, v3
+
+    :goto_1
+    invoke-static {v1}, LX/0XcI;->LIZ(Ljava/io/Closeable;)V
+
+    invoke-static {v2}, LX/0XcI;->LIZ(Ljava/io/Closeable;)V
+
+    throw v0
+
+    :catch_0
+    move-object v2, v1
+
+    goto :goto_2
+
+    :catch_1
+    move-object v1, v2
+
+    :catch_2
+    move-object v2, v1
+
+    move-object v1, v3
+
+    :goto_2
+    invoke-static {v1}, LX/0XcI;->LIZ(Ljava/io/Closeable;)V
+
+    goto :goto_4
+
+    :cond_0
+    :goto_3
+    invoke-static {v3}, LX/0XcI;->LIZ(Ljava/io/Closeable;)V
+
+    :goto_4
+    invoke-static {v2}, LX/0XcI;->LIZ(Ljava/io/Closeable;)V
+
+    return v4
+.end method

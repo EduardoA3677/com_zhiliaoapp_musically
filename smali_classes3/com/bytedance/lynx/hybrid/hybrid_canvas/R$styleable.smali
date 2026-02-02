@@ -1,0 +1,3 @@
+.class public Lcom/bytedance/lynx/hybrid/hybrid_canvas/R$styleable;
+.super Lcom/ss/android/ugc/aweme/app/R$styleable;
+.source "SourceFile"

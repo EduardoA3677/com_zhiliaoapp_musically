@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/c4n" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0qTA n1:id="@id/c4l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bx9="owf" n3:bxb="@id/c4n" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/c4m" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" n4:bwk="owf" n4:fib="l9r" n4:fid="qhx" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

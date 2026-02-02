@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/g09" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/wid" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="28.0dp" n1:layout_marginEnd="28.0dp" n2:fj2="ot" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:text="@null" n1:layout_marginStart="28.0dp" n1:layout_marginEnd="28.0dp" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0msj n1:layout_gravity="center" n1:id="@id/hgj" n1:layout_width="210.0dp" n1:layout_height="210.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="24.0dp">
+        <X.0CzR n1:layout_gravity="center" n1:id="@id/iqz" n1:layout_width="210.0dp" n1:layout_height="210.0dp" n1:scaleType="centerInside" n1:defaultFocusHighlightEnabled="false" />
+        <X.0D1z n1:id="@id/ir4" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:etn="@color/do" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/oqb" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n5:fjq="@raw/icon_camera_fill" n5:fmy="?e0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n6:fj2="p3" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </X.0msj>
+</LinearLayout>

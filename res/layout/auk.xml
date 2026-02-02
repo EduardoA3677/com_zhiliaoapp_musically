@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/dyk" n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:layout_gravity="center|bottom" n1:id="@id/view_more" n1:background="@drawable/b00" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="120.0dp">
+        <LinearLayout n1:layout_gravity="center|bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="24.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/view_more_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/view_more_icon" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n3:fjq="@raw/icon_chevron_down_fill" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

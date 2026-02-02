@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="12.0sp" n1:textColor="@color/bi" n1:id="@id/t7y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.12tp n1:layout_gravity="center" n1:id="@id/t80" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:maxHeight="3.0dp" n1:progressDrawable="@drawable/e3d" n1:thumb="@drawable/f64" />
+</FrameLayout>

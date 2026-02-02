@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/sed" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="start" n1:id="@id/qov" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/gl" n1:text="@null" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bx9="owf" n2:bxc="owf" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="start" n1:id="@id/qou" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/h0" n1:text="@null" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bx9="owf" n3:bxb="@id/qov" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include n1:layout_gravity="center_horizontal" n1:id="@id/b82" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" layout="@layout/wz" />
+        <FrameLayout n1:orientation="horizontal" n1:id="@id/g35" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="26.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="start" n1:id="@id/enn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n4:fj2="pz" style="@style/a85" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="end" n1:id="@id/o3i" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0/30" n5:fj2="px" style="@style/a85" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <include n1:id="@id/tij" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" layout="@layout/x1" style="@style/a85" />
+        <X.0D2z n1:id="@id/tip" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="@dimen/gp" n1:text="@null" style="@style/a85" />
+    </LinearLayout>
+</ScrollView>

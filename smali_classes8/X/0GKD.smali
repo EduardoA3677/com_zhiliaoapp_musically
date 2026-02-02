@@ -1,0 +1,44 @@
+.class public final LX/0GKD;
+.super Landroid/view/ViewOutlineProvider;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0GKE;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "c"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getOutline(Landroid/view/View;Landroid/graphics/Outline;)V
+    .locals 3
+
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
+
+    move-result v2
+
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
+
+    move-result v1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p2, v0, v0, v2, v1}, Landroid/graphics/Outline;->setRect(IIII)V
+
+    return-void
+.end method

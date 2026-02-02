@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="horizontal" n1:id="@id/p4s" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/koe" n1:layout_width="17.5dp" n1:layout_height="17.5dp" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" n2:fjq="@raw/icon_control_fill" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center_vertical" n1:id="@id/p4t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_marginStart="25.0dp" n1:layout_marginEnd="10.0dp" n1:layout_alignParentStart="true" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/oqz" n1:layout_width="17.5dp" n1:layout_height="17.5dp" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" n4:fjq="@raw/icon_chevron_right_offset_ltr" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

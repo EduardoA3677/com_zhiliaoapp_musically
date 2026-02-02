@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="24.0dp" n1:layout_height="24.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/gr4" n1:background="@drawable/act" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:fj2="q2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

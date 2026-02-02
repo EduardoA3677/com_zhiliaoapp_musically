@@ -1,0 +1,183 @@
+.class public final LX/0CQH;
+.super Landroid/widget/LinearLayout;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LL:Lcom/bytedance/tux/input/TuxTextView;
+
+.field public final LLILIL:Lcom/bytedance/tux/input/TuxTextView;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 14
+
+    const/4 v12, 0x0
+
+    move-object/from16 v0, p2
+
+    invoke-direct {p0, p1, v0, v12}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    const/16 v11, 0x11
+
+    invoke-virtual {p0, v11}, Landroid/widget/LinearLayout;->setGravity(I)V
+
+    invoke-virtual {p0, v12}, Landroid/widget/LinearLayout;->setOrientation(I)V
+
+    if-eqz p1, :cond_0
+
+    const v0, 0x7f060014
+
+    invoke-static {v0, p1}, LX/0YcJ;->LIZJ(ILandroid/content/Context;)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v10
+
+    :goto_0
+    const v0, 0x7f060069
+
+    invoke-static {v0, p1}, LX/0YcJ;->LIZJ(ILandroid/content/Context;)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v13
+
+    :goto_1
+    new-instance v9, Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const/4 v8, 0x0
+
+    const/4 v7, 0x6
+
+    invoke-direct {v9, v0, v8, v7, v12}, Lcom/bytedance/tux/input/TuxTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+    const/16 v6, 0x47
+
+    invoke-virtual {v9, v6}, Lcom/bytedance/tux/input/TuxTextView;->setTuxFont(I)V
+
+    invoke-virtual {v9, v11}, Landroid/widget/TextView;->setGravity(I)V
+
+    invoke-virtual {v9, v13}, Landroid/widget/TextView;->setTextColor(I)V
+
+    const/high16 v5, 0x41400000    # 12.0f
+
+    invoke-virtual {v9, v5}, Landroid/widget/TextView;->setTextSize(F)V
+
+    const-string v0, "1"
+
+    invoke-virtual {v9, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    const/high16 v4, 0x40000000    # 2.0f
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v9, v4, v3, v4, v10}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
+
+    iput-object v9, p0, LX/0CQH;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    new-instance v2, Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0, v8, v7, v12}, Lcom/bytedance/tux/input/TuxTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+    invoke-virtual {v2, v6}, Lcom/bytedance/tux/input/TuxTextView;->setTuxFont(I)V
+
+    invoke-virtual {v2, v11}, Landroid/widget/TextView;->setGravity(I)V
+
+    invoke-virtual {v2, v13}, Landroid/widget/TextView;->setTextColor(I)V
+
+    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setTextSize(F)V
+
+    const-string v0, " / "
+
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {v2, v4, v3, v4, v10}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
+
+    new-instance v1, Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0, v8, v7, v12}, Lcom/bytedance/tux/input/TuxTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+
+    invoke-virtual {v1, v6}, Lcom/bytedance/tux/input/TuxTextView;->setTuxFont(I)V
+
+    invoke-virtual {v1, v11}, Landroid/widget/TextView;->setGravity(I)V
+
+    invoke-virtual {v1, v13}, Landroid/widget/TextView;->setTextColor(I)V
+
+    invoke-virtual {v1, v5}, Landroid/widget/TextView;->setTextSize(F)V
+
+    invoke-virtual {v1, v4, v3, v4, v10}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
+
+    iput-object v1, p0, LX/0CQH;->LLILIL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {p0, v9}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    return-void
+
+    :cond_0
+    const/4 v10, 0x0
+
+    if-eqz p1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v13, 0x0
+
+    goto :goto_1
+.end method
+
+
+# virtual methods
+.method public final setCurrentNum(I)V
+    .locals 2
+
+    iget-object v1, p0, LX/0CQH;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method
+
+.method public final setTotalNum(I)V
+    .locals 2
+
+    iget-object v1, p0, LX/0CQH;->LLILIL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method

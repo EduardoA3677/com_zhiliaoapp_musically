@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/e2a" n1:layout_width="wrap_content" n1:layout_height="42.0px" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="30.0px" n1:textColor="@color/aaa" n1:ellipsize="end" n1:id="@id/q7p" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="192.0px" n1:maxLines="1" n1:includeFontPadding="true" n1:paddingStart="12.0px" n1:paddingEnd="12.0px" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" style="@style/qj" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

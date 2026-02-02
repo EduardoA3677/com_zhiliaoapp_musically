@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sfr" n1:background="@drawable/dxm" n1:paddingBottom="30.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="17.0dp" n1:textColor="@color/a7z" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:text="@null" style="@style/a6q" />
+    <View n1:background="@color/c_" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.12nN n1:textSize="15.0dp" n1:textColor="@color/dl" n1:layout_gravity="center" n1:id="@id/x2i" n1:background="@color/b1" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp" style="@style/a6s" />
+    <include n1:id="@id/ra9" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/wwr" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/vat" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/lt0" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/q4t" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/et4" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/q56" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/fnc" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/aiu" n1:visibility="gone" layout="@layout/gw9" />
+</LinearLayout>

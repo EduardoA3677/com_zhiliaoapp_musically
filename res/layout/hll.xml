@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="20.0dp" n1:paddingBottom="25.0dp" n1:layout_width="wrap_content" n1:layout_height="100.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/lme" n1:layout_width="10.0dp" n1:layout_height="match_parent" n2:bwk="owf" n2:bx3="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/s_5" n1:layout_width="10.0dp" n1:layout_height="match_parent" n3:bwk="owf" n3:bx7="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bbc" n1:background="@drawable/duk" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n4:bwk="owf" n4:bx4="@id/lme" n4:bx6="@id/s_5" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:layout_gravity="center" n1:id="@id/jk5" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n5:b41="h_j" n5:bwk="@id/bbc" n5:bx3="@id/bbc" n5:bx7="@id/bbc" n5:bxc="@id/bbc" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0rBl n1:id="@id/mj6" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:bwk="@id/bbc" n6:bx3="@id/bbc" n6:bx7="@id/bbc" n6:bxc="@id/bbc" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/fi6" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:src="@drawable/ed1" n7:bwk="@id/jk5" n7:bwq="@id/jk5" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

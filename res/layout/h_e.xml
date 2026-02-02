@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/al6" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="12.0dp" n1:contentDescription="alert icon" n1:layout_marginStart="16.0dp" n2:bx9="owf" n2:bxc="owf" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/al8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:textAlignment="textStart" n1:layout_marginStart="8.0dp" n3:bwg="true" n3:bwq="owf" n3:bx8="@id/al6" n3:bxc="owf" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/al4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="12.0dp" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="16.0dp" n4:bwg="true" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/al6" n4:bxb="@id/al8" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

@@ -1,0 +1,72 @@
+.class public Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader$1;
+.super Ljava/io/ByteArrayOutputStream;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic this$0:Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader;I)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader$1;->this$0:Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader;
+
+    invoke-direct {p0, p2}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .locals 5
+
+    iget v4, p0, Ljava/io/ByteArrayOutputStream;->count:I
+
+    if-lez v4, :cond_0
+
+    iget-object v1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
+
+    add-int/lit8 v0, v4, -0x1
+
+    aget-byte v1, v1, v0
+
+    const/16 v0, 0xd
+
+    if-ne v1, v0, :cond_0
+
+    add-int/lit8 v4, v4, -0x1
+
+    :cond_0
+    :try_start_0
+    new-instance v3, Ljava/lang/String;
+
+    iget-object v2, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
+
+    iget-object v0, p0, Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader$1;->this$0:Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader;
+
+    iget-object v0, v0, Lcom/ss/android/ugc/effectmanager/disklrucache/StrictLineReader;->charset:Ljava/nio/charset/Charset;
+
+    invoke-virtual {v0}, Ljava/nio/charset/Charset;->name()Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v0, 0x0
+
+    invoke-direct {v3, v2, v0, v4, v1}, Ljava/lang/String;-><init>([BIILjava/lang/String;)V
+
+    return-object v3
+    :try_end_0
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    move-exception v1
+
+    new-instance v0, Ljava/lang/AssertionError;
+
+    invoke-direct {v0, v1}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+
+    throw v0
+.end method

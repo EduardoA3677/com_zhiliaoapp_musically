@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="@drawable/ayo" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/aca" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n2:bw5="androidx.recyclerview.widget.LinearLayoutManager" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/acu" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n3:bxb="@id/aca" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.recyclerview.widget.RecyclerView n1:orientation="horizontal" n1:id="@id/acm" n1:paddingBottom="16.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n4:bw5="androidx.recyclerview.widget.LinearLayoutManager" n4:bx9="owf" n4:bxb="@id/acu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

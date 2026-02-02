@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0vCq n1:id="@id/cxm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bqp="@id/cxo" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/cxn" n1:layout_width="239.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="20.0dp" n1:text="@null" n2:bwl="@id/cxo" n2:bwq="@id/cxo" n2:bx9="@id/cxo" n2:fj2="ox" />
+        <RelativeLayout n1:gravity="center" n1:id="@id/cxo" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="344.0dp" n1:layout_below="@id/cxn" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <X.0vCs n1:layout_gravity="center" n1:id="@id/efi" n1:background="@drawable/bkf" n1:visibility="gone" n1:layout_width="100.0dp" n1:layout_height="100.0dp" n2:bgv="3000" n2:bwk="@id/cxo" n2:bwq="@id/cxo" n2:bx9="@id/cxo" n2:bxc="@id/cxo" n2:ews="false" />
+    </X.0vCq>
+    <X.0vCo n1:id="@id/gi_" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bk0="@id/gi7" n3:bqp="@id/flz" n3:bx9="owf" n3:bxc="owf" n3:end="@color/dx" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout n1:id="@id/flz" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/rp" n1:layout_marginBottom="@dimen/rp" n3:bx9="owf" n3:bxc="owf" />
+        <ImageButton n1:id="@id/gi7" n1:background="@color/dx" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="8.0dp" n1:scaleType="fitCenter" n1:layout_marginEnd="8.0dp" n3:bwq="@id/flz" n3:bxc="@id/flz" />
+    </X.0vCo>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:clipChildren="true" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="2.0dp" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="8.0dp" n2:bwr="@id/cty" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0o06 n1:layout_gravity="center_vertical" n1:id="@id/vzq" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <X.0d3Z n1:id="@id/cty" n1:layout_width="160.0dp" n1:layout_height="160.0dp" n1:scaleType="centerCrop" n1:translationY="-39.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.03HH n1:textSize="28.0dp" n1:id="@id/ctx" n1:layout_width="41.0dp" n1:layout_height="37.0dp" n1:layout_marginTop="36.0dp" n1:lineSpacingExtra="3.0sp" n1:rotation="-18.0" n1:textDirection="ltr" n1:layout_marginEnd="28.0dp" n1:letterSpacing="-0.05" n4:bwq="@id/cty" n4:bxc="@id/cty" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

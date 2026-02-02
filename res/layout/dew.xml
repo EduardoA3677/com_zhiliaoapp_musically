@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0lvW n1:orientation="horizontal" n1:id="@id/lii" n1:layout_width="match_parent" n1:layout_height="@dimen/fe" n2:fdb="@color/a0_" n2:fdr="@dimen/fa" n2:fe1="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0mEr n1:id="@id/vkq" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_toRightOf="@id/jp3" n1:overScrollHeader="@color/rl" n1:overScrollFooter="@color/rl" n1:layout_toEndOf="@id/jp3" n2:f89="h64" n2:f8e="@color/u6" n2:f8j="2.0dp" n2:f8m="30.0dp" n2:f8n="sqt" n2:f8q="0.0dp" n2:f8r="0.0dp" n2:fan="@style/a0h" />
+    <X.0Cxr n1:id="@id/vkp" n1:layout_width="0.5dp" n1:layout_height="16.0dp" n1:layout_alignLeft="@id/vkq" n1:layout_centerVertical="true" n1:layout_alignStart="@id/vkq" n2:fdb="@color/a0f" />
+</X.0lvW>

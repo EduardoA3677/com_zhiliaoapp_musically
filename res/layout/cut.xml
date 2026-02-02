@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/ygj" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="135.0dp" n1:shadowColor="?zp" n1:shadowDy="1.0" n1:shadowRadius="5.0" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Hgm n1:enabled="false" n1:layout_gravity="center|bottom" n1:id="@id/rl0" n1:focusableInTouchMode="true" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp" />
+    <X.06JM n1:layout_gravity="center|bottom" n1:id="@id/dbr" n1:focusable="false" n1:visibility="visible" n1:clickable="false" n1:clipToPadding="false" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_marginBottom="20.0dp" />
+</FrameLayout>

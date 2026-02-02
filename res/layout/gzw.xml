@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0wn4 n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13dw n1:layout_gravity="center" n1:id="@id/l_f" n1:layout_width="match_parent" n1:layout_height="60.0dp" n1:layout_marginBottom="2.0dp" n1:scaleType="centerCrop" n1:alpha="0.0" />
+    <X.0D0r n1:layout_gravity="center" n1:id="@id/kpf" n1:layout_width="match_parent" n1:layout_height="60.0dp" n1:layout_marginBottom="2.0dp" n1:scaleType="centerCrop" n1:alpha="0.0" />
+</X.0wn4>

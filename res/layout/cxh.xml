@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/lin" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/qf0" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/qev" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/t8c" android:background="@drawable/a78" android:layout_width="wrap_content" android:layout_height="40.0dp" android:layout_marginTop="60.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.bytedance.tux.input.TuxTextView android:textColor="@drawable/a_l" android:gravity="center" android:id="@id/h1t" android:background="@drawable/a76" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="74.5dp" android:text="@null" android:paddingStart="12.5dp" android:paddingEnd="10.0dp" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView android:textColor="@drawable/a_l" android:gravity="center" android:id="@id/hx9" android:background="@drawable/a83" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="74.5dp" android:text="@null" android:paddingStart="10.0dp" android:paddingEnd="12.5dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

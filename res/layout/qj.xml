@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="wrap_content" n1:layout_height="75.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMc n1:id="@id/jqg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bt8="true" n2:bt9="true" n2:bti="false" n2:btj="false" n2:btk="true" n2:bu4="52.0dp" n2:bu5="52.0dp" n2:erj="true" n2:etk="@drawable/a9y" n2:f1u="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0mEZ n1:id="@id/hr9" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_marginLeft="2.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginStart="2.0dp" n3:b7t="@color/d1" n3:bt8="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.13dw n1:id="@id/mpo" n1:padding="16.0dp" n1:visibility="gone" n1:layout_width="56.5dp" n1:layout_height="56.5dp" n4:ey2="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_gravity="end" n1:id="@id/kf_" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="3.0dp" n1:layout_marginTop="40.0dp" n1:layout_marginRight="3.0dp" n1:src="@drawable/a9_" n1:scaleType="fitXY" n1:layout_marginStart="3.0dp" n1:layout_marginEnd="3.0dp" />
+    <X.0mtB n1:id="@id/kt6" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginStart="2.0dp" />
+</FrameLayout>

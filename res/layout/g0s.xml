@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vb n1:id="@id/rio" n1:layout_width="match_parent" n1:layout_height="616.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:id="@id/ow2" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/lnp">
+        <X.0rWs n1:id="@id/ow1" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0rWs n1:id="@id/whs" n1:padding="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+                <X.12nN n1:textSize="24.0dp" n1:textColor="?ekq" n1:layout_gravity="start" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_alignParentTop="true" n1:letterSpacing="0.01" n2:bzi="30.0dp" style="@style/a6j" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <X.12nN n1:textSize="13.0dp" n1:textColor="?ekr" n1:id="@id/yqj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:text="@null" n1:maxLines="2" n1:layout_below="@id/yti" n1:layout_alignStart="@id/yti" n1:layout_alignEnd="@id/yti" n1:letterSpacing="0.0097" n3:bzi="16.899994dp" style="@style/a77" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </X.0rWs>
+            <X.12vY n1:id="@id/wq5" n1:background="?c0q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_below="@id/whs" n1:layout_marginHorizontal="16.0dp" n4:evp="12.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                <X.0o06 n1:orientation="vertical" n1:id="@id/si0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:nestedScrollingEnabled="false" />
+            </X.12vY>
+            <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_below="@id/wq5" n1:layout_marginHorizontal="16.0dp" layout="@layout/g0y" />
+        </X.0rWs>
+    </ScrollView>
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp" n1:layout_above="@id/cdy" n1:layout_marginHorizontal="16.0dp" layout="@layout/g0x" />
+    <X.12i1 n1:orientation="vertical" n1:id="@id/cdy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <X.12pz n1:id="@id/cdx" n1:background="?ff1" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" n5:evp="6.0dp" style="@style/a5e" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ekr" n1:layout_gravity="center" n1:id="@id/rin" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:lines="1" n1:textAlignment="center" style="@style/a77" />
+    </X.12i1>
+</X.12vb>

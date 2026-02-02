@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Hljóðsafn á netinu</item>
+        <item>Hljóðið mitt</item>
+    </string-array>
+    <string-array name="l">
+        <item>Hreinsa</item>
+    </string-array>
+    <string-array name="q">
+        <item>Eyða</item>
+        <item>Hætta við</item>
+    </string-array>
+    <string-array name="t">
+        <item>Vinsælt</item>
+        <item>Nýjast</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>Fyrstu 20</item>
+        <item>Fyrstu 40</item>
+        <item>Fyrstu 60</item>
+        <item>Fyrstu 80</item>
+        <item>Fyrstu 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Velja úr Galleríi</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Sunnudagur</item>
+        <item>Mánudagur</item>
+        <item>Þriðjudagur</item>
+        <item>Miðvikudagur</item>
+        <item>Fimmtudagur</item>
+        <item>Föstudagur</item>
+        <item>Laugardagur</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Einfölduð kínverska</item>
+        <item>Hefðbundin kínverska</item>
+        <item>Enska</item>
+        <item>Japanska</item>
+        <item>Kóreska</item>
+        <item>Rússneska</item>
+        <item>Indónesíska</item>
+        <item>Malasíska</item>
+        <item>Portúgalska</item>
+        <item>Tælenska</item>
+        <item>Víetnamska</item>
+        <item>Hindí</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Venjuleg</item>
+        <item>Svart/hvít</item>
+        <item>Listir</item>
+        <item>Forn</item>
+        <item>Gamaldags</item>
+        <item>Mettuð</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>Maí</item>
+        <item>Jún.</item>
+        <item>Júl.</item>
+        <item>Ágú.</item>
+        <item>Sept.</item>
+        <item>Okt.</item>
+        <item>Nóv.</item>
+        <item>Des.</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Gagnavistun fyrst</item>
+        <item>Háupplausn fyrst</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Allir</item>
+        <item>Aðeins vinir</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Mánudagur</item>
+        <item>Þriðjudagur</item>
+        <item>Miðvikudagur</item>
+        <item>Fimmtudagur</item>
+        <item>Föstudagur</item>
+        <item>Laugardagur</item>
+        <item>Sunnudagur</item>
+    </string-array>
+</resources>

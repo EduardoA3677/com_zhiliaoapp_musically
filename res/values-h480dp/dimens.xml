@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="te">13.0dp</dimen>
+    <dimen name="tf">15.0dp</dimen>
+    <dimen name="th">6.0dp</dimen>
+    <dimen name="tj">10.0dp</dimen>
+    <dimen name="tr">32.0dp</dimen>
+    <dimen name="ts">8.0dp</dimen>
+    <dimen name="tt">20.0dp</dimen>
+    <dimen name="tw">16.0dp</dimen>
+    <dimen name="tz">32.0dp</dimen>
+    <dimen name="u0">16.0dp</dimen>
+    <dimen name="u1">12.0dp</dimen>
+    <dimen name="u2">254.0dp</dimen>
+    <dimen name="u3">158.0dp</dimen>
+    <dimen name="u4">154.0dp</dimen>
+    <dimen name="u5">90.0dp</dimen>
+    <dimen name="u6">150.0dp</dimen>
+    <dimen name="u9">20.0dp</dimen>
+    <dimen name="u_">50.0dp</dimen>
+    <dimen name="ud">20.0dp</dimen>
+    <dimen name="ue">32.0dp</dimen>
+</resources>

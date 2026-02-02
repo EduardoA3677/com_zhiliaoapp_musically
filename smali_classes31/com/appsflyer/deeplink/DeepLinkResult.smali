@@ -1,0 +1,118 @@
+.class public Lcom/appsflyer/deeplink/DeepLinkResult;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final deepLink:Lcom/appsflyer/deeplink/DeepLink;
+
+.field public final error:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
+
+.field public final status:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+
+# direct methods
+.method public constructor <init>(Lcom/appsflyer/deeplink/DeepLink;Lcom/appsflyer/deeplink/DeepLinkResult$Error;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->deepLink:Lcom/appsflyer/deeplink/DeepLink;
+
+    iput-object p2, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->error:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
+
+    if-eqz p2, :cond_0
+
+    sget-object v0, Lcom/appsflyer/deeplink/DeepLinkResult$Status;->ERROR:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    iput-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->status:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    return-void
+
+    :cond_0
+    if-eqz p1, :cond_1
+
+    sget-object v0, Lcom/appsflyer/deeplink/DeepLinkResult$Status;->FOUND:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    iput-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->status:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    return-void
+
+    :cond_1
+    sget-object v0, Lcom/appsflyer/deeplink/DeepLinkResult$Status;->NOT_FOUND:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    iput-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->status:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getDeepLink()Lcom/appsflyer/deeplink/DeepLink;
+    .locals 1
+
+    iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->deepLink:Lcom/appsflyer/deeplink/DeepLink;
+
+    return-object v0
+.end method
+
+.method public getError()Lcom/appsflyer/deeplink/DeepLinkResult$Error;
+    .locals 1
+
+    iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->error:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
+
+    return-object v0
+.end method
+
+.method public getStatus()Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+    .locals 1
+
+    iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->status:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    return-object v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    new-instance v2, Lorg/json/JSONObject;
+
+    invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
+
+    :try_start_0
+    const-string v1, "deepLink"
+
+    iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->deepLink:Lcom/appsflyer/deeplink/DeepLink;
+
+    invoke-virtual {v2, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "error"
+
+    iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->error:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
+
+    invoke-virtual {v2, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v1, "status"
+
+    iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLinkResult;->status:Lcom/appsflyer/deeplink/DeepLinkResult$Status;
+
+    invoke-virtual {v2, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    goto :goto_0
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    move-exception v1
+
+    const-string v0, "error while creating deep link json"
+
+    invoke-static {v0, v1}, Lcom/appsflyer/AFLogger;->afErrorLogForExcManagerOnly(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    :goto_0
+    invoke-static {v2}, LX/0X3I;->L(Lorg/json/JSONObject;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

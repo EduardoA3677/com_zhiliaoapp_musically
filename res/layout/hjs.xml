@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kr9" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n2:f49="@drawable/es1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?c3r" n1:gravity="start" n1:id="@id/edc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxWidth="220.0dp" n1:text="@null" n1:maxLines="4" n1:singleLine="false" n1:layout_marginStart="8.0dp" style="@style/qa" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_horizontal" n1:id="@id/zhb" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ew4" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="15.0dp" n1:contentDescription="data_source" n1:layout_marginStart="17.0dp" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_cloud_arrow_down_fill" n2:fmy="?yn" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/bkn" n1:background="?mx" n1:layout_width="276.0dp" n1:layout_height="140.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/zhc" n1:layout_width="240.0dp" n1:layout_height="52.0dp" n1:layout_marginTop="23.0dp" n1:layout_marginStart="18.0dp" n4:bx9="@id/bkn" n4:bxc="@id/bkn" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/ogl" n1:background="@drawable/aub" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginStart="4.0dp" n4:bx9="owf" n4:bxc="owf" />
+        <X.0Czc n1:id="@id/ipq" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginStart="8.0dp" n4:bx9="owf" n4:bxc="owf" n4:etn="@drawable/c6a" n4:eto="d4s" />
+        <View n1:id="@id/ipn" n1:background="@drawable/c75" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="8.0dp" n1:contentDescription="head_tt_icon" n1:layout_marginStart="8.0dp" n4:bx9="owf" n4:bxc="owf" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ipo" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginBottom="6.0dp" n1:contentDescription="head_tt_icon_small" n1:layout_marginStart="32.0dp" n4:bwk="owf" n4:bx9="owf" n4:fjq="@raw/icon_color_tiktok_dark_squircle" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/zf_" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="14.0dp" n1:contentDescription="user_gender" n1:layout_marginEnd="8.0dp" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_color_paperplane_circle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="152.0dp" n1:layout_height="104.0dp" n1:layoutDirection="ltr" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:id="@id/jdk" n1:background="?xx" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="48.0dp" n1:layout_height="56.0dp" n1:transformPivotX="24.0dp" n1:transformPivotY="28.0dp" n1:translationX="94.0dp" n1:translationY="19.0dp" n1:rotation="24.0" n2:ba4="@dimen/ba" n2:ba8="false" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jdl" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_margin="4.0dp" n2:eyl="@dimen/ba" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView n1:id="@id/jdi" n1:background="?xx" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="54.0dp" n1:layout_height="62.0dp" n1:transformPivotX="27.0dp" n1:transformPivotY="31.0dp" n1:translationX="11.0dp" n1:translationY="13.0dp" n1:rotation="-20.0" n3:ba4="@dimen/ba" n3:ba8="false" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jdj" n1:layout_width="46.0dp" n1:layout_height="46.0dp" n1:layout_margin="4.0dp" n3:eyl="@dimen/ba" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView n1:id="@id/jdg" n1:background="?xx" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="68.0dp" n1:layout_height="80.0dp" n1:transformPivotX="34.0dp" n1:transformPivotY="40.0dp" n1:translationX="42.0dp" n1:translationY="6.0dp" n1:rotation="6.0" n4:ba4="@dimen/ba" n4:ba8="false" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jdh" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_margin="4.0dp" n4:eyl="@dimen/ba" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

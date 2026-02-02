@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:id="@id/ryn" n1:layout_width="match_parent" n1:layout_height="33.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/vu" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="74.0dp" n1:paddingEnd="10.0dp">
+        <View n1:id="@id/llr" n1:background="?yf" n1:layout_width="28.0dp" n1:layout_height="0.5dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/gr2" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="8.0dp" n1:paddingEnd="12.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/gr7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/gr0" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="@null" n1:layout_marginStart="1.0dp" n3:fjq="@raw/icon_chevron_down" n3:fjt="12.0dp" n3:fk6="12.0dp" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:id="@id/dnj" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="12.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/dnl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/dph" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="@null" n1:layout_marginStart="1.0dp" n5:fjq="@raw/icon_chevron_up" n5:fjt="12.0dp" n5:fk6="12.0dp" n5:fmy="?zz" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <X.0Chg n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:contentDescription="@null" n1:importantForAccessibility="yes" />
+</FrameLayout>

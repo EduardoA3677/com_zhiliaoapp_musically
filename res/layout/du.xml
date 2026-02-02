@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/tm4" n1:background="@drawable/cn_" n1:layout_width="match_parent" n1:layout_height="32.0dp" />
+    <com.bytedance.tux.widget.RadiusLayout n1:id="@id/rc9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:elevation="10.0dp">
+        <X.0kZG n1:layout_gravity="bottom" n1:id="@id/fls" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/flt" n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0xUV n1:layout_gravity="center|top" n1:id="@id/tsi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_alignParentTop="true" n1:elevation="10.0dp" />
+                <FrameLayout n1:id="@id/tsc" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="4.0dp" />
+            </LinearLayout>
+        </X.0kZG>
+    </com.bytedance.tux.widget.RadiusLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hzt" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0D0r n1:id="@id/hzu" n1:layout_width="match_parent" n1:layout_height="210.0dp" n1:scaleType="centerInside" />
+    </FrameLayout>
+    <X.12nR n1:id="@id/hzc" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0plh n1:id="@id/hzf" n1:paddingTop="@dimen/qo" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" n1:overScrollMode="never" n3:bw_="com.google.android.material.bottomsheet.BottomSheetBehavior" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:id="@id/hze" n1:background="@drawable/exy" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <ViewStub n1:id="@id/d07" n1:layout="@layout/g4h" n1:inflatedId="@id/ean" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <View n1:id="@id/jts" n1:background="@drawable/ebm" n1:layout_width="match_parent" n1:layout_height="14.0dp" n1:elevation="10.0dp" />
+            </FrameLayout>
+        </X.0plh>
+        <include layout="@layout/gjf" />
+    </X.12nR>
+    <FrameLayout n1:id="@id/j2l" n1:background="@drawable/diq" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="48.0dp" n1:layout_marginStart="16.0dp" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:id="@id/j2k" n1:visibility="visible" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="52.0dp" n1:layout_marginStart="20.0dp" n5:br4="?e_u" n5:brl="?c3r" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

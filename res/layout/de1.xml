@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="23.0dp" n1:layout_marginStart="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/de_" />
+    <FrameLayout n1:id="@id/lhx" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/lhw" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0Cxq n1:textSize="10.0sp" n1:textColor="#ffffffff" n1:gravity="center" n1:id="@id/lhy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:shadowDy="1.0" n1:shadowRadius="2.0" n1:lineSpacingExtra="3.0sp" n2:fdi="n2i" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0Czm n1:id="@id/lhz" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginEnd="4.0dp" />
+            <X.0Cxq n1:textSize="10.0sp" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="center" n1:id="@id/li1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="12.0dp" n1:maxLines="1" n1:shadowDy="1.0" n1:shadowRadius="2.0" n1:lineSpacingExtra="3.0sp" n1:layout_marginEnd="12.0dp" n3:fdi="n2i" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

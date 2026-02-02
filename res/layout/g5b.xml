@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/o4d" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/gu5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="80.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@id/tgz" n1:layout_width="wrap_content" n1:layout_height="72.0dp" n1:src="@drawable/eu4" />
+        <X.12nN n1:textColor="?ffc" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" style="@style/a6r" />
+        <X.12nN n1:textColor="?ffe" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" style="@style/a74" />
+        <X.12pz n1:layout_gravity="center" n1:id="@id/of3" n1:layout_width="240.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="20.0dp" n1:text="@null" n2:br4="?e4a" style="@style/a5x" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/drr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/tlu" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="end" n1:id="@id/gqw" n1:layout_width="48.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="6.0dp">
+            <View n1:layout_gravity="center" n1:background="@drawable/drs" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center" n1:id="@id/hxt" n1:layout_width="@dimen/qf" n1:layout_height="@dimen/qf" n2:br4="?ctp" n2:brl="?ekp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <X.12nN n1:textColor="?c3r" n1:gravity="end" n1:layout_gravity="end" n1:id="@id/hxs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="230.0dp" n1:text="@null" n1:layout_marginEnd="12.0dp" style="@style/a6m" />
+    </LinearLayout>
+</FrameLayout>

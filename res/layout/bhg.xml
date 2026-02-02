@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:focusableInTouchMode="true" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/o1v" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0oCE n1:layout_gravity="center" n1:id="@id/o1w" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/tfp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <fragment n1:name="com.ss.android.ugc.aweme.series.creation.activity.SeriesDraftFragment" n1:id="@id/tfo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

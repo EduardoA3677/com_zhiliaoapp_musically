@@ -1,0 +1,17 @@
+.class public final LX/0z8p;
+.super Ljava/io/IOException;
+.source "SourceFile"
+
+
+# static fields
+.field public static final serialVersionUID:J = -0x6a4a05b41a0a362eL
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

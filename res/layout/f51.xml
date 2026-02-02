@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vi n1:id="@id/tbj" n1:background="?e0" n1:layout_width="@dimen/ad5" n1:layout_height="@dimen/ad5" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n2:ezq="true" n2:ezr="8.0dp" n2:ezx="?e0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jo3" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:contentDescription="pictures" />
+</X.12vi>

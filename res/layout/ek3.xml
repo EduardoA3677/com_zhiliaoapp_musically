@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/nnp" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginBottom="1.0dp" n1:layout_marginEnd="1.0dp" n2:fjq="@raw/icon_featured_video" n2:fjt="20.0dp" n2:fk6="20.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/nnz" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n3:fjq="@raw/icon_color_right_bottom_plus" n3:fjt="24.0dp" n3:fk6="24.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:id="@id/ser" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:flz="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0mMn n1:id="@id/b9_" n1:visibility="gone" n1:layout_width="80.0dp" n1:layout_height="80.0dp" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/b64" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="h_f" n2:etn="@drawable/bfo" n2:eyl="@dimen/ba" n2:eyo="?ly" n2:eyq="0.5dp" />
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

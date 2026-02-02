@@ -1,0 +1,28 @@
+.class public final LX/0LFr;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0Y7J;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(LX/0Y7F;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    sput-object v0, LX/0LFV;->LIZ:Ljava/lang/ref/WeakReference;
+
+    return-void
+.end method

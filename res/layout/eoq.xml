@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cg1 n1:id="@id/u9g" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.1295 n1:id="@id/u9f" n1:layout_width="64.0dp" n1:layout_height="113.0dp" n2:etn="@drawable/a8t" n2:eyl="6.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0CI0 n1:id="@id/sm3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginStart="4.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/aez" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:contentDescription="null" n1:layout_marginEnd="4.0dp" n3:fjq="@raw/icon_ai_self" n3:fjt="20.0dp" n3:fk6="20.0dp" n3:fmy="?e0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="64.0dp" n1:layout_height="113.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/u9j" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwk="owf" n4:bx3="owf" n4:bx7="owf" n4:bxc="owf" n4:fj2="q2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/t6k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bx3="owf" n5:bx7="owf" n5:bxb="@id/u9j" n5:fj2="qg" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </X.0Cg1>
+    <X.0Ci6 n1:id="@id/k8p" n1:padding="4.0dp" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="8.0dp" n1:checked="true" n6:fif="?yi" n6:fih="dbb" n6:fii="u9x" n6:fij="?yf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

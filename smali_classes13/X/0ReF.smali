@@ -1,0 +1,69 @@
+.class public final LX/0ReF;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Ljava/lang/Float;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:Lcom/ss/android/ugc/feed/platform/cell/clean/CellCleanComponent;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ss/android/ugc/feed/platform/cell/clean/CellCleanComponent;)V
+    .locals 1
+
+    iput-object p1, p0, LX/0ReF;->LL:Lcom/ss/android/ugc/feed/platform/cell/clean/CellCleanComponent;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, LX/0ReF;->LL:Lcom/ss/android/ugc/feed/platform/cell/clean/CellCleanComponent;
+
+    iget-object v0, v0, Lcom/ss/android/ugc/feed/platform/cell/clean/CellCleanComponent;->LLJJJJ:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/feed/platform/panel/playbutton/IPlayButtonAbility;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/feed/platform/panel/playbutton/IPlayButtonAbility;->S40()F
+
+    move-result v0
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    goto :goto_0
+.end method

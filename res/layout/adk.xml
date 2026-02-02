@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wgm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="8.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/title" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:accessibilityHeading="true" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/eb2" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?y7" n1:id="@id/a9s" n1:background="@drawable/az4" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.ecommerce.base.address.widget.InputResultIndicator n1:id="@id/jyo" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/a9n" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/hqo" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/jxx" n1:layout_width="match_parent" n1:layout_height="8.0dp" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13SD n1:id="@id/i3f" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true">
+        <X.1295 n1:id="@id/fnl" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </X.13SD>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginRight="@dimen/qi" n1:layout_marginBottom="20.0dp" n1:layout_alignParentBottom="true">
+        <X.0D2z n1:id="@id/ahj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginEnd="@dimen/r5" n3:fib="l9r" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:id="@id/ahi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n4:fib="l9r" n4:fid="qhx" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

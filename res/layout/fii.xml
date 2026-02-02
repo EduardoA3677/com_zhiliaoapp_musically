@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="78.0dp" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.status.loading.TuxSpinner n1:layout_gravity="center" n1:id="@id/mj6" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:fjq="@raw/icon_spinner_normal" n2:fmy="?yf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

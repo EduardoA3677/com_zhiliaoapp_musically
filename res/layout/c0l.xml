@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/mbx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/ilr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true">
+            <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/hqs" n1:layout_width="72.0dp" n1:layout_height="72.0dp">
+                <X.0CWK n1:layout_gravity="center" n1:id="@id/knr" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+            </FrameLayout>
+            <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/hqt" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_marginStart="@dimen/r2" n1:layout_marginEnd="@dimen/r2">
+                <X.0CWK n1:layout_gravity="center" n1:id="@id/knr" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+            </FrameLayout>
+            <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/hqu" n1:layout_width="72.0dp" n1:layout_height="72.0dp">
+                <X.0CWK n1:layout_gravity="center" n1:id="@id/knr" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/ilq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignTop="@id/ilr" n1:layout_alignBottom="@id/ilr" n1:layout_alignStart="@id/ilr" n1:layout_alignEnd="@id/ilr">
+            <X.11RT n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_weight="1.0" n2:fi7="0.8" n2:fiy="0.3" n2:flv="?bn" n2:flw="frs" n2:fm_="iy_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.11RT n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_weight="2.0" n3:fi7="0.3" n3:fiy="0.0" n3:flv="?bn" n3:flw="frs" n3:fm_="iy_" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.11RT n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_weight="2.0" n4:fi7="0.0" n4:fiy="0.3" n4:flv="?bn" n4:flw="frr" n4:fm_="iy_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <X.11RT n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_weight="1.0" n5:fi7="0.3" n5:fiy="0.8" n5:flv="?bn" n5:flw="frr" n5:fm_="iy_" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:gravity="center_horizontal" n1:id="@id/xnn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qo" n1:layout_marginTop="@dimen/qi" n1:layout_marginRight="@dimen/qo" n1:text="@null" n1:layout_below="@id/ilr" n1:layout_centerHorizontal="true" n1:layout_marginHorizontal="@dimen/qo" n6:fj2="pz" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/m_b" n1:paddingLeft="@dimen/qq" n1:paddingRight="@dimen/qq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qi" n1:minHeight="@dimen/qy" n1:layout_below="@id/xnn" n1:layout_centerHorizontal="true" n1:paddingHorizontal="@dimen/qq">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?bu" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/y2v" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n7:fj2="p7" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n1:importantForAccessibility="no" n1:layout_marginStart="@dimen/qz" n8:fjq="@raw/icon_arrow_right_ltr" n8:fmy="?bu" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

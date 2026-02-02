@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0mEa n1:id="@id/ec9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/f7" n2:bpf="true" n2:ey9="@dimen/fa" n2:ezz="true" n2:fcd="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_alignParentTop="true">
+        <X.0mEX n1:textColor="@color/dn" n1:gravity="start|center" n1:id="@id/w8g" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_marginLeft="16.0dp" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="16.0dp" n2:b5w="n2i" style="@style/aa_" />
+        <X.0mEY n1:id="@id/cda" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="20.0dp" n1:src="@drawable/atf" n1:scaleType="centerInside" n1:layout_marginEnd="20.0dp" />
+    </LinearLayout>
+    <X.0n5a n1:id="@id/zrq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="21.0dp" n1:layout_below="@id/title" n1:layout_centerHorizontal="true" n2:bh_="n8a" n2:bht="48.0dp" n2:bhu="4.0dp" n2:bpc="40.0dp" n2:bpe="31.0dp" n2:bz1="48.0dp" n2:ep7="@color/cy" n2:ep8="0.34" n2:eu0="opf" />
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_below="@id/zrq">
+        <X.0mEb n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:f7k="true" />
+        <X.0mEY n1:id="@id/cun" n1:padding="16.0dp" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:src="@drawable/c73" n1:scaleType="centerInside" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true" />
+        <X.0mEX n1:textSize="15.0sp" n1:textStyle="bold" n1:textColor="@color/df" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n2:b5w="n2i" />
+        <X.0mEY n1:id="@id/smb" n1:padding="16.0dp" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:src="@drawable/c74" n1:scaleType="centerInside" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</X.0mEa>

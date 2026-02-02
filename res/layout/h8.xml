@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/sed" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12xz n1:theme="?fbt" n1:id="@id/wn_" n1:background="?bdf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:elevation="4.0dp">
+        <TextView n1:textSize="20.0sp" n1:textColor="?b47" n1:gravity="center" n1:id="@id/ta6" n1:layout_width="wrap_content" n1:layout_height="?b2y" n1:foreground="?f0l" n1:drawableRight="@drawable/bvt" />
+    </X.12xz>
+    <FrameLayout n1:id="@id/c3q" n1:background="?b91" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:elevation="4.0dp">
+        <TextView n1:textSize="16.0sp" n1:textColor="?b92" n1:layout_gravity="start" n1:id="@id/cr3" n1:padding="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:foreground="?f0l" n1:text="@null" />
+        <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/ona" n1:padding="16.0dp" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:foreground="?f0l">
+            <X.0Cgr n1:layout_gravity="center_vertical" n1:id="@id/on_" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:src="@drawable/c1k" />
+            <TextView n1:enabled="true" n1:textSize="14.0sp" n1:textColor="?b92" n1:layout_gravity="center_vertical" n1:paddingLeft="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/jwa" n1:paddingStart="4.0dp" />
+        </LinearLayout>
+        <TextView n1:textSize="16.0sp" n1:textColor="?b90" n1:layout_gravity="end" n1:id="@id/cq_" n1:padding="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:foreground="?f0l" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/e92" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/c3q" n1:layout_below="@id/wn_" />
+    <FrameLayout n1:id="@id/gf5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/c3q" n1:layout_below="@id/wn_">
+        <TextView n1:textSize="16.0sp" n1:textColor="?b49" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gf7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:drawableTop="?b48" n1:drawablePadding="8.0dp" />
+    </FrameLayout>
+</RelativeLayout>

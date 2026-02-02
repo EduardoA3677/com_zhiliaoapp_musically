@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/zmd" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/od4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/wuf" n1:background="?mc" n1:layout_width="match_parent" n1:layout_height="26.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/od4" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_shield_ticktok_fill" n3:fmy="?md" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?md" n1:id="@id/t73" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:layout_marginStart="6.0dp" n3:fj2="pu" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="6.0dp" n3:fjq="@raw/icon_chevron_right_ltr" n3:fmy="?md" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView n1:id="@id/mt4" n1:layout_width="match_parent" n1:layout_height="160.0dp" n1:layout_marginTop="60.0dp" n1:src="@drawable/fcv" n1:importantForAccessibility="no" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/wuf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:gravity="center" n1:id="@id/od1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="18.0dp" n1:text="" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/mt4" n5:fj2="ot" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/ocy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/od1" n6:fj2="p_" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <androidx.cardview.widget.CardView n1:layout_gravity="center" n1:id="@id/il8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:layout_marginStart="34.0dp" n1:layout_marginEnd="34.0dp" n7:ba3="?bo" n7:ba4="@dimen/b2" n7:ba5="0.0dp" n7:bwq="owf" n7:bx9="owf" n7:bxb="@id/ocy" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/uqn" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?su" n1:id="@id/od0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Only 1 step to complete:" n1:layout_marginStart="0.0dp" n7:fj2="pu" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/ocx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="14.0dp" n8:bwk="owf" n8:bx9="owf" xmlns:n8="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:textColorHighlight="@android:color/transparent" n1:gravity="center_horizontal" n1:id="@id/ocz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n8:fj2="pu" />
+        <X.0D2z n1:gravity="center" n1:id="@id/e6s" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="0.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n8:fib="l9r" n8:fid="qhx" n8:fk4="@raw/icon_shield_person" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/od2" n1:paddingTop="13.5dp" n1:paddingBottom="14.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Are you using a virtual card? Click here" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n8:fj2="pa" />
+    </LinearLayout>
+    <X.0oBw n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n9:bwk="owf" n9:bwq="owf" n9:bx9="owf" n9:bxc="owf" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

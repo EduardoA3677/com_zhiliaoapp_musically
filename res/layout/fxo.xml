@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/v5z" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ekr" n1:gravity="center" n1:id="@id/uar" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n2:bxc="owf" style="@style/qb" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="center" n1:id="@id/ual" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n3:bgf="@dimen/b8" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/uar" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0D2z n1:textColor="?eju" n1:id="@id/l45" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:text="@null" n3:b5_="true" n3:fib="l9r" n3:fid="o6b" />
+    </com.bytedance.tux.widget.RadiusLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

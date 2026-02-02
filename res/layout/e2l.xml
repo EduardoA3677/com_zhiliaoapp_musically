@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/ozn" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="end" n1:orientation="horizontal" n1:id="@id/gep" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/geq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="end" n1:orientation="vertical" n1:id="@id/u19" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="end|top" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/u17" n1:background="@drawable/cwu" n1:layout_width="26.0dp" n1:layout_height="16.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/u18" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_marginStart="4.0dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <X.05qP n1:id="@id/qza" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n4:fj2="qd" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.12xb n1:id="@id/j1f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bjf="@drawable/cx4" n5:bjg="@drawable/cx4" n5:bo0="wrap" n5:buy="hlq" n5:f20="n8a" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/j19" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/j1a" n1:background="@drawable/cwu" n1:layout_width="26.0dp" n1:layout_height="16.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/j1_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_marginStart="4.0dp" n5:fj2="pv" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/j1b" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/j1e" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n5:fjq="@raw/icon_plus" n5:fmy="?zw" />
+            <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/j1d" n1:background="@drawable/cwu" n1:layout_width="26.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="6.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/j1c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_marginStart="4.0dp" n5:fj2="pv" />
+        </LinearLayout>
+    </X.12xb>
+</LinearLayout>

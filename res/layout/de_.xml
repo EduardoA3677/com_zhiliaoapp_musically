@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/lic" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="13.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mER n1:id="@id/ust" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:scaleType="centerInside" n2:eyl="3.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cxq n1:textSize="15.0sp" n1:textStyle="bold" n1:textColor="@color/yi" n1:layout_gravity="center_vertical" n1:id="@id/utj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:shadowColor="@color/zs" n1:shadowDx="0.0" n1:shadowDy="0.5" n1:shadowRadius="1.0" n1:fontFamily="ProximaNova-Semibold" />
+    <X.0mER n1:id="@id/o22" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:scaleType="centerInside" n3:eyl="3.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/o1d" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+        <X.0Cxq n1:textSize="15.0sp" n1:textColor="@color/yi" n1:id="@id/o23" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:shadowColor="@color/zs" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n4:fdi="n2i" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/onh" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.0Cxq n1:textSize="12.0sp" n1:textStyle="bold" n1:textColor="@color/yi" n1:layout_gravity="center_vertical" n1:id="@id/omw" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:fontFamily="ProximaNova-Semibold" n5:bou="medium" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <X.0mEg n1:layout_gravity="bottom" n1:id="@id/ikg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ctb" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

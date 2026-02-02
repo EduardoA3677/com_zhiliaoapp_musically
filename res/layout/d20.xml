@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/mef" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mNC n1:id="@id/pd4" n1:layout_width="160.0dp" n1:layout_height="wrap_content" />
+    <X.0mNC n1:id="@id/pd5" n1:layout_width="160.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <X.0mNC n1:id="@id/pd6" n1:layout_width="160.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+</LinearLayout>

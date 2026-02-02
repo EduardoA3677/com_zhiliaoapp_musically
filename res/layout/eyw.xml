@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13Sa n1:id="@id/mi9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/md8" n1:paddingLeft="16.0dp" n1:paddingTop="11.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="16.0dp">
+        <X.13dw n1:id="@id/mpa" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginBottom="3.0dp" n1:scaleType="centerCrop" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="60.0dp" n1:layout_marginTop="40.0dp" n1:layout_marginRight="84.0dp">
+        <X.0D1z n1:id="@id/nb3" n1:visibility="visible" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:etn="@drawable/cp3" n2:eto="d4s" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:background="@drawable/d5q" n1:padding="8.0dp" n1:paddingLeft="18.0dp" n1:paddingRight="18.0dp" n1:layout_width="190.0dp" n1:layout_height="160.0dp">
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <ImageView n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:layout_marginEnd="14.0dp" n1:clipToOutline="true" />
+                <ImageView n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:layout_marginEnd="14.0dp" n1:clipToOutline="true" />
+                <ImageView n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:layout_marginEnd="14.0dp" n1:clipToOutline="true" />
+                <ImageView n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:clipToOutline="true" />
+            </LinearLayout>
+            <Space n1:layout_width="match_parent" n1:layout_height="14.0dp" />
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <ImageView n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:layout_marginEnd="14.0dp" n1:clipToOutline="true" />
+                <ImageView n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:layout_marginEnd="14.0dp" n1:clipToOutline="true" />
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/nb4" n1:background="@drawable/d5r" n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:layout_marginEnd="14.0dp" n1:clipToOutline="true" n3:etn="@drawable/cp3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <ImageView n1:layout_width="@dimen/qs" n1:layout_height="@dimen/qs" n1:scaleType="centerCrop" n1:clipToOutline="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/a5r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="48.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="48.0dp" n1:layout_marginBottom="10.0dp" n1:textFontWeight="700" n4:fj2="ot" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/a5s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="28.0dp" n1:layout_marginRight="28.0dp" n1:textFontWeight="400" n5:fj2="p5" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:layout_gravity="center_horizontal" n1:id="@id/a5l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="28.0dp" n1:layout_marginTop="36.0dp" n1:layout_marginRight="28.0dp" n1:layout_marginBottom="0.0dp" n1:text="@null" n6:bgf="@dimen/qf" n6:fib="l9r" n6:fid="qhx" n6:fmy="?yi" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:textColor="?zw" n1:layout_gravity="center_horizontal" n1:id="@id/rqi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="28.0dp" n1:layout_marginTop="0.0dp" n1:layout_marginRight="28.0dp" n1:layout_marginBottom="13.5dp" n1:text="@null" n7:fi9="false" n7:fib="l9r" n7:fid="o6b" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/eek" n1:background="@color/a08" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uvn" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" n1:importantForAccessibility="no" />
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/urj" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0n2l n1:id="@id/snp" n1:background="@null" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="3.0dp" n1:max="100" n1:progress="80" n1:progressDrawable="@drawable/a5a" n1:thumb="@drawable/a5c" n2:b8t="20.0dp" n2:bz0="16.0dp" n2:evw="@color/yz" n2:evz="12.0dp" n2:ex8="16.0dp" n2:f1x="true" n2:f_s="24.0dp" n2:fch="28.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/rp" />
+    </LinearLayout>
+</X.12nR>

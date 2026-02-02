@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:layout_marginBottom="@dimen/r5" n1:layout_marginVertical="@dimen/r5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/pmu" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginStart="@dimen/qi" n2:bx9="owf" n2:bxc="owf" n2:eyl="4.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/pn1" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qi" n1:layout_marginEnd="@dimen/qi" n3:bwk="@id/pmu" n3:bwr="@id/pmp" n3:bx8="@id/pmu" n3:bxc="@id/pmu" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/pmz" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:importantForAccessibility="no" n3:bwk="@id/pna" n3:bx9="@id/pn1" n3:bxc="@id/pna" n3:fjq="@raw/icon_playlist_fill" n3:fmy="?zw" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:ellipsize="end" n1:id="@id/pna" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:textDirection="locale" n1:layout_marginStart="4.0dp" n1:labelFor="@id/pmp" n3:bwq="owf" n3:bx8="@id/pmz" n3:bxc="owf" n3:fj2="p7" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?sx" n1:id="@id/pnb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n3:bx9="owf" n3:bxb="@id/pna" n3:fj2="px" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0Ci6 n1:id="@id/pmp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="16.0dp" n4:bwk="@id/pmu" n4:bwq="owf" n4:bxc="@id/pmu" n4:fii="n2i" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

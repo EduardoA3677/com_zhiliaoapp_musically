@@ -1,0 +1,25 @@
+.class public final LX/0RPA;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static LIZ:Z
+
+.field public static LIZIZ:Z
+
+.field public static LIZJ:Z
+
+.field public static LIZLLL:Landroid/view/ViewParent;
+
+.field public static LJ:Landroid/os/Handler;
+
+.field public static LJFF:Z
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method

@@ -1,0 +1,41 @@
+.class public final LX/0Ucm;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static final LIZ(Landroid/view/View;)Landroid/graphics/Rect;
+    .locals 5
+
+    const/4 v0, 0x2
+
+    new-array v1, v0, [I
+
+    invoke-virtual {p0, v1}, Landroid/view/View;->getLocationOnScreen([I)V
+
+    const/4 v0, 0x0
+
+    aget v4, v1, v0
+
+    const/4 v0, 0x1
+
+    aget v3, v1, v0
+
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    move-result v2
+
+    add-int/2addr v2, v4
+
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+
+    move-result v1
+
+    add-int/2addr v1, v3
+
+    new-instance v0, Landroid/graphics/Rect;
+
+    invoke-direct {v0, v4, v3, v2, v1}, Landroid/graphics/Rect;-><init>(IIII)V
+
+    return-object v0
+.end method

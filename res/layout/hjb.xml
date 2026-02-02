@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/vbw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="owf" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/vbx" n1:layout_width="@dimen/aup" n1:layout_height="@dimen/aun" n1:importantForAccessibility="no" n1:layout_marginStart="@dimen/auo" n2:br4="?djb" n2:brl="?eco" />
+    <ImageView n1:id="@id/vby" n1:layout_width="@dimen/aum" n1:layout_height="@dimen/auk" n1:importantForAccessibility="no" n1:layout_marginEnd="@dimen/aul" />
+</LinearLayout>

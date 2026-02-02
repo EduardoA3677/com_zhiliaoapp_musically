@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0bvg n1:id="@id/rn4" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0oFv n1:id="@id/u0u" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0oFv n1:id="@id/hti" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </X.0bvg>
+    <X.0n5d n1:id="@id/erz" n1:layout_width="20.0dp" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/ery" n1:layout_width="wrap_content" n1:layout_height="match_parent" />
+    </X.0n5d>
+</merge>

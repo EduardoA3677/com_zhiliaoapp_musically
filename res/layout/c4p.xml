@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/w97" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="52.0dp" n1:minWidth="64.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/view_image_text_template" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:scaleType="fitCenter" n1:minWidth="40.0dp" n1:layout_centerInParent="true" />
+    <View n1:layout_gravity="center_vertical" n1:id="@id/lrm" n1:background="@drawable/anh" n1:layout_width="1.0dp" n1:layout_height="12.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" />
+</LinearLayout>

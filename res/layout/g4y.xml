@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ic1" n1:background="@drawable/dtd" n1:padding="24.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="18.0sp" n1:textColor="#202124" n1:id="@id/ic3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:textDirection="locale" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0sp" n1:textColor="#5f6368" n1:id="@id/ibz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n1:lineSpacingMultiplier="1.2" n1:textDirection="locale" n3:bxb="@id/ic3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ic2" n1:background="@drawable/dte" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n4:bxb="@id/ibz" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <androidx.appcompat.widget.AppCompatImageView n1:id="@id/ry" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/eja" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp">
+            <X.12nN n1:textSize="14.0sp" n1:textColor="#202124" n1:id="@id/s0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@null" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.0D0r n1:id="@id/s1" n1:visibility="invisible" n1:layout_width="32.0dp" n1:layout_height="20.0dp" n1:layout_marginEnd="6.0dp" />
+                <X.0D0r n1:id="@id/s2" n1:visibility="invisible" n1:layout_width="32.0dp" n1:layout_height="20.0dp" n1:src="@drawable/eja" n1:layout_marginEnd="6.0dp" />
+                <X.0D0r n1:id="@id/s3" n1:visibility="invisible" n1:layout_width="32.0dp" n1:layout_height="20.0dp" n1:layout_marginEnd="6.0dp" />
+                <X.0D0r n1:id="@id/s4" n1:visibility="invisible" n1:layout_width="32.0dp" n1:layout_height="20.0dp" n1:layout_marginEnd="6.0dp" />
+                <X.0D0r n1:id="@id/s5" n1:visibility="invisible" n1:layout_width="32.0dp" n1:layout_height="20.0dp" n1:layout_marginEnd="6.0dp" />
+                <X.12nN n1:textSize="12.0sp" n1:textColor="#5f6368" n1:id="@id/rz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ic0" n1:background="@drawable/dte" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginVertical="16.0dp" n5:bwk="owf" n5:bxb="@id/ic2" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <androidx.appcompat.widget.AppCompatImageView n1:id="@id/ru" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/ej_" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp">
+            <X.12nN n1:textSize="14.0sp" n1:textColor="#202124" n1:id="@id/rw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@null" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView n1:id="@id/rx" n1:layout_width="190.0dp" n1:layout_height="20.0dp" n1:src="@drawable/ej_" n1:layout_marginEnd="6.0dp" />
+                <X.12nN n1:textSize="12.0sp" n1:textColor="#5f6368" n1:id="@id/rv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

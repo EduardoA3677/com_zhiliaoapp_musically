@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CJU n1:gravity="center" n1:orientation="vertical" n1:id="@id/h6q" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/h7a" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n2:bwl="@id/h6i" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0o06 n1:id="@id/h79" n1:background="?y4" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" />
+        <X.0o06 n1:id="@id/h6v" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/h6i" n1:paddingTop="12.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/h7a" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0D2z n1:id="@id/h6h" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n3:fib="l9r" n3:fid="t69" />
+        <X.0D2z n1:id="@id/h6g" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n3:fib="l9r" n3:fid="qhx" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/gmj" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="69.0dp" n1:layout_marginEnd="69.0dp" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</X.0CJU>

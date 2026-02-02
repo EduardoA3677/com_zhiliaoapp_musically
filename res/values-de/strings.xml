@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Aktivieren</string>
+    <string name="en0">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string name="en1">Google Play-Dienste aktivieren</string>
+    <string name="en2">Installieren</string>
+    <string name="en3">Zur Nutzung von %1$s sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind.</string>
+    <string name="en4">Google Play-Dienste installieren</string>
+    <string name="en5">Verfügbarkeit von Google Play-Diensten</string>
+    <string name="en6">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="en7">%1$s hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal.</string>
+    <string name="en8">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden.</string>
+    <string name="en9">Aktualisieren</string>
+    <string name="en_">%1$s wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst.</string>
+    <string name="ena">Google Play-Dienste aktualisieren</string>
+    <string name="enb">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="enc">Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert.</string>
+    <string name="jwo">Kamera</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

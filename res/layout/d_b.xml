@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.10ps n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.1295 n1:id="@id/a18" n1:layout_width="200.0dp" n1:layout_height="200.0dp" />
+    <X.10q1 n1:id="@id/a17" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.10py n1:id="@id/a16" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.10ps>

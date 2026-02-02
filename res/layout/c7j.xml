@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Rb3 n1:id="@id/eem" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <View n1:id="@id/wxr" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:layout_gravity="center|top" n1:id="@id/c2w" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bw_="com.google.android.material.bottomsheet.BottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:id="@id/chw" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+    </X.0Rb3>
+</FrameLayout>

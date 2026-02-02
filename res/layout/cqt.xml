@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:id="@id/w0r" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:ba3="@android:color/transparent" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/w0u" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/w1i" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:b41="d4s" n2:bne="?yh" n2:bwp="1:1" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:etn="?yh" n2:eto="d4r" n2:eyl="@dimen/b5" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/g9e" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:maxLines="1" n1:layout_marginHorizontal="8.0dp" n2:bwq="@id/w1i" n2:bwz="0.0" n2:bx9="@id/w1i" n2:bxb="@id/w1i" n2:fj2="pz" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

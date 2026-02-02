@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="@color/nu" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/bf0" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="owf" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:gravity="center" n1:id="@id/message_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n3:bx3="owf" n3:bx7="owf" n3:bxb="@id/bf0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <Button n1:id="@id/cps" n1:background="@drawable/dbb" n1:layout_width="250.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n1:textAllCaps="false" n4:bx3="owf" n4:bx7="owf" n4:bxb="@id/message_tv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

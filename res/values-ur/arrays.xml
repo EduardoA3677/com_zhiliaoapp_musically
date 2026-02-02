@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>آن لائن ساؤنڈ لائبریری</item>
+        <item>میری آواز</item>
+    </string-array>
+    <string-array name="q">
+        <item>حذف کریں</item>
+        <item>منسوخ کریں</item>
+    </string-array>
+    <string-array name="t">
+        <item>مقبول</item>
+        <item>حالیہ ترین</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>اتوار</item>
+        <item>سوموار</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>ہفتہ</item>
+    </string-array>
+    <string-array name="a_">
+        <item>آسان چینی</item>
+        <item>روایتی چینی</item>
+        <item>انگریزی</item>
+        <item>جاپانی</item>
+        <item>کورین</item>
+        <item>روسی</item>
+        <item>انڈونیشیائی</item>
+        <item>مالے</item>
+        <item>پرتگالی</item>
+        <item>تھائی</item>
+        <item>ویت نامی</item>
+        <item>ہندی</item>
+    </string-array>
+    <string-array name="ab">
+        <item>عمومی</item>
+        <item>بلیک/وائٹ</item>
+        <item>فنون لطیفہ</item>
+        <item>ونٹیج</item>
+        <item>ریٹولکس</item>
+        <item>سیر شدہ</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>جنوری</item>
+        <item>فروری</item>
+        <item>مارچ</item>
+        <item>اپریل</item>
+        <item>مئی</item>
+        <item>جون</item>
+        <item>جولائی</item>
+        <item>اگست</item>
+        <item>ستمبر</item>
+        <item>اکتوبر</item>
+        <item>نومبر</item>
+        <item>دسمبر</item>
+    </string-array>
+    <string-array name="ai">
+        <item>پہلے ڈیٹا سیونگ</item>
+        <item>سب سے پہلے اعلی ریزولیوشن</item>
+    </string-array>
+    <string-array name="aj">
+        <item>ہر کوئی</item>
+        <item>صرف دوستوں کو</item>
+    </string-array>
+    <string-array name="bq">
+        <item>سوموار</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>ہفتہ</item>
+        <item>اتوار</item>
+    </string-array>
+</resources>

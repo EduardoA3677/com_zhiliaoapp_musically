@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:id="@id/wr" n1:background="@drawable/cqw" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Type" n1:layout_weight="2.0" />
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:id="@id/vp" n1:background="@drawable/cqw" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="ID" n1:layout_weight="3.0" />
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:id="@id/w4" n1:background="@drawable/cqw" n1:focusable="true" n1:clickable="true" n1:longClickable="true" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Action Name" n1:layout_weight="3.0" n1:textIsSelectable="true" />
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:id="@id/wo" n1:background="@drawable/cqw" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Timestamp" n1:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/vg" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="14.0sp" n1:textStyle="bold" n1:textColor="?zw" n1:gravity="center" n1:background="@drawable/cqy" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Actions Chain" n1:layout_weight="5.0" />
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:id="@id/d5q" n1:background="@drawable/cqx" n1:focusable="true" n1:clickable="true" n1:longClickable="true" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Actions Chain Name" n1:layout_weight="5.0" n1:textIsSelectable="true" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/w8" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:background="@drawable/cqx" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Params" n1:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/w_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="14.0sp" n1:textColor="?zw" n1:gravity="center" n1:background="@drawable/cqx" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="Result" n1:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <X.12nR n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.12nk n1:id="@id/fj8" n1:background="@null" n1:fadingEdge="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" n2:bw_="com.ss.android.ugc.aweme.tools.draft.draftbox.widgets.NoScrollBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/fk5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|gqf">
+                    <LinearLayout n1:orientation="vertical" n1:id="@id/fjf" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp">
+                        <ViewStub n1:id="@id/fjc" n1:layout="@layout/bmr" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                        <ViewStub n1:id="@id/fje" n1:layout="@layout/bmt" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                        <ViewStub n1:id="@id/fjd" n1:layout="@layout/bms" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                        <ViewStub n1:id="@id/fja" n1:layout="@layout/bmp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                        <ViewStub n1:id="@id/fjb" n1:layout="@layout/bmq" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <X.0EQ1 n1:id="@id/fkt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/fk3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="ow" />
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/fkx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="px" />
+                </LinearLayout>
+                <X.12pB n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|gqf">
+                    <FrameLayout n1:id="@id/fku" n1:layout_width="match_parent" n1:layout_height="56.0dp" n2:bwd="pa6" />
+                </X.12pB>
+            </X.12nk>
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/rna" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bw_="@null" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.0oCE n1:id="@id/fj9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:fkf="j0v" n4:fm9="80.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </X.12nR>
+        <X.0oCE n1:id="@id/fj_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n5:fkf="h_s" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/lct" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_alignParentBottom="true">
+        <View n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+            <X.0D2z n1:id="@id/c_w" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n6:fib="l9r" n6:fid="t69" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            <X.0D2z n1:id="@id/cdh" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n7:fib="l9r" n7:fid="qhx" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <X.0D2z n1:id="@id/c_0" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="Date" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n8:fib="l9r" n8:fid="qhx" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+    <ViewStub n1:id="@id/v0e" n1:layout="@layout/bik" n1:layout_width="match_parent" n1:layout_height="52.0dp" />
+</LinearLayout>

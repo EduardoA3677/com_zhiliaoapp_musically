@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CMI n1:id="@id/lga" n1:background="?ekj" n1:paddingBottom="28.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <View n1:id="@id/lqj" n1:background="?eda" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bxc="owf" />
+    <X.12nN n1:gravity="center" n1:id="@id/rb3" n1:background="@drawable/f4q" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:textAlignment="center" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/a6u" />
+</X.0CMI>

@@ -1,0 +1,1584 @@
+.class public final LX/05eO;
+.super LX/13M6;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/13M6<",
+        "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LL:Z
+
+.field public final LLILIL:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Lcom/bytedance/android/livesdk/model/RoomSticker;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final LLILL:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/bytedance/android/livesdk/model/RoomSticker;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public LLILLIZIL:I
+
+.field public LLILLJJLI:I
+
+.field public LLILLL:I
+
+.field public LLILZ:Ljava/lang/String;
+
+.field public LLILZIL:Ljava/lang/Integer;
+
+.field public final LLILZLL:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lkotlin/jvm/functions/Function2;Z)V
+    .locals 1
+
+    invoke-direct {p0}, LX/13M6;-><init>()V
+
+    iput-boolean p2, p0, LX/05eO;->LL:Z
+
+    iput-object p1, p0, LX/05eO;->LLILIL:Lkotlin/jvm/functions/Function2;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    const-string v0, "item_selected"
+
+    iput-object v0, p0, LX/05eO;->LLILZLL:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LLJLL(ILjava/util/List;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/util/List<",
+            "Lcom/bytedance/android/livesdk/model/RoomSticker;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v2
+
+    :cond_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/android/livesdk/model/Sticker;
+
+    add-int/lit8 p1, p1, 0x1
+
+    iget-object v1, v0, Lcom/bytedance/android/livesdk/model/Sticker;->LIZ:Ljava/lang/String;
+
+    iget-object v0, p0, LX/05eO;->LLILZ:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/05eO;->LLILZIL:Ljava/lang/Integer;
+
+    :cond_1
+    return-void
+.end method
+
+.method public final LLJLLIL(I)I
+    .locals 4
+
+    invoke-virtual {p0, p1}, LX/13M6;->getItemViewType(I)I
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    if-eq v0, v1, :cond_3
+
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v3
+
+    const/4 v2, 0x2
+
+    const/4 v0, 0x3
+
+    if-lt v3, v0, :cond_0
+
+    invoke-virtual {p0}, LX/05eO;->LLJZIJLIL()I
+
+    move-result v0
+
+    sub-int/2addr v0, v2
+
+    if-le p1, v0, :cond_0
+
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    add-int/lit8 v0, v0, 0x3
+
+    iget v1, p0, LX/05eO;->LLILLJJLI:I
+
+    add-int/2addr v1, v0
+
+    :goto_0
+    sub-int/2addr p1, v1
+
+    return p1
+
+    :cond_0
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v2, :cond_1
+
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    sub-int/2addr v0, v1
+
+    if-le p1, v0, :cond_1
+
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    add-int/lit8 v1, v0, 0x2
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v1, :cond_2
+
+    if-lez p1, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v1, 0x0
+
+    goto :goto_0
+
+    :cond_3
+    const/4 v0, -0x1
+
+    return v0
+.end method
+
+.method public final LLJLLL()I
+    .locals 3
+
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    const/4 v2, 0x1
+
+    if-eqz v0, :cond_2
+
+    const/4 v1, 0x1
+
+    :goto_0
+    iget v0, p0, LX/05eO;->LLILLJJLI:I
+
+    if-eqz v0, :cond_1
+
+    const/4 v0, 0x1
+
+    :goto_1
+    add-int/2addr v1, v0
+
+    iget v0, p0, LX/05eO;->LLILLL:I
+
+    if-nez v0, :cond_0
+
+    const/4 v2, 0x0
+
+    :cond_0
+    add-int/2addr v1, v2
+
+    return v1
+
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_1
+
+    :cond_2
+    const/4 v1, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final LLJZ()I
+    .locals 5
+
+    const/4 v0, 0x3
+
+    new-array v4, v0, [Lkotlin/Pair;
+
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    new-instance v1, Lkotlin/Pair;
+
+    const-string v0, "TEXT"
+
+    invoke-direct {v1, v0, v2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    const/4 v3, 0x0
+
+    aput-object v1, v4, v3
+
+    iget v0, p0, LX/05eO;->LLILLJJLI:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    new-instance v1, Lkotlin/Pair;
+
+    const-string v0, "IMAGE"
+
+    invoke-direct {v1, v0, v2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    const/4 v0, 0x1
+
+    aput-object v1, v4, v0
+
+    iget v0, p0, LX/05eO;->LLILLL:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    new-instance v1, Lkotlin/Pair;
+
+    const-string v0, "SPECIAL"
+
+    invoke-direct {v1, v0, v2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    const/4 v0, 0x2
+
+    aput-object v1, v4, v0
+
+    invoke-static {v4}, LX/0PSl;->LJIIJ([Lkotlin/Pair;)Ljava/util/Map;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/LinkedHashMap;
+
+    invoke-virtual {v0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v2
+
+    :cond_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/Map$Entry;
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    if-lez v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v3
+
+    :cond_1
+    add-int/lit8 v0, v3, 0x1
+
+    return v0
+.end method
+
+.method public final LLJZIJLIL()I
+    .locals 2
+
+    iget v1, p0, LX/05eO;->LLILLIZIL:I
+
+    iget v0, p0, LX/05eO;->LLILLJJLI:I
+
+    add-int/2addr v1, v0
+
+    add-int/lit8 v0, v1, 0x2
+
+    return v0
+.end method
+
+.method public final getItemCount()I
+    .locals 2
+
+    iget-object v0, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    return v1
+.end method
+
+.method public final getItemViewType(I)I
+    .locals 4
+
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v3
+
+    const/4 v2, 0x3
+
+    const/4 v1, 0x2
+
+    const/4 v0, 0x1
+
+    if-eq v3, v0, :cond_3
+
+    if-eq v3, v1, :cond_2
+
+    if-ne v3, v2, :cond_4
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    if-eq p1, v0, :cond_0
+
+    invoke-virtual {p0}, LX/05eO;->LLJZIJLIL()I
+
+    move-result v0
+
+    if-ne p1, v0, :cond_4
+
+    :cond_0
+    :goto_0
+    const/4 v2, 0x1
+
+    :cond_1
+    return v2
+
+    :cond_2
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    if-ne p1, v0, :cond_4
+
+    goto :goto_0
+
+    :cond_3
+    if-nez p1, :cond_4
+
+    goto :goto_0
+
+    :cond_4
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    if-ge p1, v0, :cond_1
+
+    const/4 v2, 0x2
+
+    return v2
+.end method
+
+.method public final onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    .locals 4
+
+    invoke-super {p0, p1}, LX/13M6;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    move-result-object v3
+
+    instance-of v0, v3, Landroidx/recyclerview/widget/GridLayoutManager;
+
+    if-eqz v0, :cond_0
+
+    move-object v2, v3
+
+    check-cast v2, Landroidx/recyclerview/widget/GridLayoutManager;
+
+    new-instance v1, LX/06Ty;
+
+    const/4 v0, 0x2
+
+    invoke-direct {v1, p0, v3, v0}, LX/06Ty;-><init>(Ljava/lang/Object;Ljava/lang/Object;I)V
+
+    invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/GridLayoutManager;->LJIJI(LX/13Dw;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+    .locals 10
+
+    instance-of v0, p1, LX/05eQ;
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x3
+
+    const/4 v1, 0x2
+
+    const/4 v2, 0x1
+
+    if-eqz v0, :cond_a
+
+    invoke-virtual {p0}, LX/05eO;->LLJZIJLIL()I
+
+    move-result v0
+
+    if-ne p2, v0, :cond_7
+
+    const/4 v4, 0x3
+
+    :goto_0
+    check-cast p1, LX/05eQ;
+
+    new-array v7, v7, [Lkotlin/Pair;
+
+    const v0, 0x7f124443
+
+    invoke-static {v0}, LX/0cwH;->LJIJJLI(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    if-eqz v0, :cond_6
+
+    const/4 v0, 0x1
+
+    :goto_1
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    new-instance v0, Lkotlin/Pair;
+
+    invoke-direct {v0, v5, v3}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    aput-object v0, v7, v6
+
+    const v0, 0x7f124442
+
+    invoke-static {v0}, LX/0cwH;->LJIJJLI(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    iget v0, p0, LX/05eO;->LLILLJJLI:I
+
+    if-eqz v0, :cond_5
+
+    const/4 v0, 0x1
+
+    :goto_2
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    new-instance v0, Lkotlin/Pair;
+
+    invoke-direct {v0, v5, v3}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    aput-object v0, v7, v2
+
+    const v0, 0x7f12471a
+
+    invoke-static {v0}, LX/0cwH;->LJIJJLI(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    iget v0, p0, LX/05eO;->LLILLL:I
+
+    if-eqz v0, :cond_0
+
+    const/4 v6, 0x1
+
+    :cond_0
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    new-instance v0, Lkotlin/Pair;
+
+    invoke-direct {v0, v5, v3}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    aput-object v0, v7, v1
+
+    invoke-static {v7}, LX/0PSl;->LJIIJ([Lkotlin/Pair;)Ljava/util/Map;
+
+    move-result-object v0
+
+    if-lt v4, v2, :cond_4
+
+    check-cast v0, Ljava/util/LinkedHashMap;
+
+    invoke-virtual {v0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v3
+
+    :cond_1
+    :goto_3
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/Map$Entry;
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    if-ne v4, v2, :cond_3
+
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    :goto_4
+    iget-object v1, p1, LX/05eQ;->LL:LX/12nN;
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_2
+    return-void
+
+    :cond_3
+    add-int/lit8 v4, v4, -0x1
+
+    goto :goto_3
+
+    :cond_4
+    const-string v0, ""
+
+    goto :goto_4
+
+    :cond_5
+    const/4 v0, 0x0
+
+    goto :goto_2
+
+    :cond_6
+    const/4 v0, 0x0
+
+    goto :goto_1
+
+    :cond_7
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    if-ne p2, v0, :cond_8
+
+    const/4 v4, 0x2
+
+    goto/16 :goto_0
+
+    :cond_8
+    if-nez p2, :cond_9
+
+    const/4 v4, 0x1
+
+    goto/16 :goto_0
+
+    :cond_9
+    const/4 v4, 0x0
+
+    goto/16 :goto_0
+
+    :cond_a
+    instance-of v0, p1, LX/05eP;
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v7, :cond_11
+
+    invoke-virtual {p0}, LX/05eO;->LLJZIJLIL()I
+
+    move-result v0
+
+    sub-int/2addr v0, v1
+
+    if-le p2, v0, :cond_11
+
+    const/4 v0, 0x3
+
+    :goto_5
+    iget-object v3, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    sub-int v0, p2, v0
+
+    invoke-static {v3, v0}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/bytedance/android/livesdk/model/RoomSticker;
+
+    move-object v5, p1
+
+    check-cast v5, LX/05eP;
+
+    new-instance v3, Lkotlin/jvm/internal/AwS86S0201000_2;
+
+    const/4 v0, 0x1
+
+    invoke-direct {v3, p0, p1, p2, v0}, Lkotlin/jvm/internal/AwS86S0201000_2;-><init>(LX/05eO;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;II)V
+
+    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {}, Lcom/bytedance/android/livesdk/livesetting/broadcast/LiveBroadcastPictureMemOpt;->fitStickerPanelImageSize()Z
+
+    move-result v0
+
+    const/4 v8, 0x0
+
+    if-eqz v0, :cond_10
+
+    iget-object v0, v5, LX/05eP;->LLILLL:Ljava/lang/Integer;
+
+    if-nez v0, :cond_b
+
+    iget-object v0, v5, LX/05eP;->LLILLIZIL:LX/0D0r;
+
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/06O6;->LIZIZ(Landroid/content/Context;)I
+
+    move-result v0
+
+    add-int/lit16 v0, v0, -0x90
+
+    div-int/2addr v0, v7
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, v5, LX/05eP;->LLILLL:Ljava/lang/Integer;
+
+    :cond_b
+    iget-object v0, v5, LX/05eP;->LLILLL:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_10
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v7
+
+    iget-object v0, v5, LX/05eP;->LLILIL:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_f
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    if-ne v0, v1, :cond_f
+
+    int-to-float v1, v7
+
+    const/high16 v0, 0x3f400000    # 0.75f
+
+    mul-float/2addr v1, v0
+
+    float-to-int v9, v1
+
+    :goto_6
+    iget-object v1, v5, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_e
+
+    iput v7, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
+
+    iput v9, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
+
+    :goto_7
+    invoke-static {v1, v0}, LX/0X3I;->R1(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+
+    :goto_8
+    iget-object v0, v5, LX/05eP;->LLILL:Lkotlin/jvm/functions/Function1;
+
+    if-eqz v0, :cond_c
+
+    invoke-interface {v0, v4}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-ne v0, v2, :cond_c
+
+    const/4 v6, 0x1
+
+    :cond_c
+    invoke-virtual {v5, v6}, LX/05eP;->y6(Z)V
+
+    invoke-static {}, LX/05Rl;->LIZ()LX/0qiX;
+
+    move-result-object v1
+
+    iget-object v0, v4, Lcom/bytedance/android/livesdk/model/RoomSticker;->image:Lcom/bytedance/android/live/base/model/ImageModel;
+
+    if-eqz v0, :cond_d
+
+    invoke-virtual {v0}, Lcom/bytedance/android/live/base/model/ImageModel;->getUrls()Ljava/util/List;
+
+    move-result-object v8
+
+    :cond_d
+    invoke-interface {v1, v8}, LX/0qiX;->LIZIZ(Ljava/util/List;)LX/11yz;
+
+    move-result-object v2
+
+    iput v7, v2, LX/11yz;->LJI:I
+
+    iput v9, v2, LX/11yz;->LJII:I
+
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    iput-object v0, v2, LX/11yz;->LJJ:Ljava/lang/Boolean;
+
+    sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
+
+    iput-object v0, v2, LX/11yz;->LJIJJ:Landroid/widget/ImageView$ScaleType;
+
+    new-instance v1, LX/06UP;
+
+    const/4 v0, 0x0
+
+    invoke-direct {v1, v5, v0}, LX/06UP;-><init>(Ljava/lang/Object;I)V
+
+    iput-object v1, v2, LX/11yz;->LJIIL:LX/0d6G;
+
+    iget-object v0, v5, LX/05eP;->LLILLIZIL:LX/0D0r;
+
+    invoke-virtual {v2, v0}, LX/11yz;->LJIJI(Landroid/view/View;)V
+
+    iget-object v2, v5, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    new-instance v1, LY/ACListenerS79S0200000_2;
+
+    const/16 v0, 0xc
+
+    invoke-direct {v1, v3, v4, v0}, LY/ACListenerS79S0200000_2;-><init>(Ljava/lang/Object;Ljava/lang/Object;I)V
+
+    invoke-static {v1, v2}, LX/0X3I;->y3(Landroid/view/View$OnClickListener;Landroid/view/View;)V
+
+    return-void
+
+    :cond_e
+    move-object v0, v8
+
+    goto :goto_7
+
+    :cond_f
+    sget v9, LX/05eP;->LLILZ:I
+
+    goto :goto_6
+
+    :cond_10
+    const/4 v7, -0x1
+
+    const/4 v9, -0x1
+
+    goto :goto_8
+
+    :cond_11
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v1, :cond_12
+
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    sub-int/2addr v0, v2
+
+    if-le p2, v0, :cond_12
+
+    const/4 v0, 0x2
+
+    goto/16 :goto_5
+
+    :cond_12
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v2, :cond_13
+
+    if-lez p2, :cond_13
+
+    const/4 v0, 0x1
+
+    goto/16 :goto_5
+
+    :cond_13
+    const/4 v0, 0x0
+
+    goto/16 :goto_5
+.end method
+
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILjava/util/List;)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
+            "I",
+            "Ljava/util/List<",
+            "+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    instance-of v0, p1, LX/05eP;
+
+    if-eqz v0, :cond_5
+
+    invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    const/4 v4, 0x1
+
+    xor-int/lit8 v0, v0, 0x1
+
+    if-ne v0, v4, :cond_5
+
+    invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v5
+
+    :goto_0
+    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    iget-object v0, p0, LX/05eO;->LLILZLL:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    const/4 v3, 0x0
+
+    const/4 v2, 0x3
+
+    const/4 v1, 0x2
+
+    if-lt v0, v2, :cond_1
+
+    invoke-virtual {p0}, LX/05eO;->LLJZIJLIL()I
+
+    move-result v0
+
+    sub-int/2addr v0, v1
+
+    if-le p2, v0, :cond_1
+
+    :goto_1
+    iget-object v1, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    sub-int v0, p2, v2
+
+    invoke-static {v1, v0}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/bytedance/android/livesdk/model/Sticker;
+
+    move-object v2, p1
+
+    check-cast v2, LX/05eP;
+
+    iget-boolean v0, p0, LX/05eO;->LL:Z
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, v1, Lcom/bytedance/android/livesdk/model/Sticker;->LIZ:Ljava/lang/String;
+
+    iget-object v0, p0, LX/05eO;->LLILZ:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v3, 0x1
+
+    :cond_0
+    invoke-virtual {v2, v3}, LX/05eP;->y6(Z)V
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v1, :cond_2
+
+    invoke-virtual {p0}, LX/05eO;->LLJZ()I
+
+    move-result v0
+
+    sub-int/2addr v0, v4
+
+    if-le p2, v0, :cond_2
+
+    const/4 v2, 0x2
+
+    goto :goto_1
+
+    :cond_2
+    invoke-virtual {p0}, LX/05eO;->LLJLLL()I
+
+    move-result v0
+
+    if-lt v0, v4, :cond_3
+
+    if-lez p2, :cond_3
+
+    const/4 v2, 0x1
+
+    goto :goto_1
+
+    :cond_3
+    const/4 v2, 0x0
+
+    goto :goto_1
+
+    :cond_4
+    invoke-super {p0, p1, p2, p3}, LX/13M6;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILjava/util/List;)V
+
+    goto :goto_0
+
+    :cond_5
+    invoke-super {p0, p1, p2, p3}, LX/13M6;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILjava/util/List;)V
+
+    :cond_6
+    return-void
+.end method
+
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    .locals 8
+
+    const-string v4, "onCreateViewHolder getParent() != null crash hook, holder "
+
+    const/4 v5, 0x1
+
+    const/4 v3, 0x0
+
+    if-ne p2, v5, :cond_0
+
+    new-instance v2, LX/05eQ;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->e8(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v1
+
+    const v0, 0x7f0e2b05
+
+    invoke-static {v1, v0, p1, v3}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, LX/05eQ;-><init>(Landroid/view/View;)V
+
+    goto :goto_1
+
+    :cond_0
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->e8(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v1
+
+    iget-boolean v0, p0, LX/05eO;->LL:Z
+
+    if-eqz v0, :cond_1
+
+    const v0, 0x7f0e2b0a
+
+    :goto_0
+    invoke-static {v1, v0, p1, v3}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v7
+
+    invoke-static {}, Lcom/bytedance/android/livesdk/livesetting/broadcast/LiveBroadcastPictureMemOpt;->fitStickerPanelImageSize()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    new-instance v2, LX/05eP;
+
+    iget-boolean v6, p0, LX/05eO;->LL:Z
+
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    new-instance v1, Lkotlin/jvm/internal/AwS512S0100000_2;
+
+    const/16 v0, 0x12c
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS512S0100000_2;-><init>(LX/05eO;I)V
+
+    invoke-direct {v2, v6, v7, v3, v1}, LX/05eP;-><init>(ZLandroid/view/View;Ljava/lang/Integer;Lkotlin/jvm/functions/Function1;)V
+
+    goto :goto_1
+
+    :cond_1
+    const v0, 0x7f0e2b09
+
+    goto :goto_0
+
+    :cond_2
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {v7, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+
+    new-instance v2, LX/05eP;
+
+    iget-boolean v3, p0, LX/05eO;->LL:Z
+
+    new-instance v1, Lkotlin/jvm/internal/AwS512S0100000_2;
+
+    const/16 v0, 0x12d
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS512S0100000_2;-><init>(LX/05eO;I)V
+
+    const/4 v0, 0x0
+
+    invoke-direct {v2, v3, v7, v0, v1}, LX/05eP;-><init>(ZLandroid/view/View;Ljava/lang/Integer;Lkotlin/jvm/functions/Function1;)V
+
+    :goto_1
+    :try_start_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-eqz v3, :cond_3
+
+    invoke-static {p1}, LX/05Ro;->LIZ(Landroid/view/View;)Landroidx/fragment/app/Fragment;
+
+    move-result-object v1
+
+    const v0, 0x7f0b17d6
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    :cond_3
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const v0, 0x7f0b7c70
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+
+    :try_start_1
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    :try_start_2
+    invoke-static {}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZLLL()Lcom/bytedance/ies/abmock/SettingsManager;
+
+    move-result-object v1
+
+    const-string v0, "catch_onCreateViewHolder_crash"
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v0, v5}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZ(Ljava/lang/String;Z)Z
+
+    move-result v5
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catch_0
+    if-eqz v5, :cond_4
+
+    :try_start_3
+    new-instance v1, Ljava/lang/StringBuffer;
+
+    invoke-direct {v1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " parent "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " viewType "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuffer;->append(I)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0tSY;->LIZJ(Ljava/lang/String;)V
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_4
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-static {v0, v1}, LX/0X3I;->LJJIZ(Landroid/view/View;Landroid/view/ViewGroup;)V
+
+    goto :goto_2
+    :try_end_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+
+    :catch_1
+    move-exception v0
+
+    invoke-static {v0}, LX/0H5y;->LIZ(Ljava/lang/Exception;)V
+
+    invoke-static {v0}, LX/0YM6;->LIZ(Ljava/lang/Exception;)V
+
+    :cond_4
+    :goto_2
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, LX/0RKz;->LIZ:Ljava/lang/String;
+
+    return-object v2
+.end method
+
+.method public final setData(Ljava/util/List;)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "LX/05I8<",
+            "Lcom/bytedance/android/livesdk/model/RoomSticker;",
+            ">;>;)V"
+        }
+    .end annotation
+
+    new-instance v2, Ljava/util/ArrayList;
+
+    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+
+    check-cast p1, Ljava/util/ArrayList;
+
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v5
+
+    const/4 v1, -0x1
+
+    :cond_0
+    :goto_0
+    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, LX/05I8;
+
+    iget-object v3, v4, LX/05I8;->LIZ:Ljava/lang/String;
+
+    sget-object v0, LX/05Lf;->LIZ:Ljava/lang/String;
+
+    const-string v0, "livestickertext"
+
+    invoke-static {v3, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, v4, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    iput v0, p0, LX/05eO;->LLILLIZIL:I
+
+    iget-object v0, v4, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    iget-boolean v0, p0, LX/05eO;->LL:Z
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, LX/05eO;->LLILZ:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, LX/05eO;->LLILZIL:Ljava/lang/Integer;
+
+    if-nez v0, :cond_0
+
+    add-int/lit8 v1, v1, 0x1
+
+    iget-object v0, v4, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-virtual {p0, v1, v0}, LX/05eO;->LLJLL(ILjava/util/List;)V
+
+    iget-object v0, p0, LX/05eO;->LLILZIL:Ljava/lang/Integer;
+
+    if-nez v0, :cond_0
+
+    iget v0, p0, LX/05eO;->LLILLIZIL:I
+
+    add-int/2addr v1, v0
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v5
+
+    :cond_2
+    :goto_1
+    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, LX/05I8;
+
+    iget-object v3, v4, LX/05I8;->LIZ:Ljava/lang/String;
+
+    sget-object v0, LX/05Lf;->LIZ:Ljava/lang/String;
+
+    const-string v0, "livestickerimage"
+
+    invoke-static {v3, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, v4, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    iput v0, p0, LX/05eO;->LLILLJJLI:I
+
+    iget-object v0, v4, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    iget-boolean v0, p0, LX/05eO;->LL:Z
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, LX/05eO;->LLILZ:Ljava/lang/String;
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, LX/05eO;->LLILZIL:Ljava/lang/Integer;
+
+    if-nez v0, :cond_2
+
+    add-int/lit8 v1, v1, 0x1
+
+    iget-object v0, v4, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-virtual {p0, v1, v0}, LX/05eO;->LLJLL(ILjava/util/List;)V
+
+    iget-object v0, p0, LX/05eO;->LLILZIL:Ljava/lang/Integer;
+
+    if-nez v0, :cond_2
+
+    iget v0, p0, LX/05eO;->LLILLJJLI:I
+
+    add-int/2addr v1, v0
+
+    goto :goto_1
+
+    :cond_3
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v4
+
+    :cond_4
+    :goto_2
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_5
+
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, LX/05I8;
+
+    iget-object v1, v3, LX/05I8;->LIZ:Ljava/lang/String;
+
+    sget-object v0, LX/05Lf;->LIZ:Ljava/lang/String;
+
+    const-string v0, "livestickerspecial"
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    iget-object v0, v3, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    iput v0, p0, LX/05eO;->LLILLL:I
+
+    iget-object v0, v3, LX/05I8;->LIZIZ:Ljava/util/List;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    goto :goto_2
+
+    :cond_5
+    new-instance v1, LX/05WL;
+
+    iget-object v0, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    invoke-direct {v1, v0, v2}, LX/05WL;-><init>(Ljava/util/List;Ljava/util/List;)V
+
+    const/4 v0, 0x1
+
+    invoke-static {v1, v0}, LX/12aW;->LIZ(LX/0x3w;Z)LX/12aT;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, LX/12aT;->LIZJ(LX/13M6;)V
+
+    iget-object v0, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+
+    iget-object v0, p0, LX/05eO;->LLILL:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    return-void
+.end method

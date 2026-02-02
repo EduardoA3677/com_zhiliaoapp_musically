@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/e5b" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center" n1:id="@id/e59" n1:background="@drawable/arm" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="54.0dp" n1:layout_marginBottom="44.0dp" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp" n1:elevation="10.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/c4e" n1:importantForAccessibility="no" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="8.0dp" n2:fj2="p4" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

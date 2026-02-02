@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/gru" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0NBS android:id="@id/est" android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <X.0NBy android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/grr" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/gs_" android:layout_width="15.0dp" android:layout_height="15.0dp" android:layout_marginTop="10.5dp" android:scaleType="fitCenter" android:alpha="0.0" android:layout_marginEnd="10.5dp" android:elevation="2.0dp" n2:bwq="@id/gro" n2:bxc="@id/gro" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <ImageView android:id="@id/gro" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:alpha="0.0" n3:bwl="@id/grq" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout android:id="@id/grq" android:background="?y1" android:layout_width="match_parent" android:layout_height="0.0dp" android:alpha="0.0" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/gro" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                <ImageView android:layout_gravity="top" android:id="@id/grp" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitStart" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </X.0NBS>
+</FrameLayout>

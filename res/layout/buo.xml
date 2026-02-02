@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/izz" n1:layout="@layout/bvn" n1:inflatedId="@id/izz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" />
+    <ViewStub n1:id="@id/izy" n1:layout="@layout/bvm" n1:inflatedId="@id/izy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" />
+    <ViewStub n1:id="@id/mpq" n1:layout="@layout/bvp" n1:inflatedId="@id/mpq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" />
+    <ViewStub n1:id="@id/mpr" n1:layout="@layout/bvq" n1:inflatedId="@id/mpr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" />
+    <ViewStub n1:id="@id/wu8" n1:layout="@layout/bwe" n1:inflatedId="@id/wu8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" />
+    <ViewStub n1:id="@id/wu9" n1:layout="@layout/bwf" n1:inflatedId="@id/wu9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" />
+</FrameLayout>

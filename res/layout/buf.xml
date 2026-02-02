@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:background="@drawable/bkp" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:id="@id/nuv" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+        <X.0CLZ n1:textColor="?zw" n1:id="@id/tvg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/odt" n1:layout_width="42.0dp" n1:layout_height="13.0dp" n1:layout_marginStart="4.0dp" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/rea" n1:layout_width="35.0dp" n1:layout_height="13.0dp" n1:paddingStart="3.0dp" n1:layout_marginStart="4.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="9.0dp" n1:layout_height="9.0dp" n3:fjq="@raw/icon_star_fill" n3:fmy="?me" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/re3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="0.39999998dp" n1:layout_marginStart="2.0dp" n4:fj2="qf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/uch" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:fj2="q1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/axa" n1:layout_width="16.0dp" n1:layout_height="16.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:layout_width="10.669983dp" n1:layout_height="10.669983dp" n1:layout_marginEnd="1.5499878dp" n6:fjq="@raw/icon_chevron_right_offset_ltr" n6:fmy="?zz" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

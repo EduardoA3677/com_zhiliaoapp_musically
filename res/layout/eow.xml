@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ie3" n1:background="?bm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/wq8" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="47.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:text="@null" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="p0" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/r_e" n1:background="@drawable/aro" n1:padding="6.0dp" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="12.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fjz="true" n2:fmy="?e0" />
+        <X.0D2z n1:enabled="false" n1:id="@id/r_f" n1:layout_width="72.0dp" n1:layout_height="32.0dp" n1:text="@string/km6" n1:layout_marginEnd="12.0dp" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:fi9="true" n2:fib="u9x" n2:fid="qhx" n2:fj2="pv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/idy" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="14.0dp" n1:layout_marginEnd="14.0dp" n3:bwk="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/ie1" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMn n1:id="@id/ie4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:fly="mzu" n4:flz="true" n4:fm1="?dk" n4:fm3="?yh" n4:fm7="mzu" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <X.0Gqt n1:id="@id/ie0" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </X.0mMn>
+    </FrameLayout>
+    <X.0FFu n1:id="@id/idx" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="14.0dp" n1:layout_marginEnd="14.0dp" n5:bwk="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.14iG n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/h5x" n1:layout_height="wrap_content" n2:byc="0%" n2:byu="0%" n2:byv="min(                 wrap_content,                 parent.width                   -(h5z.visible?(h5z.width+2dp):0dp)                   -(h5w.visible?(h5w.width+2dp):0dp)                   -(h5y.visible?(h5y.width+2dp):0dp)             )" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/h5z" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="*" n3:byc="prev.right+(this.visible?2dp:0dp)" n3:byu="0%" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:gravity="center" n1:id="@id/h5w" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwc="h5x.centerYFirstLine" n4:byc="prev.right+(this.visible?2dp:0dp)" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center_vertical" n1:id="@id/h5y" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n5:bwc="h5x.centerYFirstLine" n5:byc="prev.right+(this.visible?2dp:0dp)" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </X.14iG>
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/h5v" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:textDirection="locale" />
+</LinearLayout>

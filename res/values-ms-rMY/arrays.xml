@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Pustaka bunyi dalam talian</item>
+        <item>Bunyi Saya</item>
+    </string-array>
+    <string-array name="q">
+        <item>Padam</item>
+        <item>Batal</item>
+    </string-array>
+    <string-array name="t">
+        <item>Sohor kini</item>
+        <item>Terkini</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Ahad</item>
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Bahasa Cina Mudah</item>
+        <item>Cina Tradisional</item>
+        <item>Bahasa Inggeris</item>
+        <item>Jepun</item>
+        <item>Korea</item>
+        <item>Rusia</item>
+        <item>Indonesia</item>
+        <item>Melayu</item>
+        <item>Portugis</item>
+        <item>Thai</item>
+        <item>Vietnam</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Hitam/Putih</item>
+        <item>Seni</item>
+        <item>Vintaj</item>
+        <item>Retro</item>
+        <item>Tepu</item>
+        <item>Krom</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mac</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ogo</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dis</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Utamakan penjimatan data</item>
+        <item>Utamakan resolusi tinggi</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Semua orang</item>
+        <item>Rakan Sahaja</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+        <item>Ahad</item>
+    </string-array>
+</resources>

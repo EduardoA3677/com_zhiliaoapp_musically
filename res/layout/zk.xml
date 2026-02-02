@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.commentv2.commentpage.ui.ClipFrameLayout n1:id="@id/lcj" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/opk" n1:background="?zo" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" n1:importantForAccessibility="no" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/l6r" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</com.ss.android.ugc.aweme.commentv2.commentpage.ui.ClipFrameLayout>

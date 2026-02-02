@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout n1:id="@id/i3j" n1:saveEnabled="false" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CWG n1:id="@id/rmb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/rm4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/ctd" n1:layout="@layout/a9e" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0m3J n1:id="@id/rm0" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/p8b" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/rln" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rlm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rlg" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rm8" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <include layout="@layout/d7b" />
+        </FrameLayout>
+        <FrameLayout n1:id="@id/rlo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rm3" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e3" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/ikf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="49.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/iko" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.13dw n1:layout_gravity="center" n1:id="@id/d58" n1:visibility="gone" n1:layout_width="100.0dp" n1:layout_height="100.0dp" n4:em4="true" n4:eme="true" n4:emg="@raw/tux_lottie_common_creation_ailoading_oral_large" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </X.0m3J>
+    <FrameLayout n1:id="@id/sfr" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/lgq" n1:background="@color/dx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <FrameLayout n1:id="@id/lgo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <FrameLayout n1:id="@id/lgp" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout n1:id="@id/rm_" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/rla" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/ffd" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/rll" n1:layout="@layout/s3" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout>

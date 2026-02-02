@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0fxU n1:orientation="horizontal" n1:id="@id/k73" n1:background="@drawable/duf" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="-12.0dp" />
+    <X.0fDB n1:id="@id/k76" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:background="?eis" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ViewStub n1:id="@id/nl_" n1:layout="@layout/gfy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:background="?eis" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bxb="@id/nl_" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0Cze n1:id="@id/k75" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.0d4p n1:id="@id/k77" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <ViewStub n1:id="@id/lsu" n1:layout="@layout/gfv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bxc="owf" />
+            </FrameLayout>
+        </X.0Cze>
+        <X.0rBl n1:layout_gravity="center" n1:id="@id/k74" n1:padding="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+        <ViewStub n1:layout_gravity="center" n1:id="@id/ldb" n1:layout="@layout/gfx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="33.0dp" n1:layout_marginRight="33.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/ec8" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/wiq" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?ei4" n1:layout_gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:layout_marginBottom="17.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a79" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/ccm" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?ehx" n1:layout_gravity="center" n1:id="@id/ccl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:layout_marginBottom="17.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a6u" />
+    </FrameLayout>
+    <View n1:background="@color/c_" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+    <FrameLayout n1:id="@id/cf7" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?ehx" n1:layout_gravity="center" n1:id="@id/cf6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:layout_marginBottom="17.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a6u" />
+    </FrameLayout>
+    <View n1:background="?c0w" n1:layout_width="match_parent" n1:layout_height="8.0dp" />
+    <FrameLayout n1:id="@id/c9n" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?ei2" n1:layout_gravity="center" n1:id="@id/c9h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="17.0dp" n1:layout_marginBottom="17.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a6s" />
+    </FrameLayout>
+</LinearLayout>

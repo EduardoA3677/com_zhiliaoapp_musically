@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0E3O n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/title" n1:paddingLeft="?biz" n1:paddingTop="@dimen/cm" n1:paddingRight="?biz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:singleLine="true" n1:textAlignment="viewStart" style="?android:windowTitleStyle" />
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0" layout="@layout/fw" />
+</X.0E3O>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/cy4" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/ues" n1:layout_width="match_parent" n1:layout_height="90.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/lb9" n1:background="?dk" n1:paddingTop="24.0dp" n1:paddingBottom="24.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="24.0dp" n1:paddingEnd="24.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwl="@id/ccs" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ues" n4:bxe="ori" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/d00" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:textAlignment="center" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" n4:fj2="ot" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:ellipsize="end" n1:id="@id/czx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:maxLines="3" n1:textAlignment="center" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/d00" n4:fj2="pv" />
+        <androidx.cardview.widget.CardView n1:id="@id/ql6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qo" n4:ba4="@dimen/b8" n4:ba5="0.0dp" n4:bwk="owf" n4:bwp="3:4" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/czx">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ql9" n1:background="@drawable/any" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:src="@drawable/ur" n4:bwp="1:1" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" />
+                <View n1:id="@id/myt" n1:layout_width="match_parent" n1:layout_height="90.0dp" n4:bwk="@id/ql9" n4:bwq="owf" n4:bx9="owf" />
+                <View n1:id="@id/mya" n1:background="?e0" n1:layout_width="match_parent" n1:layout_height="34.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ql9" />
+                <X.0vEo n1:id="@id/zsx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bx9="owf" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0D2z n1:textColor="?e0" n1:id="@id/ccs" n1:background="?du" n1:layout_width="0.0dp" n1:layout_height="42.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginStart="16.0dp" n5:bwl="@id/l1_" n5:bwr="@id/c_t" n5:bx9="owf" n5:bxb="@id/lb9" n5:fib="o6b" n5:fid="o6b" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:textColor="?e5" n1:id="@id/c_t" n1:background="?e0" n1:layout_width="0.0dp" n1:layout_height="42.0dp" n1:layout_marginStart="9.0dp" n1:layout_marginEnd="16.0dp" n6:bwk="@id/ccs" n6:bwq="owf" n6:bx8="@id/ccs" n6:bxc="@id/ccs" n6:fib="o6b" n6:fid="o6b" n6:fj2="p7" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/l1_" n1:focusable="false" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginBottom="16.0dp" n1:importantForAccessibility="no" n7:bwk="owf" n7:bwq="owf" n7:bx0="ori" n7:bx9="owf" n7:fjq="@raw/icon_chevron_up_double" n7:fmy="?e2" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

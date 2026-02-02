@@ -1,0 +1,47 @@
+.class public final LX/12cv;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0wih;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LX/0wih<",
+        "LX/12cq;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LIZ:Landroid/app/Activity;
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Activity;)V
+    .locals 0
+
+    iput-object p1, p0, LX/12cv;->LIZ:Landroid/app/Activity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(Ljava/lang/Object;)V
+    .locals 1
+
+    check-cast p1, LX/12cq;
+
+    iget-object v0, p0, LX/12cv;->LIZ:Landroid/app/Activity;
+
+    invoke-interface {p1, v0}, LX/12cq;->LJIILIIL(Landroid/app/Activity;)V
+
+    return-void
+.end method

@@ -1,0 +1,83 @@
+.class public final LX/0aWT;
+.super LX/0PAw;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime LX/0PaH;
+    c = "com.ss.android.ugc.aweme.im.sticker.impl.aiselfsticker.IMAISelfStickerService"
+    f = "IMAISelfStickerService.kt"
+    l = {
+        0x1f6,
+        0x1fc
+    }
+    m = "deleteAiSelfSticker"
+.end annotation
+
+
+# instance fields
+.field public LL:Lkotlin/jvm/functions/Function0;
+
+.field public LLILIL:Lkotlin/jvm/functions/Function0;
+
+.field public LLILL:Ljava/lang/Object;
+
+.field public synthetic LLILLIZIL:Ljava/lang/Object;
+
+.field public final synthetic LLILLJJLI:LX/0aWU;
+
+.field public LLILLL:I
+
+
+# direct methods
+.method public constructor <init>(LX/0aWU;LX/02wT;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LX/0aWU;",
+            "LX/02wT<",
+            "-",
+            "LX/0aWT;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LX/0aWT;->LLILLJJLI:LX/0aWU;
+
+    invoke-direct {p0, p2}, LX/0PAw;-><init>(LX/02wT;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    const-string v2, "IMAISelfStickerService@a626.deleteAiSelfSticker$1"
+
+    invoke-static {v2}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    iput-object p1, p0, LX/0aWT;->LLILLIZIL:Ljava/lang/Object;
+
+    iget v1, p0, LX/0aWT;->LLILLL:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr v1, v0
+
+    iput v1, p0, LX/0aWT;->LLILLL:I
+
+    iget-object v1, p0, LX/0aWT;->LLILLJJLI:LX/0aWU;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v1, v0, v0, p0}, LX/0aWU;->LJJI(Lkotlin/jvm/internal/AwS484S0100000_8;Lkotlin/jvm/internal/AwS479S0100000_3;LX/02wT;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v2}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-object v0
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="np">20.0dp</dimen>
+    <dimen name="nq">24.0dp</dimen>
+    <dimen name="nr">12.0dp</dimen>
+    <dimen name="a5m">24.0dp</dimen>
+    <dimen name="a5p">24.0dp</dimen>
+</resources>

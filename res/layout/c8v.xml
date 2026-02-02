@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.1357 n1:id="@id/t59" n1:layout_width="match_parent" n1:layout_height="40.0dp" n2:f8e="?zw" n2:f8j="2.0dp" n2:f8n="sqt" n2:f8q="12.0dp" n2:f8r="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/lqj" n1:background="?lx" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            <X.13KU n1:id="@id/t5b" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </LinearLayout>
+        <X.0oCE n1:id="@id/nqj" n1:background="?bx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fkf="h_s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

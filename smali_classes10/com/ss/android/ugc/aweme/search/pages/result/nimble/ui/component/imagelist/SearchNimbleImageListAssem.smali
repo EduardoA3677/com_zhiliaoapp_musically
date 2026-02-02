@@ -1,0 +1,174 @@
+.class public final Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/imagelist/SearchNimbleImageListAssem;
+.super Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/base/SearchNimbleBaseAssem;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/base/SearchNimbleBaseAssem<",
+        "Ljava/util/List<",
+        "+",
+        "Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/pages/image/model/ImageData;",
+        ">;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/base/SearchNimbleBaseAssem;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final An()I
+    .locals 2
+
+    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/base/SearchNimbleBaseAssem;->ln()Lcom/ss/android/ugc/aweme/nimblecard/model/search/NimbleConfig;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v1, v0, Lcom/ss/android/ugc/aweme/nimblecard/model/search/NimbleConfig;->aggregatable:Ljava/lang/Boolean;
+
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    :goto_0
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/base/SearchNimbleBaseAssem;->ln()Lcom/ss/android/ugc/aweme/nimblecard/model/search/NimbleConfig;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, v0, Lcom/ss/android/ugc/aweme/nimblecard/model/search/NimbleConfig;->maxPhotoColumn:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    :cond_0
+    return v1
+
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final Cn()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/pages/image/model/ImageData;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/bytedance/assem/arch/reused/ReusedAssem;->LLIZ:LX/0NKA;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, v0, LX/0NIM;->LL:Ljava/lang/Object;
+
+    :goto_0
+    check-cast v0, LX/0Kai;
+
+    invoke-interface {v0}, LX/0Kai;->LLIL()LX/0KUh;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0KUh;->getSubImages()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final Om()I
+    .locals 1
+
+    const v0, 0x7f0e1e65
+
+    return v0
+.end method
+
+.method public final kn(Ljava/lang/Object;)Z
+    .locals 1
+
+    check-cast p1, Ljava/util/List;
+
+    if-eqz p1, :cond_0
+
+    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    :goto_0
+    xor-int/lit8 v0, v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
+.end method
+
+.method public final bridge synthetic nn()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/imagelist/SearchNimbleImageListAssem;->Cn()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final ym(Landroid/view/View;)V
+    .locals 2
+
+    new-instance v1, Lkotlin/jvm/internal/AwS519S0100000_9;
+
+    const/16 v0, 0xd6
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS519S0100000_9;-><init>(Lcom/ss/android/ugc/aweme/search/pages/result/nimble/ui/component/imagelist/SearchNimbleImageListAssem;I)V
+
+    const/4 v0, 0x0
+
+    invoke-static {p0, v0, v1}, LX/0NJ0;->LIZ(Lcom/bytedance/assem/arch/reused/ReusedUIAssem;LX/0NK6;Lkotlin/jvm/functions/Function1;)V
+
+    return-void
+.end method

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/ebi" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0nZb n1:layout_gravity="center" n1:id="@id/dtm" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:importantForAccessibility="no" n2:b41="h_f" n2:bnc="0" n2:bwk="owf" n2:bxc="owf" />
+        <X.0oCE n1:id="@id/up1" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <View n1:id="@id/k3s" n1:background="@drawable/ac7" n1:layout_width="match_parent" n1:layout_height="100.0dp" n3:bwk="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/w5j" n1:paddingTop="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <ScrollView n1:id="@id/dwb" n1:scrollbars="none" n1:layout_width="304.0dp" n1:layout_height="87.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="12.0dp" n4:bwk="owf" n4:bx9="owf">
+            <X.0Cyh n1:textColor="?so" n1:id="@id/dwa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:fj2="p5" style="@style/a8c" />
+        </ScrollView>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dwc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n4:bwk="owf" n4:bx9="owf">
+            <ScrollView n1:id="@id/dwd" n1:scrollbars="none" n1:layout_width="294.0dp" n1:layout_height="87.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="12.0dp" n4:bwl="@id/dwe" n4:bx9="owf">
+                <X.0Cyh n1:textColor="?so" n1:id="@id/dwf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textDirection="locale" n4:fj2="p5" style="@style/a8c" />
+            </ScrollView>
+            <View n1:id="@id/fp1" n1:visibility="gone" n1:layout_width="294.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="12.0dp" n4:bx9="owf" n4:bxc="@id/dwd" />
+            <View n1:id="@id/fp0" n1:background="@drawable/acn" n1:visibility="gone" n1:layout_width="294.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="12.0dp" n4:bwk="@id/dwd" n4:bx9="owf" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/gqs" n1:paddingBottom="1.0dp" n1:visibility="invisible" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n4:bwl="@id/dwe" n4:bwq="@id/dwd" n4:fj2="p5" />
+            <RelativeLayout n1:id="@id/lpr" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:contentDescription="@null" n4:bwk="@id/gqs" n4:bwq="owf" n4:bx8="@id/gqs">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/ks2" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n4:fjq="@raw/icon_heart_fill" n4:fmy="?yi" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/kl6" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n4:fjq="@raw/icon_heart" n4:fmy="?e2" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:id="@id/y7l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" n1:maxLines="1" n1:layout_centerVertical="true" n1:layout_marginStart="1.0dp" n1:layout_toEndOf="@id/ks2" n4:fj2="q1" />
+            </RelativeLayout>
+            <X.06Tf n1:id="@id/v23" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="7.0dp" n1:layout_marginStart="18.0dp" n4:bx9="owf" n4:bxb="@id/gqs" />
+            <ScrollView n1:id="@id/dwe" n1:scrollbars="none" n1:layout_width="264.0dp" n1:layout_height="87.0dp" n1:layout_marginStart="6.0dp" n4:bwk="owf" n4:bx8="@id/v23">
+                <X.0Cyh n1:textColor="?so" n1:id="@id/dwh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textDirection="locale" n4:fj2="p5" style="@style/a8c" />
+            </ScrollView>
+            <View n1:id="@id/fp5" n1:background="@drawable/aco" n1:visibility="gone" n1:layout_width="294.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="12.0dp" n4:bx9="owf" n4:bxc="@id/dwe" />
+            <View n1:id="@id/fp4" n1:background="@drawable/acn" n1:visibility="gone" n1:layout_width="294.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="12.0dp" n4:bwk="@id/dwe" n4:bx9="owf" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/gqt" n1:paddingBottom="1.0dp" n1:visibility="invisible" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="@id/dwe" n4:fj2="p5" />
+            <RelativeLayout n1:id="@id/lpu" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:contentDescription="@null" n4:bwk="@id/gqt" n4:bwq="owf" n4:bx8="@id/gqt">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/ks2" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n4:fjq="@raw/icon_heart_fill" n4:fmy="?yi" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/kl6" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n4:fjq="@raw/icon_heart" n4:fmy="?e2" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:id="@id/y7l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" n1:maxLines="1" n1:layout_centerVertical="true" n1:layout_marginStart="1.0dp" n1:layout_toEndOf="@id/ks2" n4:fj2="q1" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:gravity="center" n1:id="@id/c8h" n1:background="@drawable/acm" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="29.0dp" n1:text="@null" n1:paddingStart="10.0dp" n1:paddingEnd="12.0dp" n1:layout_marginStart="12.0dp" n1:paddingVertical="8.0dp" n5:bx9="owf" n5:bxc="@id/w5j" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/lpq" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="38.0dp" n1:layout_marginBottom="12.0dp" n1:contentDescription="@null" n1:layout_marginEnd="12.0dp" n6:bwk="@id/w5j" n6:bwq="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ks2" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n6:fjq="@raw/icon_heart_fill" n6:fmy="?ms" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kl6" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n6:fjq="@raw/icon_heart_fill" n6:fmy="?e1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:gravity="center" n1:id="@id/y7l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" n1:maxLines="1" n1:layout_below="@id/ks2" n1:layout_centerHorizontal="true" n6:fj2="q2" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

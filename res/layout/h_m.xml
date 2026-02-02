@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vct" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <SurfaceView n1:id="@id/vcq" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0D0r n1:id="@id/bbp" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.01rB n1:id="@id/qb1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

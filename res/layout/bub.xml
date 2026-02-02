@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="204.0dp">
+        <ScrollView n1:layout_gravity="center" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0pXj n1:layout_gravity="center_horizontal" n1:id="@id/hah" n1:layout_width="164.0dp" n1:layout_height="wrap_content" n2:f7l="@layout/bu1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </ScrollView>
+    </FrameLayout>
+    <ScrollView n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="20.0dp">
+        <androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n3:ba3="?y5" n3:ba4="8.0dp" n3:ba5="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="20.0dp" n1:paddingBottom="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp">
+                <X.0pWN n1:textColor="?zw" n1:layout_gravity="start|center" n1:id="@id/gns" n1:layout_width="match_parent" n1:layout_height="48.0dp" n3:fj2="p5" />
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gnl" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="5.0" n3:fj2="p5" />
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gn_" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="8.0" n1:layout_marginStart="32.0dp" n3:fj2="p5" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gnm" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="5.0" n3:fj2="p5" />
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gna" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="8.0" n1:layout_marginStart="32.0dp" n3:fj2="p5" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gnn" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="5.0" n3:fj2="p5" />
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gnb" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="8.0" n1:layout_marginStart="32.0dp" n3:fj2="p5" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gno" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="5.0" n3:fj2="p5" />
+                    <X.0pWN n1:textColor="?zw" n1:id="@id/gnc" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="8.0" n1:layout_marginStart="32.0dp" n3:fj2="p5" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</LinearLayout>

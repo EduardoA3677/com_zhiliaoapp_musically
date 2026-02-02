@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/tbl" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0o6h n1:id="@id/tbm" n1:layout_width="match_parent" n1:layout_height="40.0dp" n2:azo="?y1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:id="@id/tbn" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+</LinearLayout>

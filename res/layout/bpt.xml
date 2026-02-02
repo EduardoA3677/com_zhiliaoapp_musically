@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/fth" n1:visibility="gone" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_marginEnd="2.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fti" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ftg" n1:visibility="gone" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_marginStart="2.0dp" />
+</LinearLayout>

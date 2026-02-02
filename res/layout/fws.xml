@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="14.0dp" n1:textColor="?ekp" n1:ellipsize="end" n1:id="@id/xvp" n1:paddingBottom="20.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:textIsSelectable="false" n1:textAlignment="viewStart" n2:bx9="owf" n2:bxc="owf" style="@style/a74" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0dp" n1:textColor="?eks" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:textIsSelectable="false" n1:textDirection="anyRtl" n1:textAlignment="viewStart" n1:layout_marginEnd="16.0dp" n3:bx9="owf" n3:bxb="@id/xvp" style="@style/a74" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginEnd="16.0dp" n4:bx9="owf" n4:bxb="@id/yti" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textSize="16.0dp" n1:textColor="?ekq" n1:ellipsize="end" n1:id="@id/xtk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:textIsSelectable="false" n1:textDirection="anyRtl" n1:textAlignment="viewStart" style="@style/a76" />
+        <LinearLayout n1:orientation="horizontal" n1:paddingBottom="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/l2_" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="4.0dp" n4:br4="?e6w" n4:brl="?eft" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/l29" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="16.0dp" n4:br4="?e6w" n4:brl="?eft" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

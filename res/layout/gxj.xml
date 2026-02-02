@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/tuy" n1:paddingTop="@dimen/qi" n1:paddingBottom="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?c3s" n1:id="@id/twj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" style="@style/a6q" />
+    <ViewStub n1:orientation="horizontal" n1:id="@id/tuq" n1:padding="4.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/xic" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="25.0dp" n1:paddingStart="16.0dp" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:ba3="?bx" n3:ba4="8.0dp" n3:ba5="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="20.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/xli" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n3:fj2="p4" />
+            <X.0o06 n1:id="@id/pde" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_horizontal" n1:id="@id/dcw" n1:layout_width="200.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="11.0dp" n1:layout_marginBottom="11.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/xky" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:bwk="owf" n3:bwr="@id/kdf" n3:bx0="ori" n3:bx9="owf" n3:bxc="owf" n3:fj2="q1" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/kdf" n1:focusable="false" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/xky" n3:bxc="owf" n3:fjq="@raw/icon_chevron_down_small_fill" n3:fmy="?zz" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <Space n1:id="@id/bww" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="24.0dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

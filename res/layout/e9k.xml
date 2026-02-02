@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/chr" n1:background="@drawable/cz2" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/mxe" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="3.0dp" n1:layout_marginBottom="3.0dp" n1:layout_marginStart="3.0dp" n2:b41="d4s" n2:etn="?yh" n2:eyl="@dimen/b2" n2:eyo="?yg" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="center_vertical" n1:id="@id/mxj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="140.0dp" n1:maxLines="1" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="8.0dp" n3:fj2="qc" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

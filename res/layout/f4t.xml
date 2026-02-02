@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/sv8" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:importantForAccessibility="yes">
+        <FrameLayout n1:id="@id/hbb" n1:clipChildren="false" n1:layout_width="66.0dp" n1:layout_height="66.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="11.0dp">
+            <X.0msj n1:layout_gravity="center" n1:id="@id/hgj" n1:layout_width="65.0dp" n1:layout_height="65.0dp">
+                <X.0qzH n1:layout_gravity="center" n1:id="@id/kfb" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="5.0dp" />
+            </X.0msj>
+            <X.0ChR n1:id="@id/k9y" n1:padding="3.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:elm="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0Czc n1:layout_gravity="end|bottom" n1:id="@id/lvk" n1:background="@drawable/dji" n1:padding="2.5dp" n1:visibility="gone" n1:layout_width="21.0dp" n1:layout_height="21.0dp" n1:layout_marginBottom="6.0dp" n1:translationY="2.5dp" n1:layout_marginEnd="6.0dp" />
+        </FrameLayout>
+        <FrameLayout n1:id="@id/w0m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/ace" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true">
+            <X.0Kzb n1:id="@id/rqw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="88.0dp" n3:fib="u9x" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <LinearLayout n1:gravity="start" n1:orientation="vertical" n1:id="@id/lcu" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:baselineAligned="false" n1:layout_centerVertical="true" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n1:layout_toStartOf="@id/w0m" n1:layout_toEndOf="@id/hbb">
+            <LinearLayout n1:gravity="start|center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:baselineAligned="false">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/yvl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/wl7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_color_verified_badge" n5:fjt="10.0dp" n5:fk6="10.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/xoq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n6:fj2="px" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/xw_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:lines="1" n7:fj2="px" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/yb_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n8:fj2="px" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+            <X.0Cwu n1:id="@id/nsw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout n1:id="@id/hds" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/lzc" n1:layout="@layout/f8f" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="9.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <ViewStub n1:id="@id/zjb" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/zhl" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/zhk" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

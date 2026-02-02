@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e92" n1:paddingTop="6.0dp" n1:paddingBottom="7.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="6.0dp" n1:paddingEnd="8.0dp">
+        <X.0D0r n1:id="@id/n58" n1:layout_width="@dimen/anz" n1:layout_height="@dimen/anz" n2:bne="@drawable/ewh" n2:bnf="d4s" n2:bx9="owf" n2:bxc="owf" n2:etn="?fey" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.16lY n1:id="@id/nuw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="5.0dp" n3:bwg="true" n3:bwr="@id/paj" n3:bwz="0.0" n3:bx8="@id/n58" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <View n1:id="@id/l8s" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" />
+            <X.12nN n1:textColor="?fen" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/nuf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="18.0dp" n1:singleLine="true" n1:includeFontPadding="false" n1:textIsSelectable="false" n1:textAlignment="viewStart" style="@style/a76" />
+            <X.12nN n1:gravity="center_vertical" n1:id="@id/l8r" n1:paddingLeft="4.0dp" n1:paddingTop="1.0dp" n1:paddingRight="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:paddingHorizontal="4.0dp" style="@style/a76" />
+        </X.16lY>
+        <X.0d6s n1:textColor="?fen" n1:id="@id/ean" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:textIsSelectable="false" n1:textDirection="anyRtl" n1:textAlignment="viewStart" n1:layout_marginStart="5.0dp" n4:bwk="owf" n4:bwr="@id/paj" n4:bwz="0.0" n4:bx8="@id/n58" n4:bxb="@id/nuw" n4:bxg="wrap" n4:bxz="8.0dp" n4:bzi="20.0dp" style="@style/a76" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <ImageView n1:id="@id/paj" n1:visibility="visible" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:src="@drawable/c10" n5:bwk="owf" n5:bwq="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

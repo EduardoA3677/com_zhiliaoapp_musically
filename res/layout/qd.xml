@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/k91" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <RelativeLayout n1:layout_width="60.0dp" n1:layout_height="60.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/a_j" n1:visibility="gone" n1:layout_width="25.0dp" n1:layout_height="25.0dp" n1:layout_marginTop="18.0dp" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n2:fjq="@raw/icon_control" n2:fmy="?bx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <ImageView n1:id="@id/klr" n1:visibility="gone" n1:layout_width="@dimen/ex" n1:layout_height="@dimen/ex" n1:layout_marginRight="5.0dp" n1:layout_marginBottom="5.0dp" n1:src="@drawable/a9_" n1:scaleType="fitXY" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

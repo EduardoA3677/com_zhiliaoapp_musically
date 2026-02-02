@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:id="@id/jb2" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:scaleType="centerCrop" n2:eyl="6.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="@dimen/qg" n1:textColor="?ekp" n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="16.0dp" />
+    <X.12pz n1:id="@id/zde" n1:layout_width="wrap_content" n1:layout_height="@dimen/qq" n3:b5_="true" style="@style/a5t" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</merge>

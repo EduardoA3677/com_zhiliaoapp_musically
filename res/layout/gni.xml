@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="?bo" n1:layout_width="match_parent" n1:layout_height="6.0dp" />
+    <X.12hi n1:textColor="?zz" n1:gravity="bottom" n1:id="@id/wkb" n1:paddingBottom="4.0dp" n1:layout_width="wrap_content" n1:layout_height="41.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="0.0dp" style="@style/a79" />
+</LinearLayout>

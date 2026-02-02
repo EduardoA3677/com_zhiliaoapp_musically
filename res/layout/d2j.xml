@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/kh7" n1:paddingLeft="2.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="18.0dp" n1:layout_marginBottom="40.0dp" n1:importantForAccessibility="no" n1:paddingStart="2.0dp" n1:layout_marginStart="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hek" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/kqn" n1:layout_width="@dimen/f4" n1:layout_height="@dimen/f2" n1:scaleType="centerInside" n1:contentDescription="@null" n1:importantForAccessibility="yes" n2:fjq="@raw/icon_color_flip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <X.0Cxq n1:textStyle="bold" n1:ellipsize="end" n1:gravity="center" n1:id="@id/y43" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="0.5dp" n1:text="@null" n1:shadowColor="@color/fu" n1:shadowDx="0.0" n1:shadowDy="2.0" n1:shadowRadius="2.0" n1:importantForAccessibility="no" n1:fontFamily="medium" n3:fdv="#e6ffffff" style="@style/ael" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/v0y" n1:layout="@layout/cxm" n1:inflatedId="@id/v0y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

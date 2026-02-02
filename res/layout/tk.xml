@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_horizontal" n1:id="@id/kr1" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="196.0dp" n2:fjq="@raw/icon_exclamation_mark_circle_fill" n2:fmy="?a04" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="18.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:fj2="ow" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <ScrollView n1:scrollbarThumbVertical="@drawable/zt" n1:scrollbarAlwaysDrawVerticalTrack="true" n1:id="@id/sqq" n1:scrollbars="vertical" n1:fadingEdge="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="20.0dp" n1:scrollbarFadeDuration="0" n1:fadeScrollbars="false" n1:overScrollMode="never" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/xw_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </ScrollView>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?yi" n1:gravity="center" n1:id="@id/xxh" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_below="@id/sqq" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="24.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp">
+        <X.0D2z n1:gravity="center" n1:id="@id/cdw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:fib="l9r" n6:fid="qhx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/cc3" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="12.0dp" n1:text="@null" n7:fj2="p7" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

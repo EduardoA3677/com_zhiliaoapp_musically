@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Çevrimiçi ses kütüphanesi</item>
+        <item>Sesim</item>
+    </string-array>
+    <string-array name="l">
+        <item>Temiz</item>
+    </string-array>
+    <string-array name="q">
+        <item>Sil</item>
+        <item>İptal</item>
+    </string-array>
+    <string-array name="t">
+        <item>Revaçta</item>
+        <item>En son</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Basitleştirilmiş Çince</item>
+        <item>Geleneksel Çince</item>
+        <item>İngilizce</item>
+        <item>Japonca</item>
+        <item>Korece</item>
+        <item>Rusça</item>
+        <item>Endonezyaca</item>
+        <item>Malayca</item>
+        <item>Portekizce</item>
+        <item>Tayca</item>
+        <item>Vietnamca</item>
+        <item>Hintçe</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Siyah/Beyaz</item>
+        <item>Sanatlar</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Doygun</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Oca</item>
+        <item>Şub</item>
+        <item>Mar</item>
+        <item>Nis</item>
+        <item>May</item>
+        <item>Haz</item>
+        <item>Tem</item>
+        <item>Ağu</item>
+        <item>Eyl</item>
+        <item>Eki</item>
+        <item>Kas</item>
+        <item>Ara</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Öncelikle veri tasarrufu</item>
+        <item>Öncelikle yüksek çözünürlük</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Herkes</item>
+        <item>Sadece Arkadaşlar</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+    </string-array>
+</resources>

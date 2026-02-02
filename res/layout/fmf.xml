@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:id="@id/bw_" n1:layout_width="wrap_content" n1:layout_height="148.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/w6o" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/bwa" n1:layout_width="72.0dp" n1:layout_height="128.0dp" n3:b41="hmx" n3:bne="?bv" n3:etn="?bv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/pg3" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n4:fjq="@raw/icon_play_fill" n4:fjz="true" n4:fmy="?y0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

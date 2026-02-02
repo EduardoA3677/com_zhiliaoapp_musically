@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/s47" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nk n1:id="@id/s4z" n1:fadingEdge="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/hm6" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+    </X.12nk>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/s50" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bw_="@null" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.cardview.widget.CardView n1:layout_gravity="end|bottom" n1:id="@id/wqs" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="75.0dp" n1:layout_marginEnd="@dimen/mj" n4:ba3="?c3" n4:ba4="@dimen/b7" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/wqr" n1:padding="8.0dp" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:contentDescription="top_btn_icon" n4:fjq="@raw/icon_arrow_to_top" n4:fmy="?zw" />
+    </androidx.cardview.widget.CardView>
+    <X.0oCE n1:id="@id/s5g" n1:background="?c3" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CPG n1:layout_gravity="top" n1:id="@id/h_q" n1:background="?c3" n1:paddingBottom="8.0dp" n1:visibility="invisible" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:alpha="0.0" n1:scaleY="0.3" n1:requiresFadingEdge="horizontal" />
+</X.12nR>

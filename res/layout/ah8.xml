@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textColor="?zy" n1:id="@id/f4b" n1:layout_width="wrap_content" n1:layout_height="20.5dp" n1:text="@null" n1:layout_weight="1.0" />
+        <X.0CU3 n1:id="@id/rnq" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="6.0dp" n2:fhz="8.0dp" n2:fi6="fh_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/axa" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_chevron_right_ltr" n3:fmy="?so" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/j75" n1:paddingTop="@dimen/qf" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

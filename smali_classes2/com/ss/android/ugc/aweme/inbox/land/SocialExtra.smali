@@ -1,0 +1,200 @@
+.class public final Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final $stable:I
+
+
+# instance fields
+.field public final isInteractiveNotice:Z
+    .annotation runtime LX/0B9U;
+        value = "is_interactive_notice"
+    .end annotation
+.end field
+
+.field public final noticeCreateTime:J
+    .annotation runtime LX/0B9U;
+        value = "notice_create_time"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    const/4 v2, 0x0
+
+    const-wide/16 v0, 0x0
+
+    invoke-direct {p0, v2, v0, v1}, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;-><init>(ZJ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(ZJ)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    iput-wide p2, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final copy(ZJ)Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;
+    .locals 1
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;
+
+    invoke-direct {v0, p1, p2, p3}, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;-><init>(ZJ)V
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 7
+
+    const/4 v6, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v6
+
+    :cond_0
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;
+
+    const/4 v5, 0x0
+
+    if-nez v0, :cond_1
+
+    return v5
+
+    :cond_1
+    check-cast p1, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;
+
+    iget-boolean v1, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    iget-boolean v0, p1, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    if-eq v1, v0, :cond_2
+
+    return v5
+
+    :cond_2
+    iget-wide v3, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    iget-wide v1, p1, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    cmp-long v0, v3, v1
+
+    if-eqz v0, :cond_3
+
+    return v5
+
+    :cond_3
+    return v6
+.end method
+
+.method public final getNoticeCreateTime()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    return-wide v0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    mul-int/lit8 v2, v0, 0x1f
+
+    iget-wide v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    invoke-static {v0, v1}, LX/0X3I;->b(J)I
+
+    move-result v0
+
+    add-int/2addr v2, v0
+
+    return v2
+.end method
+
+.method public final isInteractiveNotice()Z
+    .locals 1
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    return v0
+.end method
+
+.method public final isValidData()Z
+    .locals 5
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    if-eqz v0, :cond_0
+
+    iget-wide v3, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v0, v3, v1
+
+    if-lez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string v0, "SocialExtra(isInteractiveNotice="
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->isInteractiveNotice:Z
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", noticeCreateTime="
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v0, p0, Lcom/ss/android/ugc/aweme/inbox/land/SocialExtra;->noticeCreateTime:J
+
+    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-static {v2}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/rod" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/rob" n1:padding="8.0dp" n1:visibility="visible" n1:layout_width="46.0dp" n1:layout_height="46.0dp" n1:scaleType="fitXY" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_control" n3:fjt="20.0dp" n3:fk6="20.0dp" n3:fmy="?zy" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/rof" n1:visibility="gone" n1:clickable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="-4.0dp" n1:layout_alignTop="@id/rob" n1:layout_marginStart="-28.0dp" n1:layout_toEndOf="@id/rob" n4:fjq="@raw/icon_shield_exclamation_filled" n4:fmy="?y7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

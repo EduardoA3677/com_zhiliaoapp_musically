@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <Space n1:id="@id/in0" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwl="@id/ck_" n2:bwq="@id/ck_" n2:bx9="@id/ck_" n2:bxb="@id/cna"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <Space n3:id="@id/imx" n3:layout_width="0.0dp" n3:layout_height="0.0dp" n4:bwq="@id/ck_" n4:bx9="@id/ck_" n4:bxb="@id/ck_"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <Space n5:id="@id/imz" n5:layout_width="0.0dp" n5:layout_height="0.0dp" n6:bwk="@id/ck_" n6:bwr="@id/ck_" n6:bxc="@id/ck_"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <Space n7:id="@id/imy" n7:layout_width="0.0dp" n7:layout_height="0.0dp" n8:bwk="@id/ck_" n8:bx8="@id/ck_" n8:bxc="@id/ck_"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n9:id="@id/cl8" n9:clipChildren="false" n9:clipToPadding="false" n9:layout_width="0.0dp" n9:layout_height="0.0dp" n10:bwf="false" n10:bwg="false" n10:bwk="@id/imx" n10:bwq="@id/imy" n10:bx9="@id/imz" n10:bxc="@id/in0"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="#ffffff" n1:layout_gravity="bottom" n1:id="@id/yn7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginBottom="4.0dp" n1:maxLines="1" n1:maxLength="4" n1:lineSpacingExtra="2.0dp" n1:layout_marginStart="8.0dp" />
+        <X.0msr n1:id="@id/ozs" n1:background="#0000" n1:padding="0.0dp" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:indeterminate="false" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:b76="11.0dp" n2:b78="3.0dp" n2:b79="10.0dp" n2:b7b="#ffffff" n2:b7c="12.0sp" style="@style/k_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="#ffffff" n1:layout_gravity="bottom" n1:id="@id/yn8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginBottom="4.0dp" n1:maxLines="1" n1:maxLength="4" n1:lineSpacingExtra="2.0dp" n1:layout_marginStart="8.0dp" />
+        <X.0msr n1:id="@id/ozt" n1:background="#0000" n1:padding="0.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:indeterminate="false" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n3:b76="11.0dp" n3:b78="3.0dp" n3:b79="10.0dp" n3:b7b="#ffffff" n3:b7c="12.0sp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="120.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d3Z n1:layout_gravity="center" n1:id="@id/hmz" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n1:src="@drawable/e_m" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="4.0dp" />
+    <X.0d3Z n1:id="@id/gsp" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:src="@drawable/eri" />
+    <X.0cHP n1:layout_gravity="center" n1:id="@id/gso" n1:layout_width="wrap_content" n1:layout_height="120.0dp" n1:maxHeight="2.0dp" n1:progressDrawable="@drawable/dqg" n1:thumb="@drawable/dqh" n1:thumbOffset="0.0dp" n1:splitTrack="true" />
+    <X.0d3Z n1:layout_gravity="center" n1:id="@id/hn0" n1:visibility="gone" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n1:src="@drawable/e_m" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="16.0dp" />
+</LinearLayout>

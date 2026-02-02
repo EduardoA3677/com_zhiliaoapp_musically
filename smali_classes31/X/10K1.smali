@@ -1,0 +1,64 @@
+.class public final LX/10K1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/12gU;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public static LIZ()LX/12gU;
+    .locals 2
+
+    sget-object v0, LX/12gU;->LIZIZ:LX/12gU;
+
+    if-nez v0, :cond_1
+
+    const-class v1, LX/12gU;
+
+    monitor-enter v1
+
+    :try_start_0
+    sget-object v0, LX/12gU;->LIZIZ:LX/12gU;
+
+    if-nez v0, :cond_0
+
+    new-instance v0, LX/12gU;
+
+    invoke-direct {v0}, LX/12gU;-><init>()V
+
+    sput-object v0, LX/12gU;->LIZIZ:LX/12gU;
+
+    goto :goto_0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+
+    throw v0
+
+    :cond_0
+    :goto_0
+    monitor-exit v1
+
+    :cond_1
+    sget-object v0, LX/12gU;->LIZIZ:LX/12gU;
+
+    if-nez v0, :cond_2
+
+    invoke-static {}, Lkotlin/jvm/internal/Intrinsics;->LJIIL()V
+
+    :cond_2
+    return-object v0
+.end method

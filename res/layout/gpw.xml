@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/opn" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/tt5" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="1.0dp" />
+    <X.137w n1:id="@id/klx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="4.0dp" n2:ffh="8.0dp" n2:fox="1.0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="start|bottom" n1:id="@id/va7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:layout_marginStart="@dimen/qu">
+        <View n1:id="@id/white_circle" n1:background="@drawable/dq8" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/va6" n1:layout_width="@dimen/qo" n1:layout_height="@dimen/qo" n1:layout_marginTop="2.0dp" n1:layout_marginStart="2.0dp" n4:bne="@drawable/eib" n4:bnf="d4s" n4:bx9="owf" n4:bxc="owf" n4:etn="@drawable/eic" n4:ey2="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

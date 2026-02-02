@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:id="@id/tdg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:text="@string/ql8" n1:layout_marginHorizontal="12.0dp" n2:fib="l9r" n2:fid="qhx" n2:fk4="@raw/icon_paperplane_fill" n2:fmy="?z4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

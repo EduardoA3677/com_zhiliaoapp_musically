@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/wwu" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/wwy" n1:paddingTop="4.0dp" n1:layout_width="match_parent" n1:layout_height="44.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/nvf" n1:padding="8.0dp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n2:fjq="@raw/icon_chevron_left_offset_ltr" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/nvp" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/wwv" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0Cze n1:id="@id/ron" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:fll="rol" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <X.0o06 n1:id="@id/www" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </X.0Cze>
+        <X.0oCE n1:id="@id/wwx" n1:layout_width="match_parent" n1:layout_height="match_parent" n5:fkf="h_s" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

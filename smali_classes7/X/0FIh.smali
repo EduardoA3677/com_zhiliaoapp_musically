@@ -1,0 +1,148 @@
+.class public final LX/0FIh;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final synthetic LIZ:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static LIZ(Ljava/lang/String;)Ljava/util/Map;
+    .locals 8
+
+    const/16 v0, 0x3f
+
+    const/4 v7, 0x0
+
+    const/4 v6, 0x6
+
+    invoke-static {p0, v0, v7, v7, v6}, Lkotlin/text/b0;->LJJIJLIJ(Ljava/lang/CharSequence;CIZI)I
+
+    move-result v1
+
+    const/4 v0, -0x1
+
+    if-ne v1, v0, :cond_0
+
+    invoke-static {}, LX/0PSl;->LJ()Ljava/util/Map;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    const/4 v5, 0x1
+
+    add-int/lit8 v0, v1, 0x1
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "&"
+
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v1, v0, v7, v6}, Lkotlin/text/b0;->LJJL(Ljava/lang/CharSequence;[Ljava/lang/String;II)Ljava/util/List;
+
+    move-result-object v0
+
+    new-instance v4, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v4}, Ljava/util/LinkedHashMap;-><init>()V
+
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v3
+
+    :cond_1
+    :goto_0
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    const-string v0, "="
+
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v1, v0, v7, v6}, Lkotlin/text/b0;->LJJL(Ljava/lang/CharSequence;[Ljava/lang/String;II)Ljava/util/List;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    const/4 v0, 0x2
+
+    if-ne v1, v0, :cond_1
+
+    invoke-static {v2, v7}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-static {v2, v5}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    invoke-static {v0}, Ljava/net/URLDecoder;->decode(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v4, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    :cond_2
+    return-object v4
+.end method
+
+.method public static LIZIZ(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_0
+    invoke-static {p0}, LX/0FIh;->LIZ(Ljava/lang/String;)Ljava/util/Map;
+
+    move-result-object p0
+
+    const-string v0, "resource_id"
+
+    invoke-interface {p0, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    return-object v0
+.end method

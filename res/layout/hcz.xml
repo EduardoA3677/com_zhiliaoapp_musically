@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0ChP n1:id="@id/jb2" n1:layout_width="@dimen/anz" n1:layout_height="@dimen/anz" n1:layout_marginTop="8.0dp" n1:layout_marginStart="@dimen/as9" n2:bne="@drawable/eib" n2:bnf="d4s" n2:bx9="owf" n2:bxc="owf" n2:etn="?fey" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.widget.SimpleLiveTextView n1:textColor="?fep" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/wk7" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginTop="4.0dp" n1:singleLine="true" n1:includeFontPadding="false" n1:textIsSelectable="false" n1:textAlignment="viewStart" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="@dimen/as9" n3:bx8="@id/jb2" n3:bxc="owf" style="@style/a76" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0cqo n1:textColor="?fen" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginBottom="4.0dp" n1:minHeight="18.0dp" n1:textIsSelectable="false" n1:textAlignment="viewStart" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="@dimen/as9" n4:bwg="true" n4:bwk="owf" n4:bwq="owf" n4:bwz="0.0" n4:bx8="@id/jb2" n4:bxb="@id/wk7" style="@style/a76" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

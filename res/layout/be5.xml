@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout n1:background="@drawable/bc4" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="8.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="12.0dp" n1:paddingVertical="12.0dp" n2:bgf="@dimen/b2" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/iw4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="20.0dp" n2:fj2="pu" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end" n1:id="@id/djj" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_x_mark" n2:fmy="?zz" />
+</com.bytedance.tux.widget.RadiusLayout>

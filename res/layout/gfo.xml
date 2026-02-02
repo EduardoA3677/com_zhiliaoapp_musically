@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/rc4" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:eto="h_j" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/rc5" n1:background="@color/bc" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j6z" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="34.0dp" n1:layout_marginStart="16.0dp" n3:br4="?e_u" n3:brl="?e0" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/lcl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/jb7" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginBottom="13.0dp" n4:br4="?dc5" n4:brl="@color/bn" />
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/efd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="32.0dp" n1:layoutDirection="ltr" n1:layout_marginHorizontal="32.0dp">
+            <X.12nN n1:textSize="32.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/eff" n1:background="@drawable/dxl" n1:paddingBottom="3.0dp" n1:layout_width="50.0dp" n1:layout_height="wrap_content" style="@style/a6j" />
+            <X.12nN n1:textSize="32.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:paddingBottom="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=" : " style="@style/a6j" />
+            <X.12nN n1:textSize="32.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/efg" n1:background="@drawable/dxl" n1:paddingBottom="3.0dp" n1:layout_width="50.0dp" n1:layout_height="wrap_content" style="@style/a6j" />
+        </LinearLayout>
+        <X.12nN n1:textSize="20.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/wkb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginHorizontal="32.0dp" style="@style/a6o" />
+        <X.12nN n1:textSize="13.0sp" n1:textColor="#99ffffff" n1:gravity="center" n1:id="@id/edp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="48.0dp" n1:lineSpacingExtra="2.0dp" n1:layout_marginHorizontal="32.0dp" style="@style/a77" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j7z" n1:layout_width="217.0dp" n1:layout_height="96.0dp" />
+        <X.125u n1:id="@id/m6f" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="48.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginHorizontal="32.0dp" />
+    </LinearLayout>
+    <X.125u n1:id="@id/m6g" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="50.0dp" n1:layout_marginHorizontal="16.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/mbr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp" n6:bwl="@id/m6g" n6:bwq="owf" n6:bx9="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <X.125u n1:id="@id/lya" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.125u n1:id="@id/lxv" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

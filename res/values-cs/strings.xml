@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Povolit</string>
+    <string name="en0">Ke spuštění aplikace %1$s je třeba aktivovat služby Google Play.</string>
+    <string name="en1">Aktivace služeb Google Play</string>
+    <string name="en2">Instalovat</string>
+    <string name="en3">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v zařízení nemáte.</string>
+    <string name="en4">Instalace služeb Google Play</string>
+    <string name="en5">Dostupnost služeb Google Play</string>
+    <string name="en6">Chyba služeb Google Play</string>
+    <string name="en7">Aplikace %1$s má potíže se službami Google Play. Zkuste to prosím znovu.</string>
+    <string name="en8">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v tomto zařízení nejsou podporovány.</string>
+    <string name="en9">Aktualizovat</string>
+    <string name="en_">Ke spuštění aplikace %1$s je třeba aktualizovat služby Google Play.</string>
+    <string name="ena">Aktualizace služeb Google Play</string>
+    <string name="enb">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které jsou právě aktualizovány.</string>
+    <string name="enc">Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

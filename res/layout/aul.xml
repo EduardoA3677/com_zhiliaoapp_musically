@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/yc1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/p2_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/p0j" n1:background="@drawable/b03" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="16.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/p2_" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/p1y" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="fitCenter" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" />
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/p29" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="10.0dp" n3:bwk="owf" n3:bwr="@id/p26" n3:bx8="@id/p1y" n3:bxc="owf" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/p26" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" n3:fjq="@raw/icon_chevron_right_offset_ltr" n3:fmy="?zw" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

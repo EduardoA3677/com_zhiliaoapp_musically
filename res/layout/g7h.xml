@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="bottom" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/oph" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n1:importantForAccessibility="no" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ean" n1:background="@drawable/dpc" n1:paddingBottom="28.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?c3s" n1:layout_gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:layout_marginVertical="16.0dp" n2:ewn="true" style="@style/a6q" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0rmm n1:id="@id/npz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp" n3:bg5="@layout/g7g" n3:elu="@layout/gcj" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

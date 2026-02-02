@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0tQZ n1:id="@id/jbc" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ImageView n1:id="@id/my6" n1:background="@color/p3" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </X.0tQZ>
+    <X.0tRG n1:id="@id/od5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:b66="@drawable/bvx" n2:b_w="true" n2:b_x="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/jbl" n1:layout_width="327.0dp" n1:layout_height="212.0dp" n1:layout_centerInParent="true">
+        <ImageView n1:id="@id/jbm" n1:layout_width="327.0dp" n1:layout_height="212.0dp" n1:src="@drawable/csn" />
+        <X.0COX n1:id="@id/jbn" n1:layout_width="327.0dp" n1:layout_height="match_parent" n3:fob="@drawable/cso" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <TextView n1:textAppearance="@style/ace" n1:gravity="center_horizontal" n1:id="@id/jbk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="66.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginRight="66.0dp" n1:text="" n1:layout_below="@id/jbl" n1:layout_centerInParent="true" n1:lineSpacingExtra="0.0sp" n1:layout_marginHorizontal="66.0dp" />
+    <ImageView n1:id="@id/od3" n1:background="@drawable/bzh" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:layout_marginBottom="110.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

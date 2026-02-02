@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/u8p" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0HSD n1:layout_gravity="bottom" n1:id="@id/sce" n1:layout_width="match_parent" n1:layout_height="280.0dp">
+        <FrameLayout n1:id="@id/rl7" n1:layout_width="100.0dp" n1:layout_height="match_parent" n1:layout_centerInParent="true" />
+        <RelativeLayout n1:id="@id/g84" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="100.0dp" n1:layout_marginBottom="40.0dp" n1:layout_alignParentBottom="true" n1:contentDescription="@string/soa" n1:layout_toStartOf="@id/rl7" n1:layout_alignParentStart="true">
+            <RelativeLayout n1:id="@id/g82" n1:layout_width="80.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="22.0dp" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true">
+                <X.0CWG n1:id="@id/l2l" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="8.0dp" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n2:etn="@drawable/c2q" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <X.0Czc n1:id="@id/l2m" n1:visibility="gone" n1:layout_width="@dimen/uc" n1:layout_height="@dimen/uc" n1:layout_marginTop="8.0dp" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n3:etn="@drawable/c2q" n3:eto="d4s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <X.0CWG n1:id="@id/l2o" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_alignTop="@id/l2l" n1:importantForAccessibility="no" n1:layout_alignEnd="@id/l2l" n4:b41="h_j" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <X.0CWG n1:id="@id/l2n" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginTop="-11.0dp" n1:layout_alignTop="@id/l2l" n1:importantForAccessibility="no" n1:layout_marginEnd="-11.0dp" n1:layout_alignEnd="@id/l2l" n5:etn="@drawable/c2r" n5:eto="d4r" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/s4m" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="0.0dp" n1:layout_alignBottom="@id/l2l" n1:contentDescription="@null" n1:layout_marginStart="0.0dp" n1:layout_alignStart="@id/l2l" n6:fjq="@raw/icon_clock_fill" n6:fmy="?a0b" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout n1:id="@id/ncf" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="50.0dp" n1:layout_alignParentBottom="true" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true">
+            <TextView n1:textStyle="bold" n1:textColor="?e3" n1:ellipsize="end" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/z4e" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="38.0dp" n1:maxWidth="86.0dp" n1:text="@null" n1:maxLines="1" n1:singleLine="true" n1:layout_centerVertical="true" n1:paddingStart="2.0dp" n1:paddingEnd="8.0dp" n1:layout_marginStart="@dimen/qi" />
+            <X.0H4a n1:layout_gravity="start" n1:id="@id/cgf" n1:layout_width="@dimen/uk" n1:layout_height="@dimen/uj" n1:layout_centerVertical="true" n1:layout_marginStart="@dimen/qi" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/hxq" n1:layout_width="@dimen/r5" n1:layout_height="30.0dp" n1:layout_marginBottom="@dimen/r5" n1:layout_alignParentBottom="true" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_marginStart="-2.0dp" n1:layout_toEndOf="@id/cgf" n7:fjq="@drawable/c70" n7:fjt="30.0dp" n7:fk6="@dimen/r5" n7:fmy="?zw" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <X.13dw n1:layout_gravity="start|center" n1:id="@id/cgg" n1:padding="0.0dp" n1:visibility="gone" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:scaleType="centerCrop" n1:layout_centerVertical="true" n1:layout_marginStart="12.0dp" />
+        </RelativeLayout>
+        <FrameLayout n1:id="@id/z41" n1:visibility="gone" n1:layout_width="68.0dp" n1:layout_height="68.0dp" n1:layout_alignParentBottom="true" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" />
+    </X.0HSD>
+</FrameLayout>

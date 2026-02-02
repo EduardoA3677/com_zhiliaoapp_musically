@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jo3" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitCenter" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.10qG n1:id="@id/in9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

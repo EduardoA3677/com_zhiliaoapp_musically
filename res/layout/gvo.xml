@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.125u n1:id="@id/n5i" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0wn4 n1:id="@id/w7d" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/warning_info">
+        <X.12om n1:id="@id/rom" n1:fadingEdgeLength="24.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:requiresFadingEdge="vertical" n2:elj="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.12oA n1:id="@id/n6k" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0cyP n1:id="@id/n6j" n1:fadingEdgeLength="24.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:requiresFadingEdge="vertical" n2:bw_="com.bytedance.android.livesdk.chatroom.behavior.ScrollHeaderBehavior" n2:f61="true" />
+                <FrameLayout n1:id="@id/hn5" n1:tag="suctionBottomView" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:b7o="o6n" n2:bw_="com.bytedance.android.livesdk.chatroom.behavior.SuctionBottomBehavior" />
+            </X.12oA>
+        </X.12om>
+        <X.0a7J n1:textColor="?ei9" n1:gravity="center" n1:layout_gravity="start|bottom" n1:id="@id/n6i" n1:background="@drawable/dyo" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:text="@null" n1:includeFontPadding="false" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n1:layout_marginStart="@dimen/as9" style="@style/a79" />
+        <ViewStub n1:layout_gravity="start|bottom" n1:id="@id/n6f" n1:layout="@layout/gz5" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:layout_marginStart="@dimen/as9" />
+    </X.0wn4>
+    <X.0csd n1:id="@id/warning_info" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginLeft="@dimen/as9" n1:layout_marginTop="10.0dp" n1:layout_marginRight="@dimen/as9" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true" n1:layout_marginHorizontal="@dimen/as9" />
+</RelativeLayout>

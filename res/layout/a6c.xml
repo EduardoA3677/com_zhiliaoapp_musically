@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="103.0dp" n1:layout_height="103.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/workbench_card_middle_banner_image" n1:layout_width="103.0dp" n1:layout_height="103.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:id="@id/workbench_card_middle_banner_tag" n1:background="@drawable/af8" n1:paddingLeft="6.0dp" n1:paddingTop="2.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="2.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="79.0dp" n1:maxWidth="91.0dp" n1:maxLines="1" n1:layout_marginStart="6.0dp" n1:paddingHorizontal="6.0dp" n1:paddingVertical="2.0dp" n2:fj2="qc" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/workbench_card_middle_banner_price" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxWidth="103.0dp" n1:maxLines="1" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/workbench_card_middle_banner_price_earn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxWidth="103.0dp" n1:maxLines="2" n1:textDirection="locale" n4:fj2="q2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

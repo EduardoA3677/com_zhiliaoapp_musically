@@ -1,0 +1,25 @@
+.class public final Lcom/bytedance/android/livesdk/dataChannel/TopLiveSkylightTransYChannel;
+.super Lcom/bytedance/ies/sdk/datachannel/GlobalChannel;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/bytedance/ies/sdk/datachannel/GlobalChannel<",
+        "Ljava/lang/Float;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, Lcom/bytedance/ies/sdk/datachannel/GlobalChannel;-><init>(Z)V
+
+    return-void
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_marginRight="7.5dp" n1:layout_marginEnd="7.5dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:id="@id/p8o" n1:background="@drawable/ect" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" />
+    <X.0D0r n1:layout_gravity="center" n1:id="@id/p7r" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:scaleType="center" n2:eyl="6.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

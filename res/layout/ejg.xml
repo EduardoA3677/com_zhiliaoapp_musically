@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/til" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp">
+        <X.0uFg n1:id="@id/jyx" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:maxLines="1" n1:layout_weight="1.0" n2:bso="o6b" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center" n1:id="@id/kib" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:contentDescription="clear_all" n1:layout_marginStart="8.0dp" n3:fjq="@raw/icon_x_mark_circle_fill" n3:fjt="20.0dp" n3:fk6="20.0dp" n3:fmy="?a04" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:paddingTop="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/zgm" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="Your link here" n1:layout_weight="1.0" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/xxy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0/24" n1:layout_marginStart="8.0dp" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0Cqb n1:id="@id/jyy" n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:f29="false" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

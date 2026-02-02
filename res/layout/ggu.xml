@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/sfr" n1:background="?eit" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d4p n1:id="@id/ix4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0rBl n1:layout_gravity="center" n1:id="@id/iwu" n1:padding="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/iwl" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="15.0sp" n1:textColor="?ekp" n1:gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="33.0dp" n1:layout_marginEnd="33.0dp" style="@style/a6u" />
+        <X.12nN n1:textSize="13.0sp" n1:textColor="?ekr" n1:gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n1:layout_marginStart="33.0dp" n1:layout_marginEnd="33.0dp" style="@style/a77" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CUD n1:id="@id/v1c" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="44.0dp" n2:f7h="wor|bwg" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0CIm n1:id="@id/uzi" n1:paddingTop="14.0dp" n1:paddingBottom="32.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:overScrollMode="never" />
+    </X.0CUD>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:gravity="center" n1:id="@id/u8v" n1:visibility="gone" n1:layout_width="53.0dp" n1:layout_height="33.0dp" n1:alpha="0.0" n3:fj2="pa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/bxe" n1:layout_width="match_parent" n1:layout_height="44.0dp" />
+</FrameLayout>

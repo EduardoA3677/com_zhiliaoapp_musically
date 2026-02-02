@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:ax2="?mp" n2:ax3="@integer/aa" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/me5" n1:padding="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n3:bwb="50%" n3:bwc="50%" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.13dw n1:layout_gravity="center" n1:id="@id/mqr" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_margin="2.0dp" n3:eme="true" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_horizontal" n1:layout_gravity="center_horizontal" n1:id="@id/y9p" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxWidth="228.0dp" n1:text="@null" n1:textAlignment="center" n3:fj2="p7" />
+    </LinearLayout>
+</RelativeLayout>

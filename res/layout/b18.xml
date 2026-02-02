@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e92" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/z9k" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/z8z" n1:layout_width="108.0dp" n1:layout_height="108.0dp" n2:b41="d4s" n2:bx9="owf" n2:bxc="owf" n2:etn="@drawable/b4e" n2:eto="d4s" n2:eyl="@dimen/ba" />
+        <View n1:id="@id/z9c" n1:background="@drawable/azf" n1:visibility="gone" n1:layout_width="108.0dp" n1:layout_height="18.0dp" n2:bwk="@id/z8z" n2:bwq="@id/z8z" n2:bx9="owf" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?z3" n1:gravity="center" n1:id="@id/z9d" n1:visibility="gone" n1:layout_width="108.0dp" n1:layout_height="18.0dp" n1:text="only 3 left" n2:bwk="@id/z8z" n2:bwq="@id/z8z" n2:bx9="owf" n2:fj2="qd" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/z90" n1:layout_width="108.0dp" n1:layout_height="108.0dp" n2:b41="d4s" n2:bx9="@id/z8z" n2:bxc="@id/z8z" n2:etn="?v0" n2:eyl="@dimen/ba" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/z8u" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:minHeight="76.0dp" n1:layout_marginStart="8.0dp" n2:bwq="owf" n2:bx8="@id/z8z" n2:bxc="@id/z8z" n2:by2="16.0dp">
+            <X.0DRm n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/z9v" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:textAlignment="viewStart" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="pv" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/z9o" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:maxLines="1" n1:textAlignment="viewStart" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/z9v" n2:fj2="q1" />
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/gow" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n2:bx9="owf" n2:bxb="@id/z9o" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/z9w" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/gow">
+                <X.0CVT n1:id="@id/z9b" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bo4="ll3" n2:bo6="1" n2:bwq="owf" n2:bx9="owf" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?fu" n1:id="@id/z8y" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bx9="owf" n2:fj2="q2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/z9l" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="2.0dp" n2:bx9="owf" n2:bxb="@id/z9w" n2:by3="4.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?a05" n1:id="@id/z9m" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:text="new customer deal" n2:bx8="@id/z9l" n2:bxb="@id/z9w" n2:by3="4.0dp" n2:fj2="q2" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?a05" n1:id="@id/z9n" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="13:00" n1:layout_marginStart="4.0dp" n2:bwk="@id/z9m" n2:bx8="@id/z9m" n2:bxc="@id/z9m" n2:fj2="q2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub n1:id="@id/z9h" n1:visibility="visible" n1:inflatedId="@id/z9h" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n2:bo4="ll3" n2:bo6="2" n2:bwr="@id/us_order_submit_aggregation_sku_num" n2:bx9="@id/z8u" n2:bxb="@id/z8u" />
+        <ViewStub n1:id="@id/z_s" n1:layout="@layout/b1f" n1:inflatedId="@id/z_s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bx9="@id/z9h" n2:bxb="@id/z9h" />
+        <ViewStub n1:id="@id/z_r" n1:layout="@layout/b1e" n1:inflatedId="@id/z_r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bx9="@id/z9h" n2:bxb="@id/z_s" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/us_order_submit_aggregation_sku_num" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="@id/z8t" n2:bwq="owf" n2:fj2="p7" />
+        <X.0DML n1:id="@id/us_order_submit_aggregation_sku_counter" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:layout_marginTop="4.0dp" n2:bx9="@id/z8u" n2:bxb="@id/z_r" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a00" n1:id="@id/z9e" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n2:bx3="@id/us_order_submit_aggregation_sku_counter" n2:bxb="@id/us_order_submit_aggregation_sku_counter" n2:fj2="qd" />
+        <X.130R n1:id="@id/z8t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:b73="false" n2:b74="bwg" n2:bfm="z_s,z9h,z_r" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/z9u" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n3:bx9="owf" n3:bxb="@id/z9k" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0DLz n1:id="@id/z8q" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+        <X.0DMk n1:id="@id/z8r" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+        <X.0DMn n1:id="@id/z95" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/z9p" n1:background="@drawable/b0r" n1:paddingTop="@dimen/qf" n1:paddingBottom="@dimen/qf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:paddingVertical="@dimen/qf">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/z9q" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="12.0dp" n3:bx9="owf" n3:bxc="owf" n3:fjq="@raw/icon_arrow_double_direction_circle" n3:fmy="?zw" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:ellipsize="end" n1:id="@id/z9t" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:singleLine="true" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="8.0dp" n3:bwk="@id/z9q" n3:bwr="@id/z9r" n3:bx8="@id/z9q" n3:bxc="@id/z9q" n3:fj2="pv" />
+            <ViewStub n1:id="@id/z9s" n1:layout="@layout/b16" n1:inflatedId="@id/z9s" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n3:bx9="owf" n3:bxb="@id/z9r" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/z9r" n1:layout_width="6.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="12.0dp" n3:bwk="@id/z9q" n3:bwq="owf" n3:bxc="@id/z9q" n3:fjq="@raw/icon_chevron_right_slim_ltr" n3:fmy="?zy" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <View n1:id="@id/z8x" n1:background="?ly" n1:layout_width="2.0dp" n1:layout_height="0.0dp" n4:bwk="@id/z8w" n4:bx9="owf" n4:bxc="@id/z8w" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/z8w" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginStart="6.0dp" n5:bwq="owf" n5:bx8="@id/z8x" n5:bxb="@id/z9u" n5:by3="12.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0Cmm n1:orientation="vertical" n1:id="@id/z7h" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="16.0dp" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/z9k" n6:by3="0.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

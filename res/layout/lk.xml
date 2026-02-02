@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="@dimen/e3" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.1295 n1:id="@id/aka" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginLeft="16.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n2:eyl="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="16.0sp" n1:textColor="?b46" n1:ellipsize="end" n1:id="@id/akq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:maxLines="1" n1:layout_toRightOf="@id/aka" n1:layout_alignTop="@id/aka" n1:layout_marginStart="8.0dp" n1:layout_toEndOf="@id/aka" />
+    <TextView n1:textSize="14.0sp" n1:textColor="?b45" n1:ellipsize="end" n1:id="@id/akp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n1:layout_toRightOf="@id/aka" n1:layout_below="@id/akq" n1:layout_alignLeft="@id/akq" n1:layout_toEndOf="@id/aka" n1:layout_alignStart="@id/akq" />
+</RelativeLayout>

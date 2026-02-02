@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/dor" n1:layout_width="72.0dp" n1:layout_height="96.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:foreground="@drawable/bru" n1:layout_marginStart="16.0dp" n2:b41="d4s" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:etn="@drawable/ap0" n2:eto="d4v" n2:eyl="@dimen/b8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/c_m" n1:layout_width="0.0dp" n1:layout_height="32.0dp" n1:text="@null" n1:layout_marginEnd="16.0dp" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" n3:fi8="true" n3:fi9="true" n3:fib="u9x" n3:fid="qhx" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwr="@id/c_m" n4:bx8="@id/dor" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/dp1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:textAlignment="viewStart" n4:fj2="p7" />
+        <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:id="@id/glk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="EP.1" n1:textAlignment="viewStart" n4:fj2="pz" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/gke" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:textAlignment="viewStart" n4:fj2="pz" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/gll" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=" / EP.78" n1:textAlignment="viewStart" n4:fj2="pz" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/s_1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n1:layout_marginEnd="56.0dp" n1:layout_alignParentEnd="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0MIW n1:id="@id/b82" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0MIW n1:id="@id/f9r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0MIW n1:id="@id/dud" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0MIW n1:id="@id/gzr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0MIW n1:id="@id/tnw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

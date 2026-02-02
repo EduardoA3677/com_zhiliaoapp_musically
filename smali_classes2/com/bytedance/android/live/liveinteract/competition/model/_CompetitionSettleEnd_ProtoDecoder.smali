@@ -1,0 +1,155 @@
+.class public final Lcom/bytedance/android/live/liveinteract/competition/model/_CompetitionSettleEnd_ProtoDecoder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0ctx;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LX/0ctx<",
+        "Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static LIZIZ(LX/11DD;)Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;
+    .locals 5
+
+    new-instance v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;
+
+    invoke-direct {v4}, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->teamInfos:Ljava/util/List;
+
+    invoke-virtual {p0}, LX/11DD;->LIZJ()J
+
+    move-result-wide v2
+
+    :goto_0
+    invoke-virtual {p0}, LX/11DD;->LJI()I
+
+    move-result v1
+
+    const/4 v0, -0x1
+
+    if-eq v1, v0, :cond_6
+
+    const/4 v0, 0x1
+
+    if-eq v1, v0, :cond_5
+
+    const/4 v0, 0x2
+
+    if-eq v1, v0, :cond_4
+
+    const/4 v0, 0x3
+
+    if-eq v1, v0, :cond_3
+
+    const/4 v0, 0x4
+
+    if-eq v1, v0, :cond_2
+
+    const/4 v0, 0x5
+
+    if-eq v1, v0, :cond_1
+
+    const/16 v0, 0x64
+
+    if-eq v1, v0, :cond_0
+
+    invoke-static {p0}, LX/11DE;->LIZJ(LX/11DD;)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {p0}, Lcom/bytedance/android/live/liveinteract/competition/model/_CompetitionSettleEnd_TakeTheStageBiz_ProtoDecoder;->LIZIZ(LX/11DD;)Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd$TakeTheStageBiz;
+
+    move-result-object v0
+
+    iput-object v0, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->takeTheStageBiz:Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd$TakeTheStageBiz;
+
+    goto :goto_0
+
+    :cond_1
+    invoke-static {p0}, Lcom/bytedance/android/livesdkapi/depend/model/live/match/_MatchPunishExtraInfo_ProtoDecoder;->LIZIZ(LX/11DD;)Lcom/bytedance/android/livesdkapi/depend/model/live/match/MatchPunishExtraInfo;
+
+    move-result-object v0
+
+    iput-object v0, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->matchPunishExtraInfo:Lcom/bytedance/android/livesdkapi/depend/model/live/match/MatchPunishExtraInfo;
+
+    goto :goto_0
+
+    :cond_2
+    invoke-virtual {p0}, LX/11DD;->LJIIJ()I
+
+    move-result v0
+
+    iput v0, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->reason:I
+
+    goto :goto_0
+
+    :cond_3
+    invoke-static {p0}, Lcom/bytedance/android/live/liveinteract/competition/model/_CompetitionUserBase_ProtoDecoder;->LIZIZ(LX/11DD;)Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionUserBase;
+
+    move-result-object v0
+
+    iput-object v0, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->leaveUser:Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionUserBase;
+
+    goto :goto_0
+
+    :cond_4
+    iget-object v1, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->teamInfos:Ljava/util/List;
+
+    invoke-static {p0}, Lcom/bytedance/android/live/liveinteract/competition/model/_CompetitionResultsTeamInfo_ProtoDecoder;->LIZIZ(LX/11DD;)Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionResultsTeamInfo;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_5
+    invoke-virtual {p0}, LX/11DD;->LJIIJJI()J
+
+    move-result-wide v0
+
+    iput-wide v0, v4, Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;->plannedFinishTime:J
+
+    goto :goto_0
+
+    :cond_6
+    invoke-virtual {p0, v2, v3}, LX/11DD;->LJ(J)V
+
+    return-object v4
+.end method
+
+
+# virtual methods
+.method public final LIZ(LX/11DD;)Ljava/lang/Object;
+    .locals 1
+
+    invoke-static {p1}, Lcom/bytedance/android/live/liveinteract/competition/model/_CompetitionSettleEnd_ProtoDecoder;->LIZIZ(LX/11DD;)Lcom/bytedance/android/live/liveinteract/competition/model/CompetitionSettleEnd;
+
+    move-result-object v0
+
+    return-object v0
+.end method

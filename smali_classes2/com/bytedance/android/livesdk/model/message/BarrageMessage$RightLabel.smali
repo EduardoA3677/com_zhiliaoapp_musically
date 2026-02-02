@@ -1,0 +1,48 @@
+.class public final Lcom/bytedance/android/livesdk/model/message/BarrageMessage$RightLabel;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/android/livesdk/model/message/BarrageMessage;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "RightLabel"
+.end annotation
+
+
+# instance fields
+.field public backgroundColor:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "background_color"
+    .end annotation
+.end field
+
+.field public content:Lcom/bytedance/android/livesdk/model/message/common/Text;
+    .annotation runtime LX/0B9U;
+        value = "content"
+    .end annotation
+.end field
+
+.field public height:J
+    .annotation runtime LX/0B9U;
+        value = "height"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/bytedance/android/livesdk/model/message/BarrageMessage$RightLabel;->backgroundColor:Ljava/lang/String;
+
+    return-void
+.end method

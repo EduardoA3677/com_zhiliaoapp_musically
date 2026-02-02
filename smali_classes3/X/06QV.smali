@@ -1,0 +1,70 @@
+.class public final LX/06QV;
+.super LX/06Qu;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/06Qu;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final canHandle(Landroid/net/Uri;)Z
+    .locals 2
+
+    invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "/bindemail"
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final l5(Landroid/content/Context;LX/06RX;Ljava/util/Map;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "LX/06RX;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)Z"
+        }
+    .end annotation
+
+    invoke-super {p0, p1, p2, p3}, LX/06Qu;->l5(Landroid/content/Context;LX/06RX;Ljava/util/Map;)Z
+
+    invoke-static {p1, p2, p3}, LX/06Qy;->LIZ(Landroid/content/Context;LX/06RX;Ljava/util/Map;)Z
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final m5()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "LX/06Qs;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, LX/0Pgk;->INSTANCE:LX/0Pgk;
+
+    return-object v0
+.end method

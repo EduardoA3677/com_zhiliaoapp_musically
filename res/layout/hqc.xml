@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@color/bb" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/n1a" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:foreground="@color/a5t" n1:scaleType="centerCrop" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/mmt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:src="@drawable/elk" n3:bwk="owf" n3:bxc="owf" n3:bxd="0.3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="17.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/ac1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n1:layout_centerHorizontal="true" n4:bwq="@id/mmt" n4:bx9="@id/mmt" n4:bxb="@id/mmt" style="@style/a76" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/ac2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n1:layout_centerHorizontal="true" n1:alpha="0.75" n5:bwq="@id/mmt" n5:bx9="@id/mmt" n5:bxb="@id/ac1" style="@style/a76" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

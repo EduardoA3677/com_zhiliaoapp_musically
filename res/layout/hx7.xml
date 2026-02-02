@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/rx2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" n2:fjq="@raw/icon_video_stack_square_fill" n2:fmy="?zz"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n3:textColor="?zw" n3:ellipsize="end" n3:id="@id/rx3" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:maxWidth="252.0dp" n3:text="@null" n3:maxLines="1" n3:layout_marginStart="4.0dp" n4:fj2="p7" n4:fl1="10.0dp"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n5:layout_width="13.0dp" n5:layout_height="13.0dp" n5:contentDescription="@null" n6:fjq="@raw/icon_chevron_right_offset_fill_ltr" n6:fmy="?zw"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</merge>

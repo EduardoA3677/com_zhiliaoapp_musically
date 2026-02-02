@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/sf3" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/bbm" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="500.0dp">
+        <View n1:id="@id/bbl" n1:background="?xy" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentTop="true" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/bc2" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <View n1:id="@id/lni" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentTop="true" n1:layout_alignParentStart="true" />
+        <View n1:id="@id/s_z" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" />
+        <View n1:id="@id/c3s" n1:layout_width="match_parent" n1:layout_height="150.0dp" n1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/rna" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:layout_gravity="top" n1:layout_width="match_parent" n1:layout_height="109.0dp">
+        <View n1:id="@id/wq9" n1:background="?cw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" />
+        <X.0D2z n1:layout_gravity="start|bottom" n1:id="@id/djb" n1:background="?yh" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="14.0dp" n1:layout_marginStart="16.0dp" n2:fi9="true" n2:fid="o6b" n2:fk4="@raw/icon_x_mark" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center|bottom" n1:id="@id/wqg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:layout_marginBottom="23.0dp" n1:text="@null" />
+    </FrameLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:theme="@style/wo" n1:layout_gravity="end|bottom" n1:id="@id/sqn" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="52.0dp" n1:contentDescription="scroll to bottom" n1:layout_marginEnd="16.0dp" n3:fjq="@raw/icon_chevron_up" n3:fjt="20.0dp" n3:fk6="20.0dp" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0oCE n1:theme="@style/wo" n1:id="@id/xgu" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:azj="?zz" n4:azl="?zw" n4:fkf="j0v" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="78.0dp" n1:layout_height="86.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginEnd="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CzQ n1:id="@id/kbu" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/kd6" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginTop="4.0dp" n1:src="@drawable/ag3" n1:layout_marginStart="39.0dp" n3:bx9="@id/kbu" n3:bxc="@id/kbu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?sw" n1:gravity="center_horizontal" n1:id="@id/xi0" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="2" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/kbu" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

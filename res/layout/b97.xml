@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout n1:id="@id/tr5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.feed.platform.cell.interact.view.InteractLinearLayout n1:theme="@style/hg" n1:gravity="center" n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/f9v" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="yes">
+        <com.ss.android.ugc.feed.platform.cell.interact.view.InteractConstraintLayout n1:layout_gravity="end" n1:id="@id/tn_" n1:layout_width="50.0dp" n1:layout_height="wrap_content" n1:importantForAccessibility="noHideDescendants">
+            <ImageView n1:id="@id/tm4" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:src="@raw/icon_bitmap_shadow" n1:contentDescription="shadow_view" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/tnu" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:src="@drawable/cij" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/pnq" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:translationX="2.0dp" n1:translationY="3.0dp" n4:bwk="@id/tnu" n4:bwq="@id/tnu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/fft" n1:paddingTop="2.0dp" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:translationY="5.0dp" n1:paddingStart="0.5dp" n1:layout_marginEnd="2.0dp" n5:bwk="@id/tnu" n5:bwq="owf" n5:fjq="@raw/icon_paperplane_fill" n5:fjt="12.0dp" n5:fk6="12.0dp" n5:fmy="?yi" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </com.ss.android.ugc.feed.platform.cell.interact.view.InteractConstraintLayout>
+        <com.ss.android.ugc.feed.platform.cell.interact.view.InteractRelativeLayout n1:id="@id/tnd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+            <X.0ME0 n1:ellipsize="end" n1:gravity="center" n1:id="@id/tnc" n1:layout_marginTop="-1.3999939dp" n1:maxWidth="70.0dp" n1:maxLines="1" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n1:layoutDirection="locale" n6:fj2="pz" style="@style/a_0" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </com.ss.android.ugc.feed.platform.cell.interact.view.InteractRelativeLayout>
+    </com.ss.android.ugc.feed.platform.cell.interact.view.InteractLinearLayout>
+</com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout>

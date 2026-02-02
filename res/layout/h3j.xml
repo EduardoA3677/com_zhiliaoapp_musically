@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0l1c n1:orientation="vertical" n1:id="@id/ulz" n1:layout_width="wrap_content" n1:layout_height="match_parent" n2:bws="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/ws6" n1:layout_width="wrap_content" n1:layout_height="match_parent" n3:bws="2.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/bzo" n1:layout_width="wrap_content" n1:layout_height="match_parent" n4:bwt="2.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0cPR n1:id="@id/snx" n1:background="@drawable/dmt" n1:layout_width="@dimen/axa" n1:layout_height="@dimen/axa" n1:scaleType="fitXY" n1:importantForAccessibility="no" n5:bwk="@id/bzo" n5:bx9="@id/ulz" n5:bxc="@id/ws6" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/aow" n1:background="@drawable/e8j" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="0.0dp" n1:layout_height="@dimen/axh" n1:maxWidth="@dimen/axm" n1:paddingEnd="12.0dp" n6:bwk="owf" n6:bwq="owf" n6:bwz="0.0" n6:bx9="owf" n6:bxc="owf" n6:bxg="wrap" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <X.0d6h n1:id="@id/m3e" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:alpha="0.3" n1:importantForAccessibility="no" n6:bdp="\#00FFFFFF,#FFFFFF,#00FFFFFF" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" n6:eri="24.0dp" n6:eua="0,0.5,1" n6:evp="@dimen/axk" n6:ewu="0" n6:f3d="0.38" n6:f3p="125.0dp" />
+        <FrameLayout n1:id="@id/i5t" n1:background="@drawable/e8j" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" />
+        <FrameLayout n1:id="@id/i63" n1:paddingBottom="2.0dp" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="173.0dp" n1:layout_height="56.0dp" n6:bwf="true" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf" />
+        <FrameLayout n1:id="@id/i65" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="173.0dp" n1:layout_height="0.0dp" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/nuu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="@dimen/axh" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf">
+            <X.0l1c n1:orientation="vertical" n1:id="@id/nuq" n1:layout_width="wrap_content" n1:layout_height="match_parent" n6:bws="@dimen/axg" />
+            <X.12ij n1:id="@id/nur" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="@dimen/axf" n1:layout_marginStart="@dimen/axj" n6:bwl="@id/nus" n6:bx8="@id/nuq" n6:bxc="owf" n6:bxe="ori" />
+            <X.12ij n1:id="@id/nus" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="@dimen/axf" n1:layout_marginStart="@dimen/axj" n6:bwk="owf" n6:bx8="@id/nuq" n6:bxb="@id/nur" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.0cPQ n1:id="@id/nut" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="@dimen/axh" n6:bwk="owf" n6:bwz="0.0" n6:bx9="owf" n6:bxc="owf" />
+        <X.0cPR n1:layout_gravity="center_vertical" n1:id="@id/ipa" n1:background="@drawable/dmt" n1:layout_width="@dimen/axa" n1:layout_height="@dimen/axa" n1:layout_marginLeft="2.0dp" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/nux" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/axi" n1:layout_marginBottom="@dimen/axi" n1:importantForAccessibility="noHideDescendants" n1:layout_marginStart="@dimen/axj" n6:bwg="true" n6:bwk="owf" n6:bwq="owf" n6:bwz="0.0" n6:bx8="@id/ipa" n6:bxc="owf" n6:bxg="wrap" n6:bxh="76.0dp">
+            <LinearLayout n1:gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="17.0dp">
+                <X.12nN n1:textColor="@color/bi" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/zh0" n1:layout_width="0.0dp" n1:layout_height="35.0dp" n1:singleLine="true" n1:includeFontPadding="false" n1:shadowColor="@color/d2" n1:shadowDx="1.0" n1:shadowDy="2.0" n1:shadowRadius="1.0" n1:layout_weight="1.0" n6:ewn="true" style="@style/a76" />
+                <ImageView n1:id="@id/b1_" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="centerCrop" n1:contentDescription="authentication badge icon" n1:layout_marginStart="4.0dp" />
+            </LinearLayout>
+            <X.12nN n1:textColor="@color/bi" n1:id="@id/n7l" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:alpha="0.7" style="ttlive_typography_text_size_p3" />
+            <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <FrameLayout n1:id="@id/o70" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <X.0a7J n1:textColor="?e2" n1:ellipsize="end" n1:gravity="center" n1:id="@id/lp8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:shadowColor="#26000000" n1:shadowDx="1.0" n1:shadowDy="2.0" n1:shadowRadius="1.0" n6:ewn="true" style="@style/a7b" />
+                    <X.12nN n1:textSize="10.0dp" n1:textColor="@color/a63" n1:gravity="left|center" n1:id="@id/gxr" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="2.0dp" n1:singleLine="true" n1:includeFontPadding="false" />
+                    <X.0Cxi n1:textSize="12.0dp" n1:textColor="@color/bk" n1:ellipsize="marquee" n1:gravity="start" n1:id="@id/sow" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="gone" n1:fadingEdge="horizontal" n1:fadingEdgeLength="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="92.0dp" n1:singleLine="true" n1:marqueeRepeatLimit="1" n1:requiresFadingEdge="horizontal" n1:lineHeight="15.0dp" style="@style/a7b" />
+                </FrameLayout>
+                <FrameLayout n1:id="@id/fvk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:bx3="owf" n6:bx9="owf" n6:bxb="@id/zer">
+                    <X.0Cxi n1:textSize="12.0dp" n1:textColor="?c3t" n1:ellipsize="marquee" n1:gravity="start" n1:id="@id/fu_" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="gone" n1:fadingEdge="horizontal" n1:fadingEdgeLength="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="92.0dp" n1:singleLine="true" n1:marqueeRepeatLimit="1" n1:requiresFadingEdge="horizontal" n1:lineHeight="15.0dp" style="@style/a7b" />
+                </FrameLayout>
+                <X.0Cxi n1:textColor="@color/bk" n1:ellipsize="marquee" n1:gravity="start|center" n1:id="@id/bhh" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:shadowColor="?nd" n1:shadowDx="1.0" n1:shadowDy="2.0" n1:shadowRadius="1.0" n1:marqueeRepeatLimit="1" style="@style/a7b" />
+                <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/m3f" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <X.0D0r n1:id="@id/ksu" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginBottom="1.0dp" n1:layout_marginStart="3.0dp" />
+                    <X.0Cxi n1:textColor="@color/bk" n1:ellipsize="end" n1:gravity="center" n1:id="@id/y95" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:shadowColor="#26000000" n1:shadowDx="1.0" n1:shadowDy="2.0" n1:shadowRadius="0.5" n1:marqueeRepeatLimit="1" style="@style/a7f" />
+                </LinearLayout>
+                <FrameLayout n1:id="@id/i61" n1:visibility="gone" n1:layout_width="93.0dp" n1:layout_height="wrap_content" n6:bx9="owf" n6:bxb="@id/zer" />
+            </FrameLayout>
+        </LinearLayout>
+        <View n1:gravity="center" n1:id="@id/gut" n1:visibility="gone" n1:layout_width="45.0dp" n1:layout_height="28.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx8="@id/nux" n6:bxc="owf" />
+        <FrameLayout n1:id="@id/ho_" n1:background="@drawable/dy2" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginStart="2.0dp" n6:bwk="owf" n6:bwq="owf" n6:bwz="1.0" n6:bx8="@id/nux" n6:bxc="owf">
+            <FrameLayout n1:layout_gravity="center" n1:id="@id/hp7" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <X.12nN n1:textSize="11.0dp" n1:textColor="@color/a2d" n1:gravity="center" n1:id="@id/hn7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="27.0dp" n1:text="@null" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n6:bp3="n2i" />
+                <X.0d6D n1:layout_gravity="center" n1:id="@id/hou" n1:layout_width="14.0dp" n1:layout_height="14.0dp" />
+            </FrameLayout>
+            <LinearLayout n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <ImageView n1:gravity="center" n1:id="@id/v6a" n1:visibility="gone" n1:layout_width="45.0dp" n1:layout_height="27.0dp" n1:src="@drawable/f9t" n1:scaleType="centerInside" />
+                <X.12nN n1:textSize="11.0dp" n1:textColor="@color/a3c" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/v6l" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="-9.0dp" n1:layout_marginEnd="6.0dp" />
+                <ImageView n1:gravity="center" n1:id="@id/qjd" n1:visibility="gone" n1:layout_width="45.0dp" n1:layout_height="27.0dp" n1:scaleType="centerInside" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout n1:id="@id/i64" n1:visibility="gone" n1:layout_width="173.0dp" n1:layout_height="0.0dp" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.12nN n1:textColor="?e2" n1:ellipsize="end" n1:id="@id/guu" n1:visibility="gone" n1:layout_width="93.0dp" n1:layout_height="14.0dp" n1:singleLine="true" n1:includeFontPadding="false" n1:shadowColor="?nd" n1:shadowDx="1.0" n1:shadowDy="2.0" n1:shadowRadius="1.0" n1:layout_marginStart="100.0dp" n1:layout_marginEnd="100.0dp" n7:bwg="true" n7:bwr="owf" n7:bxc="owf" style="@style/a7b" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/v69" n1:visibility="gone" n1:layout_width="57.0dp" n1:layout_height="44.0dp" n1:layout_marginRight="0.0dp" n8:bwk="owf" n8:bwq="owf" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/khn" n1:layout_width="@dimen/axc" n1:layout_height="@dimen/axc" n9:bwk="@id/snx" n9:bwq="@id/snx" n9:bx9="@id/snx" n9:bxc="@id/snx" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <X.0CXW n1:id="@id/kho" n1:visibility="gone" n1:layout_width="@dimen/axc" n1:layout_height="@dimen/axc" n10:bwk="@id/khn" n10:bwq="@id/khn" n10:bx9="@id/khn" n10:bxc="@id/khn" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <X.0d6h n1:id="@id/vel" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:alpha="0.3" n1:importantForAccessibility="no" n11:bdp="\#00FFFFFF,#80FFFFFF,#00FFFFFF" n11:bkp="1800" n11:bt4="0.36,0.0,0.59,1.0" n11:bwk="owf" n11:bx9="owf" n11:bxc="owf" n11:eri="48.0dp" n11:eua="0,0.5,1" n11:evp="@dimen/axk" n11:ewu="0" n11:f3d="0.38" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

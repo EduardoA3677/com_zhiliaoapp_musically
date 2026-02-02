@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/v_s" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/vs_start_icon" n1:layout="@layout/f4c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="12.0dp" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+        <X.12ij n1:id="@id/yxd" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.12ij n1:id="@id/yxe" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+    <ViewStub n1:id="@id/vs_avatar" n1:layout="@layout/f49" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginStart="10.0dp" />
+    <ViewStub n1:id="@id/vs_cover" n1:layout="@layout/f4_" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginStart="10.0dp" />
+    <ViewStub n1:id="@id/vs_end_icon" n1:layout="@layout/f4a" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginStart="10.0dp" />
+</LinearLayout>

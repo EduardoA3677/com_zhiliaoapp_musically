@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.icon.TuxIconView n1:layout_width="@dimen/r9" n1:layout_height="@dimen/r9" n1:importantForAccessibility="no" n2:fjq="@raw/icon_anchor_photo_motion" n2:fjt="@dimen/r9" n2:fk6="@dimen/r9" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

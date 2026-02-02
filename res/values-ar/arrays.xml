@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>مكتبة الأصوات عبر الإنترنت</item>
+        <item>الصوت الخاص بي</item>
+    </string-array>
+    <string-array name="l">
+        <item>مسح</item>
+    </string-array>
+    <string-array name="q">
+        <item>حذف</item>
+        <item>إلغاء</item>
+    </string-array>
+    <string-array name="t">
+        <item>متصدر</item>
+        <item>الأخير</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string-array name="a_">
+        <item>الصينية المبسطة</item>
+        <item>الصينية التقليدية</item>
+        <item>الإنجليزية</item>
+        <item>اليابانية</item>
+        <item>الكورية</item>
+        <item>الروسية</item>
+        <item>الإندونيسية</item>
+        <item>الملايوية</item>
+        <item>البرتغالية</item>
+        <item>التايلاندية</item>
+        <item>الفييتنامية</item>
+        <item>الهندية</item>
+    </string-array>
+    <string-array name="ab">
+        <item>عادي</item>
+        <item>أسود/أبيض</item>
+        <item>الفنون</item>
+        <item>عتيق</item>
+        <item>ريترولوكس</item>
+        <item>مشبع</item>
+        <item>كروم</item>
+    </string-array>
+    <string-array name="af">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="ai">
+        <item>توفير البيانات أولًا</item>
+        <item>الدقة العالية أولًا</item>
+    </string-array>
+    <string-array name="aj">
+        <item>الجميع</item>
+        <item>الأصدقاء فقط</item>
+    </string-array>
+    <string-array name="bq">
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </string-array>
+</resources>

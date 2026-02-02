@@ -1,0 +1,61 @@
+.class public interface abstract LX/0WLG;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseModel;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0gna;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "i"
+.end annotation
+
+
+# virtual methods
+.method public abstract getHeight()Ljava/lang/Number;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "height"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract getUri()Ljava/lang/String;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "uri"
+        required = false
+    .end annotation
+.end method
+
+.method public abstract getUrlList()Ljava/util/List;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "url_list"
+        primitiveClassType = Ljava/lang/String;
+        required = false
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getWidth()Ljava/lang/Number;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "width"
+        required = false
+    .end annotation
+.end method

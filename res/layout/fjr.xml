@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/vgt" n1:background="?bx" n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="8.0dp">
+        <View n1:background="?zo" n1:layout_width="match_parent" n1:layout_height="8.0dp" />
+        <View n1:background="@drawable/ddf" n1:layout_width="match_parent" n1:layout_height="8.0dp" />
+    </FrameLayout>
+    <View n1:id="@id/boe" n1:background="?zo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</LinearLayout>

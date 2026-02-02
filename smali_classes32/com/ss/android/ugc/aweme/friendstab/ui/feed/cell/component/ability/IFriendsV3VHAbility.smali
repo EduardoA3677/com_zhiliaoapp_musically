@@ -1,0 +1,11 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/friendstab/ui/feed/cell/component/ability/IFriendsV3VHAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/02g2;
+
+
+# virtual methods
+.method public abstract lu1()Lcom/ss/android/ugc/aweme/friendstab/ui/feed/cell/vh/FriendsV3BaseAwemeCell;
+.end method

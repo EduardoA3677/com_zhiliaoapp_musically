@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="?bk" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/mu1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/mtx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n3:bxb="@id/mu1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0o06 n1:id="@id/mty" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n4:bxb="@id/mtx" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

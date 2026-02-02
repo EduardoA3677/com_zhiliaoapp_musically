@@ -1,0 +1,73 @@
+.class public final LX/0511;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0E38;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LX/0E38;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final LL:LX/0511;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/0511<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0511;
+
+    invoke-direct {v0}, LX/0511;-><init>()V
+
+    sput-object v0, LX/0511;->LL:LX/0511;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 3
+
+    const-string v2, "PerformanceOptAssem@fe29.report0VVSomeTime$1"
+
+    invoke-static {v2}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    invoke-static {}, LX/0XEv;->LIZIZ()Landroid/os/Handler;
+
+    move-result-object v1
+
+    sget-object v0, LX/0512;->LL:LX/0512;
+
+    invoke-static {v1, v0}, LX/0X3I;->LJJLIIIIJ(Landroid/os/Handler;Ljava/lang/Runnable;)Z
+
+    invoke-static {v2}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-void
+.end method

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sf8" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wxr" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwl="@id/hcu" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/hcu" n1:background="@drawable/f1k" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwk="owf" n3:bxb="@id/wxr" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/f8l" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <ScrollView n1:id="@id/sq4" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginBottom="20.0dp" n1:layout_weight="1.0">
+                <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ebi" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <X.12nN n1:textColor="?ehx" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/jwd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bp3="btv" n3:bwl="@id/jw8" n3:bwq="owf" n3:bx8="owf" n3:bxc="owf" style="@style/a6j" />
+                    <LinearLayout n1:gravity="start|top" n1:orientation="horizontal" n1:id="@id/jw8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bwl="@id/jwb" n3:bwq="owf" n3:bx8="owf" n3:bxb="@id/jwd">
+                        <X.12nN n1:textColor="?ehx" n1:gravity="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="•" n1:includeFontPadding="false" n1:layout_marginEnd="8.0dp" style="@style/a6s" />
+                        <X.12nN n1:textColor="?ehx" n1:gravity="start" n1:id="@id/jw7" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a6s" />
+                    </LinearLayout>
+                    <LinearLayout n1:gravity="start|top" n1:orientation="horizontal" n1:id="@id/jwb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bwl="@id/jw_" n3:bwq="owf" n3:bx8="owf" n3:bxb="@id/jw8">
+                        <X.12nN n1:textColor="?ehx" n1:gravity="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="•" n1:includeFontPadding="false" n1:layout_marginEnd="8.0dp" style="@style/a6s" />
+                        <X.12nN n1:textColor="?ehx" n1:gravity="start" n1:id="@id/jwa" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a6s" />
+                    </LinearLayout>
+                    <LinearLayout n1:gravity="start|top" n1:orientation="horizontal" n1:id="@id/jw_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bwl="@id/jw6" n3:bwq="owf" n3:bx8="owf" n3:bxb="@id/jwb">
+                        <X.12nN n1:textColor="?ehx" n1:gravity="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="•" n1:includeFontPadding="false" n1:layout_marginEnd="8.0dp" style="@style/a6s" />
+                        <X.12nN n1:textColor="?ehx" n1:gravity="start" n1:id="@id/jw9" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a6s" />
+                    </LinearLayout>
+                    <LinearLayout n1:gravity="start|top" n1:orientation="horizontal" n1:id="@id/jw6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bwq="owf" n3:bx8="owf" n3:bxb="@id/jw_">
+                        <X.12nN n1:textColor="?ehx" n1:gravity="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="•" n1:includeFontPadding="false" n1:layout_marginEnd="8.0dp" style="@style/a6s" />
+                        <X.12nN n1:textColor="?ehx" n1:gravity="start" n1:id="@id/jw5" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a6s" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+            <RelativeLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="88.0dp">
+                <X.12pz n1:textAppearance="@style/a6s" n1:textSize="15.0sp" n1:textColor="?c3r" n1:gravity="center" n1:id="@id/ahw" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="@dimen/qf" n1:text="@null" n1:layout_centerHorizontal="true" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n3:bg_="@style/ht" n3:evp="@dimen/r5" style="@style/a59" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

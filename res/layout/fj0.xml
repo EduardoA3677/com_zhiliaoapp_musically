@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/b99" n1:background="?xx" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kpd" n1:layout_width="match_parent" n1:layout_height="240.0dp" n1:scaleType="fitCenter" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:id="@id/yti" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:textAlignment="center" n1:paddingHorizontal="32.0dp" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:id="@id/xpp" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:text="@null" n1:textAlignment="center" n1:paddingHorizontal="32.0dp" n3:fj2="p_" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:id="@id/ytq" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:textAlignment="center" n1:paddingHorizontal="32.0dp" n4:fj2="ow" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:id="@id/cql" n1:paddingLeft="@dimen/qo" n1:paddingTop="@dimen/r5" n1:paddingRight="@dimen/qo" n1:paddingBottom="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="@dimen/qy" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="@dimen/qf" n1:text="@null" n1:textAlignment="center" n1:layout_marginHorizontal="32.0dp" n1:paddingHorizontal="@dimen/qo" n1:paddingVertical="@dimen/r5" n5:fib="l9r" n5:fj2="pa" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/kl8" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="16.0dp" n1:contentDescription="@null" n1:layout_marginEnd="16.0dp" n6:fjq="@raw/icon_x_mark_small" n6:fjt="24.0dp" n6:fk6="24.0dp" n6:fmy="?xo" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

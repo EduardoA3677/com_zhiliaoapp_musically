@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.gamora.editorpro.views.InterceptorFrameLayout n1:id="@id/fqj" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/g64" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <RelativeLayout n1:id="@id/g65" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <RelativeLayout n1:id="@id/g61" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</com.ss.android.ugc.gamora.editorpro.views.InterceptorFrameLayout>

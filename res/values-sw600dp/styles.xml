@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a0h" parent="@style/gv">
+        <item name="f89">d4r</item>
+        <item name="f8n">h_n</item>
+    </style>
+</resources>

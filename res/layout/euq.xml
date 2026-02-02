@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/jm0" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/vcr" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <SurfaceView n1:id="@id/vch" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kt8" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitCenter" />
+    <FrameLayout n1:id="@id/k9_" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/view_stub_item_edit_sticker_container_new_engine" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0bvg n1:id="@id/g25" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CHs n1:id="@id/g2p" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/eq3" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/s36" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/m2w" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/s36" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/l2s" n1:background="?xo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitCenter" />
+</FrameLayout>

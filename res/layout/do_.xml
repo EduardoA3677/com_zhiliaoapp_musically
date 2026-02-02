@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center" n1:layout_width="72.0dp" n1:layout_height="72.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/bkm" n1:background="@drawable/cmy" n1:layout_width="72.0dp" n1:layout_height="72.0dp" />
+    <RelativeLayout n1:id="@id/own" n1:layout_width="72.0dp" n1:layout_height="72.0dp">
+        <RelativeLayout n1:gravity="center" n1:id="@id/f12" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_centerInParent="true">
+            <ImageView n1:id="@id/wsf" n1:layout_width="25.0dp" n1:layout_height="8.0dp" n1:src="@drawable/cn0" />
+            <ImageView n1:id="@id/c01" n1:layout_width="25.0dp" n1:layout_height="20.0dp" n1:src="@drawable/cn1" n1:layout_below="@id/wsf" />
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/f1h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n2:fj2="qc" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</RelativeLayout>

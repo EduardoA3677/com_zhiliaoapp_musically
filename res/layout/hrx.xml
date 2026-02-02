@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/zph" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/i8g" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/i8f" n1:layout_width="160.0dp" n1:layout_height="72.0dp" n1:layout_marginTop="30.0dp" n1:layout_alignTop="@id/o6q" />
+    <FrameLayout n1:id="@id/ugg" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/o6r" n1:layout_width="match_parent" n1:layout_height="130.0dp" n1:layout_marginBottom="16.0dp" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true" />
+    <X.125u n1:id="@id/o6q" n1:layout_width="match_parent" n1:layout_height="130.0dp" n1:layout_marginBottom="276.0dp" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true" />
+    <X.125u n1:id="@id/lkn" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/bdj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/i6f" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/i59" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="70.0dp" n1:layout_alignParentBottom="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true" />
+    <X.125u n1:id="@id/q_p" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/i5h" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/i75" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</RelativeLayout>

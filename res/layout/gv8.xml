@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sfr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:alpha="0.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="end" n1:orientation="horizontal" n1:id="@id/wr4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qy" n1:layout_marginEnd="@dimen/qy" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textSize="15.0dp" n1:textColor="?eks" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/wk0" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" n1:layout_marginEnd="@dimen/qz" style="@style/a77" />
+        <FrameLayout n1:layout_gravity="end|bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qz">
+            <X.12nN n1:textSize="15.0dp" n1:textColor="?c2o" n1:layout_gravity="end" n1:id="@id/qwl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/a77" />
+            <X.12nN n1:textSize="15.0dp" n1:textColor="?c2o" n1:id="@id/v4q" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:alpha="0.0" style="@style/a77" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout n1:id="@id/qvu" n1:layout_width="match_parent" n1:layout_height="12.0dp" n1:layout_marginTop="@dimen/qu" n3:bx3="owf" n3:bx7="owf" n3:bxb="@id/wr4" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <ProgressBar n1:layout_gravity="center_vertical" n1:id="@id/vza" n1:layout_width="match_parent" n1:layout_height="8.0dp" n1:max="100" n1:progress="0" n1:progressDrawable="@drawable/ee5" n1:layout_marginStart="@dimen/qy" n1:layout_marginEnd="@dimen/qy" style="?android:progressBarStyleHorizontal" />
+        <ProgressBar n1:layout_gravity="center_vertical" n1:id="@id/v4x" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="8.0dp" n1:max="100" n1:progress="0" n1:progressDrawable="@drawable/f88" n1:layout_marginStart="@dimen/qy" n1:layout_marginEnd="@dimen/qy" style="?android:progressBarStyleHorizontal" />
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qy" n1:layout_marginEnd="@dimen/qy">
+            <View n1:id="@id/vzn" n1:background="@drawable/ee8" n1:layout_width="30.0dp" n1:layout_height="match_parent" n1:layout_marginStart="-30.0dp" />
+        </FrameLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

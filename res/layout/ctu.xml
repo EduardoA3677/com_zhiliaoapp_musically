@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/moa" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:layout_gravity="top" n1:id="@id/mof" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <View n1:layout_gravity="bottom" n1:id="@id/mo7" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <androidx.cardview.widget.CardView n1:layout_gravity="end" n1:id="@id/moe" n1:visibility="gone" n1:layout_width="340.0dp" n1:layout_height="wrap_content" n2:ba3="?zs" n2:ba4="30.0dp" n2:ba5="5.0dp" n2:ba9="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.06KI n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="60.0dp" n2:evp="30.0dp">
+            <ViewStub n1:id="@id/cyb" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </X.06KI>
+    </androidx.cardview.widget.CardView>
+    <FrameLayout n1:id="@id/mo6" n1:padding="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="19.0dp" n1:layout_marginRight="19.0dp" n1:maxWidth="290.0dp" n1:minWidth="180.0dp" n1:elevation="3.0dp" n1:layout_marginHorizontal="19.0dp">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/mo5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

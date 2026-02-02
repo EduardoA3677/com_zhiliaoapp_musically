@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="start" n1:id="@id/xli" n1:paddingTop="16.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="40.0dp" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dcq" n1:paddingLeft="16.0dp" n1:paddingTop="8.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="16.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp">
+        <X.0Csj n1:id="@id/sar" n1:layout_width="114.0dp" n1:layout_height="152.0dp" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0Cru n1:id="@id/kcd" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="12.0dp" n4:bwk="@id/sar" n4:bx8="@id/sar" n4:fhr="u1w" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/xiw" n1:layout_width="0.0dp" n1:layout_height="16.0dp" n1:maxLines="1" n1:layout_marginStart="4.0dp" n5:bwk="@id/kcd" n5:bwq="owf" n5:bx1="1.0" n5:bx8="@id/kcd" n5:bxc="@id/kcd" n5:fj2="q1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/xix" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="5" n1:layout_marginStart="12.0dp" n6:bwl="@id/kcd" n6:bwq="owf" n6:bx8="@id/sar" n6:bxc="@id/sar" n6:bxd="0.0" n6:fj2="px" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.1310 n1:id="@id/h8r" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n7:bfm="xix,kcd,xiw" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <X.0Csj n1:id="@id/sas" n1:visibility="gone" n1:layout_width="114.0dp" n1:layout_height="152.0dp" n1:layout_marginStart="8.0dp" n8:bx8="@id/sar" n8:bxc="@id/sar" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <X.0Csj n1:id="@id/sat" n1:visibility="gone" n1:layout_width="114.0dp" n1:layout_height="152.0dp" n1:layout_marginStart="8.0dp" n9:bwq="owf" n9:bx8="@id/sas" n9:bxc="@id/sas" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/shu" n1:paddingTop="8.0dp" n1:paddingBottom="16.0dp" n1:visibility="gone" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:overScrollMode="always" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" />
+</LinearLayout>

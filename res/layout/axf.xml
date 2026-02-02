@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.130F n1:id="@id/u34" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bf6="pj" n2:bf7="1500" n2:bf8="gtr" n2:bf9="?bv" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.130I n1:id="@id/tvc" n1:layout_width="46.0dp" n1:layout_height="46.0dp" n1:layout_marginTop="23.0dp" n1:layout_marginStart="16.0dp" n2:bfc="23.0dp" n2:bx9="owf" n2:bxc="owf" />
+    <X.130I n1:id="@id/tvg" n1:layout_width="179.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="12.0dp" n2:bfc="4.0dp" n2:bwk="@id/tvc" n2:bx8="@id/tvc" n2:bxc="@id/tvc" />
+    <X.130I n1:id="@id/fd7" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_marginTop="20.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bf9="?bw" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/tvc" />
+    <X.130I n1:id="@id/tt" n1:layout_width="0.0dp" n1:layout_height="17.0dp" n1:layout_marginTop="15.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bf9="?c7" n2:bfc="4.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/fd7" />
+    <X.130I n1:id="@id/fd8" n1:layout_width="0.0dp" n1:layout_height="8.0dp" n1:layout_marginTop="14.0dp" n2:bf9="?ls" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/tt" />
+    <X.130I n1:id="@id/viv" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="15.0dp" n1:layout_marginStart="16.0dp" n2:bfc="2.0dp" n2:bwr="@id/viw" n2:bx9="owf" n2:bxb="@id/fd8" />
+    <X.130I n1:id="@id/viw" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="29.0dp" n2:bfc="2.0dp" n2:bwr="@id/vix" n2:bx8="@id/viv" n2:bxc="@id/viv" />
+    <X.130I n1:id="@id/vix" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="29.0dp" n2:bfc="2.0dp" n2:bwr="@id/viy" n2:bx8="@id/viw" n2:bxc="@id/viv" />
+    <X.130I n1:id="@id/viy" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="29.0dp" n1:layout_marginEnd="16.0dp" n2:bfc="2.0dp" n2:bwq="owf" n2:bx8="@id/vix" n2:bxc="@id/viv" />
+    <X.130I n1:id="@id/fd9" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_marginTop="14.0dp" n2:bf9="?bw" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/viv" />
+    <X.130I n1:id="@id/jk6" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n2:bfc="4.0dp" n2:bx9="owf" n2:bxb="@id/fd9" />
+    <X.130I n1:id="@id/w3l" n1:layout_width="0.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="8.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx3="@id/jk6" n2:bx7="@id/jk6" n2:bxb="@id/jk6" />
+    <X.130I n1:id="@id/w3m" n1:layout_width="100.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx9="@id/jk6" n2:bxb="@id/w3l" />
+    <X.130I n1:id="@id/jk7" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginEnd="16.0dp" n2:bfc="4.0dp" n2:bwq="owf" n2:bxb="@id/fd9" />
+    <X.130I n1:id="@id/w3q" n1:layout_width="0.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="8.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx3="@id/jk7" n2:bx7="@id/jk7" n2:bxb="@id/jk7" />
+    <X.130I n1:id="@id/w3r" n1:layout_width="100.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx9="@id/jk7" n2:bxb="@id/w3q" />
+    <X.130I n1:id="@id/jk8" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n2:bfc="4.0dp" n2:bx9="owf" n2:bxb="@id/w3m" />
+    <X.130I n1:id="@id/w3u" n1:layout_width="0.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="8.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx3="@id/jk8" n2:bx7="@id/jk8" n2:bxb="@id/jk8" />
+    <X.130I n1:id="@id/w3v" n1:layout_width="100.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx9="@id/jk8" n2:bxb="@id/w3u" />
+    <X.130I n1:id="@id/jk9" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginEnd="16.0dp" n2:bfc="4.0dp" n2:bwq="owf" n2:bxb="@id/w3m" />
+    <X.130I n1:id="@id/w3y" n1:layout_width="0.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="8.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx3="@id/jk9" n2:bx7="@id/jk9" n2:bxb="@id/jk9" />
+    <X.130I n1:id="@id/w3z" n1:layout_width="100.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx9="@id/jk9" n2:bxb="@id/w3y" />
+    <X.130I n1:id="@id/jk_" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n2:bfc="4.0dp" n2:bx9="owf" n2:bxb="@id/w3v" />
+    <X.130I n1:id="@id/w42" n1:layout_width="0.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="8.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx3="@id/jk_" n2:bx7="@id/jk_" n2:bxb="@id/jk_" />
+    <X.130I n1:id="@id/w43" n1:layout_width="100.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx9="@id/jk_" n2:bxb="@id/w42" />
+    <X.130I n1:id="@id/jka" n1:layout_width="168.0dp" n1:layout_height="168.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginEnd="16.0dp" n2:bfc="4.0dp" n2:bwq="owf" n2:bxb="@id/w3z" />
+    <X.130I n1:id="@id/w46" n1:layout_width="0.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="8.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx3="@id/jk_" n2:bx7="@id/jk_" n2:bxb="@id/jk_" />
+    <X.130I n1:id="@id/w47" n1:layout_width="100.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n2:bf9="?c7" n2:bfc="2.0dp" n2:bx9="@id/jka" n2:bxb="@id/w46" />
+</X.130F>

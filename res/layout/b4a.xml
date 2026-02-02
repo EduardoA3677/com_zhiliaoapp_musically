@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/a0u" n1:background="@drawable/b8d" n1:layout_width="wrap_content" n1:layout_height="28.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?bx" n1:gravity="start" n1:id="@id/a0t" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginTop="7.0dp" n1:layout_marginBottom="7.0dp" n1:text="Ad starts in 5" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n1:fontFeatureSettings="tnum" n2:fj2="qd" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_vertical" n1:id="@id/zd" n1:paddingLeft="4.0dp" n1:paddingTop="0.0dp" n1:paddingRight="4.0dp" n1:paddingBottom="0.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="Ad starts in 5" n1:fontFeatureSettings="tnum" n3:fj2="qd" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

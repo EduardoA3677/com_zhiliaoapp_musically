@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMn n1:id="@id/elb" n1:background="@drawable/cy7" n1:layout_width="116.0dp" n1:layout_height="116.0dp" n2:bwr="@id/pw2" n2:bx9="owf" n2:bxc="owf" n2:fly="mzu" n2:flz="true" n2:fm1="?y6" n2:fm4="8.0dp" n2:fm7="mzu" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0mMn n1:id="@id/pw2" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="5.5dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="54.0dp" n3:bwr="@id/pth" n3:bx8="@id/elb" n3:bxc="owf" n3:fly="mzu" n3:flz="true" n3:fm1="?y6" n3:fm7="mzu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0mMn n1:id="@id/pth" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="3.0dp" n4:bwq="owf" n4:bxc="owf" n4:fly="mzu" n4:flz="true" n4:fm1="?y6" n4:fm7="mzu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0mMn n1:id="@id/s5d" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="11.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="102.0dp" n5:bwq="owf" n5:bx8="@id/elb" n5:bxb="@id/pw2" n5:fly="mzu" n5:flz="true" n5:fm1="?y6" n5:fm7="mzu" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0mMn n1:id="@id/voa" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="11.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="31.0dp" n6:bwq="owf" n6:bx8="@id/elb" n6:bxb="@id/s5d" n6:fly="mzu" n6:flz="true" n6:fm1="?y6" n6:fm7="mzu" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0mMn n1:id="@id/fcl" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="11.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="115.0dp" n7:bwq="owf" n7:bx8="@id/elb" n7:bxb="@id/voa" n7:fly="mzu" n7:flz="true" n7:fm1="?y6" n7:fm7="mzu" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

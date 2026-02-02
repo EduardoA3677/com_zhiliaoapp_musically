@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13KH n1:id="@id/jo_" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CV6 n1:layout_gravity="center|bottom" n1:id="@id/jtt" n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</merge>

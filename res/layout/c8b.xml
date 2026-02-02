@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/wit" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:gravity="center_vertical" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="@dimen/az0">
+                <View n1:id="@id/whr" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="1.0" />
+                <X.0Cfg n1:id="@id/bam" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:src="@drawable/fce" n1:layout_centerVertical="true" n1:contentDescription="@null" style="@style/aik" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="@dimen/kv" n1:singleLine="true" n1:drawablePadding="3.0dp" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n1:alpha="0.0" />
+            </RelativeLayout>
+        </LinearLayout>
+        <X.0Cze n1:id="@id/ujl" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fj3="true" n2:fl9="oh9" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.0jew n1:id="@id/sqa" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <FrameLayout n1:id="@id/iqe" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <X.1357 n1:id="@id/vk5" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+                <X.13KU n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </X.0jew>
+        </X.0Cze>
+    </LinearLayout>
+    <RelativeLayout n1:id="@id/umo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oCE n1:id="@id/up1" n1:background="?bx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/az0" n3:fkf="h_s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

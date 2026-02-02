@@ -1,0 +1,37 @@
+.class public final LX/0f07;
+.super LX/0f0T;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LJIJJ:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lcom/bytedance/android/livesdkapi/depend/model/live/Room;Lcom/bytedance/android/livesdk/chatroom/interact/model/RivalsListsData$TopHostInfo;Lcom/bytedance/android/livesdk/chatroom/interact/model/RivalExtraInfo;Ljava/lang/String;LX/0fAz;)V
+    .locals 9
+
+    sget-object v4, LX/0ezx;->LJJJ:LX/0ezx;
+
+    const/4 v8, 0x1
+
+    move-object v7, p5
+
+    move-object v6, p4
+
+    move-object v5, p3
+
+    move-object v3, p2
+
+    move-object v2, p1
+
+    move-object v1, p0
+
+    invoke-direct/range {v1 .. v8}, LX/0f0T;-><init>(Lcom/bytedance/android/livesdkapi/depend/model/live/Room;Lcom/bytedance/android/livesdk/chatroom/interact/model/RivalsListsData$TopHostInfo;LX/0ezx;Lcom/bytedance/android/livesdk/chatroom/interact/model/RivalExtraInfo;Ljava/lang/String;LX/0fAz;Z)V
+
+    const-string v0, ""
+
+    iput-object v0, v1, LX/0f07;->LJIJJ:Ljava/lang/String;
+
+    return-void
+.end method

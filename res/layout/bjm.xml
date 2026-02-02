@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="0.56" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0gOi n1:id="@id/zx8" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layerType="hardware" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/dj9" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="28.0dp" n1:layout_marginStart="16.0dp" n2:fjq="@raw/icon_x_mark" n2:fjz="true" n2:fmy="?e0" />
+    </com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+    <X.0Chg n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <ImageButton n1:layout_gravity="center" n1:id="@id/ox8" n1:background="@null" n1:visibility="gone" n1:layout_width="50.0dp" n1:layout_height="60.0dp" n1:src="@drawable/cim" />
+</FrameLayout>

@@ -1,0 +1,797 @@
+.class public final LX/0mMw;
+.super LX/13M6;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/13M6<",
+        "LX/0mMy;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LL:LX/0mMz;
+
+.field public final LLILIL:I
+
+.field public final LLILL:I
+
+.field public final LLILLIZIL:I
+
+.field public final LLILLJJLI:F
+
+.field public final LLILLL:I
+
+.field public LLILZ:Ljava/lang/Integer;
+
+.field public LLILZIL:Ljava/lang/Integer;
+
+.field public LLILZLL:Ljava/lang/Integer;
+
+.field public LLIZ:Ljava/lang/Integer;
+
+.field public LLIZLLLIL:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;LX/0mMz;)V
+    .locals 3
+
+    invoke-direct {p0}, LX/13M6;-><init>()V
+
+    iput-object p2, p0, LX/0mMw;->LL:LX/0mMz;
+
+    const/4 v0, 0x6
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0D5g;->LIZ(Ljava/lang/Number;)I
+
+    move-result v0
+
+    iput v0, p0, LX/0mMw;->LLILIL:I
+
+    const/16 v0, 0x8
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-static {v1}, LX/0D5g;->LIZ(Ljava/lang/Number;)I
+
+    move-result v0
+
+    iput v0, p0, LX/0mMw;->LLILL:I
+
+    const/16 v0, 0x10
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0D5g;->LIZ(Ljava/lang/Number;)I
+
+    move-result v2
+
+    iput v2, p0, LX/0mMw;->LLILLIZIL:I
+
+    invoke-static {v1}, LX/0D5g;->LIZ(Ljava/lang/Number;)I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    iput v0, p0, LX/0mMw;->LLILLJJLI:F
+
+    invoke-static {p1}, LX/0hjl;->LJIIJ(Landroid/content/Context;)I
+
+    move-result v1
+
+    mul-int/lit8 v0, v2, 0x2
+
+    sub-int/2addr v1, v0
+
+    iput v1, p0, LX/0mMw;->LLILLL:I
+
+    sget-object v0, LX/0Pgk;->INSTANCE:LX/0Pgk;
+
+    iput-object v0, p0, LX/0mMw;->LLIZLLLIL:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getItemCount()I
+    .locals 1
+
+    iget-object v0, p0, LX/0mMw;->LLIZLLLIL:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+    .locals 17
+
+    move-object/from16 v7, p1
+
+    check-cast v7, LX/0mMy;
+
+    move-object/from16 v5, p0
+
+    iget-object v0, v5, LX/0mMw;->LLIZLLLIL:Ljava/util/List;
+
+    move/from16 v6, p2
+
+    invoke-static {v0, v6}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v8
+
+    check-cast v8, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;
+
+    iget-object v10, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v8}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;->getCommonImage()Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;
+
+    move-result-object v0
+
+    const/4 v3, 0x0
+
+    if-eqz v0, :cond_d
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;->getWidth()Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_d
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v11
+
+    :goto_0
+    invoke-virtual {v8}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;->getCommonImage()Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_c
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;->getHeight()Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_c
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v9
+
+    :goto_1
+    const/16 v16, 0x3
+
+    const/4 v0, 0x4
+
+    const/4 v15, 0x2
+
+    if-lez v9, :cond_0
+
+    if-lez v11, :cond_0
+
+    invoke-virtual {v5}, LX/13M6;->getItemCount()I
+
+    move-result v4
+
+    if-ge v4, v0, :cond_b
+
+    iget v2, v5, LX/0mMw;->LLILLL:I
+
+    add-int/lit8 v1, v4, -0x1
+
+    iget v0, v5, LX/0mMw;->LLILL:I
+
+    mul-int/2addr v1, v0
+
+    sub-int/2addr v2, v1
+
+    div-int/2addr v2, v4
+
+    :goto_2
+    mul-int/2addr v9, v2
+
+    div-int/2addr v9, v11
+
+    invoke-virtual {v10}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v0
+
+    iput v2, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
+
+    iput v9, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
+
+    invoke-static {v10, v0}, LX/0X3I;->R1(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+
+    :cond_0
+    iget-object v0, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    const/4 v9, 0x1
+
+    if-eqz v0, :cond_a
+
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_a
+
+    invoke-static {v0}, LX/05qc;->LIZIZ(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-ne v0, v9, :cond_a
+
+    iget-object v4, v5, LX/0mMw;->LLILZIL:Ljava/lang/Integer;
+
+    :goto_3
+    iget-object v0, v5, LX/0mMw;->LLIZLLLIL:Ljava/util/List;
+
+    invoke-static {v0, v6}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;
+
+    iget-object v11, v5, LX/0mMw;->LLILZLL:Ljava/lang/Integer;
+
+    iget-object v14, v5, LX/0mMw;->LLIZ:Ljava/lang/Integer;
+
+    iget v12, v5, LX/0mMw;->LLILLJJLI:F
+
+    invoke-virtual {v2}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;->getText()Ljava/lang/String;
+
+    move-result-object v10
+
+    iget-object v0, v7, LX/0mMy;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    const/16 v13, 0x8
+
+    if-eqz v0, :cond_9
+
+    if-eqz v10, :cond_9
+
+    invoke-virtual {v10}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-eqz v0, :cond_9
+
+    if-eqz v11, :cond_1
+
+    iget-object v1, v7, LX/0mMy;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {v11}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTextColor(I)V
+
+    :cond_1
+    if-eqz v14, :cond_2
+
+    new-instance v11, Landroid/graphics/drawable/GradientDrawable;
+
+    invoke-direct {v11}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
+
+    invoke-virtual {v11, v3}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
+
+    invoke-virtual {v14}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    invoke-virtual {v11, v0}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
+
+    new-array v1, v13, [F
+
+    const/4 v0, 0x0
+
+    aput v0, v1, v3
+
+    aput v0, v1, v9
+
+    aput v0, v1, v15
+
+    aput v0, v1, v16
+
+    const/4 v0, 0x4
+
+    aput v12, v1, v0
+
+    const/4 v0, 0x5
+
+    aput v12, v1, v0
+
+    const/4 v0, 0x6
+
+    aput v12, v1, v0
+
+    const/4 v0, 0x7
+
+    aput v12, v1, v0
+
+    invoke-virtual {v11, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
+
+    iget-object v0, v7, LX/0mMy;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {v0, v11}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    :cond_2
+    iget-object v0, v7, LX/0mMy;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v0, v7, LX/0mMy;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    invoke-static {v0, v3}, LX/0X3I;->LLJJJIL(Lcom/bytedance/tux/input/TuxTextView;I)V
+
+    :cond_3
+    :goto_4
+    invoke-virtual {v2}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;->getCommonImage()Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;->getUrlList()Ljava/util/List;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_5
+
+    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    new-instance v11, Lcom/ss/android/ugc/aweme/base/model/UrlModel;
+
+    invoke-direct {v11}, Lcom/ss/android/ugc/aweme/base/model/UrlModel;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    invoke-virtual {v11, v0}, Lcom/ss/android/ugc/aweme/base/model/UrlModel;->setUrlList(Ljava/util/List;)V
+
+    new-instance v10, LX/0I1J;
+
+    const/4 v0, 0x1
+
+    invoke-direct {v10, v0}, LX/0I1J;-><init>(I)V
+
+    if-eqz v4, :cond_8
+
+    iget-object v0, v7, LX/0mMy;->LLILIL:LX/1295;
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0}, LX/128p;->getHierarchy()LX/12C1;
+
+    move-result-object v2
+
+    check-cast v2, LX/129X;
+
+    if-eqz v2, :cond_4
+
+    invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    new-instance v0, Landroid/graphics/drawable/ColorDrawable;
+
+    invoke-direct {v0, v1}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
+
+    invoke-virtual {v2, v0, v9}, LX/129X;->LJIIZILJ(Landroid/graphics/drawable/Drawable;I)V
+
+    :cond_4
+    :goto_5
+    iget-object v0, v7, LX/0mMy;->LLILIL:LX/1295;
+
+    invoke-static {v0, v11, v10}, LX/0lhf;->LIZ(LX/1295;Lcom/ss/android/ugc/aweme/base/model/UrlModel;LX/12Bh;)V
+
+    :cond_5
+    iget-object v9, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-eqz v9, :cond_7
+
+    new-instance v1, LY/ACListenerS50S0201000_23;
+
+    const/16 v0, 0x8
+
+    invoke-direct {v1, v6, v5, v8, v0}, LY/ACListenerS50S0201000_23;-><init>(ILjava/lang/Object;Ljava/lang/Object;I)V
+
+    invoke-static {v1, v9}, LX/0X3I;->y3(Landroid/view/View$OnClickListener;Landroid/view/View;)V
+
+    new-instance v4, LX/00zH;
+
+    invoke-direct {v4}, LX/00zH;-><init>()V
+
+    invoke-virtual {v8}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;->getCommonImage()Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_6
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/CommonImage;->getUrlList()Ljava/util/List;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_6
+
+    invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    new-instance v1, Lcom/ss/android/ugc/aweme/base/model/UrlModel;
+
+    invoke-direct {v1}, Lcom/ss/android/ugc/aweme/base/model/UrlModel;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/base/model/UrlModel;->setUrlList(Ljava/util/List;)V
+
+    iput-object v1, v4, LX/00zH;->element:Ljava/lang/Object;
+
+    :cond_6
+    invoke-virtual {v8}, Lcom/ss/android/ugc/aweme/feed/model/commercialize/ProductCard;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v0, LX/0mMx;
+
+    invoke-direct {v0, v5, v9, v4, v1}, LX/0mMx;-><init>(LX/0mMw;Landroid/view/View;LX/00zH;Ljava/lang/String;)V
+
+    invoke-virtual {v9, v0}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+
+    :cond_7
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v8
+
+    if-nez v6, :cond_e
+
+    iget-object v6, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    iget v0, v5, LX/0mMw;->LLILLIZIL:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v7
+
+    const/16 v12, 0x10
+
+    move-object v9, v8
+
+    move-object v10, v8
+
+    move v11, v3
+
+    invoke-static/range {v6 .. v12}, LX/0CTq;->LJIIIZ(Landroid/view/View;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;ZI)V
+
+    return-void
+
+    :cond_8
+    iget-object v0, v7, LX/0mMy;->LLILIL:LX/1295;
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0}, LX/128p;->getHierarchy()LX/12C1;
+
+    move-result-object v1
+
+    check-cast v1, LX/129X;
+
+    if-eqz v1, :cond_4
+
+    const v0, 0x7f06035f
+
+    invoke-virtual {v1, v0}, LX/129X;->LJIJJLI(I)V
+
+    goto :goto_5
+
+    :cond_9
+    iget-object v0, v7, LX/0mMy;->LL:Lcom/bytedance/tux/input/TuxTextView;
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {v0, v13}, Landroid/view/View;->setVisibility(I)V
+
+    invoke-static {v13, v0}, LX/0BId;->LIZIZ(ILjava/lang/Object;)V
+
+    goto/16 :goto_4
+
+    :cond_a
+    iget-object v4, v5, LX/0mMw;->LLILZ:Ljava/lang/Integer;
+
+    goto/16 :goto_3
+
+    :cond_b
+    iget v1, v5, LX/0mMw;->LLILLL:I
+
+    iget v0, v5, LX/0mMw;->LLILIL:I
+
+    mul-int/lit8 v0, v0, 0x2
+
+    sub-int/2addr v1, v0
+
+    div-int/lit8 v2, v1, 0x3
+
+    goto/16 :goto_2
+
+    :cond_c
+    const/4 v9, 0x0
+
+    goto/16 :goto_1
+
+    :cond_d
+    const/4 v11, 0x0
+
+    goto/16 :goto_0
+
+    :cond_e
+    invoke-virtual {v5}, LX/13M6;->getItemCount()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    if-ne v6, v0, :cond_f
+
+    iget-object v4, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    iget v0, v5, LX/0mMw;->LLILLIZIL:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v7
+
+    const/16 v10, 0x10
+
+    move-object v5, v8
+
+    move-object v6, v8
+
+    move-object v8, v8
+
+    move v9, v3
+
+    invoke-static/range {v4 .. v10}, LX/0CTq;->LJIIIZ(Landroid/view/View;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;ZI)V
+
+    return-void
+
+    :cond_f
+    iget-object v0, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    const/16 v10, 0x10
+
+    move-object v4, v0
+
+    move-object v5, v8
+
+    move-object v6, v8
+
+    move-object v7, v8
+
+    move-object v8, v8
+
+    move v9, v3
+
+    invoke-static/range {v4 .. v10}, LX/0CTq;->LJIIIZ(Landroid/view/View;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;ZI)V
+
+    return-void
+.end method
+
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    .locals 5
+
+    const-string v4, "onCreateViewHolder getParent() != null crash hook, holder "
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->e8(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v2
+
+    const v1, 0x7f0e1d7c
+
+    const/4 v0, 0x0
+
+    invoke-static {v2, v1, p1, v0}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v0
+
+    new-instance v2, LX/0mMy;
+
+    invoke-direct {v2, v0}, LX/0mMy;-><init>(Landroid/view/View;)V
+
+    :try_start_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-eqz v3, :cond_0
+
+    invoke-static {p1}, LX/05Ro;->LIZ(Landroid/view/View;)Landroidx/fragment/app/Fragment;
+
+    move-result-object v1
+
+    const v0, 0x7f0b17d6
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    :cond_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const v0, 0x7f0b7c70
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+
+    :try_start_1
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    const/4 v3, 0x1
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    :try_start_2
+    invoke-static {}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZLLL()Lcom/bytedance/ies/abmock/SettingsManager;
+
+    move-result-object v1
+
+    const-string v0, "catch_onCreateViewHolder_crash"
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v0, v3}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZ(Ljava/lang/String;Z)Z
+
+    move-result v3
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catch_0
+    if-eqz v3, :cond_1
+
+    :try_start_3
+    new-instance v1, Ljava/lang/StringBuffer;
+
+    invoke-direct {v1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+
+    const-class v0, LX/0mMy;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " parent "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " viewType "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuffer;->append(I)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0tSY;->LIZJ(Ljava/lang/String;)V
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_1
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-static {v0, v1}, LX/0X3I;->LJJIZ(Landroid/view/View;Landroid/view/ViewGroup;)V
+
+    goto :goto_0
+    :try_end_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+
+    :catch_1
+    move-exception v0
+
+    invoke-static {v0}, LX/0H5y;->LIZ(Ljava/lang/Exception;)V
+
+    invoke-static {v0}, LX/0YM6;->LIZ(Ljava/lang/Exception;)V
+
+    :cond_1
+    :goto_0
+    const-class v0, LX/0mMy;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, LX/0RKz;->LIZ:Ljava/lang/String;
+
+    return-object v2
+.end method
+
+.method public final onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    .locals 2
+
+    invoke-super {p0, p1}, LX/13M6;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    iget-object v1, p0, LX/0mMw;->LL:LX/0mMz;
+
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAbsoluteAdapterPosition()I
+
+    move-result v0
+
+    invoke-interface {v1, v0}, LX/0mMz;->LLLLJI(I)V
+
+    return-void
+.end method

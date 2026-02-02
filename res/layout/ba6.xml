@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.ug.guide.SwipeUpGuideStrengthenLayout n1:id="@id/vf7" n1:background="@color/d1" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/vf5" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+                <X.0d5Y n1:layout_gravity="center" n1:id="@id/kov" n1:layout_width="match_parent" n1:layout_height="210.0dp" />
+                <X.0Cgn n1:layout_gravity="center_horizontal" n1:id="@id/kp0" n1:visibility="gone" n1:layout_width="260.0dp" n1:layout_height="210.0dp" />
+                <FrameLayout n1:paddingTop="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/ypy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="ot" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                </FrameLayout>
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/ypz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="ow" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.ug.guide.SwipeUpGuideStrengthenLayout>

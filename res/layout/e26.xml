@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:importantForAccessibility="noHideDescendants" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/n5s" n1:padding="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.13dw n1:layout_gravity="center" n1:id="@id/moy" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_margin="2.0dp" n2:eme="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/message_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxWidth="134.0dp" n1:text="@null" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

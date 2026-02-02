@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/lcb" n1:background="@drawable/aip" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="23.0dp" n1:animateLayoutChanges="true" n1:paddingStart="10.0dp" n1:paddingEnd="12.0dp" n1:layout_marginStart="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Czm n1:id="@id/li7" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n2:bx9="owf" n2:bxc="owf" n2:etn="@drawable/dgb" n2:eto="h_j" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cxq n1:textSize="15.0sp" n1:textColor="@color/yy" n1:ellipsize="end" n1:gravity="center_horizontal" n1:id="@id/lic" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:maxLines="1" n1:layout_marginStart="8.0dp" n3:b5l="z1f" n3:bx8="@id/li7" n3:bxc="owf" n3:fdi="n2i" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0Cxq n1:textSize="12.0sp" n1:textColor="@color/yy" n1:ellipsize="end" n1:id="@id/lhv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n4:bx9="@id/lic" n4:bxb="@id/lic" n4:fdi="rqc" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0mEg n1:id="@id/lbc" n1:layout_width="5.0dp" n1:layout_height="8.0dp" n1:scaleType="fitXY" n1:layout_marginStart="2.0dp" n5:bwk="@id/lhv" n5:bx8="@id/lhv" n5:bxc="@id/lhv" n5:bxd="0.6" n5:f49="@drawable/auf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0mMn n1:id="@id/h84" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fly="wrap_content" n2:fm4="@dimen/b9" n2:fm7="mzu" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/h83" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/h87" n1:layout_width="61.0dp" n1:layout_height="61.0dp" n2:bgf="@dimen/b9">
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/h85" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+            <FrameLayout n1:layout_gravity="end|bottom" n1:id="@id/msd" n1:layout_width="48.0dp" n1:layout_height="48.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="10.0dp" n1:contentDescription="search" n1:layout_marginEnd="10.0dp" n2:fjq="@raw/icon_magnifying_glass_fill" n2:fjt="14.0dp" n2:fk6="14.0dp" n2:fmy="?xx" />
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:layout_gravity="end|bottom" n1:id="@id/h86" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:layout_marginEnd="8.0dp" n2:fj2="pz" />
+        </com.bytedance.tux.widget.RadiusLayout>
+    </LinearLayout>
+</X.0mMn>

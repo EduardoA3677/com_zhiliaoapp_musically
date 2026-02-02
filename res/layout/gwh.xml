@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137y n1:gravity="center" n1:orientation="horizontal" n1:background="?ein" n1:paddingLeft="8.0dp" n1:paddingTop="5.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="5.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="26.0dp" n1:minWidth="60.0dp" n1:paddingHorizontal="8.0dp" n1:paddingVertical="5.0dp" n2:ffh="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/lpl" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="2.0dp" n2:br4="?dj3" n2:brl="?ekp" />
+    <X.12hi n1:textSize="12.0sp" n1:textColor="?ekp" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/lpy" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:includeFontPadding="false" style="@style/a7b" />
+    <X.12hi n1:textSize="12.0sp" n1:textStyle="italic" n1:textColor="?ekp" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/lp8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:includeFontPadding="false" style="@style/a7b" />
+</X.137y>

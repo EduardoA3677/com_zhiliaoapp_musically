@@ -1,0 +1,23 @@
+.class public final LX/196Q;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/196Q;
+
+    invoke-direct {v0}, LX/196Q;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:id="@id/lfw" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="230.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/lg1" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ViewStub n1:id="@id/v0w" n1:layout="@layout/dai" n1:inflatedId="@id/aly" n1:layout_width="match_parent" n1:layout_height="66.0dp" n1:layout_marginBottom="8.0dp" n2:bwl="@id/rez" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ViewStub n1:id="@id/v10" n1:layout="@layout/daj" n1:inflatedId="@id/v10" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_marginBottom="8.0dp" n3:bwl="@id/rez" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/rez" n1:layout_width="match_parent" n1:layout_height="150.0dp" n4:bwk="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/rf0" n1:paddingLeft="7.0dp" n1:paddingRight="7.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="16.0dp" n1:paddingHorizontal="7.0dp" />
+            <ViewStub n1:id="@id/v0x" n1:layout="@layout/dai" n1:inflatedId="@id/aly" n1:layout_width="match_parent" n1:layout_height="66.0dp" n1:layout_marginTop="11.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:layout_gravity="start|bottom" n1:id="@id/xqg" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:text="@string/dzy" n1:paddingHorizontal="16.0dp" n4:fj2="p_" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:layout_gravity="end|bottom" n1:id="@id/ylu" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:text="@string/q6_" n1:paddingHorizontal="16.0dp" n4:fj2="pa" />
+        </FrameLayout>
+        <View n1:id="@id/em0" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

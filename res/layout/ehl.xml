@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?y4" n1:fitsSystemWindows="true" n1:clipChildren="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.05e4 n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" n2:bw_="@null" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.13i7 n1:id="@id/ujy" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView n1:id="@id/sj7" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </X.13i7>
+            <X.0oCE n1:id="@id/upc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fkf="h_s" />
+        </FrameLayout>
+    </X.05e4>
+</LinearLayout>

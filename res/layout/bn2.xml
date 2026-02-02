@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:theme="@style/xr" n1:orientation="vertical" n1:id="@id/fn6" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/fmv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/fn0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/fmx" n1:paddingTop="2.0dp" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="4.0dp" n1:paddingEnd="8.0dp" n1:layout_marginStart="5.0dp" n3:bwk="owf" n3:bx8="@id/fn0" n3:bxc="owf" n3:fj2="qe" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/fmz" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:paddingStart="6.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/fmy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="4.0dp" n4:fj2="px" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/fmw" n1:layout_width="7.0dp" n1:layout_height="14.0dp" n1:contentDescription="@null" n4:fjq="@raw/icon_chevron_right_slim_thin_ltr" n4:fmy="?zy" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0o06 n1:id="@id/fn4" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" />
+</LinearLayout>

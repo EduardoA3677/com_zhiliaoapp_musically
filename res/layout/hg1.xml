@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="200.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/e9s" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/gd1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="@dimen/qf" n1:overScrollMode="never" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n3:bx9="owf" n3:bxb="@id/e9s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/e9r" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/mjt" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="298.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <include layout="@layout/hhw" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="start|top" n1:orientation="vertical" n1:paddingLeft="@dimen/acd" n1:paddingTop="@dimen/aco" n1:paddingRight="@dimen/acd" n1:paddingBottom="@dimen/aco" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/acn" n1:paddingHorizontal="@dimen/acd" n1:paddingVertical="@dimen/aco" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/s2k" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qf" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:id="@id/s2h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qf" n1:text="AI was unable to generate an answer." n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/s2c" n1:layout_width="match_parent" n1:layout_height="@dimen/ql">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/s2j" n1:layout_width="@dimen/qg" n1:layout_height="@dimen/qg" n1:importantForAccessibility="no" n1:layout_marginEnd="@dimen/qz" n4:fjq="@raw/icon_arrow_clockwise_fill" n4:fmy="?bb" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?bb" n1:id="@id/s2t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Retry" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

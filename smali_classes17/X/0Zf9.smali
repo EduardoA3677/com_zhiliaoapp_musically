@@ -1,0 +1,606 @@
+.class public final LX/0Zf9;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static final LIZ()Ljava/lang/String;
+    .locals 11
+
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    const/4 v9, 0x0
+
+    const/4 v5, 0x1
+
+    const/4 v0, 0x0
+
+    if-eqz v1, :cond_2
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v3
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_1
+
+    const/4 v8, 0x1
+
+    :goto_0
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    if-eqz v2, :cond_0
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v7
+
+    :goto_1
+    invoke-static/range {v3 .. v8}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_2
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v2}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->getVersionInfo()LX/0qGu;
+
+    move-result-object v1
+
+    iget-object v3, v1, LX/0qGu;->LIZ:Ljava/lang/String;
+
+    new-array v2, v5, [C
+
+    const/16 v1, 0x2e
+
+    aput-char v1, v2, v0
+
+    const/4 v1, 0x6
+
+    invoke-static {v3, v2, v0, v0, v1}, Lkotlin/text/b0;->LJJJZ(Ljava/lang/CharSequence;[CZII)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-static {v1}, LX/0zFB;->LJJLIIIJJI(Ljava/util/List;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    const-string v1, "0"
+
+    invoke-static {v2, v1}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_3
+
+    const-string v0, "online"
+
+    return-object v0
+
+    :cond_0
+    move-object v7, v9
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v8, 0x0
+
+    goto :goto_0
+
+    :cond_2
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    sget-object v2, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v2, v1}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_2
+
+    :cond_3
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_9
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v3
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_8
+
+    const/4 v8, 0x1
+
+    :goto_3
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    if-eqz v2, :cond_7
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v7
+
+    :goto_4
+    invoke-static/range {v3 .. v8}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_5
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v2}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->isDebug()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_a
+
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_6
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v3
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_5
+
+    const/4 v8, 0x1
+
+    :goto_6
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    if-eqz v2, :cond_4
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v7
+
+    :goto_7
+    invoke-static/range {v3 .. v8}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_8
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v2}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->isRegressionTest()Z
+
+    move-result v1
+
+    if-nez v1, :cond_a
+
+    const-string v0, "local_dev"
+
+    return-object v0
+
+    :cond_4
+    move-object v7, v9
+
+    goto :goto_7
+
+    :cond_5
+    const/4 v8, 0x0
+
+    goto :goto_6
+
+    :cond_6
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    sget-object v2, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v2, v1}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_8
+
+    :cond_7
+    move-object v7, v9
+
+    goto :goto_4
+
+    :cond_8
+    const/4 v8, 0x0
+
+    goto :goto_3
+
+    :cond_9
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    sget-object v2, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v2, v1}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_5
+
+    :cond_a
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_10
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v3
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_f
+
+    const/4 v8, 0x1
+
+    :goto_9
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    if-eqz v2, :cond_e
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v7
+
+    :goto_a
+    invoke-static/range {v3 .. v8}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_b
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v2}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->isDebug()Z
+
+    move-result v1
+
+    if-nez v1, :cond_11
+
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_d
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v3
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_c
+
+    const/4 v8, 0x1
+
+    :goto_c
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    if-eqz v2, :cond_b
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v7
+
+    :goto_d
+    invoke-static/range {v3 .. v8}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_e
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v2}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->isRegressionTest()Z
+
+    move-result v1
+
+    if-nez v1, :cond_11
+
+    const-string v0, "bits"
+
+    return-object v0
+
+    :cond_b
+    move-object v7, v9
+
+    goto :goto_d
+
+    :cond_c
+    const/4 v8, 0x0
+
+    goto :goto_c
+
+    :cond_d
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    sget-object v2, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v2, v1}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_e
+
+    :cond_e
+    move-object v7, v9
+
+    goto :goto_a
+
+    :cond_f
+    const/4 v8, 0x0
+
+    goto :goto_9
+
+    :cond_10
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    sget-object v2, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v2, v1}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_b
+
+    :cond_11
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_17
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v3
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_16
+
+    const/4 v8, 0x1
+
+    :goto_f
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    if-eqz v2, :cond_15
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v7
+
+    :goto_10
+    invoke-static/range {v3 .. v8}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_11
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v2}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->isDebug()Z
+
+    move-result v1
+
+    if-nez v1, :cond_18
+
+    invoke-static {}, LX/017S;->LIZ()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_14
+
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v5
+
+    invoke-static {v0}, Lcom/ss/android/ugc/aweme/ecommerce/dependency/application/ApplicationDependencyService;->createIApplicationDependencyServicebyMonsterPlugin(Z)Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_13
+
+    const/4 v10, 0x1
+
+    :goto_12
+    const-class v0, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v8
+
+    const/4 v7, 0x1
+
+    if-eqz v1, :cond_12
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v9
+
+    :cond_12
+    invoke-static/range {v5 .. v10}, LX/16Nz;->LIZJ(JILjava/lang/String;Ljava/lang/String;Z)V
+
+    :goto_13
+    check-cast v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-interface {v1}, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;->isRegressionTest()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_18
+
+    const-string v0, "regression"
+
+    return-object v0
+
+    :cond_13
+    const/4 v10, 0x0
+
+    goto :goto_12
+
+    :cond_14
+    sget-object v0, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v0}, LX/06cC;->LIZ()V
+
+    sget-object v1, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v0, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v1, v0}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_13
+
+    :cond_15
+    move-object v7, v9
+
+    goto :goto_10
+
+    :cond_16
+    const/4 v8, 0x0
+
+    goto :goto_f
+
+    :cond_17
+    sget-object v1, LX/06cC;->LIZ:LX/06cC;
+
+    invoke-virtual {v1}, LX/06cC;->LIZ()V
+
+    sget-object v2, LX/06cC;->LIZJ:LX/06cO;
+
+    const-class v1, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/dependency/application/IApplicationDependencyService;
+
+    invoke-virtual {v2, v1}, LX/06cO;->LIZLLL(Ljava/lang/Class;)LX/00wU;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ss/android/ugc/aweme/ecommerce/saas/core/IECommerceHostService;
+
+    goto :goto_11
+
+    :cond_18
+    const-string/jumbo v0, "unknown"
+
+    return-object v0
+.end method

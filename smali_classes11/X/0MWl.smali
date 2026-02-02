@@ -1,0 +1,66 @@
+.class public final LX/0MWl;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lcom/ss/android/ugc/aweme/autocaption/refactor/CLACaptionAssemV2;",
+        "LX/0Mh1;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, Lcom/ss/android/ugc/aweme/autocaption/refactor/CLACaptionAssemV2;
+
+    check-cast p2, LX/0Mh1;
+
+    invoke-virtual {p1}, Lcom/ss/android/ugc/aweme/autocaption/refactor/CLACaptionAssemV2;->wn()Lcom/ss/android/ugc/aweme/autocaption/refactor/CLACaptionViewModelV2;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/autocaption/refactor/CLACaptionViewModelV2;->hu2()LX/0Mh0;
+
+    move-result-object v1
+
+    iget-object v0, v1, LX/0Mh0;->LLILLL:LX/0Mh1;
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iput-object p2, v1, LX/0Mh0;->LLILLL:LX/0Mh1;
+
+    invoke-virtual {v1}, LX/0Mh0;->LIZJ()V
+
+    :cond_0
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    return-object v0
+.end method

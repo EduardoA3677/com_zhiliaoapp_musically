@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0g0E n1:id="@id/ekf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:b69="?eix" n2:bx9="owf" n2:bxc="owf" n2:eyl="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0g0E n1:id="@id/ekg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:b69="?eix" n3:bx8="@id/ekf" n3:bxc="owf" n3:eyl="12.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0g0E n1:id="@id/ekh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:b69="?eix" n4:bx8="@id/ekg" n4:bxc="owf" n4:eyl="12.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0g0E n1:id="@id/ekj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:b69="?eix" n5:bx9="owf" n5:bxb="@id/ekf" n5:eyl="12.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0g0E n1:id="@id/ekk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:b69="?eix" n6:bx8="@id/ekj" n6:bxb="@id/ekf" n6:eyl="12.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0g0E n1:id="@id/ekl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n7:b69="?eix" n7:bx8="@id/ekk" n7:bxb="@id/ekf" n7:eyl="12.0dp" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

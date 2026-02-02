@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kx6" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_alignParentTop="true" n1:layout_marginEnd="8.0dp" n1:layout_alignParentStart="true" n2:eyl="4.0dp" n2:eyo="?ly" n2:eyq="0.5dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n3:textColor="?do" n3:ellipsize="end" n3:id="@id/ygi" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:maxLines="1" n3:layout_alignParentTop="true" n3:layout_toEndOf="@id/kx6" n4:fj2="q1"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n5:orientation="horizontal" n5:id="@id/meu" n5:layout_width="wrap_content" n5:layout_height="wrap_content" n5:layout_below="@id/ygi" n5:layoutDirection="ltr" n5:layout_toEndOf="@id/kx6"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <com.bytedance.tux.input.TuxTextView n5:textColor="?dn" n5:ellipsize="end" n5:id="@id/yg4" n5:layout_width="wrap_content" n5:layout_height="wrap_content" n5:maxLines="1" n6:fj2="qd" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n5:textColor="?dn" n5:ellipsize="end" n5:id="@id/ygh" n5:layout_width="wrap_content" n5:layout_height="wrap_content" n5:maxLines="1" n7:fj2="p7" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n8:textColor="?dr" n8:ellipsize="end" n8:gravity="center_vertical" n8:id="@id/yg8" n8:layout_width="wrap_content" n8:layout_height="wrap_content" n8:maxLines="1" n8:layout_alignTop="@id/meu" n8:layout_alignBottom="@id/meu" n8:layout_marginStart="4.0dp" n8:layout_toEndOf="@id/meu" n9:fj2="qc"
+      xmlns:n8="http://schemas.android.com/apk/res/android" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n10:id="@id/lhq" n10:visibility="gone" n10:layout_width="wrap_content" n10:layout_height="wrap_content" n10:layout_alignBottom="@id/kx6" n10:layout_toEndOf="@id/kx6"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <X.0CVT n11:id="@id/lce" n11:visibility="gone" n11:layout_width="match_parent" n11:layout_height="wrap_content" n11:layout_alignBottom="@id/kx6" n11:layout_toEndOf="@id/kx6" n12:bo4="ll3" n12:bo6="1"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+</merge>

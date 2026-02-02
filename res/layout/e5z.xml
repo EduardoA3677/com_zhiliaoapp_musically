@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/pu7" n1:paddingTop="8.0dp" n1:paddingBottom="4.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/pw2" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_marginEnd="8.0dp" n2:bwr="@id/ptj" n2:bx9="owf" n2:bxc="owf" n2:fj2="ot" n2:fl1="24.0sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/pnz" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="8.0dp" n3:bwr="@id/ptj" n3:bx9="owf" n3:bxb="@id/pw2" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:gravity="start" n1:id="@id/pnw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="p5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/ptj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/pw2" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:gravity="center" n1:id="@id/ptl" n1:visibility="gone" n1:layout_width="124.0dp" n1:layout_height="36.0dp" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/pvf" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="44.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/poi" n1:visibility="invisible" n1:layout_width="42.0dp" n1:layout_height="42.0dp" n1:contentDescription="share" n1:layout_marginEnd="14.0dp" n4:fjq="@raw/icon_arrow_turn_up_right" n4:fjt="20.0dp" n4:fk6="20.0dp" n4:fmy="?zw" />
+            <FrameLayout n1:gravity="center" n1:id="@id/ptk" n1:layout_width="42.0dp" n1:layout_height="42.0dp" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="center" n1:id="@id/si5" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="24.0dp" />
+    <X.0oCE n1:layout_gravity="center" n1:id="@id/mlm" n1:layout_width="match_parent" n1:layout_height="118.0dp" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_gravity="center_vertical" n1:id="@id/ucg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Sold by Shop name" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/odt" n1:visibility="gone" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="3.0dp" n3:fjq="@raw/icon_color_verified_badge" n3:fjt="10.0dp" n3:fk6="10.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/wqn" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="3.0dp">
+        <View n1:id="@id/bpr" n1:background="@drawable/b64" n1:layout_width="61.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" />
+        <View n1:id="@id/rnm" n1:background="@drawable/b67" n1:layout_width="7.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="55.0dp" />
+        <View n1:id="@id/bny" n1:background="@drawable/b63" n1:layout_width="58.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="2.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?c3" n1:gravity="center" n1:id="@id/w4c" n1:layout_width="48.0dp" n1:layout_height="wrap_content" n1:text="Top Brand" n1:layout_alignTop="@id/bny" n1:layout_alignBottom="@id/bny" n1:layout_alignStart="@id/bny" n1:layout_alignEnd="@id/bny" n4:fj2="qg" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/p27" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="14.0dp" n1:layout_marginStart="4.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/tvc" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="1.0dp" n5:fjq="@raw/icon_color_star_shop" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_gravity="center" n1:id="@id/bd_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Star Shop" n6:fj2="q2" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

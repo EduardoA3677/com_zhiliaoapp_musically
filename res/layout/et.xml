@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:id="@id/mt8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="yes" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end" n1:id="@id/djl" n1:paddingTop="4.0dp" n1:paddingBottom="20.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:paddingStart="20.0dp" n1:paddingEnd="4.0dp" n2:fjt="20.0dp" n2:fk6="20.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="16.0dp" n1:importantForAccessibility="noHideDescendants">
+        <RelativeLayout n1:layout_width="48.0dp" n1:layout_height="48.0dp">
+            <X.0Cfm n1:id="@id/qwu" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/qwm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n3:fmb="false" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/n6b" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxWidth="228.0dp" n1:minWidth="68.0dp" n1:maxLines="3" n4:fmb="false" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

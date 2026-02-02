@@ -1,0 +1,140 @@
+.class public final LX/0vnS;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lkotlin/jvm/functions/Function1<",
+        "-",
+        "Ljava/lang/Boolean;",
+        "+",
+        "Lkotlin/Unit;",
+        ">;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:Lcom/ss/android/ugc/aweme/live/alphaplayer/model/DataSource;
+
+.field public final synthetic LLILIL:Lcom/ss/android/ugc/aweme/internalshare/impl/chatroomeasteregg/assem/EasterEggForShareAssem;
+
+.field public final synthetic LLILL:Landroid/graphics/Bitmap;
+
+.field public final synthetic LLILLIZIL:Ljava/lang/String;
+
+.field public final synthetic LLILLJJLI:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final synthetic LLILLL:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LX/076V;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final synthetic LLILZ:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LX/076V;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Landroid/graphics/Bitmap;Lcom/ss/android/ugc/aweme/internalshare/impl/chatroomeasteregg/assem/EasterEggForShareAssem;Lcom/ss/android/ugc/aweme/live/alphaplayer/model/DataSource;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+    .locals 1
+
+    iput-object p3, p0, LX/0vnS;->LL:Lcom/ss/android/ugc/aweme/live/alphaplayer/model/DataSource;
+
+    iput-object p2, p0, LX/0vnS;->LLILIL:Lcom/ss/android/ugc/aweme/internalshare/impl/chatroomeasteregg/assem/EasterEggForShareAssem;
+
+    iput-object p1, p0, LX/0vnS;->LLILL:Landroid/graphics/Bitmap;
+
+    iput-object p4, p0, LX/0vnS;->LLILLIZIL:Ljava/lang/String;
+
+    iput-object p5, p0, LX/0vnS;->LLILLJJLI:Ljava/util/List;
+
+    iput-object p6, p0, LX/0vnS;->LLILLL:Ljava/util/List;
+
+    iput-object p7, p0, LX/0vnS;->LLILZ:Ljava/util/List;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 12
+
+    move-object v11, p1
+
+    check-cast v11, Lkotlin/jvm/functions/Function1;
+
+    iget-object v4, p0, LX/0vnS;->LL:Lcom/ss/android/ugc/aweme/live/alphaplayer/model/DataSource;
+
+    iget-object v6, p0, LX/0vnS;->LLILIL:Lcom/ss/android/ugc/aweme/internalshare/impl/chatroomeasteregg/assem/EasterEggForShareAssem;
+
+    iget-object v3, p0, LX/0vnS;->LLILL:Landroid/graphics/Bitmap;
+
+    iget-object v7, p0, LX/0vnS;->LLILLIZIL:Ljava/lang/String;
+
+    iget-object v8, p0, LX/0vnS;->LLILLJJLI:Ljava/util/List;
+
+    iget-object v9, p0, LX/0vnS;->LLILLL:Ljava/util/List;
+
+    iget-object v10, p0, LX/0vnS;->LLILZ:Ljava/util/List;
+
+    invoke-virtual {v6}, Lcom/ss/android/ugc/aweme/internalshare/impl/chatroomeasteregg/assem/EasterEggForShareAssem;->Rm()Lcom/ss/android/ugc/aweme/im/chatroom/api/ability/IMChatRoomAlphaVideoAbility;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    new-instance v5, LX/069a;
+
+    invoke-direct/range {v5 .. v11}, LX/069a;-><init>(Lcom/ss/android/ugc/aweme/internalshare/impl/chatroomeasteregg/assem/EasterEggForShareAssem;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lkotlin/jvm/functions/Function1;)V
+
+    new-instance v1, Lkotlin/Pair;
+
+    const-string v0, "sharingspree"
+
+    invoke-direct {v1, v0, v3}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {v1}, LX/0PSm;->LIZJ(Lkotlin/Pair;)Ljava/util/Map;
+
+    move-result-object v0
+
+    invoke-interface {v2, v4, v5, v0}, Lcom/ss/android/ugc/aweme/im/chatroom/api/ability/IMChatRoomAlphaVideoAbility;->Z71(Lcom/ss/android/ugc/aweme/live/alphaplayer/model/DataSource;LX/0bYb;Ljava/util/Map;)V
+
+    :cond_0
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    return-object v0
+.end method

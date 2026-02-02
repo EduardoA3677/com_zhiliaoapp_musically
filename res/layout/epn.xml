@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:contentDescription="@null" n2:fjq="@raw/icon_camera_fill" n2:fjt="28.0dp" n2:fk6="28.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

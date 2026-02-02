@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="106.0dp" n1:layout_height="wrap_content" n1:maxWidth="106.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:theme="@style/wa" n1:id="@id/q22" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:src="@drawable/cy5" n1:scaleType="fitXY" n1:contentDescription="@null" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:theme="@style/wa" n1:id="@id/q1z" n1:background="@drawable/cy4" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="@null" n3:bwk="@id/q22" n3:bwq="@id/q22" n3:bx9="@id/q22" n3:bxc="@id/q22" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:theme="@style/wa" n1:id="@id/q20" n1:background="@drawable/czn" n1:layout_width="9.0dp" n1:layout_height="9.0dp" n1:contentDescription="@null" n4:bwk="@id/q22" n4:bwq="@id/q22" n4:bx9="@id/q22" n4:bxc="@id/q22" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0Cna n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/q23" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="3" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/q1z" n5:f7e="?bx" n5:f7f="1.0dp" n5:fj2="qf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

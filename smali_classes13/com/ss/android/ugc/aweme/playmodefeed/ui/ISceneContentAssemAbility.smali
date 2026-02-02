@@ -1,0 +1,23 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/playmodefeed/ui/ISceneContentAssemAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/02g2;
+
+
+# virtual methods
+.method public abstract LJIJJ()Z
+.end method
+
+.method public abstract LJJLIIIJJI()Z
+.end method
+
+.method public abstract LJJLIL(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z
+.end method
+
+.method public abstract LJLILLLLZI()V
+.end method
+
+.method public abstract LLLLZI()V
+.end method

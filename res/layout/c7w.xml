@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/g7o" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <X.0mEc n1:id="@id/xid" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_marginRight="16.0dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" n2:bt8="false" n2:btl="true" n2:elx="@drawable/byd" n2:ery="8.0dp" n2:ey9="2.0dp" n2:f7k="true" n2:fbn="@null" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0mEX n1:textColor="@color/dn" n1:id="@id/xj6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:text="@null" n1:layout_toLeftOf="@id/xid" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n1:layout_toStartOf="@id/xid" n3:b5w="rqc" style="@style/aa_" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:splitMotionEvents="false">
+        <X.0mMs n1:id="@id/rnl" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:splitMotionEvents="false" n4:bnt="16.0dp" n4:bvw="16.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/d_1" />
+    </FrameLayout>
+</LinearLayout>

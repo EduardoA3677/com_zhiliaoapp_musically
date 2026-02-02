@@ -1,0 +1,712 @@
+.class public final Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;
+.super Lcom/bytedance/android/livesdk/ui/BaseFragment;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0rCA;
+.implements LX/0TnX;
+
+
+# static fields
+.field public static final _pnsPageId:Ljava/lang/String; = "KyohZy0qPCAoKCEwLWstJyshJywoZyM6PiA/LSR9LyQhLGExOiHELIOSotLSwyOzFiJCYhOio+ZwgyJSAPKDwnCy0jJjw2DjctLiI2JjE="
+
+
+# instance fields
+.field public LL:Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+.field public LLILIL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;
+
+.field public LLILL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;
+
+.field public LLILLIZIL:Landroid/view/View;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/bytedance/android/livesdk/ui/BaseFragment;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final finish()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final getFragment()Landroidx/fragment/app/Fragment;
+    .locals 0
+
+    return-object p0
+.end method
+
+.method public final synthetic getThemeOverlay(Landroid/content/Context;)I
+    .locals 1
+
+    invoke-static {}, LX/0E2M;->LIZ()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final synthetic isLight(Landroid/content/Context;)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method
+
+.method public final onBackPressed()Z
+    .locals 6
+
+    sget-boolean v0, LX/067N;->LIZ:Z
+
+    const/4 v5, 0x0
+
+    if-eqz v0, :cond_4
+
+    invoke-static {p0, v5}, LX/0rEh;->LJJ(Landroidx/fragment/app/Fragment;Z)Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->LJJLIIIJ()Ljava/util/List;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+
+    invoke-static {v0}, LX/0zFB;->LJLJI(Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v4
+
+    :cond_0
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/fragment/app/Fragment;
+
+    invoke-static {v3, p0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v2, 0x1
+
+    if-nez v0, :cond_2
+
+    instance-of v0, v3, LX/0rCA;
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    move-object v0, v3
+
+    check-cast v0, LX/0rCA;
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, LX/0rCA;->onBackPressed()Z
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    :cond_1
+    invoke-static {v1}, LX/0cTD;->LJJJ(Ljava/lang/Boolean;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    return v2
+
+    :cond_2
+    invoke-static {v3, p0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    instance-of v0, v3, LX/0rCA;
+
+    if-nez v0, :cond_0
+
+    invoke-static {p0, v5}, LX/0rEh;->LJJ(Landroidx/fragment/app/Fragment;Z)Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->LJLJL()V
+
+    :cond_3
+    return v2
+
+    :cond_4
+    return v5
+.end method
+
+.method public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    .locals 4
+
+    const v1, 0x7f0e2cc0
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v1, p2, v0}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v3
+
+    instance-of v0, v3, Landroid/view/View;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_0
+
+    move-object v3, v2
+
+    :cond_0
+    if-eqz v3, :cond_2
+
+    :try_start_0
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
+
+    move-result-object v0
+
+    invoke-static {v3, v0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;->set(Landroid/view/View;Landroidx/lifecycle/LifecycleOwner;)V
+
+    invoke-static {v3, p0}, Landroidx/lifecycle/ViewTreeViewModelStoreOwner;->set(Landroid/view/View;Landroidx/lifecycle/ViewModelStoreOwner;)V
+
+    const v0, 0x7f0b8d60
+
+    invoke-virtual {v3, v0, p0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()LX/0t7j;
+
+    move-result-object v1
+
+    instance-of v0, v1, LX/0tVE;
+
+    if-eqz v0, :cond_1
+
+    move-object v2, v1
+
+    check-cast v2, LX/0tVE;
+
+    :cond_1
+    invoke-static {v2}, LX/0OzU;->LIZ(LX/0tVE;)V
+
+    :cond_2
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    invoke-static {v0}, LX/01S8;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object v3
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    move-exception v1
+
+    new-instance v0, LX/00cS;
+
+    invoke-direct {v0, v1}, LX/00cS;-><init>(Ljava/lang/Throwable;)V
+
+    invoke-static {v0}, LX/01S8;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object v3
+.end method
+
+.method public final onDestroy()V
+    .locals 2
+
+    iget-object v1, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LL:Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+    if-eqz v1, :cond_0
+
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILIL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;
+
+    invoke-virtual {v1, v0}, Lcom/bytedance/android/widget/WidgetManager;->unload(Lcom/bytedance/android/widget/Widget;)Lcom/bytedance/android/widget/WidgetManager;
+
+    :cond_0
+    iget-object v1, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LL:Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+    if-eqz v1, :cond_1
+
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;
+
+    invoke-virtual {v1, v0}, Lcom/bytedance/android/widget/WidgetManager;->unload(Lcom/bytedance/android/widget/Widget;)Lcom/bytedance/android/widget/WidgetManager;
+
+    :cond_1
+    invoke-super {p0}, Lcom/bytedance/android/livesdk/ui/BaseFragment;->onDestroy()V
+
+    sget-object v0, LX/0U0R;->LIZ:LX/0U0R;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {}, LX/0U0R;->LJII()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    sget-object v0, LX/0U03;->LIZ:LX/0U03;
+
+    invoke-static {}, LX/0U03;->LJIIIZ()V
+
+    :cond_2
+    const-class v0, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;
+
+    invoke-static {v0}, LX/0kIf;->LIZJ(Ljava/lang/Class;)LX/0263;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;
+
+    invoke-interface {v0}, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;->J6()V
+
+    return-void
+.end method
+
+.method public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 14
+
+    move-object/from16 v0, p2
+
+    invoke-super {p0, p1, v0}, Lcom/bytedance/android/livesdk/ui/BaseFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    const v0, 0x7f0b0de1
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    iput-object v2, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILLIZIL:Landroid/view/View;
+
+    if-eqz v2, :cond_0
+
+    new-instance v1, LY/ACListenerS103S0100000_14;
+
+    const/16 v0, 0x9f
+
+    invoke-direct {v1, p0, v0}, LY/ACListenerS103S0100000_14;-><init>(Ljava/lang/Object;I)V
+
+    invoke-static {v1, v2}, LX/0X3I;->y3(Landroid/view/View$OnClickListener;Landroid/view/View;)V
+
+    :cond_0
+    sget-object v0, Lcom/bytedance/ies/sdk/widgets/LiveWidgetProviderProxy;->Companion:Lcom/bytedance/ies/sdk/widgets/LiveWidgetProviderProxy$Companion;
+
+    invoke-virtual {v0}, Lcom/bytedance/ies/sdk/widgets/LiveWidgetProviderProxy$Companion;->getInstance()Lcom/bytedance/ies/sdk/widgets/IWidgetProvider;
+
+    move-result-object v1
+
+    sget-object v0, LX/0buy;->LIZ:LX/0buy;
+
+    invoke-static {p0, p1, v1, v0}, Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;->of(Landroidx/fragment/app/Fragment;Landroid/view/View;Lcom/bytedance/ies/sdk/widgets/IWidgetProvider;Lcom/bytedance/ies/sdk/widgets/FluencyOpt;)Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LL:Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILIL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;
+
+    if-nez v0, :cond_1
+
+    new-instance v2, Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getId()I
+
+    move-result v1
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
+
+    move-result-object v0
+
+    invoke-direct {v2, v1, v0}, Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;-><init>(ILandroid/os/Bundle;)V
+
+    iput-object v2, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILIL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;
+
+    :cond_1
+    iget-object v2, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LL:Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+    if-eqz v2, :cond_2
+
+    iget-object v1, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILIL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWiredWidget;
+
+    const v0, 0x7f0b11d6
+
+    invoke-virtual {v2, v0, v1}, Lcom/bytedance/android/widget/WidgetManager;->load(ILcom/bytedance/android/widget/Widget;)Lcom/bytedance/android/widget/WidgetManager;
+
+    :cond_2
+    iget-object v0, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;
+
+    if-nez v0, :cond_3
+
+    new-instance v2, Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getId()I
+
+    move-result v1
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
+
+    move-result-object v0
+
+    invoke-direct {v2, v1, v0}, Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;-><init>(ILandroid/os/Bundle;)V
+
+    iput-object v2, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;
+
+    :cond_3
+    iget-object v2, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LL:Lcom/bytedance/ies/sdk/widgets/RecyclableWidgetManager;
+
+    if-eqz v2, :cond_4
+
+    iget-object v1, p0, Lcom/bytedance/android/livesdk/game/broadcast/mirror/GameCastChooseFragment;->LLILL:Lcom/bytedance/android/livesdk/game/broadcast/mirror/widget/GameCastWirelessWidget;
+
+    const v0, 0x7f0b11d7
+
+    invoke-virtual {v2, v0, v1}, Lcom/bytedance/android/widget/WidgetManager;->load(ILcom/bytedance/android/widget/Widget;)Lcom/bytedance/android/widget/WidgetManager;
+
+    :cond_4
+    const v0, 0x7f0b80b6
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const v0, 0x7f124833
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    const-string v4, "\n"
+
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const v0, 0x7f124830
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-static {}, LX/0aQ1;->LIZJ()LX/0aQ1;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    const-string v0, "pm_mt_gamelive_cast_edu_download2"
+
+    invoke-static {v0}, LX/0aQ1;->LIZIZ(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v6
+
+    if-nez v6, :cond_5
+
+    invoke-virtual {v1}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v2
+
+    const v0, 0x7f124831
+
+    invoke-virtual {v2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v6
+
+    :cond_5
+    invoke-virtual {v7}, Ljava/lang/String;->length()I
+
+    move-result v9
+
+    const-string v5, "WWW"
+
+    const/4 v0, 0x2
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x1
+
+    invoke-static {v6, v5, v2, v3, v0}, Lkotlin/text/b0;->LJJIL(Ljava/lang/CharSequence;Ljava/lang/String;IZI)I
+
+    move-result v0
+
+    add-int/2addr v9, v0
+
+    new-instance v8, Landroid/text/SpannableStringBuilder;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v0}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v8, v0}, Landroid/text/SpannableStringBuilder;-><init>(Ljava/lang/CharSequence;)V
+
+    new-instance v5, LX/07xp;
+
+    invoke-direct {v5}, LX/07xp;-><init>()V
+
+    invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->length()I
+
+    move-result v0
+
+    const/16 v11, 0x21
+
+    :try_start_0
+    invoke-virtual {v8, v5, v9, v0, v11}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v7
+
+    invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->length()I
+
+    move-result v10
+
+    const/16 v12, 0x8
+
+    const/16 v13, 0x1f4
+
+    invoke-static/range {v7 .. v13}, LX/0d4h;->LJ(Landroid/content/Context;Landroid/text/Spannable;IIIII)V
+
+    new-instance v5, Landroid/text/style/ForegroundColorSpan;
+
+    const v0, 0x7f080495
+
+    invoke-static {v0}, LX/0cwH;->LJI(I)I
+
+    move-result v0
+
+    invoke-direct {v5, v0}, Landroid/text/style/ForegroundColorSpan;-><init>(I)V
+
+    invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->length()I
+
+    move-result v0
+
+    :try_start_1
+    invoke-virtual {v8, v5, v9, v0, v11}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    :catchall_1
+    invoke-virtual {v1, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {v1, v3}, Landroid/widget/TextView;->setLinksClickable(Z)V
+
+    invoke-static {}, Landroid/text/method/LinkMovementMethod;->getInstance()Landroid/text/method/MovementMethod;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setMovementMethod(Landroid/text/method/MovementMethod;)V
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setHighlightColor(I)V
+
+    const v0, 0x7f0b80b7
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v3
+
+    check-cast v3, Landroid/widget/TextView;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const v0, 0x7f124834
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const v0, 0x7f124832
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v3, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_8
+
+    const-string v0, "screen_cast_type_from"
+
+    invoke-virtual {v1, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    :goto_0
+    sget-object v0, LX/0U0R;->LIZ:LX/0U0R;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v4
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    if-eqz v4, :cond_6
+
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v0, 0x1c
+
+    if-gt v1, v0, :cond_6
+
+    new-instance v1, LX/0UTa;
+
+    invoke-direct {v1, v4}, LX/0UTa;-><init>(Landroid/content/Context;)V
+
+    const v0, 0x7f124801
+
+    invoke-static {v0}, LX/0cwH;->LJIJJLI(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, v1, LX/0UTa;->LIZJ:Ljava/lang/CharSequence;
+
+    const v0, 0x7f1247ff
+
+    invoke-static {v0}, LX/0cwH;->LJIJJLI(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, LX/0UTa;->LJIIIZ(Ljava/lang/CharSequence;)V
+
+    const v0, 0x7f124800
+
+    invoke-virtual {v1, v0}, LX/0UTa;->LJIIL(I)V
+
+    iput-boolean v2, v1, LX/0UTa;->LJIILL:Z
+
+    invoke-virtual {v1}, LX/0UTa;->LIZ()Lcom/bytedance/android/live/design/app/LiveDialog;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->B0(Lcom/bytedance/android/live/design/app/LiveDialog;)V
+
+    :cond_6
+    if-eqz v3, :cond_7
+
+    const-string v0, "livesdk_screencasting_type_show"
+
+    invoke-static {v0}, LX/0E0g;->LIZ(Ljava/lang/String;)LX/0qns;
+
+    move-result-object v2
+
+    invoke-static {}, LX/0TsJ;->LIZIZ()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    const-string v0, "anchor_id"
+
+    invoke-virtual {v2, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "enter_from"
+
+    invoke-virtual {v2, v3, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "live_type"
+
+    const-string v0, "live_studio"
+
+    invoke-virtual {v2, v0, v1}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v2}, LX/0qns;->LIZ()V
+
+    :cond_7
+    const-class v0, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;
+
+    invoke-static {v0}, LX/0kIf;->LIZJ(Ljava/lang/Class;)LX/0263;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;
+
+    invoke-interface {v0}, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;->wq2()V
+
+    const-class v0, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;
+
+    invoke-static {v0}, LX/0kIf;->LIZJ(Ljava/lang/Class;)LX/0263;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;
+
+    invoke-interface {v0}, Lcom/bytedance/android/livesdkapi/host/ILiveGameService;->ss2()V
+
+    return-void
+
+    :cond_8
+    const/4 v3, 0x0
+
+    goto :goto_0
+.end method

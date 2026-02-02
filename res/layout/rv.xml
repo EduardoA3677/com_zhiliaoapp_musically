@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/voice_touch_outside" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" n1:importantForAccessibility="no" n1:layoutDirection="ltr">
+        <FrameLayout n1:id="@id/lgq" n1:background="@color/dx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <FrameLayout n1:id="@id/lgo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <FrameLayout n1:id="@id/lgp" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <X.0mEa n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/voice_conversion_bottom_sheet" n1:visibility="visible" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="@dimen/f7" n2:erj="true" n2:ey9="@dimen/fa" n2:fcd="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0mEX n1:gravity="center_vertical" n1:id="@id/voice_title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:minHeight="52.0dp" n1:text="@null" n1:maxLines="2" n1:lineSpacingExtra="3.0sp" n2:b5w="n2i" n2:erj="true" style="@style/aa_" />
+        <X.0mMs n1:id="@id/voice_list" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="18.0dp" n1:layout_marginBottom="24.0dp" n1:layout_below="@id/voice_title" n2:bnt="16.0dp" n2:bu6="16.0dp" n2:bvw="16.0dp" />
+    </X.0mEa>
+</X.12nR>

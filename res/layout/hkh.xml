@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="@dimen/apa" n1:layout_weight="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="left" n1:orientation="vertical" n1:id="@id/ma5" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp">
+        <FrameLayout n1:id="@id/dtk" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginBottom="1.0dp" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/kiz" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:br4="?cqw" n2:brl="@color/aa2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <View n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        <X.12hi n1:textColor="@color/aaa" n1:ellipsize="end" n1:gravity="center" n1:id="@id/xt_" n1:layout_width="36.0dp" n1:layout_height="12.0dp" n1:layout_marginBottom="-1.0dp" n1:text="@null" n1:maxLines="1" n1:includeFontPadding="false" n1:alpha="0.6" n1:textAlignment="center" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="2.0dp" n3:b5h="10.0dp" n3:b5i="9.0dp" n3:b5l="z1f" style="@style/a7i" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/hcr" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0cv7 n1:layout_gravity="bottom" n1:id="@id/dwg" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="@dimen/apa" n4:evp="18.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <X.0cv7 n1:id="@id/g0x" n1:background="@color/a2n" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/g0z" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <X.12nN n1:textSize="16.0dp" n1:textColor="?c35" n1:gravity="start|center" n1:id="@id/g0w" n1:paddingLeft="12.0dp" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:singleLine="true" n1:includeFontPadding="false" n1:paddingStart="12.0dp" n4:bwr="@id/g0y" n4:bx9="owf" n4:bxz="12.0dp" />
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/g0y" n1:padding="6.0dp" n1:layout_width="@dimen/apa" n1:layout_height="match_parent" n4:br4="?dbk" n4:brl="?c35" n4:bwq="owf" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </X.0cv7>
+            <LinearLayout n1:gravity="center_vertical" n1:id="@id/dw6" n1:background="@color/a2r" n1:paddingLeft="15.0dp" n1:paddingRight="15.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="15.0dp">
+                <X.12nN n1:textColor="@color/a2s" n1:ellipsize="end" n1:id="@id/dw7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="@null" n1:lines="1" n1:textAlignment="viewStart" n1:layout_marginStart="5.0dp" n4:b5h="16.0dp" n4:b5i="12.0dp" n4:b5l="z1f" n4:bp3="btv" />
+            </LinearLayout>
+        </X.0cv7>
+    </FrameLayout>
+</FrameLayout>

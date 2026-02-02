@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.feed.VideoViewCellRootView n1:id="@id/view_rootview" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/p7a" n1:layout="@layout/b9u" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/vly" n1:layout="@layout/baa" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.13Yj n1:id="@id/long_press_layout" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:contentDescription="@null" />
+    <X.0ReD n1:id="@id/bc_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/r1j" n1:layout="@layout/b8l" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/pfx" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.1295 n1:layout_gravity="center" n1:id="@id/a28" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <ViewStub n1:id="@id/bc0" n1:layout="@layout/b8h" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <include n1:id="@id/zqe" layout="@layout/bak" />
+    <View n1:layout_gravity="top" n1:id="@id/gradual_top" n1:background="@drawable/b92" n1:layout_width="match_parent" n1:layout_height="108.0dp" />
+    <X.11RT n1:id="@id/icy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="78.0dp" n3:fi7="0.18" n3:fiy="0.0" n3:flv="?dm" n3:flw="frs" n3:fm_="zn0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/bca" n1:layout="@layout/b8f" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0M1k n1:id="@id/nl8" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/pdp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="78.0dp" />
+    <include n1:id="@id/zvr" layout="@layout/ban" />
+    <ViewStub n1:id="@id/a19" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/mo1" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0Cgd n1:id="@id/h16" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/h4k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0Lia n1:id="@id/icv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/d13" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/a2z" n1:layout="@layout/b8a" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:layout_gravity="bottom" n1:id="@id/gradual_bottom" n1:background="@drawable/b91" n1:layout_width="match_parent" n1:layout_height="90.0dp" />
+    <include n1:id="@id/widget_container" layout="@layout/b6r" />
+    <FrameLayout n1:id="@id/pdq" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/he_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/hea" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/hhp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/a11" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperiment" n4:b4n="@id/vs_micro_app_video_cardview" n4:b4o="@id/n7z" n4:b4p="@layout/b7p" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="start|bottom" n1:id="@id/dyu" n1:visibility="gone" n1:layout_width="272.0dp" n1:layout_height="139.0dp" n1:layout_marginBottom="40.0dp" />
+    <ViewStub n1:id="@id/h1e" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/d89" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/a0q" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n5:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperiment" n5:b4n="@id/vs_feed_ad_layout" n5:b4o="@id/h1_" n5:b4p="@layout/b6y" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <ViewStub n1:id="@id/view_stub_ad_mask" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/h04" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gz5" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/gz6" n1:padding="14.0dp" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n6:bwk="owf" n6:bwq="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub n1:id="@id/h4l" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/hr7" n1:layout="@layout/b8k" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/r0h" n1:layout="@layout/b_4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/mr6" n1:layout="@layout/b9k" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n7:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperimentV2" n7:b4n="@id/vs_tv_schedule_video_watermark" n7:b4o="@id/ylz" n7:b4p="@layout/baz" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/pg5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/cim" n1:alpha="0.0" n1:importantForAccessibility="no" />
+    <ViewStub n1:id="@id/s9" n1:layout="@layout/b41" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/dxm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/idp" n1:layout="@layout/b8j" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/vdd" n1:layout="@layout/b8i" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/roi" n1:layout="@layout/fvu" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/jt_" n1:layout="@layout/fvj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/t72" n1:layout="@layout/fvu" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/d3a" n1:layout="@layout/fr6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/rqn" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:id="@id/tzh" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:alpha="0.0" />
+    <FrameLayout n1:id="@id/zsp" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/zso" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/vs_sub_only_overlay" n1:layout="@layout/b_z" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:layout_gravity="top" n1:id="@id/ffe" n1:background="@drawable/b_7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="126.0dp" />
+</com.ss.android.ugc.aweme.feed.VideoViewCellRootView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_enabled="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape />
+    </item>
+    <item n2:state_pressed="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape />
+    </item>
+    <item>
+        <shape />
+    </item>
+</selector>

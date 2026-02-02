@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:id="@id/vwm" n1:background="@drawable/dfb" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="207.0dp" n1:layout_height="wrap_content" n1:paddingVertical="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:id="@id/vxy" n1:background="@drawable/df8" n1:layout_width="195.0dp" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/vxz" n1:layout_width="188.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:layout_marginVertical="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

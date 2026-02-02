@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Attiva</string>
+    <string name="en0">%1$s non funzionerà se non attivi Google Play Services.</string>
+    <string name="en1">Attiva Google Play Services</string>
+    <string name="en2">Installa</string>
+    <string name="en3">"L'app %1$s non funzionerà senza Google Play Services, non presente sul tuo dispositivo."</string>
+    <string name="en4">Installa Google Play Services</string>
+    <string name="en5">Disponibilità di Google Play Services</string>
+    <string name="en6">Errore Google Play Services</string>
+    <string name="en7">%1$s sta riscontrando problemi con Google Play Services. Riprova.</string>
+    <string name="en8">%1$s non funzionerà senza Google Play Services, non supportati dal tuo dispositivo.</string>
+    <string name="en9">Aggiorna</string>
+    <string name="en_">%1$s non funzionerà se non aggiorni Google Play Services.</string>
+    <string name="ena">Aggiorna Google Play Services</string>
+    <string name="enb">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
+    <string name="enc">"È richiesta una nuova versione di Google Play Services. L'aggiornamento automatico verrà eseguito a breve."</string>
+    <string name="jwo">Camera</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/a10" />
+    <item android:id="@id/zys" android:drawable="@drawable/dr8" />
+</transition>

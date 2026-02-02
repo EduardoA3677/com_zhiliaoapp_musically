@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13mW n1:id="@id/qwe" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="@dimen/abq" n1:layout_marginRight="8.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textSize="14.0sp" n1:textStyle="bold" n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/ygj" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="156.0dp" n1:text="" n1:shadowColor="@color/d2" n1:shadowDy="1.0" n1:shadowRadius="5.0" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0n67 n1:enabled="false" n1:layout_gravity="center|bottom" n1:id="@id/rg3" n1:focusableInTouchMode="true" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="40.0dp" n1:contentDescription="@null" />
+    <X.0HSD n1:layout_gravity="bottom" n1:id="@id/o2u" n1:layout_width="match_parent" n1:layout_height="100.0dp" n1:layout_marginBottom="40.0dp">
+        <FrameLayout n1:id="@id/rl7" n1:layout_width="100.0dp" n1:layout_height="100.0dp" n1:layout_centerInParent="true" />
+        <FrameLayout n1:gravity="center|top" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_toRightOf="@id/rl7" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/rl7" n1:layout_alignParentEnd="true">
+            <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/o2t" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <X.0mEg n1:layout_gravity="center_vertical" n1:id="@id/kkh" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/a9u" n1:scaleType="center" n1:shadowColor="?nd" n1:shadowDy="1.0" />
+                <ImageView n1:textColor="@color/f2" n1:layout_gravity="center_vertical" n1:id="@id/cco" n1:background="@drawable/crq" n1:padding="@dimen/f0" n1:visibility="gone" n1:layout_width="@dimen/kl" n1:layout_height="@dimen/kl" n1:layout_marginLeft="16.0dp" n1:src="@drawable/c1t" n1:scaleType="centerInside" n1:layout_marginStart="16.0dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </X.0HSD>
+</FrameLayout>

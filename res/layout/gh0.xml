@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/dkc" n1:background="@color/aaa" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/has" n1:background="?c0q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+        <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:layout_marginEnd="16.0dp" />
+        <View n1:layout_gravity="end|center" n1:id="@id/vfm" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+        <X.12nN n1:textColor="?ef7" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" style="@style/a6s" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/hat" n1:background="@color/aaa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+        <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:layout_marginEnd="16.0dp" />
+        <View n1:layout_gravity="end|center" n1:id="@id/vfo" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+        <X.12nN n1:textColor="?ef7" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" style="@style/a6s" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/hau" n1:background="@color/aaa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+        <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:layout_marginEnd="16.0dp" />
+        <View n1:layout_gravity="end|center" n1:id="@id/vfq" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+        <X.12nN n1:textColor="?ef7" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" style="@style/a6s" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/hav" n1:background="@color/aaa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+        <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:layout_marginEnd="16.0dp" />
+        <View n1:layout_gravity="end|center" n1:id="@id/vfs" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+        <X.12nN n1:textColor="?ef7" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" style="@style/a6s" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/hb0" n1:background="@color/aaa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+        <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vg1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:layout_marginEnd="16.0dp" />
+        <View n1:layout_gravity="end|center" n1:id="@id/vg2" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+        <X.12nN n1:textColor="?ef7" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" style="@style/a6s" />
+    </FrameLayout>
+</LinearLayout>

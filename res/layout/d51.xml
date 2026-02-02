@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0Qbh n1:theme="@style/wn" n1:id="@id/h1m" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0QcY n1:id="@id/h1l" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:id="@id/h1p" n1:background="?dm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+            <X.13JP n1:id="@id/h1q" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+            <View n1:id="@id/h1h" n1:background="?dm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="58.0dp" />
+        </LinearLayout>
+        <X.10ki n1:id="@id/h1i" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/h1j" n1:visibility="gone" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n2:fjq="@raw/icon_color_play" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/uo7" n1:background="?e5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0oCE n1:id="@id/h1n" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="52.0dp" n3:fkf="h_s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </X.0QcY>
+</X.0Qbh>

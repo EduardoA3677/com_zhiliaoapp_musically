@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/fse" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/frv" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n2:fj2="p_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs5" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n3:fj2="p_" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs6" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n4:fj2="p_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs7" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n5:fj2="p_" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs8" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n6:fj2="p_" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs9" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n7:fj2="p_" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs_" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n8:fj2="p_" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fsa" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n9:fj2="p_" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fsb" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n10:fj2="p_" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/frw" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n11:fj2="p_" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/frx" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n12:fj2="p_" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fry" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n13:fj2="p_" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/frz" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n14:fj2="p_" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs0" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n15:fj2="p_" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs1" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n16:fj2="p_" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs2" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n17:fj2="p_" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs3" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n18:fj2="p_" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/fs4" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n19:fj2="p_" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

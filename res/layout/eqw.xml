@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/qi" n1:paddingRight="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/shi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n1:textDirection="locale" n1:textAlignment="center" n2:fj2="ot" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/shh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:text="@null" n1:textDirection="locale" n1:textAlignment="center" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.0xSr n1:textColor="?zw" n1:id="@id/she" n1:background="@drawable/ara" n1:paddingLeft="@dimen/qi" n1:paddingRight="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qo" n1:layout_marginBottom="@dimen/qi" n1:textDirection="locale" n1:textAlignment="viewStart" n1:paddingHorizontal="@dimen/qi" n4:b1w="@color/a10" n4:fj2="p_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </ScrollView>
+    <X.0D2z n1:id="@id/shd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qi" n1:layout_marginBottom="@dimen/qi" n1:text="@null" n1:textDirection="locale" n1:layout_marginVertical="@dimen/qi" n5:bxd="1.0" n5:fib="l9r" n5:fid="qhx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/syu" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:orientation="vertical" n1:id="@id/syy" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/syx" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:layout_marginTop="4.0dp" n1:layout_below="@id/syy" n1:layout_alignStart="@id/syy" n1:layout_alignEnd="@id/syy">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:textColorHint="?sp" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/syw" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:maxLines="1" n1:layout_weight="1.0" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/j6x" n1:visibility="invisible" n1:layout_width="28.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:paddingStart="8.0dp" n1:paddingEnd="4.0dp" n1:layout_marginStart="1.0dp" n3:fjq="@raw/icon_x_mark_circle_fill" n3:fjt="16.0dp" n3:fk6="16.0dp" n3:fmy="?ye" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <View n1:layout_gravity="bottom" n1:id="@id/teq" n1:background="?lt" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/c2f" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/lvx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/vcu" n1:layout="@layout/hk8" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0D0r n1:id="@id/lvr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n3:eto="d4s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="top" n1:id="@id/vcp" n1:background="?c3d" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <View n1:layout_gravity="bottom" n1:id="@id/vcj" n1:background="?c3d" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <FrameLayout n1:layout_gravity="top" n1:id="@id/k3u" n1:background="@drawable/duq" n1:layout_width="match_parent" n1:layout_height="140.0dp" />
+    <ImageView n1:id="@id/gvy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="57.0dp" n1:scaleType="center" />
+</FrameLayout>

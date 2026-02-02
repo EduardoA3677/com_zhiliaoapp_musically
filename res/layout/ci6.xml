@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:id="@id/sf8" n1:background="?zt" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0mM8 n1:id="@id/st7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/nvd" n3:fit="@dimen/b9" n3:fiu="@null" n3:fke="@color/a10" n3:flx="false" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/yzm" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwl="@id/ibo" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/st7" n4:bxd="0.0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:gravity="center_horizontal" n1:id="@id/o44" n1:paddingLeft="28.0dp" n1:paddingRight="28.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dp" n1:text="@null" n5:bwl="@id/ibo" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/st7" n5:fj2="p_" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:id="@id/o5g" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/st7" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/ibo" n1:background="?zt" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n7:bwk="owf" n7:bwq="owf" n7:bx9="owf" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <X.0D2z n1:id="@id/ibn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n7:fib="l9r" n7:fid="qhx" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/ef6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/bxk" n1:layout_alignParentLeft="true" />
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/bxl" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/ef5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ImageView n1:id="@id/ef1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/bxm" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" />
+        <ImageView n1:id="@id/ef2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/bxn" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

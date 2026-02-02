@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:id="@id/thf" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="@dimen/aql" n2:ba3="?y4" n2:ba4="@dimen/aqo" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <FrameLayout n1:id="@id/thh" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/thi" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/thm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <FrameLayout n1:id="@id/thg" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwf="true" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/thm" />
+        <FrameLayout n1:id="@id/tll" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwf="true" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/thm" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/thn" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwf="true" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/thm">
+            <FrameLayout n1:id="@id/tlm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/tho" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwf="true" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/thm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include n1:id="@id/na3" n1:visibility="gone" layout="@layout/gyw" />
+    <View n1:id="@id/thd" n1:background="@android:color/transparent" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</androidx.cardview.widget.CardView>

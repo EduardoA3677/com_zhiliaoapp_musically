@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:background="@drawable/fci" n1:layout_width="match_parent" n1:layout_height="50.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="@color/df" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" n2:fj2="pw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/joq" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/a3t" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    <androidx.recyclerview.widget.RecyclerView n1:orientation="horizontal" n1:id="@id/rn5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toLeftOf="@id/joq" n1:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/f8t" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:id="@id/mj6" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:src="@drawable/csq" />
+    <androidx.cardview.widget.CardView n1:layout_gravity="center" n1:id="@id/zma" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:ba4="6.0dp" n2:ba8="false" n2:ba9="false" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/zmh" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <X.0Zef n1:id="@id/zmg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <RelativeLayout n1:layout_gravity="center" n1:id="@id/view_feedback" n1:background="#ffffffff" n1:visibility="gone" n1:layout_width="300.0dp" n1:layout_height="304.0dp">
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:background="#00000000" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <TextView n1:textSize="14.0sp" n1:textColor="#ff999999" n1:id="@id/w6f" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginTop="128.0dp" n1:text="" />
+                <Button n1:textSize="14.0sp" n1:id="@id/cap" n1:background="@drawable/csr" n1:paddingLeft="2.0dp" n1:paddingRight="2.0dp" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:layout_marginTop="20.0dp" n1:minWidth="60.0dp" n1:text="feedback" n1:textAllCaps="false" />
+            </LinearLayout>
+            <TextView n1:textSize="17.0sp" n1:textStyle="bold" n1:textColor="#ff222222" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="16.0dp" n1:text="Feedback" />
+            <Button n1:id="@id/caq" n1:background="@mipmap/e" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

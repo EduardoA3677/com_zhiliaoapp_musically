@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.14iG n1:id="@id/wlt" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:b7n="true" n2:b7q="200.0dp" n2:bw_="@null" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.14iG n1:id="@id/ec9" n2:bwb="50%" n2:by4="max(wrap_content,44dp)" n2:byu="0%">
+            <FrameLayout n1:id="@id/umu" n2:bwc="50%" n2:by4="min(wrap_content,32dp)" n2:byc="12dp" n2:byv="max(min(wrap_content,32dp), 28dp)" />
+            <FrameLayout n1:id="@id/ggh" n1:layout_height="wrap_content" n1:paddingStart="12.0dp" n2:bwc="50%" n2:bym="100%-16dp" n2:byv="min(0.4*parent.width,wrap_content)" />
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/n52" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_height="wrap_content" n2:bwc="50%" n2:byc="umu.right+4dp" n2:bym="ggh.left-4dp" />
+            <View n1:id="@id/qcz" n2:bwa="100%" n2:byc="0%" n2:bym="100%" n2:byu="0%" />
+        </X.14iG>
+    </X.14iG>
+</X.12nR>

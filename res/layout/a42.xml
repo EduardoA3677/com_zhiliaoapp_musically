@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/cly" n1:layout_width="220.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="130.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cru n1:id="@id/clv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:etn="?br" n2:fhr="u21" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp">
+        <X.0Cfq n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/clt" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/clx" n1:layout_width="match_parent" n1:layout_height="22.0dp" n1:maxLines="1" n1:layout_weight="1.0" n1:layoutDirection="locale" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </X.0Cfq>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/clu" n1:layout_width="match_parent" n1:layout_height="@dimen/qi">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/clz" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="@dimen/qi" n1:maxWidth="114.0dp" n1:maxLines="1" n1:layoutDirection="locale" n4:fj2="q1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/cm0" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="@dimen/qf" n1:importantForAccessibility="no" n1:layout_marginStart="@dimen/qu" n1:layout_marginEnd="@dimen/qz" n5:fjq="@raw/icon_color_verified_badge" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/clw" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:maxLines="1" n1:layoutDirection="locale" n6:fj2="q1" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

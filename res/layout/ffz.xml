@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/bbc" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+    <View n1:id="@id/oq9" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/diu" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_margin="10.0dp" n1:contentDescription="@null" n2:fjq="@raw/icon_x_mark_small" n2:fmy="?y0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_width="172.0dp" n1:layout_height="132.0dp">
+            <FrameLayout n1:id="@id/u0q" n1:paddingTop="18.0dp" n1:paddingBottom="18.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="38.0dp" n1:paddingEnd="38.0dp">
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/u0p" n1:layout_width="96.0dp" n1:layout_height="96.0dp" n1:rotation="8.0" n1:importantForAccessibility="no" />
+            </FrameLayout>
+            <FrameLayout n1:id="@id/nj_" n1:padding="17.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="start|bottom" n1:id="@id/nj9" n1:layout_width="90.0dp" n1:layout_height="90.0dp" n1:rotation="-8.0" n1:importantForAccessibility="no" n3:erx="?xr" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/nj8" n1:layout_width="90.0dp" n1:layout_height="90.0dp" n1:rotation="8.0" n1:importantForAccessibility="no" n4:erx="?xq" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="end|top" n1:id="@id/nj7" n1:layout_width="90.0dp" n1:layout_height="90.0dp" n1:rotation="16.0" n1:importantForAccessibility="no" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="187.0dp" n1:layout_height="134.0dp">
+            <TextView n1:textSize="32.0sp" n1:textColor="@android:color/white" n1:layout_gravity="center_horizontal" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:rotation="-4.5" />
+            <TextView n1:textSize="15.0sp" n1:textColor="@android:color/white" n1:layout_gravity="center_horizontal" n1:id="@id/ew5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="36.0dp" n1:rotation="-4.5" />
+            <X.0D2z n1:layout_gravity="center|bottom" n1:id="@id/q7x" n1:layout_width="93.0dp" n1:layout_height="wrap_content" n1:text="@null" n5:fib="u9x" n5:fj2="p7" n5:fjt="16.0dp" n5:fk4="@raw/icon_post" n5:fk6="16.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,154 @@
+.class public final LX/0z36;
+.super LX/0z3Z;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic LL:Ljava/lang/Runnable;
+
+.field public final synthetic LLILIL:Lcom/bytedance/retrofit2/client/Request;
+
+.field public final synthetic LLILL:Ljava/util/concurrent/Executor;
+
+.field public final synthetic LLILLIZIL:LX/0z35;
+
+
+# direct methods
+.method public constructor <init>(LX/0z35;JLX/0z3V;Lcom/bytedance/retrofit2/client/Request;Ljava/util/concurrent/Executor;)V
+    .locals 2
+
+    iput-object p1, p0, LX/0z36;->LLILLIZIL:LX/0z35;
+
+    iput-object p4, p0, LX/0z36;->LL:Ljava/lang/Runnable;
+
+    iput-object p5, p0, LX/0z36;->LLILIL:Lcom/bytedance/retrofit2/client/Request;
+
+    iput-object p6, p0, LX/0z36;->LLILL:Ljava/util/concurrent/Executor;
+
+    const-wide/16 v0, 0x0
+
+    invoke-direct {p0, p2, p3, v0, v1}, LX/0z3Z;-><init>(JJ)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()V
+    .locals 5
+
+    iget-object v0, p0, LX/0z36;->LLILLIZIL:LX/0z35;
+
+    iget-object v0, v0, LX/0z35;->LJIIJ:Ljava/util/concurrent/locks/Lock;
+
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
+
+    :try_start_0
+    iget-object v0, p0, LX/0z36;->LLILLIZIL:LX/0z35;
+
+    iget-object v1, v0, LX/0z35;->LJIIIZ:Ljava/util/Map;
+
+    iget-object v0, p0, LX/0z36;->LL:Ljava/lang/Runnable;
+
+    check-cast v1, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-virtual {v1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->containsKey(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Lcom/bytedance/common/utility/Logger;->debug()Z
+
+    iget-object v0, p0, LX/0z36;->LLILIL:Lcom/bytedance/retrofit2/client/Request;
+
+    invoke-virtual {v0}, Lcom/bytedance/retrofit2/client/Request;->getMetrics()LX/0z4F;
+
+    move-result-object v4
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    iget-object v0, p0, LX/0z36;->LLILIL:Lcom/bytedance/retrofit2/client/Request;
+
+    invoke-virtual {v0}, Lcom/bytedance/retrofit2/client/Request;->getMetrics()LX/0z4F;
+
+    move-result-object v0
+
+    iget-wide v0, v0, LX/0z4F;->LJJIIJZLJL:J
+
+    sub-long/2addr v2, v0
+
+    iput-wide v2, v4, LX/0z4F;->LJJII:J
+
+    iget-object v1, p0, LX/0z36;->LLILL:Ljava/util/concurrent/Executor;
+
+    iget-object v0, p0, LX/0z36;->LL:Ljava/lang/Runnable;
+
+    invoke-interface {v1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    iget-object v0, p0, LX/0z36;->LLILLIZIL:LX/0z35;
+
+    iget-object v1, v0, LX/0z35;->LJIIIZ:Ljava/util/Map;
+
+    iget-object v0, p0, LX/0z36;->LL:Ljava/lang/Runnable;
+
+    check-cast v1, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-virtual {v1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :cond_0
+    iget-object v0, p0, LX/0z36;->LLILLIZIL:LX/0z35;
+
+    iget-object v0, v0, LX/0z35;->LJIIJ:Ljava/util/concurrent/locks/Lock;
+
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    return-void
+
+    :catchall_0
+    move-exception v1
+
+    iget-object v0, p0, LX/0z36;->LLILLIZIL:LX/0z35;
+
+    iget-object v0, v0, LX/0z35;->LJIIJ:Ljava/util/concurrent/locks/Lock;
+
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    throw v1
+.end method
+
+.method public final run()V
+    .locals 3
+
+    const-string v2, "TTHttpCallThrottleControl@a0ad.maybeDropRequestOrAsyncDelay$1"
+
+    invoke-static {v2}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    :try_start_0
+    invoke-virtual {p0}, LX/0z36;->LIZ()V
+
+    goto :goto_0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    move-exception v1
+
+    invoke-static {v1}, LX/0XER;->LIZ(Ljava/lang/Throwable;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    throw v1
+
+    :cond_0
+    :goto_0
+    invoke-static {v2}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-void
+.end method

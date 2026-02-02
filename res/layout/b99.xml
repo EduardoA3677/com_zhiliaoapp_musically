@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/e3q" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:layout_gravity="center_vertical" n1:id="@id/uwc" n1:layout_width="271.0dp" n1:layout_height="wrap_content" n1:text="@null" n2:fib="n2i" n2:fid="qhx" n2:fk4="@raw/icon_3pt_stitch" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

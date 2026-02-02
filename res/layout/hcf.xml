@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/hpy" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <X.12nN n1:textSize="20.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:id="@id/hpm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp3="n2i" n2:ewn="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0CQF n1:textSize="12.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:id="@id/hq2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="@null" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <X.12nN n1:textSize="20.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:id="@id/hp8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bp3="n2i" n3:ewn="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:id="@id/hph" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="@null" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/v6p" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <X.12nN n1:textSize="20.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:id="@id/v6o" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bp3="n2i" n4:ewn="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="@null" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/lq2" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <X.12nN n1:textSize="20.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:id="@id/lq1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bp3="n2i" n5:ewn="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/bj" n1:gravity="center_horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="@null" />
+    </LinearLayout>
+</LinearLayout>

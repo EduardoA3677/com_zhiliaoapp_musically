@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/sfr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wxr" n1:focusable="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" n1:importantForAccessibility="no" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e92" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bw_="com.bytedance.android.livesdk.comp.impl.pgcsubscription.business.foundation.privilegepage.fragment.common.PrivilegeBottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/hs4" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/e_0" n1:visibility="visible" n1:layout_width="40.0dp" n1:layout_height="12.0dp" n1:src="@drawable/f4d" n1:contentDescription="containerHandle" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gm5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/gmf" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_marginTop="100.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+            <X.12nN n1:textSize="14.0dp" n1:textColor="?ffe" n1:id="@id/gn3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/gmf" style="@style/a74" />
+            <X.12pz n1:id="@id/gm3" n1:layout_width="240.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="20.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/gn3" style="@style/a5z" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/e0d" />
+        <include layout="@layout/e0c" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.12nR>

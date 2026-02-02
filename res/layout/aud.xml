@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/u35" n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="375.0dp">
+        <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@id/u36" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n2:f49="@drawable/b36" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <View n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <View n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="116.0dp" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="116.0dp" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj">
+        <View n1:background="?bw" n1:layout_width="88.0dp" n1:layout_height="16.0dp" />
+        <View n1:layout_gravity="end" n1:background="?bw" n1:layout_width="42.0dp" n1:layout_height="16.0dp" />
+    </FrameLayout>
+    <View n1:layout_gravity="end" n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj">
+        <View n1:background="?bw" n1:layout_width="44.0dp" n1:layout_height="16.0dp" />
+        <View n1:layout_gravity="end" n1:background="?bw" n1:layout_width="105.0dp" n1:layout_height="16.0dp" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj">
+        <View n1:background="?bw" n1:layout_width="44.0dp" n1:layout_height="16.0dp" />
+        <View n1:layout_gravity="end" n1:background="?bw" n1:layout_width="88.0dp" n1:layout_height="16.0dp" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj">
+        <View n1:background="?bw" n1:layout_width="44.0dp" n1:layout_height="16.0dp" />
+        <View n1:layout_gravity="end" n1:background="?bw" n1:layout_width="132.0dp" n1:layout_height="16.0dp" />
+    </FrameLayout>
+    <View n1:layout_gravity="end" n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="20.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    <View n1:background="?bw" n1:layout_width="142.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+</LinearLayout>

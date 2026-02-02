@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/e2t" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/pic" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pi5" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="8.0dp" n1:maxLines="1" n1:layout_marginStart="16.0dp" n2:bwr="@id/pi6" n2:bwz="0.5" n2:bx9="owf" n2:bxc="owf" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pi6" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="8.0dp" n1:maxLines="1" n1:layout_marginStart="12.0dp" n2:bwr="@id/pi7" n2:bwz="0.5" n2:bx8="@id/pi5" n2:bxc="owf" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pi7" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="8.0dp" n1:maxLines="1" n1:layout_marginStart="12.0dp" n2:bwr="@id/pi8" n2:bwz="0.5" n2:bx8="@id/pi6" n2:bxc="owf" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pi8" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="8.0dp" n1:maxLines="1" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="16.0dp" n2:bwq="owf" n2:bwz="0.5" n2:bx8="@id/pi7" n2:bxc="owf" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pi9" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp" n1:maxLines="1" n1:layout_marginStart="16.0dp" n2:bwr="@id/pi_" n2:bwz="0.5" n2:bx9="owf" n2:bxb="@id/pi5" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pi_" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp" n1:maxLines="1" n1:layout_marginStart="12.0dp" n2:bwr="@id/pia" n2:bwz="0.5" n2:bx8="@id/pi9" n2:bxb="@id/pi6" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pia" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp" n1:maxLines="1" n1:layout_marginStart="12.0dp" n2:bwr="@id/pib" n2:bwz="0.5" n2:bx8="@id/pi_" n2:bxb="@id/pi7" />
+        <X.12nN n1:textColor="@color/a8w" n1:ellipsize="end" n1:gravity="center" n1:id="@id/pib" n1:background="@drawable/f47" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp" n1:maxLines="1" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="16.0dp" n2:bwq="owf" n2:bwz="0.5" n2:bx8="@id/pia" n2:bxb="@id/pi8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

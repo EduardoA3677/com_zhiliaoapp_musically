@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?sz" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/bc1" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/os_" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="56.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:id="@id/jx6" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:overScrollMode="never" />
+    </FrameLayout>
+    <View n1:id="@id/wta" n1:background="@drawable/ac7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:rotation="180.0" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/vh" n1:layout_width="match_parent" n1:layout_height="44.0dp" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/bam" n1:padding="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n4:fjq="@raw/icon_arrow_left_ltr" n4:fmy="?e1" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/jyz" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="59.0dp" n5:bwk="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/jzf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bwk="owf" n5:bx9="owf" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ijx" n1:background="?do" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.13dw n1:layout_gravity="center" n1:id="@id/ij8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:emg="@raw/tux_lottie_tux_gestures_with_device_tt_swipe_up_device" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/ild" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="75.0dp" n1:text="@null" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n7:fj2="ov" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+.class public final LX/0Woz;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0WpI;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public static LIZ(LX/0WpI;)LX/0WFr;
+    .locals 1
+
+    iget-object p0, p0, LX/0WpI;->LJIILJJIL:LX/0WFr;
+
+    sget-object v0, LX/0WFr;->LYNX:LX/0WFr;
+
+    if-eq p0, v0, :cond_0
+
+    sget-object v0, LX/0WFr;->WEB:LX/0WFr;
+
+    if-eq p0, v0, :cond_0
+
+    sget-object v0, LX/0WFr;->Worker:LX/0WFr;
+
+    if-eq p0, v0, :cond_0
+
+    sget-object v0, LX/0WFr;->ALL:LX/0WFr;
+
+    :cond_0
+    return-object v0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/bbc" n1:layout_width="match_parent" n1:layout_height="72.0dp" n1:layout_marginTop="9.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:id="@id/ukn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp">
+        <ImageView n1:id="@id/j4y" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="12.0dp" />
+        <X.12nN n1:textColor="?ei2" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp" style="@style/a6r" />
+        <LinearLayout n1:gravity="end|center" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:layout_marginEnd="12.0dp">
+            <X.12nN n1:id="@id/dl3" n1:background="@drawable/eqv" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="4.0dp" style="@style/a6p" />
+            <X.0D1D n1:id="@id/dlf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <X.12nN n1:textColor="?ei4" n1:gravity="center" n1:id="@id/ivs" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:layout_marginTop="5.0dp" n1:layout_marginStart="12.0dp" style="@style/a74" />
+</LinearLayout>

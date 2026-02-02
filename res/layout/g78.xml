@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/lh6" n1:background="@null" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0eXj n1:id="@id/wq4" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="60.0dp" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ecc" n1:background="@null" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/whs" n1:background="@drawable/due" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+            <X.12nN n1:textSize="17.0sp" n1:textColor="?ekp" n1:ellipsize="end" n1:gravity="start" n1:id="@id/ytk" n1:visibility="gone" n1:layout_width="@dimen/qa" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:lineSpacingExtra="3.0sp" n1:layout_marginStart="@dimen/qi" n2:b5h="20.0sp" n2:b5i="13.0sp" n2:b5k="4.0sp" n2:b5l="z1f" n2:bp3="btv" n2:bwk="owf" n2:bwr="@id/ize" n2:bx0="ujk" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ize" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="16.0dp" n3:br4="@raw/icon_medal_host" n3:brl="?ehx" n3:bwk="owf" n3:bwr="@id/cdb" n3:bx8="@id/ytk" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <View n1:layout_gravity="start|top" n1:id="@id/izd" n1:background="@drawable/eoa" n1:visibility="gone" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginBottom="20.0dp" n1:layout_marginStart="20.0dp" n4:bwk="@id/ize" n4:bx9="@id/ize" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/cdb" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n5:br4="?d_q" n5:brl="?ekp" n5:bwk="owf" n5:bwr="@id/cbv" n5:bx8="@id/ize" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/cbv" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n6:br4="?dou" n6:brl="?ekp" n6:bwk="owf" n6:bwr="@id/cbw" n6:bx8="@id/cdb" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/tjx" n1:background="@drawable/eoa" n1:visibility="gone" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginEnd="12.0dp" n7:bwq="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/cbw" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n8:br4="?dhr" n8:brl="?ekp" n8:bwk="owf" n8:bwq="owf" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout n1:id="@id/lu8" n1:background="?c0t" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.12nN n1:textSize="15.0sp" n1:textColor="?ekr" n1:id="@id/be8" n1:background="?c0w" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" />
+        </FrameLayout>
+        <X.0rBl n1:layout_gravity="center" n1:id="@id/miq" n1:background="?c0q" n1:padding="6.0dp" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        <X.0Czd n1:id="@id/n74" n1:background="?c2o" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n9:ep5="oh5" n9:ep6="rol" xmlns:n9="http://schemas.android.com/apk/res-auto">
+            <X.0d4p n1:id="@id/rna" n1:background="?c0q" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </X.0Czd>
+        <X.0eOd n1:id="@id/ao3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="-16.0dp" n1:layout_marginEnd="-16.0dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?c3r" n1:gravity="center" n1:id="@id/ve3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="3" n1:breakStrategy="balanced" n2:b5i="17.0dp" n2:b5l="z1f" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/a6m" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/vdh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/ve3" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/vdn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="40.0dp" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/vdv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp">
+            <X.12nN n1:textColor="?c3u" n1:gravity="center" n1:id="@id/t5q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n3:b5i="12.0dp" n3:b5l="z1f" style="@style/a76" />
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/vdw" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="28.0dp" n1:layout_marginStart="-6.0dp" n1:layout_marginEnd="-6.0dp" />
+            <RelativeLayout n1:id="@id/vdx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="12.0dp">
+                <X.12nN n1:textColor="?c3r" n1:textColorHint="?c3u" n1:ellipsize="end" n1:id="@id/vdy" n1:background="@null" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:hint="@null" n1:singleLine="true" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/dhx" n1:layout_alignParentStart="true" style="@style/a6u" />
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/dhx" n1:padding="4.0dp" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="4.0dp" n1:layout_alignParentEnd="true" n3:br4="@raw/icon_x_mark_circle_fill" n3:brl="?c3v" />
+                <View n1:background="?c3u" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <X.12pz n1:textColor="?c3u" n1:gravity="center" n1:id="@id/iaw" n1:background="?c3k" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="24.0dp" n1:text="@null" n1:maxLines="1" n4:b5i="13.0dp" n4:b5l="z1f" n4:bwr="@id/vdz" n4:bx9="owf" n4:bxb="@id/vdh" n4:evp="8.0dp" style="@style/a4x" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12pz n1:enabled="false" n1:textColor="?c3r" n1:gravity="center" n1:id="@id/vdz" n1:background="?c3k" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="24.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="12.0dp" n5:b5i="13.0dp" n5:b5l="z1f" n5:bwq="owf" n5:bx0="ujk" n5:bx8="@id/iaw" n5:bxb="@id/vdh" n5:by2="0.0dp" n5:evp="8.0dp" style="@style/a4x" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</merge>

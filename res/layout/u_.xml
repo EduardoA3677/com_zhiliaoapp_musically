@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="28.0dp" n1:layout_marginRight="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0uFg n1:id="@id/d_e" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:maxLines="1" n1:inputType="textPassword" n2:bso="dh_" n2:bt1="@null" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?lt" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0uFg n1:id="@id/d_c" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:maxLines="1" n1:inputType="textPassword" n3:bso="dh_" n3:bt1="@null" n3:bt2="@id/gnk" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?lt" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0uFg n1:id="@id/d_a" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:maxLines="1" n1:inputType="textPassword" n4:bso="dh_" n4:bt1="@null" n4:bt2="@id/gnd" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0Cqb n1:id="@id/d_b" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0uBT n1:textSize="@dimen/gd" n1:textColor="?e0" n1:id="@id/d_d" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="@dimen/gn" n1:text="@null" n5:elq="?bx" n5:els="3.0dp" n5:elt="15.0dp" n5:elv="18.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

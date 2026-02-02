@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:layout_gravity="center" n1:id="@id/view_random_linkmic_avatar_anim1" n1:background="@drawable/e3i" n1:visibility="invisible" n1:layout_width="72.0dp" n1:layout_height="72.0dp" />
+    <View n1:layout_gravity="center" n1:id="@id/view_random_linkmic_avatar_anim2" n1:background="@drawable/e3i" n1:visibility="invisible" n1:layout_width="72.0dp" n1:layout_height="72.0dp" />
+    <X.0cPR n1:layout_gravity="center" n1:id="@id/kxj" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n2:ewz="h_j" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

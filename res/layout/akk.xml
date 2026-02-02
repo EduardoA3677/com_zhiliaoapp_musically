@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:id="@id/ada" n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/acs" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0o06 n1:id="@id/aco" n1:background="?y5" n1:paddingBottom="16.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:overScrollMode="never" n3:bwl="@id/acq" n3:bx9="owf" n3:bxb="@id/acs" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="bottom" n1:id="@id/acq" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/acr" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginBottom="12.0dp" n4:bwl="@id/acp" />
+        <X.0D2z n1:id="@id/acp" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:fi8="false" n4:fib="l9r" n4:fid="qhx" n4:fj2="p7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

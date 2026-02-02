@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0vFy n1:id="@id/oo0" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/z51" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/z50" n1:background="?zq" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="16.0dp" n1:paddingHorizontal="16.0dp" n3:bw5="androidx.recyclerview.widget.LinearLayoutManager" n3:bwk="owf" n3:bx9="owf" n3:bxb="@id/z51" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.0vFy>

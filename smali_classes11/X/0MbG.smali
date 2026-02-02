@@ -1,0 +1,122 @@
+.class public final LX/0MbG;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0McC;
+
+
+# instance fields
+.field public final synthetic LIZ:Ljava/lang/String;
+
+.field public final synthetic LIZIZ:Ljava/lang/String;
+
+.field public final synthetic LIZJ:Ljava/lang/String;
+
+.field public final synthetic LIZLLL:LX/0Mb2;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;LX/0Mb2;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0MbG;->LIZ:Ljava/lang/String;
+
+    iput-object p2, p0, LX/0MbG;->LIZIZ:Ljava/lang/String;
+
+    iput-object p3, p0, LX/0MbG;->LIZJ:Ljava/lang/String;
+
+    iput-object p4, p0, LX/0MbG;->LIZLLL:LX/0Mb2;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(Z)V
+    .locals 2
+
+    sget-object v0, LX/0NNC;->LJ:LX/05ta;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "PhotoDescDelegate onTranslateClick "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, " seeTranslationText: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0MbG;->LIZ:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, " seeOriginalText: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0MbG;->LIZIZ:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, " translatingText: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0MbG;->LIZJ:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0Mmg;->LIZIZ(Ljava/lang/String;)V
+
+    if-eqz p1, :cond_1
+
+    iget-object v0, p0, LX/0MbG;->LIZLLL:LX/0Mb2;
+
+    iget-object v0, v0, LX/0Mb2;->LLJJ:LX/0PdZ;
+
+    invoke-virtual {v0}, LX/0PdZ;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/ss/android/ugc/aweme/feed/assem/desc/TranslationAbility;
+
+    if-eqz v1, :cond_0
+
+    sget-object v0, LX/0NM1;->CLICK:LX/0NM1;
+
+    invoke-interface {v1, v0}, Lcom/ss/android/ugc/aweme/feed/assem/desc/TranslationAbility;->J5(LX/0NM1;)V
+
+    :cond_0
+    return-void
+
+    :cond_1
+    iget-object v0, p0, LX/0MbG;->LIZLLL:LX/0Mb2;
+
+    iget-object v0, v0, LX/0Mb2;->LLJJ:LX/0PdZ;
+
+    invoke-virtual {v0}, LX/0PdZ;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/ss/android/ugc/aweme/feed/assem/desc/TranslationAbility;
+
+    if-eqz v1, :cond_0
+
+    sget-object v0, LX/0NM1;->CLICK:LX/0NM1;
+
+    invoke-interface {v1, v0}, Lcom/ss/android/ugc/aweme/feed/assem/desc/TranslationAbility;->Ie2(LX/0NM1;)V
+
+    return-void
+.end method

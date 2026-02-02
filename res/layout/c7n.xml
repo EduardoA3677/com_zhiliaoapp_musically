@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center" n1:layout_width="48.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/waw" n1:layout_width="48.0dp" n1:layout_height="48.0dp">
+        <X.0CYq n1:id="@id/was" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:src="@color/ab3" n1:scaleType="centerCrop" n2:bi7="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="12.0dp" n1:textStyle="bold" n1:textColor="#e6ffffff" n1:layout_gravity="center" n1:id="@id/fq8" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:shadowColor="#4c000000" n1:shadowDy="1.0" n1:shadowRadius="1.0" />
+    </FrameLayout>
+    <View n1:id="@id/q4_" n1:layout_width="10.0dp" n1:layout_height="2.0dp" n1:layout_marginTop="4.0dp" n1:layout_below="@id/waw" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

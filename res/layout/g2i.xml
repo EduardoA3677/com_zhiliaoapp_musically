@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sfr" n1:background="@drawable/dxm" n1:paddingBottom="30.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="17.0sp" n1:textColor="@color/a7z" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:text="@null" style="@style/a6q" />
+    <View n1:background="@color/c_" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <include n1:id="@id/lt0" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/et4" n1:visibility="gone" layout="@layout/gw9" />
+    <include n1:id="@id/q4t" n1:visibility="gone" layout="@layout/gw9" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="16.0dp" n1:layout_marginStart="4.0dp" n2:ba3="@color/a10" n2:ba4="4.0dp" n2:ba5="0.0dp" n2:ba7="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0g17 n1:orientation="horizontal" n1:id="@id/l8_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" />
+</androidx.cardview.widget.CardView>

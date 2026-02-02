@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="right" n1:orientation="horizontal" n1:id="@id/q7z" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="26.0dp" n1:layout_marginTop="-10.5dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/q81" n1:paddingLeft="2.0dp" n1:paddingRight="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/q83" n1:layout_width="0.0px" n1:layout_height="12.0dp" n1:scaleType="fitCenter" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/q84" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n2:fj2="qc" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <ImageView n1:id="@id/q82" n1:layout_width="24.0dp" n1:layout_height="16.0dp" n1:scaleType="fitXY" n1:layout_toLeftOf="@id/q81" n1:layout_alignParentBottom="true" />
+    <View n1:id="@id/q80" n1:background="?e0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/q82" n1:layout_alignTop="@id/q82" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

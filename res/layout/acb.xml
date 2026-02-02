@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/cuu" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginEnd="16.0dp" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.widget.RadiusLayout n1:id="@id/e92" n1:layout_width="152.0dp" n1:layout_height="240.0dp" n1:layout_marginTop="14.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/cuu" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/elx" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bnc="0" />
+        <FrameLayout n1:id="@id/up1" n1:background="?ds" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0oBn n1:layout_gravity="center" n1:id="@id/foq" n1:layout_width="32.0dp" n1:layout_height="32.0dp" />
+        </FrameLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:theme="@style/xr" n1:layout_gravity="center" n1:id="@id/gn8" n1:background="?ds" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fjq="@raw/icon_tiktok_logo" n3:fjt="58.0dp" n3:fk6="58.0dp" n3:fmy="?bw" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="25.0dp" n1:layout_marginTop="24.0dp" n1:text="@null" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/e92" n4:fj2="ow" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:theme="@style/wa" n1:id="@id/so9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/text" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/lb5" n1:paddingTop="2.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="11.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp">
+            <FrameLayout n1:id="@id/r_z" n1:background="?br" n1:padding="8.0dp" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp">
+                <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/ra0" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp">
+                        <X.0D1z n1:layout_gravity="center" n1:id="@id/kfb" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n5:etn="@drawable/a4o" n5:eto="d4s" />
+                        <X.0Hgy n1:id="@id/b6p" n1:layout_width="28.0dp" n1:layout_height="28.0dp" />
+                    </FrameLayout>
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/yh3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n5:fj2="pa" n5:fl1="10.0dp" style="@style/aau" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout n1:gravity="center" n1:id="@id/uxn" n1:background="?yi" n1:padding="@dimen/r5" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n1:layout_weight="1.0">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/uxo" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_post" n5:fjt="20.0dp" n5:fk6="20.0dp" n5:fmy="?e0" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/uxp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="4" n1:layout_marginStart="4.0dp" n5:fj2="pa" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

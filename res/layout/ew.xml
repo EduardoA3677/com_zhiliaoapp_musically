@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/n0u" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/bbx" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:id="@id/esd" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no">
+            <FrameLayout n1:id="@id/esc" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/t8c" n1:padding="3.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:importantForAccessibility="yes" />
+    </FrameLayout>
+</FrameLayout>

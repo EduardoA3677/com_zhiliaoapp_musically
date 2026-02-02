@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/vti" n1:background="?y2" n1:fitsSystemWindows="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0kwy n1:orientation="vertical" n1:id="@id/vtf" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        <FrameLayout n1:id="@id/vsx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginHorizontal="12.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.0kyB n1:layout_gravity="center" n1:id="@id/vsw" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </FrameLayout>
+        <View n1:id="@id/vtg" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/vth" n1:layout_width="match_parent" n1:layout_height="44.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/vte" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginStart="6.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center" n1:id="@id/vu5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</FrameLayout>

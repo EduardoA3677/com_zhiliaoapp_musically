@@ -1,0 +1,32 @@
+.class public final LX/0kb9;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:LX/0NqK;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/0NqK<",
+            "Ljava/lang/String;",
+            "LX/0kUk;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    new-instance v1, LX/0NqK;
+
+    const/16 v0, 0x64
+
+    invoke-direct {v1, v0}, LX/0NqK;-><init>(I)V
+
+    sput-object v1, LX/0kb9;->LIZ:LX/0NqK;
+
+    return-void
+.end method

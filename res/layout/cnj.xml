@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.views.RoundingCornerLayout n1:id="@id/ec9" n1:layout_width="112.0dp" n1:layout_height="112.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0bas n1:id="@id/p_w" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bne="@drawable/cdz" n2:bnf="d4s" n2:etn="@drawable/cdz" n2:eto="d4s" n2:eyd="?bx" n2:eyl="8.0dp" n2:eyq="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/gm5" n1:background="?yh" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_large_refresh" n3:fmy="?a04" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:ellipsize="end" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n1:maxLines="2" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</com.ss.android.ugc.aweme.views.RoundingCornerLayout>

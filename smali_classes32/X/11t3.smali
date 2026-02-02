@@ -1,0 +1,23 @@
+.class public final LX/11t3;
+.super LX/11pR;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(LX/11sJ;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, LX/11pR;-><init>(LX/11sJ;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final createQuery()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "DELETE FROM AWEME_READ_RECORD WHERE (READ_TIME <= ? AND PAGE_TYPE = 31) OR (READ_TIME <= ? AND PAGE_TYPE = 195) OR (READ_TIME <= ? AND PAGE_TYPE NOT IN (31, 195))"
+
+    return-object v0
+.end method

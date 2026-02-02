@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sf8" n1:background="@drawable/da6" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/j6z" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_margin="16.0dp" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fjz="true" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:layout_centerHorizontal="true" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/uea" n1:background="?lv" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="16.0dp" n4:bxb="@id/yti" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/rmz" n1:layout_width="match_parent" n1:layout_height="350.0dp" n1:layout_marginBottom="@dimen/adv" n5:bw5="androidx.recyclerview.widget.LinearLayoutManager" n5:bwk="owf" n5:bxb="@id/uea" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

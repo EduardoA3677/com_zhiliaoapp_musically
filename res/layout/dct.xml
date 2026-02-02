@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/t2x" n1:layout_width="match_parent" n1:layout_height="@dimen/act" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="horizontal" n1:id="@id/sco" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp">
+        <RelativeLayout n1:id="@id/sw7" n1:background="@drawable/boy" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginRight="16.0dp" n1:layout_toLeftOf="@id/yma" n1:layout_marginEnd="16.0dp" n1:layout_toStartOf="@id/yma">
+            <X.0mEg n1:id="@id/kz9" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="6.0dp" n1:src="@drawable/c26" n1:layout_centerVertical="true" n1:layout_marginStart="6.0dp" />
+            <ImageButton n1:id="@id/c_f" n1:background="@drawable/c23" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginRight="6.0dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginEnd="6.0dp" n1:layout_alignParentEnd="true" style="@style/ha" />
+            <EditText n1:textSize="15.0dp" n1:textColor="@color/yz" n1:textColorHint="@color/z2" n1:gravity="start|center" n1:id="@id/gof" n1:background="@null" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:lines="1" n1:layout_centerVertical="true" n1:inputType="text" n1:imeOptions="actionSearch" n1:textCursorDrawable="@drawable/dgw" n1:textAlignment="viewStart" n1:layout_toStartOf="@id/c_f" n1:layout_toEndOf="@id/kz9" />
+        </RelativeLayout>
+        <TextView n1:textColor="@color/wu" n1:gravity="center" n1:id="@id/yma" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" style="@style/aeq" />
+    </RelativeLayout>
+    <FrameLayout n1:id="@id/sys" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="16.0dp">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/syt" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/syd" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp">
+                <androidx.recyclerview.widget.RecyclerView n1:id="@id/six" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+                <include n1:layout_gravity="center_horizontal" n1:id="@id/g8c" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" layout="@layout/d9y" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/uta" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <TextView n1:textColor="@color/z1" n1:layout_gravity="center" n1:id="@id/ymk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="14.0dp" style="@style/aeo" />
+                <androidx.recyclerview.widget.RecyclerView n1:id="@id/ut9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

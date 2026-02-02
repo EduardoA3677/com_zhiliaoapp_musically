@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:background="@drawable/doz" n1:paddingTop="@dimen/qf" n1:paddingBottom="@dimen/qf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="@dimen/qf" n1:layout_marginRight="@dimen/qi" n1:layout_marginHorizontal="@dimen/qi" n1:paddingVertical="@dimen/qf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="14.0dp" n1:textColor="?ekr" n1:id="@id/n0_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:lineSpacingExtra="0.0dp" n1:layout_marginStart="@dimen/qi" n1:layout_marginEnd="36.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/n0a" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n3:br4="?e_u" n3:brl="?ei6" n3:bwq="owf" n3:bx8="@id/n0_" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

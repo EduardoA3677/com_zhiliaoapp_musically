@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CVE n1:id="@id/qqn" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:ese="@id/nwy" n2:ewt="@id/qqo" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <include n1:layout_gravity="top" n1:id="@id/qqo" n1:layout_width="match_parent" n1:layout_height="match_parent" layout="@layout/el9" />
+    <include n1:layout_gravity="bottom" n1:id="@id/nwy" n1:layout_width="match_parent" n1:layout_height="match_parent" layout="@layout/el8" />
+    <include n1:layout_gravity="top" n1:id="@id/qqs" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="34.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/el_" />
+</X.0CVE>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:minHeight="240.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/wr4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <View n1:id="@id/wuk" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    </LinearLayout>
+    <X.137G n1:id="@id/obo" n1:clipToPadding="true" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/wr4" n3:bxd="0.0" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0o06 n1:id="@id/rxu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:nestedScrollingEnabled="false" />
+    </X.137G>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/by_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/obo" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/c2p" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <X.0D2z n1:id="@id/ce_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:fib="l9r" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/rxk" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

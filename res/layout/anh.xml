@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/dzv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:paddingTop="@dimen/r6" n1:paddingBottom="@dimen/r6" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center_vertical" n1:id="@id/dzx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/dzu" n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:layout_width="16.0dp" n1:layout_height="32.0dp" n1:scaleType="fitCenter" n1:layout_weight="0.0" n1:importantForAccessibility="no" n2:fjq="@raw/icon_chevron_right_offset_ltr" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qo">
+        <X.0o06 n1:orientation="horizontal" n1:id="@id/dzw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bw5="androidx.recyclerview.widget.LinearLayoutManager" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/dzr" n1:focusable="true" n1:clickable="true" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwk="@id/dzw" n4:bwq="owf" n4:bx8="@id/dzw" n4:bxc="@id/dzw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

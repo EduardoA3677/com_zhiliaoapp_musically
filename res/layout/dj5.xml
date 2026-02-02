@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0o72 n1:gravity="center" n1:orientation="horizontal" n1:id="@id/itw" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="6.0dp" n1:paddingVertical="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o78 n1:id="@id/isf" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:paddingVertical="5.0dp">
+        <LinearLayout n1:gravity="start|center" n1:id="@id/ud0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.13dw n1:gravity="center" n1:id="@id/mpd" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="1.5dp" n1:layout_marginEnd="4.0dp" n2:emb="creation_audio_wave_anim_tux_lottie.json" n2:eme="true" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/ucy" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxLines="1" n2:fj2="p7" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="start|center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxb="@id/ud0" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?y0" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/ucr" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:maxLines="1" n1:layout_weight="1.0" n3:fj2="px" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?y0" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/q4_" n1:layout_width="12.0dp" n1:layout_height="match_parent" n1:text="·" n1:maxLines="1" n3:fj2="px" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?y0" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/ucu" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxLines="1" n3:fj2="px" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.0o72>

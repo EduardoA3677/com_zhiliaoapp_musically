@@ -1,0 +1,19 @@
+.class public LX/0YBr;
+.super LX/0YBg;
+.source "SourceFile"
+
+
+# instance fields
+.field public LJI:Ljava/lang/String;
+
+.field public LJII:Z
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, LX/0YBg;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

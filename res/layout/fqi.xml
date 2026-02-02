@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/sfr" n1:background="?z3" n1:fitsSystemWindows="false" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/wq3" n1:layout_width="match_parent" n1:layout_height="424.0dp" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/wpq" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <include layout="@layout/fq5" />
+        <FrameLayout n1:id="@id/w1p" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ak7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bw8="@id/p8a" n2:bw9="d4r|wor" n2:bw_="@null" n2:bxs="bwg" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/p8a" n1:paddingTop="10.0dp" n1:fitsSystemWindows="false" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bw_="com.google.android.material.bottomsheet.BottomSheetBehavior" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/bwh" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/qec" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.12nR>

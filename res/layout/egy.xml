@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:background="?f0l" n1:layout_width="match_parent" n1:layout_height="72.0dp" n1:weightSum="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_vertical" n1:layout_width="80.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp">
+        <include n1:layout_gravity="center" n1:id="@id/ljp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" layout="@layout/ejl" />
+    </FrameLayout>
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginEnd="15.0dp">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/yz8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_weight="1.0" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n3:b4m="com.ss.android.ugc.aweme.relation.experiment.RecUserListOptExp" n3:b4n="@id/vs_edit_remark" n3:b4o="@id/klk" n3:b4p="@layout/ejn" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/yyc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:maxLines="1" n1:singleLine="true" n1:drawablePadding="2.0dp" n1:textDirection="locale" n1:textAlignment="viewStart" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n5:b4m="com.ss.android.ugc.aweme.relation.experiment.RecUserListOptExp" n5:b4n="@id/vs_relation_label" n5:b4o="@id/rr8" n5:b4p="@layout/ejo" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n6:b4m="com.ss.android.ugc.aweme.relation.experiment.RecUserListOptExp" n6:b4n="@id/vs_shop_entrance_link" n6:b4o="@id/tur" n6:b4p="@layout/ejp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:layout_gravity="center_vertical" n1:id="@id/rqw" n1:layout_width="88.0dp" n1:layout_height="28.0dp" n7:fib="u9x" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/bid" n1:padding="12.0dp" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:paddingEnd="16.0dp" n8:fjq="@raw/icon_bell" n8:fmy="?zz" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ng1" n1:padding="12.0dp" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:paddingEnd="16.0dp" n9:fjq="@raw/icon_ellipsis_horizontal" n9:fjt="24.0dp" n9:fk6="24.0dp" n9:fmy="?zz" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

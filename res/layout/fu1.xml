@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/gvf" n1:paddingTop="18.0dp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/fu3" />
+    <include n1:id="@id/gu_" n1:paddingTop="18.0dp" n1:paddingBottom="4.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_below="@id/gvf" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/fu3" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/ut9" n1:fadingEdgeLength="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/gvf" n1:requiresFadingEdge="vertical" />
+</RelativeLayout>

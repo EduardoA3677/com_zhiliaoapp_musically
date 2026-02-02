@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.125u n1:id="@id/ib6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:id="@id/lzk" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/bcb" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/h36" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/h37" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.125u n1:id="@id/lzi" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/lzj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ImageView n1:id="@id/hte" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:id="@id/wxq" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</merge>

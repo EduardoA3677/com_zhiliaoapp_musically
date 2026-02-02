@@ -1,0 +1,147 @@
+.class public final Lcom/ss/android/ugc/aweme/story/inbox/view/StoryLoadMoreLoadingCell;
+.super Lcom/bytedance/ies/powerlist/footer/PowerLoadingCell;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LL:LX/05ta;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Lcom/bytedance/ies/powerlist/footer/PowerLoadingCell;-><init>()V
+
+    new-instance v1, Lkotlin/jvm/internal/AwS478S0100000_2;
+
+    const/16 v0, 0x151
+
+    invoke-direct {v1, p0, v0}, Lkotlin/jvm/internal/AwS478S0100000_2;-><init>(Lcom/ss/android/ugc/aweme/story/inbox/view/StoryLoadMoreLoadingCell;I)V
+
+    invoke-static {v1}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/ss/android/ugc/aweme/story/inbox/view/StoryLoadMoreLoadingCell;->LL:LX/05ta;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A6()V
+    .locals 3
+
+    iget-object v2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    const/16 v0, 0x4e
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    iput v0, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
+
+    invoke-static {v2, v1}, LX/0X3I;->R1(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v2, v0}, Landroid/view/View;->setVisibility(I)V
+
+    invoke-static {v0, v2}, LX/0BId;->LIZIZ(ILjava/lang/Object;)V
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/story/inbox/view/StoryLoadMoreLoadingCell;->LL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, LX/06Fl;->LIZJ(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public final LIZJ()V
+    .locals 0
+
+    invoke-virtual {p0}, Lcom/bytedance/ies/powerlist/footer/PowerLoadingCell;->z6()V
+
+    return-void
+.end method
+
+.method public final onCreateItemView(Landroid/view/ViewGroup;)Landroid/view/View;
+    .locals 3
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->e8(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v2
+
+    const v1, 0x7f0e20c1
+
+    const/4 v0, 0x0
+
+    invoke-static {v2, v1, p1, v0}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final z6()V
+    .locals 3
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/story/inbox/view/StoryLoadMoreLoadingCell;->LL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, LX/06Fl;->LIZ(Landroid/view/View;)V
+
+    iget-object v2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    const/4 v0, 0x0
+
+    iput v0, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
+
+    invoke-static {v2, v1}, LX/0X3I;->R1(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+
+    const/16 v0, 0x8
+
+    invoke-virtual {v2, v0}, Landroid/view/View;->setVisibility(I)V
+
+    invoke-static {v0, v2}, LX/0BId;->LIZIZ(ILjava/lang/Object;)V
+
+    return-void
+.end method

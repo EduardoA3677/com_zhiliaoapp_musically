@@ -1,0 +1,27 @@
+.class public final Lcom/bytedance/android/live/liveinteract/competition/takestage/event/TakeStageSelectedDurationChangeEvent;
+.super Lcom/bytedance/ies/sdk/datachannel/GlobalEvent;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/bytedance/ies/sdk/datachannel/GlobalEvent<",
+        "Ljava/lang/Long;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final $stable:I = 0x8
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/bytedance/ies/sdk/datachannel/GlobalEvent;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/bxi" n1:background="?y5" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="60.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/thq" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="match_parent" n2:bwk="owf" n2:bwr="@id/tmz" n2:bx0="ujj" n2:bx1="1.0" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/tmz" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="match_parent" n3:bwk="owf" n3:bwr="@id/nxs" n3:bx1="1.0" n3:bx8="@id/thq" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/nxs" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="match_parent" n4:bwk="owf" n4:bwr="@id/gz7" n4:bx1="1.0" n4:bx8="@id/tmz" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/gz7" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bx1="1.0" n5:bx8="@id/nxs" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="center|top" n1:id="@id/fd6" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

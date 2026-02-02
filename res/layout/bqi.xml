@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout n1:id="@id/ftv" n1:background="?du" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/r9" n2:bgf="@dimen/b9" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/ftw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qi" n1:layout_marginTop="8.5dp" n1:layout_marginRight="@dimen/qi" n1:layout_marginBottom="8.5dp" n1:layout_marginHorizontal="@dimen/qi" n1:layout_marginVertical="8.5dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ftx" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="4.0dp" n2:fjq="@raw/icon_bag_fill" n2:fmy="?e0" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/fty" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="pz" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center_vertical" n1:id="@id/ftz" n1:visibility="gone" n1:layout_width="10.0dp" n1:layout_height="wrap_content" n1:text="·" n1:textAlignment="center" n2:fj2="q2" />
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center_vertical" n1:id="@id/qyw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="@dimen/qf" n1:scaleType="fitCenter" />
+    </LinearLayout>
+</com.bytedance.tux.widget.RadiusLayout>

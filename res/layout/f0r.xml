@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:flz="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="152.0dp" n1:layout_height="273.0dp">
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="203.0dp" n2:fly="203.0dp" n2:flz="true" n2:fm4="@dimen/b9" n2:fm7="mzu" />
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="14.0dp" n1:layout_marginTop="8.0dp" n2:fly="14.0dp" n2:flz="true" n2:fm7="144.0dp" />
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="14.0dp" n1:layout_marginTop="8.0dp" n2:fly="14.0dp" n2:flz="true" n2:fm0="50%" n2:fm7="72.0dp" />
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="14.0dp" n1:layout_marginTop="8.0dp" n2:fly="14.0dp" n2:flz="true" n2:fm0="67%" n2:fm7="92.0dp" />
+    </LinearLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

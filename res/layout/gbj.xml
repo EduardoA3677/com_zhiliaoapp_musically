@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <X.12nN android:gravity="center" android:paddingLeft="88.0dp" android:paddingRight="88.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@null" android:paddingHorizontal="88.0dp" style="@style/a6j" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="32.0dp" android:paddingRight="32.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="32.0dp">
+            <com.bytedance.android.live.design.view.icon.LiveIconView android:layout_width="4.0dp" android:layout_height="4.0dp" android:layout_marginTop="7.5dp" android:layout_marginEnd="8.0dp" app:br4="@drawable/ec4" />
+            <X.12nN android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@null" style="@style/a6s" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="32.0dp" android:paddingRight="32.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:paddingHorizontal="32.0dp">
+            <com.bytedance.android.live.design.view.icon.LiveIconView android:layout_width="4.0dp" android:layout_height="4.0dp" android:layout_marginTop="7.5dp" android:layout_marginEnd="8.0dp" app:br4="@drawable/ec4" />
+            <X.12nN android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@null" style="@style/a6s" />
+        </LinearLayout>
+    </LinearLayout>
+</X.137G>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/f3q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/c7z" n1:padding="8.0dp" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:contentDescription="delete" n2:br4="?e87" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:paddingTop="4.0dp" n1:paddingBottom="4.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="4.0dp" n1:layout_marginEnd="32.0dp" n3:bx6="@id/c7z" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <EditText n1:id="@id/g03" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:hint="please input title" n1:inputType="textMultiLine" style="@style/a6s" />
+        <EditText n1:id="@id/fzx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:hint="please input description" n1:inputType="textMultiLine" style="@style/a6s" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/nsm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.12nN n1:textColor="?eks" n1:gravity="center_vertical" n1:id="@id/nrq" n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="28.0dp" n1:paddingEnd="28.0dp" style="@style/a76" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/nsl" n1:paddingTop="12.0dp" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" />
+        <X.12pz n1:id="@id/a7r" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginBottom="4.0dp" n1:text="@null" n1:layout_marginStart="@dimen/qi" n1:layout_marginEnd="@dimen/qi" style="@style/a59" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/nsj" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.12nN n1:textColor="?ekp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="151.0dp" n1:text="@null" n1:textAlignment="center" style="@style/a6r" />
+        <X.12nN n1:textColor="?ekr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:text="@null" n1:textAlignment="center" style="@style/a74" />
+        <View n1:layout_width="1.0dp" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        <X.12pz n1:id="@id/gdd" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginBottom="72.0dp" n1:text="@null" n1:layout_marginStart="75.0dp" n1:layout_marginEnd="75.0dp" style="@style/a59" />
+    </LinearLayout>
+    <X.0rBl n1:id="@id/mlu" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

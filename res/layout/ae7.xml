@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/mtn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="Current location" n1:maxLines="1" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/mme" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:scaleType="centerCrop" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/a_4" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.Kav. 11, RT.3/RW.3, Karet Semanggi" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n4:bwq="owf" n4:bx8="@id/mme" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:id="@id/a_0" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qz" n1:text="Karet Semanggi, Setiabudi, South Jakarta City, Jakarta, 12950" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n5:bwq="owf" n5:bx8="@id/mme" n5:bxb="@id/a_4" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0D2z n1:textColor="?zw" n1:id="@id/zde" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n6:fi9="false" n6:fib="u9x" n6:fid="t69" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

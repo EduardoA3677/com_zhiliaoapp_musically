@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/zzh" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/title" n1:paddingLeft="24.0dp" n1:paddingRight="24.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n2:fj2="ot" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ScrollView n1:paddingBottom="40.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginRight="8.0dp">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/d4b" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

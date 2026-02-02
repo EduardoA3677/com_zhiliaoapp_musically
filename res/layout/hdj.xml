@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/up3" n1:paddingLeft="48.0dp" n1:paddingRight="48.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="48.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0rBl n1:layout_gravity="center" n1:id="@id/qvb" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/gmh" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="17.0dp" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/wk7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="48.0dp" style="@style/a6r" />
+        <X.12nN n1:textSize="14.0dp" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/v_9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" style="@style/a76" />
+        <X.12pz n1:id="@id/cps" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="48.0dp" n2:bc0="true" style="@style/a63" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

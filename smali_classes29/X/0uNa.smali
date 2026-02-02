@@ -1,0 +1,15 @@
+.class public final LX/0uNa;
+.super LX/0uNe;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/0uNe;-><init>(F)V
+
+    return-void
+.end method

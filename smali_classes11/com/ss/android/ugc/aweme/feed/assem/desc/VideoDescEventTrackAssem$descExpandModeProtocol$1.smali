@@ -1,0 +1,57 @@
+.class public final Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem$descExpandModeProtocol$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ss/android/ugc/aweme/feed/assem/desc/DescExpandModeProtocol;
+
+
+# instance fields
+.field public final synthetic LL:Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem$descExpandModeProtocol$1;->LL:Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final cd1()V
+    .locals 3
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem$descExpandModeProtocol$1;->LL:Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescEventTrackAssem;
+
+    invoke-static {v0}, LX/0a06;->LJIIL(LX/14fh;)LX/0KGS;
+
+    move-result-object v2
+
+    const/4 v1, 0x0
+
+    const-class v0, Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescProviderAbility;
+
+    invoke-static {v2, v0, v1}, LX/0a06;->LIZ(LX/0KGS;Ljava/lang/Class;Ljava/lang/String;)LX/02g2;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescProviderAbility;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/feed/assem/desc/VideoDescProviderAbility;->H71()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final l70()V
+    .locals 0
+
+    return-void
+.end method

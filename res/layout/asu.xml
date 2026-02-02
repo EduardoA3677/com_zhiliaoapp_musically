@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CzU n1:id="@id/b64" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n2:bx3="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:id="@id/zjf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="17.0dp" n1:layout_marginStart="5.0dp" n3:bwk="@id/b64" n3:bx8="@id/b64" n3:bxc="@id/b64" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/s44" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n4:bwk="@id/b64" n4:bx8="@id/zjf" n4:bxc="@id/b64" n4:fjq="@raw/icon_info_circle" n4:fmy="?ye" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/s43" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n5:bwk="@id/b64" n5:bwq="@id/s44" n5:bx9="@id/b64" n5:bxc="@id/b64" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0CUf n1:id="@id/uka" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n6:bx9="owf" n6:bxb="@id/b64" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/u4a" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxLines="1" n1:textAlignment="viewStart" n7:bx9="owf" n7:bxb="@id/uka" n7:fj2="px" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/ay5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxLines="1" n1:textAlignment="viewStart" n8:bx9="@id/u4a" n8:bxb="@id/u4a" n8:fj2="px" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hfa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginEnd="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/mac" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/y9j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qc" n1:maxLines="2" n1:layout_marginStart="68.0dp" />
+        <com.bytedance.tux.widget.RadiusLayout n1:gravity="center" n1:id="@id/hf8" n1:background="?yh" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="@dimen/qc" n2:bgf="@dimen/b8" n2:evq="?yg" n2:evt="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:id="@id/hgw" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <FrameLayout n1:id="@id/hd3" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/jp_" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n2:b41="d4s" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?xz" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/m6h" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="40.0dp" n1:paddingEnd="40.0dp" n2:fj2="p7" />
+            </FrameLayout>
+            <include n1:layout_gravity="start|top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="8.0dp" layout="@layout/cap" />
+            <include n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="54.0dp" layout="@layout/can" />
+        </com.bytedance.tux.widget.RadiusLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/y97" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:maxLines="1" n1:layout_marginStart="68.0dp" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center_vertical" n1:id="@id/ex1" n1:background="?do" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/wo" n1:orientation="vertical" n1:id="@id/sed" n1:background="#261b13" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/bj4" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:src="@drawable/bc_" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:elevation="0.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/p73" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/bj_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:src="@drawable/bc9" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:elevation="0.0dp" n3:bwl="@id/p73" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/p73" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:elevation="1.0dp" n4:bwp="390:500" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:orientation="horizontal" n1:id="@id/jkc" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:elevation="0.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" />
+        <ImageView n1:id="@id/wpp" n1:background="@drawable/bcd" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:elevation="0.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" />
+        <ImageView n1:id="@id/bwp" n1:background="@drawable/bca" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:elevation="0.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" />
+        <ImageView n1:id="@id/bwq" n1:background="@drawable/bcb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:elevation="0.0dp" />
+        <ImageView n1:background="@drawable/bce" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:elevation="0.0dp" />
+        <X.0l1c n1:orientation="vertical" n1:id="@id/imm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwu="0.5" />
+        <X.0l1c n1:orientation="horizontal" n1:id="@id/imk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwu="0.85" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ncg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:elevation="1.0dp" n4:bwk="@id/imk" n4:bwq="@id/imm" n4:bx9="owf" n4:fj2="pz" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ve5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:elevation="1.0dp" n4:bwk="@id/imk" n4:bwq="owf" n4:bx9="@id/imm" n4:fj2="pz" />
+        <X.1310 n1:id="@id/l83" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bfm="ncg,ve5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:id="@id/an6" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:elevation="2.0dp" n1:paddingHorizontal="16.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/al0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:paddingStart="16.0dp" n5:bwl="@id/aky" n5:bx9="owf" n5:bxc="owf">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/akx" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:contentDescription="@null" n5:bol="d4r" n5:bwk="owf" n5:bx9="owf" n5:bxc="owf" n5:fjq="@raw/icon_exclamation_mark_triangle_inline" n5:fmy="?a0b" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/akz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="6.0dp" n5:bwk="owf" n5:bx8="@id/akx" n5:bxc="owf" n5:fj2="oz" />
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/fhc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp" n1:elevation="1.0dp" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/aky" n1:background="@drawable/bc8" n1:paddingLeft="16.0dp" n1:paddingTop="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="16.0dp" n5:bwl="@id/tmh" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/al0">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/ec1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:id="@id/ec2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="2" n5:fj2="ot" n5:fmy="?zw" />
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/ebr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="The 9-year-old child, wearing a blue shirt, was last seen at Centro Ave, Metrocit on 6/9/2025. If you see them or have any information, call 190." n1:maxLines="5" n5:fj2="pu" n5:fmy="?zw" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ebq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n5:fj2="q1" />
+        </LinearLayout>
+        <X.0D2z n1:id="@id/tmh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n5:bwl="@id/d_1" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/aky" n5:fib="l9r" n5:fid="qhx" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/d_1" n1:paddingTop="16.0dp" n1:layout_width="25.0dp" n1:layout_height="40.0dp" n1:contentDescription="@null" n1:rotation="180.0" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/tmh" n5:fjq="@raw/icon_chevron_down_double" n5:fmy="?y0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

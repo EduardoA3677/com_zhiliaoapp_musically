@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/lnl" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <FrameLayout n1:layout_gravity="center" n1:id="@id/u0k" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <X.0D1z n1:id="@id/jxe" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:scaleType="centerCrop" n2:etn="@drawable/c6a" n2:eto="d4s" n2:ey2="true" n2:eyo="?ly" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <X.0ChR n1:layout_gravity="center" n1:id="@id/lxb" n1:padding="2.0dp" n1:visibility="gone" n1:layout_width="51.0dp" n1:layout_height="51.0dp" n3:elm="2.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n1:id="@id/jxi" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp">
+                <X.0D1z n1:layout_gravity="end|top" n1:id="@id/jxs" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:scaleType="centerCrop" n4:etn="@drawable/c6a" n4:eto="d4s" n4:eyo="?ly" n4:eyq="0.5dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <X.0D1z n1:layout_gravity="start|bottom" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="-2.0dp" n1:scaleType="centerCrop" n1:layout_marginStart="-2.0dp" n5:etn="?bx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <X.0D1z n1:layout_gravity="start|bottom" n1:id="@id/jx_" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:scaleType="centerCrop" n6:etn="@drawable/c6a" n6:eto="d4s" n6:eyo="?ly" n6:eyq="0.5dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+        </FrameLayout>
+        <View n1:layout_width="2.0dp" n1:layout_height="match_parent" />
+    </LinearLayout>
+    <X.0D1z n1:layout_gravity="end|bottom" n1:id="@id/jxk" n1:background="@drawable/cfh" n1:padding="3.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="-3.0dp" n1:layout_marginEnd="-3.0dp" n7:ey2="true" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

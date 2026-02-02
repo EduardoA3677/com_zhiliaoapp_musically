@@ -1,0 +1,92 @@
+.class public final LX/0M3S;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function1<",
+        "LX/0MSA;",
+        "LX/0MSA;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 23
+
+    move-object/from16 v1, p1
+
+    check-cast v1, LX/0MSA;
+
+    const/4 v2, 0x0
+
+    const/4 v8, 0x0
+
+    new-instance v10, LX/03Xv;
+
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    invoke-direct {v10, v0}, LX/03Xv;-><init>(Ljava/lang/Object;)V
+
+    const v22, 0x1ffeff
+
+    move v3, v2
+
+    move v4, v2
+
+    move v5, v2
+
+    move v6, v2
+
+    move v7, v2
+
+    move v9, v2
+
+    move-object v11, v8
+
+    move-object v12, v8
+
+    move v13, v2
+
+    move v14, v2
+
+    move-object v15, v8
+
+    move-object/from16 v16, v8
+
+    move-object/from16 v17, v8
+
+    move/from16 v18, v2
+
+    move/from16 v19, v2
+
+    move/from16 v20, v2
+
+    move-object/from16 v21, v8
+
+    invoke-static/range {v1 .. v22}, LX/0MSA;->LIZ(LX/0MSA;IIZZZZLjava/lang/Boolean;ZLX/03Xv;LX/03Xv;Lcom/ss/android/ugc/aweme/model/SlidesImageLoadParams;ZILX/03Xv;LX/03Xv;LX/03Xv;ZZZLX/03Xv;I)LX/0MSA;
+
+    move-result-object v0
+
+    return-object v0
+.end method

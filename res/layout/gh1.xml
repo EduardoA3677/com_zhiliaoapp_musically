@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:background="?c0j" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="324.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/dkc" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:orientation="horizontal" n1:id="@id/haw" n1:background="?c0j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+            <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vft" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:layout_marginEnd="16.0dp" />
+            <View n1:layout_gravity="end|center" n1:id="@id/vfu" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+            <X.12nN n1:textSize="15.0sp" n1:textColor="?eel" n1:gravity="start" n1:layout_gravity="start|center" n1:id="@id/xn9" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" />
+        </FrameLayout>
+        <FrameLayout n1:orientation="horizontal" n1:id="@id/hax" n1:background="?c0j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+            <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:layout_marginEnd="16.0dp" />
+            <View n1:layout_gravity="end|center" n1:id="@id/vfw" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+            <X.12nN n1:textSize="15.0sp" n1:textColor="?eel" n1:gravity="start" n1:layout_gravity="start|center" n1:id="@id/xn_" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" />
+        </FrameLayout>
+        <FrameLayout n1:orientation="horizontal" n1:id="@id/hay" n1:background="?c0j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+            <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:layout_marginEnd="16.0dp" />
+            <View n1:layout_gravity="end|center" n1:id="@id/vfy" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+            <X.12nN n1:textSize="15.0sp" n1:textColor="?eel" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" />
+        </FrameLayout>
+        <FrameLayout n1:orientation="horizontal" n1:id="@id/haz" n1:background="?c0j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="52.0dp">
+            <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vfz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:layout_marginEnd="16.0dp" />
+            <View n1:layout_gravity="end|center" n1:id="@id/vg0" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+            <X.12nN n1:textSize="15.0sp" n1:textColor="?eel" n1:gravity="start" n1:layout_gravity="start|center" n1:id="@id/xna" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" />
+        </FrameLayout>
+        <View n1:background="?ed6" n1:layout_width="match_parent" n1:layout_height="8.0dp" />
+        <include n1:id="@id/am6" n1:visibility="gone" layout="@layout/ggz" />
+        <FrameLayout n1:id="@id/hb0" n1:background="?c0j" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:minHeight="52.0dp">
+            <X.12q2 n1:gravity="start" n1:layout_gravity="end|center" n1:id="@id/vg1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="false" n1:layout_marginEnd="16.0dp" />
+            <View n1:layout_gravity="end|center" n1:id="@id/vg2" n1:clickable="true" n1:layout_width="110.0dp" n1:layout_height="52.0dp" />
+            <X.12nN n1:textSize="15.0sp" n1:textColor="?eel" n1:gravity="start" n1:layout_gravity="start|center" n1:paddingTop="17.0dp" n1:paddingBottom="17.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="78.0dp" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

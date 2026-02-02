@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/syu" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:orientation="vertical" n1:id="@id/syy" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/syw" n1:padding="11.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:maxLines="1" n1:singleLine="true" n1:layout_below="@id/syy" n1:layout_centerHorizontal="true" n1:textAlignment="viewStart" n1:layout_alignStart="@id/syy" n1:layout_alignEnd="@id/syy" n2:fj2="pu" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

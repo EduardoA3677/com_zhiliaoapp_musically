@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:id="@id/ei2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ehy" n1:background="@drawable/b2a" n1:padding="8.0dp" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_minus" n2:fjt="12.0dp" n2:fk6="12.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="center" n1:id="@id/ei3" n1:background="?yh" n1:visibility="gone" n1:layout_width="1.0dp" n1:layout_height="14.0dp" n3:bx8="@id/lmj" n3:bxb="@id/wju" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0x9L n1:textColor="?zw" n1:gravity="center" n1:id="@id/ehx" n1:background="@drawable/b2_" n1:layout_width="36.0dp" n1:layout_height="24.0dp" n1:singleLine="true" n1:maxLength="4" n1:digits="0123456789" n1:inputType="phone" n1:imeOptions="actionDone" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="center" n1:id="@id/ei4" n1:background="?yh" n1:visibility="gone" n1:layout_width="1.0dp" n1:layout_height="14.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ei0" n1:background="@drawable/b2b" n1:padding="8.0dp" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n5:fjq="@raw/icon_plus" n5:fjt="12.0dp" n5:fk6="12.0dp" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</merge>

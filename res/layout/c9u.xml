@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?f0l" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="6.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/jb2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:importantForAccessibility="no" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="12.0dp" n1:layout_alignParentStart="true" n2:fjq="@raw/icon_color_contact_circle" n2:fjt="36.0dp" n2:fk6="36.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/w5h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="155.0dp" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/gg0" n1:layout_toEndOf="@id/jb2">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/wk7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n3:fj2="pa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?sw" n1:ellipsize="end" n1:id="@id/f5c" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="Tell friends to scan QR code to connect" n1:maxLines="1" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/gg0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:layout_alignParentEnd="true">
+            <X.0D2z n1:layout_gravity="end" n1:id="@id/e7d" n1:visibility="gone" n1:layout_width="120.0dp" n1:layout_height="32.0dp" n1:text="@null" n1:layout_marginEnd="16.0dp" n5:fib="u9x" n5:fid="qhx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:id="@id/efh" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="16.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/eh_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="1.0dp" n6:fj2="px" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/s9m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n7:fjq="@raw/icon_chevron_right_ltr" n7:fjt="16.0dp" n7:fk6="16.0dp" n7:fmy="?zz" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

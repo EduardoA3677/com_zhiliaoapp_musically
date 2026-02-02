@@ -1,0 +1,8 @@
+.class public interface abstract LX/05Uf;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract LIZ(Ljava/lang/String;Ljava/util/Map;[B)Ljava/lang/String;
+.end method

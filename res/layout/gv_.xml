@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sfr" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxWidth="400.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="12.0dp" n1:textColor="?eiq" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/wk3" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:maxLines="1" n1:layout_weight="1.0" n2:bwl="@id/qvv" n2:bwq="@id/qvv" n2:bx9="owf" style="@style/a7d" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/qvv" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="0.0dp" n1:layout_height="3.0dp" n1:layout_marginEnd="14.0dp" n3:bwk="@id/md1" n3:bwr="@id/md1" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <ProgressBar n1:layout_gravity="center_vertical" n1:id="@id/vzb" n1:layout_width="0.0dp" n1:layout_height="3.0dp" n1:max="100" n1:progress="0" n1:progressDrawable="@drawable/ee6" n1:layout_weight="1.0" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" style="?android:progressBarStyleHorizontal" />
+        <ProgressBar n1:layout_gravity="center_vertical" n1:id="@id/v4y" n1:layout_width="match_parent" n1:layout_height="3.0dp" n1:max="100" n1:progress="0" n1:progressDrawable="@drawable/f89" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" style="?android:progressBarStyleHorizontal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/md1" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentEnd="true" n4:bwk="owf" n4:bwq="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textSize="16.0dp" n1:textColor="?l_" n1:id="@id/lyr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+        <X.12nN n1:textSize="12.0dp" n1:textColor="?eiq" n1:id="@id/lyu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

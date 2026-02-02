@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/qx5" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginEnd="22.0dp" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/qx5" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center_horizontal" n1:id="@id/qx7" n1:layout_width="119.0dp" n1:layout_height="119.0dp" n1:layout_marginTop="32.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="32.0dp" n1:text="@null" n1:layout_marginHorizontal="32.0dp" n3:fj2="ot" />
+        <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginRight="32.0dp" n1:text="@null" n1:layout_marginHorizontal="32.0dp" n3:fj2="p5" />
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/qx8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginHorizontal="32.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?yi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="p5" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/qx9" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n3:fjq="@raw/icon_chevron_right_ltr" n3:fmy="?yi" />
+        </LinearLayout>
+        <X.0D2z n1:textColor="?e0" n1:gravity="center" n1:id="@id/qx6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginHorizontal="32.0dp" n3:fib="l9r" n3:fid="qhx" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

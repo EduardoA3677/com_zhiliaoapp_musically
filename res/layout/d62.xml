@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/sfr" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+        <X.137G n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/wh4">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/mfr" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0CrT n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bjq="@null" n2:f22="false" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/to" n1:tag="account_and_safety" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:fjq="@raw/icon_person" n3:fn3="@null" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/t6z" n1:tag="security_center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:fjq="@raw/icon_shield_tick" n4:fn3="@null" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <X.0CrT n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bjq="@null" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/av6" n1:tag="app_language" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:fie="l81" n6:fjq="@raw/icon_a_rectangle" n6:fkb="" n6:fn3="@null" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/spl" n1:tag="screen_time" n1:layout_width="match_parent" n1:layout_height="wrap_content" n7:fjq="@raw/icon_hourglass" n7:fn3="@null" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/spm" n1:tag="screen_time_break" n1:layout_width="match_parent" n1:layout_height="wrap_content" n8:fjq="@raw/icon_hourglass" n8:fn3="@null" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+                <X.0CrT n1:layout_width="match_parent" n1:layout_height="wrap_content" n9:bjq="@null" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/dhm" n1:tag="clear_cache" n1:layout_width="match_parent" n1:layout_height="wrap_content" n10:fjq="@raw/icon_trash_bin" n10:fn3="@null" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+                <X.0CrT n1:layout_width="match_parent" n1:layout_height="wrap_content" n11:bjq="@null" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/abo" n1:tag="age_appeal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n12:fjq="@raw/icon_calendar_tick" n12:fn3="@null" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/h58" n1:tag="feedback_and_help" n1:layout_width="match_parent" n1:layout_height="wrap_content" n13:fjq="@raw/icon_pen" n13:fn3="@null" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/it5" n1:tag="helper_center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n14:fjq="@raw/icon_question_mark_circle_ltr" n14:fn3="@null" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/slo" n1:tag="safety_center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n15:fjq="@raw/icon_shield_plus" n15:fn3="@null" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+                <X.0CrT n1:layout_width="match_parent" n1:layout_height="wrap_content" n16:bjq="@null" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/e5i" n1:tag="community_guidelines" n1:layout_width="match_parent" n1:layout_height="wrap_content" n17:fjq="@raw/icon_double_circle" n17:fn3="@null" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/w36" n1:tag="terms_of_use" n1:layout_width="match_parent" n1:layout_height="wrap_content" n18:fjq="@raw/icon_book" n18:fn3="@string/pj7" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/qig" n1:tag="privacy_policy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n19:fjq="@raw/icon_document" n19:fn3="@string/p91" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/eev" n1:tag="copyright_policy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n20:fjq="@raw/icon_copyright" n20:fn3="@null" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+                <X.0oaU n1:id="@id/oi2" n1:tag="open_source_policy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n21:fjq="@raw/icon_book_star_fill" n21:fn3="@null" xmlns:n21="http://schemas.android.com/apk/res-auto" />
+                <X.0CrT n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" />
+                <X.0oaU n1:id="@id/mnv" n1:tag="logout_view" n1:layout_width="match_parent" n1:layout_height="wrap_content" n22:fjq="@raw/icon_arrow_to_left" n22:fn3="@null" xmlns:n22="http://schemas.android.com/apk/res-auto" />
+                <RelativeLayout n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="110.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:id="@id/zfz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:minHeight="30.0dp" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n23:fj2="px" xmlns:n23="http://schemas.android.com/apk/res-auto" />
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?dt" n1:gravity="center" n1:id="@id/zmx" n1:layout_width="wrap_content" n1:layout_height="50.0dp" n1:layout_below="@id/zfz" n1:layout_centerHorizontal="true" n24:fj2="px" xmlns:n24="http://schemas.android.com/apk/res-auto" />
+                </RelativeLayout>
+            </LinearLayout>
+        </X.137G>
+    </RelativeLayout>
+    <X.0oBw n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</FrameLayout>

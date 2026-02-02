@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:id="@id/ev4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="6.0dp" n2:ba3="?y5" n2:ba4="8.0dp" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kcm" n1:layout_width="154.0dp" n1:layout_height="204.0dp" n2:b41="h_f" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="28.0dp" n1:layout_marginTop="12.0dp">
+            <X.0D2z n1:gravity="center" n1:id="@id/c80" n1:layout_width="0.0dp" n1:layout_height="28.0dp" n1:text="@null" n1:layout_weight="1.0" n2:fib="u9x" />
+            <androidx.cardview.widget.CardView n1:id="@id/c81" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="8.0dp" n2:ba3="?br" n2:ba4="5.0dp" n2:ba5="0.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/kd7" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:fjq="@raw/icon_trash_bin" n2:fmy="?zw" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/bu3" />
+</androidx.cardview.widget.CardView>

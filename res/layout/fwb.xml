@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/a3w" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="50.0dp">
+        <TextView n1:textSize="18.0sp" n1:textColor="?e5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="MixLayout Debug Tools" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:orientation="vertical" n1:id="@id/sbg" n1:background="@drawable/ezp" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="match_parent" n1:layout_height="50.0dp">
+                <TextView n1:textSize="15.0sp" n1:textColor="?e5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Open Debug Preview" n1:layout_centerVertical="true" />
+                <ImageView n1:id="@id/axa" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:src="@drawable/ezq" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:orientation="vertical" n1:id="@id/scx" n1:background="@drawable/ezp" n1:layout_width="match_parent" n1:layout_height="50.0dp">
+                <TextView n1:textSize="15.0sp" n1:textColor="?e5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:text="Enable Debug Panel" n1:layout_toLeftOf="@id/vhx" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/vhx" />
+                <X.12qt n1:id="@id/vhx" n1:background="@null" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="12.0dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true" n2:faz="@color/a8d" n2:fcx="@color/a8e" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            </RelativeLayout>
+            <RelativeLayout n1:orientation="vertical" n1:id="@id/scw" n1:background="@drawable/ezp" n1:layout_width="match_parent" n1:layout_height="50.0dp">
+                <TextView n1:textSize="15.0sp" n1:textColor="?e5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:text="Debug Entrance Location" n1:layout_toLeftOf="@id/uhw" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/uhw" />
+                <X.12zM n1:id="@id/uhw" n1:background="@null" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="12.0dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

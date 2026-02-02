@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout n1:id="@id/rc9" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o9Z n1:id="@id/t_2" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/t9o" n1:layout_width="match_parent" n1:layout_height="52.0dp" />
+        <androidx.recyclerview.widget.RecyclerView n1:scrollbarThumbVertical="@drawable/zt" n1:scrollbarStyle="outsideInset" n1:id="@id/t_0" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:scrollbars="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/t9o" n1:fadeScrollbars="false" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="12.0dp" n1:layout_alignBottom="@id/t_0" n1:layout_marginHorizontal="16.0dp" n1:layout_marginVertical="12.0dp">
+            <X.0D2z n1:id="@id/zof" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp" />
+            <X.0D2z n1:id="@id/t8q" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+        </LinearLayout>
+    </X.0o9Z>
+</com.bytedance.tux.widget.RadiusLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/qec" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxb="@id/uo8" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/i3b" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/opy" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="owf" n4:bxb="@id/uo8" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/g3z" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n5:bwl="@id/bxe" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/wq8" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/qfo" n1:layout_width="match_parent" n1:layout_height="0.0dp" n6:bwk="owf" n6:bxb="@id/uo8" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/wq8" n1:layout_width="match_parent" n1:layout_height="52.0dp" n7:bxb="@id/uo8" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/be2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n8:bxb="@id/wq8" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/bxe" n1:layout_width="match_parent" n1:layout_height="wrap_content" n9:bwk="owf" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/ljz" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/o21" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/mjk" n1:layout_width="match_parent" n1:layout_height="0.0dp" n10:bwk="owf" n10:bxb="@id/uo8" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/g37" n1:layout="@layout/s3" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

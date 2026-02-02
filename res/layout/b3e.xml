@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/p6r" n1:paddingTop="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="18.0dp" n1:text="@null" n2:bx9="owf" n2:bxc="owf" n2:fj2="px" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0x9L n1:enabled="false" n1:id="@id/eib" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n3:bx8="@id/p6r" n3:bxc="@id/p6r" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/p6p" n1:background="?ly" n1:layout_width="0.5dp" n1:layout_height="10.0dp" n1:layout_marginTop="5.0dp" n1:layout_marginStart="5.0dp" n4:bx8="@id/eib" n4:bxc="@id/p6r" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0qaU n1:id="@id/p6n" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:inputType="number" n1:layout_marginStart="6.5dp" n5:bev="dh_" n5:bf0="13" n5:bwq="owf" n5:bx8="@id/p6p" n5:bxc="@id/p6r" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/uer" n1:background="?ly" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_marginTop="4.0dp" n6:bwq="owf" n6:bx9="@id/eib" n6:bxb="@id/p6n" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="top" n1:id="@id/p6g" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:layout_marginTop="5.0dp" n7:bx9="@id/eib" n7:bxb="@id/uer" n7:fjq="@raw/icon_exclamation_mark_triangle" n7:fmy="?y7" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?y7" n1:id="@id/p6h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="5.0dp" n8:bx8="@id/p6g" n8:bxc="@id/p6g" n8:fj2="q1" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

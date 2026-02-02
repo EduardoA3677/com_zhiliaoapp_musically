@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="300.0dp" n1:minHeight="42.0dp" n1:splitMotionEvents="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/jzf" n1:background="@drawable/caf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="@dimen/yi" n1:backgroundTint="?ds">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:textColorHint="?e3" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/rub" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:hint="@null" n1:maxLines="1" n1:scrollHorizontally="false" n1:textAlignment="viewStart" n1:paddingStart="12.0dp" n1:paddingEnd="40.0dp" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/gc9" n1:layout_width="26.0dp" n1:layout_height="26.0dp" n1:text="@null" n1:layout_marginEnd="@dimen/yk" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" n3:fjq="@raw/icon_3pt_dm_emoji" n3:fmy="?e2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="bottom" n1:id="@id/g2d" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:tint="?ds" n1:scaleX="-1.0" n1:tintMode="src_in" n4:f49="@drawable/cd0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="bottom" n1:id="@id/teg" n1:background="@drawable/caq" n1:paddingTop="2.0dp" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="12.0dp" n5:fjq="@raw/icon_paperplane_fill" n5:fjt="20.0dp" n5:fk6="20.0dp" n5:fmy="?c3" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

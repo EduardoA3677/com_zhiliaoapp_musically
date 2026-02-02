@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwf="true" n2:bwv="wrap" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.137G n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxc="owf">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/wtd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" />
+            <View n1:orientation="vertical" n1:id="@id/lqk" n1:background="?ej9" n1:layout_width="match_parent" n1:layout_height="8.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/wtd" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/du4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/lqk" />
+            <View n1:orientation="vertical" n1:id="@id/lql" n1:background="?ej9" n1:layout_width="match_parent" n1:layout_height="8.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/du4" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/zgz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/lql" />
+            <View n1:orientation="vertical" n1:id="@id/lqr" n1:background="?ej9" n1:layout_width="match_parent" n1:layout_height="8.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/zgz" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/tiy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/lqr" />
+            <View n1:id="@id/c1p" n1:layout_width="1.0dp" n1:layout_height="19.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/tiy" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </X.137G>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="@color/df" n1:id="@id/uiw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="With these hashtags" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/uiv" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:layout_marginStart="5.0dp" n3:fjq="@raw/icon_info_circle" n3:fmy="@color/dh" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="@color/dn" n1:id="@id/uiu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" n1:text="Select the hashtags you don’t like. You can change this anytime in Settings and privacy > Content preferences > Filter video keywords." n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

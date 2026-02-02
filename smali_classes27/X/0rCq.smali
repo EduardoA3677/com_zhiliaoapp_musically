@@ -1,0 +1,31 @@
+.class public final LX/0rCq;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0rrf;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(LX/0QNz;)V
+    .locals 1
+
+    sget-object v0, LX/0QNz;->TTMStateInitFinish:LX/0QNz;
+
+    if-ne p1, v0, :cond_0
+
+    invoke-static {}, LX/0o7d;->LIZ()V
+
+    :cond_0
+    return-void
+.end method

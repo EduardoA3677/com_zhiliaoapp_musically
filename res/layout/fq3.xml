@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:id="@id/lfe" n1:padding="16.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp" n2:b67="?z3" style="@style/ae1" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:textAlignment="center" n2:fj2="p9" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp">
+        <View n1:id="@id/ivw" n1:layout_width="4.0dp" n1:layout_height="4.0dp" n1:layout_marginLeft="2.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginRight="2.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginHorizontal="2.0dp" n1:layout_marginVertical="6.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/f4c" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n2:fj2="px" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:id="@id/ivx" n1:layout_width="4.0dp" n1:layout_height="4.0dp" n1:layout_marginLeft="2.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginRight="2.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginHorizontal="2.0dp" n1:layout_marginVertical="6.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/f4d" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n2:fj2="px" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

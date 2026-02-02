@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="start|bottom" n1:layout_gravity="start" n1:id="@id/lpc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/qf" n1:layout_marginTop="@dimen/qi" n1:layout_marginRight="@dimen/qf" n1:layout_marginBottom="@dimen/r5" n1:layout_marginHorizontal="@dimen/qf" n2:fj2="px" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/el2" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:b41="d4s" n3:etn="@color/ar" n3:eto="d4v" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/p83" n1:visibility="visible" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="6.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="6.0dp" n4:fjq="@raw/icon_square_corner_border_fill" n4:fjz="true" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|bottom" n1:id="@id/pg3" n1:visibility="visible" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n1:layout_marginBottom="6.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="6.0dp" n5:fjq="@raw/icon_play" n5:fjz="true" n5:fmy="?e0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="start|bottom" n1:id="@id/pg1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="24.0dp" n6:fj2="pz" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</FrameLayout>

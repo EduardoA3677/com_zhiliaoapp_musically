@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/hhy" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cze n1:id="@id/c6c" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/wh4">
+        <X.0CQa n1:id="@id/lup" n1:background="?bx" n1:paddingBottom="@dimen/a1y" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </X.0Cze>
+    <View n1:id="@id/uo8" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <X.0oCE n1:id="@id/up1" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="52.0dp" n1:layout_below="@id/uo8" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/wh4" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" n1:layout_below="@id/uo8">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxWidth="199.0dp" n1:text="@null" n1:maxLines="1" n1:layout_centerInParent="true" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/wh_" n1:background="?lv" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

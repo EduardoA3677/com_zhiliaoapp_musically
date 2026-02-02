@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:ba3="?c7" n2:ba4="0.0dp" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qf" n1:paddingVertical="@dimen/r5">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/g9z" n1:layout_width="@dimen/qk" n1:layout_height="@dimen/qk" n2:bwk="owf" n2:bwr="@id/g_1" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_effect_house" n2:fmy="?zw" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/g_1" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="@dimen/r5" n1:paddingEnd="@dimen/qz" n2:bwk="owf" n2:bwr="@id/g_0" n2:bx8="@id/g9z" n2:bxc="owf" n2:fj2="pv" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/g_0" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n1:layout_margin="@dimen/qz" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/g_1" n2:bxc="owf" n2:fjq="@raw/icon_chevron_right_offset_ltr" n2:fmy="?a04" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Knihovna zvuků online</item>
+        <item>Můj zvuk</item>
+    </string-array>
+    <string-array name="q">
+        <item>Smazat</item>
+        <item>Zrušit</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trendy</item>
+        <item>Nejnovější</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Neděle</item>
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Zjednodušená čínština</item>
+        <item>Tradiční čínština</item>
+        <item>Angličtina</item>
+        <item>Japonština</item>
+        <item>Korejština</item>
+        <item>Ruština</item>
+        <item>Indonéština</item>
+        <item>Malajština</item>
+        <item>Portugalština</item>
+        <item>Thajština</item>
+        <item>Vietnamština</item>
+        <item>Hindština</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normální</item>
+        <item>Černobílá</item>
+        <item>Umění</item>
+        <item>Historické</item>
+        <item>Retrolux</item>
+        <item>Sytější</item>
+        <item>Chrom</item>
+    </string-array>
+    <string-array name="af">
+        <item>Leden</item>
+        <item>Únor</item>
+        <item>Březen</item>
+        <item>Duben</item>
+        <item>Květen</item>
+        <item>Červen</item>
+        <item>Červenec</item>
+        <item>Srpen</item>
+        <item>Září</item>
+        <item>Říjen</item>
+        <item>Listopad</item>
+        <item>Prosinec</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Upřednostnit úsporu dat</item>
+        <item>Upřednostnit vysoké rozlišení</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Všichni</item>
+        <item>Jen přátelé</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+        <item>Neděle</item>
+    </string-array>
+</resources>

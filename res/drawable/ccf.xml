@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item>
+        <shape n1:dither="true" n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <size n1:height="165.0dp" n1:width="165.0dp" />
+            <corners n1:radius="2.0dp" />
+            <solid n1:color="?br" />
+        </shape>
+    </item>
+    <item n2:gravity="center" n2:drawable="@drawable/cd8"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="rectangle">
+            <size n2:height="82.5dp" n2:width="82.5dp" />
+        </shape>
+    </item>
+</layer-list>

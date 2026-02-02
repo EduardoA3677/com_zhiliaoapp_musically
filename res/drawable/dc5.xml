@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item>
+        <shape n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <solid n1:color="?bm" />
+        </shape>
+    </item>
+    <item n2:gravity="top" n2:drawable="?bm" n2:bottom="95.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:bottom="25.0dp"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <bitmap n3:gravity="center|bottom" n3:src="@drawable/splash_activity_banner" />
+    </item>
+    <item n4:top="30.0dp" n4:right="30.0dp"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <bitmap n4:gravity="right|top" n4:src="@drawable/splash" />
+    </item>
+</layer-list>

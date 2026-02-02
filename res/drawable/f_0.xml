@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item>
+        <shape n1:shape="oval"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <size n1:height="@dimen/auw" n1:width="@dimen/auy" />
+            <gradient n1:startColor="#99000000" n1:endColor="@android:color/transparent" n1:angle="0.0" n1:type="radial" n1:gradientRadius="50.0%" />
+        </shape>
+    </item>
+    <item n2:left="@dimen/aus" n2:top="@dimen/auu" n2:right="@dimen/aut" n2:bottom="@dimen/aur"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="oval">
+            <size n2:height="@dimen/auq" n2:width="@dimen/av0" />
+            <solid n2:color="@color/a_s" />
+        </shape>
+    </item>
+</layer-list>

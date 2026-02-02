@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="48.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/m44" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="middle" n1:gravity="start|center" n1:layout_gravity="center_horizontal" n1:id="@id/m3y" n1:paddingTop="0.0dp" n1:paddingBottom="0.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxWidth="200.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="16.0dp" n1:paddingVertical="0.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="pt" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="50.0dp" n1:layout_height="45.0dp" n1:layout_marginBottom="3.0dp" n4:bwk="owf" n4:bwr="@id/s8l" n4:bx8="@id/m3y" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:background="@drawable/fdt" n1:padding="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:layout_marginRight="12.0dp" n1:rotation="-22.0" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf">
+            <androidx.cardview.widget.CardView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:ba4="@dimen/ba" n4:ba5="0.0dp">
+                <ImageView n1:id="@id/nzr" n1:layout_width="20.0dp" n1:layout_height="26.0dp" n1:src="@drawable/a2s" n1:importantForAccessibility="no" />
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+        <FrameLayout n1:background="@drawable/fdt" n1:padding="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf">
+            <androidx.cardview.widget.CardView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:ba4="@dimen/ba" n4:ba5="0.0dp">
+                <ImageView n1:id="@id/nzs" n1:layout_width="22.0dp" n1:layout_height="28.0dp" n1:src="@drawable/a2t" n1:importantForAccessibility="no" />
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+        <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:rotation="16.0" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf">
+            <X.1295 n1:id="@id/o1a" n1:background="@drawable/fdt" n1:padding="2.0dp" n1:layout_width="28.0dp" n1:layout_height="36.0dp" n4:ey2="false" n4:ey3="true" n4:ey6="true" n4:ey_="true" n4:eyc="true" n4:eyl="@dimen/ba" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0mEg n1:id="@id/s8l" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="8.0dp" n1:src="@drawable/a2u" n1:scaleType="centerCrop" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

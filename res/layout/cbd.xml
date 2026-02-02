@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.06Hw n1:gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/hv8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:shadowColor="?xq" n1:shadowDy="1.0" n1:shadowRadius="1.0" n2:fj2="pa" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center_vertical" n1:id="@id/zm9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n3:fjq="@raw/icon_color_verified_badge" n3:fjt="16.0dp" n3:fk6="16.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/jn3" n1:background="?yh" n1:paddingLeft="@dimen/r1" n1:paddingRight="@dimen/r1" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/qz" n1:paddingHorizontal="@dimen/r1" n4:bgf="@dimen/ba" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="@dimen/qo">
+                <com.bytedance.tux.icon.TuxIconView n1:gravity="center_vertical" n1:id="@id/jn2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_alignParentStart="true" n4:fjq="@raw/icon_image_alt_1_fill" n4:fjt="12.0dp" n4:fk6="12.0dp" n4:fmy="?ye" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/jl7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_centerVertical="true" n1:layout_marginStart="@dimen/qw" n1:layout_toEndOf="@id/jn2" n4:fj2="q2" />
+            </RelativeLayout>
+        </com.bytedance.tux.widget.RadiusLayout>
+    </X.06Hw>
+    <com.ss.android.ugc.aweme.relation.label.RelationLabelTextView n1:textColor="?sw" n1:id="@id/rr8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="@dimen/qk" n1:layout_marginTop="2.0dp" n1:maxLines="1" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

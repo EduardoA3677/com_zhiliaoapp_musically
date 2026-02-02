@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:background="@drawable/du0" n1:paddingLeft="16.0dp" n1:paddingTop="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/ec9" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/isb" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.12nN n1:textSize="18.0sp" n1:textColor="@color/a6_" n1:id="@id/isc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <X.0rBl n1:layout_gravity="center_vertical" n1:id="@id/is9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginStart="8.0dp" />
+        </LinearLayout>
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/a68" n1:id="@id/is_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_below="@id/isb" />
+        <RelativeLayout n1:id="@id/waiting_info_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="40.0dp" n1:minHeight="35.0dp" n1:layout_below="@id/is_">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+                <X.12nN n1:textSize="12.0sp" n1:textColor="@color/a68" n1:gravity="center" n1:id="@id/waiting_queue_text" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="35.0dp" n1:layout_weight="1.0" />
+                <X.12nN n1:textSize="12.0sp" n1:textColor="@color/a68" n1:gravity="center" n1:id="@id/waiting_time_text" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="35.0dp" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <X.12nN n1:textSize="16.0sp" n1:textColor="@color/a67" n1:gravity="center" n1:id="@id/d5_" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="35.0dp" n1:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout n1:id="@id/rgw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:layout_below="@id/waiting_info_layout">
+            <View n1:background="@color/a69" n1:layout_width="wrap_content" n1:layout_height="0.5dp" n1:layout_toLeftOf="@id/rgx" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/rgx" />
+            <X.12nN n1:textSize="12.0sp" n1:textColor="@color/a6_" n1:id="@id/rgx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerInParent="true" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" />
+            <View n1:background="@color/a69" n1:layout_width="wrap_content" n1:layout_height="0.5dp" n1:layout_toRightOf="@id/rgx" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/rgx" />
+        </RelativeLayout>
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/c00" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_marginTop="16.0dp" n1:layout_below="@id/rgw" />
+    </RelativeLayout>
+    <X.0Tvj n1:layout_gravity="center" n1:id="@id/mj3" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/f34" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ekp" n1:id="@id/pat" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n2:bxc="owf" style="@style/pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?eks" n1:id="@id/pas" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:text="@null" n3:bxb="@id/pat" style="@style/q9" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/g1i" n1:background="@drawable/cjw" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n4:bxb="@id/pas" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="?ekp" n1:id="@id/pb1" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="16.0dp" n4:bwr="@id/j7m" n4:bx9="owf" n4:bxc="owf" style="@style/pu" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j7m" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="4.0dp" n4:br4="?dud" n4:brl="?eks" n4:bwq="owf" n4:bxc="@id/pat" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/paz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n5:bx9="@id/g1i" n5:bxb="@id/g1i" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/pay" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n5:bwk="owf" n5:bx9="owf" n5:bxc="owf" />
+        <X.12nN n1:id="@id/pb0" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="4.0dp" n5:bwk="owf" n5:bx8="@id/pay" n5:bxc="owf" style="@style/qa" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

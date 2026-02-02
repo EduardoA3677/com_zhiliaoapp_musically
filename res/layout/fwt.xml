@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/agx" n1:background="@drawable/dxs" n1:layout_width="match_parent" n1:layout_height="500.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hee" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx3="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/bai" n1:layout_width="50.0dp" n1:layout_height="60.0dp">
+            <androidx.appcompat.widget.AppCompatImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="18.0dp" n1:layout_marginStart="16.0dp" n2:f49="@drawable/eyo" />
+        </FrameLayout>
+        <X.12nN n1:textSize="17.0sp" n1:textColor="?ehx" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="60.0dp" n1:text="@null" n2:bp3="n2i" />
+    </FrameLayout>
+    <X.137G n1:id="@id/agw" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/hee" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vg4" n1:background="@drawable/diy" n1:paddingBottom="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n1:layout_marginHorizontal="8.0dp">
+                <X.12nN n1:textSize="16.0dp" n1:textColor="?ehx" n1:ellipsize="end" n1:id="@id/vhk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.5dp" n1:text="@null" n1:singleLine="true" n1:layout_marginEnd="12.0dp" n3:bwr="@id/vg8" n3:bwz="0.0" n3:bx0="ujk" n3:bx9="owf" n3:bxc="owf" style="@style/py" />
+                <X.12nN n1:textSize="14.0dp" n1:textColor="?eks" n1:ellipsize="end" n1:id="@id/vge" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:text="@null" n1:includeFontPadding="false" n1:textIsSelectable="false" n1:textAlignment="viewStart" n1:layout_marginEnd="8.0dp" n3:bwr="@id/vg8" n3:bx0="ujk" n3:bx9="owf" n3:bxb="@id/vhk" style="@style/a74" />
+                <X.12q2 n1:id="@id/vg8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="29.0dp" n1:checked="false" n3:bwq="owf" n3:bxc="owf" />
+                <ImageView n1:id="@id/sm6" n1:layout_width="200.0dp" n1:layout_height="140.0dp" n1:layout_marginTop="5.5dp" n3:bwq="owf" n3:bwz="0.5" n3:bx9="owf" n3:bxb="@id/vge" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout n1:gravity="start" n1:orientation="vertical" n1:id="@id/la7" n1:background="@drawable/diy" n1:paddingLeft="16.0dp" n1:paddingTop="15.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="15.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginBottom="50.0dp" n1:layout_marginHorizontal="8.0dp" n1:paddingHorizontal="16.0dp">
+                <X.12nN n1:textSize="16.0dp" n1:textColor="?ehx" n1:id="@id/k5y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:text="@null" style="@style/py" />
+                <FrameLayout n1:id="@id/hei" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/hee">
+                    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                        <View n1:id="@id/zzi" n1:background="?ej8" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                        <androidx.recyclerview.widget.RecyclerView n1:id="@id/sj7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" />
+                        <X.0rBl n1:layout_gravity="center" n1:id="@id/view_load_more_loading" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <FrameLayout n1:id="@id/hfe" n1:layout_width="match_parent" n1:layout_height="210.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/hee">
+                        <X.0rBl n1:layout_gravity="center" n1:id="@id/mlu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                        <X.0d3Z n1:layout_gravity="center" n1:id="@id/mki" n1:visibility="gone" n1:layout_width="130.0dp" n1:layout_height="96.0dp" />
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </X.137G>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12vu n1:theme="@style/rq" n1:id="@id/d04" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:ba4="@dimen/b8" n2:ba5="0.0dp" n2:bwl="@id/qmw" n2:bx0="ori" n2:bxc="owf" n2:f7a="?xy" n2:f7d="1.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0CzY n1:id="@id/qlo" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:etn="@color/ap" n2:ey2="false" />
+    </X.12vu>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/qmw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:maxLines="1" n1:textDirection="locale" n3:bwk="owf" n3:bxb="@id/d04" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

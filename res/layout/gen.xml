@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="?ekj" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:id="@id/yma" n1:layout_width="wrap_content" n1:layout_height="36.0dp" n1:text="@null" n1:lineSpacingExtra="2.0dp" n1:paddingStart="8.0dp" n1:layout_alignParentEnd="true" />
+    <FrameLayout n1:id="@id/st8" n1:background="@drawable/f6u" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_toStartOf="@id/yma">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/kz1" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginLeft="10.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="10.0dp" n2:br4="?dq4" n2:fb9="?eks" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0x9L n1:textColor="?ehx" n1:textColorHint="?ekx" n1:ellipsize="end" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/goh" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:cursorVisible="false" n1:singleLine="true" n1:imeOptions="actionSearch" n1:textAlignment="viewStart" n1:paddingStart="32.5dp" n1:paddingEnd="32.5dp" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|center" n1:id="@id/c__" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="6.0dp" n4:br4="?e_w" n4:fb9="?c3u" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/st8">
+        <FrameLayout n1:id="@id/t25" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0qm5 n1:id="@id/szb" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

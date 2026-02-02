@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0nfn n1:textSize="16.0sp" n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/q9h" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="..." n1:textDirection="locale" n1:paddingHorizontal="16.0dp" n2:bwk="@id/q9g" n2:bx9="@id/q9g" n2:bzi="22.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12qk n1:textSize="16.0sp" n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/q9g" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textDirection="locale" n1:paddingHorizontal="16.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:bzi="22.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/zyi" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:alpha="0.48" n1:textDirection="locale" n1:paddingHorizontal="16.0dp" n4:bx9="owf" n4:bxb="@id/q9g" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

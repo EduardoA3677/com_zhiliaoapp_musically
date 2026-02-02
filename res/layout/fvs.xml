@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/iw" n1:id="@id/e92" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="26.0dp">
+        <FrameLayout n1:id="@id/p2t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp">
+            <FrameLayout n1:id="@id/jm2" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <X.1295 n1:layout_gravity="top" n1:id="@id/bmq" n1:visibility="gone" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n1:scaleType="fitXY" n2:b41="h_f" n2:bnc="0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <X.0tHR n1:layout_gravity="top" n1:id="@id/o73" n1:visibility="gone" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="12.0dp" n1:scaleType="fitCenter" n3:b41="h_f" n3:bnc="0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?ih" n1:gravity="center" n1:id="@id/p2p" n1:background="@drawable/di6" n1:visibility="gone" n1:layout_width="60.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="62.0dp" n1:shadowDx="3.0" n1:shadowDy="3.0" n1:shadowRadius="1.0" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n4:b5h="11.0sp" n4:b5i="7.0sp" n4:b5k="1.0dp" n4:b5l="z1f" n4:fj2="?iw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <X.1295 n1:layout_gravity="start|top" n1:id="@id/u_g" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="80.0dp" n1:layout_marginTop="12.0dp" n1:scaleType="fitXY" n5:b41="h_f" n5:bnc="0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <ImageView n1:layout_gravity="end|top" n1:id="@id/p2q" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/asz" n1:contentDescription="@null" />
+            <View n1:layout_gravity="center_horizontal" n1:layout_width="1.0dp" n1:layout_height="1.0dp" />
+        </FrameLayout>
+        <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/mnx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="70.0dp" n1:layout_marginEnd="57.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/axr" n1:layout_width="8.0dp" n1:layout_height="35.0dp" n1:contentDescription="@null" n6:fjq="@drawable/zx" n6:fmy="?if" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/mnw" n1:background="@drawable/dig" n1:padding="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?ih" n1:id="@id/mny" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxWidth="184.0dp" n1:shadowColor="#4d000000" n1:shadowDx="0.0" n1:shadowDy="3.0" n1:shadowRadius="1.0" n1:layout_weight="1.0" n7:fj2="?iu" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/djt" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:contentDescription="@null" n1:layout_marginStart="8.0dp" n8:fjq="@raw/icon_x_mark_small" n8:fmy="?ic" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/twz" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginStart="10.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="#ff6d4b" n1:layout_gravity="center_horizontal" n1:id="@id/tx0" n1:background="@drawable/dih" n1:padding="2.0dp" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n9:fj2="?j1" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <ImageView n1:id="@id/chc" n1:visibility="visible" n1:layout_width="18.0dp" n1:layout_height="8.0dp" n1:src="@drawable/dik" n1:contentDescription="@null" n1:layout_marginStart="28.5dp" />
+    </LinearLayout>
+</FrameLayout>

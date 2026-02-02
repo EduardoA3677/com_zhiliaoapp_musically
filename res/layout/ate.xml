@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:background="@drawable/b07" n1:layout_width="56.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+        <View n1:background="@drawable/b07" n1:layout_width="139.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="89.0dp" n1:layout_marginTop="@dimen/mj" n1:layout_marginStart="89.0dp" />
+    </FrameLayout>
+    <View n1:background="@drawable/b07" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+    <View n1:background="@drawable/b07" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <View n1:background="@drawable/b07" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginStart="@dimen/mj" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:background="@drawable/b07" n1:layout_width="113.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="177.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="113.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="26.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="221.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="22.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginEnd="@dimen/mj">
+                <View n1:id="@id/e2b" n1:background="@drawable/b07" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" n2:bwk="owf" n2:bwp="h,1:1" n2:bwr="@id/e2a" n2:bwz="0.5" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <View n1:id="@id/e2d" n1:background="@drawable/b07" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginStart="8.0dp" n3:bwk="owf" n3:bwp="h,1:1" n3:bwq="owf" n3:bwz="0.5" n3:bx8="@id/e2c" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <View n1:id="@id/e2c" n1:background="@drawable/b07" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginStart="8.0dp" n4:bwk="owf" n4:bwp="h,1:1" n4:bwr="@id/e2d" n4:bwz="0.5" n4:bx8="@id/e2a" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <View n1:id="@id/e2a" n1:background="@drawable/b07" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginStart="8.0dp" n5:bwk="owf" n5:bwp="h,1:1" n5:bwr="@id/e2c" n5:bwz="0.5" n5:bx8="@id/e2b" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View n1:background="@drawable/b07" n1:layout_width="113.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <View n1:background="@drawable/b07" n1:layout_width="221.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <View n1:background="@drawable/b07" n1:layout_width="113.0dp" n1:layout_height="18.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+                <View n1:layout_gravity="end" n1:background="@drawable/b07" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+                <View n1:layout_gravity="end" n1:background="@drawable/b07" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="@dimen/mj" n1:layout_marginRight="66.0dp" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="66.0dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

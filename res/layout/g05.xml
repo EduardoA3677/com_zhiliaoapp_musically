@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ean" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/baw" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="45.0dp" n1:alpha="0.0" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" n1:layout_marginStart="6.0dp" n2:br4="?ctx" n2:brl="?eju" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?eju" n1:gravity="center" n1:id="@id/fh5" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:layout_marginTop="45.0dp" n1:text="@null" n1:alpha="0.0" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n3:bwq="owf" n3:bxc="owf" style="@style/pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/f8c" n1:background="@drawable/dpt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="484.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ijz" n1:paddingTop="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwl="@id/va4" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf">
+            <X.12nN n1:textColor="?ekr" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwl="@id/word_area" n4:bx9="owf" n4:bxc="owf" style="@style/pu" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/wfm" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginStart="4.0dp" n4:br4="?dkk" n4:bwk="@id/title" n4:bx8="@id/title" n4:bxc="@id/title" n4:fb9="?c3r" />
+            <FrameLayout n1:id="@id/word_area" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/title">
+                <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="start" n1:id="@id/words_content" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+                <X.0rBl n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+                <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/gn8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+                    <X.12nN n1:textColor="?ekr" n1:layout_gravity="center" n1:id="@id/gn3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/q8" />
+                    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginTop="24.0dp">
+                        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/gmf" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n4:br4="?cij" n4:brl="?ekp" />
+                        <X.12nN n1:textColor="?ekr" n1:layout_gravity="end|center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="4.0dp" style="@style/q8" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.12nN n1:textColor="?ekr" n1:id="@id/va4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="25.0dp" n1:layout_marginBottom="32.0dp" n4:bwk="owf" n4:bx9="owf" n4:bxb="@id/ijz" style="@style/a6s" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

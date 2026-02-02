@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/product_tile_ad_native_root_layout" n1:layout_width="match_parent" n1:layout_height="52.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0o06 n1:id="@id/a2_" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="@dimen/na" />
+    <FrameLayout n1:layout_gravity="end" n1:id="@id/a2a" n1:background="@drawable/b8_" n1:layout_width="20.0dp" n1:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ro" parent="@style/qx">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/aq</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="fqf">false</item>
+        <item name="fqp">true</item>
+    </style>
+    <style name="rp" parent="@style/qx">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/aq</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="fqf">false</item>
+        <item name="fqp">true</item>
+    </style>
+    <style name="tn" parent="@style/th">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/at</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+</resources>

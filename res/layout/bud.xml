@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="124.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/fvw" n1:layout_width="108.0dp" n1:layout_height="108.0dp" n1:layout_marginTop="@dimen/t4" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/fvx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:cropToPadding="true" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:eyl="@dimen/r5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0v0K n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/fvt" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" n3:bwq="owf" n3:bx8="@id/fvw" n3:bxc="@id/fvw" n3:by2="8.0dp" n3:em1="13.0dp" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/fvz" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qu" n4:bwg="true" n4:bwq="owf" n4:bwz="0.0" n4:bx9="@id/fvt" n4:bxb="@id/fvt" n4:bxd="0.0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

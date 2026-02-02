@@ -1,0 +1,86 @@
+.class public Lcom/ss/android/ugc/aweme/global/config/settings/pojo/LinkPlan;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public info:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "info"
+    .end annotation
+.end field
+
+.field public publish:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "publish"
+    .end annotation
+.end field
+
+.field public settings:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "settings"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getInfo()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/global/config/settings/pojo/LinkPlan;->info:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    new-instance v0, LX/0RgU;
+
+    invoke-direct {v0}, LX/0RgU;-><init>()V
+
+    throw v0
+.end method
+
+.method public getPublish()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/global/config/settings/pojo/LinkPlan;->publish:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    new-instance v0, LX/0RgU;
+
+    invoke-direct {v0}, LX/0RgU;-><init>()V
+
+    throw v0
+.end method
+
+.method public getSettings()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/global/config/settings/pojo/LinkPlan;->settings:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    new-instance v0, LX/0RgU;
+
+    invoke-direct {v0}, LX/0RgU;-><init>()V
+
+    throw v0
+.end method

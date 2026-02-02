@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?y4" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/workbench_main_navbar" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/workbench_tab_container" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxb="@id/workbench_main_navbar" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0ngA n1:id="@id/workbench_main_chips" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qf" n3:bwr="@id/workbench_main_filter_container" n3:bx9="owf" n3:bxc="owf" />
+        <X.11RT n1:id="@id/workbench_main_shade_view" n1:visibility="gone" n1:layout_width="@dimen/qi" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp" n3:bwr="@id/workbench_main_filter_container" n3:bxc="owf" n3:fi7="0.0" n3:fiy="1.0" n3:flv="?y4" n3:flw="lrn" n3:fm_="iy_" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/workbench_main_filter_container" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="40.0dp" n1:layout_marginTop="@dimen/qf" n1:paddingEnd="@dimen/qf" n3:bwq="owf" n3:bxc="owf">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="@dimen/qo" n1:layout_height="@dimen/qo" n1:layout_marginLeft="@dimen/qz" n1:layout_marginRight="@dimen/qz" n1:importantForAccessibility="no" n1:layout_marginHorizontal="@dimen/qz" n3:fjq="@raw/icon_control" n3:fmy="?ye" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center_vertical" n1:id="@id/workbench_main_filter_count" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="pz" />
+        </LinearLayout>
+        <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:id="@id/workbench_view_pager" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="4.0dp" n3:bwk="owf" n3:bxb="@id/workbench_main_chips" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0oCE n1:id="@id/workbench_status" n1:background="?y4" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="owf" n4:bxb="@id/workbench_main_navbar" n4:fkf="h_s" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

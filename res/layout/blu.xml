@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0qqS n1:id="@id/fnv" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/gf8" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <RelativeLayout n1:layout_gravity="end" n1:id="@id/ovi" n1:background="@drawable/dwu" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.12w1 n1:id="@id/fnz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_toLeftOf="@id/fnw" n1:layout_alignWithParentIfMissing="true" n1:layout_marginStart="17.0dp" n1:layout_marginEnd="9.0dp" n1:layout_toStartOf="@id/fnw" n2:f8b="@drawable/ebx" n2:f8e="?c3r" n2:f8j="2.0dp" n2:f8q="0.0dp" n2:f8r="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/fnw" n1:padding="8.0dp" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="2.0dp" n1:layout_alignParentRight="true" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" n3:br4="?dq4" n3:fb9="?c3r" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?e2" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/f9f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:maxLines="1" n1:layout_below="@id/fnz" n1:layout_marginStart="17.0dp" n1:layout_marginEnd="9.0dp" style="@style/a6u" />
+        <View n1:id="@id/vkn" n1:background="?xy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_below="@id/f9f" />
+        <View n1:id="@id/h3s" n1:background="@drawable/f7_" n1:layout_width="5.0dp" n1:layout_height="100.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="6.0dp" />
+        <FrameLayout n1:id="@id/ovf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5.0dp" n1:layout_below="@id/vkn" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="8.0dp" n1:layout_toEndOf="@id/h3s" />
+        <X.13KV n1:id="@id/fo1" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5.0dp" n1:layout_below="@id/vkn" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="8.0dp" n1:layout_toEndOf="@id/h3s" />
+        <X.0rBl n1:id="@id/ffx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+        <FrameLayout n1:id="@id/sxx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5.0dp" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="8.0dp" n1:layout_toEndOf="@id/h3s" />
+    </RelativeLayout>
+</X.0qqS>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/wo" n1:tag="layout/commerce_review_gallery_bottom_info_0" n1:background="@drawable/b5q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0l1c n1:orientation="vertical" n1:id="@id/il5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bws="16.0dp" />
+    <X.0l1c n1:orientation="vertical" n1:id="@id/ik9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwt="16.0dp" />
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/ijg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwt="30.0dp" />
+    <X.0CzU n1:id="@id/b9x" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="21.0dp" n2:bwr="@id/yvl" n2:bwz="0.0" n2:bx0="ori" n2:bx9="@id/il5" n2:bxc="owf" n2:etn="@drawable/fc_" />
+    <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/yvl" n1:tag="binding_1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:bwg="true" n2:bwk="@id/b9x" n2:bwr="@id/rek" n2:bwz="0.0" n2:bx0="ori" n2:bx8="@id/b9x" n2:bxc="@id/b9x" />
+    <X.0CUf n1:id="@id/rek" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n2:bwk="@id/b9x" n2:bwr="@id/lor" n2:bwz="0.0" n2:bx0="ori" n2:bx8="@id/yvl" n2:bxc="@id/b9x" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/lor" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="4.0dp" n2:bwk="@id/b9x" n2:bwr="@id/lp8" n2:bx8="@id/rek" n2:bxc="@id/b9x" n2:fjq="@raw/icon_thumbs_up" n2:fmy="?zw" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/lp8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="@id/b9x" n2:bwq="@id/ik9" n2:bwz="1.0" n2:bx0="ori" n2:bx8="@id/lor" n2:bxc="@id/b9x" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/yol" n1:tag="binding_2" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwq="@id/ik9" n2:bx9="@id/il5" n2:bxb="@id/b9x" />
+    <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:gravity="start" n1:id="@id/xnw" n1:tag="binding_3" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:textAlignment="viewStart" n2:bwq="@id/ik9" n2:bx9="@id/il5" n2:bxb="@id/yol" />
+    <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/xtk" n1:tag="binding_4" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="4" n2:bwk="@id/ijg" n2:bwq="@id/ik9" n2:bx9="@id/il5" n2:bxb="@id/xnw" />
+    <X.0p5i n1:id="@id/x0f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginHorizontal="16.0dp" n2:bwk="@id/ijg" n2:bwq="@id/ik9" n2:bx9="@id/il5" n2:bxb="@id/xtk" />
+</androidx.constraintlayout.widget.ConstraintLayout>

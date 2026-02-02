@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/mab" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_horizontal" n1:background="@drawable/ces" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:backgroundTint="?ys">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/ku_" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n2:b41="d4s" n2:bne="@color/ar" n2:etn="@color/ar" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?z6" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/yf9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="7.0dp" n1:text="@string/ca8" n1:maxLines="2" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="7.0dp" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

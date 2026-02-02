@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.lighten.loader.SmartImageView n1:id="@id/act" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:b41="d4s" n2:bx9="owf" n2:bxc="owf" n2:etn="@drawable/b4e" n2:eto="d4s" n2:eyl="@dimen/b8" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

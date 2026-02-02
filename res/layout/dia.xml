@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout n1:id="@id/rc9" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oFP n1:id="@id/tbg" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/tbc" n1:layout_width="match_parent" n1:layout_height="52.0dp" />
+        <X.0o06 n1:scrollbarThumbVertical="@drawable/zt" n1:scrollbarStyle="outsideInset" n1:id="@id/tbf" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:scrollbars="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/tbc" n1:fadeScrollbars="false" />
+        <RelativeLayout n1:id="@id/tb_" n1:background="@android:color/transparent" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignBottom="@id/tbf">
+            <View n1:background="?yf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0px" />
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.0D2z n1:id="@id/tbd" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginEnd="4.0dp" n2:fib="l9r" n2:fid="t69" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <X.0D2z n1:enabled="false" n1:id="@id/tbe" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="4.0dp" n3:fib="l9r" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </RelativeLayout>
+    </X.0oFP>
+</com.bytedance.tux.widget.RadiusLayout>

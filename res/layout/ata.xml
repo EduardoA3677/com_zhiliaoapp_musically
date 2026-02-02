@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/u2l" n1:layout_width="match_parent" n1:layout_height="24.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="center_vertical" n1:id="@id/ok5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/qk3" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="4.0dp" n3:fjq="@raw/icon_star_fill" n3:fmy="?me" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ProgressBar n1:layout_gravity="center_vertical" n1:id="@id/qvq" n1:layout_width="0.0dp" n1:layout_height="8.0dp" n1:progressDrawable="@drawable/b5v" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" style="?android:progressBarStyleHorizontal" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="end" n1:layout_gravity="center_vertical" n1:id="@id/efc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="17.0dp" n1:maxLines="1" n4:fj2="q1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

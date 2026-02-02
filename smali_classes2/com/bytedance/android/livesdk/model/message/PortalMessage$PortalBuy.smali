@@ -1,0 +1,35 @@
+.class public Lcom/bytedance/android/livesdk/model/message/PortalMessage$PortalBuy;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/01yI;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/android/livesdk/model/message/PortalMessage;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "PortalBuy"
+.end annotation
+
+
+# instance fields
+.field public sugarDaddy:Lcom/bytedance/android/live/base/model/user/User;
+    .annotation runtime LX/0B9U;
+        value = "sugar_daddy"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

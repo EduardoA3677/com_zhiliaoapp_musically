@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sf8" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/bf6" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="228.0dp" n1:layout_marginTop="86.0dp" n1:paddingStart="190.0dp" n1:paddingEnd="190.0dp" />
+    <LinearLayout n1:gravity="center|bottom" n1:orientation="vertical" n1:id="@id/whs" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="180.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="37.0dp">
+        <X.12ij n1:id="@id/i1_" n1:layout_width="308.0dp" n1:layout_height="wrap_content" />
+        <LinearLayout n1:id="@id/i02" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" />
+        <X.0D2z n1:id="@id/i0r" n1:layout_width="176.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="28.0dp" n1:layout_marginBottom="11.0dp" n1:text="@null" n2:fi9="true" n2:fid="t69" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

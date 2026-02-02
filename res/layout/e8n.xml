@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/ps9" n1:paddingLeft="16.0dp" n1:paddingTop="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:paddingHorizontal="16.0dp" n2:bwg="true" n2:bwl="@id/ps5" n2:bwq="owf" n2:bwz="0.0" n2:bx9="owf" n2:bxc="owf" n2:bxd="0.0" n2:bxe="ori" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.widget.RadiusLayout n1:id="@id/ps5" n1:layout_width="match_parent" n1:layout_height="148.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp" n3:bgf="@dimen/b1" n3:bwl="@id/ps8" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/ps9" n3:bxe="ori" n3:evq="?yg" n3:evt="1.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/ps4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <View n1:id="@id/ps6" n1:background="@drawable/cys" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/ps7" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.icon.TuxIconView n1:gravity="center" n1:layout_gravity="end|top" n1:id="@id/ps2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n1:elevation="5.0dp" n3:fjz="true" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <X.0ngA n1:id="@id/ps8" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n4:bwl="@id/ps3" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ps5" n4:bxe="ori" n4:fmh="false" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12Lc n1:id="@id/ps3" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:paddingHorizontal="16.0dp" n5:bwl="@id/ps_" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/ps8" n5:bxe="ori" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/ps_" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:paddingVertical="16.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/ps3" n6:bxe="ori" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <X.12vl n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/psa" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n6:fj2="pv" n6:fjs="@raw/icon_chevron_right_ltr" n6:fjv="14.0dp" n6:fjy="4.0dp" n6:fk8="14.0dp" n6:fn0="?zw" />
+    </FrameLayout>
+    <View n1:id="@id/ps1" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="8.0dp" n7:bwq="owf" n7:bx9="owf" n7:bxb="@id/ps_" n7:bxe="ori" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

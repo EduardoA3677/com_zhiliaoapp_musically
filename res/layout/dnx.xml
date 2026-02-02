@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:padding="@dimen/qz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/ksj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="@dimen/qz" n1:layout_marginBottom="@dimen/qz" n1:layout_marginStart="@dimen/r5" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.06Tq n1:id="@id/ksk" n1:padding="1.25dp" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n3:bwk="@id/ksj" n3:bwq="@id/ksj" n3:bx9="@id/ksj" n3:bxc="@id/ksj" n3:elm="2.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.06Tq n1:id="@id/kfj" n1:layout_width="23.399994dp" n1:layout_height="23.399994dp" n4:bwk="@id/ksj" n4:bwq="@id/ksj" n4:bx9="@id/ksj" n4:bxc="@id/ksj" n4:elm="0.30000007dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/lvk" n1:padding="1.0dp" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:importantForAccessibility="no" n5:b41="h_j" n5:bwk="@id/ksk" n5:bwq="@id/ksk" n5:etn="@drawable/dji" n5:ey2="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.06Tq n1:id="@id/lvm" n1:padding="1.0dp" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n6:bwk="@id/lvk" n6:bwq="@id/lvk" n6:bx9="@id/lvk" n6:bxc="@id/lvk" n6:elm="2.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.12ij n1:textColor="?mh" n1:id="@id/chm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qe" n1:layout_marginBottom="@dimen/qe" n1:text="People you watch are LIVE" n1:textAllCaps="false" n1:layout_marginStart="@dimen/r5" n1:layout_marginEnd="@dimen/r5" n7:bwk="owf" n7:bwq="owf" n7:bx8="@id/ksk" n7:bxc="owf" n7:fj2="pv" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

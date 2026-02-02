@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hfd" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0KsG n1:id="@id/t04" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="bottom" n1:id="@id/t02" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="45.0dp">
+        <X.11RT n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="45.0dp" n2:fi7="0.0" n2:fiy="0.3" n2:flv="#000000" n2:flw="lrn" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:b41="hmx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.status.loading.TuxSpinner n1:layout_gravity="end|bottom" n1:id="@id/zpy" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_margin="8.0dp" n4:fjq="@raw/icon_spinner_normal" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

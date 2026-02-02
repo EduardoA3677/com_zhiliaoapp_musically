@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="bottom" n1:id="@id/seu" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/ee6" n1:padding="9.0dp" n1:layout_width="34.0dp" n1:layout_height="34.0dp" n1:layout_marginBottom="3.0dp" n2:bwk="owf" n2:bwq="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/vci" n1:background="@drawable/bem" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bwq="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.13dw n1:id="@id/afo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true" />
+        <RelativeLayout n1:layout_gravity="center_horizontal" n1:id="@id/afp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qf" n1:minHeight="@dimen/t_" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/ev3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="12.0" n1:layout_centerVertical="true" n1:layout_marginStart="@dimen/qu" n1:fontFeatureSettings="tnum" n3:fj2="pv" />
+            <View n1:id="@id/ev2" n1:clickable="true" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_centerVertical="true" n1:contentDescription="@string/dzy" n1:layout_marginStart="@dimen/qf" n1:layout_marginEnd="@dimen/qu" n1:layout_toEndOf="@id/ev3" />
+        </RelativeLayout>
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/dpz" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </RelativeLayout>
+    <X.0mXu n1:layout_gravity="center" n1:id="@id/dpx" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/msc" n1:background="@drawable/cnu" n1:layout_width="124.0dp" n1:layout_height="124.0dp" n1:layout_marginStart="@dimen/r5" n5:bx3="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <SurfaceView n1:id="@id/msb" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="@dimen/qu" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

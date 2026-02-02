@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/hwl" n1:background="@drawable/dsx" n1:paddingLeft="7.0dp" n1:paddingTop="8.0dp" n1:paddingRight="7.0dp" n1:paddingBottom="8.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="30.0dp" n1:paddingHorizontal="7.0dp" n1:paddingVertical="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?c3r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" style="@style/qa" />
+    <androidx.appcompat.widget.AppCompatImageView n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:src="@drawable/f_l" n1:layout_marginStart="4.0dp" />
+    <X.12nN n1:textColor="?c3r" n1:id="@id/z29" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" style="@style/qa" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="8.0dp" n2:br4="?cua" n2:brl="?c3u" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

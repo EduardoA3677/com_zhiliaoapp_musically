@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <X.0mEN n1:orientation="horizontal" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n2:fdb="@color/dx"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.cardview.widget.CardView n1:id="@id/l20" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="6.5dp" n1:layout_marginEnd="6.5dp" n2:ba3="?dp" n2:ba4="6.0dp" n2:ba5="0.0dp">
+            <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/kzi" n1:layout_width="48.0dp" n1:layout_height="48.0dp">
+                <ImageView n1:layout_gravity="center" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:src="@drawable/c46" n1:scaleType="fitCenter" n1:contentDescription="@null" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:text="@null" n2:fj2="q2" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/lh7" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </X.0mEN>
+</merge>

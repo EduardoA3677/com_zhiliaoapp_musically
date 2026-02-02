@@ -1,0 +1,134 @@
+.class public final Lcom/ss/android/ugc/aweme/requesttask/idle/GeckoHighPriorityCheckInRequest;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0B6c;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic finalizedBy()Ljava/util/List;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final key()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "GeckoHighPriorityCheckInRequest"
+
+    return-object v0
+.end method
+
+.method public final synthetic meetTrigger()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final run(Landroid/content/Context;)V
+    .locals 3
+
+    sget-boolean v0, LX/0WWt;->LJ:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    invoke-static {}, LX/0Rgy;->LIZ()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-static {}, LX/0ZH9;->LIZLLL()LX/0aPF;
+
+    move-result-object v2
+
+    new-instance v1, LX/0X32;
+
+    const/4 v0, 0x1
+
+    invoke-direct {v1, p0, p1, v0}, LX/0X32;-><init>(Lcom/ss/android/ugc/aweme/requesttask/idle/GeckoHighPriorityCheckInRequest;Landroid/content/Context;I)V
+
+    invoke-virtual {v2, v1}, LX/0aLQ;->LIZIZ(LX/0QKQ;)V
+
+    return-void
+
+    :cond_1
+    :try_start_0
+    new-instance v1, Lm83/a;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0}, Lm83/a;-><init>(Landroid/os/Looper;)V
+
+    sget-object v0, LX/0VpI;->LL:LX/0VpI;
+
+    invoke-static {v1, v0}, LX/0X3I;->LJJLIIIIJ(Landroid/os/Handler;Ljava/lang/Runnable;)Z
+
+    return-void
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    move-exception v0
+
+    invoke-static {v0}, LX/0WZD;->LIZ(Ljava/lang/Exception;)V
+
+    return-void
+.end method
+
+.method public final synthetic serialExecute()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final synthetic targetProcess()I
+    .locals 1
+
+    invoke-static {}, LX/0XG8;->LIZ()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final synthetic triggerType()LX/0XGG;
+    .locals 1
+
+    invoke-static {p0}, LX/0XG8;->LIZIZ(LX/0B6c;)LX/0XGG;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final type()LX/0XGc;
+    .locals 1
+
+    sget-object v0, LX/0XGc;->BOOT_FINISH:LX/0XGc;
+
+    return-object v0
+.end method

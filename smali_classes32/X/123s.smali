@@ -1,0 +1,418 @@
+.class public final LX/123s;
+.super Lcom/squareup/wire/ProtoAdapter;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/123t;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/squareup/wire/ProtoAdapter<",
+        "LX/123t;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    sget-object v1, Lcom/squareup/wire/FieldEncoding;->LENGTH_DELIMITED:Lcom/squareup/wire/FieldEncoding;
+
+    const-class v0, LX/123t;
+
+    invoke-direct {p0, v1, v0}, Lcom/squareup/wire/ProtoAdapter;-><init>(Lcom/squareup/wire/FieldEncoding;Ljava/lang/Class;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+    .locals 5
+
+    new-instance v3, LX/123t;
+
+    invoke-direct {v3}, LX/123t;-><init>()V
+
+    invoke-virtual {p1}, Lcom/squareup/wire/ProtoReader;->beginMessage()J
+
+    move-result-wide v1
+
+    :goto_0
+    invoke-virtual {p1}, Lcom/squareup/wire/ProtoReader;->nextTag()I
+
+    move-result v4
+
+    const/4 v0, -0x1
+
+    if-eq v4, v0, :cond_0
+
+    packed-switch v4, :pswitch_data_0
+
+    invoke-virtual {p1}, Lcom/squareup/wire/ProtoReader;->peekFieldEncoding()Lcom/squareup/wire/FieldEncoding;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/squareup/wire/FieldEncoding;->rawProtoAdapter()Lcom/squareup/wire/ProtoAdapter;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    :pswitch_0
+    sget-object v0, LX/0iWH;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0iWH;
+
+    iput-object v0, v3, LX/123t;->emoji_quick_reply:LX/0iWH;
+
+    goto :goto_0
+
+    :pswitch_1
+    sget-object v0, LX/0zVs;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0zVs;
+
+    iput-object v0, v3, LX/123t;->story_note:LX/0zVs;
+
+    goto :goto_0
+
+    :pswitch_2
+    sget-object v0, LX/123g;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/123g;
+
+    iput-object v0, v3, LX/123t;->secret_reply_blob:LX/123g;
+
+    goto :goto_0
+
+    :pswitch_3
+    sget-object v0, LX/123w;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/123w;
+
+    iput-object v0, v3, LX/123t;->attribution_link_story_anchor_blob:LX/123w;
+
+    goto :goto_0
+
+    :pswitch_4
+    sget-object v0, LX/120x;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/120x;
+
+    iput-object v0, v3, LX/123t;->shared_comment_blob:LX/120x;
+
+    goto :goto_0
+
+    :pswitch_5
+    sget-object v0, LX/0ibL;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0ibL;
+
+    iput-object v0, v3, LX/123t;->story_archive_blob:LX/0ibL;
+
+    goto :goto_0
+
+    :pswitch_6
+    sget-object v0, LX/123q;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/123q;
+
+    iput-object v0, v3, LX/123t;->share_story_metadata:LX/123q;
+
+    goto :goto_0
+
+    :pswitch_7
+    sget-object v0, LX/0ibX;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0ibX;
+
+    iput-object v0, v3, LX/123t;->reveal_story_blob:LX/0ibX;
+
+    goto :goto_0
+
+    :pswitch_8
+    sget-object v0, LX/0ibg;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    invoke-virtual {v0, p1}, Lcom/squareup/wire/ProtoAdapter;->decode(Lcom/squareup/wire/ProtoReader;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0ibg;
+
+    iput-object v0, v3, LX/123t;->allow_story_reshare_blob:LX/0ibg;
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p1, v1, v2}, Lcom/squareup/wire/ProtoReader;->endMessage(J)V
+
+    return-object v3
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_0
+        :pswitch_1
+        :pswitch_2
+        :pswitch_3
+        :pswitch_4
+        :pswitch_5
+        :pswitch_6
+        :pswitch_7
+        :pswitch_8
+    .end packed-switch
+.end method
+
+.method public final encode(Lcom/squareup/wire/ProtoWriter;Ljava/lang/Object;)V
+    .locals 3
+
+    check-cast p2, LX/123t;
+
+    sget-object v2, LX/0iWH;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    iget-object v1, p2, LX/123t;->emoji_quick_reply:LX/0iWH;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {v2, p1, v0, v1}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/0zVs;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x2
+
+    iget-object v0, p2, LX/123t;->story_note:LX/0zVs;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/123g;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x3
+
+    iget-object v0, p2, LX/123t;->secret_reply_blob:LX/123g;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/123w;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x4
+
+    iget-object v0, p2, LX/123t;->attribution_link_story_anchor_blob:LX/123w;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/120x;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x5
+
+    iget-object v0, p2, LX/123t;->shared_comment_blob:LX/120x;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/0ibL;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x6
+
+    iget-object v0, p2, LX/123t;->story_archive_blob:LX/0ibL;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/123q;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x7
+
+    iget-object v0, p2, LX/123t;->share_story_metadata:LX/123q;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/0ibX;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/16 v1, 0x8
+
+    iget-object v0, p2, LX/123t;->reveal_story_blob:LX/0ibX;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    sget-object v2, LX/0ibg;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/16 v1, 0x9
+
+    iget-object v0, p2, LX/123t;->allow_story_reshare_blob:LX/0ibg;
+
+    invoke-virtual {v2, p1, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodeWithTag(Lcom/squareup/wire/ProtoWriter;ILjava/lang/Object;)V
+
+    invoke-virtual {p2}, Lcom/squareup/wire/Message;->unknownFields()Lokio/ByteString;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/squareup/wire/ProtoWriter;->writeBytes(Lokio/ByteString;)V
+
+    return-void
+.end method
+
+.method public final encodedSize(Ljava/lang/Object;)I
+    .locals 4
+
+    check-cast p1, LX/123t;
+
+    sget-object v2, LX/0iWH;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    iget-object v1, p1, LX/123t;->emoji_quick_reply:LX/0iWH;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {v2, v0, v1}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v3
+
+    sget-object v2, LX/0zVs;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x2
+
+    iget-object v0, p1, LX/123t;->story_note:LX/0zVs;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/123g;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x3
+
+    iget-object v0, p1, LX/123t;->secret_reply_blob:LX/123g;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/123w;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x4
+
+    iget-object v0, p1, LX/123t;->attribution_link_story_anchor_blob:LX/123w;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/120x;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x5
+
+    iget-object v0, p1, LX/123t;->shared_comment_blob:LX/120x;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/0ibL;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x6
+
+    iget-object v0, p1, LX/123t;->story_archive_blob:LX/0ibL;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/123q;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/4 v1, 0x7
+
+    iget-object v0, p1, LX/123t;->share_story_metadata:LX/123q;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/0ibX;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/16 v1, 0x8
+
+    iget-object v0, p1, LX/123t;->reveal_story_blob:LX/0ibX;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    sget-object v2, LX/0ibg;->ADAPTER:Lcom/squareup/wire/ProtoAdapter;
+
+    const/16 v1, 0x9
+
+    iget-object v0, p1, LX/123t;->allow_story_reshare_blob:LX/0ibg;
+
+    invoke-virtual {v2, v1, v0}, Lcom/squareup/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    invoke-virtual {p1}, Lcom/squareup/wire/Message;->unknownFields()Lokio/ByteString;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lokio/ByteString;->size()I
+
+    move-result v0
+
+    add-int/2addr v3, v0
+
+    return v3
+.end method

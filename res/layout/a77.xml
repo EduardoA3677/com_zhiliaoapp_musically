@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?y4" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Space n1:id="@id/wgm" n1:layout_width="0.0dp" n1:layout_height="44.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/kbp" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n3:bwk="@id/xli" n3:bx9="owf" n3:bxc="@id/xli" n3:fjq="@raw/icon_arrow_left_ltr" n3:fjt="24.0dp" n3:fk6="24.0dp" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/xli" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="12.0dp" n1:accessibilityHeading="true" n4:bwg="true" n4:bwk="@id/wgm" n4:bwr="@id/sl8" n4:bx0="ori" n4:bx8="@id/kbp" n4:bxc="@id/wgm" n4:fj2="p0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/sl8" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="16.0dp" n5:bwk="@id/xli" n5:bwq="owf" n5:bxc="@id/xli" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/kdg" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:accessibilityHeading="true" n6:bwk="@id/sl8" n6:bwq="@id/sl8" n6:bxc="@id/sl8" n6:fjq="@raw/icon_gear" n6:fmy="?zw" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0Cze n1:id="@id/rom" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n7:bwk="owf" n7:bwq="owf" n7:bx9="owf" n7:bxb="@id/wgm" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/rn2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" />
+            <X.0oCE n1:id="@id/uo6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="348.0dp" n7:fkf="j0v" />
+            <X.0oCE n1:id="@id/mjc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n7:fkf="h_s" />
+        </FrameLayout>
+    </X.0Cze>
+</androidx.constraintlayout.widget.ConstraintLayout>

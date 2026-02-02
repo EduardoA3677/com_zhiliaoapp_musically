@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hhy" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/qbr" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CaB n1:id="@id/hd1" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.13KK n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/wz4" n1:background="@color/bb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <ImageView n1:id="@id/title_shadow" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:src="@drawable/btq" />
+        <ViewStub n1:id="@id/mtg" n1:layout="@layout/b9t" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0RAb n1:orientation="vertical" n1:id="@id/wh9" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+            <FrameLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.0RAc n1:layout_gravity="center_vertical" n1:id="@id/sd1" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <ViewStub n1:id="@id/w0j" n1:layout="@layout/cd7" n1:inflatedId="@id/w0i" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </FrameLayout>
+            <FrameLayout n1:id="@id/o6a" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="26.0dp" />
+            <FrameLayout n1:id="@id/alc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="26.0dp" />
+        </X.0RAb>
+    </X.0CaB>
+    <ViewStub n1:id="@id/ixx" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <include n1:id="@id/u7w" layout="@layout/ccu" />
+</FrameLayout>

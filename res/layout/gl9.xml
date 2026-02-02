@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137r n1:paddingTop="@dimen/qf" n1:paddingBottom="@dimen/qf" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:paddingVertical="@dimen/qf" n2:fgh="8.0dp" n2:fgz="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0d3Z n1:id="@id/kco" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="12.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+    <X.03HF n1:textSize="14.0dp" n1:textColor="?e0" n1:ellipsize="marquee" n1:id="@id/xii" n1:focusable="true" n1:focusableInTouchMode="true" n1:fadingEdgeLength="16.0dp" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:requiresFadingEdge="horizontal" n1:textAlignment="viewStart" n1:layout_marginStart="10.0dp" n2:bwk="owf" n2:bwr="@id/xk_" n2:bx8="@id/kco" n2:bxc="owf" style="@style/a77" />
+    <X.12nN n1:textColor="?e0" n1:id="@id/xk_" n1:background="@drawable/dsr" n1:paddingLeft="4.0dp" n1:paddingTop="2.0dp" n1:paddingRight="4.0dp" n1:paddingBottom="2.0dp" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingHorizontal="4.0dp" n1:paddingVertical="2.0dp" n2:bwr="@id/kdc" style="@style/a79" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/kdc" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="12.0dp" n2:br4="?cua" n2:brl="?e3" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" />
+</X.137r>

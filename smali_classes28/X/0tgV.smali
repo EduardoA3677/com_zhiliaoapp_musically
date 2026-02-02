@@ -1,0 +1,1421 @@
+.class public LX/0tgV;
+.super Landroid/widget/LinearLayout;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0tgZ;
+
+
+# instance fields
+.field public LL:LX/125e;
+
+.field public LLILIL:LX/125e;
+
+.field public LLILL:LX/125e;
+
+.field public LLILLIZIL:Landroid/widget/LinearLayout;
+
+.field public LLILLJJLI:Ljava/util/Calendar;
+
+.field public LLILLL:Ljava/util/Calendar;
+
+.field public LLILZ:LX/0tgJ;
+
+.field public LLILZIL:Z
+
+.field public final LLILZLL:Landroid/view/LayoutInflater;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 22
+
+    move-object/from16 v1, p2
+
+    move-object/from16 v4, p1
+
+    move-object/from16 v3, p0
+
+    invoke-direct {v3, v4, v1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    const-string v0, "layout_inflater"
+
+    invoke-static {v4, v0}, LX/0X3I;->LLZ(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/view/LayoutInflater;
+
+    iput-object v2, v3, LX/0tgV;->LLILZLL:Landroid/view/LayoutInflater;
+
+    sget-object v0, Lcom/ss/android/ugc/aweme/app/R$styleable;->DatePicker:[I
+
+    const/4 v5, 0x0
+
+    invoke-virtual {v4, v1, v0, v5, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+
+    move-result-object v1
+
+    sget v0, Lcom/ss/android/ugc/aweme/app/R$styleable;->DatePicker_useHighlightNum:I
+
+    invoke-virtual {v1, v0, v5}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
+
+    move-result v0
+
+    iput-boolean v0, v3, LX/0tgV;->LLILZIL:Z
+
+    invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
+
+    iget-boolean v0, v3, LX/0tgV;->LLILZIL:Z
+
+    const/4 v6, 0x1
+
+    if-eqz v0, :cond_a
+
+    const v0, 0x7f0e0adb
+
+    invoke-static {v2, v0, v3, v6}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    :goto_0
+    const v0, 0x7f0b5161
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    iput-object v0, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    const v0, 0x7f0b9003
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, LX/125e;
+
+    iput-object v0, v3, LX/0tgV;->LL:LX/125e;
+
+    const v0, 0x7f0b498d
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, LX/125e;
+
+    iput-object v0, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    const v0, 0x7f0b1be5
+
+    invoke-virtual {v3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, LX/125e;
+
+    iput-object v1, v3, LX/0tgV;->LLILL:LX/125e;
+
+    iget-object v4, v3, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v4, :cond_0
+
+    iput-object v3, v4, LX/125e;->LLLIIIL:LX/0tgZ;
+
+    :cond_0
+    iget-object v0, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v0, :cond_1
+
+    iput-object v3, v0, LX/125e;->LLLIIIL:LX/0tgZ;
+
+    :cond_1
+    if-eqz v1, :cond_2
+
+    iput-object v3, v1, LX/125e;->LLLIIIL:LX/0tgZ;
+
+    :cond_2
+    if-eqz v4, :cond_3
+
+    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_3
+
+    invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/ViewConfiguration;->getScaledMaximumFlingVelocity()I
+
+    move-result v1
+
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    div-int/2addr v1, v0
+
+    iput v1, v4, LX/125e;->LLLF:I
+
+    iput-boolean v6, v4, LX/125e;->LLLIZZ:Z
+
+    :cond_3
+    const-class v16, Lcom/tiktok/ef/i18n/service/manager/I18nServiceApi;
+
+    const/4 v9, 0x0
+
+    const/4 v15, 0x0
+
+    const/4 v14, 0x0
+
+    const/16 v20, 0xe
+
+    const/16 v21, 0x0
+
+    move/from16 v18, v5
+
+    move/from16 v19, v5
+
+    move/from16 v17, v5
+
+    invoke-static/range {v16 .. v21}, Lcom/ss/android/ugc/aweme/framework/services/PluggableExtentionKt;->pluggableSpi$default(Ljava/lang/Class;ZZZILjava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tiktok/ef/i18n/service/manager/I18nServiceApi;
+
+    if-eqz v0, :cond_4
+
+    invoke-interface {v0}, Lcom/tiktok/ef/i18n/service/manager/I18nServiceApi;->LIZ()Lcom/tiktok/ef/i18nmanagerapi/service/i18n/I18nManagerServiceApi;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_4
+
+    invoke-static {}, LX/0YPp;->LIZIZ()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0}, Lcom/tiktok/ef/i18nmanagerapi/service/i18n/I18nManagerServiceApi;->LJIJJ(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v2
+
+    if-nez v2, :cond_5
+
+    :cond_4
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->LLLLZIL(Ljava/util/Locale;)Ljava/lang/String;
+
+    move-result-object v2
+
+    :cond_5
+    new-instance v1, Ljava/util/Locale;
+
+    invoke-static {}, LX/11kj;->LIZ()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v2, v0}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 v8, 0x3
+
+    invoke-static {v8, v1}, Ljava/text/DateFormat;->getDateInstance(ILjava/util/Locale;)Ljava/text/DateFormat;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/text/SimpleDateFormat;
+
+    invoke-virtual {v0}, Ljava/text/SimpleDateFormat;->toPattern()Ljava/lang/String;
+
+    move-result-object v12
+
+    iget-object v0, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v0, :cond_6
+
+    invoke-static {v0}, LX/0X3I;->LJJIIZI(Landroid/widget/LinearLayout;)V
+
+    :cond_6
+    new-array v7, v8, [C
+
+    invoke-virtual {v12}, Ljava/lang/String;->length()I
+
+    move-result v11
+
+    const/4 v13, 0x0
+
+    const/4 v10, 0x0
+
+    :goto_1
+    const/16 v6, 0x4d
+
+    const/16 v4, 0x64
+
+    const/16 v2, 0x79
+
+    if-ge v9, v11, :cond_b
+
+    invoke-virtual {v12, v9}, Ljava/lang/String;->charAt(I)C
+
+    move-result v1
+
+    const/16 v0, 0x4c
+
+    if-eq v1, v0, :cond_9
+
+    if-eq v1, v6, :cond_9
+
+    if-eq v1, v4, :cond_8
+
+    if-ne v1, v2, :cond_7
+
+    if-nez v10, :cond_7
+
+    add-int/lit8 v0, v14, 0x1
+
+    aput-char v2, v7, v14
+
+    move v14, v0
+
+    const/4 v10, 0x1
+
+    :cond_7
+    :goto_2
+    add-int/lit8 v9, v9, 0x1
+
+    goto :goto_1
+
+    :cond_8
+    if-nez v15, :cond_7
+
+    add-int/lit8 v0, v14, 0x1
+
+    aput-char v4, v7, v14
+
+    move v14, v0
+
+    const/4 v15, 0x1
+
+    goto :goto_2
+
+    :cond_9
+    if-nez v13, :cond_7
+
+    add-int/lit8 v0, v14, 0x1
+
+    aput-char v6, v7, v14
+
+    move v14, v0
+
+    const/4 v13, 0x1
+
+    goto :goto_2
+
+    :cond_a
+    const v0, 0x7f0e0ada
+
+    invoke-static {v2, v0, v3, v6}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    goto/16 :goto_0
+
+    :cond_b
+    if-nez v15, :cond_c
+
+    add-int/lit8 v0, v14, 0x1
+
+    aput-char v4, v7, v14
+
+    move v14, v0
+
+    :cond_c
+    if-nez v13, :cond_d
+
+    add-int/lit8 v0, v14, 0x1
+
+    aput-char v6, v7, v14
+
+    move v14, v0
+
+    :cond_d
+    if-nez v10, :cond_e
+
+    aput-char v2, v7, v14
+
+    :cond_e
+    iget-boolean v0, v3, LX/0tgV;->LLILZIL:Z
+
+    if-eqz v0, :cond_19
+
+    new-array v10, v8, [Ljava/lang/Boolean;
+
+    sget-object v12, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    aput-object v12, v10, v5
+
+    sget-object v11, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    const/4 v1, 0x1
+
+    aput-object v11, v10, v1
+
+    const/4 v0, 0x2
+
+    aput-object v11, v10, v0
+
+    new-array v9, v8, [Ljava/lang/Boolean;
+
+    aput-object v11, v9, v5
+
+    aput-object v11, v9, v1
+
+    aput-object v12, v9, v0
+
+    const/4 v11, 0x0
+
+    :goto_3
+    aget-char v0, v7, v5
+
+    if-eq v0, v6, :cond_16
+
+    if-eq v0, v4, :cond_13
+
+    if-ne v0, v2, :cond_12
+
+    iget-object v1, v3, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v1, :cond_f
+
+    aget-object v0, v10, v11
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->setRoundedStart(Z)V
+
+    :cond_f
+    iget-object v1, v3, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v1, :cond_10
+
+    aget-object v0, v9, v11
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->setRoundedEnd(Z)V
+
+    :cond_10
+    iget-object v1, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_11
+
+    iget-object v0, v3, LX/0tgV;->LL:LX/125e;
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    :cond_11
+    :goto_4
+    add-int/lit8 v11, v11, 0x1
+
+    :cond_12
+    add-int/lit8 v5, v5, 0x1
+
+    if-ge v5, v8, :cond_1d
+
+    goto :goto_3
+
+    :cond_13
+    iget-object v1, v3, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v1, :cond_14
+
+    aget-object v0, v10, v11
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->setRoundedStart(Z)V
+
+    :cond_14
+    iget-object v1, v3, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v1, :cond_15
+
+    aget-object v0, v9, v11
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->setRoundedEnd(Z)V
+
+    :cond_15
+    iget-object v1, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_11
+
+    iget-object v0, v3, LX/0tgV;->LLILL:LX/125e;
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    goto :goto_4
+
+    :cond_16
+    iget-object v1, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v1, :cond_17
+
+    aget-object v0, v10, v11
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->setRoundedStart(Z)V
+
+    :cond_17
+    iget-object v1, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v1, :cond_18
+
+    aget-object v0, v9, v11
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->setRoundedEnd(Z)V
+
+    :cond_18
+    iget-object v1, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_11
+
+    iget-object v0, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    goto :goto_4
+
+    :goto_5
+    if-ge v5, v8, :cond_1d
+
+    :cond_19
+    aget-char v0, v7, v5
+
+    if-eq v0, v6, :cond_1c
+
+    if-eq v0, v4, :cond_1b
+
+    if-ne v0, v2, :cond_1a
+
+    iget-object v1, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_1a
+
+    iget-object v0, v3, LX/0tgV;->LL:LX/125e;
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    :cond_1a
+    :goto_6
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_5
+
+    :cond_1b
+    iget-object v1, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_1a
+
+    iget-object v0, v3, LX/0tgV;->LLILL:LX/125e;
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    goto :goto_6
+
+    :cond_1c
+    iget-object v1, v3, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    if-eqz v1, :cond_1a
+
+    iget-object v0, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    goto :goto_6
+
+    :cond_1d
+    invoke-static {}, LX/11kj;->LIZ()Ljava/lang/String;
+
+    move-result-object v1
+
+    sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->toUpperCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "CN"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1e
+
+    const-string v0, "TW"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1e
+
+    invoke-virtual {v3}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->P(Landroid/content/Context;)Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_27
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_27
+
+    const v0, 0x7f050028
+
+    invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
+
+    move-result-object v1
+
+    :goto_7
+    iget-object v0, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v0, :cond_1e
+
+    iput-object v1, v0, LX/125e;->LLLILZ:[Ljava/lang/String;
+
+    invoke-virtual {v0}, LX/125e;->LJI()V
+
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+
+    :cond_1e
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    move-result-object v0
+
+    iput-object v0, v3, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    if-eqz v0, :cond_1f
+
+    invoke-virtual {v0}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
+
+    move-result-object v2
+
+    :cond_1f
+    invoke-virtual {v3, v2}, LX/0tgV;->LIZJ(Ljava/util/Date;)V
+
+    const-class v4, Lcom/tiktok/ef/i18n/service/manager/I18nServiceApi;
+
+    const/4 v5, 0x0
+
+    const/16 v8, 0xe
+
+    const/4 v9, 0x0
+
+    move v6, v5
+
+    move v7, v5
+
+    invoke-static/range {v4 .. v9}, Lcom/ss/android/ugc/aweme/framework/services/PluggableExtentionKt;->pluggableSpi$default(Ljava/lang/Class;ZZZILjava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tiktok/ef/i18n/service/manager/I18nServiceApi;
+
+    if-eqz v0, :cond_20
+
+    invoke-interface {v0}, Lcom/tiktok/ef/i18n/service/manager/I18nServiceApi;->LIZ()Lcom/tiktok/ef/i18nmanagerapi/service/i18n/I18nManagerServiceApi;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_20
+
+    invoke-static {}, LX/0YPp;->LIZIZ()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0}, Lcom/tiktok/ef/i18nmanagerapi/service/i18n/I18nManagerServiceApi;->LJIJJ(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v4
+
+    if-nez v4, :cond_21
+
+    :cond_20
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->LLLLZIL(Ljava/util/Locale;)Ljava/lang/String;
+
+    move-result-object v4
+
+    :cond_21
+    iget-object v2, v3, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v2, :cond_22
+
+    new-instance v1, Ljava/util/Locale;
+
+    invoke-static {}, LX/11kj;->LIZ()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v4, v0}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    iput-object v1, v2, LX/125e;->LLILZ:Ljava/util/Locale;
+
+    :cond_22
+    iget-object v2, v3, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v2, :cond_23
+
+    new-instance v1, Ljava/util/Locale;
+
+    invoke-static {}, LX/11kj;->LIZ()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v4, v0}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    iput-object v1, v2, LX/125e;->LLILZ:Ljava/util/Locale;
+
+    :cond_23
+    iget-object v2, v3, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v2, :cond_24
+
+    invoke-virtual {v3}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const v0, 0x7f120d30
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
+
+    :cond_24
+    iget-object v2, v3, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v2, :cond_25
+
+    invoke-virtual {v3}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const v0, 0x7f120d29
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
+
+    :cond_25
+    iget-object v2, v3, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v2, :cond_26
+
+    invoke-virtual {v3}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const v0, 0x7f1208da
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
+
+    :cond_26
+    return-void
+
+    :cond_27
+    move-object v1, v2
+
+    goto/16 :goto_7
+.end method
+
+
+# virtual methods
+.method public final LIZ(LX/125e;I)V
+    .locals 8
+
+    iget-object v0, p0, LX/0tgV;->LL:LX/125e;
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v4, 0x2
+
+    const/4 v2, 0x5
+
+    const/4 v6, 0x1
+
+    if-eqz v0, :cond_8
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v3
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
+
+    move-result v5
+
+    iget-object v7, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    iget-object v1, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    if-eqz v7, :cond_6
+
+    invoke-virtual {v7, v6}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne p2, v0, :cond_6
+
+    invoke-virtual {v7, v4}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-le v5, v0, :cond_0
+
+    move v5, v0
+
+    :cond_0
+    iget-object v1, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v1, :cond_1
+
+    invoke-virtual {v7, v4}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, 0x1
+
+    invoke-virtual {v1, v0}, LX/125e;->LJFF(I)V
+
+    :cond_1
+    :goto_0
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, p2, v5, v6}, Ljava/util/Calendar;->set(III)V
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->getActualMaximum(I)I
+
+    move-result v1
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v0, v6}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne p2, v0, :cond_2
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne v5, v0, :cond_2
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v1
+
+    :cond_2
+    if-le v3, v1, :cond_3
+
+    move v3, v1
+
+    :cond_3
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2, v3}, Ljava/util/Calendar;->set(II)V
+
+    iget-object v0, p0, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0, v1}, LX/125e;->LJFF(I)V
+
+    :cond_4
+    :goto_1
+    iget-object v1, p0, LX/0tgV;->LLILZ:LX/0tgJ;
+
+    if-eqz v1, :cond_5
+
+    invoke-virtual {p0}, LX/0tgV;->getYear()I
+
+    invoke-virtual {p0}, LX/0tgV;->getMonth()I
+
+    invoke-virtual {p0}, LX/0tgV;->getDayOfMonth()I
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-interface {v1, v0, v6}, LX/0tgJ;->LIZ(Ljava/util/Calendar;I)V
+
+    :cond_5
+    return-void
+
+    :cond_6
+    if-eqz v1, :cond_7
+
+    invoke-virtual {v1, v4}, Ljava/util/Calendar;->getActualMaximum(I)I
+
+    move-result v0
+
+    :goto_2
+    iget-object v1, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v1, :cond_1
+
+    add-int/lit8 v0, v0, 0x1
+
+    invoke-virtual {v1, v0}, LX/125e;->LJFF(I)V
+
+    goto :goto_0
+
+    :cond_7
+    const/16 v0, 0xb
+
+    goto :goto_2
+
+    :cond_8
+    iget-object v0, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v5
+
+    iget-object v1, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v1, v6}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    sub-int/2addr p2, v6
+
+    invoke-virtual {v1, v0, p2, v6}, Ljava/util/Calendar;->set(III)V
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->getActualMaximum(I)I
+
+    move-result v3
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    if-eqz v0, :cond_9
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v6}, Ljava/util/Calendar;->get(I)I
+
+    move-result v1
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v6}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne v1, v0, :cond_9
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne p2, v0, :cond_9
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v3
+
+    :cond_9
+    if-le v5, v3, :cond_a
+
+    move v5, v3
+
+    :cond_a
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2, v5}, Ljava/util/Calendar;->set(II)V
+
+    iget-object v0, p0, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v0, :cond_b
+
+    invoke-virtual {v0, v3}, LX/125e;->LJFF(I)V
+
+    :cond_b
+    :goto_3
+    move v6, v4
+
+    goto :goto_1
+
+    :cond_c
+    iget-object v0, p0, LX/0tgV;->LLILL:LX/125e;
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_d
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2, p2}, Ljava/util/Calendar;->set(II)V
+
+    const/4 v4, 0x3
+
+    goto :goto_3
+
+    :cond_d
+    const/4 v4, 0x0
+
+    goto :goto_3
+.end method
+
+.method public final LIZIZ(Ljava/util/Date;)V
+    .locals 5
+
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    move-result-object v4
+
+    const/4 v1, 0x6
+
+    invoke-virtual {v4, v1}, Ljava/util/Calendar;->getActualMaximum(I)I
+
+    move-result v0
+
+    invoke-virtual {v4, v1, v0}, Ljava/util/Calendar;->set(II)V
+
+    const/4 v0, -0x1
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v4, v3, v0}, Ljava/util/Calendar;->add(II)V
+
+    invoke-virtual {v4}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ljava/util/Date;->before(Ljava/util/Date;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    move-result-object v4
+
+    invoke-virtual {p1}, Ljava/util/Date;->getYear()I
+
+    move-result v0
+
+    add-int/lit16 v2, v0, 0x76c
+
+    const/16 v1, 0xb
+
+    const/16 v0, 0x1f
+
+    invoke-virtual {v4, v2, v1, v0}, Ljava/util/Calendar;->set(III)V
+
+    :cond_0
+    invoke-virtual {p0, v3}, LX/0tgV;->setNonRecurrentForYear(Z)V
+
+    invoke-virtual {p0, p1}, LX/0tgV;->LIZJ(Ljava/util/Date;)V
+
+    invoke-virtual {p0, v4}, LX/0tgV;->setUpperBoundDate(Ljava/util/Calendar;)V
+
+    return-void
+.end method
+
+.method public final LIZJ(Ljava/util/Date;)V
+    .locals 4
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    if-nez v0, :cond_0
+
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    :cond_0
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, p1}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V
+
+    iget-object v1, p0, LX/0tgV;->LLILL:LX/125e;
+
+    const/4 v3, 0x5
+
+    if-eqz v1, :cond_1
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v3}, Ljava/util/Calendar;->getActualMaximum(I)I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->LJFF(I)V
+
+    :cond_1
+    iget-object v2, p0, LX/0tgV;->LL:LX/125e;
+
+    const/4 v1, 0x1
+
+    if-eqz v2, :cond_2
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    invoke-virtual {v2, v0}, LX/125e;->LJ(I)V
+
+    :cond_2
+    iget-object v2, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    if-eqz v2, :cond_3
+
+    iget-object v1, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    const/4 v0, 0x2
+
+    invoke-virtual {v1, v0}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, 0x1
+
+    invoke-virtual {v2, v0}, LX/125e;->LJ(I)V
+
+    :cond_3
+    iget-object v1, p0, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v1, :cond_4
+
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v3}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->LJ(I)V
+
+    :cond_4
+    return-void
+.end method
+
+.method public final getContainer()Landroid/widget/LinearLayout;
+    .locals 1
+
+    iget-object v0, p0, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    return-object v0
+.end method
+
+.method public final getDayOfMonth()I
+    .locals 2
+
+    iget-object v1, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    const/4 v0, 0x5
+
+    invoke-virtual {v1, v0}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final getDayOfMonthPicker()LX/125e;
+    .locals 1
+
+    iget-object v0, p0, LX/0tgV;->LLILL:LX/125e;
+
+    return-object v0
+.end method
+
+.method public final getLayoutInflater()Landroid/view/LayoutInflater;
+    .locals 1
+
+    iget-object v0, p0, LX/0tgV;->LLILZLL:Landroid/view/LayoutInflater;
+
+    return-object v0
+.end method
+
+.method public final getMonth()I
+    .locals 2
+
+    iget-object v1, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    const/4 v0, 0x2
+
+    invoke-virtual {v1, v0}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, 0x1
+
+    return v0
+.end method
+
+.method public final getMonthPicker()LX/125e;
+    .locals 1
+
+    iget-object v0, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    return-object v0
+.end method
+
+.method public final getYear()I
+    .locals 2
+
+    iget-object v1, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {v1, v0}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final getYearPicker()LX/125e;
+    .locals 1
+
+    iget-object v0, p0, LX/0tgV;->LL:LX/125e;
+
+    return-object v0
+.end method
+
+.method public final setContainer(Landroid/widget/LinearLayout;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0tgV;->LLILLIZIL:Landroid/widget/LinearLayout;
+
+    return-void
+.end method
+
+.method public final setDayOfMonthPicker(LX/125e;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0tgV;->LLILL:LX/125e;
+
+    return-void
+.end method
+
+.method public final setLowerBoundDate(Ljava/util/Calendar;)V
+    .locals 2
+
+    if-eqz p1, :cond_0
+
+    iget-object v1, p0, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v1, :cond_0
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, v0}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    iput v0, v1, LX/125e;->LLJILLL:I
+
+    invoke-virtual {v1}, LX/125e;->LJI()V
+
+    invoke-virtual {v1}, LX/125e;->LIZLLL()V
+
+    invoke-virtual {v1}, Landroid/view/View;->invalidate()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final setMonthPicker(LX/125e;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    return-void
+.end method
+
+.method public final setNonRecurrentForYear(Z)V
+    .locals 1
+
+    iget-object v0, p0, LX/0tgV;->LL:LX/125e;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0, p1}, LX/125e;->setNonRecurrent(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final setUpperBoundDate(Ljava/util/Calendar;)V
+    .locals 3
+
+    iput-object p1, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    if-eqz p1, :cond_2
+
+    iget-object v1, p0, LX/0tgV;->LL:LX/125e;
+
+    const/4 v2, 0x1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {p1, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/125e;->LJFF(I)V
+
+    :cond_0
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v1
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne v1, v0, :cond_2
+
+    iget-object v1, p0, LX/0tgV;->LLILIL:LX/125e;
+
+    const/4 v2, 0x2
+
+    if-eqz v1, :cond_1
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, 0x1
+
+    invoke-virtual {v1, v0}, LX/125e;->LJFF(I)V
+
+    :cond_1
+    iget-object v0, p0, LX/0tgV;->LLILLJJLI:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v1
+
+    iget-object v0, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    if-ne v1, v0, :cond_2
+
+    iget-object v2, p0, LX/0tgV;->LLILL:LX/125e;
+
+    if-eqz v2, :cond_2
+
+    iget-object v1, p0, LX/0tgV;->LLILLL:Ljava/util/Calendar;
+
+    const/4 v0, 0x5
+
+    invoke-virtual {v1, v0}, Ljava/util/Calendar;->get(I)I
+
+    move-result v0
+
+    invoke-virtual {v2, v0}, LX/125e;->LJFF(I)V
+
+    :cond_2
+    return-void
+.end method
+
+.method public final setYearPicker(LX/125e;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0tgV;->LL:LX/125e;
+
+    return-void
+.end method

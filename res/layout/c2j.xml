@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/g6c" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/zpe" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="200.0dp" n1:layout_alignParentTop="true" />
+    <X.0FH6 n1:layout_gravity="center" n1:id="@id/zpd" n1:background="?bn" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="end|top" n1:id="@id/zp_" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/zpb" n1:paddingTop="@dimen/qi" n1:paddingBottom="@dimen/qi" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:contentDescription="@string/eqj" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_tick" n2:fjt="@dimen/qo" n2:fk6="@dimen/qo" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/zp9" n1:padding="4.0dp" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginTop="11.0dp" n1:layout_alignParentTop="true" n1:importantForAccessibility="no" n1:layout_marginEnd="11.0dp" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_x_mark" n3:fmy="?e0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/oj2" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:contentDescription="@string/eqj" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_tick" n4:fjt="20.0dp" n4:fk6="20.0dp" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/zpg" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_below="@id/zpe" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+        <include n1:layout_gravity="center_vertical" n1:id="@id/jr4" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="match_parent" n1:layout_centerVertical="true" n1:layout_marginEnd="@dimen/r2" n1:layout_alignParentStart="true" layout="@layout/c2i" />
+        <include n1:gravity="end" n1:layout_gravity="center_vertical" n1:id="@id/opg" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="match_parent" n1:layout_centerVertical="true" n1:layout_marginStart="@dimen/r2" n1:layout_alignParentEnd="true" layout="@layout/c2i" />
+        <X.0G1G n1:id="@id/zpf" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/opg" n1:layout_toEndOf="@id/jr4" />
+    </RelativeLayout>
+</RelativeLayout>

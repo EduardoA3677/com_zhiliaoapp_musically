@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="107.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMc n1:id="@id/usu" n1:layout_width="68.0dp" n1:layout_height="wrap_content" n2:bt8="false" n2:btg="true" n2:bti="false" n2:btj="false" n2:btk="true" n2:bu4="52.0dp" n2:bu5="52.0dp" n2:ey9="6.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0mEY n1:layout_gravity="end" n1:id="@id/klr" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="3.0dp" n1:layout_marginTop="37.0dp" n1:src="@drawable/a9_" n1:scaleType="fitXY" n1:layout_marginStart="3.0dp" n3:bt6="true" n3:erj="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_gravity="end" n1:id="@id/kli" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="3.0dp" n1:layout_marginTop="37.0dp" n1:src="@drawable/by7" n1:scaleType="fitXY" n1:layout_marginStart="3.0dp" />
+</FrameLayout>

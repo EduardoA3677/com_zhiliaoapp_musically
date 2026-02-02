@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Aktifkan</string>
+    <string name="en0">%1$s tidak akan berfungsi jika layanan Google Play tidak diaktifkan.</string>
+    <string name="en1">Aktifkan layanan Google Play</string>
+    <string name="en2">Instal</string>
+    <string name="en3">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak ada di perangkat Anda.</string>
+    <string name="en4">Dapatkan layanan Google Play</string>
+    <string name="en5">Ketersediaan layanan Google Play</string>
+    <string name="en6">Kesalahan layanan Google Play</string>
+    <string name="en7">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="en8">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak didukung oleh perangkat Anda.</string>
+    <string name="en9">Update</string>
+    <string name="en_">%1$s tidak akan berjalan jika layanan Google Play tidak diperbarui.</string>
+    <string name="ena">Perbarui layanan Google Play</string>
+    <string name="enb">%1$s tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui.</string>
+    <string name="enc">Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

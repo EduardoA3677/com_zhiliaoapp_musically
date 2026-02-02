@@ -1,0 +1,28 @@
+.class public final Lcom/bytedance/android/livesdk/comp/api/subscription/event/SubGiftBatchSelectionChangeChannel;
+.super Lcom/bytedance/ies/sdk/datachannel/Channel;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/bytedance/ies/sdk/datachannel/Channel<",
+        "Ljava/util/HashMap<",
+        "Ljava/lang/Long;",
+        "Lkotlin/Pair<",
+        "+",
+        "Lcom/bytedance/android/live/base/model/user/User;",
+        "Ljava/lang/Object;",
+        ">;>;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/bytedance/ies/sdk/datachannel/Channel;-><init>()V
+
+    return-void
+.end method

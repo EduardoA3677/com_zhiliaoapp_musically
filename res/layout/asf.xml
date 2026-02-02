@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/uka" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_star_fill" n2:fmy="?me" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0qYa n1:layout_gravity="center_vertical" n1:id="@id/ree" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n3:bff="n2k" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/s4a" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/fdg" n1:background="?ly" n1:visibility="gone" n1:layout_width="1.0dp" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/qz" n1:layout_marginTop="@dimen/qz" n1:layout_marginRight="@dimen/qz" n1:layout_marginBottom="@dimen/qz" n1:layout_marginStart="@dimen/qz" n1:layout_marginEnd="@dimen/qz" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/slw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/slt" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n5:bwk="owf" n5:bwr="@id/slz" n5:bx9="owf" n5:bxc="owf" n5:bxd="0.5" n5:bxg="wrap" n5:fj2="q1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/slz" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="2.5dp" n6:bwk="owf" n6:bwq="owf" n6:bx8="@id/slt" n6:bxc="owf" n6:bxd="0.5" n6:fjq="@raw/icon_info_circle" n6:fmy="?a04" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

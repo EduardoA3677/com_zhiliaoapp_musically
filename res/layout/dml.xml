@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:id="@id/bbc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/jk5" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="8.0dp" n1:layout_marginVertical="8.0dp" />
+    <X.12nN n1:textSize="14.0dp" n1:textColor="?mh" n1:id="@id/n52" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="12.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n1:layout_toEndOf="@id/jk5" />
+</RelativeLayout>

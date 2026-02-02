@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0t5P n1:id="@id/vj6" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tiktok.sdk.powerviewpager.PowerViewPager n1:id="@id/view_pager" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxb="@id/vj6" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/lll" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwk="@id/view_pager" n4:bx9="@id/view_pager" n4:bxc="@id/view_pager" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/s92" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n5:bwk="@id/view_pager" n5:bwq="@id/view_pager" n5:bxc="@id/view_pager" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

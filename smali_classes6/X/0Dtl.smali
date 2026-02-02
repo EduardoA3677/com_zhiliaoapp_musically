@@ -1,0 +1,51 @@
+.class public final synthetic LX/0Dtl;
+.super LX/10fW;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LL:LX/0Dtl;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0Dtl;
+
+    invoke-direct {v0}, LX/0Dtl;-><init>()V
+
+    sput-object v0, LX/0Dtl;->LL:LX/0Dtl;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 4
+
+    const-class v3, Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/module/sku/v2/SkuEntranceState;
+
+    const-string v2, "getSelectImage()Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/module/sku/v2/ImageSelectData;"
+
+    const/4 v1, 0x0
+
+    const-string v0, "selectImage"
+
+    invoke-direct {p0, v3, v0, v2, v1}, LX/10fW;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/module/sku/v2/SkuEntranceState;
+
+    invoke-virtual {p1}, Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/module/sku/v2/SkuEntranceState;->getSelectImage()Lcom/ss/android/ugc/aweme/ecommerce/base/pdp/module/sku/v2/ImageSelectData;
+
+    move-result-object v0
+
+    return-object v0
+.end method

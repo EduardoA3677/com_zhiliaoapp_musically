@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/ea6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/vet" n1:background="@android:color/transparent" n1:layout_width="60.0dp" n1:layout_height="240.0dp" n1:src="@drawable/b7v" n1:contentDescription="swipe_to_go_to_shop" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ver" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:contentDescription="swipe_to_go_to_shop_chevron" n1:layout_marginStart="6.0dp" n2:fjq="@raw/icon_chevron_left_fill_ltr" n2:fmy="?zy" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="right|center" n1:id="@id/vey" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/c85" n1:layout_marginEnd="6.0dp" />
+</FrameLayout>

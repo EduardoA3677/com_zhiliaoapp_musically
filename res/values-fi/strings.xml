@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Ota käyttöön</string>
+    <string name="en0">%1$s ei toimi, ellet ota Google Play Palveluita käyttöön.</string>
+    <string name="en1">Ota Google Play Palvelut käyttöön</string>
+    <string name="en2">Asenna</string>
+    <string name="en3">%1$s ei toimi ilman Google Play Palveluita, jotka puuttuvat laitteeltasi.</string>
+    <string name="en4">Asenna Google Play Palvelut</string>
+    <string name="en5">Google Play Palveluiden saatavuus</string>
+    <string name="en6">Virhe Google Play -palveluissa</string>
+    <string name="en7">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
+    <string name="en8">%1$s ei toimi ilman Google Play Palveluita, joita laitteesi ei tue.</string>
+    <string name="en9">Päivitä</string>
+    <string name="en_">%1$s ei toimi, ellet päivitä Google Play Palveluita.</string>
+    <string name="ena">Päivitä Google Play Palvelut</string>
+    <string name="enb">%1$s ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä.</string>
+    <string name="enc">Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

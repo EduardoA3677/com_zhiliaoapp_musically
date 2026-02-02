@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/coi" n1:paddingBottom="4.0dp" n1:layout_width="match_parent" n1:layout_height="224.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/n4p" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:layout_gravity="bottom" n1:background="?zr" n1:layout_width="match_parent" n1:layout_height="1.0px" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/r__" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="p3" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gap" n1:layout_marginTop="@dimen/abj" n3:bx9="owf" n3:bxb="@id/r__" n3:fj2="ot" style="@style/abg" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gar" n1:layout_marginStart="@dimen/abh" n4:bx8="@id/gap" n4:bxc="@id/gap" n4:fj2="ot" style="@style/abg" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gat" n1:layout_marginStart="@dimen/abh" n5:bx8="@id/gar" n5:bxc="@id/gar" n5:fj2="ot" style="@style/abg" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gav" n1:layout_marginStart="@dimen/abh" n6:bx8="@id/gat" n6:bxc="@id/gat" n6:fj2="ot" style="@style/abg" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gaw" n1:layout_marginTop="@dimen/abj" n7:bx9="owf" n7:bxb="@id/gap" n7:fj2="ot" style="@style/abg" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gax" n1:layout_marginStart="@dimen/abh" n8:bx8="@id/gaw" n8:bxc="@id/gaw" n8:fj2="ot" style="@style/abg" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gay" n1:layout_marginStart="@dimen/abh" n9:bx8="@id/gax" n9:bxc="@id/gax" n9:fj2="ot" style="@style/abg" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gaz" n1:layout_marginStart="@dimen/abh" n10:bx8="@id/gay" n10:bxc="@id/gay" n10:fj2="ot" style="@style/abg" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</merge>

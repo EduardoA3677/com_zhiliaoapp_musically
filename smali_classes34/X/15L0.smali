@@ -1,0 +1,23 @@
+.class public final LX/15L0;
+.super Lcom/squareup/wire/Message$Builder;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/15L1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/squareup/wire/Message$Builder<",
+        "LX/15L1;",
+        "LX/15L0;",
+        ">;"
+    }
+.end annotation

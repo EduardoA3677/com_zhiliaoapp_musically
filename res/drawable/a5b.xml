@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:drawable="@drawable/a5d" n2:f83="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:drawable="@drawable/a5e"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</selector>

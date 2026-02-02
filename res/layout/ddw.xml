@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="start|bottom" n1:orientation="vertical" n1:id="@id/sof" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentBottom="true" n2:bpf="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/c30" />
+    <include layout="@layout/c31" />
+    <include layout="@layout/c2u" />
+</RelativeLayout>

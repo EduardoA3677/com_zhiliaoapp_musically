@@ -1,0 +1,129 @@
+.class public final Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;
+
+
+# static fields
+.field public static final LIZIZ:Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;
+
+
+# instance fields
+.field public final synthetic LIZ:Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;
+
+    invoke-direct {v0}, Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;-><init>()V
+
+    sput-object v0, Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;->LIZIZ:Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->get()Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;
+
+    move-result-object v1
+
+    const-class v0, Lcom/bytedance/ies/ugc/aweme/network/IRetrofitFactory;
+
+    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->getService(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/bytedance/ies/ugc/aweme/network/IRetrofitFactory;
+
+    sget-object v0, LX/0WOo;->LIZJ:Ljava/lang/String;
+
+    invoke-interface {v1, v0}, Lcom/bytedance/ies/ugc/aweme/network/IRetrofitFactory;->create(Ljava/lang/String;)LX/03Sa;
+
+    move-result-object v1
+
+    const-class v0, Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;
+
+    invoke-interface {v1, v0}, LX/03Sa;->create(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;
+
+    iput-object v0, p0, Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;->LIZ:Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public fetchStemFeedList(IZILjava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;
+    .locals 2
+    .param p1    # I
+        .annotation runtime LX/0ys7;
+            value = "count"
+        .end annotation
+    .end param
+    .param p2    # Z
+        .annotation runtime LX/0ys7;
+            value = "is_non_personalized"
+        .end annotation
+    .end param
+    .param p3    # I
+        .annotation runtime LX/0ys7;
+            value = "is_mock_provider"
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime LX/0ys7;
+            value = "mock_info"
+        .end annotation
+    .end param
+    .annotation runtime LX/0ysj;
+        value = "tiktok/feed/stem/v2"
+    .end annotation
+
+    .annotation runtime LX/0ysr;
+        value = 0x2
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(IZI",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/google/common/util/concurrent/ListenableFuture<",
+            "Lcom/ss/android/ugc/aweme/app/api/proto/ComposePbAndJson<",
+            "LX/15gV;",
+            "Lcom/ss/android/ugc/aweme/feed/model/FeedItemList;",
+            ">;>;"
+        }
+    .end annotation
+
+    const v0, 0x316ef
+
+    invoke-static {v0}, Lcom/bytedance/pumbaa/utility/method_id/MethodIDManager;->LJI(I)Z
+
+    move-result v1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/stemfeed/repo/StemFeedApi;->LIZ:Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Lcom/ss/android/ugc/aweme/stemfeed/repo/IStemFeedApi;->fetchStemFeedList(IZILjava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;
+
+    move-result-object v0
+
+    if-eqz v1, :cond_0
+
+    invoke-static {}, Lcom/bytedance/pumbaa/utility/method_id/MethodIDManager;->LJ()V
+
+    :cond_0
+    return-object v0
+.end method

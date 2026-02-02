@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137G n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0c3i n1:id="@id/ebi" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n2:bo0="wrap" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <include n1:id="@id/njv" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/nj4" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/ih5" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/et4" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/r_x" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/q4t" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/fnc" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/loq" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/pki" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/x0v" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/vbt" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/ibx" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/r9c" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/l5t" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/aiu" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/pgu" n1:visibility="gone" layout="@layout/gw_" />
+            <include n1:id="@id/viewer_wishes_group" n1:visibility="gone" layout="@layout/gw_" />
+        </X.0c3i>
+    </X.137G>
+</FrameLayout>

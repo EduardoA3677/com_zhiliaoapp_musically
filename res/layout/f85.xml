@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sy4" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <X.12nR n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.12nk n1:id="@id/ssy" n1:background="@null" n1:visibility="gone" n1:fadingEdge="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/h_w" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|ghl|ub8" />
+            </X.12nk>
+            <X.0LBQ n1:enabled="false" n1:id="@id/ron" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bw_="@null" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <FrameLayout n1:id="@id/hia" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                        <X.0o06 n1:id="@id/st5" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                        <X.0oCE n1:id="@id/t2w" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fkf="h_s" />
+                    </FrameLayout>
+                    <X.0KNz n1:id="@id/fr5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                </FrameLayout>
+            </X.0LBQ>
+        </X.12nR>
+    </FrameLayout>
+</LinearLayout>

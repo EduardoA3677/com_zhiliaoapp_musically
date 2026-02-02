@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="d2" parent="@style/ey" />
+    <style name="d9" parent="@style/ez" />
+    <style name="ey" parent="@style/ew">
+        <item name="bd9">?android:colorError</item>
+    </style>
+    <style name="ez" parent="@style/ex">
+        <item name="bd9">?android:colorError</item>
+    </style>
+    <style name="f0" parent="@style/f_">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="gt" parent="@style/f0" />
+    <style name="wa" parent="@style/w_">
+        <item name="android:colorBackground">@color/au</item>
+        <item name="android:windowBackground">@color/au</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:indeterminateDuration">1500</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:navigationBarColor">@color/au</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="bd3">#ff4081</item>
+        <item name="bd7">#0f161823</item>
+        <item name="bdf">@color/au</item>
+        <item name="bdg">@color/au</item>
+        <item name="fqf">false</item>
+        <item name="fqm">true</item>
+    </style>
+    <style name="a0_" parent="@android:style/Widget">
+        <item name="android:background">?bdf</item>
+        <item name="android:stateListAnimator">@animator/a</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

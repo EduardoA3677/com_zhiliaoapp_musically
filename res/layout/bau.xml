@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12xb n1:id="@id/zj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:layout_above="@id/zxo" n2:b4f="d4r" n2:bnz="sgh" n2:bo0="wrap" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0WJz n1:layout_gravity="center_vertical" n1:id="@id/zh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qz" n1:layout_marginEnd="@dimen/qz" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:layout_gravity="center_vertical" n1:id="@id/nci" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/nch" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="p7" />
+    <FrameLayout n1:id="@id/aar" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/yu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0WJz n1:layout_gravity="center_vertical" n1:id="@id/yr" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qz" n1:layout_marginEnd="@dimen/qz" />
+    <FrameLayout n1:id="@id/atg" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qz" n1:layout_marginEnd="@dimen/qz" />
+</X.12xb>

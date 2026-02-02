@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dv8" n1:background="?bw" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dv9" n1:background="?y5" n1:paddingTop="38.0dp" n1:layout_width="match_parent" n1:layout_height="88.0dp" n2:bwl="@id/obq" n2:bwq="owf" n2:bwz="0.0" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ov0" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentTop="true" n1:layout_marginStart="18.0dp" n1:layout_alignParentEnd="true" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_chevron_left_offset_ltr" n2:fmy="?zw" />
+        <com.bytedance.tux.badge.TuxAlertBadgeLayout n1:id="@id/tun" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginEnd="9.0dp" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:fi1="n1d" n2:fi2="3.0dp" n2:fi6="ocf">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/twu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fjq="@raw/icon_shopping_cart_ltr" n2:fjt="24.0dp" n2:fjz="false" n2:fk6="24.0dp" n2:fmy="?zw" />
+        </com.bytedance.tux.badge.TuxAlertBadgeLayout>
+        <X.05pF n1:id="@id/tuo" n1:background="@drawable/b1b" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="@id/tun" n2:bwq="@id/tun" n2:bx9="@id/tun" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ow9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="40.0dp" n1:layout_marginEnd="40.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/ow8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="p0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View n1:id="@id/fcz" n1:background="?lu" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.137G n1:scrollbarStyle="insideOverlay" n1:id="@id/obq" n1:scrollbars="vertical" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/dv9" n3:byn="spv" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <FrameLayout n1:id="@id/hkg" n1:background="?bx" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="15.0dp" n1:paddingEnd="15.0dp" />
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/sid" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+        </LinearLayout>
+    </X.137G>
+</androidx.constraintlayout.widget.ConstraintLayout>

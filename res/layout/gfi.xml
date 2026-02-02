@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="17.0dp" n1:textColor="?ekp" n1:gravity="center" n1:id="@id/xb0" n1:layout_width="0.0dp" n1:layout_height="54.0dp" n1:layout_marginLeft="28.0dp" n1:layout_marginRight="28.0dp" n1:text="@null" n1:layout_marginHorizontal="28.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/a6q" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0dp" n1:textColor="?ei2" n1:id="@id/r8l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginHorizontal="32.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/xb0" style="@style/q6" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:background="@drawable/drz" n1:layout_width="200.0dp" n1:layout_height="200.0dp" n4:bwk="@id/x_c" n4:bwq="@id/x_c" n4:bx9="@id/x_c" n4:bxc="@id/x_c" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/x_c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="26.0dp" n1:layout_marginBottom="26.0dp" n1:importantForAccessibility="no" n5:bwl="@id/xay" n5:bwq="owf" n5:bww="195.0dp" n5:bwx="120.0dp" n5:bx9="owf" n5:bxb="@id/r8l" n5:bxh="195.0dp" n5:bxi="120.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:id="@id/xay" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginHorizontal="32.0dp" n6:bwf="true" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/x_c" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.12nN n1:textSize="13.0dp" n1:textColor="?eks" n1:gravity="start" n1:layout_gravity="top" n1:id="@id/xax" n1:layout_width="match_parent" n1:layout_height="wrap_content" style="@style/a77" />
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

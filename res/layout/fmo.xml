@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/zsy" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:id="@id/sez" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bp9="h_y" n2:fps="0.61" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dgu" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="d4s" n2:bne="?yg" n2:etn="?yg" n2:eyl="@dimen/b8" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:id="@id/zr9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp" n1:maxLines="1" n1:layout_marginStart="10.0dp" n2:bwk="owf" n2:bx9="owf" n2:fj2="q2" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/pg3" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:importantForAccessibility="no" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_play_fill" n2:fjz="true" n2:fmy="?e0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/desc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="2" n1:importantForAccessibility="no" n1:textDirection="locale" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_vertical" n1:id="@id/b1k" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp">
+            <X.0D1z n1:id="@id/b1c" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n4:bne="?bv" n4:bwk="owf" n4:bx9="owf" n4:bxc="owf" n4:etn="?bv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/b1l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n5:bwg="true" n5:bwk="owf" n5:bwr="@id/zse" n5:bwz="0.0" n5:bx0="ori" n5:bx8="@id/b1c" n5:bxc="owf" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <ImageView n1:id="@id/zse" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:src="@drawable/bw0" n1:layout_marginEnd="2.0dp" n6:bwk="owf" n6:bwr="@id/los" n6:bx8="@id/b1l" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/los" n1:paddingTop="2.5dp" n1:paddingBottom="2.5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:textDirection="locale" n1:paddingStart="4.0dp" n1:paddingEnd="4.0dp" n7:bwk="owf" n7:bwq="owf" n7:bxc="owf" n7:fj2="px" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

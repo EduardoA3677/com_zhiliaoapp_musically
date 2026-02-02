@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a6u">4.0dp</dimen>
+    <dimen name="a6w">18.0dp</dimen>
+    <dimen name="a6x">40.0dp</dimen>
+    <dimen name="a6y">2.0dp</dimen>
+    <dimen name="a70">2.0dp</dimen>
+    <dimen name="a71">40.0dp</dimen>
+    <dimen name="a72">40.0dp</dimen>
+    <dimen name="a7e">4.0dp</dimen>
+</resources>

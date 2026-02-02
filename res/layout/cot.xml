@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="68.0dp" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0Cru n1:layout_gravity="center_vertical" n1:id="@id/b64" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+        <X.0rmn n1:layout_gravity="end|bottom" n1:id="@id/y7" n1:visibility="visible" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n2:b3w="@color/eo" n2:b5p="true" n2:bk8="true" n2:bsc="?a04" n2:f6x="?c3" n2:f6y="3.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/o37" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="12.0dp" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

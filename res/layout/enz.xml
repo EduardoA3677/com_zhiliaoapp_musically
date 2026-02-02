@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bp9="h_y" n2:fps="0.75" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:src="@drawable/cip" n1:scaleType="centerCrop" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?z3" n1:gravity="left" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="6.0dp" n1:layout_marginTop="3.0dp" n1:textFontWeight="600" n2:bx9="owf" n2:bxc="owf" n2:fj2="q0" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/n98" n1:background="?zo" n1:paddingLeft="6.0dp" n1:paddingTop="12.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:gravity="center" n1:id="@id/n99" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n1:textFontWeight="600" n2:bx9="owf" n2:bxc="owf" n2:fj2="q2" />
+                <X.0D2z n1:gravity="center" n1:id="@id/n97" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxWidth="160.0dp" n1:minWidth="120.0dp" n1:text="@null" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/n99" n2:fi8="true" n2:fi9="false" n2:fib="wf4" n2:fid="qhx" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <FrameLayout n1:id="@id/jb7" n1:background="@drawable/d2h" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="8.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_exclamation_mark_triangle_inline" n2:fjt="15.0dp" n2:fk6="15.0dp" n2:fmy="?z1" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

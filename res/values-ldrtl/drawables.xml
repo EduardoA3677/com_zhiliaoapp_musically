@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="co1">@drawable/co0</drawable>
+    <drawable name="co2">@drawable/co3</drawable>
+</resources>

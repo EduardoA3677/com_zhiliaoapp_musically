@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0E3O n1:orientation="vertical" n1:id="@id/us" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.ViewStubCompat n1:id="@id/w1" n1:layout="@layout/fg" n1:inflatedId="@id/w0" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <include layout="@layout/fw" />
+</X.0E3O>

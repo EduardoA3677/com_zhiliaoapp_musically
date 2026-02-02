@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:background="@drawable/d1e" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="6.0dp" n2:bp9="h_y" n2:fps="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0Cg1 n1:background="?by" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="2.0dp" n2:eyn="19.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jk5" n1:background="@drawable/d19" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0Ci6 n1:layout_gravity="end|top" n1:id="@id/d8q" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_marginEnd="20.0dp" n2:fig="?e0" n2:fih="dbb" n2:fii="n2i" n2:fij="?e0" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center|bottom" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n2:fj2="p7" />
+    </X.0Cg1>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

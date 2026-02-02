@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?f_3" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ean" n1:background="?f_3" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/wit" n1:background="?sz" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginBottom="10.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/gqe" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fmy="?xx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?fc3" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="oz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n1:id="@id/sw9" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingEnd="12.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/srg" n1:background="@drawable/ajf" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n4:fjq="@raw/icon_magnifying_glass" n4:fjt="16.0dp" n4:fk6="16.0dp" n4:fmy="?fc3" />
+            </FrameLayout>
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/eo0" n1:background="@drawable/ajf" n1:paddingLeft="10.0dp" n1:paddingRight="10.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:paddingHorizontal="10.0dp" n5:bwk="owf" n5:bwr="@id/sw9" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/eo1" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="4.0dp" n5:fjq="@raw/icon_templates_cards" n5:fjt="16.0dp" n5:fk6="16.0dp" n5:fmy="?fc3" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?fc3" n1:id="@id/eo2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n5:fj2="pv" />
+            </LinearLayout>
+            <View n1:id="@id/wiu" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="2.0dp" n1:elevation="20.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vj9" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0o6o n1:id="@id/vj6" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="40.0dp" n1:layout_marginLeft="2.0dp" n7:bwg="true" n7:bwk="owf" n7:bx9="owf" n7:bxc="owf" n7:fmh="false" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n1:id="@id/sw6" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" n8:bwk="owf" n8:bwq="owf" n8:bxc="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.viewpager.widget.ViewPager n1:id="@id/view_pager" n1:paddingLeft="8.0dp" n1:paddingTop="4.0dp" n1:paddingRight="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="8.0dp" />
+        <LinearLayout n1:id="@id/mlv" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp">
+            <include layout="@layout/p3" />
+            <include layout="@layout/p4" />
+        </LinearLayout>
+        <include layout="@layout/os" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/ase" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/asc" n1:layout_width="183.0dp" n1:layout_height="244.0dp" n1:scaleType="matrix" />
+    </FrameLayout>
+</FrameLayout>

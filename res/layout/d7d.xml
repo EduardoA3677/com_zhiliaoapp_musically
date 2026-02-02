@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hki" n1:padding="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textColor="?y0" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/ywt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="AI-generated" n1:maxLines="3" />
+</FrameLayout>

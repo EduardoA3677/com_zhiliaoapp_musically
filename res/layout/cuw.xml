@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/rky" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="120.0dp" n1:layout_height="match_parent" n1:layout_centerInParent="true" />
+    <FrameLayout n1:id="@id/ax9" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/rky" n1:layout_alignParentStart="true" />
+    <FrameLayout n1:id="@id/ax0" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/rky" n1:layout_alignParentEnd="true" />
+</RelativeLayout>

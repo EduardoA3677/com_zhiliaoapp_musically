@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_selected="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="rectangle">
+            <corners n1:radius="8.0dp" />
+            <solid n1:color="#ffff3b5c" />
+        </shape>
+    </item>
+    <item n2:state_selected="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="rectangle">
+            <corners n2:radius="8.0dp" />
+            <solid n2:color="@color/a3t" />
+        </shape>
+    </item>
+</selector>

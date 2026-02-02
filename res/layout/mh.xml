@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CUG n1:id="@id/fzs" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:eu_="s88" n2:fqe="56.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bgf="@dimen/b9">
+        <X.0CqU n1:id="@id/qnp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <View n1:layout_gravity="start|center" n1:id="@id/d4k" n1:background="@drawable/a3y" n1:visibility="gone" n1:layout_width="70.0dp" n1:layout_height="70.0dp" />
+    <View n1:layout_gravity="start|center" n1:id="@id/d4l" n1:background="@drawable/a3y" n1:visibility="gone" n1:layout_width="70.0dp" n1:layout_height="70.0dp" />
+</X.0CUG>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cp9 n1:theme="@style/wa" n1:layout_gravity="start|center" n1:id="@id/wb_guide" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0Cz4 n1:theme="@style/wa" n1:layout_gravity="start|center" n1:id="@id/wb_info_opt" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="28.0dp" />
+    <X.0nc2 n1:theme="@style/wa" n1:layout_gravity="start|center" n1:id="@id/ryl" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

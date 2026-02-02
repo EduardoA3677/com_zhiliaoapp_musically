@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">啟用</string>
+    <string name="en0">您必須啟用 Google Play 服務，方可執行「%1$s」。</string>
+    <string name="en1">啟用 Google Play 服務</string>
+    <string name="en2">安裝</string>
+    <string name="en3">您的裝置尚未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="en4">安裝 Google Play 服務</string>
+    <string name="en5">Google Play 服務的適用範圍</string>
+    <string name="en6">Google Play 服務錯誤</string>
+    <string name="en7">「%1$s」存取 Google Play 服務時發生問題。請稍後再試一次。</string>
+    <string name="en8">您的裝置不支援 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="en9">更新</string>
+    <string name="en_">您必須更新「Google Play 服務」，才能執行 %1$s。</string>
+    <string name="ena">更新 Google Play 服務</string>
+    <string name="enb">正在更新 Google Play 服務，更新完成後方可執行「%1$s」。</string>
+    <string name="enc">需要使用新版本的 Google Play 服務。更新會即將自動開始。</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

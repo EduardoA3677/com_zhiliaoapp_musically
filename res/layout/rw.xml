@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/mec" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+        <X.0sI8 n1:id="@id/nf6" n1:layout_width="180.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dp" n1:textDirection="ltr" n1:layoutDirection="ltr" n2:fae="13.0sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0sI8 n1:id="@id/j09" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:textDirection="ltr" n1:layoutDirection="ltr" n3:fae="16.0sp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0sI8 n1:id="@id/nc_" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:textDirection="ltr" n1:layoutDirection="ltr" n4:fae="16.0sp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/med" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+        <X.0sI8 n1:id="@id/j0_" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="80.0dp" n1:textDirection="ltr" n1:layoutDirection="ltr" n1:layout_marginStart="80.0dp" n5:fae="16.0sp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.0sI8 n1:id="@id/nca" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:textDirection="ltr" n1:layoutDirection="ltr" n6:fae="16.0sp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.0sI8 n1:id="@id/nf7" n1:layout_width="180.0dp" n1:layout_height="wrap_content" n1:textDirection="ltr" n1:layoutDirection="ltr" n7:fae="13.0sp" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View n1:background="@color/df" n1:layout_width="match_parent" n1:layout_height="1.0px" n1:layout_marginTop="76.0dp" n1:alpha="0.12" />
+    <View n1:background="@color/df" n1:layout_width="match_parent" n1:layout_height="1.0px" n1:layout_marginTop="112.0dp" n1:alpha="0.12" />
+</RelativeLayout>

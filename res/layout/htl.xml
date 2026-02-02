@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.view.icon.LiveIconView n1:padding="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n2:br4="?e_u" n2:brd="@color/a66" n2:brf="1.0dp" n2:brg="2.0dp" n2:brl="@color/au" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

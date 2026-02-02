@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ojo" n1:background="@drawable/a71" n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" n1:paddingVertical="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hf4" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Anchor Name" n1:maxLines="1" n1:layout_marginStart="4.0dp" n1:textFontWeight="500" n3:bwk="owf" n3:bwr="@id/s_j" n3:bx8="@id/hf4" n3:bxc="owf" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/s_j" n1:layout_width="8.0dp" n1:layout_height="match_parent" n4:bwk="owf" n4:bwr="@id/s9o" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/tew" n1:background="?yf" n1:visibility="gone" n1:layout_width="1.0dp" n1:layout_height="10.0dp" n1:layout_marginStart="6.0dp" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/s9o" n1:layout_width="wrap_content" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/s8k" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n5:bwk="owf" n5:bxc="owf">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zx" n1:ellipsize="end" n1:id="@id/xu6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="\#" n1:maxLines="1" n1:textFontWeight="500" n5:fj2="pz" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/s8i" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n5:fjq="@raw/icon_chevron_right_ltr" n5:fmy="?zx" />
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/s98" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="5.0dp" n5:fjq="@raw/icon_x_mark_small" n5:fmy="?zx" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

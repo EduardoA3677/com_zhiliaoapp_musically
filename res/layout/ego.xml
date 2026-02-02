@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:fillViewport="true">
+        <X.0oCE n1:id="@id/up1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/gm" n2:fm9="40.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </ScrollView>
+    <X.0oBn n1:layout_gravity="center_horizontal" n1:id="@id/upa" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="40.0dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <include n1:id="@id/bep" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwl="@id/sl5" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" layout="@layout/egp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0Cfc n1:id="@id/sl5" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginBottom="44.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/bep" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub n1:id="@id/v0p" n1:visibility="invisible" n1:layout="@layout/ent" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

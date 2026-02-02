@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/znr" n1:background="?ekj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12hi n1:textSize="14.0sp" n1:textColor="?ekr" n1:id="@id/y_y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerInParent="true" style="@style/a74" />
+</RelativeLayout>

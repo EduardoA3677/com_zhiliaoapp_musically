@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="59.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center" n1:id="@id/o0o" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="New follower" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/o0p" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:contentDescription="close new follower sheet" n1:layout_marginEnd="10.0dp" n3:fjq="@raw/icon_x_mark_small" n3:fmy="?xx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <androidx.compose.ui.platform.ComposeView n1:id="@id/o0n" n1:layout_width="match_parent" n1:layout_height="531.0dp" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.05iK n1:id="@id/ov7" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137G n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="108.0dp">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0x9L n1:textColor="?zw" n1:id="@id/w6z" n1:background="@drawable/b9i" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:scrollbars="vertical" n1:layout_width="match_parent" n1:layout_height="100.0dp" n1:layout_marginTop="7.5dp" n1:layout_marginBottom="12.0dp" n1:hint="@null" n1:maxLength="201" n1:textAlignment="viewStart" n1:paddingStart="16.0dp" n1:paddingEnd="18.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="p5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/r1r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="6.0dp" n1:text="@null" n1:layout_below="@id/w6z" n1:layout_marginStart="16.0dp" n1:layout_alignStart="@id/w6z" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <include n1:id="@id/r0t" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="0.0dp" n1:layout_below="@id/w6z" layout="@layout/b_7" />
+            <FrameLayout n1:id="@id/boe" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+        </LinearLayout>
+    </X.137G>
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/c_l" n1:background="?y4" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="16.0dp">
+        <X.0D2z n1:enabled="false" n1:gravity="center" n1:id="@id/c_m" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:fi8="false" n4:fib="l9r" n4:fid="t69" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</X.05iK>

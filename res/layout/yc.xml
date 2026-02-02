@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true" layout_height="match_parent" layout_width="match parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0oBn n1:layout_gravity="center" n1:id="@id/i_f" n1:visibility="visible" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/i_b" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/i_a" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n1:layout_margin="5.0dp" n2:fjq="@raw/icon_large_error_robot" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/i_d" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5.0dp" n1:text="@null" n3:fj2="p4" n3:fl1="20.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?yi" n1:id="@id/i_c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="5.0dp" n1:text="@null" n4:fl1="14.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/i_e" n1:background="?bx" n1:visibility="gone" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:layout_gravity="center" n1:id="@id/i6t" n1:layout_width="88.0dp" n1:layout_height="88.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center" n1:id="@id/i7_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" n5:fj2="p4" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/b_c" n1:background="?android:listDivider" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="10.0dp" />
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/i_i" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:overScrollMode="never" n6:bwq="owf" n6:bwz="0.0" n6:bx9="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+</X.137G>

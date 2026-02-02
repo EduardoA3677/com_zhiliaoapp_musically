@@ -1,0 +1,31 @@
+.class public final LX/0xss;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LIZ:Lcom/ss/android/ugc/aweme/shortvideo/model/MusicModel;
+
+.field public final LIZIZ:Ljava/lang/String;
+
+.field public final LIZJ:I
+
+.field public final LIZLLL:I
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;IILcom/ss/android/ugc/aweme/shortvideo/model/MusicModel;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p4, p0, LX/0xss;->LIZ:Lcom/ss/android/ugc/aweme/shortvideo/model/MusicModel;
+
+    iput-object p1, p0, LX/0xss;->LIZIZ:Ljava/lang/String;
+
+    iput p2, p0, LX/0xss;->LIZJ:I
+
+    iput p3, p0, LX/0xss;->LIZLLL:I
+
+    return-void
+.end method

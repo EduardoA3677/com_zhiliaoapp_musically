@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0Cg1 n1:layout_gravity="start|bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="4.0dp" n2:bwk="owf" n2:bxc="owf" n2:eyn="2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/v3d" n1:background="?y0" n1:paddingLeft="5.0dp" n1:paddingTop="2.0dp" n1:paddingRight="5.0dp" n1:paddingBottom="2.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="5.0dp" n1:paddingVertical="2.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:contentDescription="subscription star icon" n2:fjq="@raw/icon_star_ring" n2:fmy="?zw" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?cw" n1:layout_gravity="center_vertical" n1:id="@id/v48" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:contentDescription="sub only text view" n1:layout_marginStart="2.0dp" n2:fj2="qd" />
+    </LinearLayout>
+</X.0Cg1>

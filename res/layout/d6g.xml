@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/qsl" n1:background="?zq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:theme="@style/wn" n1:id="@id/wq2" n1:layout_width="match_parent" n1:layout_height="52.0dp" />
+    <View n1:id="@id/vw_divider" n1:background="?yh" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0o06 n1:id="@id/qpy" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0oBn n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="@dimen/r9" />
+        <X.0oBn n1:layout_gravity="center_horizontal" n1:id="@id/irb" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="@dimen/r9" />
+    </FrameLayout>
+</LinearLayout>

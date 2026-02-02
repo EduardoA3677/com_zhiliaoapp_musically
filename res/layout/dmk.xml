@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dfd" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/mbz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/kqn" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_marginBottom="20.0dp" />
+        <ImageView n1:id="@id/kqw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="180.0dp" n1:layout_marginBottom="20.0dp" n1:scaleType="fitEnd" n1:adjustViewBounds="true" />
+        <X.12nN n1:gravity="center" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginHorizontal="32.0dp" />
+        <X.12nN n1:gravity="center" n1:id="@id/y_y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginHorizontal="32.0dp" />
+    </LinearLayout>
+    <X.12pz n1:layout_gravity="center_horizontal" n1:id="@id/c7t" n1:layout_width="250.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="300.0dp" n3:bx3="owf" n3:bx7="owf" n3:bxc="owf" style="@style/a5x" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0rBl n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

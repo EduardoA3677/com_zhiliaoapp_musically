@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/bbc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="ltr" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/kqn" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/eky" />
+    <X.0cPR n1:layout_gravity="center_vertical" n1:id="@id/ipa" n1:background="@drawable/dmt" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="fitXY" />
+</LinearLayout>

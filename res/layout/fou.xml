@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/af0" n1:background="?y4" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="156.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/afa" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginHorizontal="12.0dp" n1:layout_marginVertical="8.0dp">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/af1" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="54.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/af9" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="12.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_ai_image" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:id="@id/afb" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="6.0dp" n3:bwk="owf" n3:bwr="@id/af8" n3:bx8="@id/af9" n3:bxc="owf" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/af8" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_x_mark_small" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/af_" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp">
+                <include layout="@layout/fki" />
+                <include layout="@layout/fki" />
+                <include layout="@layout/fki" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

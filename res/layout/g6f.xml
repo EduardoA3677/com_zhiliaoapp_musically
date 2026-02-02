@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ean" n1:background="@drawable/dpb" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137G n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/sq6" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/rhg" n1:background="@drawable/e0y" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="160.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+            <X.12nN n1:textColor="?fff" n1:id="@id/ngs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="6.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" style="@style/a6u" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/wnj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <X.12nN n1:textColor="?fff" n1:id="@id/ngt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="6.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" style="@style/a6u" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/wnk" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </LinearLayout>
+    </X.137G>
+</LinearLayout>

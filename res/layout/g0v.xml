@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vb n1:id="@id/scd" n1:background="?eid" n1:layout_width="120.0dp" n1:layout_height="92.0dp" n2:evp="8.0dp" n2:f7a="?ej8" n2:f7d="1.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0d3Z n1:layout_gravity="center" n1:id="@id/ojc" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginBottom="1.0dp" n1:layout_above="@id/xq0" n1:layout_alignParentLeft="true" n1:layout_marginStart="1.0dp" />
+    <X.0CQE n1:textSize="20.0dp" n1:textColor="?ffc" n1:gravity="center" n1:id="@id/yd0" n1:layout_width="match_parent" n1:layout_height="25.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="8.0dp" n1:maxWidth="104.0dp" n1:textAlignment="center" n1:letterSpacing="0.015" n1:layout_marginHorizontal="8.0dp" style="@style/a6o" />
+    <X.12nN n1:textSize="12.0dp" n1:textColor="?eks" n1:gravity="center" n1:id="@id/yfs" n1:layout_width="match_parent" n1:layout_height="15.0dp" n1:maxWidth="104.0dp" n1:layout_below="@id/yd0" n1:textAlignment="center" n1:letterSpacing="0.0134" style="@style/a7b" />
+    <X.12nN n1:textSize="12.0dp" n1:textColor="?eks" n1:gravity="center" n1:id="@id/xq0" n1:layout_width="match_parent" n1:layout_height="23.0dp" n1:maxWidth="104.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n1:letterSpacing="0.0134" style="@style/a7b" />
+</X.12vb>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?zo" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0l1c n1:orientation="vertical" n1:id="@id/imh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwu="0.5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="vertical" n1:id="@id/di6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="64.0dp" n3:bwu="0.5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/di5" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwf="true" n4:bwg="true" n4:bwk="owf" n4:bwq="owf" n4:bwy="0.8" n4:bx8="@id/di6" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.13dw n1:id="@id/at6" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:autoMirrored="true" n5:bwk="owf" n5:bwp="H,1:1" n5:bwq="owf" n5:bx8="@id/imh" n5:bxc="owf" n5:em4="true" n5:eme="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/ild" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:textAlignment="textEnd" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/at6" n6:fj2="ow" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

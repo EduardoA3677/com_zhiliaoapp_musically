@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/e92" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/bcj" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ll9" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_chevron_left_fill_ltr" n2:fmy="?xx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/ers" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n1:layout_marginBottom="3.0dp" n1:layout_marginStart="6.0dp" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n1:layout_marginBottom="3.0dp" n1:text="/" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/wx4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n1:layout_marginBottom="3.0dp" n1:layout_marginEnd="6.0dp" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/s8i" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:importantForAccessibility="no" n6:fjq="@raw/icon_chevron_right_fill_ltr" n6:fmy="?xx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View n1:layout_gravity="start" n1:id="@id/lm0" n1:layout_width="33.0dp" n1:layout_height="22.0dp" />
+    <View n1:layout_gravity="end" n1:id="@id/s9l" n1:layout_width="33.0dp" n1:layout_height="22.0dp" />
+</FrameLayout>

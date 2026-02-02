@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/aly" n1:layout_width="match_parent" n1:layout_height="66.0dp" n1:alpha="0.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e3" n1:id="@id/sg0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <HorizontalScrollView n1:id="@id/sr0" n1:scrollbars="none" n1:fadingEdgeLength="50.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="14.0dp" n1:requiresFadingEdge="horizontal">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/sr1" n1:layout_width="wrap_content" n1:layout_height="32.0dp">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/k_f" n1:layout_width="wrap_content" n1:layout_height="32.0dp" />
+            <View n1:id="@id/ggr" n1:background="?ye" n1:layout_width="1.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="14.0dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <RelativeLayout n1:theme="@style/wo" n1:layout_width="7.0dp" n1:layout_height="match_parent" n1:layout_centerHorizontal="true">
+        <View n1:id="@id/fll" n1:background="?xx" n1:layout_width="3.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="22.0dp" n1:layout_marginStart="2.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

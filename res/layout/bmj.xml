@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="9.0dp" n1:paddingBottom="9.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:id="@id/b64" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n2:bx3="owf" n2:bx9="owf" n2:bxc="owf" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/nuf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginStart="12.0dp" n3:bx4="@id/b64" n3:bx8="@id/b64" n3:bxc="@id/b64" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/desc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n4:bx3="@id/nuf" n4:bx9="@id/nuf" n4:bxb="@id/nuf" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/wc4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwk="@id/desc" n5:bwq="owf" n5:bx7="owf" n5:fj2="pw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/uka" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dp" n1:layout_marginStart="3.0dp" n6:bwk="@id/nuf" n6:bx8="@id/wpo" n6:bxc="@id/nuf" n6:fjq="@raw/icon_star_fill" n6:fmy="?mp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?mp" n1:id="@id/wpn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dp" n1:layout_marginStart="3.0dp" n7:bwk="@id/nuf" n7:bx8="@id/uka" n7:bxc="@id/nuf" n7:fj2="pz" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/wpo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dp" n1:layout_marginStart="3.0dp" n8:bwk="@id/nuf" n8:bx8="@id/nuf" n8:bxc="@id/nuf" n8:fj2="pu" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

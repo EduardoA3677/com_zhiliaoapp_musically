@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.feed.platform.cell.interact.view.InteractLinearLayout n1:theme="@style/hg" n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/f9v" n1:focusable="true" n1:focusableInTouchMode="true" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="yes" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout n1:layout_gravity="end" n1:id="@id/f9k" n1:focusable="false" n1:focusableInTouchMode="false" n1:clipChildren="false" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:importantForAccessibility="noHideDescendants" style="@style/a9x">
+        <ImageView n1:layout_gravity="center" n1:id="@id/tm4" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:src="@raw/icon_bitmap_shadow" n1:contentDescription="shadow_view" />
+        <X.0Mtv n1:layout_gravity="center" n1:id="@id/f9g" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:scaleType="centerInside" n1:contentDescription="@null" />
+    </com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout>
+    <com.ss.android.ugc.feed.platform.cell.interact.view.InteractRelativeLayout n1:layout_gravity="center_horizontal" n1:id="@id/f9m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+        <X.0ME0 n1:ellipsize="end" n1:id="@id/f9l" n1:paddingBottom="16.0dp" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_marginTop="-6.399994dp" n1:maxLines="1" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n1:layoutDirection="locale" n2:fj2="pz" style="@style/a_0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </com.ss.android.ugc.feed.platform.cell.interact.view.InteractRelativeLayout>
+    <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center_horizontal" n1:id="@id/f9s" n1:paddingBottom="16.0dp" n1:focusable="false" n1:focusableInTouchMode="false" n1:visibility="gone" n1:layout_marginTop="-6.399994dp" n1:text="Like" n1:importantForAccessibility="no" n3:fj2="pz" style="@style/a_0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</com.ss.android.ugc.feed.platform.cell.interact.view.InteractLinearLayout>

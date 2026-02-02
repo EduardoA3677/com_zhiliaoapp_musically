@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="8.0dp" n2:bwk="owf" n2:bwq="owf" n2:bwz="0.0" n2:bx8="@id/bam" n2:bxc="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <include n1:id="@id/b6v" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginEnd="12.0dp" n2:bwk="owf" n2:bwr="@id/mcl" n2:bx9="owf" n2:bxc="owf" layout="@layout/hyt" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/mcl" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwr="@id/nfu" n2:bx8="@id/b6v" n2:bxc="owf">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n2:fj2="p9" />
+        <FrameLayout n1:id="@id/jvc" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/y3p" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="px" />
+            <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/mev" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <X.13dw n1:id="@id/l_h" n1:layout_width="64.0dp" n1:layout_height="5.0dp" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/ygj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n2:fj2="px" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/nfu" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:contentDescription="@string/k5w" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_ellipsis_horizontal" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?e0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

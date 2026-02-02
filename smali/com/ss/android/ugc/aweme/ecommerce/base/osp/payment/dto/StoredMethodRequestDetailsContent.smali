@@ -1,0 +1,341 @@
+.class public final Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+    .annotation runtime LX/0B9U;
+        value = "configuration"
+    .end annotation
+.end field
+
+.field public final isSensitive:Z
+    .annotation runtime LX/0B9U;
+        value = "is_sensitive"
+    .end annotation
+.end field
+
+.field public final merchant_user_id:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "merchant_user_id"
+    .end annotation
+.end field
+
+.field public final nonce:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "nonce"
+    .end annotation
+.end field
+
+.field public final paymentMethodToken:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "payment_method_token"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->paymentMethodToken:Ljava/lang/String;
+
+    iput-boolean p2, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->isSensitive:Z
+
+    iput-object p3, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->merchant_user_id:Ljava/lang/String;
+
+    iput-object p4, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->nonce:Ljava/lang/String;
+
+    iput-object p5, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final copy(Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;)Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;
+    .locals 6
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;
+
+    move-object v5, p5
+
+    move-object v4, p4
+
+    move-object v3, p3
+
+    move v2, p2
+
+    move-object v1, p1
+
+    invoke-direct/range {v0 .. v5}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;-><init>(Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;)V
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v3
+
+    :cond_0
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;
+
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->paymentMethodToken:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->paymentMethodToken:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-boolean v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->isSensitive:Z
+
+    iget-boolean v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->isSensitive:Z
+
+    if-eq v1, v0, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->merchant_user_id:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->merchant_user_id:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->nonce:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->nonce:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    return v2
+
+    :cond_6
+    return v3
+.end method
+
+.method public final getConfiguration()Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+
+    return-object v0
+.end method
+
+.method public final getMerchant_user_id()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->merchant_user_id:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getNonce()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->nonce:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getPaymentMethodToken()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->paymentMethodToken:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->paymentMethodToken:Ljava/lang/String;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_3
+
+    const/4 v0, 0x0
+
+    :goto_0
+    mul-int/lit8 v1, v0, 0x1f
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->isSensitive:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->merchant_user_id:Ljava/lang/String;
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    :goto_1
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->nonce:Ljava/lang/String;
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    :goto_2
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;->hashCode()I
+
+    move-result v2
+
+    :cond_0
+    add-int/2addr v1, v2
+
+    return v1
+
+    :cond_1
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_2
+
+    :cond_2
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_1
+
+    :cond_3
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_0
+.end method
+
+.method public final isSensitive()Z
+    .locals 1
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->isSensitive:Z
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "StoredMethodRequestDetailsContent(paymentMethodToken="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->paymentMethodToken:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", isSensitive="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->isSensitive:Z
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", merchant_user_id="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->merchant_user_id:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", nonce="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->nonce:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", configuration="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsContent;->configuration:Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/dto/StoredMethodRequestDetailsConfig;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

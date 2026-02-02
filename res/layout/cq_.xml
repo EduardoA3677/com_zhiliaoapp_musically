@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/o0k" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/f6x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="40.0dp" n1:layout_marginHorizontal="40.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_horizontal" n1:layout_gravity="center_vertical" n1:id="@id/f6y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/f6w" n1:visibility="gone" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n1:contentDescription="@null" n1:layout_marginStart="4.0dp" n3:fjq="@raw/icon_person_phd_fill" n3:fjt="@dimen/qi" n3:fk6="@dimen/qi" n3:fmy="?a04" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="center_horizontal" n1:layout_gravity="center_horizontal" n1:id="@id/f6c" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="30.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="30.0dp" n1:layout_marginHorizontal="30.0dp" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a02" n1:layout_gravity="center_horizontal" n1:id="@id/f6d" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="24.0dp" n1:maxLines="1" n1:layout_marginHorizontal="24.0dp" n5:fj2="pz" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

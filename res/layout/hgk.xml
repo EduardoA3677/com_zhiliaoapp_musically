@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/rcd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxb="@id/rcf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.12nN n1:textColor="?c57" n1:id="@id/lqi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" n2:bxc="owf" style="@style/a77" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/ia7" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bxb="@id/lqi" n2:bxd="0.0" n2:by3="0.0dp" />
+    <X.12nN n1:textColor="?ei6" n1:id="@id/w38" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/ia7" style="@style/a7_" />
+</androidx.constraintlayout.widget.ConstraintLayout>

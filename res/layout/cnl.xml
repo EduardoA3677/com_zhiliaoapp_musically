@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/lw_" n1:layout_width="162.0dp" n1:layout_height="216.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.widget.RadiusLayout n1:theme="@style/wq" n1:layout_gravity="center" n1:id="@id/hgw" n1:background="?ye" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/m36" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <X.0D0L n1:id="@id/jh2" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <ViewStub n1:id="@id/wt1" n1:layout="@layout/ctj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginStart="12.0dp" />
+    <include layout="@layout/cnm" />
+</FrameLayout>

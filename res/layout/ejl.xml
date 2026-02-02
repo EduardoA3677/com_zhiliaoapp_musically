@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:id="@id/o_g" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/b82" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0msj n1:layout_gravity="center" n1:id="@id/hgj" n1:layout_width="68.0dp" n1:layout_height="68.0dp">
+            <X.0D1b n1:layout_gravity="center" n1:id="@id/kfb" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n2:etn="@color/d2" n2:eto="d4s" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </X.0msj>
+        <X.0rE5 n1:layout_gravity="center" n1:id="@id/b8h" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n3:elm="1.5dp" n3:elo="15.0dp" n3:fj2="qg" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <X.06KT n1:layout_gravity="center" n1:id="@id/view_unread" n1:visibility="gone" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n4:f7d="2.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

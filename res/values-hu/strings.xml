@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Engedélyezés</string>
+    <string name="en0">A(z) %1$s alkalmazás csak akkor működik, ha engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string name="en1">Google Play-szolgáltatások engedélyezése</string>
+    <string name="en2">Telepítés</string>
+    <string name="en3">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak az eszközről.</string>
+    <string name="en4">A Google Play-szolgáltatások beszerzése</string>
+    <string name="en5">Google Play-szolgáltatások elérhetősége</string>
+    <string name="en6">Google Play-szolgáltatások – hiba</string>
+    <string name="en7">A(z) %1$s alkalmazás problémába ütközött a Google Play-szolgáltatások használata során. Próbálkozzon újra.</string>
+    <string name="en8">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyeket eszköze nem támogat.</string>
+    <string name="en9">Frissítés</string>
+    <string name="en_">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
+    <string name="ena">A Google Play-szolgáltatások frissítése</string>
+    <string name="enb">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van.</string>
+    <string name="enc">A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

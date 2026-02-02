@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/kmm" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginEnd="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mER n1:layout_gravity="center" n1:id="@id/kmn" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:scaleType="center" n2:etn="@drawable/a57" n2:eyl="6.0dp" n2:fds="sg8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/bbb" n1:background="@drawable/aq2" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:scaleType="center" n1:alpha="0.6" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/m2v" n1:visibility="invisible" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginBottom="4.0dp" n1:scaleType="centerInside" n1:contentDescription="live photo icon" n1:layout_marginEnd="4.0dp" n3:fjq="@raw/icon_live_photo" n3:fjt="12.0dp" n3:fk6="12.0dp" n3:fmy="?xx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0Cxq n1:textColor="@color/vs" n1:layout_gravity="center" n1:id="@id/xxs" n1:paddingLeft="2.0dp" n1:paddingRight="2.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:shadowColor="@color/ut" n1:shadowDx="0.0" n1:shadowDy="2.0" n1:shadowRadius="3.0" n1:paddingStart="2.0dp" n1:paddingEnd="2.0dp" style="@style/aen" />
+    <View n1:layout_gravity="center" n1:id="@id/kml" n1:background="@drawable/aqz" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/kmo" n1:background="@drawable/ar0" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+    <TextView n1:textColor="@color/yy" n1:gravity="center" n1:layout_gravity="end|top" n1:id="@id/y4c" n1:background="@drawable/cen" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="3.0dp" n1:layout_marginRight="3.0dp" n1:layout_marginEnd="3.0dp" style="@style/aem" />
+</FrameLayout>

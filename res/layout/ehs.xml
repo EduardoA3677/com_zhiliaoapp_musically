@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="?bx" n1:focusable="true" n1:focusableInTouchMode="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/r29" n1:layout_width="match_parent" n1:layout_height="44.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/r2_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bx9="owf" n3:bxb="@id/r29" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/r24" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/r26" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n3:fj2="ot" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/r25" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n3:fj2="p5" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+            <X.11IK n1:textSize="16.0dp" n1:textColor="?zw" n1:textColorHint="?a04" n1:gravity="center_vertical" n1:id="@id/r23" n1:background="@drawable/ct8" n1:paddingTop="4.0dp" n1:paddingBottom="4.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dp" n1:hint="@null" n1:maxLines="4" n1:lineSpacingExtra="13.0dp" n1:inputType="textMultiLine" n1:textDirection="ltr" n1:textAlignment="viewStart" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n3:fj2="p_" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/r1x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="clear_all_pronouns" n1:layout_marginEnd="16.0dp" n3:bwk="@id/r23" n3:bwq="@id/r23" n3:bxc="@id/r23" n3:fjq="@raw/icon_x_mark_circle_fill" n3:fjt="16.0dp" n3:fk6="16.0dp" n3:fmy="?a04" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/r1y" n1:paddingTop="12.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="invalid_error" n3:fjq="@raw/icon_exclamation_mark_triangle_inline" n3:fmy="?a00" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?a00" n1:layout_gravity="center_vertical" n1:id="@id/r1z" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n3:fj2="pz" />
+        </LinearLayout>
+        <View n1:id="@id/z15" n1:background="?ly" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" />
+        <X.0oCE n1:id="@id/r2a" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0o06 n1:id="@id/r28" n1:paddingTop="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/r22" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="108.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="pu" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_horizontal" n1:id="@id/r21" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="pu" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0cPR n1:id="@id/kps" n1:background="@drawable/dl4" n1:padding="0.5dp" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:src="@drawable/dmt" n2:etn="@drawable/eic" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="?ekr" n1:id="@id/kpt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" style="@style/a7_" />
+    <X.0cPR n1:id="@id/kpp" n1:background="@drawable/dl4" n1:padding="0.5dp" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:src="@drawable/dmt" n1:layout_marginStart="2.0dp" n3:etn="@drawable/eic" n3:ey2="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="?ekr" n1:id="@id/kpu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" style="@style/a7_" />
+    <X.0cPR n1:id="@id/kpq" n1:background="@drawable/dl4" n1:padding="0.5dp" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:src="@drawable/dmt" n4:etn="@drawable/eic" n4:ey2="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="?ekr" n1:id="@id/kpv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" style="@style/a7_" />
+    <X.0cPR n1:id="@id/kpr" n1:background="@drawable/dl4" n1:padding="0.5dp" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:src="@drawable/dmt" n1:layout_marginStart="2.0dp" n5:etn="@drawable/eic" n5:ey2="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+    <X.12nN n1:textSize="12.0sp" n1:id="@id/y3r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" style="@style/a7a" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="?ekr" n1:id="@id/y3s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" style="@style/a7_" />
+</LinearLayout>

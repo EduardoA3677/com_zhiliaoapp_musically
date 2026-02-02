@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="1.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0xxm n1:layout_gravity="bottom" n1:id="@id/b0c" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" n2:bp7="?yn" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.feed.widget.LineProgressBar n1:id="@id/lrf" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CUX n1:id="@id/zue" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:ewe="?e1" n3:ewf="1.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

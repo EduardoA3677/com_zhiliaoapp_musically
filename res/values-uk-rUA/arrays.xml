@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Онлайн-бібліотека аудіозаписів</item>
+        <item>Мій аудіозапис</item>
+    </string-array>
+    <string-array name="q">
+        <item>Видалити</item>
+        <item>Скасувати</item>
+    </string-array>
+    <string-array name="t">
+        <item>У тренді</item>
+        <item>Останнє</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Неділя</item>
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П’ятниця</item>
+        <item>Субота</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Спрощена китайська</item>
+        <item>Китайська (традиційна)</item>
+        <item>Англійська</item>
+        <item>Японська</item>
+        <item>Корейська</item>
+        <item>Російська</item>
+        <item>Індонезійська</item>
+        <item>Малайська</item>
+        <item>Португальська</item>
+        <item>Тайська</item>
+        <item>В’єтнамська</item>
+        <item>Хінді</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Нормальний</item>
+        <item>Чорно-білий</item>
+        <item>Мистецтво</item>
+        <item>Старовинний</item>
+        <item>Ретролюкс</item>
+        <item>Насичений</item>
+        <item>Хром</item>
+    </string-array>
+    <string-array name="af">
+        <item>Січ.</item>
+        <item>Лют.</item>
+        <item>Бер.</item>
+        <item>Квіт.</item>
+        <item>Трав.</item>
+        <item>Черв.</item>
+        <item>Лип.</item>
+        <item>Серп.</item>
+        <item>Вер.</item>
+        <item>Жовт.</item>
+        <item>Лист.</item>
+        <item>Груд.</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Пріоритет економії трафіку</item>
+        <item>Пріоритет якості зображення</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Усі</item>
+        <item>Лише друзі</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П’ятниця</item>
+        <item>Субота</item>
+        <item>Неділя</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:theme="@style/hg" n1:gravity="center" n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/fc0" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="end" n1:id="@id/fbl" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="50.0dp" n1:layout_height="50.0dp" style="@style/a9x">
+        <X.0MqZ n1:layout_gravity="center" n1:id="@id/fbr" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:scaleType="centerInside" />
+    </FrameLayout>
+    <RelativeLayout n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="ltr">
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:gravity="center" n1:id="@id/fbm" n1:layout_marginTop="-6.399994dp" n1:maxWidth="70.0dp" n1:maxLines="1" n1:layout_centerHorizontal="true" n1:importantForAccessibility="no" n1:layoutDirection="locale" n2:fj2="pz" style="@style/a_0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

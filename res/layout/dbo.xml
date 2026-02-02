@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/nsv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/xwf" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dp" n1:layout_weight="1.0" n1:layout_marginEnd="4.0dp" style="@style/aar" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0Clq n1:layout_gravity="center_vertical" n1:id="@id/rrn" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/xw_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dp" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginEnd="4.0dp" n1:breakStrategy="simple" style="@style/aar" />
+        <X.0Clq n1:layout_gravity="center_vertical" n1:id="@id/rrm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <X.0Clq n1:layout_gravity="center_horizontal" n1:id="@id/rro" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:padding="4.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center" n1:id="@id/lwe" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="2" style="@style/a6r" />
+    <X.0D2z n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/h3l" n1:layout_width="126.0dp" n1:layout_height="33.0dp" n1:layout_marginTop="20.0dp" n1:text="@null" n2:fib="n2i" n2:fid="qhx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

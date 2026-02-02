@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:alpha="0.0" n1:layoutDirection="ltr" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/iiy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="240.0dp" n1:alpha="0.0" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/iiw" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layoutDirection="locale" n1:paddingStart="10.0dp" n1:paddingEnd="12.0dp">
+            <ImageView n1:layout_gravity="center_vertical" n1:id="@id/iiz" n1:layout_width="38.0dp" n1:layout_height="38.0dp" n1:contentDescription="tip image" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/ij0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="187.0dp" n1:minWidth="12.0dp" n1:text="shop here" n1:maxLines="1" n1:layout_marginStart="6.0dp" n2:fj2="pv" />
+        </LinearLayout>
+        <ImageView n1:id="@id/iix" n1:layout_width="26.0dp" n1:layout_height="8.0dp" n1:src="@drawable/bik" n1:scaleType="fitXY" n1:contentDescription="tip arrow" n1:layoutDirection="locale" n1:layout_marginStart="10.0dp" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView n1:id="@id/iis" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:layout_marginStart="6.0dp" n3:ba3="?sz" n3:ba4="@dimen/b9" n3:ba5="0.0dp" n3:bwk="owf" n3:bx8="@id/iip" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.12vT n1:id="@id/iit" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:b8g="?z3" n3:b8i="1.0dp" n3:evp="@dimen/b9" />
+        <X.12vT n1:id="@id/iiu" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" n3:b8g="?z3" n3:b8i="2.0dp" n3:end="?xp" n3:evp="@dimen/b9" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView n1:id="@id/iip" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:layout_marginStart="6.0dp" n4:ba3="?sz" n4:ba4="@dimen/b9" n4:ba5="0.0dp" n4:bwk="owf" n4:bx8="@id/iin" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.12vT n1:id="@id/iiq" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:b8g="?z3" n4:b8i="1.0dp" n4:evp="@dimen/b9" />
+        <X.12vT n1:id="@id/iir" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" n4:b8g="?z3" n4:b8i="2.0dp" n4:end="?zp" n4:evp="@dimen/b9" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView n1:id="@id/iin" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n5:ba3="?sz" n5:ba4="@dimen/b9" n5:ba5="6.0dp" n5:bwk="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.12vT n1:id="@id/iio" n1:layout_width="match_parent" n1:layout_height="match_parent" n5:b8g="?z3" n5:b8i="1.0dp" n5:evp="@dimen/b9" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

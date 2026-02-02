@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@drawable/djq" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?eks" n1:gravity="center" n1:id="@id/lzd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n2:ewn="true" style="@style/a77" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekp" n1:id="@id/lz1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="13.0dp" n1:layout_below="@id/lzd" style="@style/a6q" />
+    <X.12nN n1:textColor="?ejv" n1:id="@id/lz7" n1:background="@drawable/djs" n1:paddingLeft="12.0dp" n1:paddingTop="6.5dp" n1:paddingRight="12.0dp" n1:paddingBottom="6.5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" n1:paddingHorizontal="12.0dp" n1:paddingVertical="6.5dp" style="@style/a6s" />
+</RelativeLayout>

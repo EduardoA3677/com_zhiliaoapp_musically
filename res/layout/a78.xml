@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:paddingBottom="15.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.137G n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <FrameLayout n1:id="@id/z3p" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+                    <X.13dw n1:layout_gravity="center_horizontal" n1:id="@id/z3l" n1:focusable="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n2:em4="true" n2:eme="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                    <FrameLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/z3q" n1:background="@drawable/aej" n1:paddingTop="42.0dp" n1:paddingBottom="50.0dp" n1:visibility="gone" n1:layout_width="210.0dp" n1:layout_height="229.0dp" n1:layout_marginTop="52.0dp" n1:elevation="6.0dp" n1:outlineProvider="background">
+                        <LinearLayout n1:orientation="vertical" n1:background="@drawable/aek" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingTop="7.0dp" n1:paddingBottom="7.0dp" n1:layout_width="match_parent" n1:layout_height="30.0dp" n1:layout_marginTop="29.0dp" n1:paddingStart="16.0dp" n1:paddingVertical="7.0dp">
+                                <X.0rPQ n1:background="?yh" n1:layout_width="16.0dp" n1:layout_height="16.0dp" />
+                                <X.0Cg1 n1:background="?yh" n1:layout_width="89.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="8.0dp" n3:eyn="@dimen/ba" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                            </LinearLayout>
+                            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?yh" n1:paddingTop="7.0dp" n1:paddingBottom="7.0dp" n1:layout_width="match_parent" n1:layout_height="30.0dp" n1:paddingStart="16.0dp" n1:paddingVertical="7.0dp">
+                                <com.bytedance.tux.icon.TuxIconView n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:contentDescription="pro inbox upgrade guide popup fallback diagram star icon" n4:fjq="@raw/icon_star" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                                <X.0Cg1 n1:background="?yg" n1:layout_width="89.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="8.0dp" n5:eyn="@dimen/ba" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                            </LinearLayout>
+                            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingTop="7.0dp" n1:paddingBottom="7.0dp" n1:layout_width="match_parent" n1:layout_height="30.0dp" n1:paddingStart="16.0dp" n1:paddingVertical="7.0dp">
+                                <X.0rPQ n1:background="?yh" n1:layout_width="16.0dp" n1:layout_height="16.0dp" />
+                                <X.0Cg1 n1:background="?yh" n1:layout_width="89.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="8.0dp" n6:eyn="@dimen/ba" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                </FrameLayout>
+                <LinearLayout n1:orientation="vertical" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="32.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/qjr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n7:fj2="pk" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+                    <RelativeLayout n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:paddingVertical="12.0dp">
+                        <com.bytedance.tux.icon.TuxIconView n1:id="@id/qjt" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentTop="true" n1:contentDescription="pro inbox upgrade guide popup 1st label cell icon" n1:layout_alignParentStart="true" n8:fjq="@raw/icon_camera_flash_fill" n8:fmy="?zz" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/qjz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_alignTop="@id/qjt" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/qjt" n9:fj2="p3" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/qjw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="@null" n1:layout_below="@id/qjz" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/qjt" n10:fj2="p5" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <RelativeLayout n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                        <com.bytedance.tux.icon.TuxIconView n1:id="@id/qju" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentTop="true" n1:contentDescription="pro inbox upgrade guide popup 2nd label cell icon" n1:layout_alignParentStart="true" n11:fjq="@raw/icon_control_fill" n11:fmy="?zz" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/qk0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_alignTop="@id/qju" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/qju" n12:fj2="p3" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/qjx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="@null" n1:layout_below="@id/qk0" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/qju" n13:fj2="p5" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                    <RelativeLayout n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:paddingVertical="12.0dp">
+                        <com.bytedance.tux.icon.TuxIconView n1:id="@id/qjv" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentTop="true" n1:contentDescription="pro inbox upgrade guide popup 3rd label cell icon" n1:layout_alignParentStart="true" n14:fjq="@raw/icon_widget_filled" n14:fmy="?zz" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/qk1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_alignTop="@id/qjv" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/qjv" n15:fj2="p3" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/qjy" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="@null" n1:layout_below="@id/qk1" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/qjv" n16:fj2="p5" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </X.137G>
+        <LinearLayout n1:orientation="horizontal" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:paddingHorizontal="32.0dp">
+            <X.0D2z n1:id="@id/qjs" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="0.5" n1:layout_marginEnd="8.0dp" n17:fib="l9r" n17:fid="t69" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+            <X.0D2z n1:id="@id/qjq" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="0.5" n18:fib="l9r" n18:fid="qhx" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/z3o" n1:padding="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="4.0dp" n1:contentDescription="pro inbox upgrade guide popup close icon" n1:layout_marginEnd="6.0dp" n19:fjq="@raw/icon_x_mark" n19:fmy="?zw" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.11RT n1:id="@id/zvc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="99.0dp" n2:fi7="0.0" n2:fiy="0.18" n2:flv="?dm" n2:flw="frs" n2:fm_="zn0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CWY n1:layout_gravity="center_horizontal" n1:id="@id/zvd" n1:visibility="gone" n1:layout_width="88.0dp" n1:layout_height="140.0dp" n1:layout_marginBottom="90.0dp" />
+    <X.0Cfx n1:id="@id/t4b" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="148.0dp" />
+    <RelativeLayout n1:id="@id/zvb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="240.0dp" n1:layout_marginBottom="49.0dp">
+        <View n1:id="@id/c0i" n1:layout_width="match_parent" n1:layout_height="0.100000024dp" n1:layout_alignParentBottom="true" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/es6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="60.0dp" n1:layout_above="@id/c0i" n1:layout_toStartOf="@id/es5" n3:fj2="ov" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/es5" n1:layout_width="6.0dp" n1:layout_height="20.0dp" n1:text="/" n1:layout_alignTop="@id/es6" n1:layout_alignBottom="@id/es6" n1:layout_centerHorizontal="true" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp" n4:fj2="p3" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:id="@id/wxl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignTop="@id/es6" n1:layout_toEndOf="@id/es5" n5:fj2="ov" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <X.0NR9 n1:id="@id/zva" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="18.0dp" />
+</FrameLayout>

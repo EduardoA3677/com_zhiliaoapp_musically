@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_gravity="center" n1:orientation="vertical" n1:background="@drawable/asw" n1:layout_width="280.0dp" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/dj2" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_margin="8.0dp" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" n2:fjq="@raw/icon_x_mark_circle_fill" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/j5e" n1:layout_width="115.0dp" n1:layout_height="99.5dp" n1:layout_marginTop="20.0dp" n1:layout_centerHorizontal="true" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center" n1:id="@id/wgq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="GET UP TO $30 EVERY DAY" n1:layout_below="@id/j5e" n1:layout_centerHorizontal="true" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/eb1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="27.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="27.0dp" n1:text="by simply referring your friends to TikTok!" n1:layout_below="@id/wgq" n1:layout_centerHorizontal="true" n1:layout_marginStart="27.0dp" n1:layout_marginEnd="27.0dp" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/cps" n1:background="@drawable/d2_" n1:paddingTop="14.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="24.0dp" n1:text="Refer" n1:layout_below="@id/eb1" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp" n5:fj2="p4" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</FrameLayout>

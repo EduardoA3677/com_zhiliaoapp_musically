@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/sed" android:background="@drawable/d_z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="112.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.bytedance.tux.icon.TuxIconView android:layout_gravity="end" android:id="@id/cuq" android:padding="2.0dp" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="4.0dp" android:layout_marginEnd="4.0dp" n2:fjq="@raw/icon_x_mark_small" n2:fmy="?bx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="16.0dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/eso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                <X.12xq android:layout_gravity="center" android:id="@id/kt3" android:background="@drawable/asx" android:layout_width="48.0dp" android:layout_height="48.0dp" n3:bhf="?e0" n3:bhh="100.0" n3:bhk="2.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.input.TuxTextView android:textColor="?e0" android:gravity="center" android:layout_gravity="center" android:id="@id/qvb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" style="@style/aat" />
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView android:textColor="?e0" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/n52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="208.0dp" android:singleLine="false" n4:b5k="1.0dp" n4:b5l="z1f" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView android:textColor="?e0" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/cv_" android:background="@drawable/asv" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dzy" android:singleLine="false" n5:b5k="1.0dp" n5:b5l="z1f" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView android:textColor="?e0" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/wfj" android:visibility="gone" android:layout_width="170.0dp" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" n6:fj2="p7" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:paddingLeft="28.0dp" n1:paddingTop="12.0dp" n1:paddingRight="28.0dp" n1:paddingBottom="28.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="28.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:id="@id/e6s" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fi8="true" n2:fib="l9r" n2:fid="qhx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

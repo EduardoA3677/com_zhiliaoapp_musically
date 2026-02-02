@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sed" n1:background="?bx" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ue1" n1:paddingBottom="11.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_marginTop="8.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/udr" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginTop="4.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/nq6" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="4.5dp" n1:layout_marginStart="8.0dp" n3:fjq="@raw/icon_music_note_s_alt" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0Cxj n1:textColor="?zw" n1:ellipsize="marquee" n1:id="@id/nrc" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="17.0dp" n1:layout_marginTop="4.0dp" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="24.0dp" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/lu6" n1:paddingBottom="24.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0oCE n1:gravity="center" n1:id="@id/up1" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0o06 n1:id="@id/qav" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/u35" n1:background="@drawable/b05" n1:layout_width="match_parent" n1:layout_height="375.0dp" />
+    <View n1:background="@drawable/b05" n1:layout_width="168.0dp" n1:layout_height="30.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+    <View n1:background="@drawable/b05" n1:layout_width="match_parent" n1:layout_height="22.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="12.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+    <View n1:background="@drawable/b05" n1:layout_width="match_parent" n1:layout_height="22.0dp" n1:layout_marginLeft="@dimen/mj" n1:layout_marginTop="4.0dp" n1:layout_marginRight="@dimen/mj" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+    <View n1:background="@drawable/b05" n1:layout_width="132.0dp" n1:layout_height="17.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginStart="@dimen/mj" />
+    <View n1:background="?bv" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" />
+    <include layout="@layout/apm" />
+</LinearLayout>

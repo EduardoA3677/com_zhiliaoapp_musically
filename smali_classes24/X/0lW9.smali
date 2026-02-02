@@ -1,0 +1,63 @@
+.class public final LX/0lW9;
+.super LX/12zq;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic LIZ:Ljava/lang/String;
+
+.field public final synthetic LIZIZ:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0lW9;->LIZ:Ljava/lang/String;
+
+    iput-object p2, p0, LX/0lW9;->LIZIZ:Ljava/lang/String;
+
+    invoke-direct {p0}, LX/12zq;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    .locals 3
+
+    invoke-super {p0, p1, p2}, LX/12zq;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+
+    const-class v0, Landroid/widget/Button;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p2, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setClassName(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v2, p0, LX/0lW9;->LIZ:Ljava/lang/String;
+
+    :goto_0
+    new-instance v1, LX/12zz;
+
+    const/16 v0, 0x10
+
+    invoke-direct {v1, v0, v2}, LX/12zz;-><init>(ILjava/lang/CharSequence;)V
+
+    invoke-virtual {p2, v1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->addAction(LX/12zz;)V
+
+    return-void
+
+    :cond_0
+    iget-object v2, p0, LX/0lW9;->LIZIZ:Ljava/lang/String;
+
+    goto :goto_0
+.end method

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n2:ba3="@color/a10" n2:ba4="@dimen/b3" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:background="?y5" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="247.0dp" n2:fly="mzu" n2:fm7="mzu" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:paddingLeft="@dimen/r5" n1:paddingTop="6.0dp" n1:paddingRight="@dimen/r5" n1:paddingBottom="@dimen/r5" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:paddingHorizontal="@dimen/r5">
+            <X.0mMn n1:id="@id/u30" n1:layout_width="match_parent" n1:layout_height="@dimen/qi" n1:layout_marginTop="@dimen/qz" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fly="mzu" n2:fm4="@dimen/qu" n2:fm7="mzu" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="@dimen/qz" n2:bwq="owf" n2:bwz="0.0" n2:bx9="owf" n2:bxb="@id/u30">
+                <X.0mMn n1:id="@id/u3s" n1:layout_width="@dimen/qo" n1:layout_height="@dimen/qo" n2:fly="mzu" n2:fm4="@dimen/qb" n2:fm7="mzu" />
+                <X.0mMn n1:layout_gravity="center_vertical" n1:id="@id/u3t" n1:layout_width="69.0dp" n1:layout_height="@dimen/qi" n1:layout_marginStart="@dimen/qz" n2:fly="mzu" n2:fm4="@dimen/qu" n2:fm7="mzu" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

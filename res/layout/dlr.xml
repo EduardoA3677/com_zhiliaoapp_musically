@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center" n1:clipChildren="true" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kjy" n1:layout_width="45.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="8.0dp" n1:scaleType="fitCenter" n1:layout_marginStart="8.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:eyl="@dimen/b_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bjp" n1:background="?dm" n1:layout_width="45.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="8.0dp" n1:scaleType="centerCrop" n1:alpha="0.35" n1:layout_marginStart="8.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kjo" n1:layout_width="45.0dp" n1:layout_height="60.0dp" n1:scaleType="fitCenter" n4:bwk="owf" n4:bx9="owf" n4:bxc="owf" n4:eyl="@dimen/b_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bjo" n1:background="?dm" n1:layout_width="45.0dp" n1:layout_height="60.0dp" n1:scaleType="centerCrop" n1:alpha="0.35" n5:bwk="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/eso" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:bwk="owf" n6:bwq="@id/kjo" n6:bx9="@id/kjo" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <X.12xr n1:layout_gravity="center" n1:id="@id/kt3" n1:background="@drawable/ao4" n1:layout_width="41.5dp" n1:layout_height="41.5dp" n6:bha="false" n6:bhf="@color/au" n6:bhg="true" n6:bhh="100.0" n6:bhj="-90.0" n6:bhk="2.5dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/xk_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:fj2="q2" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

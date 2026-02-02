@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/urr" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uvb" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="@id/vks" n2:bwq="owf" n2:bx9="owf" n2:bxc="@id/vks" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.viewpager.widget.ViewPager n1:id="@id/utq" n1:layout_width="0.0dp" n1:layout_height="262.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/c6r" n1:paddingLeft="13.0dp" n1:paddingTop="8.0dp" n1:paddingRight="13.0dp" n1:paddingBottom="8.0dp" n1:layout_width="50.0dp" n1:layout_height="44.0dp" n1:src="@drawable/ed0" n1:paddingHorizontal="13.0dp" n1:paddingVertical="8.0dp" n4:bwl="@id/utq" n4:bwr="@id/wt0" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/wt0" n1:background="?fek" n1:layout_width="1.0px" n1:layout_height="16.0dp" n5:bwk="@id/c6r" n5:bwr="@id/vks" n5:bx8="@id/c6r" n5:bxc="@id/c6r" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.135T n1:textSize="15.0dp" n1:id="@id/vks" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginEnd="8.0dp" n6:bwk="@id/c6r" n6:bwq="owf" n6:bx8="@id/wt0" n6:bxc="@id/c6r" n6:f89="h64" n6:f8e="?fen" n6:f8j="2.0dp" n6:f8m="22.0dp" n6:f8n="sqt" n6:f8q="1.0dp" n6:f8r="1.0dp" n6:f8u="?fen" n6:f8z="#80ffffff" n6:fan="@style/a0h" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?eff" n1:layout_width="match_parent" n1:layout_height="0.5dp" n7:bxb="@id/vks" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ck7" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="150.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/cjm" n1:background="?yh" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginBottom="12.0dp" />
+    <X.0o06 n1:id="@id/cjt" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</LinearLayout>

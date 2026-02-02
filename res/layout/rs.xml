@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layoutDirection="ltr" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cxl n1:textColor="@color/xi" n1:id="@id/ypd" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="15.0dp" n1:text="00:00" n1:layout_centerVertical="true" n1:layout_marginStart="15.0dp" style="@style/aen" />
+    <X.0Cxl n1:textColor="@color/xi" n1:id="@id/xyk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="15.0dp" n1:text="00:15" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginEnd="15.0dp" n1:layout_alignParentEnd="true" style="@style/aen" />
+    <FrameLayout n1:id="@id/g9v" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+        <X.0mEH n1:id="@id/db2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bpc="28.0dp" n2:bpe="28.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/buw" n1:layout_width="match_parent" n1:layout_height="28.0dp" />
+        <X.0mDj n1:id="@id/g9u" n1:layout_width="match_parent" n1:layout_height="28.0dp" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/sbd" n1:layout_width="20.0dp" n1:layout_height="40.0dp" n1:layout_alignLeft="@id/g9v" n1:layout_centerVertical="true" n1:layout_alignStart="@id/g9v">
+        <ImageView n1:layout_gravity="start|center" n1:id="@id/xu4" n1:layout_width="4.0dp" n1:layout_height="40.0dp" />
+    </FrameLayout>
+</merge>

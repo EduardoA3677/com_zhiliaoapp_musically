@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d4p n1:layout_gravity="center|top" n1:id="@id/lyn" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginStart="12.0dp" />
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <ImageView n1:layout_gravity="center" n1:id="@id/url" n1:focusable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:src="@drawable/edq" n1:importantForAccessibility="no" />
+        <X.12nN n1:textSize="13.0dp" n1:textColor="?c3s" n1:id="@id/urm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="@null" n1:layout_marginStart="4.0dp" style="@style/a79" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gn8" n1:paddingLeft="32.0dp" n1:paddingRight="32.0dp" n1:visibility="gone" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="32.0dp">
+        <ImageView n1:id="@id/uro" n1:focusable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:src="@drawable/edr" n1:importantForAccessibility="no" n2:bwk="owf" n2:bwr="@id/urp" n2:bx0="ori" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="13.0dp" n1:textColor="?c3s" n1:id="@id/urp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="2" n1:translationY="-1.0dp" n1:textAlignment="center" n1:layout_marginStart="4.0dp" n3:bwq="owf" n3:bx8="@id/uro" n3:bxc="@id/uro" style="@style/a79" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ae1" n1:visibility="gone" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.13dw n1:gravity="center" n1:id="@id/qvb" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n4:bwl="@id/cus" n4:bwr="@id/qwl" n4:bx0="ori" n4:bx9="owf" n4:bxc="owf" n4:bxe="ujj" n4:em4="true" n4:eme="true" n4:emg="@raw/tux_lottie_common_creation_ailoading_hexgra_progress" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:id="@id/qwl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="6.0dp" n1:fontFeatureSettings="tnum" n5:bwk="@id/qvb" n5:bwq="owf" n5:bx8="@id/qvb" n5:bxc="@id/qvb" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ekp" n1:id="@id/cus" n1:background="@drawable/f6r" n1:paddingLeft="12.0dp" n1:paddingTop="8.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="8.0dp" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:text="@null" n1:paddingHorizontal="12.0dp" n1:paddingVertical="8.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/qvb" style="@style/q8" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

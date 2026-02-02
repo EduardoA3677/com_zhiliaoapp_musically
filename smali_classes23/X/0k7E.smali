@@ -1,0 +1,61 @@
+.class public final LX/0k7E;
+.super LX/0k7C;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/0k7C;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final handle(Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseParamModel;Lcom/bytedance/sdk/xbridge/registry/core/model/idl/CompletionBlock;LX/0WFr;)V
+    .locals 3
+
+    check-cast p1, LX/0k7D;
+
+    new-instance v2, LX/02AT;
+
+    invoke-interface {p1}, LX/0k7D;->getSource()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, LX/02AT;-><init>(Ljava/lang/String;)V
+
+    new-instance v1, Lkotlin/jvm/internal/AwS498S0100000_22;
+
+    const/16 v0, 0x861
+
+    invoke-direct {v1, v2, v0}, Lkotlin/jvm/internal/AwS498S0100000_22;-><init>(LX/02AT;I)V
+
+    invoke-static {v1}, LX/02Xe;->LIZJ(Lkotlin/jvm/functions/Function0;)V
+
+    const-class v1, LX/0k7B;
+
+    const/4 v0, 0x0
+
+    invoke-static {v1, v0}, LX/0Ws2;->LIZJ(Ljava/lang/Class;Ljava/lang/String;)Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseModel;
+
+    move-result-object v1
+
+    check-cast v1, LX/0k7B;
+
+    const/4 v0, 0x1
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0}, LX/0k7B;->setCode(Ljava/lang/Number;)V
+
+    const-string v0, ""
+
+    invoke-interface {p2, v1, v0}, Lcom/bytedance/sdk/xbridge/registry/core/model/idl/CompletionBlock;->onSuccess(Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseResultModel;Ljava/lang/String;)V
+
+    return-void
+.end method

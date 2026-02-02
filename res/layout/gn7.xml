@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/xr" n1:background="@drawable/dvh" n1:padding="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="50.0dp" n1:layout_marginEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/l8_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwr="@id/cps" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:theme="@style/xr" n1:textSize="13.0dp" n1:textColor="?eks" n1:ellipsize="marquee" n1:id="@id/l81" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:requiresFadingEdge="horizontal" n2:bx9="owf" n2:bxc="owf" style="@style/a6u" />
+        <X.12nN n1:theme="@style/xr" n1:textSize="14.0dp" n1:textColor="?ekr" n1:id="@id/wwn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n2:bx9="owf" n2:bxb="@id/l81" style="@style/a6q" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.12pz n1:id="@id/cps" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:minWidth="64.0dp" n3:bc0="true" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/l8_" n3:bxc="owf" style="@style/a5n" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

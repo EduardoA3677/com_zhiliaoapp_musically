@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/ops" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/znq" n1:background="@drawable/dxm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/hjq" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/kfz" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n2:br4="?cty" n2:brl="?ehx" />
+            <X.12nN n1:textSize="17.0sp" n1:textColor="?ehx" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:text="@null" n1:maxLines="1" n1:lineSpacingExtra="3.0sp" n1:layout_marginStart="52.0dp" n1:layout_marginEnd="52.0dp" n2:b5h="17.0sp" n2:b5i="13.0sp" n2:b5k="4.0sp" n2:b5l="z1f" n2:bp3="btv" />
+        </FrameLayout>
+        <View n1:id="@id/view_shadow" n1:background="?edb" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bxb="@id/hjq" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/sjw" n1:paddingTop="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="23.0dp" />
+    </LinearLayout>
+</LinearLayout>

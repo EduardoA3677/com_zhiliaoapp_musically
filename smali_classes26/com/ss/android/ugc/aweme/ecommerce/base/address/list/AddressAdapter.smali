@@ -1,0 +1,76 @@
+.class public final Lcom/ss/android/ugc/aweme/ecommerce/base/address/list/AddressAdapter;
+.super LX/0DY3;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0DY3<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LLILLJJLI:Landroidx/lifecycle/LifecycleOwner;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/lifecycle/LifecycleOwner;)V
+    .locals 7
+
+    const-string v3, "shipping_info"
+
+    new-instance v2, LX/0qHY;
+
+    invoke-direct {v2}, LX/0qHY;-><init>()V
+
+    const/4 v4, 0x0
+
+    const/16 v6, 0xf8
+
+    move-object v1, p1
+
+    move-object v0, p0
+
+    move-object v5, v4
+
+    invoke-direct/range {v0 .. v6}, LX/0DY3;-><init>(Landroidx/lifecycle/LifecycleOwner;LX/0lbO;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;I)V
+
+    iput-object v1, v0, Lcom/ss/android/ugc/aweme/ecommerce/base/address/list/AddressAdapter;->LLILLJJLI:Landroidx/lifecycle/LifecycleOwner;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LLJZIJLIL()Lcom/ss/android/ugc/aweme/ecommerce/core/engine/IComponentStrategyService;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/ss/android/ugc/aweme/ecommerce/core/engine/IComponentStrategyService<",
+            "*>;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/ss/android/ugc/aweme/ecommerce/base/address/list/DefaultAddressListStrategyService;
+
+    invoke-direct {v0}, Lcom/ss/android/ugc/aweme/ecommerce/base/address/list/DefaultAddressListStrategyService;-><init>()V
+
+    return-object v0
+.end method
+
+.method public final getBasicItemViewType(I)I
+    .locals 1
+
+    iget-object v0, p0, LX/0lbB;->LLILLIZIL:LX/0lb7;
+
+    invoke-virtual {v0, p1}, LX/0lah;->LIZIZ(I)I
+
+    move-result v0
+
+    return v0
+.end method

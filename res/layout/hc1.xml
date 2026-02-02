@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:id="@id/uj9" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n2:ffh="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

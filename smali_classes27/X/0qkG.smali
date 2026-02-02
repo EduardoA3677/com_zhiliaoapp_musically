@@ -1,0 +1,55 @@
+.class public final LX/0qkG;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0qjm;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(LX/0qk7;LX/0qgv;)Landroidx/fragment/app/Fragment;
+    .locals 3
+
+    const-class v0, Lcom/bytedance/android/livesdk/comp/api/game/service/IGameService;
+
+    invoke-static {v0}, LX/0kIf;->LIZJ(Ljava/lang/Class;)LX/0263;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/bytedance/android/livesdk/comp/api/game/service/IGameService;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0, p1, p2}, Lcom/bytedance/android/livesdk/comp/api/game/service/IGameService;->y20(Ljava/lang/Object;Ljava/lang/Object;)Lcom/bytedance/android/livesdk/game/chatroom/drawer/category/GameDrawerCategoryFragment;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    return-object v2
+
+    :cond_0
+    new-instance v2, Lcom/bytedance/android/livesdk/feed/drawerfeed/game/normal/GameDrawerFeedFragment;
+
+    new-instance v1, LX/0qki;
+
+    invoke-direct {v1, p0}, LX/0qki;-><init>(Ljava/lang/Object;)V
+
+    new-instance v0, LX/0qkm;
+
+    invoke-direct {v0, p0}, LX/0qkm;-><init>(Ljava/lang/Object;)V
+
+    invoke-direct {v2, p1, p2, v1, v0}, Lcom/bytedance/android/livesdk/feed/drawerfeed/game/normal/GameDrawerFeedFragment;-><init>(LX/0qk7;LX/0qgv;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
+
+    return-object v2
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/vcx" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/bli" n1:layout_width="12.0dp" n1:layout_height="12.0dp" />
+    <FrameLayout n1:id="@id/wsv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/wsw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/wsu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/gsw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="2.0dp" n4:fj2="q1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

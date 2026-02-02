@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="horizontal" n1:layout_width="326.0dp" n1:layout_height="80.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="start|center" n1:orientation="horizontal" n1:id="@id/trw" n1:layout_width="match_parent" n1:layout_height="80.0dp" n1:layout_marginEnd="109.0dp">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:layout_gravity="start|center" n1:id="@id/tru" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginStart="16.0dp" n2:bne="@raw/icon_color_default_avatar" n2:eyo="?ly" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/n6c" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingEnd="12.0dp" n1:layout_marginStart="12.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/o3k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="1.0dp" n1:maxLines="1" n3:fj2="pa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:layout_gravity="start|center" n1:id="@id/try" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="end|center" n1:id="@id/rr6" n1:layout_width="93.0dp" n1:layout_height="32.0dp" n1:maxLines="1" n1:layout_marginEnd="16.0dp" n5:fib="u9x" n5:fid="qhx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

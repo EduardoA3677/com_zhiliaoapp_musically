@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/s3u" n1:layout="@layout/at8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" />
+    <X.0qX0 n1:id="@id/s3s" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0qWw n1:id="@id/s3p" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <ViewStub n1:id="@id/s3o" n1:layout="@layout/asp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <X.0qWy n1:id="@id/s3q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <View n1:id="@id/ykm" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="8.0dp" />
+    <ViewStub n1:id="@id/s3y" n1:layout="@layout/atb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <ViewStub n1:id="@id/s3w" n1:layout="@layout/at9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <X.0qWz n1:id="@id/s3z" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+</merge>

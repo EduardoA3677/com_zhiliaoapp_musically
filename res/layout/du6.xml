@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/agt" n1:visibility="gone" n1:layout_width="49.0dp" n1:layout_height="18.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center" n1:id="@id/ags" n1:layout_width="49.0dp" n1:layout_height="18.0dp" />
+    </LinearLayout>
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="start|center" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textDirection="locale" n1:textAlignment="viewStart" n1:layout_toStartOf="@id/tmg" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/tmg" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_arrow_turn_up_right" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <FrameLayout n1:id="@id/nn9" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0uIU n1:id="@id/nn8" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="28.0dp" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/nn_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/ybg" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:singleLine="true" n1:drawablePadding="4.0dp" n1:layout_weight="1.0" n1:textDirection="locale" n1:textAlignment="viewStart" n4:fj2="pv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/mq7" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="2.0dp" n5:fjq="@raw/icon_chevron_right_offset_fill_ltr" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <View n1:id="@id/nna" n1:background="?yh" n1:visibility="gone" n1:layout_width="100.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="8.0dp" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+        <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/zds" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="6.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_vertical" n1:id="@id/zdq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="330.0dp" n1:singleLine="true" n6:fj2="pu" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <LinearLayout n1:layout_gravity="center_vertical" n1:id="@id/rdi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:importantForAccessibility="no" n7:fjq="@raw/icon_arrow_broken_line_up" n7:fmy="?zy" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/vnl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="2.0dp" n8:fj2="q2" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/sfr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/zqn" n1:layout_width="190.0dp" n1:layout_height="253.0dp" n2:b41="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n3:fjq="@raw/icon_play_fill" n3:fmy="?xx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="start|bottom" n1:id="@id/vpt" n1:paddingLeft="10.0dp" n1:paddingTop="4.0dp" n1:paddingRight="10.0dp" n1:paddingBottom="10.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="10.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/vps" n1:layout_width="32.0dp" n1:layout_height="32.0dp" />
+    </FrameLayout>
+    <FrameLayout n1:layout_gravity="end|bottom" n1:id="@id/vpv" n1:paddingLeft="10.0dp" n1:paddingTop="4.0dp" n1:paddingRight="10.0dp" n1:paddingBottom="10.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="10.0dp">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/vpu" n1:layout_width="wrap_content" n1:layout_height="32.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/vpw" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginStart="8.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center_vertical" n1:id="@id/vpx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="10.0dp" n4:fj2="pv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

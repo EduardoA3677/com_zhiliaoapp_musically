@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:paddingTop="8.0dp" n1:paddingBottom="16.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center_horizontal" n1:layout_gravity="center_horizontal" n1:id="@id/y5a" n1:paddingLeft="50.0dp" n1:paddingRight="50.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="50.0dp" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0b8D n1:layout_gravity="center_horizontal" n1:id="@id/sf6" n1:paddingTop="14.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <ViewStub n1:layout_gravity="center_horizontal" n1:id="@id/rgr" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:layout_marginTop="-8.0dp" />
+    </LinearLayout>
+    <X.13dw n1:layout_gravity="center|bottom" n1:id="@id/jk0" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="220.0dp" n1:layout_marginBottom="16.0dp" />
+</FrameLayout>

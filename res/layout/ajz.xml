@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/wk7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:scrollbarThumbVertical="@drawable/zt" n1:scrollbarAlwaysDrawVerticalTrack="false" n1:scrollbarStyle="outsideInset" n1:id="@id/sr0" n1:scrollbars="vertical" n1:fadingEdge="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="18.0dp" n1:scrollbarFadeDuration="0" n1:fadeScrollbars="true" n1:overScrollMode="never">
+        <com.bytedance.tux.input.TuxTextView n1:gravity="start" n1:id="@id/edl" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,226 @@
+.class public final LX/0n9W;
+.super LX/0n9S;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Cloneable;
+
+
+# instance fields
+.field public final LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+.field public final LLILLL:LX/0n9T;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ss/android/ugc/aweme/comment/model/Comment;LX/0n9T;)V
+    .locals 0
+
+    invoke-direct {p0, p1, p2}, LX/0n9S;-><init>(Lcom/ss/android/ugc/aweme/comment/model/Comment;LX/0n9T;)V
+
+    iput-object p1, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    iput-object p2, p0, LX/0n9W;->LLILLL:LX/0n9T;
+
+    return-void
+.end method
+
+.method public static LJ(LX/0n9W;LX/0n9T;)LX/0n9W;
+    .locals 2
+
+    iget-object v1, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    new-instance v0, LX/0n9W;
+
+    invoke-direct {v0, v1, p1}, LX/0n9W;-><init>(Lcom/ss/android/ugc/aweme/comment/model/Comment;LX/0n9T;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final LIZ()Lcom/ss/android/ugc/aweme/comment/model/Comment;
+    .locals 1
+
+    iget-object v0, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    return-object v0
+.end method
+
+.method public final LIZIZ()LX/0n9T;
+    .locals 1
+
+    iget-object v0, p0, LX/0n9W;->LLILLL:LX/0n9T;
+
+    return-object v0
+.end method
+
+.method public final LIZLLL()LX/0n9W;
+    .locals 13
+
+    new-instance v2, LX/0n9W;
+
+    iget-object v0, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/comment/model/Comment;->clone()Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    move-result-object v1
+
+    iget-object v3, p0, LX/0n9W;->LLILLL:LX/0n9T;
+
+    const/4 v4, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const v12, 0x1fffff
+
+    move v5, v4
+
+    move v6, v4
+
+    move v9, v4
+
+    move v10, v4
+
+    move v11, v4
+
+    invoke-static/range {v3 .. v12}, LX/0n9T;->LIZ(LX/0n9T;ZZIFLjava/lang/String;ZZZI)LX/0n9T;
+
+    move-result-object v0
+
+    invoke-direct {v2, v1, v0}, LX/0n9W;-><init>(Lcom/ss/android/ugc/aweme/comment/model/Comment;LX/0n9T;)V
+
+    new-instance v1, LX/0n9U;
+
+    invoke-direct {v1}, LX/0n9U;-><init>()V
+
+    iget-object v0, v2, LX/0n9S;->LLILLIZIL:LX/0n9U;
+
+    iget-object v0, v0, LX/0n9U;->LIZ:LX/0nUz;
+
+    iput-object v0, v1, LX/0n9U;->LIZ:LX/0nUz;
+
+    iput-object v1, v2, LX/0n9S;->LLILLIZIL:LX/0n9U;
+
+    return-object v2
+.end method
+
+.method public final bridge synthetic clone()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, LX/0n9W;->LIZLLL()LX/0n9W;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v3
+
+    :cond_0
+    instance-of v0, p1, LX/0n9W;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, LX/0n9W;
+
+    iget-object v1, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    iget-object v0, p1, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, LX/0n9W;->LLILLL:LX/0n9T;
+
+    iget-object v0, p1, LX/0n9W;->LLILLL:LX/0n9T;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    return v2
+
+    :cond_3
+    return v3
+.end method
+
+.method public final hashCode()I
+    .locals 2
+
+    iget-object v0, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/comment/model/Comment;->hashCode()I
+
+    move-result v0
+
+    mul-int/lit8 v1, v0, 0x1f
+
+    iget-object v0, p0, LX/0n9W;->LLILLL:LX/0n9T;
+
+    invoke-virtual {v0}, LX/0n9T;->hashCode()I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    return v1
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "CommentItem(comment="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0n9W;->LLILLJJLI:Lcom/ss/android/ugc/aweme/comment/model/Comment;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", commentUIState="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0n9W;->LLILLL:LX/0n9T;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

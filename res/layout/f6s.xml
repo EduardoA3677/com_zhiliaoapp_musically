@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/udv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="3.0dp" n2:bwk="owf" n2:bwq="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0VwG n1:layout_gravity="center" n1:id="@id/udt" n1:padding="5.0dp" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n2:b82="od6" n2:b83="@raw/icon_speaker_2_ltr" n2:b84="@null" n2:b85="?e0" n2:b86="@raw/icon_speaker_x_mark_ltr" n2:b87="@null" n2:b88="?e0" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/eeu" n1:padding="5.0dp" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_music_note_s_alt_slash" n2:fmy="?e3" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/rzx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="14.0dp" n1:layout_marginEnd="14.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:gravity="center" n1:id="@id/hek" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Tiešsaistes skaņu bibliotēka</item>
+        <item>Mana skaņa</item>
+    </string-array>
+    <string-array name="l">
+        <item>Notīrīt</item>
+    </string-array>
+    <string-array name="q">
+        <item>Dzēst</item>
+        <item>Atcelt</item>
+    </string-array>
+    <string-array name="t">
+        <item>Populāri</item>
+        <item>Jaunākais</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Atlasīt no galerijas</item>
+    </string-array>
+    <string-array name="a7">
+        <item>svētdiena</item>
+        <item>pirmdiena</item>
+        <item>otrdiena</item>
+        <item>trešdiena</item>
+        <item>ceturtdiena</item>
+        <item>piektdiena</item>
+        <item>sestdiena</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Vienkāršotā ķīniešu</item>
+        <item>Tradicionālā ķīniešu</item>
+        <item>Angļu</item>
+        <item>Japāņu</item>
+        <item>Korejiešu</item>
+        <item>Krievu</item>
+        <item>Indonēziešu</item>
+        <item>Malajiešu</item>
+        <item>Portugāļu</item>
+        <item>Taju</item>
+        <item>Vjetnamiešu</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normāls</item>
+        <item>Melnbalts</item>
+        <item>Māksla</item>
+        <item>Senatnīgs</item>
+        <item>Retroluksuss</item>
+        <item>Piesātināts</item>
+        <item>Hroms</item>
+    </string-array>
+    <string-array name="af">
+        <item>janv.</item>
+        <item>feb.</item>
+        <item>marts</item>
+        <item>apr.</item>
+        <item>maijs</item>
+        <item>jūn.</item>
+        <item>jūl.</item>
+        <item>aug.</item>
+        <item>sept.</item>
+        <item>okt.</item>
+        <item>nov.</item>
+        <item>dec.</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Vispirms datu taupošs</item>
+        <item>Vispirms augsta izšķirtspēja</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Visi</item>
+        <item>Tikai draugi</item>
+    </string-array>
+    <string-array name="bq">
+        <item>pirmdiena</item>
+        <item>otrdiena</item>
+        <item>trešdiena</item>
+        <item>ceturtdiena</item>
+        <item>piektdiena</item>
+        <item>sestdiena</item>
+        <item>svētdiena</item>
+    </string-array>
+</resources>

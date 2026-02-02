@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Ljudbibliotek online</item>
+        <item>Mitt ljud</item>
+    </string-array>
+    <string-array name="q">
+        <item>Ta bort</item>
+        <item>Avbryt</item>
+    </string-array>
+    <string-array name="t">
+        <item>Populärt</item>
+        <item>Senaste</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Välj från Galleri</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Söndag</item>
+        <item>måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Förenklad kinesiska</item>
+        <item>Traditionell kinesiska</item>
+        <item>Engelska</item>
+        <item>Japanska</item>
+        <item>Koreanska</item>
+        <item>Ryska</item>
+        <item>Indonesiska</item>
+        <item>Malajiska</item>
+        <item>Portugisiska</item>
+        <item>Thailändska</item>
+        <item>Vietnamesiska</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Svartvitt</item>
+        <item>Konst</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Mättad</item>
+        <item>Krom</item>
+    </string-array>
+    <string-array name="af">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Spara data först</item>
+        <item>Hög upplösning först</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Alla</item>
+        <item>Bara vänner</item>
+    </string-array>
+    <string-array name="bq">
+        <item>måndag</item>
+        <item>tisdag</item>
+        <item>onsdag</item>
+        <item>torsdag</item>
+        <item>fredag</item>
+        <item>lördag</item>
+        <item>söndag</item>
+    </string-array>
+</resources>

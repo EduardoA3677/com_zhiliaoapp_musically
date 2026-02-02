@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/ikg" n1:paddingTop="2.0dp" n1:paddingBottom="2.0dp" n1:visibility="gone" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:paddingStart="2.0dp" n1:paddingEnd="2.0dp" n1:layout_marginEnd="10.0dp" n2:br4="?crs" n2:brl="?eju" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?eju" n1:layout_gravity="center_vertical" n1:id="@id/ild" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="204.0dp" style="@style/pz" />
+</LinearLayout>

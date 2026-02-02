@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/efp" n1:layout_width="66.0dp" n1:layout_height="12.0dp">
+        <X.0CJ2 n1:id="@id/efo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <ImageView n1:layout_gravity="start|center" n1:id="@id/efn" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:src="@drawable/ejn" n1:scaleType="fitXY" n1:importantForAccessibility="no" />
+            <X.12nN n1:textAppearance="@style/a7g" n1:textSize="10.0sp" n1:textColor="?c3r" n1:gravity="center_vertical" n1:id="@id/efq" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_weight="1.0" n1:layout_marginStart="2.0dp" n1:autoSizeTextType="uniform" />
+        </LinearLayout>
+    </FrameLayout>
+    <X.0Cxx n1:id="@id/eh2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="0.0dp" n1:layout_alignParentTop="true" n1:layout_marginStart="4.0dp" n1:layout_toEndOf="@id/efp" n2:bgw="false" n2:bgx="?c3d" n2:bgy="?c3r" n2:btr="false" n2:fam="@style/a7f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</merge>

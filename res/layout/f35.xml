@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:id="@id/hgw" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.widget.RadiusLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bgf="@dimen/b8" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/u1m" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+            <FrameLayout n1:id="@id/e_p" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <ViewStub n1:id="@id/vs_static_cover" n1:layout="@layout/f7n" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:gravity="center_vertical" n1:layout_gravity="end|bottom" n1:id="@id/zrn" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginBottom="8.0dp" n1:textDirection="locale" n1:layout_marginEnd="8.0dp" n2:fj2="pz" />
+            <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="start|bottom" n1:orientation="horizontal" n1:id="@id/mcd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="8.0dp" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/j9o" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n2:fjq="@raw/icon_square_corner_border_fill" n2:fmy="?e0" />
+            <FrameLayout n1:layout_gravity="end|bottom" n1:id="@id/udu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </com.bytedance.tux.widget.RadiusLayout>
+    </com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+</FrameLayout>

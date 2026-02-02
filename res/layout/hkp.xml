@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:id="@id/sjf" n1:background="?c0q" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/siq" n1:paddingLeft="9.0dp" n1:paddingRight="9.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:nestedScrollingEnabled="false" n1:paddingHorizontal="9.0dp" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/sip" n1:paddingLeft="9.0dp" n1:paddingRight="9.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:nestedScrollingEnabled="false" n1:paddingHorizontal="9.0dp" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/sk7" n1:paddingLeft="9.0dp" n1:paddingRight="9.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:nestedScrollingEnabled="false" n1:paddingHorizontal="9.0dp" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/sk6" n1:paddingLeft="9.0dp" n1:paddingRight="9.0dp" n1:visibility="gone" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:nestedScrollingEnabled="false" n1:paddingHorizontal="9.0dp" />
+    </LinearLayout>
+</X.137G>

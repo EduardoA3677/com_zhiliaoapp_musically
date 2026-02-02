@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0G1A n1:layout_gravity="bottom" n1:id="@id/wy9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="0.6dp" />
+        <X.0G1U n1:id="@id/fo3" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

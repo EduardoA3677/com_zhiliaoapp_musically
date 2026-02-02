@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?bx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uo8" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.navigation.TuxNavBar n1:layout_gravity="top" n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" />
+    <X.0oBn n1:layout_gravity="center" n1:id="@id/mj7" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+    <X.0o06 n1:id="@id/ecd" n1:paddingBottom="60.0dp" n1:visibility="invisible" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/az0" n1:layout_marginStart="26.0dp" n1:layout_marginEnd="26.0dp" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/c3x" n1:background="?c3" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp">
+        <X.0D2z n1:layout_gravity="center" n1:id="@id/bxu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:fib="l9r" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</FrameLayout>

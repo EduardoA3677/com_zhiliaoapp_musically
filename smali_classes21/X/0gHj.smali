@@ -1,0 +1,11 @@
+.class public interface abstract LX/0gHj;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract LIZ()LX/0PyR;
+.end method
+
+.method public abstract LIZIZ(Lcom/ss/android/ugc/aweme/video/simkit/SimKitConfigImpl;)V
+.end method

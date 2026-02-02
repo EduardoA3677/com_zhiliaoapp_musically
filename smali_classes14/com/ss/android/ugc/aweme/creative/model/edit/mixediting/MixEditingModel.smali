@@ -1,0 +1,740 @@
+.class public final Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final effectMobParamsList:Ljava/util/List;
+    .annotation runtime LX/0BA7;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/EffectMobParams;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public enterMixEditingMethod:Ljava/lang/String;
+    .annotation runtime LX/0BA7;
+    .end annotation
+.end field
+
+.field public firstEnterFrom:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "mix_editing_first_enter_from"
+    .end annotation
+.end field
+
+.field public hasModifiedMediaListInEP:Z
+    .annotation runtime LX/0B9U;
+        value = "has_modified_media_list_in_ep"
+    .end annotation
+.end field
+
+.field public mixEditingFeatureExtraction:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "mix_editing_feature_extraction"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/FeatureExtraction;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public requestId:Ljava/lang/String;
+    .annotation runtime LX/0BA7;
+    .end annotation
+.end field
+
+.field public reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+    .annotation runtime LX/0B9U;
+        value = "mix_editing_reused_music_info"
+    .end annotation
+.end field
+
+.field public selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+    .annotation runtime LX/0B9U;
+        value = "selected_material_item"
+    .end annotation
+.end field
+
+.field public templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+    .annotation runtime LX/0B9U;
+        value = "template_material_item"
+    .end annotation
+.end field
+
+.field public uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+    .annotation runtime LX/0B9U;
+        value = "mix_editing_upload_assets_params"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0T7e;
+
+    invoke-direct {v0}, LX/0T7e;-><init>()V
+
+    sput-object v0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 11
+
+    const/4 v1, 0x0
+
+    new-instance v2, Ljava/util/ArrayList;
+
+    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+
+    const-string v5, ""
+
+    const/4 v10, 0x0
+
+    move-object v0, p0
+
+    move-object v3, v1
+
+    move-object v4, v1
+
+    move-object v6, v5
+
+    move-object v7, v1
+
+    move-object v8, v1
+
+    move-object v9, v1
+
+    invoke-direct/range {v0 .. v10}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;-><init>(Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;Ljava/util/List;Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;Ljava/lang/String;Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;Z)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;Ljava/util/List;Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;Ljava/lang/String;Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;Z)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;",
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/EffectMobParams;",
+            ">;",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;",
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/FeatureExtraction;",
+            ">;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;",
+            "Ljava/lang/String;",
+            "Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;",
+            "Z)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+
+    iput-object p2, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->effectMobParamsList:Ljava/util/List;
+
+    iput-object p3, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+
+    iput-object p4, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->mixEditingFeatureExtraction:Ljava/util/List;
+
+    iput-object p5, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->requestId:Ljava/lang/String;
+
+    iput-object p6, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->enterMixEditingMethod:Ljava/lang/String;
+
+    iput-object p7, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+
+    iput-object p8, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->firstEnterFrom:Ljava/lang/String;
+
+    iput-object p9, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+
+    iput-boolean p10, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->hasModifiedMediaListInEP:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v3
+
+    :cond_0
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;
+
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->effectMobParamsList:Ljava/util/List;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->effectMobParamsList:Ljava/util/List;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->mixEditingFeatureExtraction:Ljava/util/List;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->mixEditingFeatureExtraction:Ljava/util/List;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->requestId:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->requestId:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    return v2
+
+    :cond_6
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->enterMixEditingMethod:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->enterMixEditingMethod:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_7
+
+    return v2
+
+    :cond_7
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_8
+
+    return v2
+
+    :cond_8
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->firstEnterFrom:Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->firstEnterFrom:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_9
+
+    return v2
+
+    :cond_9
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_a
+
+    return v2
+
+    :cond_a
+    iget-boolean v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->hasModifiedMediaListInEP:Z
+
+    iget-boolean v0, p1, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->hasModifiedMediaListInEP:Z
+
+    if-eq v1, v0, :cond_b
+
+    return v2
+
+    :cond_b
+    return v3
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_5
+
+    const/4 v0, 0x0
+
+    :goto_0
+    mul-int/lit8 v1, v0, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->effectMobParamsList:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->hashCode()I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+
+    if-nez v0, :cond_4
+
+    const/4 v0, 0x0
+
+    :goto_1
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->mixEditingFeatureExtraction:Ljava/util/List;
+
+    if-nez v0, :cond_3
+
+    const/4 v0, 0x0
+
+    :goto_2
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->requestId:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->enterMixEditingMethod:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    :goto_3
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->firstEnterFrom:Ljava/lang/String;
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    :goto_4
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;->hashCode()I
+
+    move-result v2
+
+    :cond_0
+    add-int/2addr v1, v2
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->hasModifiedMediaListInEP:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    return v1
+
+    :cond_1
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_4
+
+    :cond_2
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;->hashCode()I
+
+    move-result v0
+
+    goto :goto_3
+
+    :cond_3
+    invoke-interface {v0}, Ljava/util/List;->hashCode()I
+
+    move-result v0
+
+    goto :goto_2
+
+    :cond_4
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;->hashCode()I
+
+    move-result v0
+
+    goto :goto_1
+
+    :cond_5
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;->hashCode()I
+
+    move-result v0
+
+    goto :goto_0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "MixEditingModel(selectedMaterialItem="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", effectMobParamsList="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->effectMobParamsList:Ljava/util/List;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", templateMobParams="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", mixEditingFeatureExtraction="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->mixEditingFeatureExtraction:Ljava/util/List;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", requestId="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->requestId:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", enterMixEditingMethod="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->enterMixEditingMethod:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", reusedMusicInfo="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", firstEnterFrom="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->firstEnterFrom:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", uploadAssetsParams="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", hasModifiedMediaListInEP="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->hasModifiedMediaListInEP:Z
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 4
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->selectedMaterialItem:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;
+
+    const/4 v3, 0x0
+
+    const/4 v2, 0x1
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
+
+    :goto_0
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->effectMobParamsList:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_1
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/EffectMobParams;
+
+    invoke-virtual {v0, p1, p2}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/EffectMobParams;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_1
+
+    :cond_0
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v0, p1, p2}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/SelectedMaterialItem;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_0
+
+    :cond_1
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->templateMobParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;
+
+    if-nez v0, :cond_6
+
+    invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
+
+    :goto_2
+    iget-object v1, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->mixEditingFeatureExtraction:Ljava/util/List;
+
+    if-nez v1, :cond_5
+
+    invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
+
+    :cond_2
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->requestId:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->enterMixEditingMethod:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->reusedMusicInfo:Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;
+
+    if-nez v0, :cond_4
+
+    invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
+
+    :goto_3
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->firstEnterFrom:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->uploadAssetsParams:Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;
+
+    if-nez v0, :cond_3
+
+    invoke-virtual {p1, v3}, Landroid/os/Parcel;->writeInt(I)V
+
+    :goto_4
+    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/MixEditingModel;->hasModifiedMediaListInEP:Z
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    return-void
+
+    :cond_3
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v0, p1, p2}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/UploadAssetsParams;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_4
+
+    :cond_4
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v0, p1, p2}, Lcom/ss/android/ugc/aweme/creative/model/ReusedMusicInfo;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_3
+
+    :cond_5
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_5
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/creative/model/edit/FeatureExtraction;
+
+    invoke-virtual {v0, p1, p2}, Lcom/ss/android/ugc/aweme/creative/model/edit/FeatureExtraction;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_5
+
+    :cond_6
+    invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v0, p1, p2}, Lcom/ss/android/ugc/aweme/creative/model/edit/mixediting/TemplateMobParams;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_2
+.end method

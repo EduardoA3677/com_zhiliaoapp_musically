@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.common.keyboard.MeasureLinearLayout n1:orientation="vertical" n1:id="@id/e92" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/jwu" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <view n1:id="@id/view_shadow" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwl="@id/jws" n2:bxc="owf" class="X.0cxg" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/jwt" n1:background="@color/au" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/jws" n1:background="@color/au" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <View n1:background="@color/c8" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            <RelativeLayout n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/jzf" n1:background="@color/au" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="44.0dp">
+                <com.bytedance.android.live.design.widget.LiveEditText n1:id="@id/k06" n1:layout_width="1.0px" n1:layout_height="1.0px" />
+                <X.135T n1:textSize="15.0dp" n1:id="@id/vjm" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="12.0dp" n1:layout_toStartOf="@id/vji" n4:f89="h64" n4:f8m="32.0dp" n4:f8n="sqt" n4:f8q="0.0dp" n4:f8r="0.0dp" n4:fan="@style/a0h" />
+                <View n1:id="@id/vji" n1:background="@color/a1h" n1:layout_width="0.5dp" n1:layout_height="24.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_toStartOf="@id/k0l" />
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_horizontal" n1:id="@id/k0l" n1:layout_width="@dimen/a3m" n1:layout_height="@dimen/a3m" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true" n4:br4="?dkv" />
+            </RelativeLayout>
+            <FrameLayout n1:id="@id/gbp" n1:background="@color/a_o" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="275.0dp">
+                <X.13KV n1:id="@id/gce" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <View n1:layout_gravity="end|bottom" n1:background="@drawable/edv" n1:layout_width="88.0dp" n1:layout_height="76.0dp" n1:layout_marginEnd="12.0dp" />
+                <X.12nN n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="end|bottom" n1:id="@id/gb7" n1:background="@drawable/e75" n1:layout_width="86.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:layout_marginEnd="16.0dp" style="@style/a6u" />
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.bytedance.android.live.common.keyboard.MeasureLinearLayout>

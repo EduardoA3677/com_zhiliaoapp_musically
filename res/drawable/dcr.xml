@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_selected="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <inset n1:insetLeft="3.0dp" n1:insetRight="3.0dp">
+            <shape n1:shape="oval">
+                <solid n1:color="?ye" />
+                <size n1:height="6.0dp" n1:width="6.0dp" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset n2:insetLeft="3.0dp" n2:insetRight="3.0dp"
+          xmlns:n2="http://schemas.android.com/apk/res/android">
+            <shape n2:shape="oval">
+                <solid n2:color="?xt" />
+                <size n2:height="6.0dp" n2:width="6.0dp" />
+            </shape>
+        </inset>
+    </item>
+</selector>

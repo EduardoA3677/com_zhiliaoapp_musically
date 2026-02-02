@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="?y4" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/qtv" layout="@layout/enr" />
+    <include n1:id="@id/uby" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="4.0dp" n1:layout_below="@id/qtv" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/egk" />
+    <include n1:id="@id/ubf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_below="@id/qtv" n1:layout_centerHorizontal="true" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/egi" />
+    <ScrollView n1:id="@id/sqq" n1:background="?y4" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/qtv">
+        <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <include n1:id="@id/ubs" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:layout_below="@id/qtv" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" layout="@layout/egj" />
+            <include n1:id="@id/qog" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/ubs" layout="@layout/eg7" />
+            <include n1:id="@id/k65" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_below="@id/qog" layout="@layout/eih" />
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/sav" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_below="@id/k65" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp">
+                <FrameLayout n1:id="@id/jk5" n1:layout_width="112.0dp" n1:layout_height="112.0dp">
+                    <com.ss.android.ugc.aweme.avatar.AvatarComponentView n1:layout_gravity="center" n1:id="@id/iqz" n1:layout_width="112.0dp" n1:layout_height="112.0dp" n1:contentDescription="Header image" />
+                    <X.0D1z n1:id="@id/ir4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/ir3" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="Icon for the header image" n2:fjq="@raw/icon_camera_fill" n2:fmy="?yh" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                </FrameLayout>
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?a07" n1:gravity="center" n1:id="@id/w63" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n1:maxLines="2" n1:contentDescription="@null" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_below="@id/sav" layout="@layout/enq" />
+        </RelativeLayout>
+    </ScrollView>
+    <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

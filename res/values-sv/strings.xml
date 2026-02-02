@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Aktivera</string>
+    <string name="en0">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
+    <string name="en1">Aktivera Google Play-tjänster</string>
+    <string name="en2">Installera</string>
+    <string name="en3">%1$s kan inte köras utan Google Play-tjänsterna, som saknas på enheten.</string>
+    <string name="en4">Hämta Google Play-tjänster</string>
+    <string name="en5">Tillgänglighet för Google Plays tjänster</string>
+    <string name="en6">Fel på Google Play-tjänster</string>
+    <string name="en7">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
+    <string name="en8">%1$s fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten.</string>
+    <string name="en9">Uppdatera</string>
+    <string name="en_">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
+    <string name="ena">Uppdatera Google Play-tjänster</string>
+    <string name="enb">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="enc">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

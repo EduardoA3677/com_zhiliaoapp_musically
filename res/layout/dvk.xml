@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="wrap_content" n1:layout_height="58.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CWG n1:layout_gravity="center_horizontal" n1:id="@id/rj9" n1:layout_width="34.0dp" n1:layout_height="34.0dp" n1:layout_marginStart="4.0dp" n2:bwk="owf" n2:bx3="owf" n2:bxc="owf" n2:etn="@drawable/c2q" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0mtB n1:layout_gravity="end|bottom" n1:id="@id/riz" n1:background="@drawable/a9a" n1:visibility="invisible" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_margin="1.0dp" n3:bwk="@id/rj9" n3:bwq="@id/rj9" n3:fdp="3.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0Cvo n1:textSize="13.0sp" n1:textColor="?e0" n1:ellipsize="marquee" n1:id="@id/g9e" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginTop="3.0dp" n1:maxWidth="100.0dp" n1:text="@null" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:layout_marginStart="6.0dp" n4:bx4="@id/rj9" n4:bxc="owf" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0Cvo n1:textSize="11.0sp" n1:textColor="?e0" n1:ellipsize="marquee" n1:id="@id/vy8" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:maxWidth="80.0dp" n1:text="@null" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:layout_marginStart="6.0dp" n5:bx4="@id/rj9" n5:bxb="@id/g9e" n5:fj2="qc" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/k80" n1:background="@drawable/d5e" n1:layout_width="1.0dp" n1:layout_height="26.0dp" n1:layout_marginStart="18.0dp" n6:bwk="owf" n6:bx4="@id/g9e" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/c9j" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="5.0dp" n1:layout_marginEnd="5.0dp" n7:bwk="owf" n7:bx4="@id/k80" n7:bx7="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:background="@drawable/d55" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="5.0dp" n1:layout_marginStart="5.0dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

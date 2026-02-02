@@ -1,0 +1,112 @@
+.class public interface abstract LX/0Wev;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/sdk/xbridge/registry/core/model/idl/XBaseResultModel;
+
+
+# annotations
+.annotation runtime LX/03l1;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LX/0Wew;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation
+
+
+# virtual methods
+.method public abstract getHeader()Ljava/util/Map;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "header"
+        required = true
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getHttpCode()Ljava/lang/Number;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "httpCode"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract getResponse()Ljava/util/Map;
+    .annotation runtime LX/0WsC;
+        isGetter = true
+        keyPath = "response"
+        required = true
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract setHeader(Ljava/util/Map;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "header"
+        required = true
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setHttpCode(Ljava/lang/Number;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "httpCode"
+        required = true
+    .end annotation
+.end method
+
+.method public abstract setResponse(Ljava/util/Map;)V
+    .annotation runtime LX/0WsC;
+        isGetter = false
+        keyPath = "response"
+        required = true
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="0.5625" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cover" n1:background="?br" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/ewa" n1:layout_width="36.0dp" n1:layout_height="36.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/ewd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p4" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/nf4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="qf" />
+    </LinearLayout>
+    <com.bytedance.tux.tag.TuxTag n1:layout_gravity="start|bottom" n1:id="@id/uwx" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="6.0dp" n1:text="@null" n2:fhu="?y0" n2:fj2="qb" n2:fk4="@raw/icon_star_ring" n2:fmj="?xo" n2:fml="l9r" n2:fmm="?xo" />
+    <X.0D26 n1:layout_gravity="start|bottom" n1:id="@id/b9c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="8.0dp" n2:fht="n2i" />
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

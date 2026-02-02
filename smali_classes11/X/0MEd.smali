@@ -1,0 +1,78 @@
+.class public final LX/0MEd;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lcom/ss/android/ugc/aweme/feed/assem/videoauthorinfo/VideoAuthorInfoRelationAssem;",
+        "Lkotlin/Pair<",
+        "+",
+        "Ljava/lang/String;",
+        "+",
+        "Ljava/lang/String;",
+        ">;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    check-cast p1, Lcom/ss/android/ugc/aweme/feed/assem/videoauthorinfo/VideoAuthorInfoRelationAssem;
+
+    check-cast p2, Lkotlin/Pair;
+
+    if-eqz p2, :cond_1
+
+    invoke-virtual {p1}, LX/14fh;->getContext()Landroid/content/Context;
+
+    move-result-object v3
+
+    invoke-virtual {p2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    invoke-virtual {p2}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    iget-object v0, p1, Lcom/ss/android/ugc/aweme/feed/assem/videoauthorinfo/VideoAuthorInfoRelationAssem;->LLJLILLLLZIIL:Lcom/bytedance/tux/input/TuxTextView;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    :cond_0
+    invoke-static {v3, v2, v1, v0}, LX/0jKt;->LJI(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/widget/TextView;)V
+
+    :cond_1
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    return-object v0
+.end method

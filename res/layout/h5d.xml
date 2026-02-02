@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/lbe" n1:padding="6.0dp" n1:layout_width="160.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/lbg" n1:layout_width="46.0dp" n1:layout_height="46.0dp" n1:contentDescription="@null" />
+        <X.0rBl n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:scaleX="0.55" n1:scaleY="0.55" />
+    </FrameLayout>
+    <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:gravity="center" n1:id="@id/lj9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_marginStart="6.0dp" style="@style/q9" />
+</LinearLayout>

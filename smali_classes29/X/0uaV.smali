@@ -1,0 +1,567 @@
+.class public final LX/0uaV;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LIZ:I
+
+.field public final LIZIZ:Ljava/lang/Integer;
+
+.field public final LIZJ:I
+
+.field public final LIZLLL:Ljava/lang/Integer;
+
+.field public final LJ:I
+
+.field public final LJFF:F
+
+.field public final LJI:I
+
+.field public final LJII:Ljava/lang/Integer;
+
+.field public final LJIIIIZZ:F
+
+.field public final LJIIIZ:I
+
+.field public final LJIIJ:F
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 7
+
+    const/4 v1, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/16 v6, 0x7ff
+
+    move-object v0, p0
+
+    move-object v2, v1
+
+    move-object v5, v1
+
+    invoke-direct/range {v0 .. v6}, LX/0uaV;-><init>(Ljava/lang/Integer;Ljava/lang/Integer;IFLjava/lang/Integer;I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/Integer;IFLjava/lang/Integer;I)V
+    .locals 7
+
+    and-int/lit8 v0, p6, 0x1
+
+    const/4 v6, 0x0
+
+    const/4 v4, -0x1
+
+    if-eqz v0, :cond_a
+
+    const/4 v3, -0x1
+
+    :goto_0
+    and-int/lit8 v0, p6, 0x2
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    move-object p1, v1
+
+    :cond_0
+    and-int/lit8 v0, p6, 0x4
+
+    if-eqz v0, :cond_9
+
+    const/4 v2, -0x1
+
+    :goto_1
+    and-int/lit8 v0, p6, 0x8
+
+    if-eqz v0, :cond_1
+
+    move-object p2, v1
+
+    :cond_1
+    and-int/lit8 v0, p6, 0x10
+
+    if-eqz v0, :cond_2
+
+    const/4 p3, -0x1
+
+    :cond_2
+    and-int/lit8 v0, p6, 0x20
+
+    if-eqz v0, :cond_3
+
+    const/high16 p4, -0x40800000    # -1.0f
+
+    :cond_3
+    and-int/lit8 v0, p6, 0x40
+
+    if-nez v0, :cond_4
+
+    const/4 v4, 0x0
+
+    :cond_4
+    and-int/lit16 v0, p6, 0x80
+
+    if-eqz v0, :cond_5
+
+    move-object p5, v1
+
+    :cond_5
+    and-int/lit16 v0, p6, 0x100
+
+    const/4 v5, 0x0
+
+    if-eqz v0, :cond_8
+
+    const/4 v0, 0x4
+
+    int-to-float v0, v0
+
+    invoke-static {v0}, LX/0CvT;->LIZ(F)F
+
+    move-result v1
+
+    :goto_2
+    and-int/lit16 v0, p6, 0x200
+
+    if-eqz v0, :cond_6
+
+    const/4 v0, 0x1
+
+    int-to-float v0, v0
+
+    invoke-static {v0}, LX/0CvT;->LIZ(F)F
+
+    move-result v0
+
+    float-to-int v6, v0
+
+    :cond_6
+    and-int/lit16 v0, p6, 0x400
+
+    if-eqz v0, :cond_7
+
+    const/4 v0, 0x2
+
+    int-to-float v0, v0
+
+    invoke-static {v0}, LX/0CvT;->LIZ(F)F
+
+    move-result v5
+
+    :cond_7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput v3, p0, LX/0uaV;->LIZ:I
+
+    iput-object p1, p0, LX/0uaV;->LIZIZ:Ljava/lang/Integer;
+
+    iput v2, p0, LX/0uaV;->LIZJ:I
+
+    iput-object p2, p0, LX/0uaV;->LIZLLL:Ljava/lang/Integer;
+
+    iput p3, p0, LX/0uaV;->LJ:I
+
+    iput p4, p0, LX/0uaV;->LJFF:F
+
+    iput v4, p0, LX/0uaV;->LJI:I
+
+    iput-object p5, p0, LX/0uaV;->LJII:Ljava/lang/Integer;
+
+    iput v1, p0, LX/0uaV;->LJIIIIZZ:F
+
+    iput v6, p0, LX/0uaV;->LJIIIZ:I
+
+    iput v5, p0, LX/0uaV;->LJIIJ:F
+
+    return-void
+
+    :cond_8
+    const/4 v1, 0x0
+
+    goto :goto_2
+
+    :cond_9
+    const/4 v2, 0x0
+
+    goto :goto_1
+
+    :cond_a
+    const/4 v3, 0x0
+
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v3
+
+    :cond_0
+    instance-of v0, p1, LX/0uaV;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, LX/0uaV;
+
+    iget v1, p0, LX/0uaV;->LIZ:I
+
+    iget v0, p1, LX/0uaV;->LIZ:I
+
+    if-eq v1, v0, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, LX/0uaV;->LIZIZ:Ljava/lang/Integer;
+
+    iget-object v0, p1, LX/0uaV;->LIZIZ:Ljava/lang/Integer;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    return v2
+
+    :cond_3
+    iget v1, p0, LX/0uaV;->LIZJ:I
+
+    iget v0, p1, LX/0uaV;->LIZJ:I
+
+    if-eq v1, v0, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, LX/0uaV;->LIZLLL:Ljava/lang/Integer;
+
+    iget-object v0, p1, LX/0uaV;->LIZLLL:Ljava/lang/Integer;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    return v2
+
+    :cond_5
+    iget v1, p0, LX/0uaV;->LJ:I
+
+    iget v0, p1, LX/0uaV;->LJ:I
+
+    if-eq v1, v0, :cond_6
+
+    return v2
+
+    :cond_6
+    iget v1, p0, LX/0uaV;->LJFF:F
+
+    iget v0, p1, LX/0uaV;->LJFF:F
+
+    invoke-static {v1, v0}, Ljava/lang/Float;->compare(FF)I
+
+    move-result v0
+
+    if-eqz v0, :cond_7
+
+    return v2
+
+    :cond_7
+    iget v1, p0, LX/0uaV;->LJI:I
+
+    iget v0, p1, LX/0uaV;->LJI:I
+
+    if-eq v1, v0, :cond_8
+
+    return v2
+
+    :cond_8
+    iget-object v1, p0, LX/0uaV;->LJII:Ljava/lang/Integer;
+
+    iget-object v0, p1, LX/0uaV;->LJII:Ljava/lang/Integer;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_9
+
+    return v2
+
+    :cond_9
+    iget v1, p0, LX/0uaV;->LJIIIIZZ:F
+
+    iget v0, p1, LX/0uaV;->LJIIIIZZ:F
+
+    invoke-static {v1, v0}, Ljava/lang/Float;->compare(FF)I
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    return v2
+
+    :cond_a
+    iget v1, p0, LX/0uaV;->LJIIIZ:I
+
+    iget v0, p1, LX/0uaV;->LJIIIZ:I
+
+    if-eq v1, v0, :cond_b
+
+    return v2
+
+    :cond_b
+    iget v1, p0, LX/0uaV;->LJIIJ:F
+
+    iget v0, p1, LX/0uaV;->LJIIJ:F
+
+    invoke-static {v1, v0}, Ljava/lang/Float;->compare(FF)I
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    return v2
+
+    :cond_c
+    return v3
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    iget v0, p0, LX/0uaV;->LIZ:I
+
+    mul-int/lit8 v1, v0, 0x1f
+
+    iget-object v0, p0, LX/0uaV;->LIZIZ:Ljava/lang/Integer;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    :goto_0
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LIZJ:I
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, LX/0uaV;->LIZLLL:Ljava/lang/Integer;
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    :goto_1
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LJ:I
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LJFF:F
+
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LJI:I
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, LX/0uaV;->LJII:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->hashCode()I
+
+    move-result v2
+
+    :cond_0
+    add-int/2addr v1, v2
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LJIIIIZZ:F
+
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LJIIIZ:I
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget v0, p0, LX/0uaV;->LJIIJ:F
+
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    return v1
+
+    :cond_1
+    invoke-virtual {v0}, Ljava/lang/Integer;->hashCode()I
+
+    move-result v0
+
+    goto :goto_1
+
+    :cond_2
+    invoke-virtual {v0}, Ljava/lang/Integer;->hashCode()I
+
+    move-result v0
+
+    goto :goto_0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v0, "BackgroundConfig(solidColor="
+
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v0, p0, LX/0uaV;->LIZ:I
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", solidColorRes="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0uaV;->LIZIZ:Ljava/lang/Integer;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", strokeColor="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LIZJ:I
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", strokeColorRes="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0uaV;->LIZLLL:Ljava/lang/Integer;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", strokeWidth="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LJ:I
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", radius="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LJFF:F
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const-string v0, ", dashColor="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LJI:I
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", dashColorRes="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0uaV;->LJII:Ljava/lang/Integer;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", dashGap="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LJIIIIZZ:F
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const-string v0, ", dashHeight="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LJIIIZ:I
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ", dashWidth="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, LX/0uaV;->LJIIJ:F
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

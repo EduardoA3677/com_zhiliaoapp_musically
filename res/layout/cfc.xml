@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_width="240.0dp" n1:layout_height="253.0dp" n2:ba3="?zu" n2:ba4="20.0dp" n2:ba5="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <RelativeLayout n1:id="@id/ipu" n1:layout_width="match_parent" n1:layout_height="68.0dp">
+            <X.0CzY n1:id="@id/g91" n1:layout_width="68.0dp" n1:layout_height="68.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="8.0dp" n2:eyl="@dimen/ba" />
+            <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/g91">
+                <X.12ij n1:id="@id/y1g" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <X.12ij n1:id="@id/y1l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <X.0b6o n1:id="@id/lkg" n1:layout_width="match_parent" n1:layout_height="89.0dp" n1:layout_marginTop="12.0dp" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/j_g" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="8.0dp" n2:fjq="@raw/icon_ranking" n2:fjt="20.0dp" n2:fk6="20.0dp" n2:fmy="?zw" />
+            <X.0D2z n1:id="@id/cda" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fi9="true" n2:fib="l9r" n2:fid="qhx" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

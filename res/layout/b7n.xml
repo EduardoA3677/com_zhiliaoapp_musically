@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.10dF n1:id="@id/cdt" n1:background="@color/dx" n1:focusable="false" n1:focusableInTouchMode="false" n1:clickable="false" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:checked="false" n2:flf="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.10dF n1:id="@id/f_d" n1:background="@color/dx" n1:focusable="false" n1:focusableInTouchMode="false" n1:clickable="false" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:checked="false" n3:flf="?e3" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_vertical" n1:id="@id/yog" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:adjustViewBounds="true" n1:minHeight="24.0dp" n1:layout_marginStart="36.0dp" n1:layout_marginEnd="0.0dp" n4:fj2="p1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

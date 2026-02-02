@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns="">
+    <translate n1:interpolator="@anim/hr" n1:duration="200" n1:fromXDelta="0.0%" n1:toXDelta="0.0%" n1:fromYDelta="0.0%" n1:toYDelta="1.9999981%"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <alpha n2:interpolator="@android:anim/linear_interpolator" n2:duration="200" n2:fromAlpha="1.0" n2:toAlpha="0.0"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</set>

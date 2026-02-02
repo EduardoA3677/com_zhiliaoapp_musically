@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="@drawable/ewr" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="16.0dp" n1:minHeight="76.0dp" n1:layout_marginHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0d3Z n1:id="@id/j4y" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n1:layout_marginStart="12.0dp" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp">
+        <X.12nN n1:textColor="@color/a8j" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:maxLines="1" n1:singleLine="true" style="@style/a6u" />
+        <X.12nN n1:textColor="@color/a8k" n1:id="@id/desc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:lineSpacingExtra="2.0sp" style="@style/a77" />
+    </LinearLayout>
+    <View n1:id="@id/rnq" n1:background="@drawable/e4l" n1:visibility="gone" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n1:layout_marginEnd="0.0dp" />
+    <X.12nN n1:textSize="12.0sp" n1:textColor="@color/aaa" n1:gravity="center" n1:id="@id/rns" n1:background="@drawable/e5g" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="15.0dp" n1:includeFontPadding="false" n1:layout_marginEnd="4.0dp" style="@style/a7b" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/es0" n1:background="@drawable/e25" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="20.0dp" n1:layout_marginEnd="4.0dp" n1:paddingHorizontal="4.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/m7z" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="4.0dp" n2:br4="?e9b" n2:brl="@color/bi" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="@color/aaa" n1:layout_gravity="center|top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/a79" />
+    </LinearLayout>
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/axa" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="8.0dp" n3:br4="?cua" n3:brl="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

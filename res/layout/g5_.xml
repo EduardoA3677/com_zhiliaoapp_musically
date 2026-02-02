@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ean" n1:background="@drawable/dp6" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="4.0dp" n1:paddingBottom="4.0dp" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:paddingVertical="4.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/y4f" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n2:br4="?cty" n2:brl="?ehx" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="17.0dp" n1:textColor="?ehx" n1:id="@id/y4k" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" style="@style/a6q" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:background="?eda" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0rmm n1:id="@id/jra" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bg5="@layout/g5a" n4:elu="@layout/g5d" n4:erg="@id/of3" n4:erh="@layout/g5b" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

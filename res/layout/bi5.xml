@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:background="@drawable/ci3" n1:layout_width="match_parent" n1:layout_height="52.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:layout_gravity="top" n1:id="@id/bjg" n1:background="@drawable/bed" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="52.0dp" />
+    <LinearLayout n1:layout_gravity="start|center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginStart="6.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/djf" n1:visibility="visible" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="10.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginStart="10.0dp" n2:fjq="@raw/icon_arrow_left_ltr" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/dj4" n1:padding="10.0dp" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n3:fjq="@raw/icon_x_mark" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:maxEms="9" n4:fj2="p0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:layout_gravity="end|center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="6.0dp" n1:layout_marginEnd="6.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/cf2" n1:padding="10.0dp" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n5:fjq="@raw/icon_arrow_turn_up_right" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ruu" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginEnd="10.0dp" n6:fjq="@raw/icon_flag" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/rvo" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginEnd="10.0dp" n7:fjq="@raw/icon_flag" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/s_0" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginEnd="10.0dp" n8:fjq="@raw/icon_ellipsis_vertical" n8:fmy="?zw" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <View n1:layout_gravity="bottom" n1:id="@id/lqj" n1:background="@color/c8" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+</merge>

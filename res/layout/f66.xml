@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/mdc" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextSwitcher n1:layout_gravity="start|center" n1:id="@id/x2v" n1:background="@null" n1:paddingLeft="32.5dp" n1:paddingRight="0.0dp" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:inAnimation="@anim/fq" n1:outAnimation="@anim/g4" n1:paddingStart="32.5dp" n1:paddingEnd="0.0dp" />
+</LinearLayout>

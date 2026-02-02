@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/psg" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/psh" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/psf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    </LinearLayout>
+</HorizontalScrollView>

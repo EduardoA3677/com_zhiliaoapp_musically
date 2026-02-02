@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0QP8 n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.11RT n1:id="@id/oxq" n1:visibility="gone" n1:layout_width="576.0dp" n1:layout_height="576.0dp" n1:layout_marginTop="-252.0dp" n1:layout_alignParentTop="true" n1:layout_marginEnd="-252.0dp" n1:layout_alignParentEnd="true" n2:fi7="0.4" n2:fiy="0.0" n2:fkc="576.0dp" n2:fkd="576.0dp" n2:flv="#000000" n2:flw="frs" n2:fm_="rbr" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/oxn" n1:layout_width="36.0dp" n1:layout_height="wrap_content" n1:layout_alignParentEnd="true" />
+    <LinearLayout n1:gravity="end" n1:orientation="vertical" n1:id="@id/oxp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="16.0dp" n1:layout_toStartOf="@id/oxn" />
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/oxo" n1:layout_width="36.0dp" n1:layout_height="wrap_content" n1:layout_alignParentEnd="true" />
+</X.0QP8>

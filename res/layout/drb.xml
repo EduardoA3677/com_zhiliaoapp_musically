@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j6z" n1:padding="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_alignParentTop="true" n1:importantForAccessibility="no" n1:layout_marginEnd="6.0dp" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_x_mark_small" n3:fjt="24.0dp" n3:fk6="24.0dp" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?so" n1:id="@id/yqa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="24.0dp" n1:text="In-App Ads rewards fulfillment test" n4:fj2="ow" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/yqb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="24.0dp" n1:text="Choose an outcome from the dropdown below to mock a fulfillment response" n5:fj2="p5" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0xQS n1:id="@id/t8x" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="24.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginRight="24.0dp" n6:az8="?yh" n6:flq="Select" n6:flr="l7y" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/hx0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="36.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="47.0dp" n1:text="Fulfill" n7:bgf="@dimen/qf" n7:fib="l9r" n7:fid="qhx" n7:fmy="?yi" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

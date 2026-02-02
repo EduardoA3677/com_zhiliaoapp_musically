@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/m79" n1:background="@drawable/bss" n1:layout_width="wrap_content" n1:layout_height="21.0dp" n1:clipToOutline="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/y93" n1:background="@drawable/bst" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="LIVE" n2:fj2="q2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/y0x" n1:background="?xv" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Friends watching" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?xv" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n4:fjq="@raw/icon_person_fill" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/ywc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:fj2="q2" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

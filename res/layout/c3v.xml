@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:id="@id/gc6" n1:background="@drawable/bpp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="174.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/mb_" n1:paddingTop="16.0dp" n1:paddingBottom="14.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="174.0dp" n1:layout_height="wrap_content">
+        <X.0x9L n1:textSize="15.0dp" n1:textColor="?e0" n1:textColorHint="?e3" n1:gravity="start|center" n1:layout_gravity="center|top" n1:id="@id/gnz" n1:layout_width="142.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:hint="@null" n1:inputType="textMultiLine" n1:lineHeight="19.5dp" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_gravity="center|bottom" n1:id="@id/hdq" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <SeekBar n1:layout_gravity="center" n1:id="@id/sno" n1:paddingTop="9.0dp" n1:paddingBottom="9.0dp" n1:layout_width="142.0dp" n1:layout_height="24.0dp" n1:progressDrawable="@drawable/bpq" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n1:stateListAnimator="@null" n1:splitTrack="false" />
+            <ImageView n1:layout_gravity="center_vertical" n1:id="@id/klw" n1:focusable="false" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/bpo" n1:importantForAccessibility="no" />
+            <ImageView n1:id="@id/klv" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

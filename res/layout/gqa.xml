@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/r5" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/r5" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qz" n1:layout_marginBottom="@dimen/qz" n1:layout_marginVertical="@dimen/qz" n1:paddingHorizontal="@dimen/qi" n1:paddingVertical="@dimen/r5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/pkm" n1:layout_width="85.0dp" n1:layout_height="85.0dp" n1:scaleType="centerCrop" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginStart="@dimen/qf">
+        <X.12nN n1:ellipsize="end" n1:id="@id/pkn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:maxLines="2" n1:textAlignment="textStart" style="@style/a6x" />
+        <X.12nN n1:textColor="?ekr" n1:ellipsize="end" n1:id="@id/pkl" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="3" n1:textAlignment="textStart" style="@style/a77" />
+    </LinearLayout>
+</LinearLayout>

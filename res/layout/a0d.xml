@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/j88" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="2.0dp" n2:bwk="@id/ld2" n2:bwr="@id/dvp" n2:bxc="@id/ld2" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/kqx" n1:layout_width="38.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_image_alt" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?y0" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/klu" n1:layout_width="38.0dp" n1:layout_height="40.0dp" n1:contentDescription="@null" n2:fjq="@raw/icon_emoji" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?y0" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/kf4" n1:layout_width="38.0dp" n1:layout_height="40.0dp" n1:contentDescription="@null" n2:fjq="@raw/icon_at" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?y0" />
+</LinearLayout>

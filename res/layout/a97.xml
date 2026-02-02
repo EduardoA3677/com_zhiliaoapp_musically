@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:id="@id/zwp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_gravity="bottom" n1:id="@id/zwq" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0GKE n1:id="@id/w1w" n1:layout_width="match_parent" n1:layout_height="@dimen/km" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</FrameLayout>

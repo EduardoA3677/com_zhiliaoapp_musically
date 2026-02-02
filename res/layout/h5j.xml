@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="start|top" n1:orientation="vertical" n1:id="@id/ma_" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/iqe" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/pl3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.12nN n1:textSize="20.0dp" n1:textColor="?ekp" n1:ellipsize="end" n1:id="@id/pl6" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:maxLines="1" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwr="@id/pl5" n2:bx9="owf" n2:bxc="owf" style="@style/a6m" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/pl5" n1:background="@drawable/f16" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginEnd="16.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/pl4" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="22.0dp" n1:layout_marginEnd="22.0dp" n4:br4="?c14" n4:brl="?ekr" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.0d4p n1:id="@id/sj7" n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n5:bwl="@id/ddi" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hqp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/ddi" n1:background="?eis" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:bwk="owf" n6:bx9="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+                <View n1:background="?ej8" n1:layout_width="match_parent" n1:layout_height="1.0px" />
+                <X.12pz n1:textColor="?ejv" n1:layout_gravity="center" n1:id="@id/cfe" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n6:b5_="true" n6:b5h="16.0sp" style="@style/ahh" />
+                <X.12hi n1:textColor="?ekp" n1:gravity="center" n1:id="@id/ce6" n1:background="@drawable/e1p" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginTop="16.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a6w" />
+                <X.12hi n1:textColor="?ekp" n1:layout_gravity="center_horizontal" n1:id="@id/c91" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="13.0dp" n1:layout_marginBottom="13.0dp" n1:text="@null" style="@style/a6w" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout n1:id="@id/znr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.12hi n1:textColor="?ekr" n1:gravity="center" n1:id="@id/y_y" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="225.0dp" n1:text="@null" n1:layout_centerHorizontal="true" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" style="@style/a74" />
+        <X.12pz n1:textColor="?ekp" n1:gravity="center" n1:id="@id/cgb" n1:background="@drawable/e3o" n1:layout_width="240.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:layout_below="@id/y_y" n1:layout_centerHorizontal="true" n7:bwk="owf" style="@style/a57" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <X.0rBl n1:layout_gravity="center" n1:id="@id/miq" n1:padding="6.0dp" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="8.0dp" />
+</merge>

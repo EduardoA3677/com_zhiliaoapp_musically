@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_pressed="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="rectangle">
+            <corners n1:topLeftRadius="@dimen/b6" n1:topRightRadius="@dimen/b6" />
+            <solid n1:color="?mq" />
+        </shape>
+    </item>
+    <item>
+        <shape n2:shape="rectangle"
+          xmlns:n2="http://schemas.android.com/apk/res/android">
+            <corners n2:topLeftRadius="@dimen/b6" n2:topRightRadius="@dimen/b6" />
+            <solid n2:color="?zu" />
+        </shape>
+    </item>
+</selector>

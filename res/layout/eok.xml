@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/d4q" n1:layout_width="104.0dp" n1:layout_height="88.0dp" n1:minWidth="104.0dp" n1:minHeight="88.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CMl n1:id="@id/w4_" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="12.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="14.0dp" n1:textColor="@color/tl" n1:id="@id/qwo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:text="@null" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/qw0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:src="@drawable/d4r" n1:layout_marginEnd="8.0dp" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

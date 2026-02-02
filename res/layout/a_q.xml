@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:paddingLeft="@dimen/qf" n1:paddingTop="@dimen/qc" n1:paddingRight="@dimen/qf" n1:paddingBottom="@dimen/qc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/qf" n1:paddingVertical="@dimen/qc" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center_vertical" n1:id="@id/jl_" n1:layout_width="wrap_content" n1:layout_height="@dimen/qk" n2:bx9="@id/ean" n2:fj2="pu" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0b8D n1:id="@id/ean" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bxb="@id/jl_" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/i2b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/r5" />
+        <FrameLayout n1:id="@id/i2d" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </X.0b8D>
+    <X.0D2z n1:id="@id/smt" n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/r5" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/r5" n1:layout_width="@dimen/qy" n1:layout_height="32.0dp" n1:layout_marginTop="@dimen/r5" n1:paddingHorizontal="@dimen/qi" n1:paddingVertical="@dimen/r5" n4:bx9="@id/ean" n4:bxb="@id/ean" n4:fib="u9x" n4:fid="t69" n4:fk4="@raw/icon_arrow_down_to_line" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/r4b" n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/r5" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/r5" n1:layout_width="@dimen/qy" n1:layout_height="32.0dp" n1:layout_marginTop="@dimen/r5" n1:layout_marginStart="@dimen/r5" n1:paddingHorizontal="@dimen/qi" n1:paddingVertical="@dimen/r5" n5:bx8="@id/smt" n5:bxb="@id/ean" n5:fib="u9x" n5:fid="t69" n5:fk4="@raw/icon_post" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

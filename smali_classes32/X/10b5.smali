@@ -1,0 +1,59 @@
+.class public final LX/10b5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LIZ:LX/02uK;
+
+.field public final LIZIZ:LX/0mTi;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LX/0mTi<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "LX/10aw;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final LIZJ:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "LX/10b4;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final LIZLLL:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(LX/02uK;Ljava/lang/String;Lkotlin/jvm/internal/AwS578S0100000_2;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/10b5;->LIZ:LX/02uK;
+
+    iput-object p3, p0, LX/10b5;->LIZIZ:LX/0mTi;
+
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    iput-object v0, p0, LX/10b5;->LIZJ:Ljava/util/Map;
+
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v0, p0, LX/10b5;->LIZLLL:Ljava/lang/Object;
+
+    return-void
+.end method

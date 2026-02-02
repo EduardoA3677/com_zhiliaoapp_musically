@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/amu" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D1b n1:id="@id/b80" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/nv6" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n3:bwl="@id/rho" n3:bwr="@id/hnq" n3:bwz="0.0" n3:bx8="@id/b80" n3:bxc="owf" n3:bxe="ori" n3:bxg="wrap" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/rho" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n4:bwk="owf" n4:bwr="@id/hnq" n4:bx8="@id/b80" n4:bxb="@id/nv6" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0Cwu n1:id="@id/nsw" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n5:bwr="@id/hnq" n5:bx8="@id/b80" n5:bxc="@id/rho" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:gravity="center" n1:id="@id/hnq" n1:visibility="gone" n1:layout_width="90.0dp" n1:layout_height="24.0dp" n6:b5l="z1f" n6:bwk="owf" n6:bwq="owf" n6:bxc="owf" n6:fib="wf4" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/fcz" n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="0.5dp" n7:bwk="owf" n7:bxd="1.0" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

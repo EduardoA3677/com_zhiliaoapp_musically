@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/pn9" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:splitMotionEvents="false" n1:windowEnableSplitTouch="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:ax1="?lv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0o06 n1:id="@id/r7h" n1:paddingTop="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/cqj" n1:layout_below="@id/nvd" n1:splitMotionEvents="false" n1:windowEnableSplitTouch="false" />
+    <View n1:id="@id/cqy" n1:background="?lv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_above="@id/cqj" />
+    <FrameLayout n1:id="@id/cqj" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <X.0D2z n1:enabled="false" n1:textSize="15.0sp" n1:textColor="?a04" n1:gravity="center" n1:id="@id/c8e" n1:background="@drawable/cp9" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="32.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+    </FrameLayout>
+    <X.0oCE n1:id="@id/a7v" n1:background="?bx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/nvd" n3:fkf="j0v" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

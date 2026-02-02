@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sfr" n1:background="@drawable/e24" n1:paddingBottom="30.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <LinearLayout n1:id="@id/se8" n1:layout_width="50.0dp" n1:layout_height="match_parent">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n2:br4="?cty" n2:brl="?ehx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <X.12nN n1:textSize="17.0sp" n1:textColor="?ehx" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="44.0dp" n1:layout_marginEnd="44.0dp" n3:bp3="btv" style="@style/a6q" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/q57" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="13.0sp" n1:textColor="?ei6" n1:gravity="start" n1:layout_gravity="start" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:layout_marginStart="24.0dp" n4:bp3="n2i" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/h9t" n1:background="@drawable/e27" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp">
+        <include n1:id="@id/r_x" n1:visibility="gone" layout="@layout/gz2" />
+        <include n1:id="@id/w7x" n1:visibility="gone" layout="@layout/gz2" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/i9r" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="13.0sp" n1:textColor="?ei6" n1:gravity="start" n1:id="@id/i9s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n1:layout_marginStart="24.0dp" n5:bp3="n2i" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textSize="13.0sp" n1:textColor="?ei6" n1:gravity="start" n1:id="@id/i9u" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="24.0dp" n6:bp3="rqc" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/t4p" n1:background="@drawable/e27" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp">
+        <include n1:id="@id/r_d" n1:visibility="gone" layout="@layout/gz2" />
+        <include n1:id="@id/esx" n1:visibility="gone" layout="@layout/gz2" />
+        <include n1:id="@id/w6k" n1:visibility="gone" layout="@layout/gz2" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/v7w" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="13.0sp" n1:textColor="?ei6" n1:gravity="start" n1:layout_gravity="start" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:layout_marginStart="24.0dp" n7:bp3="n2i" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/mbb" n1:background="@drawable/e27" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp">
+        <include n1:id="@id/gcz" n1:visibility="gone" layout="@layout/gz2" />
+    </LinearLayout>
+</LinearLayout>

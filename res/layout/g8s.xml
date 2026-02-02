@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/e4v" n1:layout_width="@dimen/au0" n1:layout_height="wrap_content" n1:minWidth="@dimen/au0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/wse" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0CWL n1:id="@id/wsc" n1:layout_width="match_parent" n1:layout_height="160.0dp" n2:fgw="@dimen/atz" n2:fgx="@dimen/atz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D0r n1:id="@id/wr3" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:scaleType="centerInside" n1:layout_alignParentRight="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" n3:etn="@drawable/ejf" n3:eto="d4s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <X.12nN n1:textSize="17.0sp" n1:textColor="@color/a_8" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/sdr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n4:bp3="n2i" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="14.0sp" n1:textColor="@color/a_7" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/sdq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="15.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="15.0dp" n1:lineSpacingExtra="2.0dp" n1:layout_marginStart="15.0dp" n1:layout_marginEnd="15.0dp" />
+    <View n1:id="@id/ly0" n1:layout_marginTop="24.0dp" style="@style/ah3" />
+    <X.12nN n1:id="@id/sdm" n1:visibility="gone" style="@style/ah2" />
+    <include n1:id="@id/sdn" layout="@layout/g5i" />
+    <X.12nN n1:textSize="14.0sp" n1:textColor="@color/a_4" n1:gravity="center" n1:id="@id/sdl" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:drawableLeft="@drawable/ejg" n1:drawablePadding="8.0dp" n1:lineSpacingExtra="2.0dp" n1:drawableStart="@drawable/ejg" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+</LinearLayout>

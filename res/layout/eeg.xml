@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/q_8" n1:background="?bx" n1:paddingTop="20.0dp" n1:paddingBottom="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vya" n1:paddingLeft="50.0dp" n1:paddingTop="20.0dp" n1:paddingRight="50.0dp" n1:paddingBottom="30.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n1:paddingHorizontal="50.0dp" n2:bwl="@id/p85" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="@drawable/dfk" n1:id="@id/vyb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:bx9="owf" n2:bxc="owf" n2:fj2="pz" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/lso" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="8.0dp" n2:bwk="@id/vyb" n2:bx0="ori" n2:bx8="@id/vyb" n2:bxc="@id/vyb" n2:fjq="@raw/icon_chevron_down" n2:fmy="@drawable/dfk" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/p85" n1:paddingTop="20.0dp" n1:paddingBottom="20.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/vya" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/fhx" n1:layout_width="10.719971dp" n1:layout_height="12.0dp" n1:alpha="0.66" n1:layout_marginStart="8.0dp" n3:bwk="@id/vf1" n3:bx0="ori" n3:bx8="@id/vf1" n3:bxc="@id/vf1" n3:fjq="@raw/icon_chervon_down_double" n3:fmy="?a04" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:id="@id/vf1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:alpha="0.66" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="p7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

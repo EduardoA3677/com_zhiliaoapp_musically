@@ -1,0 +1,25 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/poi/mapdetail/assem/PoiMapDetailCommonVerticalListAssem$PoiMapDetailVerticalListAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/02g2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/poi/mapdetail/assem/PoiMapDetailCommonVerticalListAssem;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "PoiMapDetailVerticalListAbility"
+.end annotation
+
+
+# virtual methods
+.method public abstract LIZJ()V
+.end method
+
+.method public abstract LJJLJLI()V
+.end method

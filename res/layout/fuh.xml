@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="36.0dp">
+        <FrameLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/sco" n1:background="@drawable/cff" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp">
+            <X.0mEg n1:layout_gravity="start|center" n1:id="@id/kz1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:src="@drawable/c26" n1:layout_marginStart="12.0dp" />
+            <X.0mEQ n1:textColor="@color/wt" n1:textColorHint="#59ffffff" n1:gravity="start|center" n1:layout_gravity="center_vertical" n1:id="@id/ym7" n1:background="@null" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="36.0dp" n1:layout_marginRight="30.0dp" n1:hint="@null" n1:lines="1" n1:inputType="text" n1:imeOptions="actionSearch" n1:textCursorDrawable="@drawable/dgw" n1:textAlignment="viewStart" n1:layout_marginStart="36.0dp" n1:layout_marginEnd="30.0dp" style="@style/aeq" />
+            <ImageButton n1:layout_gravity="end|center" n1:id="@id/c__" n1:background="@drawable/c23" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_margin="6.0dp" />
+        </FrameLayout>
+        <X.0Ch7 n1:textColor="@color/wt" n1:gravity="center" n1:id="@id/ym9" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:maxWidth="100.0dp" n1:text="@string/dzy" n1:maxLines="1" n1:layout_toRightOf="@id/sco" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/sco" style="@style/aeq" />
+        <X.0Cxq n1:textColor="@color/zv" n1:gravity="start|center" n1:id="@id/xqi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="16.0dp" n1:text="@string/dzy" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:textAlignment="viewStart" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" style="@style/aeq" />
+    </RelativeLayout>
+</LinearLayout>

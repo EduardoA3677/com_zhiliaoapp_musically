@@ -1,0 +1,91 @@
+.class public Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public buildChainFlag:I
+
+.field public detectModelDir:Ljava/lang/String;
+
+.field public detectRectHeight:F
+
+.field public detectRectLeft:F
+
+.field public detectRectTop:F
+
+.field public detectRectWidth:F
+
+.field public detectRequirement:J
+
+.field public enableDetectRect:Z
+
+.field public height:I
+
+.field public width:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, -0x1
+
+    iput v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->width:I
+
+    iput v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->height:I
+
+    const-wide/32 v0, 0x10000
+
+    iput-wide v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->detectRequirement:J
+
+    const/4 v0, 0x1
+
+    iput v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->buildChainFlag:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getBuildChainFlag()I
+    .locals 1
+
+    iget v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->buildChainFlag:I
+
+    return v0
+.end method
+
+.method public getDetectModelDir()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->detectModelDir:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getDetectRequirement()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->detectRequirement:J
+
+    return-wide v0
+.end method
+
+.method public getHeight()I
+    .locals 1
+
+    iget v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->height:I
+
+    return v0
+.end method
+
+.method public getWidth()I
+    .locals 1
+
+    iget v0, p0, Lcom/ss/android/ugc/aweme/services/external/ability/qr/AVScanSettings;->width:I
+
+    return v0
+.end method

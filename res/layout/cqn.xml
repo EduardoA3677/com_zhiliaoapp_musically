@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView n1:id="@id/gc7" n1:background="@drawable/cah" n1:layout_width="wrap_content" n1:layout_height="102.599976dp" n1:maxWidth="196.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView n1:orientation="horizontal" n1:id="@id/gbk" n1:layout_width="wrap_content" n1:layout_height="80.0dp" n1:layout_marginTop="8.0dp" n1:paddingStart="8.0dp" n1:paddingEnd="3.0dp" />
+    </RelativeLayout>
+</HorizontalScrollView>

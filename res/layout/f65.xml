@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/mn4" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/xm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <RelativeLayout n1:id="@id/wv5" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <include n1:id="@id/st7" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" layout="@layout/f68" />
+        </RelativeLayout>
+        <FrameLayout n1:id="@id/hs2" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/wv5">
+            <FrameLayout n1:id="@id/hs4" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <com.bytedance.lighten.loader.SmartImageView n1:id="@id/s1g" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </FrameLayout>
+            <ViewStub n1:id="@id/sze" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

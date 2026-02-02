@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:id="@id/ean" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:padding="@dimen/a3p" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="center_vertical" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Testing edit text" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n2:br4="?e_w" n2:brl="?ffd" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        </FrameLayout>
+        <X.12nN n1:textColor="?ffc" n1:id="@id/mos" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+</X.137G>

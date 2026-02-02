@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item n1:height="304.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <shape n1:shape="rectangle">
+            <solid n1:color="?c3" />
+            <corners n1:radius="@dimen/b8" />
+        </shape>
+    </item>
+    <item n2:gravity="top" n2:height="224.0dp"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <shape n2:shape="rectangle">
+            <solid n2:color="?bv" />
+            <corners n2:topLeftRadius="@dimen/b8" n2:topRightRadius="@dimen/b8" />
+        </shape>
+    </item>
+    <item n3:gravity="bottom" n3:height="12.0dp" n3:width="152.0dp" n3:left="8.0dp" n3:right="8.0dp" n3:bottom="60.0dp"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <shape n3:shape="rectangle">
+            <solid n3:color="?c7" />
+        </shape>
+    </item>
+    <item n4:gravity="bottom" n4:height="12.0dp" n4:width="92.0dp" n4:left="8.0dp" n4:right="8.0dp" n4:bottom="44.0dp"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <shape n4:shape="rectangle">
+            <solid n4:color="?c7" />
+        </shape>
+    </item>
+    <item n5:gravity="bottom" n5:height="12.0dp" n5:width="152.0dp" n5:left="8.0dp" n5:right="8.0dp" n5:bottom="24.0dp"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <shape n5:shape="rectangle">
+            <solid n5:color="?c7" />
+        </shape>
+    </item>
+    <item n6:gravity="bottom" n6:height="12.0dp" n6:width="92.0dp" n6:left="8.0dp" n6:right="8.0dp" n6:bottom="8.0dp"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <shape n6:shape="rectangle">
+            <solid n6:color="?c7" />
+        </shape>
+    </item>
+</layer-list>

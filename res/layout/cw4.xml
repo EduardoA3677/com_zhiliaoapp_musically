@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?nh" n1:descendantFocusability="blocksDescendants" n1:layout_width="match_parent" n1:layout_height="84.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:id="@id/k_u" n1:background="@drawable/amu" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:descendantFocusability="blocksDescendants" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:paddingHorizontal="16.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ng1" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_alignParentStart="true" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/nv6" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="16.0dp" n1:text="@null" n1:maxLines="1" n1:layout_toRightOf="@id/ng1" n1:layout_centerVertical="true" n1:lineSpacingMultiplier="0.9" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="16.0dp" n1:layout_toEndOf="@id/ng1" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_chevron_right_offset_ltr" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</FrameLayout>

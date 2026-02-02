@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?y4" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="60.0dp" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/ajm" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginEnd="27.0dp" n2:fj2="pu" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/mj5" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:scaleType="fitXY" n3:fox="2.1666667" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/bel" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:contentDescription="Dismiss icon" n1:layout_marginStart="8.0dp" n4:fjq="@raw/icon_x_mark_small" n4:fmy="?a04" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

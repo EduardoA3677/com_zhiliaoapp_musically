@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/f34" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:id="@id/nv6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:bx9="owf" n2:bxc="owf" style="@style/a6u" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekz" n1:id="@id/nv8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="*" n1:layout_marginStart="2.0dp" n3:bx8="@id/nv6" n3:bxc="@id/nv6" style="@style/a6x" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekx" n1:id="@id/nv0" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="0.0dp" n4:bwi="@id/nv6" n4:bx8="@id/nv8" style="@style/a74" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0xSo n1:id="@id/nup" n1:tag="pcs_managed_keyboard" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginTop="8.0dp" n5:bxb="@id/nv6" n5:fka="l7y" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/nv4" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n6:bx9="@id/nup" n6:bxb="@id/nup" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/nv3" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf" />
+        <X.12nN n1:id="@id/nv5" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="4.0dp" n6:bwk="owf" n6:bx8="@id/nv3" n6:bxc="owf" style="@style/qa" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.12nN n1:id="@id/f46" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dp" n1:text="@null" n7:bx9="owf" n7:bxb="@id/nv4" style="@style/a6u" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekz" n1:id="@id/f47" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="*" n1:layout_marginStart="2.0dp" n8:bx8="@id/f46" n8:bxc="@id/f46" style="@style/a6x" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekx" n1:id="@id/f3r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="2.0dp" n9:bwi="@id/f46" n9:bx8="@id/f46" style="@style/a77" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekx" n1:id="@id/f3t" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="0.0dp" n10:bwi="@id/f46" n10:bx8="@id/f47" style="@style/a74" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <EditText n1:textColor="?ekp" n1:textColorHint="?ekx" n1:gravity="start|top" n1:id="@id/f31" n1:tag="pcs_managed_keyboard" n1:background="@drawable/cln" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="95.0dp" n1:layout_marginTop="8.0dp" n1:hint="@null" n1:maxLength="200" n11:bxb="@id/f46" style="@style/px" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/f3y" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n12:bx9="@id/f31" n12:bxb="@id/f31" xmlns:n12="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/f3x" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n12:bwk="owf" n12:bx9="owf" n12:bxc="owf" />
+        <X.12nN n1:id="@id/f3z" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="4.0dp" n12:bwk="owf" n12:bx8="@id/f3x" n12:bxc="owf" style="@style/qa" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

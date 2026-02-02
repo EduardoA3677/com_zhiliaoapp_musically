@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:focusable="true" n1:layout_width="88.0dp" n1:layout_height="122.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/b6v" n1:focusable="false" n1:layout_width="88.0dp" n1:layout_height="88.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0CzP n1:id="@id/eli" n1:focusable="false" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n1:layout_marginTop="16.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <ImageView n1:id="@id/elj" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:src="@drawable/csx" n1:importantForAccessibility="no" n2:bwk="@id/eli" n2:bwq="@id/eli" n2:bx9="@id/eli" n2:bxc="@id/eli" />
+        <ImageView n1:id="@id/b8y" n1:background="@drawable/dd7" n1:focusable="false" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n2:bwk="@id/eli" n2:bwq="@id/eli" n2:bx9="@id/eli" n2:bxc="@id/eli" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/mj4" n1:focusable="false" n1:visibility="invisible" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n1:layout_marginTop="16.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <X.0rmn n1:id="@id/up1" n1:focusable="false" n1:visibility="invisible" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:translationX="4.0dp" n1:translationY="4.0dp" n2:b3w="@color/cy" n2:bk8="true" n2:bsc="@color/cy" n2:bwk="@id/eli" n2:bwq="@id/eli" n2:f6x="?bx" n2:f6y="4.0dp" />
+        <X.0Czc n1:id="@id/obw" n1:focusable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:translationX="4.0dp" n1:translationY="4.0dp" n2:bwk="@id/up1" n2:bwq="@id/up1" n2:bx9="@id/up1" n2:bxc="@id/up1" n2:eto="d4s" n2:ey2="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/nv6" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="11.0dp" n1:maxWidth="72.0dp" n1:text="@null" n1:maxLines="1" n3:bwk="owf" n3:bwq="@id/b6v" n3:bx9="@id/b6v" n3:fj2="q1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

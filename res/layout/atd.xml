@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ukg" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CPG n1:id="@id/h6y" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:scrollbars="none" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:requiresFadingEdge="horizontal" n2:bwr="@id/ud8" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0qYC n1:id="@id/iz2" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="16.0dp" />
+    </X.0CPG>
+    <FrameLayout n1:id="@id/ud8" n1:padding="11.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="@id/h6y" n3:bwq="owf" n3:bxc="@id/h6y" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ud4" n1:visibility="visible" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n3:fjq="@drawable/c7a" n3:fmy="?zw" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ud5" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n3:fjq="@drawable/c7b" n3:fmy="?zw" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

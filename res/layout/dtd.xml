@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/nhv" n1:paddingLeft="@dimen/a6v" n1:paddingTop="@dimen/a7o" n1:paddingRight="@dimen/a6v" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12uH n1:id="@id/ni6" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12tt n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:hint="@null" n1:inputType="date" n1:imeOptions="flagNoExtractUi" />
+    </X.12uH>
+</FrameLayout>

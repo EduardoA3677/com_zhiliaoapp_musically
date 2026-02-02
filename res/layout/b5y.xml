@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/h40" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/u6u" n1:layout_width="72.0dp" n1:layout_height="72.0dp" />
+    <FrameLayout n1:id="@id/u6z" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/u71" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0rLb n1:id="@id/u6v" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <include layout="@layout/b5z" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="center|top" n1:orientation="horizontal" n1:id="@id/hye" n1:paddingTop="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/hyd" n1:focusable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_arrow_down_fill" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/hyf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="4.0dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </X.0rLb>
+    <View n1:layout_gravity="bottom" n1:id="@id/u6r" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <FrameLayout n1:id="@id/t4n" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/f8l" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <include layout="@layout/b81" />
+    <LinearLayout n1:layout_gravity="end" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="98.0dp" n1:layout_marginEnd="12.0dp">
+        <include n1:id="@id/phh" n1:visibility="gone" layout="@layout/b9v" />
+        <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <include n1:id="@id/b3n" n1:visibility="gone" layout="@layout/b4h" />
+            <include n1:id="@id/b3o" n1:visibility="gone" layout="@layout/b4h" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout n1:id="@id/qx0" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

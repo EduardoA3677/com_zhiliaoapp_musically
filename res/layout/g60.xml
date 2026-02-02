@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ury" n1:background="@drawable/e6b" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/us5" n1:layout_width="0.0dp" n1:layout_height="52.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/urs" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" n2:br4="?ctu" n2:brl="?c3d" />
+        <X.12nN n1:textSize="17.0sp" n1:textColor="@color/df" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/us4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:singleLine="true" n2:bp3="btv" />
+        <View n1:layout_gravity="bottom" n1:id="@id/urt" n1:background="@color/c8" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/us0" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/us5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="200.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" layout="@layout/hls" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

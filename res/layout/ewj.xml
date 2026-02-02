@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/zq3" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:etn="?y1" n2:eto="d4s" n2:eyo="?yg" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/zq6" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginBottom="4.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n3:bwk="@id/zq3" n3:bx9="@id/zq3" n3:fjq="@raw/icon_repost_fill" n3:fjz="true" n3:fmy="?z4" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.tag.TuxTag n1:id="@id/zq4" n1:paddingLeft="6.0dp" n1:paddingTop="3.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="3.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:text="@null" n1:layout_marginStart="4.0dp" n4:bwk="@id/zq3" n4:bx9="@id/zq3" n4:fhu="?xv" n4:fj2="pz" n4:fmm="?z4" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e87" n1:background="?bm" n1:focusable="true" n1:focusableInTouchMode="true" n1:fitsSystemWindows="true" n1:descendantFocusability="beforeDescendants" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/wve" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" layout="@layout/b5l" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/plq" n1:background="@color/g2" n1:layout_width="match_parent" n1:layout_height="1.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/wve" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0Cg1 n1:layout_gravity="center" n1:id="@id/sgc" n1:background="?c7" n1:layout_width="120.0dp" n1:layout_height="match_parent" n3:eyn="4.0dp">
+            <FrameLayout n1:id="@id/zxc" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/zu6" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n3:fjq="@raw/icon_play_fill" n3:fjz="true" n3:fmy="?e0" />
+        </X.0Cg1>
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/g1j" n1:background="@color/g2" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/plq" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/d3v" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="12.0dp" n1:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/g18" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="78.0dp" />
+            <View n1:layout_gravity="bottom" n1:id="@id/ics" n1:background="@drawable/atn" n1:layout_width="match_parent" n1:layout_height="51.0dp" n1:layout_marginBottom="78.0dp" />
+            <X.0oCE n1:id="@id/mll" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <include n1:id="@id/d3z" n1:visibility="gone" layout="@layout/b56" />
+            <include n1:id="@id/ond" n1:visibility="gone" layout="@layout/b53" />
+            <include n1:id="@id/x01" n1:visibility="gone" layout="@layout/b54" />
+            <include n1:id="@id/s2z" n1:visibility="gone" layout="@layout/b55" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

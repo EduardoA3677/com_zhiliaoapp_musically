@@ -1,0 +1,53 @@
+.class public final LX/0nTY;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/comment/commentlist/viewmodel/CommentViewModelImpl;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public static LIZ(LX/0t7j;)Lcom/ss/android/ugc/aweme/comment/commentlist/viewmodel/CommentViewModelImpl;
+    .locals 1
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isDestroyed()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(LX/0t7j;)Landroidx/lifecycle/ViewModelProvider;
+
+    move-result-object p0
+
+    const-class v0, Lcom/ss/android/ugc/aweme/comment/commentlist/viewmodel/CommentViewModelImpl;
+
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/comment/commentlist/viewmodel/CommentViewModelImpl;
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method

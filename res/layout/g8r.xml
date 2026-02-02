@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="end" n1:orientation="vertical" n1:id="@id/s22" n1:background="@drawable/dwt" n1:paddingLeft="32.0dp" n1:paddingTop="24.0dp" n1:paddingRight="32.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingHorizontal="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?zw" n1:gravity="center_horizontal" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:text="@null" style="@style/pm" />
+    <X.12nN n1:textSize="15.0dp" n1:textColor="?zw" n1:gravity="center_horizontal" n1:id="@id/xtk" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:lineSpacingExtra="3.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxb="@id/yti" style="@style/px" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp">
+        <X.12pz n1:id="@id/fzu" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:text="@null" style="@style/a5e" />
+        <X.12pz n1:id="@id/q86" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginTop="8.0dp" n1:text="@null" style="@style/a5z" />
+    </LinearLayout>
+</LinearLayout>

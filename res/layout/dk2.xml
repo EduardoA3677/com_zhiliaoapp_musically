@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/a1v" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0WJz n1:id="@id/a1u" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="3.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0MoL n1:id="@id/a1t" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginStart="@dimen/r5" n3:bwk="@id/a1u" n3:bx8="@id/a1u" n3:bxc="@id/a1u" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

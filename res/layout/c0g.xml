@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dp" n1:layout_marginRight="2.0dp" n1:layout_marginHorizontal="2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CX4 n1:layout_gravity="center" n1:id="@id/k94" n1:layout_width="60.0dp" n1:layout_height="80.0dp" />
+    <X.0mtC n1:layout_gravity="center" n1:id="@id/k_1" n1:visibility="gone" n1:layout_width="60.0dp" n1:layout_height="80.0dp" n2:fdo="10.0dp" n2:fdp="18.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="center" n1:id="@id/k_3" n1:visibility="gone" n1:layout_width="60.0dp" n1:layout_height="80.0dp" />
+    <View n1:id="@id/ta7" n1:layout_width="68.0dp" n1:layout_height="88.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/k_o" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_arrow_clockwise" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/k9k" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n4:fjq="@raw/icon_control" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

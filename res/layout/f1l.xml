@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sy5" n1:background="?dm" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Kep n1:id="@id/visual_search_background_dispatch_layout" n1:background="?dm" n1:focusable="true" n1:clickable="true" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:layout_gravity="start|top" n1:id="@id/visual_search_background_preview" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:contentDescription="target image container" />
+        <X.0Kff n1:id="@id/visual_search_doodle_overlay" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <View n1:layout_gravity="bottom" n1:id="@id/visual_search_middle_image_mask" n1:background="@drawable/d7t" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="44.0dp" />
+        <FrameLayout n1:id="@id/visual_middle_page_mask_container" n1:background="?zp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/visual_middle_page_color_mask_container" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="center_horizontal" n1:id="@id/visual_middle_circle_tip_container" n1:background="?zp" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n2:bgf="@dimen/b6" n2:evq="?xy" n2:evt="0.5dp">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="40.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:contentDescription="middle page circle search tips" n1:layout_marginStart="12.0dp" n2:fjq="@raw/icon_hand_swipe_fill" n2:fjt="20.0dp" n2:fk6="20.0dp" n2:fmy="?xx" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:maxLines="2" n1:layout_marginStart="@dimen/r5" n1:layout_marginEnd="12.0dp" n2:fj2="pv" />
+            </LinearLayout>
+        </com.bytedance.tux.widget.RadiusLayout>
+        <com.bytedance.tux.widget.RadiusLayout n1:layout_gravity="center|bottom" n1:id="@id/visual_search_middle_back_btn" n1:background="?zp" n1:visibility="gone" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginBottom="20.0dp" n2:bgf="@dimen/b7" n2:evq="?xy" n2:evt="0.5dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="match_parent" n1:layout_height="match_parent" n1:contentDescription="middle page back button" n2:fjq="@raw/icon_x_mark" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?xx" />
+        </com.bytedance.tux.widget.RadiusLayout>
+    </X.0Kep>
+</androidx.constraintlayout.widget.ConstraintLayout>

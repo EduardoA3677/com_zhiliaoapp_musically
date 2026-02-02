@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingTop="@dimen/acl" n1:paddingBottom="@dimen/aco" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layoutDirection="locale" n1:paddingStart="@dimen/acp" n1:paddingEnd="@dimen/acd" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jk6" n1:layout_width="0.0dp" n1:layout_height="@dimen/acq" n1:scaleType="centerCrop" n1:layout_weight="1.0" n1:layout_marginEnd="1.0dp" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jk7" n1:layout_width="0.0dp" n1:layout_height="@dimen/acq" n1:scaleType="centerCrop" n1:layout_weight="1.0" n1:layout_marginEnd="1.0dp" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jk8" n1:layout_width="0.0dp" n1:layout_height="@dimen/acq" n1:scaleType="centerCrop" n1:layout_weight="1.0" n1:layout_marginEnd="1.0dp" />
+    <FrameLayout n1:layout_width="0.0dp" n1:layout_height="@dimen/acq" n1:layout_weight="1.0">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/jk9" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+        <View n1:id="@id/oq9" n1:background="?xr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ngr" n1:visibility="gone" n1:layout_width="@dimen/aci" n1:layout_height="@dimen/aci" n1:maxLines="2" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

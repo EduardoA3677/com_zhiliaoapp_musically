@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/kyy" n1:visibility="visible" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="1.0dp" n2:br4="?d9q" n2:brl="?ei6" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ei6" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/ym4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a7_" />
+    <X.12nN n1:textColor="?ei6" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/xso" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_weight="1.0" style="@style/a7_" />
+    <FrameLayout n1:gravity="center_vertical" n1:id="@id/lfj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="14.0dp" n1:layout_marginStart="2.0dp">
+        <X.0cWm n1:id="@id/dkh" n1:background="@drawable/dmt" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n3:ffk="16.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0cWm n1:id="@id/dki" n1:background="@drawable/dmt" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="12.0dp" n4:ffk="16.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0cWm n1:id="@id/dkj" n1:background="@drawable/dmt" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="24.0dp" n5:ffk="16.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/dkr" n1:background="@drawable/dmt" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginStart="24.0dp">
+            <X.12nN n1:textColor="?a04" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/dks" n1:background="@drawable/dn1" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:includeFontPadding="false" style="@style/a7h" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

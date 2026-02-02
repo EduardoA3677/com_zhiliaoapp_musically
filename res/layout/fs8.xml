@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/ale" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/j9y" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_time_portal_pin" n2:fjt="33.0dp" n2:fk6="33.0dp" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="33.0dp" n1:textColor="?e0" n1:ellipsize="end" n1:gravity="start|bottom" n1:id="@id/wk7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:breakStrategy="high_quality" />
+    </LinearLayout>
+    <TextView n1:textSize="19.0dp" n1:textColor="?e0" n1:gravity="start|center" n1:id="@id/v_9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:layout_marginStart="33.0dp" />
+</LinearLayout>

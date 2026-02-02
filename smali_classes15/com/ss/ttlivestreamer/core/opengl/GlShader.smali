@@ -1,0 +1,436 @@
+.class public Lcom/ss/ttlivestreamer/core/opengl/GlShader;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public program:I
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 7
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const v0, 0x8b31
+
+    invoke-static {v0, p1}, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->compileShader(ILjava/lang/String;)I
+
+    move-result v6
+
+    const v0, 0x8b30
+
+    invoke-static {v0, p2}, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->compileShader(ILjava/lang/String;)I
+
+    move-result v5
+
+    invoke-static {}, Landroid/opengl/GLES20;->glCreateProgram()I
+
+    move-result v0
+
+    iput v0, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    if-eqz v0, :cond_1
+
+    invoke-static {v0, v6}, Landroid/opengl/GLES20;->glAttachShader(II)V
+
+    iget v0, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    invoke-static {v0, v5}, Landroid/opengl/GLES20;->glAttachShader(II)V
+
+    iget v0, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    invoke-static {v0}, Landroid/opengl/GLES20;->glLinkProgram(I)V
+
+    const/4 v4, 0x1
+
+    new-array v3, v4, [I
+
+    const/4 v2, 0x0
+
+    aput v2, v3, v2
+
+    iget v1, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    const v0, 0x8b82
+
+    invoke-static {v1, v0, v3, v2}, Landroid/opengl/GLES20;->glGetProgramiv(II[II)V
+
+    aget v0, v3, v2
+
+    if-ne v0, v4, :cond_0
+
+    invoke-static {v6}, Landroid/opengl/GLES20;->glDeleteShader(I)V
+
+    invoke-static {v5}, Landroid/opengl/GLES20;->glDeleteShader(I)V
+
+    invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
+
+    return-void
+
+    :cond_0
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Could not link program: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v0, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    invoke-static {v0}, Landroid/opengl/GLES20;->glGetProgramInfoLog(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "GlShader"
+
+    invoke-static {v0, v1}, Lcom/ss/ttlivestreamer/core/utils/AVLog;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    iget v0, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    invoke-static {v0}, Landroid/opengl/GLES20;->glGetProgramInfoLog(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+
+    :cond_1
+    new-instance v2, Ljava/lang/RuntimeException;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "glCreateProgram() failed. GLES20 error: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v2
+.end method
+
+.method public static compileShader(ILjava/lang/String;)I
+    .locals 5
+
+    invoke-static {p0}, Landroid/opengl/GLES20;->glCreateShader(I)I
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    invoke-static {v4, p1}, Landroid/opengl/GLES20;->glShaderSource(ILjava/lang/String;)V
+
+    invoke-static {v4}, Landroid/opengl/GLES20;->glCompileShader(I)V
+
+    const/4 v3, 0x1
+
+    new-array v2, v3, [I
+
+    const/4 v1, 0x0
+
+    aput v1, v2, v1
+
+    const v0, 0x8b81
+
+    invoke-static {v4, v0, v2, v1}, Landroid/opengl/GLES20;->glGetShaderiv(II[II)V
+
+    aget v0, v2, v1
+
+    if-ne v0, v3, :cond_0
+
+    invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
+
+    return v4
+
+    :cond_0
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Could not compile shader "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ":"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v4}, Landroid/opengl/GLES20;->glGetShaderInfoLog(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "GlShader"
+
+    invoke-static {v0, v1}, Lcom/ss/ttlivestreamer/core/utils/AVLog;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    invoke-static {v4}, Landroid/opengl/GLES20;->glGetShaderInfoLog(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+
+    :cond_1
+    new-instance v2, Ljava/lang/RuntimeException;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "glCreateShader() failed. GLES20 error: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v2
+.end method
+
+
+# virtual methods
+.method public getAttribLocation(Ljava/lang/String;)I
+    .locals 3
+
+    iget v1, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    const/4 v0, -0x1
+
+    if-eq v1, v0, :cond_1
+
+    invoke-static {v1, p1}, Landroid/opengl/GLES20;->glGetAttribLocation(ILjava/lang/String;)I
+
+    move-result v0
+
+    if-ltz v0, :cond_0
+
+    return v0
+
+    :cond_0
+    new-instance v2, Ljava/lang/RuntimeException;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Could not locate \'"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, "\' in program"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v2
+
+    :cond_1
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    const-string v0, "The program has been released"
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method public getUniformLocation(Ljava/lang/String;)I
+    .locals 3
+
+    iget v1, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    const/4 v0, -0x1
+
+    if-eq v1, v0, :cond_1
+
+    invoke-static {v1, p1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
+
+    move-result v0
+
+    if-ltz v0, :cond_0
+
+    return v0
+
+    :cond_0
+    new-instance v2, Ljava/lang/RuntimeException;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Could not locate uniform \'"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, "\' in program"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v2
+
+    :cond_1
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    const-string v0, "The program has been released"
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method public release()V
+    .locals 2
+
+    const-string v1, "GlShader"
+
+    const-string v0, "Deleting shader."
+
+    invoke-static {v1, v0}, Lcom/ss/ttlivestreamer/core/utils/AVLog;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget v1, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    const/4 v0, -0x1
+
+    if-eq v1, v0, :cond_0
+
+    invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
+
+    iput v0, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    :cond_0
+    return-void
+.end method
+
+.method public setVertexAttribArray(Ljava/lang/String;IILjava/nio/FloatBuffer;)V
+    .locals 6
+
+    iget v1, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    const/4 v0, -0x1
+
+    if-eq v1, v0, :cond_0
+
+    invoke-virtual {p0, p1}, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->getAttribLocation(Ljava/lang/String;)I
+
+    move-result v0
+
+    invoke-static {v0}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
+
+    const/16 v2, 0x1406
+
+    const/4 v3, 0x0
+
+    move-object v5, p4
+
+    move v4, p3
+
+    move v1, p2
+
+    invoke-static/range {v0 .. v5}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
+
+    invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
+
+    return-void
+
+    :cond_0
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    const-string v0, "The program has been released"
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method public setVertexAttribArray(Ljava/lang/String;ILjava/nio/FloatBuffer;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, p1, p2, v0, p3}, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->setVertexAttribArray(Ljava/lang/String;IILjava/nio/FloatBuffer;)V
+
+    return-void
+.end method
+
+.method public useProgram()V
+    .locals 2
+
+    iget v1, p0, Lcom/ss/ttlivestreamer/core/opengl/GlShader;->program:I
+
+    const/4 v0, -0x1
+
+    if-eq v1, v0, :cond_0
+
+    invoke-static {v1}, Landroid/opengl/GLES20;->glUseProgram(I)V
+
+    invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
+
+    return-void
+
+    :cond_0
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    const-string v0, "The program has been released"
+
+    invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+.end method

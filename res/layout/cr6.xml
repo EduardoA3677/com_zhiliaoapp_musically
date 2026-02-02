@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/nfr" n1:background="?bx" n1:paddingTop="@dimen/yh" n1:paddingBottom="@dimen/yh" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/yj" n1:paddingEnd="@dimen/yj" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/jfp" n1:clickable="false" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:src="@drawable/cdn" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerVertical="true" n1:layout_marginStart="13.0dp" n1:layout_toStartOf="@id/j97" n1:layout_toEndOf="@id/jfp" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/j97" n1:clickable="false" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" n3:fjq="@raw/icon_chevron_right_ltr" n3:fmy="?a04" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.story.highlights.widget.StoryHighlightsCoverView n1:layout_gravity="center_horizontal" n1:id="@id/elb" n1:layout_width="62.0dp" n1:layout_height="62.0dp" n1:layout_marginBottom="@dimen/qz" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/xt1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

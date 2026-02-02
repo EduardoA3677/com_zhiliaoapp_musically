@@ -1,0 +1,291 @@
+.class public final Lcom/ss/android/ugc/aweme/router/RecordPermissionInterceptorNew;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/router/interceptor/IInterceptor;
+
+
+# instance fields
+.field public final LL:Ljava/lang/String;
+
+.field public final LLILIL:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "openShoot"
+
+    iput-object v0, p0, Lcom/ss/android/ugc/aweme/router/RecordPermissionInterceptorNew;->LL:Ljava/lang/String;
+
+    const-string v0, "openRecord"
+
+    iput-object v0, p0, Lcom/ss/android/ugc/aweme/router/RecordPermissionInterceptorNew;->LLILIL:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final matchInterceptRules(Lcom/bytedance/router/RouteIntent;)Z
+    .locals 3
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const/4 v1, 0x0
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lcom/bytedance/router/RouteIntent;->getUri()Landroid/net/Uri;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Landroid/net/Uri;->getHost()Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Lcom/bytedance/router/RouteIntent;->getUri()Landroid/net/Uri;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/net/Uri;->getPath()Ljava/lang/String;
+
+    move-result-object v1
+
+    :cond_0
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v2}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v1
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/router/RecordPermissionInterceptorNew;->LL:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/router/RecordPermissionInterceptorNew;->LLILIL:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_1
+    move-object v0, v1
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public final onInterceptRoute(Landroid/content/Context;Lcom/bytedance/router/RouteIntent;)Z
+    .locals 12
+
+    if-eqz p1, :cond_0
+
+    invoke-static {p1}, LX/0ZDH;->LIZ(Landroid/content/Context;)Landroid/app/Activity;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    move-object p1, v0
+
+    :cond_0
+    const/4 v3, 0x1
+
+    if-eqz p2, :cond_1
+
+    invoke-virtual {p2}, Lcom/bytedance/router/RouteIntent;->getUri()Landroid/net/Uri;
+
+    move-result-object v5
+
+    if-eqz v5, :cond_1
+
+    instance-of v0, p1, Landroid/app/Activity;
+
+    if-eqz v0, :cond_1
+
+    const-string v0, "gd_label"
+
+    invoke-static {v5, v0}, Lcom/bytedance/mt/protector/impl/UriProtector;->com_bytedance_mt_protector_impl_UriProtector_com_ss_android_ugc_aweme_lancet_UriLancet_getQueryParameter(Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "live_encourage"
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    const-string v6, "keva_repo_live_encourage_page"
+
+    invoke-static {v6}, Lcom/bytedance/keva/Keva;->getRepo(Ljava/lang/String;)Lcom/bytedance/keva/Keva;
+
+    move-result-object v2
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v4, "shown"
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {}, LX/0ZWL;->LJ()Lcom/ss/android/ugc/aweme/IAccountUserService;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/IAccountUserService;->getCurUserId()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v2, v1, v0}, Lcom/bytedance/keva/Keva;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    invoke-static {}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->get()Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;
+
+    move-result-object v1
+
+    const-class v0, Lcom/ss/android/ugc/aweme/live/ILiveOuterService;
+
+    invoke-virtual {v1, v0}, Lcom/ss/android/ugc/aweme/framework/services/ServiceManager;->getService(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/live/ILiveOuterService;
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/live/ILiveOuterService;->L3()LX/0qtO;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v0}, LX/0qxa;->LJLIIIL()Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-static {p1, v0}, Lcom/bytedance/router/SmartRouter;->buildRoute(Landroid/content/Context;Ljava/lang/String;)Lcom/bytedance/router/SmartRoute;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/bytedance/router/SmartRoute;->open()V
+
+    invoke-static {v6}, Lcom/bytedance/keva/Keva;->getRepo(Ljava/lang/String;)Lcom/bytedance/keva/Keva;
+
+    move-result-object v2
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {}, LX/0ZWL;->LJ()Lcom/ss/android/ugc/aweme/IAccountUserService;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/IAccountUserService;->getCurUser()Lcom/ss/android/ugc/aweme/profile/model/User;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/profile/model/User;->getUid()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0, v3}, Lcom/bytedance/keva/Keva;->storeBoolean(Ljava/lang/String;Z)V
+
+    :cond_1
+    return v3
+
+    :cond_2
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_3
+    const-class v6, Lcom/ss/android/ugc/aweme/services/IBusinessPublishService;
+
+    const/4 v7, 0x0
+
+    const/16 v10, 0xe
+
+    const/4 v11, 0x0
+
+    move v8, v7
+
+    move v9, v7
+
+    invoke-static/range {v6 .. v11}, Lcom/ss/android/ugc/aweme/framework/services/PluggableExtentionKt;->pluggableSpi$default(Ljava/lang/Class;ZZZILjava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/services/IBusinessPublishService;
+
+    if-eqz v0, :cond_1
+
+    check-cast p1, Landroid/app/Activity;
+
+    invoke-interface {v0, p1, v5}, Lcom/ss/android/ugc/aweme/services/IBusinessPublishService;->parserTo(Landroid/app/Activity;Landroid/net/Uri;)V
+
+    return v3
+.end method
+
+.method public final synthetic shouldHandleRoute(Lcom/bytedance/router/RouteIntent;)Z
+    .locals 1
+
+    invoke-static {p0, p1}, LX/0gdu;->LIZ(Lcom/bytedance/router/interceptor/IInterceptor;Lcom/bytedance/router/RouteIntent;)Z
+
+    move-result v0
+
+    return v0
+.end method

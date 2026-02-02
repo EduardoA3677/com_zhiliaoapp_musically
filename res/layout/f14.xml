@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/t0a" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/lu6" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <X.12nx n1:id="@id/nyr" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:id="@id/t1a" n1:background="@drawable/d8i" n1:layout_width="match_parent" n1:layout_height="88.0dp" />
+            <X.12o1 n1:id="@id/p8d" n1:background="@color/dx" n1:fadingEdge="none" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" n2:bw_="com.ss.android.ugc.aweme.visualsearch.components.widget.PhotoSearchAppbarLayout$Behavior" n2:bzd="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <LinearLayout n1:id="@id/p8j" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|ghl|ub8" />
+            </X.12o1>
+            <com.bytedance.tux.widget.RadiusLayout n1:id="@id/p8l" n1:background="?bx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:animateLayoutChanges="true" n3:bgh="@dimen/b3" n3:bgj="@dimen/b3" n3:bw_="@null" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <View n1:layout_gravity="center|top" n1:background="@drawable/cwh" n1:layout_width="36.0dp" n1:layout_height="4.0dp" n1:layout_marginTop="@dimen/r1" />
+                <X.137G n1:layout_width="match_parent" n1:layout_height="@dimen/qg" n1:overScrollMode="never">
+                    <View n1:layout_width="@dimen/qa" n1:layout_height="@dimen/qa" />
+                </X.137G>
+            </com.bytedance.tux.widget.RadiusLayout>
+            <FrameLayout n1:id="@id/h35" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bw_="@null" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </X.12nx>
+        <X.07Go n1:id="@id/uny" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="52.0dp" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/kie" n1:padding="5.0dp" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:cropToPadding="true" n2:fjq="@raw/icon_x_mark" n2:fmy="?zy"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0ulM n3:id="@id/vhw" n3:layout_width="match_parent" n3:layout_height="wrap_content"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <X.0D2z n4:layout_gravity="bottom" n4:id="@id/cf3" n4:visibility="gone" n4:layout_width="match_parent" n4:layout_height="24.0dp" n4:layout_marginBottom="8.0dp" n4:layout_marginStart="8.0dp" n4:layout_marginEnd="8.0dp" n5:fi9="false" n5:fib="wf4" n5:fid="qhx"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</merge>

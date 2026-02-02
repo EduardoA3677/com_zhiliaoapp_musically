@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/cu7" n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/qi" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/r5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxHeight="132.0dp" n1:paddingHorizontal="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CQF n1:ellipsize="end" n1:id="@id/iqm" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:lines="1" n1:layout_alignParentTop="true" n1:layout_toStartOf="@id/iqn" n1:layout_alignParentStart="true" style="@style/a77" />
+    <X.0D0t n1:id="@id/iqn" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" />
+    <X.12nN n1:textSize="36.0dp" n1:textColor="?ekq" n1:id="@id/isc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxLines="2" n1:layout_below="@id/iqm" n1:lineSpacingMultiplier="1.1" style="@style/a6j" />
+</RelativeLayout>

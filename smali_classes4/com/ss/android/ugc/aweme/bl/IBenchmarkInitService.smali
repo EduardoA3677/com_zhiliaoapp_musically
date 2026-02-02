@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/bl/IBenchmarkInitService;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract getBenchmarkInitTask()LX/0B6c;
+.end method

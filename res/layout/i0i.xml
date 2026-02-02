@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/zkl" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <ViewStub n1:id="@id/vs_prepare_status" n1:layout="@layout/i0j" n1:inflatedId="@id/zkv" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/vs_striping_status" n1:layout="@layout/i0l" n1:inflatedId="@id/zl7" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <ViewStub n1:id="@id/vs_result_status" n1:layout="@layout/i0k" n1:inflatedId="@id/zky" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

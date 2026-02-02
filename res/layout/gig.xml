@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:background="@drawable/f9f" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ehx" n1:gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/a6q" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/lqj" n1:background="?eda" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="15.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/title" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/e_g" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/lqj" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

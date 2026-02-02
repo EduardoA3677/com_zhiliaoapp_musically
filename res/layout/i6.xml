@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/a6y" n1:layout_width="match_parent" n1:layout_height="54.0dp" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/webview_container" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+    <LinearLayout n1:gravity="bottom" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp">
+        <View n1:id="@id/fd6" n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/c3g" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp" n1:text="Select by Artist, Event or Venue" n1:maxLines="2" n1:textAlignment="viewStart" n1:layout_marginHorizontal="16.0dp" n1:layout_marginVertical="8.0dp" />
+        <X.0D2z n1:id="@id/e6s" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:text="Confirm" n1:layout_marginHorizontal="16.0dp" n2:fib="l9r" n2:fid="qhx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j4y" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n2:br4="?ctg" n2:brl="?ekp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

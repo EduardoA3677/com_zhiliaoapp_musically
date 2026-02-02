@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="120.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMn n1:id="@id/jms" n1:layout_width="66.0dp" n1:layout_height="88.0dp" n2:bwl="@id/jmt" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fly="88.0dp" n2:fm1="?dj" n2:fm3="?dl" n2:fm4="@dimen/b8" n2:fm7="66.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.1295 n1:id="@id/jmp" n1:layout_width="66.0dp" n1:layout_height="88.0dp" n1:scaleType="centerCrop" n3:bwl="@id/jmt" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:eyl="@dimen/b8" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/jmr" n1:background="@drawable/cwl" n1:layout_width="66.0dp" n1:layout_height="88.0dp" n4:bwk="@id/jmp" n4:bwq="@id/jmp" n4:bx9="@id/jmp" n4:bxc="@id/jmp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0n4v n1:id="@id/jmt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/jmp" n5:fm0="66dp" n5:fm1="?dj" n5:fm3="?dl" n5:fm4="@dimen/ba" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="marquee" n1:gravity="center" n1:id="@id/jmu" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="66.0dp" n1:layout_height="16.0dp" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:paddingStart="-1.0dp" n1:paddingEnd="-1.0dp" n5:fj2="q2" />
+    </X.0n4v>
+</androidx.constraintlayout.widget.ConstraintLayout>

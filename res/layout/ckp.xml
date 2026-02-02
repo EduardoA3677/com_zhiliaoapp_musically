@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137G n1:id="@id/jff" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:fillViewport="true">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/jfd" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0o06 n1:id="@id/jfc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:nestedScrollingEnabled="false" />
+            <RelativeLayout n1:id="@id/visible_index_header" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="8.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:id="@id/visible_index_title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentStart="true" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.input.TuxTextView n1:id="@id/visible_index_action" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentEnd="true" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </RelativeLayout>
+            <com.bytedance.tux.input.TuxTextView n1:id="@id/itq" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="8.0dp" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </X.137G>
+    <X.0oCE n1:id="@id/jef" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oBw n1:layout_gravity="center" n1:id="@id/ifh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="20.0dp" n1:layout_marginVertical="20.0dp" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/jfe" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

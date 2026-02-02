@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="start|bottom" n1:orientation="vertical" n1:id="@id/sof" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentBottom="true" n2:bpf="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout n1:id="@id/g_7" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <X.0mEX n1:textColor="@color/df" n1:gravity="center" n1:id="@id/xqm" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="52.0dp" n1:text="@string/dzy" n1:layout_centerVertical="true" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n2:bt7="false" style="@style/aet" />
+        <X.0mEX n1:textStyle="bold" n1:textColor="@color/df" n1:gravity="center" n1:id="@id/ylu" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@string/q6_" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n1:layout_alignParentEnd="true" n2:b5w="n2i" n2:bt7="false" style="@style/aet" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/zxm" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="50.0dp" n1:layout_marginBottom="282.0dp" n1:layout_centerHorizontal="true">
+        <ImageView n1:id="@id/kw_" n1:padding="50.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/a9z" n1:layout_centerInParent="true" />
+        <RelativeLayout n1:gravity="center" n1:id="@id/sbk" n1:background="@drawable/a5s" n1:paddingLeft="20.0dp" n1:paddingTop="16.0dp" n1:paddingRight="20.0dp" n1:paddingBottom="16.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+            <X.0Cxl n1:textSize="13.0sp" n1:textColor="?e1" n1:gravity="center" n1:id="@id/xy0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:lineSpacingExtra="3.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout n1:id="@id/edt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp">
+            <X.0mEd n1:gravity="center" n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/mjg" n1:layout_width="match_parent" n1:layout_height="212.0dp">
+                <X.0mZS n1:gravity="center" n1:layout_gravity="center" n1:id="@id/mlj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </X.0mEd>
+            <X.0mEd n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/t81" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="266.0dp" n2:b7t="?bn" n2:bpf="true" n2:ey9="@dimen/fa" n2:fcd="true">
+                <FrameLayout n1:orientation="horizontal" n1:id="@id/t7t" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginTop="15.0dp">
+                    <X.0n5a n1:gravity="center" n1:id="@id/zrq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="40.0dp" n2:bh_="n8a" n2:bht="40.0dp" n2:bhu="4.0dp" n2:bpc="28.0dp" n2:bpe="28.0dp" n2:bz1="16.0dp" n2:ep7="@color/cy" n2:ep8="0.34" n2:eu0="opf" n2:f1v="true" n2:f39="12.0dp" n2:f6d="@color/dx" />
+                    <X.0mDk n1:gravity="center" n1:id="@id/g_d" n1:layout_width="match_parent" n1:layout_height="40.0dp" n2:bz1="24.0dp" n2:eqn="@color/uc" />
+                </FrameLayout>
+                <X.0GYs n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="160.0dp" />
+                <X.0mEb n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:f7k="true" />
+                <X.0mEq n1:id="@id/vk5" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:f84="@color/dx" n2:f89="h64" n2:f8e="?e0" n2:f8j="0.0dp" n2:f8m="30.0dp" n2:f8n="sqt" n2:f8q="0.0dp" n2:f8r="0.0dp" n2:f8u="@color/df" n2:f8z="@color/dn" />
+            </X.0mEd>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

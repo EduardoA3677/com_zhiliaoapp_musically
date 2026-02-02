@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sfr" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="end" n1:orientation="horizontal" n1:id="@id/wr4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/wk0" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" n1:layout_marginEnd="@dimen/qz" style="@style/a77" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|bottom" n1:id="@id/jaz" n1:layout_width="21.819977dp" n1:layout_height="16.0dp" />
+    </LinearLayout>
+    <ProgressBar n1:layout_gravity="center_vertical" n1:id="@id/vza" n1:layout_width="match_parent" n1:layout_height="@dimen/qf" n1:layout_marginTop="6.0dp" n1:max="100" n1:progress="10" n1:progressDrawable="@drawable/ez0" n3:bxb="@id/wr4" style="?android:progressBarStyleHorizontal" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekp" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/vzm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="@dimen/r5" n4:bwk="@id/vza" n4:bx9="owf" n4:bxc="@id/vza" style="@style/a7i" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

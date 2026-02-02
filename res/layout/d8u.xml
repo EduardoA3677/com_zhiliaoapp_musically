@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/sed" n1:background="@drawable/aht" n1:paddingLeft="6.0dp" n1:paddingTop="14.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="14.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="44.0dp" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/eso" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:baselineAligned="false">
+        <X.12xq n1:layout_gravity="center" n1:id="@id/kt3" n1:background="@drawable/ar8" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n2:bha="true" n2:bhf="?bx" n2:bhg="true" n2:bhh="100.0" n2:bhj="180.0" n2:bhk="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0Cxk n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/qvb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0%" style="@style/aap" />
+    </FrameLayout>
+    <X.0Cxk n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/n52" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:b5h="15.0sp" n3:b5i="10.0sp" n3:b5k="1.0dp" n3:b5l="z1f" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0Cxk n1:textSize="12.0sp" n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/wfj" n1:visibility="gone" n1:layout_width="170.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" />
+</LinearLayout>

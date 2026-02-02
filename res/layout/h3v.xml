@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ddb" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12vO n1:id="@id/kim" n1:layout_width="88.0dp" n1:layout_height="0.0dp" n1:scaleType="fitCenter" n1:layout_marginEnd="0.0dp" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" n2:ey4="false" n2:ey5="false" n2:eya="false" n2:eyb="true" n2:eyl="8.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="start|center" n1:orientation="vertical" n1:id="@id/zn7" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="13.0dp" n1:layout_marginBottom="13.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="0.0dp" n1:layout_marginVertical="13.0dp" n3:bwk="owf" n3:bwr="@id/kim" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0UbT n1:id="@id/ehs" n1:layout_width="wrap_content" n1:layout_height="18.0dp" n1:layout_marginBottom="4.0dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="18.0dp">
+            <X.0fyu n1:textColor="?efc" n1:ellipsize="none" n1:id="@id/xsp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_marginEnd="2.0dp" n3:bwg="true" n3:bwk="owf" n3:bwr="@id/kik" n3:bwz="0.0" n3:bx0="ori" n3:bx9="owf" n3:bxc="owf" style="@style/a76" />
+            <X.0D0r n1:id="@id/kik" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="fitXY" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/xsp" n3:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/ggy" n1:background="@drawable/eec" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="@id/ggx" n2:bwq="owf" n2:bx9="owf" n2:bxc="@id/ggx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12w1 n1:id="@id/ggx" n1:layout_width="0.0dp" n1:layout_height="48.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginStart="12.0dp" n3:bwr="@id/s06" n3:bx9="owf" n3:bxc="owf" n3:f89="h64" n3:f8j="0.0dp" n3:f8m="30.0dp" n3:f8n="sqt" n3:f8q="12.0dp" n3:f8r="12.0dp" n3:f8t="?eid" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.05O2 n1:id="@id/g9q" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwk="owf" n4:bx3="owf" n4:bx7="owf" n4:bxb="@id/ggx" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/s06" n1:paddingLeft="14.0dp" n1:paddingTop="8.0dp" n1:paddingRight="14.0dp" n1:paddingBottom="8.0dp" n1:layout_width="52.0dp" n1:layout_height="40.0dp" n1:src="@drawable/edk" n1:scaleType="fitXY" n1:paddingHorizontal="14.0dp" n1:paddingVertical="8.0dp" n5:bwk="@id/ggx" n5:bwq="owf" n5:bx8="@id/ggx" n5:bxc="@id/ggx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

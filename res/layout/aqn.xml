@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingTop="@dimen/r5" n1:paddingBottom="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/e0r" n1:background="@drawable/b88" n1:padding="@dimen/qf" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/qf">
+            <com.bytedance.tux.input.TuxTextView n1:layout_gravity="center_vertical" n1:id="@id/e0u" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/e0q" n1:paddingTop="7.0dp" n1:paddingBottom="7.0dp" n1:layout_width="14.0dp" n1:layout_height="28.0dp" n1:scaleType="fitCenter" n1:layout_weight="0.0" n1:importantForAccessibility="no" n2:fjq="@raw/icon_chevron_right_offset_ltr" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e0h" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.130O n1:id="@id/e0i" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:boc="0.0" n3:bod="@dimen/qf" n3:boe="ori" n3:boj="2" n3:bop="d5p" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0bF0 n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/k0q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:translationZ="-2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ctg" />
+    <ViewStub n1:id="@id/trx" n1:layout="@layout/cs0" n1:inflatedId="@id/rud" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/g3w" n1:layout="@layout/crp" n1:layout_width="match_parent" n1:layout_height="46.0dp" />
+    <FrameLayout n1:id="@id/yzo" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <ViewStub n1:id="@id/v0h" n1:inflatedId="@id/g2b" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0bEz n1:id="@id/ov7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</X.0bF0>

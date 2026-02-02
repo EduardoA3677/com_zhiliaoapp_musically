@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/kdw" n1:background="@color/d2" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kdz" n1:background="@color/d2" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwy="0.2" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kdx" n1:background="@color/d2" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwy="0.2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="12.0dp" n1:textColor="@color/aaa" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/kdy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="18.0dp" n1:layout_marginRight="18.0dp" n1:text="@null" n1:layout_marginStart="18.0dp" n1:layout_marginEnd="18.0dp" n4:bwg="true" n4:bwk="owf" n4:bx3="owf" n4:bx7="owf" n4:bxc="owf" style="@style/a7b" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/vsl" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:eyl="@dimen/b3" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="top" n1:id="@id/vsp" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp">
+        <LinearLayout n1:textColor="?z3" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp" n3:bwr="@id/vso" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/vsm" n1:padding="6.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Hot" n1:maxLines="2" n3:fj2="q2" />
+        </LinearLayout>
+        <X.05qY n1:id="@id/vso" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwq="owf" n4:bx8="@id/vsm" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View n1:layout_gravity="bottom" n1:id="@id/vsn" n1:layout_width="match_parent" n1:layout_height="80.0dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="end|bottom" n1:id="@id/vsf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:layout_gravity="center_vertical" n1:id="@id/vsh" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_marginEnd="4.0dp" n5:bwk="owf" n5:bwr="@id/vsg" n5:bx9="owf" n5:bxc="owf" n5:fj2="pv" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/vsg" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:importantForAccessibility="no" n6:bwk="owf" n6:bwq="owf" n6:fjq="@raw/icon_play_circle_fill" n6:fmy="?zy" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

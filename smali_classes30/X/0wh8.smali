@@ -1,0 +1,84 @@
+.class public final LX/0wh8;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lcom/bytedance/android/livesdk/comp/linkcore/link_mic_sdk_android/SymphonyEngine;",
+        "LX/0wib;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:Ljava/lang/String;
+
+.field public final synthetic LLILIL:Ljava/lang/String;
+
+.field public final synthetic LLILL:J
+
+.field public final synthetic LLILLIZIL:J
+
+.field public final synthetic LLILLJJLI:Ljava/lang/String;
+
+.field public final synthetic LLILLL:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 1
+
+    iput-object p5, p0, LX/0wh8;->LL:Ljava/lang/String;
+
+    iput-object p6, p0, LX/0wh8;->LLILIL:Ljava/lang/String;
+
+    iput-wide p1, p0, LX/0wh8;->LLILL:J
+
+    iput-wide p3, p0, LX/0wh8;->LLILLIZIL:J
+
+    iput-object p7, p0, LX/0wh8;->LLILLJJLI:Ljava/lang/String;
+
+    iput-object p8, p0, LX/0wh8;->LLILLL:Ljava/lang/String;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 9
+
+    move-object v0, p1
+
+    check-cast v0, Lcom/bytedance/android/livesdk/comp/linkcore/link_mic_sdk_android/SymphonyEngine;
+
+    iget-object v5, p0, LX/0wh8;->LL:Ljava/lang/String;
+
+    iget-object v6, p0, LX/0wh8;->LLILIL:Ljava/lang/String;
+
+    iget-wide v1, p0, LX/0wh8;->LLILL:J
+
+    iget-wide v3, p0, LX/0wh8;->LLILLIZIL:J
+
+    iget-object v7, p0, LX/0wh8;->LLILLJJLI:Ljava/lang/String;
+
+    iget-object v8, p0, LX/0wh8;->LLILLL:Ljava/lang/String;
+
+    invoke-virtual/range {v0 .. v8}, Lcom/bytedance/android/livesdk/comp/linkcore/link_mic_sdk_android/SymphonyEngine;->LJJIZ(JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LX/0wib;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/hyy" n1:background="@drawable/exy" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:overScrollMode="never" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textSize="@dimen/qg" n1:textColor="?ei6" n1:gravity="center" n1:id="@id/gp7" n1:background="@drawable/ey9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="42.0dp" n1:layout_marginTop="@dimen/qo" n1:text="@null" n1:maxLines="2" n1:singleLine="false" n1:layout_marginStart="@dimen/qo" n1:layout_marginEnd="@dimen/qo" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/qbl" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/vkb" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="20.0dp">
+        <X.0oCE n1:id="@id/nct" n1:background="?c0q" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="400.0dp" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:background="@drawable/efp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.135T n1:textSize="15.0dp" n1:id="@id/hz5" n1:layout_width="match_parent" n1:layout_height="42.0dp" n1:layout_marginLeft="0.0dp" n1:layout_marginRight="0.0dp" n1:layout_marginStart="@dimen/qo" n1:layout_marginEnd="@dimen/qo" n1:layout_marginHorizontal="0.0dp" n3:f89="h64" n3:f8e="?ekp" n3:f8j="2.0dp" n3:f8l="0.0dp" n3:f8m="0.0dp" n3:f8n="sqt" n3:f8q="0.0dp" n3:f8r="0.0dp" n3:fan="@style/a0h" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <X.13KV n1:id="@id/hz6" n1:background="@drawable/exy" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/ncz" n1:background="@drawable/exy" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+</LinearLayout>

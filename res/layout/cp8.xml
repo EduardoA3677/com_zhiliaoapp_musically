@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.notice.api.view.MultiSelectConstraintLayout n1:id="@id/tih" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Cru n1:id="@id/b7s" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:eyo="?ly" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cfq n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/wit" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n3:bwk="@id/iym" n3:bwr="@id/fev" n3:bx8="@id/b7s" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/zh0" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:maxLines="1" n3:fj2="pv" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/pan" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="pin icon for the chat which is pinned" n1:layout_marginStart="4.0dp" n3:fjq="@raw/icon_pin_fill" n3:fmy="?zz" />
+    </X.0Cfq>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ec9" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n4:bwr="@id/fev" n4:bx9="@id/wit" n4:bxc="@id/iym" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <X.0Cfq n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/l_3" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:bufferType="spannable" n1:maxLines="1" n1:singleLine="true" n4:fj2="px" />
+        </X.0Cfq>
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:id="@id/fev" n1:layout_width="42.0dp" n1:layout_height="42.0dp" n1:layout_marginStart="12.0dp" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/d_3" n1:focusable="false" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n5:fjq="@raw/icon_chevron_right_ltr" n5:fjt="16.0dp" n5:fk6="16.0dp" n5:fmy="?zw" />
+        <X.0CU3 n1:id="@id/yju" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:fi1="n1d" n5:fi6="ocf" />
+    </LinearLayout>
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/iym" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:bwu="0.5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</com.ss.android.ugc.aweme.notice.api.view.MultiSelectConstraintLayout>

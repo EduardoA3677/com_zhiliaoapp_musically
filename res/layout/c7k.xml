@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" />
+    <androidx.compose.ui.platform.ComposeView n1:id="@id/jwo" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/boi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="6.0dp" n1:layout_marginTop="@dimen/qz" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" />
+    <X.0oaU n1:id="@id/h75" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fn3="@null" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/zt5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:fn3="@null" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/s1d" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:fn3="@string/fkz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/upq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:fie="fa_" n5:fn3="@null" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/mw3" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n6:fie="fa_" n6:fn3="@null" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/al9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n7:fie="fa_" n7:fn3="@null" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/p4y" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n8:fie="fa_" n8:fn3="@null" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/p4z" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n9:fie="fa_" n9:fn3="@null" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/itj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n10:fie="fa_" n10:fn3="@null" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/ty6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n11:fn3="@null" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bop" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="6.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" />
+</LinearLayout>

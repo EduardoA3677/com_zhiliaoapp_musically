@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:background="@drawable/f1u" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:layout_gravity="center" n1:id="@id/kat" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n2:ffh="25.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12hi n1:textSize="14.0sp" n1:textColor="@color/df" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/kay" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:lines="1" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" style="@style/a76" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/k8w" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp">
+        <X.0d6D n1:layout_gravity="center" n1:id="@id/k8v" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="fitXY" />
+        <X.12hi n1:textSize="12.0sp" n1:textColor="@color/dl" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/k8u" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" style="@style/a7_" />
+    </LinearLayout>
+</LinearLayout>

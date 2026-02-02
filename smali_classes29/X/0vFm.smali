@@ -1,0 +1,31 @@
+.class public final LX/0vFm;
+.super LX/0vFg;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, LX/0vFg;-><init>()V
+
+    iget-object v1, p0, LX/0vFg;->LIZIZ:Landroid/graphics/PointF;
+
+    const/4 v0, 0x0
+
+    iput v0, v1, Landroid/graphics/PointF;->x:F
+
+    iput v0, v1, Landroid/graphics/PointF;->y:F
+
+    iget-object v1, p0, LX/0vFg;->LIZJ:Landroid/graphics/PointF;
+
+    const v0, 0x3e4ccccd    # 0.2f
+
+    iput v0, v1, Landroid/graphics/PointF;->x:F
+
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    iput v0, v1, Landroid/graphics/PointF;->y:F
+
+    return-void
+.end method

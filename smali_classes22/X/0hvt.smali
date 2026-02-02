@@ -1,0 +1,74 @@
+.class public final LX/0hvt;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Ljava/util/List<",
+        "+",
+        "Ljava/lang/String;",
+        ">;",
+        "Ljava/util/Map<",
+        "Ljava/lang/String;",
+        "+",
+        "Ljava/lang/String;",
+        ">;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:LX/0i2W;
+
+
+# direct methods
+.method public constructor <init>(LX/0i2W;)V
+    .locals 1
+
+    iput-object p1, p0, LX/0hvt;->LL:LX/0i2W;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, Ljava/util/List;
+
+    iget-object v0, p0, LX/0hvt;->LL:LX/0i2W;
+
+    invoke-interface {v0}, LX/0i2W;->LIZ()LX/0i3P;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0i3P;->LJJIJ()LX/0i3S;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0i3S;->LIZIZ()LX/0i4Z;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0i4Z;->LJIIL()LX/0i9T;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, LX/0i9T;->LJIIZILJ(Ljava/util/List;)Ljava/util/Map;
+
+    move-result-object v0
+
+    return-object v0
+.end method

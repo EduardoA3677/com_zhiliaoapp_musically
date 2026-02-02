@@ -1,0 +1,256 @@
+.class public final Lcom/ss/android/ugc/aweme/pipo/constants/gecko/PIPOGeckoRegister;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/bytedance/geckox/settings/IGeckoRegister;
+
+
+# annotations
+.annotation runtime LX/0WSd;
+    boeAccessKey = "b01ad12d05598203a34287a4d1802c19"
+    prodAccessKey = "6769d15c1fc4ebff20d79aebbe0f0cfa"
+    testAccessKey = "225dff975bc950bac45a0effa960e8b8"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static INVOKEVIRTUAL_com_ss_android_ugc_aweme_pipo_constants_gecko_PIPOGeckoRegister_com_ss_android_ugc_aweme_lancet_ContextLancet_getFilesDir(Landroid/content/Context;)Ljava/io/File;
+    .locals 5
+
+    sget-object v1, LX/0X3N;->LIZJ:Ljava/io/File;
+
+    if-eqz v1, :cond_0
+
+    sget-boolean v0, LX/0X3N;->LJ:Z
+
+    if-eqz v0, :cond_0
+
+    return-object v1
+
+    :cond_0
+    :try_start_0
+    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+
+    move-result-object v0
+
+    sput-object v0, LX/0X3N;->LIZJ:Ljava/io/File;
+
+    goto :goto_1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    move-exception p0
+
+    const/4 v4, 0x0
+
+    :try_start_1
+    const-string v0, "android.app.ActivityThread"
+
+    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+
+    move-result-object v3
+
+    const-string v1, "currentActivityThread"
+
+    const/4 v2, 0x0
+
+    new-array v0, v2, [Ljava/lang/Class;
+
+    invoke-virtual {v3, v1, v0}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    move-result-object v1
+
+    new-array v0, v2, [Ljava/lang/Object;
+
+    invoke-virtual {v1, v4, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    const-string v0, "mInitialApplication"
+
+    invoke-virtual {v3, v0}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+
+    move-result-object v1
+
+    const/4 v0, 0x1
+
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/app/Application;
+
+    if-eqz v0, :cond_1
+
+    check-cast v1, Landroid/app/Application;
+
+    invoke-virtual {v1}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v4
+
+    sget-object v2, Ljava/lang/System;->out:Ljava/io/PrintStream;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Application context obtained through ActivityThread: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_1
+    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+
+    const-string v0, "Error: mInitialApplication is not an instance of Application"
+
+    invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    goto :goto_0
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+
+    :catch_0
+    move-exception v3
+
+    sget-object v2, Ljava/lang/System;->out:Ljava/io/PrintStream;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Error: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    :goto_0
+    if-eqz v4, :cond_2
+
+    invoke-virtual {v4}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+
+    move-result-object v0
+
+    sput-object v0, LX/0X3N;->LIZJ:Ljava/io/File;
+
+    invoke-static {v4}, LX/0BKN;->LIZ(Landroid/content/Context;)V
+
+    :goto_1
+    sget-object v0, LX/0X3N;->LIZJ:Ljava/io/File;
+
+    return-object v0
+
+    :cond_2
+    new-instance v2, Ljava/lang/Throwable;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ":"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {}, LX/0BKN;->LIZJ()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, " applicationContext is null"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/lang/Throwable;-><init>(Ljava/lang/String;)V
+
+    throw v2
+.end method
+
+
+# virtual methods
+.method public registerCustomParams()Ljava/util/Map;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lcom/bytedance/geckox/OptionCheckUpdateParams$CustomValue;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v2, Ljava/util/HashMap;
+
+    invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
+
+    sget-object v1, LX/0WZZ;->LIZ:LX/0WZZ;
+
+    const-string v0, "business_version"
+
+    invoke-virtual {v2, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object v2
+.end method
+
+.method public registerRootDir(Landroid/content/Context;)Ljava/lang/String;
+    .locals 3
+
+    new-instance v2, LX/0XgT;
+
+    invoke-static {p1}, Lcom/ss/android/ugc/aweme/pipo/constants/gecko/PIPOGeckoRegister;->INVOKEVIRTUAL_com_ss_android_ugc_aweme_pipo_constants_gecko_PIPOGeckoRegister_com_ss_android_ugc_aweme_lancet_ContextLancet_getFilesDir(Landroid/content/Context;)Ljava/io/File;
+
+    move-result-object v1
+
+    const-string v0, "offlineX"
+
+    invoke-direct {v2, v1, v0}, LX/0XgT;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-virtual {v2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="36.0dp" n1:paddingEnd="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="@color/a4g" n1:layout_width="2.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="6.0dp" />
+    <X.0cPW n1:id="@id/white_color" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="8.0dp" n2:bcz="@color/a4p" n2:bto="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0cPW n1:id="@id/rnp" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="6.0dp" n3:bcz="@color/a4k" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0cPW n1:id="@id/bpt" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="6.0dp" n4:bcz="@color/a4f" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0cPW n1:id="@id/idb" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="6.0dp" n5:bcz="@color/a4h" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0cPW n1:id="@id/yellow_color" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="6.0dp" n6:bcz="@color/a4q" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0cPW n1:id="@id/pbp" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="6.0dp" n7:bcz="@color/a4j" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:id="@id/zw5" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fm1="?c7" n2:fm2="@layout/csn" n2:fm3="#1a161823" n2:fm5="5" n2:fm6="zn0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0o06 n1:id="@id/zw4" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="8.0dp" n1:nestedScrollingEnabled="true" n2:bxd="0.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/zvt" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0oCE n1:id="@id/zw6" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fkf="h_s" />
+        <X.0oBn n1:id="@id/zvs" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

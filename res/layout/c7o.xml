@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/sq" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0ThD n1:id="@id/zop" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/az9" n1:layout_marginRight="@dimen/az9" />
+    <ImageView n1:id="@id/zoq" n1:background="@color/sq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/az9" n1:layout_marginRight="@dimen/az9" />
+    <ProgressBar n1:id="@id/zom" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_centerInParent="true" />
+    <TextView n1:textSize="14.0sp" n1:textColor="#f5f5f5" n1:id="@id/zol" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+    <ImageView n1:id="@id/kwg" n1:visibility="gone" n1:layout_width="45.0dp" n1:layout_height="45.0dp" n1:scaleType="centerInside" n1:layout_centerInParent="true" />
+</RelativeLayout>

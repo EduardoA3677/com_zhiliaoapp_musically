@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/e21" n1:paddingLeft="@dimen/qi" n1:paddingTop="@dimen/qz" n1:paddingRight="@dimen/qi" n1:paddingBottom="@dimen/qz" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:minHeight="60.0dp" n1:paddingHorizontal="@dimen/qi" n1:paddingVertical="@dimen/qz" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/k9d" n1:layout="@layout/ha1" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/fdj" n1:background="?feu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0px" />
+    <ViewStub n1:id="@id/k_z" n1:layout="@layout/ha1" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/fdy" n1:background="?feu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0px" />
+    <ViewStub n1:id="@id/kaf" n1:layout="@layout/ha1" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

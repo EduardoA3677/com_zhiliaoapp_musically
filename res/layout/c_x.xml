@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:layout_gravity="center_horizontal" n1:id="@id/vzr" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="24.0dp" n1:text="@null" n2:fib="l9r" n2:fid="t69" n2:fj2="p4" n2:fjt="20.0dp" n2:fk4="@raw/icon_story_star" n2:fk6="20.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/hby" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="256.0dp" n1:layout_marginStart="9.0dp" n1:layout_marginEnd="72.0dp" />
+    <FrameLayout n1:id="@id/c1m" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/k31" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:id="@id/byw" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="12.0dp" n3:bwl="@id/hvt" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hvt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/r6" n4:bwl="@id/hw0" n4:bwz="0.0" n4:bx9="owf" n4:bxb="@id/byw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hw0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/r6" n5:bwl="@id/bgb" n5:bx9="owf" n5:bxb="@id/hvt" xmlns:n5="http://schemas.android.com/apk/res-auto">
+            <X.0MIW n1:id="@id/hvz" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </FrameLayout>
+        <X.0CfU n1:id="@id/hw_" n1:layout_width="0.0dp" n1:layout_height="@dimen/vz" n6:bwk="@id/hdc" n6:bx9="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <X.130R n1:id="@id/bgb" n1:layout_width="match_parent" n1:layout_height="0.0dp" n7:b74="wor" n7:bfm="hdc,hke" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <X.130R n1:id="@id/bgg" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n8:b74="ul9" n8:bfm="hd9,hcn,hin" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <X.130R n1:id="@id/bgf" n1:layout_width="match_parent" n1:layout_height="0.0dp" n9:b74="wor" n9:bfm="hdc,hw_" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hdc" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n10:b73="false" n10:bwk="owf" n10:bwr="@id/hd9" n10:bx9="owf" n10:bxc="@id/bgb" n10:bxd="1.0" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hke" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="2.0dp" n11:bwk="owf" n11:bwr="@id/hd9" n11:bwz="0.0" n11:bx9="owf" n11:bxc="@id/bgf" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hd9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n12:bwk="owf" n12:bwr="@id/hcn" n12:bxc="@id/bgf" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hcn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n13:bwk="owf" n13:bwr="@id/hin" n13:bxc="@id/bgf" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hin" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n14:bwk="owf" n14:bwq="owf" n14:bxc="@id/bgf" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/hha" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="14.0dp" />
+    <FrameLayout n1:id="@id/hbg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n15:bxb="@id/hha" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/hde" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

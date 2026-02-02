@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/wo" n1:id="@id/hqk" n1:padding="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hr2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/hr1" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.12ij n1:textColor="?zx" n1:layout_gravity="center_vertical" n1:id="@id/hql" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <View n1:id="@id/hr3" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="24.0dp" />
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="end|bottom" n1:id="@id/hr4" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="pv" />
+    </FrameLayout>
+    <X.0D2z n1:id="@id/hqh" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n1:layout_marginEnd="8.0dp" n3:bwr="@id/hqj" n3:bx0="ujj" n3:bx9="owf" n3:bxb="@id/hr2" n3:fi9="false" n3:fib="wf4" n3:fid="t69" n3:fk4="@raw/icon_thumbs_up" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/hqj" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n4:bwq="owf" n4:bx8="@id/hqh" n4:bxb="@id/hr2" n4:fi9="false" n4:fib="wf4" n4:fid="t69" n4:fk4="@raw/icon_thumbs_down" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/hqi" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/hr2" n5:fj2="q2" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/nvn" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wiy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ayy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/az0">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ayu" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwr="@id/ayw" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_arrow_left_ltr" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ViewFlipper n1:id="@id/ayw" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:maxWidth="260.0dp" n1:inAnimation="@anim/kd" n1:outAnimation="@anim/ke" n1:flipInterval="3000" n3:bwk="owf" n3:bwr="@id/gf5" n3:bx1="1.0" n3:bx8="@id/ayu" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/gf5" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/ayw" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

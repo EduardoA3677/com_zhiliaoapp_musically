@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/wxr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12vZ n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/vh" n1:background="?feb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fcc="@dimen/a2x" n2:fcl="@dimen/a2x" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/nv_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:showDividers="middle">
+            <X.12hu n1:id="@id/rtw" n1:layout_width="match_parent" n1:layout_height="wrap_content" style="@style/a0q" />
+            <X.12hu n1:id="@id/paf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a0q" />
+            <X.12hu n1:id="@id/b42" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a0q" />
+            <X.12hu n1:id="@id/wzt" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="Translate" style="@style/a0q" />
+            <X.12hu n1:id="@id/avu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a0q" />
+            <X.12hu n1:id="@id/nrp" n1:layout_width="match_parent" n1:layout_height="wrap_content" style="@style/a0q" />
+            <X.12hu n1:id="@id/l77" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a0p" />
+            <X.12hu n1:id="@id/ruw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a0p" />
+        </LinearLayout>
+        <View n1:background="?fee" n1:layout_width="match_parent" n1:layout_height="@dimen/a4b" />
+        <X.12hu n1:id="@id/cun" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" style="@style/a0o" />
+    </X.12vZ>
+    <include n1:layout_gravity="bottom" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="200.0dp" layout="@layout/hkl" />
+</FrameLayout>

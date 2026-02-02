@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="10.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="10.0dp" n2:ba4="@dimen/qz" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/elc" n1:layout_width="@dimen/r9" n1:layout_height="48.0dp" n1:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_weight="1.0">
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/nhj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Edit processed" n1:maxLines="3" n3:fj2="p7" n3:fl1="12.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:id="@id/nh_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="view your edits now." n1:maxLines="3" n4:fj2="px" n4:fl1="12.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a06" n1:gravity="end|center" n1:id="@id/v5" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:text="View" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

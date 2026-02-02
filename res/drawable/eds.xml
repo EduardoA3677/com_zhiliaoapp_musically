@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item>
+        <shape n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <solid n1:color="#ffffff" />
+        </shape>
+    </item>
+    <item>
+        <inset n2:insetLeft="12.0dp" n2:insetRight="12.0dp" n2:insetTop="8.0dp" n2:insetBottom="8.0dp"
+          xmlns:n2="http://schemas.android.com/apk/res/android">
+            <shape n2:shape="rectangle">
+                <solid n2:color="#0f161823" />
+                <corners n2:radius="8.0dp" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>

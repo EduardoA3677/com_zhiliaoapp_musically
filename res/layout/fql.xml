@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oOM n1:id="@id/vqb" n1:background="?y4" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:fillViewport="true">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/vqa" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/vq8" n1:layout_width="wrap_content" n1:layout_height="match_parent" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/vq_" n1:layout_width="wrap_content" n1:layout_height="match_parent" />
+        </LinearLayout>
+    </X.0oOM>
+</LinearLayout>

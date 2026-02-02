@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="start|center" n1:id="@id/hgb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.avatar.AvatarComponentView n1:id="@id/b9x" n1:layout_width="96.0dp" n1:layout_height="96.0dp" n2:fhr="u27" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:id="@id/ser" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:flz="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="start|center" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="3" n1:textDirection="locale" n1:textAlignment="viewStart" n2:fj2="ow" n2:fl1="17.0dp" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/w0o" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:id="@id/ybg" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:singleLine="true" n1:drawablePadding="4.0dp" n1:layout_weight="1.0" n1:textDirection="locale" n1:textAlignment="viewStart" n2:fj2="pu" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/mq7" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n2:fjq="@raw/icon_chevron_right_offset_fill_ltr" n2:fmy="?zw" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/zds" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+            <X.0n4v n1:layout_gravity="center_vertical" n1:id="@id/zdt" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_vertical" n1:id="@id/zdu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="330.0dp" n1:singleLine="true" n2:fj2="pu" />
+            </X.0n4v>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_vertical" n1:id="@id/zdq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="330.0dp" n1:singleLine="true" n2:fj2="pu" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/w1_" n1:background="@drawable/dgz" n1:paddingLeft="16.0dp" n1:paddingTop="8.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+            <X.0ChY n1:layout_gravity="center_vertical" n1:id="@id/w1a" n1:layout_width="18.0dp" n1:layout_height="18.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center_horizontal" n1:layout_gravity="center_vertical" n1:id="@id/w1b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:maxWidth="178.0dp" n1:text="@null" n1:maxLines="1" n2:fj2="p7" n2:fl1="11.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

@@ -1,0 +1,330 @@
+.class public final Lwebcast/api/profit/IapListResult$ListResultExtra;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lwebcast/api/profit/IapListResult;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "ListResultExtra"
+.end annotation
+
+
+# instance fields
+.field public activityInfo:Lwebcast/api/profit/IapListResult$ActivityInfo;
+    .annotation runtime LX/0B9U;
+        value = "activity_info"
+    .end annotation
+.end field
+
+.field public availableCurrencyList:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "available_currency_list"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lwebcast/data/CurrencyInfo;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public channel:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "channel"
+    .end annotation
+.end field
+
+.field public coinSolutionAbEnabled:Z
+    .annotation runtime LX/0B9U;
+        value = "coin_solution_ab_enabled"
+    .end annotation
+.end field
+
+.field public customEntranceBannerConfig:Lwebcast/api/profit/CustomEntranceBannerConfig;
+    .annotation runtime LX/0B9U;
+        value = "custom_entrance_banner_config"
+    .end annotation
+.end field
+
+.field public customizedIds:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "customized_ids"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public defaultLocalCurrency:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "default_local_currency"
+    .end annotation
+.end field
+
+.field public defaultPacketCoin:J
+    .annotation runtime LX/0B9U;
+        value = "default_packet_coin"
+    .end annotation
+.end field
+
+.field public enableM2Guidance:Z
+    .annotation runtime LX/0B9U;
+        value = "enable_m2_guidance"
+    .end annotation
+.end field
+
+.field public fullList:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "full_list"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/bytedance/android/livesdk/wallet/Diamond;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public iapCustomData:Lwebcast/api/profit/IapListResult$IapCustomData;
+    .annotation runtime LX/0B9U;
+        value = "iap_custom_data"
+    .end annotation
+.end field
+
+.field public iapMaxCustomizedDiamondCnt:I
+    .annotation runtime LX/0B9U;
+        value = "iap_max_customized_diamond_cnt"
+    .end annotation
+.end field
+
+.field public iapMinCustomizedDiamondCnt:I
+    .annotation runtime LX/0B9U;
+        value = "iap_min_customized_diamond_cnt"
+    .end annotation
+.end field
+
+.field public insufficientBalanceAbGroupId:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "insufficient_balance_ab_group_id"
+    .end annotation
+.end field
+
+.field public isDefault:Z
+    .annotation runtime LX/0B9U;
+        value = "is_default"
+    .end annotation
+.end field
+
+.field public isNewRecommendPackage:Z
+    .annotation runtime LX/0B9U;
+        value = "is_new_recommend_package"
+    .end annotation
+.end field
+
+.field public lastSelectedCurrency:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "last_selected_currency"
+    .end annotation
+.end field
+
+.field public localCurrencyList:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "local_currency_list"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public m2DownloadUrl:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "m2_download_url"
+    .end annotation
+.end field
+
+.field public maxCustomizedDiamondCnt:I
+    .annotation runtime LX/0B9U;
+        value = "max_customized_diamond_cnt"
+    .end annotation
+.end field
+
+.field public merchantId:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "merchant_id"
+    .end annotation
+.end field
+
+.field public minCustomizedDiamondCnt:I
+    .annotation runtime LX/0B9U;
+        value = "min_customized_diamond_cnt"
+    .end annotation
+.end field
+
+.field public multiCurrencyDisplayFxRateList:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "multi_currency_display_fx_rate_list"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lwebcast/data/FXRate;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public needDisplayMultiCurrency:Z
+    .annotation runtime LX/0B9U;
+        value = "need_display_multi_currency"
+    .end annotation
+.end field
+
+.field public packageUnavailableConfig:Lwebcast/api/profit/PackageUnavailableConfig;
+    .annotation runtime LX/0B9U;
+        value = "package_unavailable_config"
+    .end annotation
+.end field
+
+.field public pipoDomain:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "pipo_domain"
+    .end annotation
+.end field
+
+.field public recentlyPurchasedPacketId:J
+    .annotation runtime LX/0B9U;
+        value = "recently_purchased_packet_id"
+    .end annotation
+.end field
+
+.field public recommendedPacketId:J
+    .annotation runtime LX/0B9U;
+        value = "recommended_packet_id"
+    .end annotation
+.end field
+
+.field public region:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "region"
+    .end annotation
+.end field
+
+.field public requestId:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "request_id"
+    .end annotation
+.end field
+
+.field public storeRegion:Ljava/lang/String;
+    .annotation runtime LX/0B9U;
+        value = "store_region"
+    .end annotation
+.end field
+
+.field public useDefaultPacket:Z
+    .annotation runtime LX/0B9U;
+        value = "use_default_packet"
+    .end annotation
+.end field
+
+.field public voucherList:Ljava/util/List;
+    .annotation runtime LX/0B9U;
+        value = "voucher_list"
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lwebcast/api/profit/IapListResult$VoucherItem;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v1, ""
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->channel:Ljava/lang/String;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->customizedIds:Ljava/util/List;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->merchantId:Ljava/lang/String;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->region:Ljava/lang/String;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->insufficientBalanceAbGroupId:Ljava/lang/String;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->fullList:Ljava/util/List;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->requestId:Ljava/lang/String;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->voucherList:Ljava/util/List;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->pipoDomain:Ljava/lang/String;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->storeRegion:Ljava/lang/String;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->m2DownloadUrl:Ljava/lang/String;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->availableCurrencyList:Ljava/util/List;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->lastSelectedCurrency:Ljava/lang/String;
+
+    iput-object v1, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->defaultLocalCurrency:Ljava/lang/String;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->localCurrencyList:Ljava/util/List;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lwebcast/api/profit/IapListResult$ListResultExtra;->multiCurrencyDisplayFxRateList:Ljava/util/List;
+
+    return-void
+.end method

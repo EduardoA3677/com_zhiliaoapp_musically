@@ -1,0 +1,6 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/ad/feed/adexperience/IAdExperienceEventLogger;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0Uss;

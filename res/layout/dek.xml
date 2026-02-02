@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/w5c" n1:visibility="gone" n1:layout_width="100.0dp" n1:layout_height="60.0dp" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/w66" n1:layout_width="45.0dp" n1:layout_height="45.0dp" n1:layout_marginBottom="@dimen/az7" />
+    <RelativeLayout n1:layout_gravity="bottom" n1:id="@id/byt" n1:padding="16.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <EditText n1:id="@id/bys" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:cursorVisible="true" n1:maxLines="3" n1:layout_toLeftOf="@id/h8f" n1:layout_centerVertical="true" n1:imeOptions="actionUnspecified|normal" n1:textCursorDrawable="@drawable/bm0" n1:layout_toStartOf="@id/h8f" />
+        <ImageView n1:id="@id/h8f" n1:layout_width="38.0dp" n1:layout_height="38.0dp" n1:layout_marginLeft="16.0dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

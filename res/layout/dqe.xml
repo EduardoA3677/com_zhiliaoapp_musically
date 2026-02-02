@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="72.0dp" n1:layout_height="wrap_content" n1:paddingStart="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/u32" n1:layout_width="48.0dp" n1:layout_height="48.0dp" />
+    <View n1:background="?xy" n1:layout_width="64.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="8.0dp" />
+</LinearLayout>

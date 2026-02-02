@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0wn4 n1:id="@id/rd8" n1:layout_width="wrap_content" n1:layout_height="22.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:id="@id/rdd" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n2:ba3="@color/a10" n2:ba4="11.0dp" n2:ba5="0.0dp" n2:ba7="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.cardview.widget.CardView n1:id="@id/rdb" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n2:ba3="@color/d2" n2:ba4="11.0dp" n2:ba5="0.0dp" n2:ba7="0.0dp">
+            <View n1:layout_gravity="end" n1:id="@id/rdx" n1:background="@drawable/dou" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="22.0dp" />
+            <View n1:layout_gravity="end" n1:id="@id/rdc" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="22.0dp" />
+            <X.12i3 n1:id="@id/mbe" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:paddingStart="4.0dp" n1:paddingEnd="6.0dp">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/kxu" n1:layout_width="wrap_content" n1:layout_height="22.0dp" />
+                <X.12si n1:textSize="12.0dp" n1:textColor="?c6w" n1:ellipsize="none" n1:layout_gravity="center_vertical" n1:id="@id/yib" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="170.0dp" n1:singleLine="true" n1:layout_marginStart="@dimen/at_" n2:bp3="n2i" n2:ewn="true" style="@style/a7b" />
+            </X.12i3>
+            <X.12i3 n1:id="@id/m_5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:paddingStart="4.0dp" n1:paddingEnd="6.0dp">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/kxt" n1:layout_width="wrap_content" n1:layout_height="22.0dp" />
+                <X.12si n1:textSize="12.0dp" n1:textColor="?c6w" n1:ellipsize="none" n1:layout_gravity="center_vertical" n1:id="@id/yia" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="170.0dp" n1:singleLine="true" n1:layout_marginStart="@dimen/at_" n2:bp3="n2i" n2:ewn="true" style="@style/a7b" />
+            </X.12i3>
+            <ViewStub n1:id="@id/oc5" n1:layout="@layout/hd9" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView n1:id="@id/rcy" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n2:ba3="@color/a10" n2:ba4="11.0dp" n2:ba5="0.0dp" n2:ba7="0.0dp">
+            <FrameLayout n1:id="@id/rd0" n1:layout_width="wrap_content" n1:layout_height="22.0dp">
+                <X.12i3 n1:id="@id/rd2" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:paddingStart="4.0dp" n1:paddingEnd="6.0dp">
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/rcz" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:layout_marginEnd="@dimen/at_" />
+                    <X.12si n1:textSize="12.0dp" n1:textColor="?c6w" n1:ellipsize="none" n1:gravity="center_vertical" n1:id="@id/rd1" n1:layout_width="wrap_content" n1:layout_height="22.0dp" n1:maxWidth="170.0dp" n1:singleLine="true" n2:bp3="n2i" n2:ewn="true" style="@style/a7b" />
+                </X.12i3>
+                <ImageView n1:layout_gravity="end" n1:id="@id/ven" n1:visibility="gone" n1:layout_width="35.0dp" n1:layout_height="22.0dp" n1:src="@drawable/e7u" n1:scaleType="fitXY" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+</X.0wn4>

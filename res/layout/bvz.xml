@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:id="@id/m8x" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n1:paddingStart="3.0dp" n1:paddingEnd="4.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/kce" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="@null" n2:fjq="@raw/icon_plus_small" n2:fjt="12.0dp" n2:fk6="12.0dp" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="top" n1:layout_gravity="center_vertical" n1:id="@id/xiz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n3:fj2="qg" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView n4:layout_gravity="center" n4:id="@id/kcr" n4:layout_width="12.0dp" n4:layout_height="12.0dp"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <com.bytedance.tux.icon.TuxIconView n5:layout_gravity="center" n5:id="@id/kcf" n5:layout_width="20.0dp" n5:layout_height="20.0dp"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</merge>

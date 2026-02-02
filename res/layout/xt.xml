@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/dv4" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/u1f" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/u1e" n1:paddingTop="12.5dp" n1:paddingBottom="12.5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/jqd" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n3:fjq="@raw/icon_chevron_down_small_fill" n3:fjt="16.0dp" n3:fk6="16.0dp" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0ntn n1:id="@id/vk5" n1:visibility="gone" n1:fadingEdge="horizontal" n1:fadingEdgeLength="12.0dp" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:requiresFadingEdge="horizontal" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="99.0dp" n4:f84="@null" n4:f8e="?ye" n4:f8j="2.0dp" n4:f8l="0.0dp" n4:f8m="0.0dp" n4:f8n="sqt" n4:f8q="8.0dp" n4:f8r="8.0dp" n4:f8u="?zw" n4:f8z="?zz" n4:fj2="pv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="bottom" n1:id="@id/vw_divider" n1:background="?lw" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.feed.platform.componentmanager.view.InteractAreaRootLayout n1:id="@id/widget_container" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hxc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="47.0dp" n1:layout_alignParentBottom="true" />
+    <include n1:id="@id/gyu" layout="@layout/b5r" />
+    <com.ss.android.ugc.feed.platform.cell.interact.view.InteractCheckDrawRelativeLayout n1:id="@id/wvz" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/k2z">
+        <X.0MIW n1:id="@id/zxn" n1:layout_width="95.0dp" n1:layout_height="95.0dp" n1:layout_alignParentBottom="true" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" />
+        <FrameLayout n1:id="@id/zq2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_above="@id/b_o" n1:layout_alignWithParentIfMissing="true" />
+        <include n1:id="@id/bnw" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_above="@id/b_o" n1:layout_alignWithParentIfMissing="true" layout="@layout/b4k" />
+        <include n1:id="@id/b_o" layout="@layout/b6g" />
+        <FrameLayout n1:id="@id/p9l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/han" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+        <FrameLayout n1:id="@id/ad_feed_card_container_v2" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_above="@id/han" n1:layout_marginStart="12.0dp" />
+        <X.0MIW n1:id="@id/l9b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true">
+            <include n1:id="@id/u9n" n1:layout_width="wrap_content" n1:layout_height="30.0dp" layout="@layout/b86" />
+        </X.0MIW>
+        <X.0MIW n1:id="@id/hxd" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.0MDu n1:gravity="end" n1:orientation="vertical" n1:id="@id/k3a" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="78.0dp" n1:layout_alignParentBottom="true" n1:layout_alignParentEnd="true" />
+        <FrameLayout n1:id="@id/han" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+    </com.ss.android.ugc.feed.platform.cell.interact.view.InteractCheckDrawRelativeLayout>
+    <X.0RG2 n1:orientation="vertical" n1:id="@id/k2z" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="47.0dp" n1:layout_alignParentBottom="true" />
+    <FrameLayout n1:id="@id/k36" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignBottom="@id/k2z" />
+    <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperimentV2" n2:b4n="@id/vs_debugInfoContainer" n2:b4o="@id/ewq" n2:b4p="@layout/bax" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n3:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperimentV2" n3:b4n="@id/vs_tv_restrict" n3:b4o="@id/yk7" n3:b4p="@layout/bb2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperimentV2" n4:b4n="@id/vs_txt_prohibited" n4:b4o="@id/yyy" n4:b4p="@layout/bb3" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0ClS n1:layout_width="0.0dp" n1:layout_height="0.0dp" n5:b4m="com.ss.android.ugc.aweme.experiment.ViewStubOptExperimentV2" n5:b4n="@id/vs_bottom_widget_container" n5:b4o="@id/c44" n5:b4p="@layout/baw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0MIW n1:id="@id/hxa" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginBottom="47.0dp" n1:layout_alignParentBottom="true" />
+</com.ss.android.ugc.feed.platform.componentmanager.view.InteractAreaRootLayout>

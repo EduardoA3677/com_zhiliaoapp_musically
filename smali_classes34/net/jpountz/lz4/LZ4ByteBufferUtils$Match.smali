@@ -1,0 +1,70 @@
+.class public Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/jpountz/lz4/LZ4ByteBufferUtils;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Match"
+.end annotation
+
+
+# instance fields
+.field public len:I
+
+.field public ref:I
+
+.field public start:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public end()I
+    .locals 2
+
+    iget v1, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->start:I
+
+    iget v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->len:I
+
+    add-int/2addr v1, v0
+
+    return v1
+.end method
+
+.method public fix(I)V
+    .locals 1
+
+    iget v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->start:I
+
+    add-int/2addr v0, p1
+
+    iput v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->start:I
+
+    iget v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->ref:I
+
+    add-int/2addr v0, p1
+
+    iput v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->ref:I
+
+    iget v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->len:I
+
+    sub-int/2addr v0, p1
+
+    iput v0, p0, Lnet/jpountz/lz4/LZ4ByteBufferUtils$Match;->len:I
+
+    return-void
+.end method

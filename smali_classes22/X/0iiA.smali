@@ -1,0 +1,171 @@
+.class public final LX/0iiA;
+.super LX/068a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/068a<",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final LIZJ:LX/0iiA;
+
+.field public static final LIZLLL:Ljava/lang/String;
+
+.field public static final LJ:Ljava/lang/String;
+
+.field public static final LJFF:LX/0mSo;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0iiA;
+
+    invoke-direct {v0}, LX/0iiA;-><init>()V
+
+    sput-object v0, LX/0iiA;->LIZJ:LX/0iiA;
+
+    const-string v0, "InboxBBArchiveExp"
+
+    sput-object v0, LX/0iiA;->LIZLLL:Ljava/lang/String;
+
+    const-string v0, "inbox_bb_archive_enable"
+
+    sput-object v0, LX/0iiA;->LJ:Ljava/lang/String;
+
+    sget-object v0, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    invoke-static {v0}, LX/0mTc;->LIZ(Ljava/lang/Class;)LX/0mSo;
+
+    move-result-object v0
+
+    sput-object v0, LX/0iiA;->LJFF:LX/0mSo;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/068a;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()Ljava/lang/Object;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final LIZIZ()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, LX/0iiA;->LJ:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final LIZJ()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, LX/0iiA;->LIZLLL:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final LIZLLL()Ljava/lang/Object;
+    .locals 4
+
+    invoke-static {}, LX/0B4U;->LJIIIZ()LX/0B4U;
+
+    move-result-object v3
+
+    const/16 v2, 0x7c00
+
+    const/4 v1, 0x0
+
+    const-string v0, "inbox_bb_archive_enable"
+
+    invoke-virtual {v3, v2, v1, v0, v1}, LX/0B4U;->LJIIJJI(IILjava/lang/String;Z)I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final LJFF()LX/0mSo;
+    .locals 1
+
+    sget-object v0, LX/0iiA;->LJFF:LX/0mSo;
+
+    return-object v0
+.end method
+
+.method public final LJI(LX/068b;)V
+    .locals 2
+
+    invoke-static {}, LX/0B2u;->LIZJ()LX/0B2u;
+
+    move-result-object v1
+
+    const-string v0, "inbox_bb_archive_enable"
+
+    invoke-virtual {v1, v0, p1}, LX/0B2u;->LJIIIZ(Ljava/lang/String;LX/0B3J;)V
+
+    return-void
+.end method
+
+.method public final LJII()Z
+    .locals 3
+
+    invoke-static {}, LX/0A1r;->LIZ()Z
+
+    move-result v0
+
+    const/4 v2, 0x0
+
+    if-eqz v0, :cond_0
+
+    return v2
+
+    :cond_0
+    invoke-static {p0}, LX/068a;->LJ(LX/068a;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v1
+
+    const/4 v0, 0x1
+
+    if-ne v1, v0, :cond_1
+
+    const/4 v2, 0x1
+
+    :cond_1
+    return v2
+.end method

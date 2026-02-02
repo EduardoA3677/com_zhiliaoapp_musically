@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qc" n1:layout_marginBottom="@dimen/qc" n1:baselineAligned="false" n1:layout_marginVertical="@dimen/qc">
+        <FrameLayout n1:layout_width="72.0dp" n1:layout_height="96.0dp" n1:layout_marginEnd="@dimen/qf">
+            <X.137w n1:id="@id/zqn" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:ffh="6.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/ztu" n1:background="@drawable/ck8" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="@dimen/qo" n1:layout_height="@dimen/qo" n3:br4="?dps" n3:brl="#fafafa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:id="@id/zwx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:maxLines="2" n1:paddingEnd="@dimen/qq" style="@style/a6u" />
+            <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qu">
+                <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_width="@dimen/qf" n1:layout_height="@dimen/qf" n1:layout_marginTop="2.5dp" n1:layout_marginBottom="2.5dp" n1:layout_marginEnd="@dimen/qu" n1:layout_marginVertical="2.5dp" n4:br4="?dx1" n4:brl="?ekr" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <X.12nN n1:textColor="?ekr" n1:id="@id/zvo" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="" n1:layout_weight="1.0" style="@style/a77" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

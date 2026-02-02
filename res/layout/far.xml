@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingBottom="10.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="Tell us why you choose to turn off notifications？？？" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="ow" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/f4b" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="This helps us improve the notifications experience for everyone." n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/title" n2:fj2="p5" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/oda" n1:background="@drawable/d9x" n1:paddingTop="6.0dp" n1:paddingBottom="14.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/f4b">
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/iab" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" />
+            <X.0qTA n1:id="@id/k0e" n1:paddingTop="0.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:aur="@integer/q" n2:bxb="@id/iab" />
+        </LinearLayout>
+        <X.0D2z n1:enabled="false" n1:id="@id/v5l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="28.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bxb="@id/oda" n2:fib="l9r" n2:fid="qhx" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.137G>

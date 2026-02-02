@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/xq3" n1:focusable="true" n1:focusableInTouchMode="true" n1:clickable="true" n1:layout_width="@dimen/bk" n1:layout_height="@dimen/bk" n1:contentDescription="@null" n1:importantForAccessibility="yes" n2:fjq="@raw/icon_play_previous_fill" n2:fmy="?e1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/xq4" n1:focusable="true" n1:focusableInTouchMode="true" n1:clickable="true" n1:layout_width="@dimen/bk" n1:layout_height="@dimen/bk" n1:contentDescription="@string/lcf" n1:importantForAccessibility="yes" n1:layout_marginStart="@dimen/bk" n3:fjq="@raw/icon_pause_fill" n3:fmy="?e1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/xq5" n1:focusable="true" n1:focusableInTouchMode="true" n1:clickable="true" n1:layout_width="@dimen/bk" n1:layout_height="@dimen/bk" n1:contentDescription="@string/km6" n1:importantForAccessibility="yes" n1:layout_marginStart="@dimen/bk" n4:fjq="@raw/icon_play_next_fill" n4:fmy="?e1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

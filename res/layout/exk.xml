@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/srv" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ss5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dp" n1:layout_marginStart="8.0dp" n2:bwl="@id/ssd" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0WJz n1:layout_gravity="center_vertical" n1:id="@id/a42" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <X.0VwG n1:id="@id/a3p" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginBottom="5.0dp" n1:layout_marginEnd="8.0dp" n3:b82="od6" n3:b83="@raw/icon_speaker_2_ltr" n3:b84="@null" n3:b85="?e0" n3:b86="@raw/icon_speaker_x_mark_ltr" n3:b87="@null" n3:b88="?e0" n3:bwl="@id/ssd" n3:bwq="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/o4s" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginBottom="5.0dp" n1:layout_marginEnd="8.0dp" n4:bwl="@id/ssd" n4:bwq="owf" n4:fjq="@raw/icon_music_note_s_alt_slash" n4:fmy="?e3" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/ssd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n5:bwk="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.0L26 n1:id="@id/opu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:id="@id/x46" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:id="@id/ss6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/aca" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n5:fib="u9x" n5:fid="qhx" />
+        <X.0Ul4 n1:id="@id/opt" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/aca" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

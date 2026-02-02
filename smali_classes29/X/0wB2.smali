@@ -1,0 +1,57 @@
+.class public final LX/0wB2;
+.super LX/0Wsh;
+.source "SourceFile"
+
+
+# static fields
+.field public static final synthetic LIZJ:I
+
+
+# instance fields
+.field public LIZ:Ljava/lang/String;
+
+.field public LIZIZ:Ljava/lang/Boolean;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/0Wsh;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()Ljava/util/List;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v1, "status"
+
+    const-string v0, "alreadyLoggedIn"
+
+    filled-new-array {v1, v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0PDl;->LJIIJJI([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method

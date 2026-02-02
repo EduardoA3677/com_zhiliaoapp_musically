@@ -1,0 +1,56 @@
+.class public final LX/0tm7;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0tmS;
+
+
+# static fields
+.field public static final LIZ:LX/0tm7;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0tm7;
+
+    invoke-direct {v0}, LX/0tm7;-><init>()V
+
+    sput-object v0, LX/0tm7;->LIZ:LX/0tm7;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/ss/android/ugc/aweme/configuration/filters/base/FilterAbilityModel;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, LX/0Pgk;->INSTANCE:LX/0Pgk;
+
+    return-object v0
+.end method
+
+.method public final run()V
+    .locals 0
+
+    return-void
+.end method

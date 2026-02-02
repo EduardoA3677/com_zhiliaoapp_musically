@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wxr" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:importantForAccessibility="no" />
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/q4z" n1:background="@drawable/dxm" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="362.0dp">
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="50.0dp">
+            <X.12w1 n1:id="@id/q4w" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="50.0dp" n2:f8e="@color/df" n2:f8u="@color/df" n2:f8y="@android:style/TextAppearance.Widget.TabWidget" n2:f8z="@color/dn" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="50.0dp">
+                <X.0d3Z n1:id="@id/r9g" n1:background="@drawable/dt1" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginTop="14.0dp" n1:layout_marginEnd="14.0dp" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <X.12nN n1:textColor="@color/g2" n1:gravity="center" n1:id="@id/o74" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="50.0dp" n1:text="@null" style="@style/a6q" />
+        </FrameLayout>
+        <View n1:background="@color/c_" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.125u n1:id="@id/o75" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <X.125u n1:id="@id/i82" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <X.0rBl n1:id="@id/mlu" n1:focusable="true" n1:visibility="gone" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</X.12nR>

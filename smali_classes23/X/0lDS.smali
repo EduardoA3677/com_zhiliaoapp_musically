@@ -1,0 +1,61 @@
+.class public final synthetic LX/0lDS;
+.super LX/10fV;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LL:LX/0lDS;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0lDS;
+
+    invoke-direct {v0}, LX/0lDS;-><init>()V
+
+    sput-object v0, LX/0lDS;->LL:LX/0lDS;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 4
+
+    const-class v3, LX/0l8U;
+
+    const-string v2, "getLoadShareMessage()Lcom/bytedance/assem/arch/extensions/Async;"
+
+    const/4 v1, 0x0
+
+    const-string v0, "loadShareMessage"
+
+    invoke-direct {p0, v3, v0, v2, v1}, LX/10fV;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, LX/0l8U;
+
+    iget-object v0, p1, LX/0l8U;->LL:LX/02tw;
+
+    return-object v0
+.end method
+
+.method public final set(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    check-cast p1, LX/0l8U;
+
+    check-cast p2, LX/02tw;
+
+    iput-object p2, p1, LX/0l8U;->LL:LX/02tw;
+
+    return-void
+.end method

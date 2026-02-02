@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.137G n1:id="@id/ean" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:padding="@dimen/a3p" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Basic Attribute" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n2:evp="8.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Height Mode" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <X.12xb n1:id="@id/isw" n1:tag="@id/isv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:f20="n8a">
+                    <X.12pz n1:id="@id/isv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Max 6" style="@style/a5n" />
+                    <X.12pz n1:id="@id/isu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Fixed 7" style="@style/a64" />
+                </X.12xb>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="If max 6 is selected, the opened sheet can be at most 6 percent of the screen. If fixed 7 is selected, the opened sheet is fixed 7 percent of the screen. Both under portrait screen." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Fullscreen" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/hy2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="The opened sheet can pull up to fullscreen." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Floating Nav Bar" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/hmh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="If checked, the nav bar will overlay above the content instead of being placed to the top of the content." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Show Back Icon" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/ty2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="The opened sheet will show go back icon." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Show Close Icon" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/ty5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="The opened sheet will show close icon." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Dark Theme" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/evz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="The opened sheet will be shown under dark theme." style="@style/a7_" />
+            </LinearLayout>
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Bottom Function" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n3:evp="8.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Visible When Keyboard Show" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/ty3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="The bottom function will still be shown under input mode." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Bottom Function Style" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <X.12xb n1:id="@id/bzg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n3:f20="n8a">
+                    <X.12pz n1:id="@id/bze" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Style 1" style="@style/a64" />
+                    <X.12pz n1:id="@id/bzf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Style 2" style="@style/a64" />
+                </X.12xb>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Style 1 shows horizontal buttons. Style 2 shows vertical buttons." style="@style/a7_" />
+            </LinearLayout>
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Header Configuration" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n4:evp="8.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/wit" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Title" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                        <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/wi6" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Input the title text" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/whl" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n4:br4="?e_w" n4:brl="?ffd" />
+                    </LinearLayout>
+                    <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="If the title is set, the tab bar configuration is not working." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/v9r" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Subtitle" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                        <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/v9k" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Input the subtitle text" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/v9f" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n4:br4="?e_w" n4:brl="?ffd" />
+                    </LinearLayout>
+                    <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="If the subtitle is set, the tab bar configuration is not working." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/vm7" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Tab" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <FrameLayout n1:layout_width="0.0dp" n1:layout_height="48.0dp" n1:layout_weight="1.0">
+                        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                            <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/vm9" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Input the tab text" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/vm8" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n4:br4="?e_w" n4:brl="?ffd" />
+                            <X.12pz n1:layout_gravity="start|center" n1:id="@id/vm_" n1:layout_width="48.0dp" n1:layout_height="wrap_content" n1:text="Ok" n1:layout_marginStart="9.0dp" style="@style/a66" />
+                        </LinearLayout>
+                        <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                    </FrameLayout>
+                    <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:text="or" n1:layout_marginHorizontal="8.0dp" style="@style/a7_" />
+                    <X.12pz n1:id="@id/vm6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choos an Icon" style="@style/a5n" />
+                </LinearLayout>
+                <X.12xb n1:id="@id/vk3" n1:tag="@id/isv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n4:bo0="wrap" n4:f20="n8a" />
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="You can add text tab or icon tab." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/un1" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Start Text Button" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                        <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/un0" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Input the start button text" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/umz" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n4:br4="?e_w" n4:brl="?ffd" />
+                    </LinearLayout>
+                    <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="You can add a start text button." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/um2" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Start Icon" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <X.12pz n1:id="@id/um1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choose an Icon" style="@style/a5n" />
+                <X.12xb n1:id="@id/um3" n1:tag="@id/isv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n4:bo0="wrap" n4:f20="n8a" />
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="You can add a start icon. If choose back icon, the icon will act as going back." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/ggn" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="End Text Button" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                        <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/ggm" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Input the end button text" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/ggk" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n4:br4="?e_w" n4:brl="?ffd" />
+                    </LinearLayout>
+                    <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="You can add an end text button." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/gg9" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="End Icon" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                <X.12pz n1:id="@id/gg8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choose an Icon" style="@style/a5n" />
+                <X.12xb n1:id="@id/gga" n1:tag="@id/isv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n4:bo0="wrap" n4:f20="n8a" />
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="You can add an end icon. If choose close icon, the icon will act as closing sheet stack." style="@style/a7_" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:layout_gravity="start|center" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Nav Bar Separator" n1:paddingVertical="5.0dp" style="@style/a6s" />
+                    <X.12q2 n1:layout_gravity="end|center" n1:id="@id/tex" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" />
+                </FrameLayout>
+                <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="If checked, a separator will be shown for non floating nav bar." style="@style/a7_" />
+            </LinearLayout>
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Live Sheet" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingTop="12.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="12.0dp" n5:evp="8.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.12pz n1:id="@id/oq9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Overlay" style="@style/a5n" />
+                <X.12pz n1:id="@id/nxr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Navigate" n1:layout_marginStart="4.0dp" style="@style/a5n" />
+            </LinearLayout>
+            <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choose a launch mode, a new sheet with the chosen configuration will be shown." style="@style/a7_" />
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Spark Sheet" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingTop="12.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="12.0dp" n6:evp="8.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.12pz n1:id="@id/ufq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Overlay" style="@style/a5n" />
+                <X.12pz n1:id="@id/ufi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Navigate" n1:layout_marginStart="4.0dp" style="@style/a5n" />
+            </LinearLayout>
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/ufg" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="400" n1:hint="Input the spark loading height" n1:singleLine="true" n1:layout_weight="1.0" n1:inputType="number" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/uff" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n6:br4="?e_w" n6:brl="?ffd" />
+                </LinearLayout>
+                <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            </FrameLayout>
+            <X.12xb n1:id="@id/ufh" n1:tag="@id/ufd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n6:f20="n8a">
+                <X.12pz n1:id="@id/ufd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="400" style="@style/a64" />
+                <X.12pz n1:id="@id/ufe" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="600" style="@style/a64" />
+            </X.12xb>
+            <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choose a launch mode, a spark sheet will be shown." style="@style/a7_" />
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Spark Offline Sheet" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingTop="12.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="12.0dp" n7:evp="8.0dp" xmlns:n7="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.12pz n1:id="@id/ufp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Overlay" style="@style/a5n" />
+                <X.12pz n1:id="@id/ufo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Navigate" n1:layout_marginStart="4.0dp" style="@style/a5n" />
+            </LinearLayout>
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/ufm" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="400" n1:hint="Input the spark loading height" n1:singleLine="true" n1:layout_weight="1.0" n1:inputType="number" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/ufl" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n7:br4="?e_w" n7:brl="?ffd" />
+                </LinearLayout>
+                <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            </FrameLayout>
+            <X.12xb n1:id="@id/ufn" n1:tag="@id/ufj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n7:f20="n8a">
+                <X.12pz n1:id="@id/ufj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="400" style="@style/a64" />
+                <X.12pz n1:id="@id/ufk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="600" style="@style/a64" />
+            </X.12xb>
+            <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choose a launch mode, a spark offline sheet will be shown." style="@style/a7_" />
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Schema" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingTop="12.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="12.0dp" n8:evp="8.0dp" xmlns:n8="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/sos" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:hint="Input the schema" n1:singleLine="true" n1:layout_weight="1.0" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/sor" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n8:br4="?e_w" n8:brl="?ffd" />
+                </LinearLayout>
+                <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            </FrameLayout>
+            <X.12pz n1:id="@id/sot" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="Go" style="@style/a5n" />
+            <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Open a schema." style="@style/a7_" />
+        </X.12vZ>
+        <X.12nN n1:textColor="?fff" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Lorem Sheet" n1:paddingVertical="12.0dp" style="@style/a79" />
+        <X.12vZ n1:orientation="vertical" n1:background="?fee" n1:paddingLeft="8.0dp" n1:paddingTop="12.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" n1:paddingVertical="12.0dp" n9:evp="8.0dp" xmlns:n9="http://schemas.android.com/apk/res-auto">
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <com.bytedance.android.live.design.widget.LiveEditText n1:textSize="15.0sp" n1:textColor="?ffc" n1:textColorHint="?ffd" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/mor" n1:background="@null" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:text="500" n1:hint="Input the character count" n1:singleLine="true" n1:layout_weight="1.0" n1:inputType="number" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec5" n1:textAlignment="viewStart" style="@style/a6s" />
+                    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/moq" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="9.0dp" n9:br4="?e_w" n9:brl="?ffd" />
+                </LinearLayout>
+                <View n1:layout_gravity="bottom" n1:background="?fer" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+            </FrameLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp">
+                <X.12pz n1:id="@id/mop" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Overlay" style="@style/a5n" />
+                <X.12pz n1:id="@id/moo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Navigate" n1:layout_marginStart="4.0dp" style="@style/a5n" />
+            </LinearLayout>
+            <X.12nN n1:textColor="?fff" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Choose a launch mode, a specified count character sheet will be shown. Intended for testing adaptive max 6 sheet." style="@style/a7_" />
+        </X.12vZ>
+    </LinearLayout>
+</X.137G>

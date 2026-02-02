@@ -1,0 +1,391 @@
+.class public final LX/0CSA;
+.super LX/0CS6;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LJIJI:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final LJIJJ:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, LX/0CS6;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LJIIJ(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    .locals 1
+
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/view/viewholder/AreaTitleViewHolder;
+
+    if-nez v0, :cond_0
+
+    invoke-super {p0, p1}, LX/0CS6;->LJIIJ(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    :cond_0
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->cancel()V
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0, p1}, LX/13MR;->LJJIII(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    :cond_1
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {p0, p1}, LX/13M9;->LJIIIIZZ(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    :cond_2
+    return-void
+.end method
+
+.method public final LJIIJJI()V
+    .locals 3
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v2, v0, -0x1
+
+    if-ltz v2, :cond_0
+
+    :goto_0
+    add-int/lit8 v1, v2, -0x1
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-static {v0, v2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    invoke-virtual {p0, v0}, LX/13MR;->LJJIII(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-static {v0, v2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->remove(Ljava/util/List;I)Ljava/lang/Object;
+
+    if-ltz v1, :cond_0
+
+    move v2, v1
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v2, v0, -0x1
+
+    if-ltz v2, :cond_1
+
+    :goto_1
+    add-int/lit8 v1, v2, -0x1
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-static {v0, v2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    invoke-virtual {p0, v0}, LX/13MR;->LJJIII(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-static {v0, v2}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->remove(Ljava/util/List;I)Ljava/lang/Object;
+
+    if-ltz v1, :cond_1
+
+    move v2, v1
+
+    goto :goto_1
+
+    :cond_1
+    invoke-super {p0}, LX/0CS6;->LJIIJJI()V
+
+    return-void
+.end method
+
+.method public final LJIILLIIL()Z
+    .locals 2
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    xor-int/lit8 v0, v0, 0x1
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
+
+    if-nez v0, :cond_0
+
+    invoke-super {p0}, LX/0CS6;->LJIILLIIL()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v1, 0x0
+
+    :cond_0
+    return v1
+.end method
+
+.method public final LJIJ()V
+    .locals 6
+
+    invoke-super {p0}, LX/0CS6;->LJIJ()V
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v5, v0, -0x1
+
+    if-ltz v5, :cond_0
+
+    :goto_0
+    add-int/lit8 v4, v5, -0x1
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-static {v0, v5}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    iget-object v0, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    new-instance v1, LY/ALAdapterS2S0200000_5;
+
+    const/4 v0, 0x5
+
+    invoke-direct {v1, p0, v3, v0}, LY/ALAdapterS2S0200000_5;-><init>(Ljava/lang/Object;Ljava/lang/Object;I)V
+
+    invoke-virtual {v2, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    invoke-static {v0, v5}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->remove(Ljava/util/List;I)Ljava/lang/Object;
+
+    if-ltz v4, :cond_0
+
+    move v5, v4
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v5, v0, -0x1
+
+    if-ltz v5, :cond_1
+
+    :goto_1
+    add-int/lit8 v4, v5, -0x1
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-static {v0, v5}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    iget-object v0, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    new-instance v1, LY/ALAdapterS2S0200000_5;
+
+    const/4 v0, 0x6
+
+    invoke-direct {v1, p0, v3, v0}, LY/ALAdapterS2S0200000_5;-><init>(Ljava/lang/Object;Ljava/lang/Object;I)V
+
+    invoke-virtual {v2, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    invoke-static {v0, v5}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->remove(Ljava/util/List;I)Ljava/lang/Object;
+
+    if-ltz v4, :cond_1
+
+    move v5, v4
+
+    goto :goto_1
+
+    :cond_1
+    return-void
+.end method
+
+.method public final LJJ(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
+    .locals 2
+
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/view/viewholder/AreaTitleViewHolder;
+
+    if-nez v0, :cond_0
+
+    invoke-super {p0, p1}, LX/0CS6;->LJJ(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    invoke-static {v1, v0}, LX/0X3I;->O0(Landroid/view/View;F)V
+
+    iget-object v0, p0, LX/0CSA;->LJIJI:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final LJJII(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
+    .locals 2
+
+    instance-of v0, p1, Lcom/ss/android/ugc/aweme/ecommerce/base/osp/payment/view/viewholder/AreaTitleViewHolder;
+
+    if-nez v0, :cond_0
+
+    invoke-super {p0, p1}, LX/0CS6;->LJJII(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    const/4 v0, 0x0
+
+    invoke-static {v1, v0}, LX/0X3I;->O0(Landroid/view/View;F)V
+
+    iget-object v0, p0, LX/0CSA;->LJIJJ:Ljava/util/List;
+
+    check-cast v0, Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/4 v0, 0x0
+
+    return v0
+.end method

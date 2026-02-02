@@ -1,0 +1,82 @@
+.class public final LX/0qFN;
+.super LX/0PAw;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime LX/0PaH;
+    c = "com.ss.android.ugc.aweme.ecommerce.base.widget.regionpicker.fragment.DistrictPage"
+    f = "DistrictFragment.kt"
+    l = {
+        0x769,
+        0x909,
+        0x7a4
+    }
+    m = "requestDistricts"
+.end annotation
+
+
+# instance fields
+.field public LL:I
+
+.field public LLILIL:Ljava/lang/Object;
+
+.field public LLILL:J
+
+.field public synthetic LLILLIZIL:Ljava/lang/Object;
+
+.field public final synthetic LLILLJJLI:Lcom/ss/android/ugc/aweme/ecommerce/base/widget/regionpicker/fragment/DistrictPage;
+
+.field public LLILLL:I
+
+
+# direct methods
+.method public constructor <init>(Lcom/ss/android/ugc/aweme/ecommerce/base/widget/regionpicker/fragment/DistrictPage;LX/02wT;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/ss/android/ugc/aweme/ecommerce/base/widget/regionpicker/fragment/DistrictPage;",
+            "LX/02wT<",
+            "-",
+            "LX/0qFN;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LX/0qFN;->LLILLJJLI:Lcom/ss/android/ugc/aweme/ecommerce/base/widget/regionpicker/fragment/DistrictPage;
+
+    invoke-direct {p0, p2}, LX/0PAw;-><init>(LX/02wT;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    const-string v2, "DistrictPage@aef9.requestDistricts$1"
+
+    invoke-static {v2}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    iput-object p1, p0, LX/0qFN;->LLILLIZIL:Ljava/lang/Object;
+
+    iget v1, p0, LX/0qFN;->LLILLL:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr v1, v0
+
+    iput v1, p0, LX/0qFN;->LLILLL:I
+
+    iget-object v0, p0, LX/0qFN;->LLILLJJLI:Lcom/ss/android/ugc/aweme/ecommerce/base/widget/regionpicker/fragment/DistrictPage;
+
+    invoke-virtual {v0, p0}, Lcom/ss/android/ugc/aweme/ecommerce/base/widget/regionpicker/fragment/DistrictPage;->WN(LX/02wT;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v2}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-object v0
+.end method

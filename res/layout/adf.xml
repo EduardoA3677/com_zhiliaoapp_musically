@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:screenReaderFocusable="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0qKc n1:orientation="vertical" n1:id="@id/k0b" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="10.0dp" n1:paddingStart="@dimen/mj" n1:paddingEnd="@dimen/mj">
+        <X.0qaU n1:id="@id/jyr" n1:paddingTop="16.0dp" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="116.0dp" />
+    </X.0qKc>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/k09" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/mj" n1:paddingEnd="@dimen/mj">
+        <X.0D2z n1:id="@id/jzd" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:text="@null" n1:layout_weight="1.0" n2:fid="t69" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:id="@id/k08" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:text="@null" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0D2z n1:id="@id/k0o" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:text="@null" n1:layout_marginStart="@dimen/mj" n1:layout_marginEnd="@dimen/mj" n4:fid="t69" n4:fk4="@raw/icon_clipboard_ltr" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?y2" n1:layout_width="match_parent" n1:layout_height="8.0dp" n1:layout_marginTop="16.0dp" />
+</LinearLayout>

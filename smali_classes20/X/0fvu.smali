@@ -1,0 +1,68 @@
+.class public final LX/0fvu;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function0<",
+        "LX/0cvz;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:Lcom/bytedance/android/live/liveinteract/multiguestv3/main/play/playbook/anchor/PlaybookInteractivePolymerizationDialog;
+
+
+# direct methods
+.method public constructor <init>(Lcom/bytedance/android/live/liveinteract/multiguestv3/main/play/playbook/anchor/PlaybookInteractivePolymerizationDialog;)V
+    .locals 1
+
+    iput-object p1, p0, LX/0fvu;->LL:Lcom/bytedance/android/live/liveinteract/multiguestv3/main/play/playbook/anchor/PlaybookInteractivePolymerizationDialog;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    iget-object v0, p0, LX/0fvu;->LL:Lcom/bytedance/android/live/liveinteract/multiguestv3/main/play/playbook/anchor/PlaybookInteractivePolymerizationDialog;
+
+    iget-object v0, v0, Lcom/bytedance/android/live/liveinteract/multiguestv3/main/play/playbook/anchor/PlaybookInteractivePolymerizationDialog;->LLLFFI:LX/0o0p;
+
+    const/4 v2, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, LX/0o0p;->getAdapter()LX/13M6;
+
+    move-result-object v1
+
+    :goto_0
+    instance-of v0, v1, LX/0cvz;
+
+    if-eqz v0, :cond_1
+
+    return-object v1
+
+    :cond_0
+    move-object v1, v2
+
+    goto :goto_0
+
+    :cond_1
+    return-object v2
+.end method

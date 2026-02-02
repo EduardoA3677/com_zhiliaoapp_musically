@@ -1,0 +1,54 @@
+.class public final LX/0QOy;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Landroid/app/KeyguardManager;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 2
+
+    invoke-static {}, LX/0YPp;->LIZIZ()Landroid/content/Context;
+
+    move-result-object v1
+
+    const-string v0, "keyguard"
+
+    invoke-static {v1, v0}, LX/0X3I;->LLZ(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/app/KeyguardManager;
+
+    if-nez v0, :cond_0
+
+    const/4 v1, 0x0
+
+    :cond_0
+    return-object v1
+.end method

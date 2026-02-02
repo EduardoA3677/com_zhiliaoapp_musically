@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Включить</string>
+    <string name="en0">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="en1">Включите сервисы Google Play</string>
+    <string name="en2">Установить</string>
+    <string name="en3">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="en4">Установите сервисы Google Play</string>
+    <string name="en5">Доступность сервисов Google Play</string>
+    <string name="en6">Ошибка сервисов Google Play</string>
+    <string name="en7">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="en8">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="en9">Обновить</string>
+    <string name="en_">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="ena">Обновите сервисы Google Play</string>
+    <string name="enb">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="enc">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="jwo">Камера</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

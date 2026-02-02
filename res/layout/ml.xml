@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="?xo" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/hb6" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oCE n1:theme="@style/wo" n1:id="@id/ph_" n1:background="?xo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:azg="@integer/ap" n2:azi="@integer/ca" n2:azl="?xx" n2:fkf="j0v" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

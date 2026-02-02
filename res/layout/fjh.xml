@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0mEd n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentTop="true" n2:bpf="true" n2:ezz="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/cun" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@string/dzy" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true" n1:paddingHorizontal="12.0dp" n2:fj2="p_" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/vce" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@string/q6_" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" n1:paddingHorizontal="12.0dp" n2:fj2="pa" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/g1_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:shadowColor="#26000000" n1:shadowRadius="2.0" n1:layout_centerInParent="true" n2:fj2="p0" />
+    </RelativeLayout>
+    <X.0mMs n1:id="@id/g3r" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.0mEd>

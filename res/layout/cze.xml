@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="@dimen/e8" n1:layout_centerVertical="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/j1z" n1:layout_width="@dimen/e7" n1:layout_height="@dimen/e6" n1:layout_centerVertical="true" n2:b41="h_f" n2:eyd="@color/au" n2:eyl="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/xjk" n1:layout_width="@dimen/e_" n1:layout_height="@dimen/e9" n1:layout_marginTop="25.0dp" n1:text="@null" n1:maxLines="2" n1:maxEms="15" n1:textDirection="locale" n1:textAlignment="viewStart" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/j1z" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/c8q" n1:layout_width="88.0dp" n1:layout_height="29.0dp" n1:text="@null" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" n4:fid="t69" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

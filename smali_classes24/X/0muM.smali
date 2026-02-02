@@ -1,0 +1,819 @@
+.class public final LX/0muM;
+.super LX/13M6;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0muO;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/13M6<",
+        "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
+        ">;",
+        "LX/0muO;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final LL:LX/0sUT;
+
+.field public final LLILIL:LX/0Su1;
+
+.field public final LLILL:Lcom/ss/android/ugc/aweme/shortvideo/edit/VideoPublishEditModel;
+
+.field public final LLILLIZIL:Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;
+
+.field public final LLILLJJLI:LX/0SrW;
+
+.field public LLILLL:Z
+
+.field public LLILZ:I
+
+.field public LLILZIL:Lcom/ss/android/ugc/effectmanager/effect/model/CategoryPageModel;
+
+.field public LLILZLL:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "+",
+            "Lcom/ss/android/ugc/effectmanager/effect/model/Effect;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public LLIZ:Landroidx/recyclerview/widget/RecyclerView;
+
+.field public final LLIZLLLIL:LX/0muL;
+
+.field public LLJ:LX/0muR;
+
+
+# direct methods
+.method public constructor <init>(LX/0sUT;LX/0Su1;Lcom/ss/android/ugc/aweme/shortvideo/edit/VideoPublishEditModel;Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;LX/0SrW;)V
+    .locals 1
+
+    invoke-direct {p0}, LX/13M6;-><init>()V
+
+    iput-object p1, p0, LX/0muM;->LL:LX/0sUT;
+
+    iput-object p2, p0, LX/0muM;->LLILIL:LX/0Su1;
+
+    iput-object p3, p0, LX/0muM;->LLILL:Lcom/ss/android/ugc/aweme/shortvideo/edit/VideoPublishEditModel;
+
+    iput-object p4, p0, LX/0muM;->LLILLIZIL:Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;
+
+    iput-object p5, p0, LX/0muM;->LLILLJJLI:LX/0SrW;
+
+    new-instance v0, LX/0muL;
+
+    invoke-direct {v0, p0}, LX/0muL;-><init>(LX/0muM;)V
+
+    iput-object v0, p0, LX/0muM;->LLIZLLLIL:LX/0muL;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ(ILandroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, LX/0muM;->LLIZLLLIL:LX/0muL;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0, p1, p2}, LX/0muL;->LIZ(ILandroid/view/View;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final LLJLL(Lcom/ss/android/ugc/effectmanager/effect/model/Effect;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 14
+
+    move-object/from16 v8, p3
+
+    iget-object v0, p0, LX/0muM;->LLILIL:LX/0Su1;
+
+    if-eqz v0, :cond_1
+
+    move-object/from16 v7, p4
+
+    if-eqz v7, :cond_1
+
+    invoke-virtual {v7}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    const/4 v2, 0x1
+
+    if-lez v0, :cond_1
+
+    new-instance v3, Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;
+
+    if-nez v8, :cond_0
+
+    const-string v8, ""
+
+    :cond_0
+    iget-object v0, p0, LX/0muM;->LLILIL:LX/0Su1;
+
+    invoke-interface {v0}, LX/0Su1;->getDuration()I
+
+    move-result v10
+
+    invoke-static {}, LX/0HDC;->LIZ()LX/0mNQ;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-object v0, LX/0mNQ;->LJFF:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/0mNX;
+
+    iget-object v0, v0, LX/0mNX;->LIZ:LX/0mNY;
+
+    invoke-virtual {v0, v7}, LX/0NqK;->LIZJ(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v11
+
+    check-cast v11, [B
+
+    const/4 v12, 0x0
+
+    new-instance v13, Ljava/util/ArrayList;
+
+    invoke-direct {v13}, Ljava/util/ArrayList;-><init>()V
+
+    const/4 v5, 0x0
+
+    move-object/from16 v4, p2
+
+    move v6, v5
+
+    move v9, v5
+
+    invoke-direct/range {v3 .. v13}, Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;II[BLcom/ss/android/ugc/aweme/shortvideo/AVChallenge;Ljava/util/List;)V
+
+    invoke-virtual {v3, v2}, Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;->setShowErrorToast(Z)V
+
+    iget-object v1, p0, LX/0muM;->LLILLJJLI:LX/0SrW;
+
+    invoke-static {v2, v3}, LX/0Svn;->LIZ(ZLcom/bytedance/creativex/editor/preview/IAudioEffectParam;)LX/0JQg;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0}, LX/0SrW;->I61(LX/0JQg;)V
+
+    iget-object v0, p0, LX/0muM;->LLILL:Lcom/ss/android/ugc/aweme/shortvideo/edit/VideoPublishEditModel;
+
+    invoke-static {v0}, LX/0lvf;->LIZLLL(Lcom/ss/android/ugc/aweme/shortvideo/edit/VideoPublishEditModel;)V
+
+    new-instance v2, LX/0ltV;
+
+    iget-object v1, p0, LX/0muM;->LL:LX/0sUT;
+
+    invoke-static {p1}, LX/0HxS;->LIZ(Lcom/ss/android/ugc/effectmanager/effect/model/Effect;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0, v1}, LX/0ltV;-><init>(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;)V
+
+    new-instance v0, LX/0muN;
+
+    invoke-direct {v0, v3}, LX/0muN;-><init>(Lcom/ss/android/ugc/aweme/shortvideo/edit/audioeffect/AudioEffectParam;)V
+
+    invoke-virtual {v2, v0}, LX/0ltV;->LIZ(LX/0ltb;)V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final LLJLLIL(II)V
+    .locals 2
+
+    if-ltz p1, :cond_0
+
+    invoke-virtual {p0}, LX/13M6;->getItemCount()I
+
+    move-result v0
+
+    if-ge p1, v0, :cond_0
+
+    iget-object v0, p0, LX/0muM;->LLIZ:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->findViewHolderForAdapterPosition(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    move-result-object v1
+
+    :goto_0
+    instance-of v0, v1, LX/0muP;
+
+    if-eqz v0, :cond_2
+
+    check-cast v1, LX/0muP;
+
+    invoke-virtual {v1, p2}, LX/0muP;->z6(I)V
+
+    :cond_0
+    return-void
+
+    :cond_1
+    const/4 v1, 0x0
+
+    goto :goto_0
+
+    :cond_2
+    invoke-virtual {p0, p1}, LX/13M6;->notifyItemChanged(I)V
+
+    return-void
+.end method
+
+.method public final LLJLLL(I)V
+    .locals 5
+
+    invoke-virtual {p0}, LX/13M6;->getItemCount()I
+
+    move-result v0
+
+    iget v1, p0, LX/0muM;->LLILZ:I
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x0
+
+    if-ltz v1, :cond_5
+
+    if-ge v1, v0, :cond_5
+
+    const/4 v0, 0x1
+
+    :goto_0
+    const/4 v2, 0x0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, LX/0muM;->LLIZ:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->findViewHolderForAdapterPosition(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    move-result-object v1
+
+    :goto_1
+    instance-of v0, v1, LX/0muP;
+
+    if-eqz v0, :cond_3
+
+    check-cast v1, LX/0muP;
+
+    iget-object v0, v1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0, v3}, LX/0mMc;->LJFF(Z)V
+
+    :cond_0
+    :goto_2
+    iput p1, p0, LX/0muM;->LLILZ:I
+
+    invoke-virtual {p0}, LX/13M6;->getItemCount()I
+
+    move-result v0
+
+    if-ge p1, v0, :cond_2
+
+    iget-object v1, p0, LX/0muM;->LLIZ:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v1, :cond_1
+
+    iget v0, p0, LX/0muM;->LLILZ:I
+
+    invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->findViewHolderForAdapterPosition(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    move-result-object v2
+
+    :cond_1
+    instance-of v0, v2, LX/0muP;
+
+    if-eqz v0, :cond_2
+
+    check-cast v2, LX/0muP;
+
+    iget-object v0, v2, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v0, v4}, LX/0mMc;->LJFF(Z)V
+
+    :cond_2
+    return-void
+
+    :cond_3
+    iget v0, p0, LX/0muM;->LLILZ:I
+
+    invoke-virtual {p0, v0}, LX/13M6;->notifyItemChanged(I)V
+
+    goto :goto_2
+
+    :cond_4
+    move-object v1, v2
+
+    goto :goto_1
+
+    :cond_5
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final getItemCount()I
+    .locals 1
+
+    iget-object v0, p0, LX/0muM;->LLILZIL:Lcom/ss/android/ugc/effectmanager/effect/model/CategoryPageModel;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/effectmanager/effect/model/CategoryPageModel;->getCategoryEffects()Lcom/ss/android/ugc/effectmanager/effect/model/CategoryEffectModel;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/effectmanager/effect/model/CategoryEffectModel;->getEffects()Ljava/util/List;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    :goto_0
+    add-int/lit8 v0, v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    .locals 0
+
+    invoke-super {p0, p1}, LX/13M6;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+
+    iput-object p1, p0, LX/0muM;->LLIZ:Landroidx/recyclerview/widget/RecyclerView;
+
+    return-void
+.end method
+
+.method public final onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+    .locals 7
+
+    instance-of v0, p1, LX/0muP;
+
+    if-eqz v0, :cond_7
+
+    const/4 v6, 0x0
+
+    if-lez p2, :cond_11
+
+    iget-object v1, p0, LX/0muM;->LLILZLL:Ljava/util/List;
+
+    add-int/lit8 v0, p2, -0x1
+
+    invoke-static {v1, v0}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/ss/android/ugc/effectmanager/effect/model/Effect;
+
+    :goto_0
+    check-cast p1, LX/0muP;
+
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
+
+    move-result v0
+
+    const/4 v4, 0x1
+
+    const/4 v3, 0x0
+
+    if-nez v0, :cond_9
+
+    iget-object v2, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v2, :cond_0
+
+    invoke-virtual {v2}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_8
+
+    const v0, 0x7f123ca0
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_1
+    invoke-virtual {v2, v0}, LX/0mMc;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_0
+    iget-object v2, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v2, :cond_2
+
+    invoke-virtual {v2}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_1
+
+    const v0, 0x7f040d60
+
+    invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v6
+
+    :cond_1
+    invoke-virtual {v2, v6}, LX/0mMc;->LIZIZ(Landroid/graphics/drawable/Drawable;)V
+
+    :cond_2
+    iget-object v1, p1, LX/0muP;->LLILL:Landroid/widget/ImageView;
+
+    if-eqz v1, :cond_3
+
+    const/16 v0, 0x8
+
+    invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    invoke-static {v0, v1}, LX/0BId;->LIZIZ(ILjava/lang/Object;)V
+
+    :cond_3
+    iget-object v0, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v0, v3}, LX/0mMc;->LJFF(Z)V
+
+    :cond_4
+    invoke-virtual {p1, v4}, LX/0muP;->z6(I)V
+
+    iget-object v1, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v1, :cond_5
+
+    const/16 v0, 0xa
+
+    invoke-virtual {v1, v0}, LX/0mMc;->setIconImagePadding(I)V
+
+    :cond_5
+    :goto_2
+    iget v0, p0, LX/0muM;->LLILZ:I
+
+    if-eq p2, v0, :cond_6
+
+    const/4 v4, 0x0
+
+    :cond_6
+    iget-object v0, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_7
+
+    invoke-virtual {v0, v4}, LX/0mMc;->LJFF(Z)V
+
+    :cond_7
+    return-void
+
+    :cond_8
+    move-object v0, v6
+
+    goto :goto_1
+
+    :cond_9
+    if-eqz v5, :cond_e
+
+    iget-object v1, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v1, :cond_a
+
+    invoke-virtual {v5}, Lcom/ss/android/ugc/effectmanager/effect/model/Effect;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, LX/0mMc;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_a
+    invoke-virtual {v5}, Lcom/ss/android/ugc/effectmanager/effect/model/Effect;->getIconUrl()Lcom/ss/android/ugc/effectmanager/common/model/UrlModel;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_c
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/effectmanager/common/model/UrlModel;->getUrlList()Ljava/util/List;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_c
+
+    invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_c
+
+    invoke-static {v5}, LX/0mNR;->LIZJ(Lcom/ss/android/ugc/effectmanager/effect/model/Effect;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_10
+
+    invoke-static {v2, v3}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    invoke-static {v0}, LX/0mSg;->LJIIJJI(Ljava/lang/String;)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_f
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    :goto_3
+    iget-object v0, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_b
+
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_b
+
+    iget-object v1, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v1, :cond_b
+
+    invoke-static {v0, v2}, LX/0XSr;->LIZIZ(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, LX/0mMc;->LIZIZ(Landroid/graphics/drawable/Drawable;)V
+
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    if-nez v0, :cond_c
+
+    :cond_b
+    iget-object v0, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    :cond_c
+    :goto_4
+    iget-object v0, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_d
+
+    invoke-virtual {v0, v3}, LX/0mMc;->LJFF(Z)V
+
+    :cond_d
+    invoke-static {}, LX/0HDC;->LIZ()LX/0mNQ;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v5}, LX/0mNQ;->LIZ(Lcom/ss/android/ugc/effectmanager/effect/model/Effect;)Z
+
+    move-result v0
+
+    invoke-virtual {p1, v0}, LX/0muP;->z6(I)V
+
+    :cond_e
+    iget-object v0, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {v0, v3}, LX/0mMc;->setIconImagePadding(I)V
+
+    goto :goto_2
+
+    :cond_f
+    const/4 v2, 0x0
+
+    goto :goto_3
+
+    :cond_10
+    iget-object v1, p1, LX/0muP;->LLILLIZIL:LX/0mMc;
+
+    if-eqz v1, :cond_c
+
+    invoke-static {v2, v3}, Lcom/bytedance/mt/protector/impl/collections/ListProtector;->get(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, LX/0mMc;->LJ(Ljava/lang/String;)V
+
+    goto :goto_4
+
+    :cond_11
+    move-object v5, v6
+
+    goto/16 :goto_0
+.end method
+
+.method public final onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    .locals 5
+
+    const-string v4, "onCreateViewHolder getParent() != null crash hook, holder "
+
+    new-instance v2, LX/0muP;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0X3I;->e8(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v3
+
+    const v1, 0x7f0e01da
+
+    const/4 v0, 0x0
+
+    invoke-static {v3, v1, p1, v0}, LX/0X3I;->Y7(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/FrameLayout;
+
+    invoke-direct {v2, v0, p0}, LX/0muP;-><init>(Landroid/widget/FrameLayout;LX/0muO;)V
+
+    :try_start_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-eqz v3, :cond_0
+
+    invoke-static {p1}, LX/05Ro;->LIZ(Landroid/view/View;)Landroidx/fragment/app/Fragment;
+
+    move-result-object v1
+
+    const v0, 0x7f0b17d6
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    :cond_0
+    iget-object v3, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const v0, 0x7f0b7c70
+
+    invoke-virtual {v3, v0, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
+
+    :try_start_1
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    const/4 v3, 0x1
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    :try_start_2
+    invoke-static {}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZLLL()Lcom/bytedance/ies/abmock/SettingsManager;
+
+    move-result-object v1
+
+    const-string v0, "catch_onCreateViewHolder_crash"
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {v0, v3}, Lcom/bytedance/ies/abmock/SettingsManager;->LIZ(Ljava/lang/String;Z)Z
+
+    move-result v3
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catch_0
+    if-eqz v3, :cond_1
+
+    :try_start_3
+    new-instance v1, Ljava/lang/StringBuffer;
+
+    invoke-direct {v1, v4}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+
+    const-class v0, LX/0muP;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " parent "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    const-string v0, " viewType "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuffer;->append(I)Ljava/lang/StringBuffer;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0tSY;->LIZJ(Ljava/lang/String;)V
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/view/ViewGroup;
+
+    if-eqz v1, :cond_1
+
+    iget-object v0, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-static {v0, v1}, LX/0X3I;->LJJIZ(Landroid/view/View;Landroid/view/ViewGroup;)V
+
+    goto :goto_0
+    :try_end_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+
+    :catch_1
+    move-exception v0
+
+    invoke-static {v0}, LX/0H5y;->LIZ(Ljava/lang/Exception;)V
+
+    invoke-static {v0}, LX/0YM6;->LIZ(Ljava/lang/Exception;)V
+
+    :cond_1
+    :goto_0
+    const-class v0, LX/0muP;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, LX/0RKz;->LIZ:Ljava/lang/String;
+
+    return-object v2
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?c3" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView n1:id="@id/voice_debug_compose_container" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <X.0CfU n1:layout_width="wrap_content" n1:layout_height="8.0dp" />
+    <X.05u9 n1:id="@id/voice_debug_audio_preview" n1:layout_width="match_parent" n1:layout_height="30.0dp" />
+    <X.0CfU n1:layout_width="wrap_content" n1:layout_height="8.0dp" />
+    <X.05vT n1:id="@id/voice_debug_audio_preview_2" n1:layout_width="match_parent" n1:layout_height="30.0dp" />
+    <X.0CfU n1:layout_width="wrap_content" n1:layout_height="16.0dp" />
+</LinearLayout>

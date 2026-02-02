@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/kfm" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:src="@drawable/a4o" n1:importantForAccessibility="no" />
+    <View n1:id="@id/fdk" n1:background="@drawable/ajw" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginStart="15.0dp" />
+    <ImageView n1:id="@id/kfp" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:src="@drawable/a4o" n1:importantForAccessibility="no" n1:layout_marginStart="17.0dp" />
+    <View n1:id="@id/fdz" n1:background="@drawable/ajw" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:layout_marginStart="34.0dp" />
+    <ImageView n1:id="@id/kfs" n1:visibility="gone" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:src="@drawable/a4o" n1:importantForAccessibility="no" n1:layout_marginStart="36.0dp" />
+</FrameLayout>

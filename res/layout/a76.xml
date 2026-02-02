@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:ba3="?bx" n2:ba4="10.0dp" n2:ba5="3.0dp" n2:ba7="3.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/udf" n1:background="@drawable/afz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

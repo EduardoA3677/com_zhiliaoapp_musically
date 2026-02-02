@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/e1j" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Ckw n1:id="@id/t97" n1:paddingLeft="@dimen/mj" n1:paddingTop="@dimen/mj" n1:paddingRight="@dimen/mj" n1:paddingBottom="@dimen/mj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/mj" n1:paddingEnd="@dimen/mj" />
+</FrameLayout>

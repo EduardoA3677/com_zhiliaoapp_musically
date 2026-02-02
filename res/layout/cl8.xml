@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dp" n1:layout_marginRight="40.0dp" n1:text="@null" n1:textAlignment="center" n1:layout_marginHorizontal="40.0dp" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kzr" n1:layout_width="144.0dp" n1:layout_height="117.0dp" n1:layout_marginLeft="40.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="40.0dp" n1:layout_marginBottom="12.0dp" n1:importantForAccessibility="no" n1:layout_marginHorizontal="40.0dp" n1:layout_marginVertical="12.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/v99" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="40.0dp" n1:layout_marginRight="40.0dp" n1:layout_marginBottom="20.0dp" n1:text="@null" n1:textAlignment="center" n1:layout_marginHorizontal="40.0dp" n3:fj2="px" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginBottom="10.0dp" />
+    <X.0hCV n1:id="@id/tn2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+</LinearLayout>

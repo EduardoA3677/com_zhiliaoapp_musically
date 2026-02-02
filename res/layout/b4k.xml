@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.feed.platform.cell.interact.view.InteractCheckDrawRelativeLayout n1:id="@id/bnw" n1:layout_width="wrap_content" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/qud" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/p9k" n1:layout_alignWithParentIfMissing="true" />
+    <FrameLayout n1:id="@id/p9k" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="-41.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <FrameLayout n1:id="@id/u9t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+    <X.0MIW n1:id="@id/u9u" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_above="@id/qud" n1:layout_alignWithParentIfMissing="true" />
+    <FrameLayout n1:id="@id/a0v" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+    <Space n1:id="@id/pdo" n1:layout_width="1.0dp" n1:layout_height="0.0dp" n1:layout_alignParentBottom="true" />
+    <FrameLayout n1:id="@id/wqz" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" />
+</com.ss.android.ugc.feed.platform.cell.interact.view.InteractCheckDrawRelativeLayout>

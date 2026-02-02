@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingStart="32.0dp" n1:paddingEnd="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/kkc" n1:layout_width="@dimen/ajw" n1:layout_height="@dimen/aju" n1:src="@drawable/ei9" n2:bwl="@id/xvn" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:bxd="@dimen/ajz" n2:bxe="ori" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="@color/df" n1:id="@id/xvn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/ajy" n3:bwl="@id/xvm" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/kkc" style="@style/a6r" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="@color/dl" n1:gravity="center" n1:id="@id/xvm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/ajx" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/xvn" style="@style/a74" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

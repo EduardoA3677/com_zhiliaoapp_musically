@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/h2_" n1:background="?bt" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/e2u" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="12.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_magnifying_glass" n2:fmy="?e1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwr="@id/qyw" n3:bwz="0.0" n3:bx8="@id/e2u" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/szo" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="8.0dp" n3:fj2="pz" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/dl2" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginEnd="3.0dp" n3:fj2="pz" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/qyw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginBottom="10.0dp" n1:maxLines="1" n1:layout_marginEnd="4.0dp" n4:bwk="owf" n4:bwr="@id/st0" n4:bwz="0.0" n4:bxc="owf" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/st0" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginEnd="12.0dp" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" n5:fjq="@raw/icon_chevron_right_offset_ltr" n5:fjt="16.0dp" n5:fk6="16.0dp" n5:fmy="?e1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

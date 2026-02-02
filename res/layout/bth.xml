@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/m8t" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0o6h n1:id="@id/viz" n1:layout_width="match_parent" n1:layout_height="40.0dp" />
+        <X.0o0p n1:id="@id/vpContent" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

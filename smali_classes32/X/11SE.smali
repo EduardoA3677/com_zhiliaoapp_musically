@@ -1,0 +1,249 @@
+.class public final LX/11SE;
+.super LX/0m7f;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/feed/guide/GalleryLayoutManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, LX/0m7f;-><init>(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LJI(Landroid/view/View;LX/13MF;LX/13MU;)V
+    .locals 9
+
+    iget-object v6, p0, LX/13MC;->LIZJ:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    const/high16 v8, 0x40000000    # 2.0f
+
+    const/4 v5, 0x0
+
+    if-eqz v6, :cond_2
+
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->canScrollHorizontally()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v6, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedLeft(Landroid/view/View;)I
+
+    move-result v4
+
+    iget v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    sub-int/2addr v4, v0
+
+    invoke-virtual {v6, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedRight(Landroid/view/View;)I
+
+    move-result v3
+
+    iget v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+
+    add-int/2addr v3, v0
+
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingLeft()I
+
+    move-result v2
+
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
+
+    move-result v1
+
+    invoke-virtual {v6}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingRight()I
+
+    move-result v0
+
+    sub-int/2addr v1, v0
+
+    sub-int/2addr v3, v4
+
+    int-to-float v0, v3
+
+    div-float/2addr v0, v8
+
+    float-to-int v0, v0
+
+    add-int/2addr v4, v0
+
+    sub-int/2addr v1, v2
+
+    int-to-float v0, v1
+
+    div-float/2addr v0, v8
+
+    float-to-int v0, v0
+
+    sub-int/2addr v0, v4
+
+    :goto_0
+    iget-object v7, p0, LX/13MC;->LIZJ:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    if-eqz v7, :cond_0
+
+    invoke-virtual {v7}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->canScrollVertically()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v7, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedTop(Landroid/view/View;)I
+
+    move-result v6
+
+    iget v1, v2, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+
+    sub-int/2addr v6, v1
+
+    invoke-virtual {v7, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedBottom(Landroid/view/View;)I
+
+    move-result v4
+
+    iget v1, v2, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+
+    add-int/2addr v4, v1
+
+    invoke-virtual {v7}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingTop()I
+
+    move-result v3
+
+    invoke-virtual {v7}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getHeight()I
+
+    move-result v2
+
+    invoke-virtual {v7}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingBottom()I
+
+    move-result v1
+
+    sub-int/2addr v2, v1
+
+    sub-int/2addr v4, v6
+
+    int-to-float v1, v4
+
+    div-float/2addr v1, v8
+
+    float-to-int v1, v1
+
+    add-int/2addr v6, v1
+
+    sub-int/2addr v2, v3
+
+    int-to-float v1, v2
+
+    div-float/2addr v1, v8
+
+    float-to-int v5, v1
+
+    sub-int/2addr v5, v6
+
+    :cond_0
+    mul-int v2, v0, v0
+
+    mul-int v1, v5, v5
+
+    add-int/2addr v2, v1
+
+    int-to-double v1, v2
+
+    invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
+
+    move-result-wide v2
+
+    double-to-int v1, v2
+
+    invoke-virtual {p0, v1}, LX/0m7f;->LJIIL(I)I
+
+    move-result v3
+
+    if-lez v3, :cond_1
+
+    neg-int v2, v0
+
+    neg-int v1, v5
+
+    iget-object v0, p0, LX/0m7f;->LJIIIIZZ:Landroid/view/animation/DecelerateInterpolator;
+
+    invoke-virtual {p3, v2, v1, v0, v3}, LX/13MU;->LIZIZ(IILandroid/view/animation/Interpolator;I)V
+
+    :cond_1
+    return-void
+
+    :cond_2
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final LJIIJJI(Landroid/util/DisplayMetrics;)F
+    .locals 3
+
+    sget-object v0, LX/166G;->LIZIZ:LX/166G;
+
+    invoke-virtual {v0}, LX/166G;->LIZLLL()LX/0nol;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0nol;->LJIIJ()LX/0YMu;
+
+    move-result-object v0
+
+    invoke-interface {v0}, LX/0YMu;->isPad()I
+
+    move-result v2
+
+    const/4 v0, 0x1
+
+    const/high16 v1, 0x41c80000    # 25.0f
+
+    if-eq v2, v0, :cond_0
+
+    iget v0, p1, Landroid/util/DisplayMetrics;->densityDpi:I
+
+    int-to-float v0, v0
+
+    div-float/2addr v1, v0
+
+    const/high16 v0, 0x3fc00000    # 1.5f
+
+    div-float/2addr v1, v0
+
+    return v1
+
+    :cond_0
+    iget v0, p1, Landroid/util/DisplayMetrics;->densityDpi:I
+
+    int-to-float v0, v0
+
+    div-float/2addr v1, v0
+
+    return v1
+.end method

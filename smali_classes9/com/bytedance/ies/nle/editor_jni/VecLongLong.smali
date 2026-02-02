@@ -1,0 +1,309 @@
+.class public final Lcom/bytedance/ies/nle/editor_jni/VecLongLong;
+.super Ljava/util/AbstractList;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/RandomAccess;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/AbstractList<",
+        "Ljava/lang/Long;",
+        ">;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
+
+
+# instance fields
+.field public transient LL:J
+
+.field public transient LLILIL:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    invoke-static {}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->new_VecLongLong__SWIG_0()J
+
+    move-result-wide v1
+
+    invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LLILIL:Z
+
+    iput-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Iterable;)V
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Iterable<",
+            "Ljava/lang/Long;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;-><init>()V
+
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v4
+
+    :goto_0
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Long;
+
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    iget v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0, v2, v3}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doAdd__SWIG_0(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;J)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+
+# virtual methods
+.method public final add(ILjava/lang/Object;)V
+    .locals 6
+
+    check-cast p2, Ljava/lang/Long;
+
+    move-object v2, p0
+
+    iget v0, v2, Ljava/util/AbstractList;->modCount:I
+
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, v2, Ljava/util/AbstractList;->modCount:I
+
+    invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v4
+
+    iget-wide v0, v2, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    move v3, p1
+
+    invoke-static/range {v0 .. v5}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doAdd__SWIG_1(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;IJ)V
+
+    return-void
+.end method
+
+.method public final add(Ljava/lang/Object;)Z
+    .locals 5
+
+    check-cast p1, Ljava/lang/Long;
+
+    iget v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    const/4 v4, 0x1
+
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0, v2, v3}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doAdd__SWIG_0(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;J)V
+
+    return v4
+.end method
+
+.method public final clear()V
+    .locals 2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_clear(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;)V
+
+    return-void
+.end method
+
+.method public final finalize()V
+    .locals 5
+
+    monitor-enter p0
+
+    :try_start_0
+    iget-wide v3, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v0, v3, v1
+
+    if-eqz v0, :cond_1
+
+    iget-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LLILIL:Z
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LLILIL:Z
+
+    invoke-static {v3, v4}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->delete_VecLongLong(J)V
+
+    :cond_0
+    iput-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :cond_1
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public final get(I)Ljava/lang/Object;
+    .locals 2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0, p1}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doGet(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;I)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final isEmpty()Z
+    .locals 2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_isEmpty(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final remove(I)Ljava/lang/Object;
+    .locals 2
+
+    iget v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0, p1}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doRemove(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;I)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final removeRange(II)V
+    .locals 2
+
+    iget v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    add-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Ljava/util/AbstractList;->modCount:I
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0, p1, p2}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doRemoveRange(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;II)V
+
+    return-void
+.end method
+
+.method public final set(ILjava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    check-cast p2, Ljava/lang/Long;
+
+    invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v4
+
+    move-object v2, p0
+
+    iget-wide v0, v2, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    move v3, p1
+
+    invoke-static/range {v0 .. v5}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doSet(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;IJ)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final size()I
+    .locals 2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/VecLongLong;->LL:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->VecLongLong_doSize(JLcom/bytedance/ies/nle/editor_jni/VecLongLong;)I
+
+    move-result v0
+
+    return v0
+.end method

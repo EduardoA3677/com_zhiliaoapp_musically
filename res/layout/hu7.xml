@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.LiveEditText n1:textSize="17.0dp" n1:textColor="@color/bi" n1:textColorHint="@color/bk" n1:ellipsize="end" n1:gravity="start|top" n1:background="@color/a10" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="3" n1:imeOptions="actionDone" n1:textCursorDrawable="@drawable/ec7" n1:textAlignment="viewStart" n2:bp3="n2i" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

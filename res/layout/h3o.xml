@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0wn4 n1:id="@id/hce" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dds" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kj8" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:f49="@drawable/e_w" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hb2" n1:layout_width="0.0dp" n1:layout_height="22.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginEnd="8.0dp" n3:bwg="true" n3:bwk="owf" n3:bx7="owf" n3:bxh="wrap" n3:bxj="0.43" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="end|center" n1:id="@id/dej" n1:background="@drawable/dyx" n1:layout_width="wrap_content" n1:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kus" n1:visibility="gone" n1:layout_width="13.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="8.0dp" n3:bwk="owf" n3:bx3="owf" n3:bxc="owf" n3:f49="@drawable/eto" />
+                <androidx.appcompat.widget.AppCompatImageView n1:id="@id/kea" n1:visibility="gone" n1:layout_width="14.0dp" n1:layout_height="match_parent" n1:layout_marginEnd="4.0dp" n3:bx7="owf" n3:f49="@drawable/eti" />
+                <X.12nN n1:textSize="12.0dp" n1:textColor="@color/aaa" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/xnf" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n3:bwg="true" n3:bx4="@id/kus" n3:bx6="@id/kea" n3:by0="8.0dp" n3:by1="8.0dp" n3:ewn="true" style="@style/a7b" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+        <X.0rBl n1:layout_gravity="center_horizontal" n1:id="@id/view_loading" n1:padding="6.0dp" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.0wn4>

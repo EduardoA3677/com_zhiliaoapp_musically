@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/gxn" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="owf" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <ImageView n1:layout_gravity="center" n1:id="@id/kmv" n1:visibility="gone" n1:layout_width="@dimen/alt" n1:layout_height="@dimen/alt" n1:scaleType="fitXY" n1:importantForAccessibility="no" n1:layout_marginStart="@dimen/aul" />
+    <X.12nN n1:textSize="12.0dp" n1:textColor="?ei9" n1:ellipsize="none" n1:gravity="center_vertical" n1:layout_gravity="center" n1:id="@id/xzs" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="gone" n1:fadingEdgeLength="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:marqueeRepeatLimit="1" n1:requiresFadingEdge="horizontal" n1:paddingStart="8.0dp" n1:paddingEnd="8.0dp" n2:bp3="n2i" />
+</LinearLayout>

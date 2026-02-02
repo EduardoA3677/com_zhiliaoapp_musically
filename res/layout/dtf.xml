@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CzC n1:layout_gravity="center" n1:id="@id/nod" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CzC n1:layout_gravity="center" n1:id="@id/noe" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CzC n1:layout_gravity="center" n1:id="@id/nof" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CzC n1:layout_gravity="center" n1:id="@id/nog" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</merge>

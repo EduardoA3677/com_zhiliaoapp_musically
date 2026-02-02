@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0cqJ n1:orientation="vertical" n1:id="@id/l_k" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0ChP n1:id="@id/n58" n1:layout_width="@dimen/akx" n1:layout_height="@dimen/akx" n1:layout_marginTop="8.0dp" n1:layout_marginStart="@dimen/as9" n2:bne="@drawable/eib" n2:bnf="d4s" n2:bx9="owf" n2:bxc="owf" n2:etn="?fey" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.16lZ n1:id="@id/num" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginTop="4.0dp" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="@dimen/as9" n3:bwg="true" n3:bwq="owf" n3:bwz="0.0" n3:bx8="@id/n58" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.widget.SimpleLiveTextView n1:textColor="?fep" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/nuf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="18.0dp" n1:singleLine="true" n1:textIsSelectable="false" n1:textAlignment="viewStart" style="@style/a6q" />
+        <X.0cgi n1:id="@id/bdg" n1:layout_width="wrap_content" n1:layout_height="@dimen/aky" n3:b6l="@dimen/aky" n3:fnv="9" />
+        <X.0cgi n1:id="@id/bdi" n1:layout_width="wrap_content" n1:layout_height="@dimen/aky" n3:b6l="@dimen/aky" n3:fnv="9" />
+    </X.16lZ>
+    <X.0cqo n1:textColor="?fen" n1:id="@id/ean" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:minHeight="18.0dp" n1:textIsSelectable="false" n1:textAlignment="viewStart" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="@dimen/as9" n4:bwq="owf" n4:bx8="@id/n58" n4:bxb="@id/num" style="@style/a6m" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/v__" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n5:bx9="owf" n5:bxb="@id/ean" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/c35" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n6:bwk="owf" n6:bwq="@id/ean" n6:bx9="@id/ean" n6:bxb="@id/v__" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</X.0cqJ>

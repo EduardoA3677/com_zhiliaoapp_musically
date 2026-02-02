@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12xh n1:id="@id/vk5" n1:paddingTop="16.0dp" n1:paddingBottom="12.0dp" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp" n2:bxc="owf" n2:f3b="false" n2:f86="32.0dp" n2:f88="8.0dp" n2:f89="h64" n2:f8_="@color/a6l" n2:f8a="ujr" n2:f8b="@null" n2:f8e="?c3r" n2:f8f="?c3r" n2:f8g="?c3r" n2:f8i="bwg" n2:f8j="0.0dp" n2:f8m="30.0dp" n2:f8n="sqt" n2:f8q="0.0dp" n2:f8r="0.0dp" n2:f8t="@null" n2:f8u="?c3r" n2:f8y="@style/a0i" n2:f8z="?c3u" n2:fae="15.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cga n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" n3:bwl="@id/eed" n3:bxb="@id/wt0" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0o0p n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </X.0Cga>
+</LinearLayout>

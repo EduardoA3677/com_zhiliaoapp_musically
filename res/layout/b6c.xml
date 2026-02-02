@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center|bottom" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="@dimen/r9" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/mca" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center_vertical" n1:id="@id/jt6" n1:layout_width="20.0dp" n1:layout_height="20.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="@android:color/white" n1:layout_gravity="center_vertical" n1:id="@id/jt7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:id="@id/jt8" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fid="qhx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

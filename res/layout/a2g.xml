@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.14iG n1:layout_width="match_parent" n1:layout_height="72.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:id="@id/ckf" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n2:bwc="50%" n2:byc="16dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/ckh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwc="50%" n3:bym="100%-16dp" n3:fj2="ov" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ckj" n1:layout_height="wrap_content" n4:bwc="50%" n4:byc="ckf.right+8dp" n4:bym="ckh.left-8dp" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/cki" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:textDirection="locale" n4:fj2="pa" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ckg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qu" n1:text="@null" n1:textDirection="locale" n4:fj2="pv" />
+    </LinearLayout>
+</X.14iG>

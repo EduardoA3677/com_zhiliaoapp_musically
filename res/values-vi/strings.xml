@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Bật</string>
+    <string name="en0">%1$s sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play.</string>
+    <string name="en1">Bật dịch vụ của Google Play</string>
+    <string name="en2">Cài đặt</string>
+    <string name="en3">%1$s sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này.</string>
+    <string name="en4">Cài đặt dịch vụ của Google Play</string>
+    <string name="en5">Phạm vi cung cấp Dịch vụ Google Play</string>
+    <string name="en6">Lỗi dịch vụ của Google Play</string>
+    <string name="en7">%1$s đang gặp sự cố với Dịch vụ Google Play. Hãy thử lại.</string>
+    <string name="en8">%1$s sẽ không chạy nếu không có Dịch vụ Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này.</string>
+    <string name="en9">Cập nhật</string>
+    <string name="en_">%1$s sẽ không chạy trừ khi bạn cập nhật Dịch vụ Google Play.</string>
+    <string name="ena">Cập nhật dịch vụ của Google Play</string>
+    <string name="enb">%1$s sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật.</string>
+    <string name="enc">Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

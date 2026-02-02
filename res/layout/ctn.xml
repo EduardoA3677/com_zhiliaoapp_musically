@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/q7c" n1:background="?bx" n1:paddingBottom="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/q7m" n1:background="?lz" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CzV n1:id="@id/b64" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n4:bwg="true" n4:bwk="@id/b64" n4:bwr="@id/dix" n4:bx8="@id/b64" n4:bxc="@id/b64" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/dix" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:scaleType="fitCenter" n1:layout_marginEnd="16.0dp" n5:bwq="owf" n5:bxc="@id/b64" n5:fjq="@raw/icon_x_mark_small" n5:fmy="?zz" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/h8q" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n6:bwr="@id/rqw" n6:bx0="ujj" n6:bx9="owf" n6:bxb="@id/b64" n6:fib="n2i" n6:fid="t69" n6:fj2="pv" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:id="@id/rqw" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="16.0dp" n7:bwk="owf" n7:bwq="owf" n7:bx8="@id/h8q" n7:fib="n2i" n7:fid="qhx" n7:fj2="pv" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

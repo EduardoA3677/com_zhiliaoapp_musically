@@ -1,0 +1,23 @@
+.class public LX/0peG;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final LIZ:LX/0peY;
+
+.field public final LIZIZ:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(LX/0peY;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/0peG;->LIZ:LX/0peY;
+
+    iput-object p2, p0, LX/0peG;->LIZIZ:Ljava/lang/String;
+
+    return-void
+.end method

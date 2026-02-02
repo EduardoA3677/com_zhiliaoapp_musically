@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.1310 n1:id="@id/icb" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bfm="rq0,j56,fd6" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/rq0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n3:bwk="@id/zipcodeEditText" n3:bx9="owf" n3:bxc="@id/zipcodeEditText" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/j56" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n4:bwk="@id/rq0" n4:bx8="@id/rq0" n4:bxc="@id/rq0" n4:fjq="@raw/icon_chevron_down_thin" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/fd6" n1:background="?yf" n1:layout_width="1.0dp" n1:layout_height="10.0dp" n1:layout_marginStart="6.0dp" n5:bwk="@id/j56" n5:bx8="@id/j56" n5:bxc="@id/j56" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0xSr n1:textColor="?zw" n1:id="@id/zipcodeEditText" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="16.0dp" n6:bwr="@id/rbt" n6:bx8="@id/fd6" n6:bxc="owf" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/rbt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n7:bwk="@id/zipcodeEditText" n7:bwq="owf" n7:bxc="@id/zipcodeEditText" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <X.10dF n1:id="@id/rpz" n1:background="@drawable/b08" n1:clickable="false" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:checked="false" n1:button="@null" n1:contentDescription="radio" />
+    </FrameLayout>
+    <View n1:id="@id/ter" n1:background="?yf" n1:layout_width="0.0dp" n1:layout_height="1.0px" n8:bwq="@id/zipcodeEditText" n8:bx9="@id/rq0" n8:bxb="@id/zipcodeEditText" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

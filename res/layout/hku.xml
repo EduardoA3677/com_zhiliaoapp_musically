@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/lck" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/lfg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+            <X.12nN n1:textSize="10.0dp" n1:textColor="@color/a7q" n1:gravity="center" n1:id="@id/xab" n1:background="@drawable/f72" n1:paddingLeft="6.0dp" n1:paddingTop="2.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@null" n1:layout_marginStart="8.0dp" n1:paddingHorizontal="6.0dp" n1:paddingVertical="2.0dp" n2:bx9="owf" style="@style/a7i" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/rnq" n1:background="@drawable/eoa" n1:visibility="gone" n1:layout_width="4.0dp" n1:layout_height="4.0dp" n3:bwq="@id/xab" n3:bxc="@id/xab" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.12nN n1:textSize="10.0dp" n1:textColor="@color/a7q" n1:gravity="center" n1:id="@id/xac" n1:background="@drawable/f72" n1:paddingLeft="6.0dp" n1:paddingTop="2.0dp" n1:paddingRight="6.0dp" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@null" n1:layout_marginStart="8.0dp" n1:paddingHorizontal="6.0dp" n1:paddingVertical="2.0dp" n4:bx8="@id/xab" style="@style/a7i" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <FrameLayout n1:id="@id/lcc" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5.0dp">
+            <X.137G n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <X.12nN n1:textSize="10.0dp" n1:textColor="@color/bk" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start|top" n1:id="@id/ez2" n1:paddingLeft="8.0dp" n1:paddingTop="4.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="6.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:textAlignment="viewStart" n1:paddingHorizontal="8.0dp" n5:bwg="true" style="@style/a7i" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            </X.137G>
+            <X.12oA n1:id="@id/eah" n1:visibility="gone" n1:fadingEdgeLength="24.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5.0dp" n1:layout_marginBottom="5.0dp" n1:requiresFadingEdge="vertical">
+                <X.0cyN n1:id="@id/rna" n1:visibility="visible" n1:fadingEdgeLength="24.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:requiresFadingEdge="vertical" n6:bw_="com.bytedance.android.livesdk.chatroom.behavior.ScrollHeaderBehavior" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+                <FrameLayout n1:id="@id/hn5" n1:tag="suctionBottomView" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n7:b7o="o6n" n7:bw_="com.bytedance.android.livesdk.chatroom.behavior.SuctionBottomBehavior" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            </X.12oA>
+            <X.12nN n1:textSize="10.0dp" n1:textColor="@color/a8b" n1:gravity="center" n1:layout_gravity="start|bottom" n1:id="@id/n6i" n1:background="@drawable/dyo" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:includeFontPadding="false" n1:paddingStart="6.0dp" n1:paddingEnd="6.0dp" n1:layout_marginStart="8.0dp" style="@style/a79" />
+        </FrameLayout>
+        <X.0ctF n1:id="@id/m00" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5.0dp" />
+    </FrameLayout>
+</LinearLayout>

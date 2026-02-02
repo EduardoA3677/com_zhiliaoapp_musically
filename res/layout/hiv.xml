@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/ifq" n1:layout_width="80.0dp" n1:layout_height="20.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:layout_gravity="end|center" n1:background="@drawable/f9_" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|center" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="3.0dp" n1:layout_alignParentEnd="true" n2:br4="?dbg" n2:brl="?ei2" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="end|center" n1:id="@id/n2n" n1:background="@drawable/f9a" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" />
+    <X.0D0r n1:layout_gravity="end|center" n1:id="@id/n2m" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="1.0dp" n1:layout_alignParentEnd="true" n3:bne="@drawable/ewh" n3:bnf="d4s" n3:bx9="owf" n3:bxc="owf" n3:etn="?c3r" n3:ey2="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="end|center" n1:id="@id/n2p" n1:background="@drawable/f9a" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="15.0dp" n1:layout_alignParentEnd="true" />
+    <X.0D0r n1:layout_gravity="end|center" n1:id="@id/n2o" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" n4:bne="@drawable/ewh" n4:bnf="d4s" n4:bx9="owf" n4:bxc="owf" n4:etn="?c3r" n4:ey2="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:layout_gravity="end|center" n1:id="@id/n2r" n1:background="@drawable/f9a" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="30.0dp" n1:layout_alignParentEnd="true" />
+    <X.0D0r n1:layout_gravity="end|center" n1:id="@id/n2q" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="31.0dp" n1:layout_alignParentEnd="true" n5:bne="@drawable/ewh" n5:bnf="d4s" n5:bx9="owf" n5:bxc="owf" n5:etn="?c3r" n5:ey2="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

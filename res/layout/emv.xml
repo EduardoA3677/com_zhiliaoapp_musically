@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/zl3" n1:background="?yg" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginLeft="@dimen/qq" n1:layout_marginTop="@dimen/qz" n1:layout_marginRight="@dimen/qq" n1:layout_marginHorizontal="@dimen/qq" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/y2m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qg" n3:bwg="true" n3:bwq="@id/zl3" n3:bwz="0.0" n3:bx9="@id/zl3" n3:bxb="@id/zl3" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/w01" n1:layout_width="match_parent" n1:layout_height="@dimen/qy" n1:layout_marginLeft="@dimen/qh" n1:layout_marginTop="@dimen/qz" n1:layout_marginRight="@dimen/qh" n1:layout_marginHorizontal="@dimen/qh" n4:b1l="?zw" n4:b1n="@integer/u" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/y2m" n4:by3="@dimen/qa" n4:fie="fa_" n4:fjq="@raw/icon_wallet" n4:fkb="Label" n4:fn3="Balance" n4:fn4="1" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:id="@id/bai" n1:layout_width="50.0dp" n1:layout_height="52.0dp">
+            <androidx.appcompat.widget.AppCompatImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="14.0dp" n1:layout_marginStart="16.0dp" n2:f49="@drawable/eyo" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <X.12nN n1:gravity="center" n1:layout_gravity="center" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/ps" />
+    </FrameLayout>
+    <View n1:background="?feu" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+    <X.0TyC n1:id="@id/bpl" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="27.0dp" />
+</LinearLayout>

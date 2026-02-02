@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ffc" n1:id="@id/bpk" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" style="@style/pu" />
+    <RelativeLayout n1:id="@id/bpg" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_marginBottom="20.0dp">
+        <com.bytedance.android.live.design.widget.LiveEditText n1:textColor="?ehx" n1:gravity="start|center" n1:layout_gravity="center_vertical" n1:id="@id/bpd" n1:background="@null" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="17.0dp" n1:layout_marginBottom="14.0dp" n1:inputType="text" n1:imeOptions="actionSend|flagNoExtractUi" n1:textCursorDrawable="@drawable/ec6" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" style="@style/a6s" />
+        <X.0CQF n1:textSize="15.0sp" n1:textColor="?ehy" n1:gravity="start|center" n1:layout_gravity="center_vertical" n1:id="@id/bpe" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="17.0dp" n1:layout_marginBottom="14.0dp" n1:maxLines="1" n1:singleLine="true" n1:textAlignment="viewStart" n1:layout_marginStart="16.0dp" />
+        <View n1:background="?feu" n1:layout_width="match_parent" n1:layout_height="1.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_alignParentBottom="true" n1:layout_marginHorizontal="16.0dp" />
+    </RelativeLayout>
+    <X.12dA n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp">
+        <X.0TzR n1:id="@id/hmr" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </X.12dA>
+</LinearLayout>

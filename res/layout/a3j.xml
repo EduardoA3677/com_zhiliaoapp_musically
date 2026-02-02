@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?zq" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/cof" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0o06 n1:id="@id/cog" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginLeft="@dimen/qw" n1:layout_marginTop="14.0dp" n1:layout_marginRight="@dimen/qw" n1:layout_marginHorizontal="@dimen/qw" n2:bwl="@id/coe" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0ngA n1:id="@id/coe" n1:layout_width="match_parent" n1:layout_height="52.0dp" n3:bwk="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0oCE n1:id="@id/coh" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

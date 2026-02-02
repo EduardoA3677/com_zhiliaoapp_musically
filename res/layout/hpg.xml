@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/pli" n1:layout_width="59.0dp" n1:layout_height="59.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0egx n1:id="@id/voice_wave_with_dress" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n3:bwk="@id/pli" n3:bwq="@id/pli" n3:bx9="@id/pli" n3:bxc="@id/pli" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/bk5" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n4:bwk="@id/pli" n4:bwq="@id/pli" n4:bx9="@id/pli" n4:bxc="@id/pli" n4:erx="@drawable/e8p" n4:ey2="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/oxa" n1:background="@drawable/exv" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n5:bwk="@id/pli" n5:bwq="@id/pli" n5:bx9="@id/pli" n5:bxc="@id/pli" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ogt" n1:background="@drawable/e8q" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n6:br4="?drx" n6:brl="?c3t" n6:bwk="@id/pli" n6:bwq="@id/pli" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/g84" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n7:bwk="owf" n7:bwq="owf" n7:bx9="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <X.0D0r n1:id="@id/oh3" n1:visibility="gone" n1:layout_width="116.0dp" n1:layout_height="116.0dp" />
+    </FrameLayout>
+    <X.0rBl n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n8:bwk="@id/pli" n8:bwq="@id/pli" n8:bx9="@id/pli" n8:bxc="@id/pli" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/o38" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginTop="3.0dp" n1:layout_marginRight="6.0dp" n1:layout_marginHorizontal="6.0dp" n9:bwq="owf" n9:bx9="owf" n9:bxb="@id/pli" xmlns:n9="http://schemas.android.com/apk/res-auto">
+        <X.0d3Z n1:id="@id/nz9" n1:visibility="gone" n1:layout_width="7.5dp" n1:layout_height="7.5dp" n9:bwk="owf" n9:bwr="@id/o3c" n9:bx9="owf" n9:bxc="owf" />
+        <X.12hi n1:textSize="11.0sp" n1:textColor="?e0" n1:gravity="center" n1:id="@id/o3c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_marginStart="3.0dp" n9:bwk="owf" n9:bwq="owf" n9:bx8="@id/nz9" n9:bxc="owf" n9:by2="0.0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/wbh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginTop="3.0dp" n1:layout_marginRight="6.0dp" n1:layout_marginHorizontal="6.0dp" n10:bwq="owf" n10:bx9="owf" n10:bxb="@id/o38" xmlns:n10="http://schemas.android.com/apk/res-auto">
+        <X.0D0r n1:id="@id/wbk" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:scaleType="fitXY" n10:bwk="owf" n10:bx9="owf" n10:bxc="owf" />
+        <X.12hi n1:textSize="11.0sp" n1:textColor="?e0" n1:gravity="center" n1:id="@id/wbi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" n10:bwk="owf" n10:bwq="owf" n10:bx8="@id/wbk" n10:bxc="owf" style="@style/a7f" />
+        <X.12hi n1:textSize="11.0sp" n1:textColor="?e0" n1:gravity="center" n1:id="@id/wbj" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:layout_marginStart="2.0dp" n10:bwk="owf" n10:bwq="owf" n10:bx8="@id/wbk" n10:bxc="owf" style="@style/a7f" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

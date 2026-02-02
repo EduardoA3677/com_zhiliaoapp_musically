@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/m3h" n1:background="@drawable/dpf" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/o6v" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0D0r n1:id="@id/ext" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:b41="hmx" n2:fox="3.0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/ec5" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0cL7 n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+                <LinearLayout n1:orientation="vertical" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <FrameLayout n1:id="@id/irf" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <HorizontalScrollView n1:id="@id/iy7" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                        <LinearLayout n1:orientation="horizontal" n1:id="@id/iy6" n1:paddingLeft="16.0dp" n1:paddingTop="20.0dp" n1:paddingRight="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" />
+                    </HorizontalScrollView>
+                    <LinearLayout n1:orientation="vertical" n1:id="@id/cpp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <View n1:id="@id/uf4" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                </LinearLayout>
+            </X.0cL7>
+            <X.06TP n1:id="@id/tm4" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginTop="-16.0dp" />
+            <FrameLayout n1:id="@id/oig" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="24.0dp" />
+        </LinearLayout>
+        <LinearLayout n1:layout_gravity="top" n1:orientation="vertical" n1:id="@id/oqf" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/ht_" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/mjv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0rBl n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/gm5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_horizontal" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_marginTop="65.0dp" n3:br4="?dml" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ehx" n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="29.0dp" n1:text="@null" style="@style/a6r" />
+        <X.12nN n1:textColor="?ffe" n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="32.0dp" n1:text="@null" n1:layout_marginHorizontal="32.0dp" style="@style/a74" />
+        <X.12pz n1:id="@id/s28" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginLeft="62.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginRight="62.0dp" n1:layout_marginBottom="77.0dp" n1:text="@null" n1:layout_marginHorizontal="62.0dp" style="@style/a5x" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/ht9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a8s">0.24</dimen>
+    <dimen name="a8t">0.4</dimen>
+    <dimen name="a8u">0.4</dimen>
+    <dimen name="a8v">0.24</dimen>
+    <dimen name="a8x">0.12</dimen>
+    <dimen name="a8y">0.2</dimen>
+    <dimen name="a8z">0.2</dimen>
+    <dimen name="a90">0.12</dimen>
+</resources>

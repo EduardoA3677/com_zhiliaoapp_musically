@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.friendstab.ui.feed.collection.view.FriendsTabV2GestureMonitorView n1:id="@id/dg1" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dg0" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <include n1:id="@id/pff" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="0.0dp" n2:bwk="owf" n2:bxc="owf" layout="@layout/ca5" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/k2y" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hhb" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="@id/pff" n4:bxc="@id/pff" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/kw_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/cim" n1:alpha="0.0" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ss.android.ugc.aweme.friendstab.ui.feed.collection.view.FriendsTabV2GestureMonitorView>

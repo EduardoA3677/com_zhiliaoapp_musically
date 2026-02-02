@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:id="@id/sez" n1:layout_width="120.0dp" n1:layout_height="160.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginEnd="8.0dp" n2:bp9="h_y" n2:fps="0.75" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0CW9 n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="hmx" n2:bls="?zp" n2:bzc="180.0dp" n2:eyl="2.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center_vertical" n1:id="@id/m1_" n1:background="@drawable/d77" n1:paddingLeft="5.0dp" n1:paddingRight="5.0dp" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginTop="4.0dp" n1:text="@null" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" n1:paddingHorizontal="5.0dp" n2:fj2="q2" />
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

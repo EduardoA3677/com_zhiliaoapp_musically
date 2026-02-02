@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <LinearLayout n1:layout_gravity="top" n1:orientation="vertical" n1:id="@id/wro" n1:layout_width="match_parent" n1:layout_height="0.0px"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <View n1:id="@id/wrn" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="0.0px" />
+        <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <ImageView n1:layout_gravity="left|top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/cib" />
+            <ImageView n1:layout_gravity="right|top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/cic" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout n2:layout_gravity="bottom" n2:orientation="vertical" n2:id="@id/byy" n2:layout_width="match_parent" n2:layout_height="0.0px"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <FrameLayout n2:layout_width="match_parent" n2:layout_height="wrap_content">
+            <ImageView n2:layout_gravity="left|bottom" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:src="@drawable/cid" />
+            <ImageView n2:layout_gravity="right|bottom" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:src="@drawable/cie" />
+        </FrameLayout>
+        <View n2:id="@id/byx" n2:background="?dm" n2:layout_width="match_parent" n2:layout_height="0.0px" />
+    </LinearLayout>
+</merge>

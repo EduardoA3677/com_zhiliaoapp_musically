@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:theme="@style/wa" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/q7_" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <View n1:id="@id/q6p" n1:background="?lw" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bwk="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <ProgressBar n1:id="@id/q6q" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="4.0dp" n1:maxWidth="2000.0dp" n1:indeterminate="true" n1:indeterminateTint="?yn" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" style="?android:progressBarStyleHorizontal" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/q6s" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" n4:bwk="owf" n4:bx9="owf" n4:bxc="owf" n4:fjq="@raw/icon_x_mark" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/q78" n1:paddingTop="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:maxEms="9" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" n5:fj2="p0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/q77" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:paddingStart="84.0dp" n1:paddingEnd="84.0dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxb="@id/q78" n6:fj2="qf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

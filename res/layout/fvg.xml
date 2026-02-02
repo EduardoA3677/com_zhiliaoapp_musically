@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/iw" n1:id="@id/sf8" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0tHR n1:layout_gravity="top" n1:id="@id/g_i" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:scaleType="fitCenter" n2:b41="h_f" n2:bnc="0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

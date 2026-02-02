@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/wpl" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n2:bwk="@id/c4q" n2:bx9="owf" n2:bxc="@id/c4q" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CwB n1:textColor="?zw" n1:id="@id/c4q" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="TOP BRAND" n1:layout_marginStart="4.0dp" n3:bwl="@id/c4p" n3:bx8="@id/wpl" n3:bxc="owf" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/wpk" n1:visibility="gone" n1:layout_width="4.0dp" n1:layout_height="7.0dp" n1:layout_marginBottom="1.0dp" n1:layout_marginStart="4.0dp" n4:bwk="@id/c4q" n4:bx8="@id/c4q" n4:bxc="@id/c4q" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0CwB n1:textColor="?zw" n1:id="@id/c4p" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="DERMATOLOGICAL DERMM" n1:maxLines="1" n1:letterSpacing="0.3" n5:bwk="@id/bzm" n5:bx9="@id/c4q" n5:bxb="@id/c4q" n5:fj2="qf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

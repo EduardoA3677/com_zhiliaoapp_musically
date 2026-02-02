@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="0.5625" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/wq" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/bjh" n1:background="?br" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:scaleType="centerCrop" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:erx="?sz" />
+        <View n1:id="@id/bk6" n1:background="?xr" n1:focusable="false" n1:clickable="false" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        <com.ss.android.ugc.aweme.avatar.AvatarComponentView n1:id="@id/kfb" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:fhr="u21" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?z3" n1:id="@id/ypx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/kfb" n2:fj2="q2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

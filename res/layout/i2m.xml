@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="226.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0n2H n1:textColor="?e0" n1:textColorHint="?e2" n1:gravity="start|center" n1:id="@id/gou" n1:background="@null" n1:layout_width="226.0dp" n1:layout_height="wrap_content" n1:maxWidth="206.0dp" n1:hint="@null" n1:maxLines="3" n1:shadowColor="@color/d2" n1:shadowRadius="10.0" n1:lineSpacingExtra="3.0dp" n1:textCursorDrawable="@drawable/d_w" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <Space n1:id="@id/lhp" n1:layout_width="16.0dp" n1:layout_height="12.0dp" />
+    <X.0n2H n1:textColor="@color/df" n1:textColorHint="@color/dn" n1:gravity="start|center" n1:id="@id/gos" n1:layout_width="197.0dp" n1:layout_height="52.0dp" n1:maxWidth="153.0dp" n1:hint="@null" n1:maxLines="1" n1:textCursorDrawable="@drawable/d_w" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0n2H n1:textColor="@color/df" n1:textColorHint="@color/dn" n1:gravity="start|center" n1:id="@id/got" n1:layout_width="197.0dp" n1:layout_height="52.0dp" n1:maxWidth="153.0dp" n1:hint="@null" n1:maxLines="1" n1:textCursorDrawable="@drawable/d_w" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

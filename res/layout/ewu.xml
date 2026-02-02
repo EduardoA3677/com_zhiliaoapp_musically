@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/srz" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/srx" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.1295 n1:id="@id/srw" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0CHj n1:id="@id/sry" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:paddingTop="@dimen/qi" n1:paddingBottom="@dimen/r5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="@dimen/qi" n1:paddingEnd="@dimen/qi">
+        <X.0WJz n1:gravity="center" n1:id="@id/ss0" n1:layout_width="wrap_content" n1:layout_height="@dimen/qk" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:ellipsize="end" n1:id="@id/ss1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/ac_" n1:maxLines="1" n1:singleLine="true" n3:fj2="ow" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gzb" n1:background="@drawable/ecr" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:minWidth="32.0dp" n1:paddingStart="7.0dp" n1:paddingEnd="7.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12Vz n1:id="@id/gzo" n1:layout_width="18.0dp" n1:layout_height="20.0dp" n1:src="@drawable/ed6" n2:bwk="owf" n2:bx3="owf" n2:bx6="@id/gzw" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?c3r" n1:id="@id/gzw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dp" n1:text="@null" n1:singleLine="true" n1:includeFontPadding="false" n3:bwk="owf" n3:bx4="@id/gzo" n3:bxc="owf" n3:by0="0.0dp" style="@style/a76" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

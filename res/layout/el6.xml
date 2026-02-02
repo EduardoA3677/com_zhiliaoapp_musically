@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:padding="2.0dp" n1:layout_width="60.0dp" n1:layout_height="60.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CzY n1:layout_gravity="center" n1:id="@id/qqw" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="4.0dp" />
+    <View n1:layout_gravity="center" n1:id="@id/qqx" n1:background="@drawable/d3n" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

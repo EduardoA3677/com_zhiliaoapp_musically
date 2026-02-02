@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingTop="5.0dp" n1:paddingBottom="5.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="5.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:layout_gravity="center_vertical" n1:id="@id/spr" n1:layout_width="82.0dp" n1:layout_height="96.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginHorizontal="20.0dp" />
+    <View n1:layout_gravity="center_vertical" n1:id="@id/teq" n1:background="?yg" n1:layout_width="1.0dp" n1:layout_height="68.0dp" n1:layout_marginLeft="4.0dp" n1:layout_marginRight="4.0dp" n1:layout_marginHorizontal="4.0dp" />
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="2.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginHorizontal="2.0dp" n1:layout_marginVertical="8.0dp">
+        <androidx.recyclerview.widget.RecyclerView n1:orientation="horizontal" n1:id="@id/sig" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <X.0hCV n1:id="@id/tp4" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

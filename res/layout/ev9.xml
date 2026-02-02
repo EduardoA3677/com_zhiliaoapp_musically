@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0nkF n1:id="@id/sfr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/f9x" n1:background="?xr" n1:visibility="gone" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/f5h" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bw_="com.ss.android.ugc.tools.view.widget.ViewPagerBottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <android.widget.Space n1:id="@id/uea" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/ake" n1:background="@drawable/atd" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:id="@id/wit" n1:layout_width="match_parent" n1:layout_height="48.0dp">
+                <ViewStub n1:id="@id/wis" n1:layout="@layout/fs_" n1:layout_width="match_parent" n1:layout_height="14.0dp" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/bam" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="centerInside" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n2:fjq="@raw/icon_x_mark" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?zw" />
+                <ImageView n1:id="@id/nk_" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:src="@drawable/bvi" n1:scaleType="centerInside" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+                <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/d66" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" n1:layout_marginEnd="40.0dp" n1:layout_toEndOf="@id/bam">
+                    <ViewStub n1:id="@id/hlo" n1:layout="@layout/c72" n1:layout_width="match_parent" n1:layout_height="56.0dp" />
+                    <LinearLayout n1:orientation="horizontal" n1:id="@id/d67" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="48.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginEnd="4.0dp" n2:fj2="p3" />
+                        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/l1b" n1:layout_width="16.0dp" n1:layout_height="match_parent" n2:fjq="@raw/icon_chevron_down_fill" n2:fjt="16.0dp" n2:fk6="16.0dp" n2:fmy="?zw" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ViewStub n1:id="@id/view_stub_sure_text_view" n1:layout="@layout/te" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginTop="10.0dp" n1:drawablePadding="3.0dp" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+                <ViewStub n1:gravity="center" n1:id="@id/view_stub_multi_select" n1:layout="@layout/i1j" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginEnd="8.0dp" n1:layout_alignParentEnd="true" />
+                <ViewStub n1:id="@id/view_stub_text_to_image" n1:layout="@layout/d7g" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginEnd="8.0dp" n1:layout_toEndOf="@id/d67" n1:layout_alignParentEnd="true" />
+                <ViewStub n1:id="@id/view_stub_ep_aigc_entrance" n1:layout="@layout/d7f" n1:layout_width="wrap_content" n1:layout_height="36.0dp" n1:layout_centerVertical="true" n1:layout_marginEnd="8.0dp" n1:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/akf" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginTop="2.0dp" n1:text="@null" n2:fj2="p7" />
+        </LinearLayout>
+        <RelativeLayout n1:id="@id/hs4" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <FrameLayout n1:id="@id/ebi" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/ndl">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/ak8" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <X.0o6h n1:id="@id/n2e" n1:layout_width="match_parent" n1:layout_height="45.0dp" n2:fmi="text" />
+                    <RelativeLayout n1:id="@id/wlf" n1:background="?bx" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp">
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/wli" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_toStartOf="@id/wlg" n2:fj2="p5" />
+                        <com.bytedance.tux.icon.TuxIconView n1:id="@id/wlg" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="8.0dp" n1:layout_alignParentEnd="true" n2:fjq="@raw/icon_x_mark" n2:fmy="?zz" />
+                    </RelativeLayout>
+                    <ViewStub n1:id="@id/view_stub_photo_educate_notice" n1:layout="@layout/i1k" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <ViewStub n1:id="@id/view_stub_photo_eu_privacy_notice" n1:layout="@layout/i1l" n1:inflatedId="@id/gp2" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <ViewStub n1:id="@id/view_stub_sticky_top_notice" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                    <ViewStub n1:id="@id/view_stub_sticky_top_notice_v2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/ndl" />
+                    <X.10l0 n1:id="@id/viewpager_choose_media" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                </LinearLayout>
+                <RelativeLayout n1:layout_gravity="bottom" n1:id="@id/nki" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="48.0dp">
+                    <RelativeLayout n1:gravity="center" n1:background="@drawable/d9c" n1:layout_width="wrap_content" n1:layout_height="38.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="12.0dp">
+                        <X.0Ci6 n1:id="@id/nkc" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n2:fii="u9x" n2:fij="?e0" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/nkm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="12.0dp" n1:layout_toEndOf="@id/nkc" n2:fj2="pv" n2:fl1="10.0dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </FrameLayout>
+            <RelativeLayout n1:id="@id/igm" n1:background="?bx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+                <X.0Ci6 n1:gravity="center" n1:id="@id/ign" n1:focusable="true" n1:clickable="false" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="6.0dp" n1:buttonTint="@color/g2" n2:fii="u9x" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center_vertical" n1:id="@id/igo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n1:maxLines="2" n1:translationY="-2.0sp" n1:layout_marginStart="6.0dp" n1:layout_toEndOf="@id/ign" n2:fj2="pz" n2:fl1="13.0sp" />
+            </RelativeLayout>
+            <ViewStub n1:id="@id/view_stub_notice_view" n1:layout="@layout/tc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/ndl" />
+            <FrameLayout n1:id="@id/ndl" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+                <X.0GDD n1:id="@id/ndk" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <X.0GDE n1:id="@id/gth" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <X.0D2z n1:layout_gravity="bottom" n1:id="@id/tdm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_margin="16.0dp" n1:text="Send" n1:layout_weight="1.0" n3:fmy="?yi" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/d_7" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.0nkF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?bx" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/aav" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0oBn n1:id="@id/mku" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bxb="@id/aav" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:paddingBottom="100.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/aaq" n1:paddingTop="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwl="@id/tzd" n4:fj2="px" />
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/tzd" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="15.0dp" n4:bxb="@id/aaq" />
+            <RelativeLayout n1:id="@id/tyv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwl="@id/uip" n4:bxb="@id/tzd">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/tyw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_centerInParent="true" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n4:fj2="pz" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/tyu" n1:layout_width="18.0dp" n1:layout_height="14.0dp" n1:layout_centerVertical="true" n1:paddingStart="6.0dp" n1:layout_toEndOf="@id/tyw" n4:fjq="@raw/icon_chevron_down_fill" n4:fmy="?zw" />
+            </RelativeLayout>
+            <View n1:id="@id/uik" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_alignParentBottom="true" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bxb="@id/tyv" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/uip" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bwl="@id/itg" n4:bxb="@id/uik" n4:fj2="pv" />
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/itg" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bxb="@id/uip" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

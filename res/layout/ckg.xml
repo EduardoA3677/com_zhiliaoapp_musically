@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D1z n1:id="@id/mtv" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginVertical="8.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cfq n1:id="@id/mtz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" n3:bwg="true" n3:bwl="@id/mu5" n3:bwr="@id/mtw" n3:bwz="0.0" n3:bx8="@id/mtv" n3:bxc="owf" n3:bxe="ori" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/mu0" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n3:fj2="pv" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/mu3" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fj2="pz" />
+    </X.0Cfq>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/mu5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="1.0dp" n1:layout_marginRight="12.0dp" n1:maxLines="1" n1:layout_marginHorizontal="12.0dp" n4:bwg="true" n4:bwk="owf" n4:bwr="@id/mtw" n4:bwz="0.0" n4:bx8="@id/mtv" n4:bxb="@id/mtz" n4:fj2="pu" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/mtw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginEnd="12.0dp" n1:layout_marginVertical="16.0dp" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.0D2z n1:id="@id/mu4" n1:visibility="gone" n1:layout_width="88.0dp" n1:layout_height="wrap_content" n1:text="@string/pug" n5:fi9="true" n5:fib="u9x" n5:fid="t69" />
+        <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:id="@id/mu2" n1:visibility="gone" n1:layout_width="88.0dp" n1:layout_height="wrap_content" n5:fi9="true" n5:fib="u9x" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

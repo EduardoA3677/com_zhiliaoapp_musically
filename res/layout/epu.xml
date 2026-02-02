@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:layout_gravity="center_vertical" n1:id="@id/rqw" n1:layout_width="88.0dp" n1:layout_height="28.0dp" n2:fib="u9x" n2:fid="qhx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/f0o" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="12.0dp" n3:fjq="@raw/icon_x_mark_small" n3:fjt="24.0dp" n3:fk6="24.0dp" n3:fmy="?a04" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</merge>

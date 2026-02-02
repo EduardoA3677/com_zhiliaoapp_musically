@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="rj" parent="@style/qx">
+        <item name="android:backgroundDimAmount">?ff6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/aq</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="c1h">@style/a0r</item>
+    </style>
+    <style name="ro" parent="@style/qx">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/aq</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="fqf">false</item>
+        <item name="fqp">true</item>
+    </style>
+    <style name="rp" parent="@style/qx">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/aq</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="fqf">false</item>
+        <item name="fqp">true</item>
+    </style>
+    <style name="tn" parent="@style/th">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/at</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="a0h" parent="@style/gv">
+        <item name="f89">d4r</item>
+        <item name="f8n">h_n</item>
+    </style>
+    <style name="a0r" parent="@style/a0b">
+        <item name="android:backgroundDimAmount">?ff6</item>
+        <item name="android:background">?feb</item>
+        <item name="android:elevation">0.0dp</item>
+        <item name="b8z">@dimen/a2x</item>
+        <item name="c16">false</item>
+        <item name="c1_">@dimen/a37</item>
+        <item name="c1e">0.0dp</item>
+        <item name="fcl">@dimen/a2x</item>
+    </style>
+    <style name="a3a" parent="@style/a04">
+        <item name="android:textAppearance">?f_f</item>
+        <item name="android:textColor">?bdb</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/by</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="@dimen/an8" n1:layout_height="@dimen/an7" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/ta7" n1:background="@drawable/eeu" n1:visibility="gone" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n1:layout_marginTop="6.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/o0t" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginTop="14.0dp" n3:bx3="owf" n3:bx7="owf" n3:bxc="owf" n3:bxe="ori" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="10.0dp" n1:textColor="?c3t" n1:ellipsize="end" n1:gravity="center" n1:id="@id/o0u" n1:layout_width="wrap_content" n1:layout_height="12.0dp" n1:layout_marginTop="6.0dp" n1:maxLines="1" n1:includeFontPadding="false" n1:textAlignment="center" n4:bx3="owf" n4:bx7="owf" n4:bxb="@id/o0t" n4:ewn="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="12.0dp" n1:layout_marginTop="2.0dp" n5:bxb="@id/o0u" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <ImageView n1:layout_gravity="bottom" n1:id="@id/dl3" n1:visibility="gone" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:src="@drawable/eqv" n1:layout_marginEnd="2.0dp" />
+        <X.12nN n1:textSize="10.0dp" n1:textColor="?c3v" n1:gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/o0r" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxLines="1" n5:bxb="@id/o0u" n5:ewn="true" />
+    </LinearLayout>
+    <X.12nN n1:textColor="?c0q" n1:ellipsize="end" n1:gravity="center" n1:id="@id/rnt" n1:background="@drawable/dso" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="14.0dp" n1:layout_marginTop="2.0dp" n1:maxWidth="86.0dp" n1:text="@null" n1:maxLines="1" n1:autoSizeTextType="uniform" n1:autoSizeMinTextSize="9.0dp" n1:paddingHorizontal="4.0dp" n1:autoSizeMaxTextSize="10.0dp" n6:bx3="owf" n6:bx7="owf" n6:bxb="@id/o0u" style="@style/qj" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/t8q" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="2.0dp" n7:bwq="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/voice_effect_root" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0FH6 n1:layout_gravity="center" n1:id="@id/zly" n1:background="?bn" n1:layout_width="match_parent" n1:layout_height="77.0dp" />
+</FrameLayout>

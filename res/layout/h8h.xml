@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/c_g" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginEnd="16.0dp" n2:br4="@raw/icon_x_mark_small" n2:brl="?ehx" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.137w n1:id="@id/kpg" n1:layout_width="209.0dp" n1:layout_height="190.0dp" n1:layout_marginTop="36.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:ffh="8.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/man" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="40.0dp" n1:layout_weight="1.0">
+            <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/yti" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n4:fj2="ot" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:ellipsize="end" n1:gravity="center" n1:id="@id/yqj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n5:fj2="p_" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <X.0D2z n1:id="@id/cr_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="33.0dp" n1:text="@null" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n6:fib="l9r" n6:fid="qhx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

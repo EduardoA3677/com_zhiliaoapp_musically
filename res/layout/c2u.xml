@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:id="@id/edt" n1:layout_width="match_parent" n1:layout_height="266.0dp" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true" n2:b7t="?bm" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0mEd n1:gravity="center" n1:layout_gravity="bottom" n1:orientation="horizontal" n1:id="@id/mjg" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0mZS n1:gravity="center" n1:layout_gravity="center" n1:id="@id/mlj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </X.0mEd>
+    <X.0mEd n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/t81" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b7t="?bm" n2:bpf="true" n2:ey9="@dimen/fa" n2:fcd="true">
+        <FrameLayout n1:orientation="horizontal" n1:id="@id/t7t" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginTop="18.0dp">
+            <X.0n5a n1:gravity="center" n1:id="@id/zrq" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bh_="n8a" n2:bht="40.0dp" n2:bhu="4.0dp" n2:bpc="28.0dp" n2:bpe="28.0dp" n2:bz1="16.0dp" n2:ep7="?yi" n2:ep8="0.34" n2:eu0="opf" n2:f1v="true" n2:f39="12.0dp" n2:f6d="@color/dx" />
+            <X.0mDk n1:gravity="center" n1:id="@id/g_d" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bz1="24.0dp" n2:eqn="@color/uc" n2:f39="12.0dp" />
+        </FrameLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/g9p" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0GYs n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="160.0dp" />
+            <X.0mEb n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:alpha="0.5" n2:f7k="true" />
+            <X.0mEq n1:id="@id/vk5" n1:layout_width="match_parent" n1:layout_height="50.0dp" n2:f84="@color/dx" n2:f89="h64" n2:f8e="?e0" n2:f8j="0.0dp" n2:f8m="30.0dp" n2:f8n="sqt" n2:f8q="0.0dp" n2:f8r="0.0dp" n2:f8u="?zw" n2:f8z="?zz" />
+        </LinearLayout>
+    </X.0mEd>
+</FrameLayout>

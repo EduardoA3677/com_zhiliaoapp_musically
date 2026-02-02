@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.11RT n1:id="@id/h99" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_above="@id/t54" n2:fi7="0.0" n2:fiy="0.45" n2:flv="?dm" n2:fm_="zn0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.11RT n1:id="@id/t54" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n3:fi7="0.45" n3:fiy="0.95" n3:flv="?dm" n3:fm_="zn0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/ofa" n1:background="@drawable/aoj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</RelativeLayout>

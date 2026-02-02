@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.ugc.aweme.commercialize.splash.topview.mask.AwesomeSplashNewMask n1:id="@id/b_v" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/l2t" n1:background="@drawable/d4s" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="80.0dp" n1:rotation="180.0" />
+    <Space n1:id="@id/b_w" n1:layout_width="match_parent" n1:layout_height="0.0px" />
+    <ImageView n1:id="@id/b_u" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="14.0dp" n1:layout_marginTop="14.0dp" n1:src="@drawable/dc7" n1:scaleType="centerInside" n1:layout_below="@id/b_w" n1:layout_alignParentLeft="true" n1:layoutDirection="ltr" />
+    <include n1:id="@id/u45" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/b_w" n1:layout_alignParentRight="true" layout="@layout/i1_" />
+    <com.bytedance.tux.input.TuxTextView n1:gravity="center" n1:id="@id/yp5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:shadowColor="?nd" n1:shadowDy="1.0" n1:layout_below="@id/b_w" n1:layout_marginEnd="13.0dp" n1:layout_alignParentEnd="true" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/sc7" n1:background="@drawable/d4s" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="114.0dp" n1:layout_alignParentBottom="true">
+        <ImageView n1:id="@id/kxb" n1:padding="8.0dp" n1:layout_width="30.0dp" n1:layout_height="24.0dp" n1:layout_marginBottom="-12.0dp" n1:src="@drawable/fcm" n1:scaleType="fitXY" n1:layout_above="@id/ygp" n1:layout_centerHorizontal="true" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="top" n1:id="@id/ygp" n1:padding="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="46.0dp" n1:shadowColor="?nd" n1:shadowDy="1.0" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</com.bytedance.ies.ugc.aweme.commercialize.splash.topview.mask.AwesomeSplashNewMask>

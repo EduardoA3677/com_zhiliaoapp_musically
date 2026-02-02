@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:gravity="start" n1:id="@id/jv1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:textAlignment="viewStart" n1:layout_marginVertical="8.0dp" />
+    <androidx.appcompat.widget.LinearLayoutCompat n1:gravity="center" n1:layout_gravity="center" n1:id="@id/nfn" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:id="@id/ngu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/nfu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n2:fjt="12.0dp" n2:fk6="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <X.0oBn n1:layout_gravity="center" n1:id="@id/mjj" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginVertical="8.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

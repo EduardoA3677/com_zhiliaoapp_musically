@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ep">#ffd63cff</color>
+    <color name="fa">#ff161616</color>
+    <color name="fb">#ff161616</color>
+    <color name="fc">#ff252525</color>
+    <color name="fd">#ff252525</color>
+    <color name="fe">#ff383838</color>
+    <color name="ff">#ff383838</color>
+    <color name="fg">#ff454545</color>
+    <color name="rt">#ffffffff</color>
+    <color name="ru">#ff666666</color>
+    <color name="rv">#ff777777</color>
+    <color name="rw">#ffcccccc</color>
+    <color name="rx">#14ffffff</color>
+    <color name="ry">#1fffffff</color>
+    <color name="rz">#2effffff</color>
+    <color name="sx">#ff0a84ff</color>
+    <color name="t9">#6666a4ff</color>
+</resources>

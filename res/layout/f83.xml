@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:ba3="?c5" n2:ba4="4.0dp" n2:ba5="2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:background="?c5" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0l1c n1:orientation="vertical" n1:id="@id/t37" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bws="40.0dp" />
+        <X.0l1c n1:orientation="vertical" n1:id="@id/t38" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwt="40.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/t36" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginEnd="12.0dp" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark_small" n2:fmy="?zw" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/t3_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:bwr="@id/t38" n2:bx8="@id/t37" n2:bxc="owf" n2:fj2="p3" />
+        <FrameLayout n1:gravity="top" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="84.0dp" n1:layout_marginStart="40.0dp" n1:layout_marginEnd="40.0dp" n2:bwk="owf" n2:bxb="@id/t3_">
+            <LinearLayout n1:id="@id/t39" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_weight="1.0" n2:fjq="@raw/icon_star_fill" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_weight="1.0" n2:fjq="@raw/icon_star_fill" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_weight="1.0" n2:fjq="@raw/icon_star_fill" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_weight="1.0" n2:fjq="@raw/icon_star_fill" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_weight="1.0" n2:fjq="@raw/icon_star_fill" />
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textSize="15.0dp" n1:textColor="?zz" n1:gravity="center" n1:id="@id/t1z" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="50.0dp" n1:alpha="0.0" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" />
+            <FrameLayout n1:layout_gravity="center" n1:id="@id/t35" n1:background="@drawable/d8r" n1:padding="10.0dp" n1:visibility="gone" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:alpha="0.0">
+                <X.13dw n1:layout_gravity="center" n1:id="@id/t34" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </FrameLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

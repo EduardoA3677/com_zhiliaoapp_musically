@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gci" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="@dimen/qu" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:id="@id/gcu" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="@dimen/qu" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:ffh="8.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.137w n1:id="@id/gcv" n1:background="?ej9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="@dimen/qu" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" n3:ffh="8.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gcs" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwq="owf" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/gcp" n1:layout_width="@dimen/qk" n1:layout_height="@dimen/qk" n1:layout_marginTop="5.0dp" n1:layout_marginEnd="5.0dp" n4:br4="?e_x" n4:brl="?eio" n4:bwq="owf" n4:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gct" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwk="owf" n5:bwq="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.0d3Z n1:id="@id/v5a" n1:background="@drawable/e71" n1:layout_width="@dimen/qo" n1:layout_height="@dimen/qo" n1:layout_marginBottom="@dimen/qu" n1:layout_marginEnd="@dimen/qu" n5:bwk="owf" n5:bwq="owf" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/v5_" n1:layout_width="@dimen/qg" n1:layout_height="@dimen/qg" n1:layout_marginBottom="5.0dp" n1:layout_marginEnd="5.0dp" n5:br4="?dud" n5:brl="?c3r" n5:bwk="owf" n5:bwq="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gcn" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_marginStart="6.0dp" n6:bx9="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/egy" n1:layout_width="@dimen/qg" n1:layout_height="@dimen/qg" n6:br4="?cv_" n6:brl="?eju" n6:bwk="owf" n6:bx9="owf" n6:bxc="owf" />
+        <X.12nN n1:textColor="?eju" n1:id="@id/eh3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="2.0dp" n6:bwk="owf" n6:bx8="@id/egy" n6:bxc="owf" style="@style/a76" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gd_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n7:bx9="owf" n7:bxc="owf" xmlns:n7="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/gd9" n1:layout_width="@dimen/qi" n1:layout_height="@dimen/qi" n1:layout_marginTop="4.0dp" n1:layout_marginStart="4.0dp" n7:bx9="owf" n7:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/va7" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n8:bwk="owf" n8:bx9="owf" xmlns:n8="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/white_circle" n1:background="@drawable/dq8" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n8:bx9="owf" n8:bxc="owf" />
+        <X.0D0r n1:id="@id/va6" n1:layout_width="@dimen/qo" n1:layout_height="@dimen/qo" n1:layout_marginTop="2.0dp" n1:layout_marginStart="2.0dp" n8:bne="@drawable/eib" n8:bnf="d4s" n8:bx9="owf" n8:bxc="owf" n8:etn="?fey" n8:ey2="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

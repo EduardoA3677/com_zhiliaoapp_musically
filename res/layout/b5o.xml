@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sfr" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/u3u" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.15">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="52.0dp" n2:bwl="@id/f3o" n2:bwr="@id/noc" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <View n1:id="@id/f3m" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n2:bwk="owf" n2:bwr="@id/uea" n2:bx0="ujj" n2:bx9="owf" n2:bxc="owf" />
+            <View n1:id="@id/uea" n1:layout_width="0.0dp" n1:layout_height="18.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/f3m" n2:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View n1:id="@id/f3o" n1:layout_width="0.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="52.0dp" n3:bwl="@id/f3n" n3:bwr="@id/noc" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/f3n" n1:layout_width="0.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="52.0dp" n4:bwk="owf" n4:bwr="@id/noc" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/ze0" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginBottom="32.0dp" n1:layout_marginEnd="6.0dp" n5:bwl="@id/lpl" n5:bwq="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/lpl" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginBottom="32.0dp" n1:contentDescription="icon_color_like_shadow_alt_1" n1:layout_marginEnd="12.0dp" n6:bwl="@id/dtj" n6:bwq="owf" n6:fjq="@raw/icon_color_like_shadow_alt_1" n6:fmy="?e0" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/dtj" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginBottom="32.0dp" n1:contentDescription="icon_color_comment_shadow_alt_1" n1:layout_marginEnd="12.0dp" n7:bwl="@id/gzn" n7:bwq="owf" n7:fjq="@raw/icon_color_comment_shadow_alt_1" n7:fmy="?e0" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/gzn" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginBottom="32.0dp" n1:contentDescription="icon_color_bookmark_shadow_alt_1" n1:layout_marginEnd="12.0dp" n8:bwl="@id/tnn" n8:bwq="owf" n8:fjq="@raw/icon_color_bookmark_shadow_alt_1" n8:fmy="?e0" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/tnn" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginBottom="32.0dp" n1:contentDescription="icon_color_share_shadow_alt_1" n1:layout_marginEnd="12.0dp" n9:bwl="@id/noc" n9:bwq="owf" n9:fjq="@raw/icon_color_share_shadow_alt_1" n9:fmy="?e0" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <View n1:id="@id/noc" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginEnd="8.0dp" n10:bwk="owf" n10:bwq="owf" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0COI n1:id="@id/dbq" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n11:bwk="owf" n11:bwq="owf" n11:bx9="owf" n11:bxc="owf" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <X.0oCE n1:theme="@style/wn" n1:id="@id/xgu" n1:background="?dm" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n12:fkf="h_s" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

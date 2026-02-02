@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/bgw" n1:background="@drawable/dsi" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.12nN n1:textSize="10.0sp" n1:textColor="@color/a2z" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/tej" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxWidth="84.0dp" n1:maxLines="1" n1:shadowColor="@color/a7w" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="2.0" n1:layout_marginStart="4.0dp" style="@style/a79" />
+        <X.12nN n1:textSize="10.0sp" n1:textColor="@color/bi" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/tdw" n1:paddingBottom="1.0dp" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:maxLines="1" n1:shadowColor="@color/a7w" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="2.0" n1:layout_weight="1.0" n1:layout_marginStart="3.0dp" style="@style/a79" />
+        <X.0d6D n1:id="@id/i6o" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:layout_marginTop="1.0dp" n1:layout_marginBottom="1.0dp" n1:layout_weight="0.0" n1:layout_marginStart="4.0dp" n1:layout_marginVertical="1.0dp" />
+        <LinearLayout n1:gravity="start|center" n1:orientation="horizontal" n1:id="@id/x0q" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_weight="0.0" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp">
+            <X.12nN n1:textSize="8.0sp" n1:textColor="@color/bi" n1:gravity="center" n1:id="@id/x0t" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:shadowColor="@color/a2a" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" />
+            <X.12nN n1:textSize="10.0sp" n1:textColor="@color/bi" n1:id="@id/dqj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:shadowColor="@color/a2a" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n1:layout_marginStart="1.0dp" />
+        </LinearLayout>
+        <X.12nN n1:textSize="9.0sp" n1:textColor="@color/bi" n1:ellipsize="end" n1:id="@id/h9v" n1:background="@drawable/dr6" n1:paddingBottom="1.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:shadowColor="@color/a2a" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n1:layout_weight="0.0" n1:paddingStart="6.0dp" n1:paddingEnd="4.0dp" />
+    </LinearLayout>
+</FrameLayout>

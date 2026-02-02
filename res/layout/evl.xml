@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.13SD n1:id="@id/i3f" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:keepScreenOn="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:id="@id/ako" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0gSh n1:layout_gravity="center" n1:id="@id/w9x" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.1295 n1:id="@id/l26" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:layout_gravity="center" n1:id="@id/f12" n1:visibility="gone" n1:layout_width="120.0dp" n1:layout_height="120.0dp" n1:src="@drawable/c48" />
+    <X.0oCE n1:theme="@style/wn" n1:id="@id/log" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:fkf="h_s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0mZU n1:layout_gravity="center" n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</X.13SD>

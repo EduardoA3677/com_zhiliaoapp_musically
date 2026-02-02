@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:id="@id/vhu" n1:background="@drawable/a6r" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:contentDescription="switch to photo mode icon" n2:fjq="@raw/icon_arrow_left_arrow_right_fill" n2:fmy="?xx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@null" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="6.0dp" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/p7r" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:contentDescription="switch to photo mode icon" n4:fjq="@raw/icon_image_alt_1" n4:fmy="?xx" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

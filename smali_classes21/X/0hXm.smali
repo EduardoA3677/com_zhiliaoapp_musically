@@ -1,0 +1,27 @@
+.class public abstract LX/0hXm;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract LIZ(Ljava/lang/String;)Z
+.end method
+
+.method public abstract LIZIZ()Ljava/lang/String;
+.end method
+
+.method public abstract LIZJ()Ljava/lang/String;
+.end method
+
+.method public abstract LIZLLL()J
+.end method

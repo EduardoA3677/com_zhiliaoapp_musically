@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/sfr" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="64.0dp" n1:layout_height="64.0dp" n1:layout_marginLeft="6.0dp" n1:layout_marginRight="6.0dp" n1:layout_marginHorizontal="6.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/zqn" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="d4s" n2:eyl="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="end|top" n1:id="@id/f14" n1:layout_width="30.0dp" n1:layout_height="30.0dp">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end|top" n1:id="@id/f12" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n3:br4="?ea0" n3:brl="@color/abj" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <View n1:id="@id/qdn" n1:background="@drawable/e2e" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

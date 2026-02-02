@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0lvW n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="64.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:fdr="7.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0Cxq n1:textColor="@color/uu" n1:gravity="center" n1:id="@id/d6f" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginRight="16.0dp" n1:text="@null" n1:layout_alignParentRight="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" style="@style/aeq" />
+    <View n1:id="@id/d6g" n1:background="@color/ue" n1:layout_width="0.5dp" n1:layout_height="36.0dp" n1:layout_marginRight="16.0dp" n1:layout_toLeftOf="@id/d6f" n1:layout_centerVertical="true" n1:layout_marginEnd="16.0dp" n1:layout_toStartOf="@id/d6f" />
+    <X.0mMt n1:id="@id/p4o" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginRight="6.0dp" n1:layout_toLeftOf="@id/d6g" n1:layout_centerInParent="true" n1:layout_toStartOf="@id/d6g" n2:fdl="6.0dp" n2:fdm="false" />
+</X.0lvW>

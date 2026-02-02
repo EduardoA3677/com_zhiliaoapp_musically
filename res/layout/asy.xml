@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/s47" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0qUJ n1:id="@id/s51" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0oCE n1:id="@id/s5f" n1:background="?bx" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.12nR>

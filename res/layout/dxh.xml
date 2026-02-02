@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/o8w" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:layout_width="@dimen/aai" n1:layout_height="@dimen/aah" layout="@layout/dxi" />
+    <LinearLayout n1:layout_gravity="top" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="@dimen/aai">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/o9n" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/aah">
+            <FrameLayout n1:id="@id/o9m" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:layout_weight="1.0" n1:layout_marginEnd="8.0dp" />
+            <FrameLayout n1:id="@id/s_k" n1:paddingTop="@dimen/aam" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp">
+                <ViewStub n1:layout_gravity="end|top" n1:id="@id/time" n1:visibility="gone" n1:layout="@layout/dxn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <ViewStub n1:layout_gravity="end|top" n1:id="@id/db4" n1:visibility="gone" n1:layout="@layout/dxm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <TextView n1:textAppearance="@style/oj" n1:layout_gravity="end|bottom" n1:id="@id/jv1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView n1:id="@id/vk" n1:background="#29000000" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/wv" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="-8.0dp" />
+    </LinearLayout>
+</FrameLayout>

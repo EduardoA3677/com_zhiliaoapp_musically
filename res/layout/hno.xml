@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/mrc" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CIR n1:id="@id/rsu" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0cFC n1:id="@id/rst" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0cFC n1:id="@id/rss" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

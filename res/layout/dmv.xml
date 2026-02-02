@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:background="@color/aa3" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="start|top" n1:orientation="horizontal" n1:id="@id/q6b" n1:background="@drawable/cmi" n1:padding="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp">
+        <FrameLayout n1:layout_gravity="center" n1:id="@id/ipg" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.0ChR n1:layout_gravity="center" n1:id="@id/q6d" n1:padding="2.0dp" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n2:by4="28dp" n2:byv="28dp" n2:elm="2.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0D0r n1:layout_gravity="center" n1:id="@id/q6f" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n3:ey2="true" n3:eyo="?e0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/q6e" n1:padding="4.0dp" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n4:fjq="@raw/icon_live" n4:fmy="?zw" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="marquee" n1:gravity="start|center" n1:layout_gravity="start|center" n1:id="@id/q6c" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_weight="1.0" n1:marqueeRepeatLimit="marquee_forever" n1:layout_marginStart="8.0dp" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/q6_" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="8.0dp" n1:paddingEnd="4.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:padding="4.0dp" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n6:fjq="@raw/icon_x_mark" n6:fmy="?zw" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

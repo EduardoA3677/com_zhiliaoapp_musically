@@ -1,0 +1,3 @@
+.class public Lcom/ss/android/ugc/aweme/creative/model_saas/R$styleable;
+.super Lcom/ss/android/ugc/aweme/app/R$styleable;
+.source "SourceFile"

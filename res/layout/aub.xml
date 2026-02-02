@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0vFy n1:id="@id/iy8" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D43 n1:id="@id/e92" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:layout_gravity="center|top" n1:id="@id/bts" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bw_="com.google.android.material.bottomsheet.BottomSheetBehavior" n2:bwl="@id/pdl" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_gravity="center|top" n1:id="@id/s47" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bw_="com.google.android.material.bottomsheet.BottomSheetBehavior" n3:bwl="@id/pdl" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_gravity="top" n1:id="@id/iq_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/pdl" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="@dimen/mc" n5:bwk="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.0pXq n1:id="@id/wt5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="40.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/s9g" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="160.0dp" n7:bwl="@id/pdl" n7:bwq="owf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/bz3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="74.0dp" n8:bwk="owf" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <androidx.cardview.widget.CardView n1:id="@id/qxk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="16.0dp" n9:ba4="17.0dp" n9:bwl="@id/bxh" n9:bx9="owf" n9:bxy="90.0dp" xmlns:n9="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/qxj" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" n9:fj2="pv" />
+        </androidx.cardview.widget.CardView>
+        <FrameLayout n1:id="@id/epi" n1:layout_width="match_parent" n1:layout_height="match_parent" n10:bwk="owf" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_gravity="bottom" n1:id="@id/bxh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n11:bwk="owf" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+        <include bwq="owf" n12:bx9="owf" n12:bxc="owf" layout="@layout/av7" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/unt" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n13:bwk="@id/bts" n13:bwq="@id/bts" n13:bx9="@id/bts" n13:bxc="@id/bts" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:layout_gravity="center|top" n1:id="@id/fr6" n1:layout_width="match_parent" n1:layout_height="0.0dp" n14:bw_="com.google.android.material.bottomsheet.BottomSheetBehavior" n14:bwl="@id/pdl" n14:bxc="owf" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    </X.0D43>
+</X.0vFy>

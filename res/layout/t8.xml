@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_vertical" n1:id="@id/qvj" n1:paddingTop="1.0dp" n1:paddingBottom="1.0dp" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:minWidth="152.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/bp2" n1:background="@drawable/ahc" n1:layout_width="50.0dp" n1:layout_height="50.0dp" n1:alpha="0.0" n1:layout_marginEnd="2.0dp" n2:bwk="owf" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="end|center" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/qx4" n1:clipChildren="true" n1:layout_width="wrap_content" n1:layout_height="50.0dp" n1:layout_marginEnd="55.0dp" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:layout_gravity="end" n1:id="@id/yti" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="17.0dp" n1:shadowColor="?nd" n1:shadowDx="0.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n1:textAlignment="viewEnd" n1:layout_marginStart="18.0dp" n3:fj2="pz" />
+        <TextSwitcher n1:layout_gravity="right" n1:id="@id/w4h" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="14.0dp" n1:inAnimation="@anim/jk" n1:outAnimation="@anim/jl" n1:layout_marginStart="18.0dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

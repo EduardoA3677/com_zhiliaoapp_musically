@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:background="?y4" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nk n1:id="@id/f5t" n1:background="@null" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/f5w" n1:fitsSystemWindows="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="44.0dp" n2:byn="spv" />
+        <FrameLayout n1:id="@id/f6v" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+        <FrameLayout n1:id="@id/f66" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+        <FrameLayout n1:id="@id/f67" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+        <FrameLayout n1:id="@id/f68" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+        <FrameLayout n1:id="@id/f69" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+        <FrameLayout n1:id="@id/f6_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv" />
+        <View n1:layout_width="match_parent" n1:layout_height="12.0dp" n2:byn="spv" />
+    </X.12nk>
+    <X.0o06 n1:id="@id/f78" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/xz" n1:layout_marginRight="@dimen/xz" n1:overScrollMode="never" n1:layout_marginHorizontal="@dimen/xz" n3:bw_="@null" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.navigation.TuxNavBar n1:layout_gravity="top" n1:id="@id/f6z" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:accessibilityTraversalBefore="@id/f6y" />
+</X.12nR>

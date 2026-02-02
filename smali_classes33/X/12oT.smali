@@ -1,0 +1,51 @@
+.class public final LX/12oT;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic LL:LX/12oO;
+
+
+# direct methods
+.method public constructor <init>(LX/12oO;)V
+    .locals 0
+
+    iput-object p1, p0, LX/12oT;->LL:LX/12oO;
+
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 2
+
+    iget-object v0, p0, LX/12oT;->LL:LX/12oO;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iget-object v0, p0, LX/12oT;->LL:LX/12oO;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iget-object v1, p0, LX/12oT;->LL:LX/12oO;
+
+    const/4 v0, 0x0
+
+    iput-object v0, v1, LX/12oO;->LLLIIL:Landroid/animation/Animator;
+
+    return-void
+.end method
+
+.method public final onAnimationStart(Landroid/animation/Animator;)V
+    .locals 1
+
+    iget-object v0, p0, LX/12oT;->LL:LX/12oO;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    return-void
+.end method

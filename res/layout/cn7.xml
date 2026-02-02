@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/rbn" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:maxLines="1" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/rbj" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp">
+        <ViewFlipper n1:id="@id/rbk" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <Space n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ViewStub n1:id="@id/view_stub_im_item_msg_quoted_text" n1:layout="@layout/cnc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ViewStub n1:id="@id/view_stub_im_item_msg_quoted_media" n1:layout="@layout/cna" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ViewStub n1:id="@id/view_stub_im_item_msg_quoted_preview" n1:layout="@layout/cnb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </ViewFlipper>
+        <ViewStub n1:id="@id/rgr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

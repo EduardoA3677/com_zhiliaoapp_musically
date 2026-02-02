@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <FrameLayout n1:id="@id/mcw" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:paddingStart="@dimen/a3s" n2:bx9="owf" n2:bxc="owf"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="start|center" n1:id="@id/lmx" n1:visibility="gone" n1:layout_width="@dimen/a43" n1:layout_height="@dimen/a43" n2:bra="0.6" n2:bro="0.6" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/mcv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <X.12xh n3:id="@id/vk5" n3:fadingEdgeLength="30.0dp" n3:layout_width="0.0dp" n3:layout_height="match_parent" n3:requiresFadingEdge="horizontal" n3:layout_marginStart="16.0dp" n4:bwr="@id/mf8" n4:bx9="owf" n4:bxc="owf" n4:by1="16.0dp" n4:f84="@color/a10" n4:f8e="?ff2" n4:f8f="@color/a46" n4:f8g="@color/a79" n4:f8h="true" n4:f8m="@dimen/a41" n4:f8t="@null" n4:f8u="?ff2" n4:f8v="@color/a46" n4:f8w="@color/a79" n4:f8y="@style/ps" n4:f8z="?fff" n4:f90="@color/a4d" n4:f91="@color/a7g"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n5:gravity="center_vertical" n5:orientation="horizontal" n5:id="@id/mf8" n5:visibility="gone" n5:layout_width="wrap_content" n5:layout_height="match_parent" n5:paddingEnd="@dimen/a3s" n6:bwq="owf"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <View n7:id="@id/view_separator_line" n7:background="?fes" n7:layout_width="match_parent" n7:layout_height="0.5dp" n8:bwk="owf" n8:bx3="owf" n8:bx7="owf"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n9:gravity="center_horizontal" n9:orientation="vertical" n9:id="@id/mh5" n9:layout_width="0.0dp" n9:layout_height="wrap_content" n9:layout_marginLeft="@dimen/a3p" n9:layout_marginRight="@dimen/a3p" n9:layout_marginHorizontal="@dimen/a3p" n10:bwk="owf" n10:bwq="owf" n10:bx9="owf" n10:bxc="owf"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto">
+        <X.12nN n9:textColor="?ffc" n9:ellipsize="end" n9:gravity="center" n9:id="@id/yti" n9:visibility="gone" n9:layout_width="wrap_content" n9:layout_height="wrap_content" n9:maxLines="1" n10:b5h="@dimen/awy" n10:b5i="@dimen/ax4" n10:b5l="z1f" style="@style/ps" />
+        <X.12nN n9:textColor="?fff" n9:ellipsize="end" n9:gravity="center" n9:id="@id/yqj" n9:visibility="gone" n9:layout_width="wrap_content" n9:layout_height="wrap_content" n9:maxLines="1" n10:b5h="@dimen/ax6" n10:b5i="@dimen/ax7" n10:b5l="z1f" style="@style/qg" />
+    </LinearLayout>
+    <X.12nN n11:textColor="?ffc" n11:gravity="center_vertical" n11:id="@id/y7e" n11:visibility="gone" n11:layout_width="wrap_content" n11:layout_height="match_parent" n11:paddingStart="18.0dp" n11:paddingEnd="4.0dp" n12:bwk="owf" n12:bx9="owf" n12:bxc="owf" style="@style/pu"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <X.130R n13:id="@id/bgh" n13:layout_width="wrap_content" n13:layout_height="wrap_content" n14:b74="gfo" n14:bfm="mcw,y7e"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n15:textColor="?ffc" n15:gravity="center_vertical" n15:id="@id/yld" n15:visibility="gone" n15:layout_width="wrap_content" n15:layout_height="match_parent" n15:paddingStart="4.0dp" n15:paddingEnd="18.0dp" n16:bwk="owf" n16:bwq="owf" n16:bxc="owf" style="@style/pu"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <X.130R n17:id="@id/bgm" n17:layout_width="wrap_content" n17:layout_height="wrap_content" n18:b74="ul9" n18:bfm="mf8,yld"
+      xmlns:n17="http://schemas.android.com/apk/res/android" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+</merge>

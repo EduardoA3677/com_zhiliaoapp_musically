@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/ut_" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/by2" />
+    <X.0mEr n1:id="@id/by2" n1:background="@color/fy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_alignParentBottom="true" n2:f89="d4r" n2:f8j="0.0dp" n2:f8n="sqt" n2:f8o="0.0dp" n2:f8q="0.0dp" n2:f8r="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

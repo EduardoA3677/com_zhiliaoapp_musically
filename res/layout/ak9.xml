@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/z96" n1:background="@drawable/b0r" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Ci6 n1:id="@id/z91" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:layout_marginStart="12.0dp" n2:bx9="owf" n2:bxc="owf" n2:fih="dbb" n2:fii="u9x" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CVL n1:id="@id/z94" n1:visibility="visible" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n3:bo4="ll3" n3:bo6="3" n3:bwr="@id/z98" n3:bx8="@id/z91" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/z9_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="6.0dp" n1:labelFor="@id/z91" n3:fj2="q2" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?yf" n1:id="@id/z92" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="·" n1:layout_marginStart="3.0dp" n3:fj2="q2" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/z97" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="3.0dp" n3:fj2="q1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/z93" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="-" n1:layout_marginStart="4.0dp" n3:fj2="q1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/z99" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n3:fj2="q1" />
+    </X.0CVL>
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/z98" n1:layout_width="6.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="2.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n4:bwq="owf" n4:bx8="@id/z94" n4:bxc="owf" n4:fjq="@raw/icon_chevron_right_slim_ltr" n4:fmy="?zy" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

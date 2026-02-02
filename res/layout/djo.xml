@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/ly_" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0pFv n1:layout_gravity="center" n1:id="@id/ebh" n1:background="?fec" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:evp="@dimen/a3s" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ly4" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ly2" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/a2q" n1:layout_marginBottom="@dimen/a3p" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+            <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@id/ly3" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/a2q" n1:layout_marginBottom="@dimen/a2h" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+            <androidx.appcompat.widget.AppCompatImageView n1:layout_gravity="center" n1:id="@id/ly1" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/a2f" n1:scaleType="centerCrop" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/ly5" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="0.0dp" n2:bwf="true" n2:bwl="@id/lxx" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/ly4" n2:by3="@dimen/a2q">
+            <X.12nN n1:textColor="?ffc" n1:gravity="center" n1:id="@id/ly9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/a3o" n1:layout_marginRight="@dimen/a3o" n1:layout_marginBottom="@dimen/a3q" n1:layout_marginHorizontal="@dimen/a3o" style="@style/a6m" />
+            <ScrollView n1:scrollbarThumbVertical="?c4x" n1:id="@id/ly7" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/a2l" n1:layout_marginRight="@dimen/a2l" n1:fadeScrollbars="false" n1:layout_marginHorizontal="@dimen/a2l" n2:bwf="true" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/ly9" n2:by3="0.0dp">
+                <FrameLayout n1:id="@id/ly6" n1:paddingLeft="@dimen/a2m" n1:paddingRight="@dimen/a2m" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/a2m">
+                    <X.12nN n1:textColor="?ffe" n1:gravity="center" n1:id="@id/ly8" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:includeFontPadding="false" style="@style/a6s" />
+                </FrameLayout>
+            </ScrollView>
+        </LinearLayout>
+        <FrameLayout n1:id="@id/lxx" n1:paddingTop="@dimen/a3q" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/a3o" n1:layout_marginRight="@dimen/a3o" n1:layout_marginHorizontal="@dimen/a3o" n2:bwl="@id/lxy" n2:bwq="owf" n2:bx9="owf" />
+        <FrameLayout n1:id="@id/lxy" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" />
+        <androidx.appcompat.widget.AppCompatImageView n1:id="@id/lxz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/a3s" n1:layout_marginRight="@dimen/a3s" n1:layout_marginEnd="@dimen/a3s" n2:bwq="owf" n2:bxc="owf" n2:f49="@drawable/cl4" />
+    </X.0pFv>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/volume_panel_layout_new" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="17.5dp" n1:layout_marginBottom="17.5dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0HSE n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/g67" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="start|center" n1:id="@id/ydm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:layout_marginStart="16.0dp" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0CVC n1:id="@id/t7m" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_marginTop="6.0dp" n1:max="200" n1:layout_below="@id/ydm" n1:layout_marginStart="6.0dp" n1:mirrorForRtl="true" n1:min="0" n3:eqp="@raw/icon_speaker_1_fill_ltr" n3:eqq="20.0dp" n3:eqr="?dj" n3:eqs="?e1" n3:eqt="46.0dp" n3:equ="8.0dp" n3:eqv="?e0" n3:eqw="55.0dp" n3:eqx="19.0dp" n3:eqy="8.0dp" n3:eqz="46.0dp" n3:er0="?bp" n3:er1="16.0dp" n3:er2="@null" n3:er3="true" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </X.0HSE>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/dwc" n1:paddingLeft="16.0dp" n1:paddingTop="20.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="20.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="20.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?c3s" n1:id="@id/r2e" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:bx9="owf" n2:bxc="owf" style="@style/a6q" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/r2d" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n3:br4="?dkk" n3:bx9="@id/r2e" n3:bxc="@id/r2c" n3:fb9="?eir" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?eir" n1:id="@id/r2c" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginStart="2.0dp" n4:bx8="@id/r2d" n4:bxb="@id/r2e" n4:by2="0.0dp" style="@style/a74" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/r2k" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n5:bxb="@id/r2c" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/hkj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n6:bxb="@id/r2k" xmlns:n6="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/fd6" n1:background="?eip" n1:layout_width="match_parent" n1:layout_height="1.0dp" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/buk" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginTop="2.0dp" n6:br4="?ckq" n6:bx9="owf" n6:bxc="@id/bul" n6:fb9="?c3u" />
+        <X.12nN n1:textColor="?c3u" n1:id="@id/bul" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:includeFontPadding="false" n1:layout_marginStart="4.0dp" n6:bwq="owf" n6:bx8="@id/buk" n6:bxb="@id/fd6" style="@style/q9" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,415 @@
+.class public final LX/0Kv8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:I
+
+.field public static final LIZIZ:I
+
+.field public static final LIZJ:I
+
+.field public static final LIZLLL:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/0Kv8;
+
+    const/4 v0, 0x3
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    sput v0, LX/0Kv8;->LIZ:I
+
+    const/16 v0, 0x9
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    sput v0, LX/0Kv8;->LIZIZ:I
+
+    const v0, 0x7f0b0bf0
+
+    sput v0, LX/0Kv8;->LIZJ:I
+
+    const v0, 0x7f0b8b48
+
+    sput v0, LX/0Kv8;->LIZLLL:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static LIZ(Landroid/view/View;Ljava/lang/Integer;)V
+    .locals 1
+
+    const v0, 0x7f0b8b48
+
+    invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    const/4 p0, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object p0
+
+    :cond_0
+    instance-of v0, p0, LX/12vh;
+
+    if-eqz v0, :cond_1
+
+    check-cast p0, LX/12vh;
+
+    if-eqz p0, :cond_1
+
+    if-nez p1, :cond_2
+
+    const/4 v0, 0x0
+
+    iput v0, p0, LX/12vh;->bottomToBottom:I
+
+    sget v0, LX/0Kv8;->LIZIZ:I
+
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+
+    :cond_1
+    return-void
+
+    :cond_2
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    iput v0, p0, LX/12vh;->bottomToTop:I
+
+    sget v0, LX/0Kv8;->LIZ:I
+
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+
+    return-void
+.end method
+
+.method public static LIZIZ(Landroid/view/View;ZLjava/lang/Integer;)V
+    .locals 2
+
+    const v0, 0x7f0b8b49
+
+    invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    const/4 p0, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object p0
+
+    :cond_0
+    instance-of v0, p0, LX/12vh;
+
+    if-eqz v0, :cond_1
+
+    check-cast p0, LX/12vh;
+
+    if-eqz p0, :cond_1
+
+    const/4 v1, -0x1
+
+    if-eqz p1, :cond_2
+
+    const/4 v0, 0x0
+
+    iput v0, p0, LX/12vh;->bottomToBottom:I
+
+    iput v1, p0, LX/12vh;->bottomToTop:I
+
+    const/4 v0, 0x3
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+
+    :cond_1
+    return-void
+
+    :cond_2
+    iput v1, p0, LX/12vh;->bottomToBottom:I
+
+    if-eqz p2, :cond_3
+
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    :goto_0
+    iput v0, p0, LX/12vh;->bottomToTop:I
+
+    return-void
+
+    :cond_3
+    sget v0, LX/0Kv8;->LIZJ:I
+
+    goto :goto_0
+.end method
+
+.method public static LIZJ(LX/0KuK;Landroid/view/View;)I
+    .locals 7
+
+    const v0, 0x7f0b6ec3
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v3
+
+    const v0, 0x7f0b6ec1
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    const/4 v6, 0x0
+
+    if-eqz v3, :cond_4
+
+    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v0, :cond_4
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v1}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginStart()I
+
+    move-result v5
+
+    :goto_0
+    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v0, :cond_5
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v1}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginEnd()I
+
+    move-result v0
+
+    :goto_1
+    add-int/2addr v5, v0
+
+    const/16 v4, 0x1e
+
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v0
+
+    add-int/2addr v5, v0
+
+    if-eqz v2, :cond_3
+
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v0, :cond_3
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v1}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginStart()I
+
+    move-result v0
+
+    :goto_2
+    add-int/2addr v5, v0
+
+    if-eqz v2, :cond_2
+
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v0, :cond_2
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v1}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginEnd()I
+
+    move-result v0
+
+    :goto_3
+    add-int/2addr v5, v0
+
+    sget-object v3, Lcom/ss/android/ugc/aweme/search/pages/result/common/searchvideo/core/protocols/bottomanchors/ISearchCLAAnchorProtocol;->LL:Lcom/ss/android/ugc/aweme/search/pages/result/common/searchvideo/core/protocols/bottomanchors/ISearchCLAAnchorProtocol;
+
+    iget-object v2, p0, LX/0KuK;->LL:Lcom/ss/android/ugc/aweme/feed/model/Aweme;
+
+    iget-object v1, p0, LX/0KuK;->LLILLL:LX/0KIc;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v3, v0, v2, v1}, Lcom/ss/android/ugc/aweme/search/pages/result/common/searchvideo/core/protocols/bottomanchors/ISearchCLAAnchorProtocol;->z60(Lcom/ss/android/ugc/aweme/search/pages/result/topsearch/core/model/SearchMixFeed;Lcom/ss/android/ugc/aweme/feed/model/Aweme;LX/0KIc;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    const v0, 0x7f0b7356
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v3
+
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/0CPO;->LIZIZ(Ljava/lang/Number;)F
+
+    move-result v0
+
+    invoke-static {v0}, LX/0PE4;->LIZJ(F)I
+
+    move-result v2
+
+    if-eqz v3, :cond_1
+
+    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v0, :cond_1
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v1}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginStart()I
+
+    move-result v0
+
+    :goto_4
+    add-int/2addr v2, v0
+
+    if-eqz v3, :cond_0
+
+    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    move-result-object v1
+
+    instance-of v0, v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    if-eqz v0, :cond_0
+
+    check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    invoke-virtual {v1}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginEnd()I
+
+    move-result v6
+
+    :cond_0
+    add-int/2addr v2, v6
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    return v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_4
+
+    :cond_2
+    const/4 v0, 0x0
+
+    goto :goto_3
+
+    :cond_3
+    const/4 v0, 0x0
+
+    goto :goto_2
+
+    :cond_4
+    const/4 v5, 0x0
+
+    if-eqz v3, :cond_5
+
+    goto/16 :goto_0
+
+    :cond_5
+    const/4 v0, 0x0
+
+    goto/16 :goto_1
+
+    :cond_6
+    return v5
+.end method

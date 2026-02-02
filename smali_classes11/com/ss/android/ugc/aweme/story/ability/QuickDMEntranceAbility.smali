@@ -1,0 +1,14 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/story/ability/QuickDMEntranceAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/02g2;
+
+
+# virtual methods
+.method public abstract PQ1()V
+.end method
+
+.method public abstract Tt0()Z
+.end method

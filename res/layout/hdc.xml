@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0wn4 n1:theme="@style/xr" n1:id="@id/h_v" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/ehb" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ImageView n1:layout_gravity="center_vertical" n1:id="@id/l2c" n1:visibility="visible" n1:layout_width="@dimen/atq" n1:layout_height="@dimen/atp" n1:scaleType="fitXY" />
+            <X.12sz n1:textSize="13.0dp" n1:textColor="?ekp" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/wde" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:baselineAligned="true" n1:includeFontPadding="false" />
+            <X.12sz n1:textSize="13.0dp" n1:textColor="?ekp" n1:layout_gravity="center_vertical" n1:id="@id/wcp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dp" n1:baselineAligned="true" n1:includeFontPadding="false" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/hhg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-5.0dp" n1:layout_marginStart="1.0dp">
+            <ImageView n1:id="@id/kxr" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="14.0dp" n1:scaleType="fitXY" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:gravity="bottom" n1:id="@id/rdg" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="2.0dp" n3:bwk="owf" n3:bx9="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <X.12sz n1:textSize="17.0dp" n1:textColor="?ekp" n1:layout_gravity="bottom" n1:id="@id/oc6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" />
+                <FrameLayout n1:id="@id/oc9" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="7.0dp" n1:layout_marginStart="-3.0dp">
+                    <X.12sz n1:textSize="23.0dp" n1:textColor="?eba" n1:layout_gravity="bottom" n1:id="@id/oc7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layoutDirection="ltr" />
+                    <X.12sz n1:textSize="23.0dp" n1:textColor="?eba" n1:layout_gravity="bottom" n1:id="@id/oc8" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layoutDirection="ltr" />
+                </FrameLayout>
+                <X.12sz n1:textSize="17.0dp" n1:textColor="?ekp" n1:ellipsize="end" n1:layout_gravity="bottom" n1:id="@id/oca" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:paddingEnd="2.0dp" n1:layout_marginStart="-11.0dp" />
+                <FrameLayout n1:id="@id/ocd" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="1.0dp">
+                    <X.12sz n1:textSize="15.0dp" n1:textColor="?eba" n1:layout_gravity="bottom" n1:id="@id/ocb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layoutDirection="ltr" />
+                    <X.12sz n1:textSize="15.0dp" n1:textColor="?eba" n1:layout_gravity="bottom" n1:id="@id/occ" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:includeFontPadding="false" n1:layoutDirection="ltr" />
+                </FrameLayout>
+                <X.12sz n1:textSize="15.0dp" n1:textColor="?ekp" n1:ellipsize="end" n1:layout_gravity="bottom" n1:id="@id/oce" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_marginStart="-11.0dp" />
+                <X.0D0r n1:id="@id/kn9" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" />
+                <X.0D0r n1:id="@id/kzf" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" n1:layout_marginStart="-1.0dp" />
+                <X.0D0r n1:id="@id/l23" n1:visibility="gone" n1:layout_width="@dimen/atl" n1:layout_height="@dimen/atj" n1:layout_marginBottom="@dimen/ati" n1:scaleType="fitXY" n1:layout_marginStart="-1.0dp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout n1:gravity="bottom" n1:id="@id/hec" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-2.0dp">
+            <ImageView n1:layout_gravity="bottom" n1:id="@id/kod" n1:visibility="gone" n1:layout_width="@dimen/atg" n1:layout_height="11.0dp" n1:scaleType="fitXY" />
+            <LinearLayout n1:gravity="bottom" n1:orientation="horizontal" n1:id="@id/i1i" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <X.12sz n1:textSize="13.0dp" n1:textColor="?ekp" n1:ellipsize="end" n1:id="@id/i1h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_marginStart="1.0dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</X.0wn4>

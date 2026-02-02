@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/pmn" n1:background="?dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/j4y" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="12.0dp" n2:fjq="@raw/icon_playlist_fill" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:maxLines="1" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="20.0dp" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/w59" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginStart="-20.0dp" n1:layout_marginEnd="12.0dp" n4:fjq="@raw/icon_chevron_right_ltr" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0D2z n1:textSize="12.0sp" n1:id="@id/cps" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:maxWidth="130.0dp" n1:minWidth="75.0dp" n1:text="@null" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" n1:layout_marginEnd="12.0dp" n5:fi8="true" n5:fid="e7z" n5:fj2="q2" n5:fl1="10.0dp" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/gfv" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginEnd="12.0dp" n6:fjq="@raw/icon_chevron_right_ltr" n6:fmy="?e0" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+.class public interface abstract Lcom/ss/android/ugc/aweme/detail/DetailFlingGestureAbility;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ss/android/ugc/aweme/main/FlingGestureAbility;
+.implements LX/02g2;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/lue" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginVertical="12.0dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/b7s" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:scaleType="fitXY" n2:ey2="true" n2:ey4="true" n2:ey5="true" n2:eya="true" n2:eyb="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="left" n1:id="@id/lun" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dp" n1:layout_marginRight="8.0dp" n1:maxLines="1" n1:layout_weight="1.0" n3:fj2="pv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:id="@id/tdm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n4:fib="u9x" n4:fid="qhx" n4:fj2="pv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

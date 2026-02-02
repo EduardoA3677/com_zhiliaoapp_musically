@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/hey" n1:background="@drawable/bgt" n1:layout_width="match_parent" n1:layout_height="36.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start|center" n1:id="@id/kz1" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="6.0dp" n2:fjq="@raw/icon_magnifying_glass" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end" n1:id="@id/cdq" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_margin="6.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/c_c" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginEnd="6.0dp" n3:fjq="@raw/icon_x_mark_circle_fill" n3:fmy="?zz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/c_e" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="4.0dp" n4:fjq="@raw/icon_x_mark_small" n4:fmy="?a04" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/vs_marquee_layout" n1:layout="@layout/f66" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

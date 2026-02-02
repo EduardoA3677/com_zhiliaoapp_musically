@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView n1:id="@id/iqd" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/aql" n2:ba3="?y4" n2:ba4="@dimen/aqo" n2:ba5="0.0dp" n2:ba8="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:paddingLeft="16.0dp" n1:paddingTop="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="20.0dp" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp">
+        <X.12nN n1:textSize="20.0dp" n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:maxLines="2" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="16.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:bxz="8.0dp" style="@style/pp" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e8z" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n2:bo4="ll3" n2:bon="8.0dp" n2:bx9="owf" n2:bxb="@id/title">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/e90" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxc="owf">
+                <X.12nN n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/g_o" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginEnd="8.0dp" n2:bwr="@id/lqj" n2:bx0="ori" n2:bx9="owf" n2:bxc="owf" style="@style/a76" />
+                <View n1:id="@id/lqj" n1:background="?ekx" n1:visibility="gone" n1:layout_width="1.0dp" n1:layout_height="10.0dp" n1:layout_marginStart="4.0dp" n2:bwk="owf" n2:bwr="@id/p5u" n2:bx8="@id/g_o" n2:bxc="owf" />
+                <X.12nN n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/p5u" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="8.0dp" n2:bwq="owf" n2:bx8="@id/lqj" n2:bxc="owf" style="@style/a76" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/e91" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/e90">
+                <X.12nN n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/g_p" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginEnd="24.0dp" style="@style/a76" />
+                <X.12nN n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/p5v" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxLines="1" style="@style/a76" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <X.12vl n1:textColor="?zy" n1:ellipsize="end" n1:gravity="start" n1:id="@id/zm8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginHorizontal="8.0dp" n2:bx9="owf" n2:bxb="@id/e8z" n2:fj2="pu" n2:fjw="16.0dp" n2:fjy="6.0dp" n2:fk4="@raw/icon_briefcase_fill" n2:fk9="16.0dp" n2:fn1="?zy" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:textColor="?zy" n1:ellipsize="end" n1:id="@id/f4q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="8.0dp" n1:maxLines="2" n1:layout_marginHorizontal="8.0dp" n2:bxb="@id/zm8">
+            <X.12nN n1:textColor="?zy" n1:ellipsize="end" n1:id="@id/desc" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n2:bwr="@id/gqm" n2:bx9="owf" n2:bxc="owf" />
+            <X.12nN n1:textColor="?zw" n1:id="@id/gqm" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwq="owf" style="@style/a76" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:id="@id/f_v" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n2:bx9="@id/f4q" n2:bxb="@id/f4q">
+            <X.12nN n1:textColor="?zz" n1:id="@id/fa9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/qb" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/d27" n1:layout_width="11.0dp" n1:layout_height="11.0dp" n1:layout_marginStart="5.0dp" n2:br4="?dc5" n2:brl="?eks" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

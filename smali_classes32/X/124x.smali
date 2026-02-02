@@ -1,0 +1,84 @@
+.class public final LX/124x;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic LL:LX/124q;
+
+
+# direct methods
+.method public constructor <init>(LX/124q;)V
+    .locals 0
+
+    iput-object p1, p0, LX/124x;->LL:LX/124q;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 4
+
+    const-string v3, "NoticeCountTabBadgePresentManager@eea3.createBubblePopupView$3"
+
+    invoke-static {v3}, LX/0Xz5;->LIZ(Ljava/lang/String;)V
+
+    :try_start_0
+    iget-object v2, p0, LX/124x;->LL:LX/124q;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget v0, LX/0XZf;->LIZ:I
+
+    const-string v1, "NCTBPManager"
+
+    const-string v0, "onBubbleDismiss"
+
+    invoke-static {v1, v0}, LX/0Ald;->LJFF(Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, v2, LX/124q;->LLJJ:Z
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, v2, LX/124q;->LLJJI:Z
+
+    iput-boolean v0, v2, LX/124q;->LLJILLL:Z
+
+    iget-object v0, v2, LX/124q;->LLILL:Lcom/ss/android/ugc/aweme/notice/api/services/INoticeCountTabBadgePresentHost;
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/notice/api/services/INoticeCountTabBadgePresentHost;->onPopupDismiss()V
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v2, v0}, LX/124q;->LJJIII(LX/0jDX;)V
+
+    goto :goto_0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    move-exception v1
+
+    invoke-static {v1}, LX/0XER;->LIZ(Ljava/lang/Throwable;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    throw v1
+
+    :cond_0
+    :goto_0
+    invoke-static {v3}, LX/0Xz5;->LIZIZ(Ljava/lang/String;)V
+
+    return-void
+.end method

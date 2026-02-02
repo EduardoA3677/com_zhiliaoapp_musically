@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/z_a" n1:layout_width="94.0dp" n1:layout_height="94.0dp" n2:b41="d4s" n2:bx9="owf" n2:bxc="owf" n2:etn="@drawable/b4e" n2:eto="d4s" n2:eyl="@dimen/ba" n2:eyo="?ly" n2:eyq="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/z_b" n1:layout_width="94.0dp" n1:layout_height="94.0dp" n3:bx9="@id/z_a" n3:bxc="@id/z_a" n3:etn="?v0" n3:eyl="@dimen/ba" n3:eyo="?ly" n3:eyq="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0DRm n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/z_c" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="12.0dp" n4:bwq="owf" n4:bx8="@id/z_a" n4:bxc="@id/z_a" n4:by2="16.0dp" n4:fj2="pv" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/z_d" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n5:bwq="owf" n5:bx9="@id/z_c" n5:bxb="@id/z_c" n5:fj2="q1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?g5" n1:id="@id/z_9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n6:bx9="@id/z_c" n6:bxb="@id/z_d" n6:fj2="qd" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?fu" n1:id="@id/z_6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n7:bwk="@id/z_9" n7:bx8="@id/z_9" n7:bxc="@id/z_9" n7:fj2="qd" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/z_8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n8:bwk="@id/z_a" n8:bx9="@id/z_c" n8:fj2="p3" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/z_7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n9:bwk="@id/z_a" n9:bx8="@id/z_8" n9:by2="0.0dp" n9:fj2="qc" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/z__" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n10:bwk="@id/z_a" n10:bwq="owf" n10:fj2="p7" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</merge>

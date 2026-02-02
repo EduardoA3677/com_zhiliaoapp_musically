@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/tsl" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="@dimen/a3e">
+        <ImageView n1:layout_gravity="end|center" n1:id="@id/tsm" n1:layout_width="@dimen/a3m" n1:layout_height="@dimen/a3m" n1:layout_marginRight="@dimen/a3p" n1:layout_marginEnd="@dimen/a3p" n2:f49="@drawable/cl4" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ffc" n1:layout_gravity="center" n1:id="@id/tsn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/a3p" n1:maxLines="1" n1:singleLine="true" style="@style/a6q" />
+        <X.06Mz n1:layout_gravity="center_horizontal" n1:id="@id/tsk" n1:visibility="gone" n1:layout_width="@dimen/a3d" n1:layout_height="@dimen/a3_" n1:layout_marginTop="@dimen/a3a" />
+        <View n1:layout_gravity="bottom" n1:background="?fes" n1:layout_width="match_parent" n1:layout_height="@dimen/a2y" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/tsa" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/fxb" n1:padding="@dimen/su" n1:layout_width="@dimen/sh" n1:layout_height="@dimen/sh" n1:importantForAccessibility="no" n2:bwq="owf" n2:bxc="owf" n2:fjq="@raw/icon_x_mark" n2:fmy="?zz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/fyc" n1:layout_width="@dimen/t3" n1:layout_height="@dimen/t3" n1:layout_marginTop="@dimen/su" n1:layout_marginStart="@dimen/su" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/fyf" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:cropToPadding="true" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.0v0K n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="start" n1:id="@id/fy2" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:textAlignment="viewStart" n1:layout_marginStart="@dimen/t4" n4:bwr="@id/fxb" n4:bwz="0.0" n4:bx8="@id/fyc" n4:bxc="@id/fyc" n4:bxg="wrap" n4:by2="8.0dp" n4:fj2="px" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/fww" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="14.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginEnd="8.0dp" n5:bwg="true" n5:bwq="owf" n5:bwz="0.0" n5:bx9="@id/fy2" n5:bxb="@id/fy2" n5:bxg="wrap" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0CiC n1:id="@id/fyq" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="2.0dp" n6:bpx="ll3" n6:br2="@dimen/so" n6:bwg="true" n6:bwq="owf" n6:bwz="0.0" n6:bx9="@id/fy2" n6:bxb="@id/fww" n6:bxg="wrap" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.0CiC n1:id="@id/tdd" n1:visibility="gone" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginEnd="8.0dp" n7:bjc="?lw" n7:bpx="ll3" n7:bwg="true" n7:bwq="owf" n7:bwz="0.0" n7:bx9="@id/fy2" n7:bxb="@id/fyq" n7:bxg="wrap" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.0CVT n1:orientation="horizontal" n1:id="@id/fyj" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginEnd="8.0dp" n8:bo4="ll3" n8:bo6="1" n8:bwg="true" n8:bwk="@id/fyc" n8:bwq="owf" n8:bwz="0.0" n8:bx9="@id/fy2" n8:bxg="wrap" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</merge>

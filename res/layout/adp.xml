@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:paddingLeft="16.0dp" n1:paddingTop="@dimen/qa" n1:paddingRight="16.0dp" n1:paddingBottom="@dimen/qa" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CtX n1:id="@id/id1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0pZs n1:id="@id/zdi" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

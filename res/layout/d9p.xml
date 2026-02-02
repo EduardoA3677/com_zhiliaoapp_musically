@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0t5A n1:id="@id/bbc" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0t5A n1:id="@id/ipu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0t5A n1:id="@id/btf" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwl="@id/hqm" n3:bxb="@id/ipu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0t5A n1:id="@id/hqm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

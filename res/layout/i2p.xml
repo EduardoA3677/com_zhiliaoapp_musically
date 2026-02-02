@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nn n1:id="@id/av3" n1:background="@android:color/transparent" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bld="0.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.12pB n1:id="@id/dnu" n1:fitsSystemWindows="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|gqf|ghm" n2:ezh="200" n2:fbf="false">
+        <X.12xz n1:id="@id/x_fold_toolbar" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="0.0dp" n1:contentInsetStart="0.0dp" n1:contentInsetEnd="0.0dp" n1:contentInsetLeft="0.0dp" n1:contentInsetRight="0.0dp" n2:bfr="0.0dp" n2:bft="0.0dp" n2:bfu="0.0dp" n2:bfv="0.0dp" n2:bwd="pa6" />
+    </X.12pB>
+</X.12nn>

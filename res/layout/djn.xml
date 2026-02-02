@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:paddingLeft="@dimen/a3p" n1:paddingTop="@dimen/a3q" n1:paddingRight="@dimen/a3p" n1:paddingBottom="@dimen/a3f" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="@dimen/a3p" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ffe" n1:id="@id/bzh" n1:paddingTop="@dimen/a3n" n1:paddingBottom="@dimen/a3n" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/a3s" n1:includeFontPadding="false" n1:textAlignment="viewStart" n1:paddingVertical="@dimen/a3n" style="@style/a77" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/bza" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</merge>

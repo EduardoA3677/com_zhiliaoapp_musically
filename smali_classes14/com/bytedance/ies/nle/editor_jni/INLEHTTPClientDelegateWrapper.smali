@@ -1,0 +1,204 @@
+.class public Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public transient swigCMemOwn:Z
+
+.field public transient swigCPtr:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    invoke-static {}, Lcom/bytedance/ies/nle/editor_jni/NLEMediaRemoteJniJNI;->new_INLEHTTPClientDelegateWrapper()J
+
+    move-result-wide v0
+
+    const/4 v2, 0x1
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;-><init>(JZ)V
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    invoke-static {p0, v0, v1, v2, v2}, Lcom/bytedance/ies/nle/editor_jni/NLEMediaRemoteJniJNI;->INLEHTTPClientDelegateWrapper_director_connect(Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;JZZ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(JZ)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-boolean p3, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCMemOwn:Z
+
+    iput-wide p1, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    return-void
+.end method
+
+.method public static getCPtr(Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;)J
+    .locals 1
+
+    if-nez p0, :cond_0
+
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+
+    :cond_0
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    return-wide v0
+.end method
+
+
+# virtual methods
+.method public declared-synchronized delete()V
+    .locals 5
+
+    monitor-enter p0
+
+    :try_start_0
+    iget-wide v3, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v0, v3, v1
+
+    if-eqz v0, :cond_1
+
+    iget-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCMemOwn:Z
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCMemOwn:Z
+
+    invoke-static {v3, v4}, Lcom/bytedance/ies/nle/editor_jni/NLEMediaRemoteJniJNI;->delete_INLEHTTPClientDelegateWrapper(J)V
+
+    :cond_0
+    iput-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :cond_1
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public finalize()V
+    .locals 0
+
+    invoke-virtual {p0}, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->delete()V
+
+    return-void
+.end method
+
+.method public requestNet(Ljava/lang/String;Lcom/bytedance/ies/nle/editor_jni/NLEHttpType;JLcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;Lcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;Ljava/lang/String;[BLcom/bytedance/ies/nle/editor_jni/SWIGTYPE_p_void;Lcom/bytedance/ies/nle/editor_jni/NLEHttpClientCallbackDelegate;)Z
+    .locals 20
+
+    move-object/from16 v2, p0
+
+    iget-wide v0, v2, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/ies/nle/editor_jni/NLEHttpType;->swigValue()I
+
+    move-result v4
+
+    move-object/from16 v9, p5
+
+    invoke-static {v9}, Lcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;->getCPtr(Lcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;)J
+
+    move-result-wide v7
+
+    move-object/from16 v12, p6
+
+    invoke-static {v12}, Lcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;->getCPtr(Lcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;)J
+
+    move-result-wide v10
+
+    invoke-static/range {p9 .. p9}, Lcom/bytedance/ies/nle/editor_jni/SWIGTYPE_p_void;->getCPtr(Lcom/bytedance/ies/nle/editor_jni/SWIGTYPE_p_void;)J
+
+    move-result-wide v15
+
+    move-object/from16 v19, p10
+
+    invoke-static/range {v19 .. v19}, Lcom/bytedance/ies/nle/editor_jni/NLEHttpClientCallbackDelegate;->getCPtr(Lcom/bytedance/ies/nle/editor_jni/NLEHttpClientCallbackDelegate;)J
+
+    move-result-wide v17
+
+    move-object/from16 v14, p8
+
+    move-object/from16 v13, p7
+
+    move-wide/from16 v5, p3
+
+    move-object/from16 v3, p1
+
+    invoke-static/range {v0 .. v19}, Lcom/bytedance/ies/nle/editor_jni/NLEMediaRemoteJniJNI;->INLEHTTPClientDelegateWrapper_requestNet(JLcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;Ljava/lang/String;IJJLcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;JLcom/bytedance/ies/nle/editor_jni/UnorderedMapStrStr;Ljava/lang/String;[BJJLcom/bytedance/ies/nle/editor_jni/NLEHttpClientCallbackDelegate;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public swigDirectorDisconnect()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0}, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigSetCMemOwn(Z)V
+
+    invoke-virtual {p0}, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->delete()V
+
+    return-void
+.end method
+
+.method public swigReleaseOwnership()V
+    .locals 3
+
+    const/4 v2, 0x0
+
+    invoke-virtual {p0, v2}, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigSetCMemOwn(Z)V
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    invoke-static {p0, v0, v1, v2}, Lcom/bytedance/ies/nle/editor_jni/NLEMediaRemoteJniJNI;->INLEHTTPClientDelegateWrapper_change_ownership(Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;JZ)V
+
+    return-void
+.end method
+
+.method public swigSetCMemOwn(Z)V
+    .locals 0
+
+    iput-boolean p1, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCMemOwn:Z
+
+    return-void
+.end method
+
+.method public swigTakeOwnership()V
+    .locals 3
+
+    const/4 v2, 0x1
+
+    invoke-virtual {p0, v2}, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigSetCMemOwn(Z)V
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;->swigCPtr:J
+
+    invoke-static {p0, v0, v1, v2}, Lcom/bytedance/ies/nle/editor_jni/NLEMediaRemoteJniJNI;->INLEHTTPClientDelegateWrapper_change_ownership(Lcom/bytedance/ies/nle/editor_jni/INLEHTTPClientDelegateWrapper;JZ)V
+
+    return-void
+.end method

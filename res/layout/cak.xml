@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/f9v" n1:background="@drawable/bsu" n1:paddingLeft="@dimen/r5" n1:paddingRight="@dimen/r5" n1:focusable="true" n1:focusableInTouchMode="true" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="@dimen/qs" n1:minWidth="@dimen/qy" n1:importantForAccessibility="yes" n1:paddingHorizontal="@dimen/r5" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/f9k" n1:focusable="false" n1:focusableInTouchMode="false" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="noHideDescendants">
+        <X.0XDC n1:layout_gravity="center" n1:id="@id/f9h" n1:focusable="false" n1:focusableInTouchMode="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" />
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/f9l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="@dimen/qz" n2:fj2="pz" n2:fl1="@dimen/qc" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

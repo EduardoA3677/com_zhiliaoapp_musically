@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/bd6" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="166.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/qyv" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerInside" />
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/qzf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="20.0dp" n1:layout_marginRight="20.0dp" n1:textAlignment="center" n1:layout_marginHorizontal="20.0dp" n2:fj2="ow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/qyh" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="20.0dp" n1:textAlignment="center" n1:layout_marginHorizontal="20.0dp" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:id="@id/qyi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="20.0dp" n1:textAlignment="center" n1:layout_marginHorizontal="20.0dp" n4:fj2="p5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <View n1:background="?lv" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="20.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/of8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginHorizontal="12.0dp" n1:layout_marginVertical="12.0dp" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

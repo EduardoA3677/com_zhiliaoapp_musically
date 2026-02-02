@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vZ n1:orientation="vertical" n1:id="@id/cu8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/g0y" />
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" layout="@layout/g0x" />
+    <X.12i1 n1:orientation="vertical" n1:id="@id/cdy" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.12pz n1:id="@id/cdx" n1:background="?ff1" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" n2:evp="24.0dp" style="@style/a5e" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ekr" n1:gravity="center" n1:id="@id/rin" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:layout_marginBottom="4.0dp" n1:textAlignment="center" n1:layout_marginVertical="4.0dp" style="@style/a77" />
+    </X.12i1>
+</X.12vZ>

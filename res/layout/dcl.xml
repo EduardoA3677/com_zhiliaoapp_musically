@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@color/xm" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/wit" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp">
+        <TextView n1:textSize="17.0sp" n1:textColor="@color/jg" n1:gravity="center" n1:id="@id/vce" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_marginRight="16.0dp" n1:text="@string/q6_" n1:layout_alignParentRight="true" n1:fontFamily="ProximaNova-Semibold" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <EditText n1:textSize="15.0dp" n1:textColor="#ffffff" n1:textColorHint="#80ffffff" n1:layout_gravity="bottom" n1:id="@id/g76" n1:background="@drawable/d56" n1:paddingLeft="10.0dp" n1:paddingTop="8.0dp" n1:paddingRight="10.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="16.0dp" n1:maxLines="1" n1:singleLine="true" n1:imeOptions="actionDone" />
+</FrameLayout>

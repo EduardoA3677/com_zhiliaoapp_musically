@@ -1,0 +1,3 @@
+com.bytedance.lynx.service.i18n.LynxI18nService
+com.bytedance.lynx.service.image.LynxImageServiceProvider
+com.bytedance.lynx.service.log.LynxLogService

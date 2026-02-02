@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="152.0dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/tg7" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="d4s" n2:bne="?yh" n2:etn="?yh" n2:eto="d4s" n2:eyl="@dimen/b8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:layout_gravity="bottom" n1:background="@drawable/bbf" n1:layout_width="match_parent" n1:layout_height="36.0dp" />
+        <LinearLayout n1:gravity="center" n1:layout_gravity="start|bottom" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dp" n1:layout_marginStart="8.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/tg9" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:contentDescription="@null" n3:fmy="?z4" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:ellipsize="end" n1:id="@id/tga" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="2.0dp" n4:fj2="qd" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/tg_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:maxLines="2" n1:textAlignment="viewStart" n5:fj2="pu" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/tg8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="1" n1:textAlignment="viewStart" n6:fj2="q1" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

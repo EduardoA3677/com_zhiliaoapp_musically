@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="horizontal" n1:background="@drawable/ezn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/winning_streak_icon" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:scaleType="fitCenter" n2:b40="@drawable/fb_" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/view_holder" n1:visibility="gone" n1:layout_width="6.0dp" n1:layout_height="wrap_content" />
+    <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/winning_streak_win_new" n1:layout_width="26.0dp" n1:layout_height="13.0dp" n1:scaleType="fitXY" n1:adjustViewBounds="true" n3:b40="@drawable/ezj" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/winning_streak_x" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:scaleType="fitXY" n4:b40="@drawable/ezf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginRight="6.0dp" n1:layout_marginStart="-1.5dp" n1:layout_marginEnd="6.0dp">
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/abj" n1:layout_gravity="end|center" n1:id="@id/winning_streak_counts_place_holder_new" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" style="@style/a7a" />
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/abj" n1:layout_gravity="center" n1:id="@id/winning_streak_counts_new" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" style="@style/a7a" />
+        <X.12nN n1:textSize="12.0sp" n1:textColor="@color/abj" n1:layout_gravity="center" n1:id="@id/winning_streak_counts_temp_new" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" style="@style/a7a" />
+    </FrameLayout>
+</merge>

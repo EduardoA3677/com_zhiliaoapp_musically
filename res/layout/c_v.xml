@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/h40" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/zl6" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_alignParentTop="true" />
+    <X.0Cze n1:id="@id/rop" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/zl6" n1:layout_alignParentBottom="true">
+        <X.0CLW n1:id="@id/cum" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0JW3 n1:id="@id/hwa" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <X.0oCE n1:id="@id/up1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <include layout="@layout/b5z" />
+                <FrameLayout n1:id="@id/vy5" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                <FrameLayout n1:id="@id/u6s" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </X.0JW3>
+        </X.0CLW>
+    </X.0Cze>
+    <FrameLayout n1:id="@id/c3c" n1:background="?dm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/emr" n1:background="?c3" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/usa" n1:background="@drawable/cec" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="10.0dp" n2:bx3="owf" n2:bx7="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/ur9" n1:background="@drawable/bp4" n1:layout_width="75.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="7.0dp" n3:bx3="owf" n3:bx7="owf" n3:bxb="@id/usa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ur8" n1:layout_width="200.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="7.0dp" n1:weightSum="8.0" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/ur9" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:background="@drawable/bp4" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_weight="3.0" />
+        <View n1:background="@drawable/bp4" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_weight="4.0" n1:layout_marginStart="2.0dp" />
+        <View n1:background="@drawable/bp4" n1:layout_width="0.0dp" n1:layout_height="40.0dp" n1:layout_weight="1.0" n1:layout_marginStart="2.0dp" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="50.0dp" n1:layout_marginTop="10.0dp" n1:weightSum="5.0" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/ur8" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="@dimen/a0t" n1:layout_height="@dimen/a0q" n1:layout_marginStart="@dimen/a0s" n5:fjq="@raw/icon_3pt_collection" n5:fmy="?e0" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+            <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/gz2" n1:background="@drawable/cea" n1:clipChildren="false" n1:layout_width="@dimen/a0p" n1:layout_height="match_parent">
+                <com.bytedance.tux.icon.TuxIconView n1:layout_width="@dimen/a0t" n1:layout_height="@dimen/a0q" n5:fjq="@raw/icon_3pt_sticker" n5:fmy="?e0" />
+                <View n1:background="?e0" n1:layout_width="20.0dp" n1:layout_height="1.0dp" n1:layout_marginTop="2.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="@dimen/a0t" n1:layout_height="@dimen/a0q" n5:fjq="@raw/icon_3pt_lock_keyhole" n5:fmy="?e0" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="@dimen/a0t" n1:layout_height="@dimen/a0q" n5:fjq="@raw/icon_3pt_bookmark_eye_slash" n5:fmy="?e0" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_width="@dimen/a0t" n1:layout_height="@dimen/a0q" n5:fjq="@raw/icon_3pt_repost" n5:fmy="?e0" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

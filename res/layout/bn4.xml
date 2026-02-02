@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="48.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/fr9" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_toStartOf="@id/fr_">
+        <androidx.cardview.widget.CardView n1:id="@id/ln9" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginStart="7.5dp" n2:ba3="?dp" n2:ba4="6.0dp" n2:ba5="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/fr_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="7.5dp" n1:layout_alignParentEnd="true">
+        <androidx.cardview.widget.CardView n1:id="@id/s_u" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginStart="7.5dp" n3:ba3="?dp" n3:ba4="6.0dp" n3:ba5="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</merge>

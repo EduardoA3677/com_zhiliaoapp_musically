@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.13U9 n1:orientation="horizontal" n1:id="@id/spz" n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:scaleType="centerCrop" n1:layout_centerInParent="true">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0DMt n1:id="@id/k8_" n1:layout_width="wrap_content" n1:layout_height="56.0dp" n1:layout_marginLeft="40.0dp" n1:layout_marginRight="40.0dp" />
+        </LinearLayout>
+    </X.13U9>
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+        <View n1:layout_gravity="center_vertical" n1:id="@id/kda" n1:background="#99161823" n1:layout_width="40.0dp" n1:layout_height="56.0dp" />
+        <View n1:id="@id/zk1" n1:layout_width="0.0dp" n1:layout_height="56.0dp" n1:layout_weight="1.0" />
+        <View n1:id="@id/kcn" n1:background="#99161823" n1:layout_width="40.0dp" n1:layout_height="56.0dp" />
+    </LinearLayout>
+    <ImageView n1:id="@id/kd3" n1:layout_width="4.0dp" n1:layout_height="83.0dp" n1:layout_marginLeft="40.0dp" n1:src="@drawable/ali" n1:layout_centerVertical="true" n1:layout_marginStart="40.0dp" />
+</RelativeLayout>

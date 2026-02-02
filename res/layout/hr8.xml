@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="44.0dp" n1:layout_height="36.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/woj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="fitXY" n1:layout_alignParentTop="true" n1:layout_centerInParent="true" />
+    <X.0D0r n1:id="@id/woi" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:scaleType="fitXY" n1:layout_alignParentTop="true" n1:layout_centerInParent="true" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="10.0dp" />
+    <X.12hi n1:textColor="@color/aaa" n1:ellipsize="end" n1:gravity="center" n1:id="@id/woe" n1:layout_width="match_parent" n1:layout_height="12.0dp" n1:layout_marginBottom="-1.0dp" n1:maxLines="1" n1:includeFontPadding="false" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n1:alpha="0.6" n1:textAlignment="center" n1:layout_marginStart="2.0dp" n1:layout_marginEnd="2.0dp" n2:b5h="10.0dp" n2:b5i="9.0dp" n2:b5l="z1f" style="@style/a7i" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

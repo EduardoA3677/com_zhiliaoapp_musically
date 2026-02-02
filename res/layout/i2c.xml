@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <SurfaceView n1:id="@id/tln" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <View n1:id="@id/uo8" n1:background="@color/dx" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+    <View n1:background="@drawable/fdl" n1:layout_width="match_parent" n1:layout_height="126.0dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_below="@id/uo8" n1:paddingEnd="8.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/bam" n1:padding="10.0dp" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginLeft="6.0dp" n1:layout_marginStart="6.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_arrow_left_ltr" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/p6e" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kty" n1:padding="8.0dp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" n4:fjq="@raw/icon_ellipsis_horizontal" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/qcc" n1:padding="8.0dp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n5:bwk="owf" n5:bwr="@id/kty" n5:bxc="owf" n5:fjq="@raw/icon_gear" n5:fmy="?e0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textSize="15.0dp" n1:textColor="?c5" n1:gravity="center" n1:id="@id/yno" n1:background="@drawable/bee" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginBottom="20.0dp" n1:text="@null" n1:layout_alignParentBottom="true" n6:fj2="p7" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

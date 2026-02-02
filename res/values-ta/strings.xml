@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">இயக்கு</string>
+    <string name="en0">Google Play சேவைகளை இயக்கினால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="en1">Google Play சேவைகளை இயக்கவும்</string>
+    <string name="en2">நிறுவு</string>
+    <string name="en3">Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s இயங்கும். அவை உங்கள் சாதனத்தில் இல்லை.</string>
+    <string name="en4">Google Play சேவைகளைப் பெறவும்</string>
+    <string name="en5">கிடைக்கும் Google Play சேவைகள்</string>
+    <string name="en6">Google Play சேவைகள் பிழை</string>
+    <string name="en7">Google Play சேவைகளில் சிக்கல் ஏற்பட்டதால், %1$s ஆப்ஸை அணுக முடியவில்லை. மீண்டும் முயலவும்.</string>
+    <string name="en8">Google Play சேவைகள் இருந்தால் மட்டுமே %1$s ஆப்ஸ் இயங்கும். ஆனால், உங்கள் சாதனத்தில் அவை ஆதரிக்கப்படவில்லை.</string>
+    <string name="en9">புதுப்பி</string>
+    <string name="en_">Google Play சேவைகளை இயக்கினால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="ena">Google Play சேவைகளைப் புதுப்பிக்கவும்</string>
+    <string name="enb">தற்போது புதுப்பிக்கப்படும், Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="enc">Google Play சேவைகளின் புதிய பதிப்பு தேவை. அது விரைவில் தானாகவே புதுப்பிக்கப்படும்.</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wq3" n1:background="@drawable/e_c" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwy="0.25" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/bxa" n1:background="@drawable/e__" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bwk="owf" n3:bwy="0.25" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/iah" n1:layout_width="wrap_content" n1:layout_height="1.0dp" n1:layout_marginBottom="112.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.13n1 n1:id="@id/m3c" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.125u n1:id="@id/m24" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="18.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/iah" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

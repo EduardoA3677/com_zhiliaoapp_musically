@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12vX n1:background="@drawable/ee3" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="140.0dp" n2:evp="24.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.13dw n1:layout_gravity="center_horizontal" n1:id="@id/mpl" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+    <X.12nN n1:textSize="28.0dp" n1:textColor="?eio" n1:ellipsize="end" n1:id="@id/y90" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginTop="@dimen/qs" n1:layout_marginBottom="@dimen/qs" n1:layout_marginStart="@dimen/qs" n2:bwk="owf" n2:bwr="@id/imh" n2:bx9="owf" n2:bxc="owf" />
+    <View n1:id="@id/imh" n1:visibility="invisible" n1:layout_width="1.0dp" n1:layout_height="match_parent" n1:layout_marginStart="@dimen/qs" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:id="@id/sf9" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="@dimen/qo" n1:layout_marginRight="@dimen/qo" n1:layout_marginHorizontal="@dimen/qo">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?eio" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/y92" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qo" n1:maxLines="1" n1:layout_marginEnd="@dimen/qo" n2:bwr="@id/sbw" n2:bx9="owf" n2:bxc="owf" n2:fj2="p0" n2:fl1="@dimen/qm" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sbw" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="63.0dp" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/qo" n1:layout_marginBottom="@dimen/qo" n1:layout_marginVertical="@dimen/qo" n2:bwq="owf">
+            <X.0CWL n1:id="@id/kst" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:src="@drawable/eey" n1:layoutDirection="ltr" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+            <X.12nN n1:textColor="?eio" n1:id="@id/y91" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:translationY="6.0dp" n1:textDirection="locale" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/md3" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_marginEnd="@dimen/qo" n2:bwr="@id/sbw" n2:bx9="owf" n2:bxb="@id/y92" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.12vX>

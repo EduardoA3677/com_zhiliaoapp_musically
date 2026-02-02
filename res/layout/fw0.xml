@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0G1u n1:id="@id/spw" n1:background="@color/a10" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:splitMotionEvents="false" n2:bwk="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0G2I n1:id="@id/wcb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:splitMotionEvents="false" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf">
+            <X.0G19 n1:id="@id/wca" n1:layout_width="match_parent" n1:layout_height="20.0dp" />
+        </X.0G2I>
+        <ViewStub n1:id="@id/wch" n1:layout="@layout/c29" n1:inflatedId="@id/n94" n1:layout_width="match_parent" n1:layout_height="20.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="@id/wcb" />
+        <X.0G28 n1:id="@id/gpx" n1:visibility="invisible" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:splitMotionEvents="false" n2:bwk="owf" n2:bx9="owf" n2:bxb="@id/wcb">
+            <TextView n1:textSize="10.0sp" n1:textColor="@color/abj" n1:id="@id/gpw" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:layout_marginTop="2.0dp" n1:text="@null" n1:alpha="0.5" n1:layout_marginStart="4.0dp" />
+            <X.0CKy n1:id="@id/gpv" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </X.0G28>
+        <TextView n1:textSize="14.0sp" n1:textColor="@color/ve" n1:id="@id/flu" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/ht2" />
+        <ViewStub n1:id="@id/v0_" n1:layout="@layout/ewm" n1:inflatedId="@id/fo4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwl="@id/ht2" />
+        <X.0G1q n1:id="@id/v1v" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n2:bwk="owf" n2:bxb="@id/ht2" />
+        <X.0G28 n1:id="@id/ht2" n1:layout_width="match_parent" n1:layout_height="54.0dp" n1:layout_marginTop="20.0dp" n1:splitMotionEvents="false" n2:bxb="@id/wcb">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/mtq" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:splitMotionEvents="false">
+                <com.bytedance.tux.icon.TuxIconView n1:textSize="10.0dp" n1:textColor="#80ffffff" n1:id="@id/xjj" n1:paddingTop="3.0dp" n1:layout_width="40.0dp" n1:layout_height="48.0dp" n1:text="@null" n1:contentDescription="@null" n1:layout_marginStart="50.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+                <X.0G0x n1:layout_gravity="center_vertical" n1:id="@id/niv" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:splitMotionEvents="false" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </X.0G28>
+        <View n1:id="@id/fm1" n1:background="@color/a10" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwk="@id/ht2" n2:bxb="@id/wcb" />
+        <View n1:id="@id/jbx" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwl="@id/v1v" n2:bxc="owf" />
+        <X.0G27 n1:id="@id/w4i" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:splitMotionEvents="false" n2:bwl="@id/ht2" n2:bwq="owf" n2:bx9="owf">
+            <X.0G1B n1:id="@id/w4j" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+        </X.0G27>
+        <X.0G27 n1:id="@id/ur1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:splitMotionEvents="false" n2:bwl="@id/ht2" n2:bwq="owf" n2:bx9="owf">
+            <X.0G1B n1:id="@id/ur2" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+        </X.0G27>
+        <X.0G27 n1:id="@id/nn2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:splitMotionEvents="false" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/ht2">
+            <X.0G1B n1:id="@id/nn3" n1:layout_width="match_parent" n1:layout_height="4.0dp" />
+        </X.0G27>
+        <X.0G27 n1:id="@id/g7s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:splitMotionEvents="false" n2:bwl="@id/ht2" n2:bwq="owf" n2:bx9="owf">
+            <X.0G1B n1:id="@id/g7t" n1:layout_width="match_parent" n1:layout_height="1.0dp" />
+        </X.0G27>
+        <X.0Cfe n1:id="@id/l2b" n1:layout_width="@dimen/ag8" n1:layout_height="match_parent" n1:layout_marginTop="12.0dp" n1:elevation="6.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxb="@id/wcb" />
+        <ImageView n1:id="@id/kbk" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:contentDescription="@null" n1:layout_marginEnd="11.0dp" n2:bwk="@id/ht2" n2:bwq="@id/ht2" n2:bxc="@id/ht2" />
+    </X.0G1u>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oBn n1:layout_gravity="center" n1:id="@id/mj6" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+    <X.13dw n1:id="@id/mpg" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:em4="false" n2:eme="false" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

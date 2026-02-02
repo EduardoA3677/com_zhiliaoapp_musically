@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/rb_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:alpha="0.12" n1:translationX="-10.0dp" n2:bx9="owf" n2:bxc="owf" n2:fjq="@raw/icon_quotation" n2:fjt="56.0dp" n2:fk6="56.0dp" n2:fmy="?dm" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/uvw" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/b1v" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bxc="owf">
+            <X.0Cru n1:layout_gravity="center" n1:id="@id/b1c" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n3:etn="@color/ap" n3:eto="d4s" n3:ey2="true" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e3" n1:id="@id/b1l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n3:fj2="qg" />
+        </LinearLayout>
+        <X.12ij n1:gravity="start" n1:id="@id/dso" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n3:bxb="@id/b1v" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

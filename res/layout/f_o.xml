@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/sf8" n1:background="?y4" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/zzh" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:orientation="vertical" n1:paddingLeft="8.0dp" n1:paddingRight="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp">
+            <X.0Cfz n1:orientation="vertical" n1:background="?y5" n1:paddingLeft="@dimen/qi" n1:paddingTop="28.0dp" n1:paddingRight="@dimen/qi" n1:paddingBottom="28.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:eyn="8.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/j4y" n1:layout_width="70.0dp" n1:layout_height="70.0dp" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="28.0dp" n1:text="@null" n2:fj2="ot" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" n2:fj2="p_" />
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="48.0dp">
+                    <X.0D2z n1:id="@id/h1g" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginEnd="9.0dp" n2:fi8="true" n2:fib="l9r" n2:fj2="pa" />
+                    <X.0D2z n1:id="@id/bj2" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="158.0dp" n1:text="@null" n2:fi8="true" n2:fib="l9r" n2:fj2="pa" />
+                </LinearLayout>
+            </X.0Cfz>
+        </FrameLayout>
+        <X.0o06 n1:id="@id/qav" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" />
+    </LinearLayout>
+</FrameLayout>

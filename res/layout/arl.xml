@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="start" n1:id="@id/s5l" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="4.0dp" n1:textAlignment="viewStart" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0qWv n1:layout_gravity="start" n1:id="@id/s48" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0p5i n1:layout_gravity="start" n1:id="@id/x0f" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="4.0dp" />
+    <X.0CVT n1:id="@id/s52" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <X.0CnQ n1:id="@id/s4t" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" />
+    <X.0qWv n1:id="@id/s57" n1:background="@drawable/b07" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" />
+</LinearLayout>

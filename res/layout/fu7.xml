@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:layout_gravity="bottom" n1:id="@id/eek" n1:background="@color/a0r" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uvn" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" n1:importantForAccessibility="no" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/urj" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <X.0mEN n1:orientation="vertical" n1:id="@id/jvl" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="74.0dp" n2:fdr="@dimen/a0z" n2:fe1="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <ImageView n1:id="@id/tsj" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="14.0dp" n1:scaleType="centerInside" />
+            <RelativeLayout n1:id="@id/jvw" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            <FrameLayout n1:orientation="vertical" n1:id="@id/jw0" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <FrameLayout n1:id="@id/jvp" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/jvo" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <FrameLayout n1:id="@id/uvc" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                        <X.0mEg n1:layout_gravity="start|center" n1:id="@id/kz1" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" />
+                        <View n1:layout_gravity="center_vertical" n1:id="@id/t2r" n1:background="#33ffffff" n1:visibility="gone" n1:layout_width="0.5dp" n1:layout_height="16.0dp" n1:layout_marginLeft="54.0dp" n1:layout_marginStart="54.0dp" />
+                        <X.0mEr n1:id="@id/uva" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:f84="@android:color/transparent" n2:f89="h64" n2:f8e="@color/wt" n2:f8j="2.0dp" n2:f8l="9999.0dp" n2:f8n="sqt" n2:f8q="0.0dp" n2:f8r="0.0dp" />
+                    </FrameLayout>
+                    <View n1:id="@id/lqj" n1:background="@color/ny" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+                    <X.0GEa n1:id="@id/jwg" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                </LinearLayout>
+                <FrameLayout n1:id="@id/jvx" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            </FrameLayout>
+        </X.0mEN>
+    </FrameLayout>
+    <View n1:id="@id/bp5" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" />
+</X.12nR>

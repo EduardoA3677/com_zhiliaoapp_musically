@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="c9">440.0dp</dimen>
+    <dimen name="cd">60.000004%</dimen>
+    <dimen name="ce">90.0%</dimen>
+    <dimen name="cf">60.000004%</dimen>
+    <dimen name="cg">90.0%</dimen>
+    <dimen name="cj">55.000008%</dimen>
+    <dimen name="ck">79.99999%</dimen>
+    <dimen name="afp">1.0dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/volume_panel_layout" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="20.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oCE n1:layout_gravity="center_vertical" n1:id="@id/g6b" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+    <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="center_vertical" n1:id="@id/rna" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,173 @@
+.class public Lcom/bytedance/ies/nle/editor_jni/NLESegment;
+.super Lcom/bytedance/ies/nle/editor_jni/NLENode;
+.source "SourceFile"
+
+
+# instance fields
+.field public transient LIZ:J
+
+.field public transient LIZIZ:Z
+
+
+# direct methods
+.method public constructor <init>(J)V
+    .locals 3
+
+    invoke-static {p1, p2}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->NLESegment_SWIGSmartPtrUpcast(J)J
+
+    move-result-wide v1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v1, v2, v0}, Lcom/bytedance/ies/nle/editor_jni/NLENode;-><init>(JZ)V
+
+    iput-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZIZ:Z
+
+    iput-wide p1, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    return-void
+.end method
+
+.method public static LIZ(Lcom/bytedance/ies/nle/editor_jni/NLESegment;)J
+    .locals 1
+
+    if-nez p0, :cond_0
+
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+
+    :cond_0
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    return-wide v0
+.end method
+
+
+# virtual methods
+.method public LIZIZ()Lcom/bytedance/ies/nle/editor_jni/NLEResourceNode;
+    .locals 5
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->NLESegment_getResource(JLcom/bytedance/ies/nle/editor_jni/NLESegment;)J
+
+    move-result-wide v3
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v0, v3, v1
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_0
+    new-instance v0, Lcom/bytedance/ies/nle/editor_jni/NLEResourceNode;
+
+    invoke-direct {v0, v3, v4}, Lcom/bytedance/ies/nle/editor_jni/NLEResourceNode;-><init>(J)V
+
+    return-object v0
+.end method
+
+.method public LIZJ()LX/0FjN;
+    .locals 2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->NLESegment_getType(JLcom/bytedance/ies/nle/editor_jni/NLESegment;)I
+
+    move-result v0
+
+    invoke-static {v0}, LX/0FjN;->swigToEnum(I)LX/0FjN;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/bytedance/ies/nle/editor_jni/NLENode;->clone()Lcom/bytedance/ies/nle/editor_jni/NLENode;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public declared-synchronized delete()V
+    .locals 5
+
+    monitor-enter p0
+
+    :try_start_0
+    iget-wide v3, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v0, v3, v1
+
+    if-eqz v0, :cond_1
+
+    iget-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZIZ:Z
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZIZ:Z
+
+    invoke-static {v3, v4}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->delete_NLESegment(J)V
+
+    :cond_0
+    iput-wide v1, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    :cond_1
+    invoke-super {p0}, Lcom/bytedance/ies/nle/editor_jni/NLENode;->delete()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public finalize()V
+    .locals 0
+
+    invoke-virtual {p0}, Lcom/bytedance/ies/nle/editor_jni/NLENode;->delete()V
+
+    return-void
+.end method
+
+.method public getDuration()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZ:J
+
+    invoke-static {v0, v1, p0}, Lcom/bytedance/ies/nle/editor_jni/NLEEditorJniJNI;->NLESegment_getDuration(JLcom/bytedance/ies/nle/editor_jni/NLESegment;)J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public swigSetCMemOwn(Z)V
+    .locals 0
+
+    iput-boolean p1, p0, Lcom/bytedance/ies/nle/editor_jni/NLESegment;->LIZIZ:Z
+
+    invoke-super {p0, p1}, Lcom/bytedance/ies/nle/editor_jni/NLENode;->swigSetCMemOwn(Z)V
+
+    return-void
+.end method

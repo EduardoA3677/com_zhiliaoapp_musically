@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/rm0" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout n1:id="@id/i3j" n1:saveEnabled="false" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/rm4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rlm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rlg" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <FrameLayout n1:id="@id/rlo" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <X.13dw n1:layout_gravity="center" n1:id="@id/d58" n1:visibility="gone" n1:layout_width="100.0dp" n1:layout_height="100.0dp" n2:em4="true" n2:eme="true" n2:emg="@raw/tux_lottie_common_creation_ailoading_oral_large" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout>
+</FrameLayout>

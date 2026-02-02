@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/wv6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginTop="@dimen/qu" n1:layout_marginBottom="@dimen/qz" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/wv7" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/wifi_icon" n1:focusable="false" n1:layout_width="@dimen/qg" n1:layout_height="@dimen/qg" n1:layout_centerVertical="true" n1:importantForAccessibility="no" n1:layout_alignParentStart="true" app:fjq="@raw/icon_wifi" app:fjt="@dimen/qg" app:fk6="@dimen/qg" app:fmy="?e1" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:id="@id/wdd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" app:fj2="qd" />
+        <FrameLayout n1:id="@id/bh8" n1:layout_width="@dimen/qk" n1:layout_height="@dimen/qk" n1:layout_marginStart="@dimen/qz" n1:layout_alignParentEnd="true">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/bh6" n1:focusable="false" n1:layout_width="@dimen/qk" n1:layout_height="@dimen/qk" n1:importantForAccessibility="no" app:fjq="@raw/icon_empty_battery_ltr" app:fjt="@dimen/qk" app:fk6="@dimen/qk" app:fmy="?xz" />
+            <X.05ua n1:id="@id/bh9" n1:layout_width="11.0dp" n1:layout_height="6.0dp" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="6.0dp" n1:layout_marginStart="2.25dp" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/bh7" n1:focusable="false" n1:visibility="gone" n1:layout_width="9.0dp" n1:layout_height="9.0dp" n1:layout_marginTop="4.5dp" n1:layout_marginBottom="4.5dp" n1:importantForAccessibility="no" n1:layout_marginStart="3.369995dp" app:fjq="@raw/icon_camera_flash_fill" app:fjt="9.0dp" app:fk6="9.0dp" app:fmy="?e1" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:id="@id/bh_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dp" n1:layout_toStartOf="@id/bh8" app:fj2="qd" />
+    </RelativeLayout>
+</RelativeLayout>

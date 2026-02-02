@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/nuf" n1:visibility="gone" n1:layout_width="80.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:singleLine="true" n1:layout_marginEnd="@dimen/r5" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0CU9 n1:id="@id/t7p" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxHeight="8.0dp" n1:minHeight="8.0dp" n1:paddingStart="0.0dp" n1:paddingEnd="0.0dp" n3:bwk="@id/nuf" n3:bwq="owf" n3:bx8="@id/nuf" n3:bxc="@id/nuf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

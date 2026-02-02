@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View n1:id="@id/fd6" n1:background="@color/ny" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="20.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" />

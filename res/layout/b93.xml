@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout n1:id="@id/gzy" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.feed.platform.cell.interact.view.InteractLinearLayout android:theme="@style/hg" android:layout_gravity="end" android:orientation="vertical" android:id="@id/gzz" android:focusable="false" android:focusableInTouchMode="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout android:layout_gravity="end" android:id="@id/gza" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="50.0dp" android:layout_height="50.0dp" style="@style/a9x">
+            <ImageView android:layout_gravity="center" android:id="@id/tm4" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@raw/icon_bitmap_shadow" android:contentDescription="shadow_view" />
+            <X.0MrB android:layout_gravity="center" android:id="@id/gz5" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="50.0dp" android:layout_height="50.0dp" android:scaleType="centerInside" />
+        </com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout>
+        <com.ss.android.ugc.feed.platform.cell.interact.view.InteractRelativeLayout android:layout_gravity="center_horizontal" android:id="@id/gzd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <X.0ME0 android:ellipsize="end" android:id="@id/gzc" android:paddingBottom="16.0dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_marginTop="-3.399994dp" android:maxLines="1" android:layout_centerHorizontal="true" android:importantForAccessibility="no" android:layoutDirection="locale" app:fj2="pz" style="@style/a_0" />
+        </com.ss.android.ugc.feed.platform.cell.interact.view.InteractRelativeLayout>
+    </com.ss.android.ugc.feed.platform.cell.interact.view.InteractLinearLayout>
+</com.ss.android.ugc.feed.platform.cell.interact.view.InteractFrameLayout>

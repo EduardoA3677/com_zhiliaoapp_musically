@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12on n1:id="@id/e8w" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView n1:id="@id/e8v" n1:paddingTop="@dimen/qi" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.12on>

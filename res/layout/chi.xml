@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/cg7" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/a83" n1:background="@drawable/cbc" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="16.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_add_to_story" n2:fjt="17.0dp" n2:fk6="18.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

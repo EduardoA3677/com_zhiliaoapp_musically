@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/htd" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nR n1:gravity="bottom" n1:layout_gravity="bottom" n1:id="@id/eeo" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="@dimen/g6">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/sed" n1:background="@drawable/abc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bw_="com.ss.android.ugc.aweme.account.login.ViewPagerBottomSheetBehavior" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/wh4" n1:layout_width="wrap_content" n1:layout_height="52.0dp" n1:text="@null" n1:maxLines="1" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n1:alpha="0.0" n1:layout_toStartOf="@id/wu4" n1:layout_toEndOf="@id/wst" n2:fj2="p0" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/wst" n1:padding="@dimen/hr" n1:visibility="gone" n1:layout_width="@dimen/hm" n1:layout_height="@dimen/hm" n1:layout_marginTop="@dimen/hq" n1:layout_alignParentTop="true" n1:contentDescription="@null" n1:layout_marginStart="@dimen/hp" n1:layout_alignParentStart="true" n2:fb9="?zz" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/wu4" n1:padding="@dimen/hr" n1:visibility="gone" n1:layout_width="@dimen/hm" n1:layout_height="@dimen/hm" n1:layout_marginTop="@dimen/hq" n1:layout_alignParentTop="true" n1:contentDescription="@null" n1:layout_marginEnd="@dimen/hp" n1:layout_alignParentEnd="true" n2:fb9="?zz" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:id="@id/u49" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="14.0dp" n1:text="@null" n1:layout_alignParentTop="true" n1:layout_marginEnd="16.0dp" n1:layout_alignParentEnd="true" n2:fj2="pu" />
+            </RelativeLayout>
+            <View n1:id="@id/fd6" n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:alpha="0.0" />
+            <FrameLayout n1:id="@id/u09" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </LinearLayout>
+    </X.12nR>
+</FrameLayout>

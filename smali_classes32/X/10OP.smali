@@ -1,0 +1,92 @@
+.class public final LX/10OP;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 7
+
+    :try_start_0
+    invoke-static {}, LX/0B4U;->LJIIIZ()LX/0B4U;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    const-string v2, "spark_lynx_prefetch_fallback_to_v1"
+
+    const/16 v3, 0x7c00
+
+    const-class v4, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;
+
+    sget-object v5, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1;->LIZ:Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;
+
+    const/4 v6, 0x2
+
+    invoke-virtual/range {v0 .. v6}, LX/0B4U;->LJIJJLI(ZLjava/lang/String;ILjava/lang/Class;Ljava/lang/Object;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;
+
+    if-eqz v0, :cond_0
+
+    iget-boolean v0, v0, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;->fallback:Z
+
+    goto :goto_0
+
+    :cond_0
+    iget-boolean v0, v5, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;->fallback:Z
+
+    goto :goto_0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    sget-object v0, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1;->LIZ:Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;
+
+    iget-boolean v0, v0, Lcom/ss/android/ugc/aweme/settings/SparkLynxPrefetchFallbackToV1$Model;->fallback:Z
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method

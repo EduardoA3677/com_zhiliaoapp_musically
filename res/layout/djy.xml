@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ls4" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/mgk" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n2:bwr="@id/y8w" n2:bx9="owf" n2:bxc="owf" n2:bxg="wrap" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:layout_gravity="center" n1:id="@id/jm9" n1:visibility="gone" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:scaleType="centerInside" n1:layout_marginEnd="4.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/y8v" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Product Info" n1:singleLine="true" n1:textDirection="locale" n1:textAlignment="viewStart" n2:fj2="p5" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/y8w" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwq="owf" n3:bx8="@id/mgk" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:id="@id/y8x" n1:layout_width="12.0dp" n1:layout_height="wrap_content" n1:text="·" n1:singleLine="true" n3:bwg="true" n3:fj2="p5" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/y8y" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:textDirection="locale" n1:layout_marginEnd="2.0dp" n3:bwg="true" n3:fj2="p5" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/y8z" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:textDirection="locale" n1:textAlignment="viewStart" n3:bwg="true" n3:fj2="p5" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

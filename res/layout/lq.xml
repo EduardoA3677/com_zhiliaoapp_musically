@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137G n1:scrollbarStyle="insideOverlay" n1:id="@id/aqq" n1:scrollbars="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/aoa" n1:paddingTop="8.0dp" n1:paddingBottom="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </X.137G>
+</LinearLayout>

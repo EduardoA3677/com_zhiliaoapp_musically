@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/qsk" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/nvd" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" n1:layout_below="@id/uo8" />
+        <X.0oEw n1:orientation="vertical" n1:id="@id/qot" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/nvd">
+            <X.0Cze n1:id="@id/ron" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fj3="true" n2:fl9="oh9" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <X.0irW n1:orientation="vertical" n1:id="@id/sqa" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                    <include layout="@layout/eni" />
+                </X.0irW>
+            </X.0Cze>
+        </X.0oEw>
+    </LinearLayout>
+    <ViewStub n1:id="@id/o57" n1:layout="@layout/elu" n1:layout_width="200.0dp" n1:layout_height="wrap_content" n1:layout_marginBottom="44.0dp" n1:minWidth="178.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <X.0jep n1:id="@id/view_homepage_bottom_toast" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="44.0dp" n1:layout_alignParentBottom="true" />
+    <ViewStub n1:id="@id/view_homepage_bottom_ProfileNotice_toast" n1:visibility="gone" n1:layout="@layout/elv" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="44.0dp" n1:layout_alignParentBottom="true" />
+    <ViewStub n1:id="@id/view_homepage_bottom_profile_ay_toast" n1:visibility="gone" n1:layout="@layout/efi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="44.0dp" n1:layout_alignParentBottom="true" />
+    <FrameLayout n1:id="@id/qol" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <ViewStub n1:id="@id/view_homepage_bottom_photo_mode_notice_toast" n1:layout="@layout/em3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="52.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+    <X.0uEI n1:id="@id/view_reward_notice" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="56.0dp" n1:layout_alignParentBottom="true" n3:b_i="Start earning free gifts today." n3:b_k="@drawable/d2w" n3:b_l="Join" n3:b_n="TikTok Rewards" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0uEI n1:id="@id/zyr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="56.0dp" n1:layout_alignParentBottom="true" n4:b_i="You 've been invited to join Business Account" n4:b_k="@drawable/d2n" n4:b_l="Join" n4:b_n="Join Business Account!" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0uEI n1:id="@id/zyy" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="56.0dp" n1:layout_alignParentBottom="true" n5:b_i="@null" n5:b_l="@null" n5:b_n="@null" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/nu9" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="56.0dp" n1:layout_alignParentBottom="true" />
+    <ViewStub n1:id="@id/nu8" n1:layout="@layout/ej_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+    <ViewStub n1:id="@id/view_stub_create_effect_button" n1:layout="@layout/bfb" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="44.0dp" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

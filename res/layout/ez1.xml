@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:flz="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0mMn n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:fly="wrap_content" n2:flz="true" n2:fm4="@dimen/b9" n2:fm7="mzu">
+            <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bp9="h_y" n2:fps="0.625" />
+        </X.0mMn>
+        <X.0n4v n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n2:flz="true" n2:fm0="100%,67%">
+            <com.bytedance.tux.input.TuxTextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="p7" />
+        </X.0n4v>
+        <X.0n4v n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="8.0dp" n1:layout_marginHorizontal="8.0dp" n2:flz="true" n2:fm0="100%">
+            <com.bytedance.tux.input.TuxTextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:fj2="pz" />
+        </X.0n4v>
+    </LinearLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

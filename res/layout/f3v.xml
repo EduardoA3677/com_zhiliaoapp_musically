@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:id="@id/sez" n1:background="?sr" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bp9="h_y" n2:fps="0.63" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <X.0CW9 n1:id="@id/cover" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:b41="hmx" n2:bls="?zp" n2:bzc="180.0dp" />
+    <ViewStub n1:id="@id/rke" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/m_h" n1:background="@drawable/d74" n1:paddingLeft="7.0dp" n1:paddingRight="7.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="7.0dp" n1:paddingEnd="7.0dp">
+        <ViewStub n1:id="@id/v01" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/desc" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="4.0dp" n1:maxLines="3" n2:fj2="pu" />
+        <LinearLayout n1:layout_gravity="bottom" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp">
+            <X.0D1z n1:id="@id/b1c" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginRight="3.0dp" n1:layout_marginEnd="3.0dp" n2:etn="?bv" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/b1l" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dp" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginEnd="10.0dp" n2:fj2="q1" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:layout_gravity="center_vertical" n1:id="@id/lp8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:drawablePadding="2.0dp" n1:drawableStart="@drawable/cil" n2:fj2="q1" />
+        </LinearLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

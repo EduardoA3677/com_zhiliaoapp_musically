@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/sc1" n1:layout_width="160.0dp" n1:layout_height="44.0dp" n1:layout_marginTop="@dimen/abo" n1:layout_alignParentTop="true" n1:layout_centerInParent="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/ki1" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:scaleType="centerInside" n1:layout_centerVertical="true" n2:fjq="@raw/icon_music_note_s_alt" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0Cvq n1:textSize="13.0dp" n1:textColor="?e0" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/xs9" n1:paddingBottom="1.5dp" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:layout_marginLeft="4.0dp" n1:text="@null" n1:scrollHorizontally="true" n1:singleLine="true" n1:shadowColor="?nd" n1:shadowDx="0.0" n1:shadowDy="2.0" n1:shadowRadius="2.0" n1:layout_toRightOf="@id/ki1" n1:marqueeRepeatLimit="marquee_forever" n1:layout_marginStart="4.0dp" n1:layout_toEndOf="@id/ki1" />
+</RelativeLayout>

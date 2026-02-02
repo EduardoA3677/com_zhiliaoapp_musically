@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:background="@drawable/dx6" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="end" n1:id="@id/f8u" n1:padding="14.0dp" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n2:br4="?e_u" n2:brl="?dm" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="22.0sp" n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/xx1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-8.0dp" n1:maxLines="2" n1:includeFontPadding="false" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n1:lineHeight="26.0dp" n1:textFontWeight="700" style="@style/a6o" />
+    <androidx.viewpager.widget.ViewPager n1:layout_gravity="center_horizontal" n1:id="@id/imc" n1:layout_width="210.0dp" n1:layout_height="213.0dp" n1:layout_marginTop="20.0dp" n1:scaleType="fitXY" />
+    <X.12nN n1:textSize="15.0sp" n1:textColor="?zw" n1:ellipsize="end" n1:gravity="center" n1:id="@id/xwe" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:lines="2" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n1:textFontWeight="600" style="@style/a6u" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/iky" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="18.0dp">
+        <View n1:id="@id/view_point_index_1" n1:background="@drawable/ckv" n1:layout_width="7.0dp" n1:layout_height="7.0dp" />
+        <View n1:id="@id/view_point_index_2" n1:background="@drawable/ckw" n1:layout_width="7.0dp" n1:layout_height="7.0dp" n1:layout_marginLeft="10.0dp" n1:layout_marginRight="10.0dp" />
+        <View n1:id="@id/view_point_index_3" n1:background="@drawable/ckw" n1:layout_width="7.0dp" n1:layout_height="7.0dp" />
+    </LinearLayout>
+    <X.12nN n1:textSize="15.0sp" n1:textColor="?c3" n1:ellipsize="end" n1:gravity="center" n1:id="@id/y2_" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginBottom="32.0dp" n1:maxLines="1" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n1:textFontWeight="600" style="@style/a6u" />
+</LinearLayout>

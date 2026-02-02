@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0hDh n1:id="@id/r68" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layoutDirection="locale" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/sck" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/m_a" n1:background="@drawable/da5" n1:paddingTop="14.0dp" n1:paddingBottom="14.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:id="@id/sbq" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/xw9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <ViewStub n1:id="@id/tp5" n1:visibility="gone" n1:layout="@layout/fcg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_below="@id/xw9" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</X.0hDh>

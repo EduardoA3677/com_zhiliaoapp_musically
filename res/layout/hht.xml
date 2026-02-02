@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:id="@id/jws" n1:background="?c0q" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwk="owf" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <View n1:background="?ej9" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" />
+    <X.0D0r n1:layout_gravity="center_vertical" n1:id="@id/b64" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="9.0dp" n1:layout_marginStart="10.0dp" n2:bne="@drawable/ewh" n2:bnf="d4s" n2:bwk="owf" n2:bx9="owf" n2:etn="?c3r" n2:ey2="true" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/gux" n1:background="@drawable/f9d" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="@dimen/r5" n1:minHeight="42.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="12.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/b64" n2:bxc="owf">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/jz1" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:layout_marginBottom="9.0dp" n2:bwk="owf" n2:bwq="owf">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ohv" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:br4="?cl5" n2:brl="?ehx" n2:bwk="owf" n2:bwr="@id/ohx" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ohu" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="10.0dp" n2:br4="?dbk" n2:brl="?ehx" n2:bwk="owf" n2:bwq="owf" />
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/tdj" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="10.0dp" n2:br4="?cki" n2:brl="?ef6" n2:bwk="owf" n2:bwq="owf" />
+        </LinearLayout>
+        <X.0cqo n1:textColor="?ehx" n1:textColorHint="?ehy" n1:id="@id/g4i" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="11.0dp" n1:layout_marginBottom="11.0dp" n1:minHeight="19.0dp" n1:hint="@null" n1:maxLines="3" n1:lineSpacingExtra="5.0sp" n1:textIsSelectable="false" n1:textDirection="anyRtl" n1:textAlignment="viewStart" n1:layout_marginStart="14.0dp" n1:layout_marginEnd="8.0dp" n2:bwk="owf" n2:bwr="@id/jz1" n2:bx9="owf" n2:bxc="owf" style="@style/a6s" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

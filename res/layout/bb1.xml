@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat n1:gravity="center_vertical" n1:id="@id/uy0" n1:background="@drawable/bal" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="20.0dp" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="2.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/uxz" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="2.0dp" n2:fjq="@raw/icon_story_star" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="center_vertical" n1:id="@id/uxe" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.appcompat.widget.LinearLayoutCompat>

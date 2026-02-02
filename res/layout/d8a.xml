@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/jn6" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/rn4" n1:layout_below="@id/iqe" n1:layout_centerInParent="true" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.11NI n1:layout_gravity="center" n1:id="@id/qf9" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layerType="software" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center" n1:id="@id/hca" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <FrameLayout n1:id="@id/o0m" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+    <X.0CVH n1:id="@id/myz" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

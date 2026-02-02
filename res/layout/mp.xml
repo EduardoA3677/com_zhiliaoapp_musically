@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/rt5" n1:background="?dp" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:alpha="0.6" n1:paddingStart="12.0dp" n1:paddingEnd="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/rt7" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:contentDescription="repetitive questionnaire banner" n1:layout_marginEnd="8.0dp" n2:fjq="@raw/icon_script_fill" n2:fmy="@android:color/white" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="@android:color/white" n1:ellipsize="end" n1:id="@id/rt6" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_weight="1.0" n1:layout_marginEnd="12.0dp" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <Button n1:textColor="@android:color/white" n1:id="@id/rt9" n1:background="@drawable/a42" n1:layout_width="48.0dp" n1:layout_height="26.0dp" n1:layout_marginEnd="4.0dp" n4:fj2="q2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <Button n1:textColor="@android:color/white" n1:id="@id/rt8" n1:background="@drawable/a42" n1:layout_width="48.0dp" n1:layout_height="26.0dp" n5:fj2="q2" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

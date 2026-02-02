@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/z7f" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/z7e" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textAlignment="viewStart" n2:fj2="p7" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/z7d" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:textAlignment="viewStart" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.0D97 n1:orientation="vertical" n1:id="@id/m9h" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <X.0CU3 n1:layout_gravity="center_vertical" n1:id="@id/z7_" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp" n4:arc="?uu" n4:fi6="fh_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/z7b" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_chevron_right_ltr" n5:fmy="?a04" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/m9p" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.0qMh n1:orientation="horizontal" n1:id="@id/gng" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp" />
+    <include n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/aj9" />
+</LinearLayout>

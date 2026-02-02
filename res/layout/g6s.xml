@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ser" n1:background="@drawable/duc" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:minHeight="155.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="horizontal" n1:id="@id/whs" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:paddingHorizontal="16.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/bai" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:br4="?ctx" n2:brl="?ekp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" />
+        <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:id="@id/title" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="60.0dp" n1:layout_marginRight="60.0dp" n1:text="@null" n1:layout_marginHorizontal="60.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" style="@style/a6q" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.137G n1:id="@id/ean" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwk="owf" n3:bxb="@id/whs" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/b6v" n1:visibility="gone" n1:layout_width="150.0dp" n1:layout_height="80.0dp" n1:layout_marginTop="48.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf">
+                <ImageView n1:id="@id/anx" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" />
+                <X.137w n1:background="@drawable/duc" n1:layout_width="86.0dp" n1:layout_height="86.0dp" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" n3:ffh="43.0dp" />
+                <ImageView n1:id="@id/avd" n1:layout_width="80.0dp" n1:layout_height="80.0dp" n3:bwk="owf" n3:bwq="owf" n3:bxc="owf" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <X.12nN n1:textColor="?eks" n1:ellipsize="end" n1:gravity="center" n1:id="@id/ihr" n1:paddingLeft="30.0dp" n1:paddingRight="30.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dp" n1:text="@null" n1:maxLines="2" n1:paddingHorizontal="30.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/b6v" style="@style/a6p" />
+            <X.12nN n1:textColor="?eks" n1:ellipsize="end" n1:id="@id/uwa" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp" n1:text="@null" n1:maxLines="1" n1:layout_marginStart="16.0dp" n3:bx9="owf" n3:bxb="@id/ihr" style="@style/a6x" />
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/gmg" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/uwa">
+                <X.0d3Z n1:background="@drawable/m9" n1:layout_width="130.0dp" n1:layout_height="96.0dp" />
+                <X.12nN n1:textColor="?eks" n1:ellipsize="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:text="@null" n1:maxLines="2" n3:bx9="owf" n3:bxb="@id/ihr" style="@style/a6x" />
+            </LinearLayout>
+            <X.0d4p n1:id="@id/avn" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/uwa" n3:by3="5.0dp" />
+            <X.0rBl n1:layout_gravity="center" n1:id="@id/mlu" n1:background="?c0q" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:minHeight="120.0dp" n1:layout_weight="1.0" n3:bwk="owf" n3:bwq="owf" n3:bwv="ujj" n3:bx9="owf" n3:bxb="@id/uwa" n3:by3="8.0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </X.137G>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/vim" n1:background="?y4" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/vil" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <X.06GE n1:id="@id/viq" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingVertical="12.0dp" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="4.0dp" n1:layout_weight="1.0">
+        <X.0Cze n1:id="@id/vio" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0o06 n1:id="@id/vin" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingHorizontal="16.0dp" />
+        </X.0Cze>
+        <X.0oCE n1:id="@id/vip" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="20.0dp" n1:paddingRight="20.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/dq9" n1:background="@drawable/axj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/dqh" n1:layout_centerHorizontal="true">
+        <ImageView n1:id="@id/dq_" n1:padding="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/axm" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" />
+        <TextView n1:id="@id/dqg" n1:padding="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toLeftOf="@id/dq_" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" style="@style/aew" />
+    </RelativeLayout>
+    <ImageView n1:id="@id/dqh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="-10.0dp" n1:src="@drawable/axl" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" />
+    <ImageView n1:layout_gravity="center|bottom" n1:id="@id/dqf" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-13.0dp" n1:src="@drawable/axk" n1:layout_below="@id/dq9" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

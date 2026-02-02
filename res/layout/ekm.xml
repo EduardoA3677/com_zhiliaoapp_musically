@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D2z n1:id="@id/nnf" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n2:bwk="owf" n2:bwr="@id/nnj" n2:bx0="ori" n2:bx9="owf" n2:bxc="owf" n2:fib="l9r" n2:fid="t69" n2:fk4="@raw/icon_list_add" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/nnj" n1:layout_width="8.0dp" n1:layout_height="0.0dp" n3:bwk="@id/no2" n3:bwr="@id/no2" n3:bx8="@id/nnf" n3:bxc="@id/no2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:id="@id/no2" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:text="@null" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/nnj" n4:bxc="owf" n4:fib="l9r" n4:fid="qhx" n4:fk4="@raw/icon_video_fill" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

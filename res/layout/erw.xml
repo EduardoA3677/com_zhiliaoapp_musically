@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/c26" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="vertical" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0mEX n1:textSize="11.0dp" n1:textColor="@color/dn" n1:ellipsize="end" n1:gravity="center_vertical" n1:id="@id/xlq" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="8.0dp" n1:text="@null" n1:maxLines="2" n1:shadowColor="?nd" n1:shadowRadius="2.0" n1:lineSpacingExtra="2.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:btf="false" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0mMs n1:id="@id/zoo" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bnt="16.0dp" n3:bu6="16.0dp" n3:bvw="16.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp">
+                <X.0mEb n1:layout_gravity="center_vertical" n1:id="@id/asb" n1:layout_width="10.0dp" n1:layout_height="2.0dp" n1:layout_marginLeft="38.0dp" n1:layout_marginStart="38.0dp" n4:bt8="false" n4:ey9="10.0dp" n4:fom="true" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/u0j" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <X.0mEb n1:layout_gravity="top" n1:layout_width="match_parent" n1:layout_height="0.5dp" n5:f7k="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <X.0mEY n1:layout_gravity="start|center" n1:id="@id/kbt" n1:padding="5.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:src="@drawable/c69" n1:scaleType="centerInside" n1:layout_marginStart="16.0dp" />
+        <X.0mEX n1:textSize="17.0sp" n1:textStyle="bold" n1:textColor="?e0" n1:layout_gravity="center" n1:id="@id/u0t" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" />
+        <X.0mEY n1:layout_gravity="end|center" n1:id="@id/kde" n1:padding="5.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="16.0dp" n1:src="@drawable/c6_" n1:scaleType="centerInside" n1:layout_marginEnd="16.0dp" />
+    </FrameLayout>
+</FrameLayout>

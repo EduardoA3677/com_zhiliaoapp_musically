@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/duy" n1:layout_width="match_parent" n1:layout_height="56.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0D0r n1:id="@id/dun" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:layout_marginStart="12.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" n2:ey2="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ehx" n1:ellipsize="end" n1:id="@id/duu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" n3:bwg="true" n3:bwl="@id/duq" n3:bwr="@id/dux" n3:bwz="0.0" n3:bx0="ori" n3:bx8="@id/dun" n3:bxc="@id/dun" n3:bxe="ori" style="@style/a6s" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ei6" n1:id="@id/dux" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:textAlignment="viewStart" n4:bwk="@id/duu" n4:bwr="@id/dur" n4:bx8="@id/duu" n4:bxc="@id/duu" style="@style/a7b" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ei6" n1:id="@id/duq" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:maxLines="1" n1:singleLine="true" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="18.0dp" n5:bwk="@id/dun" n5:bwr="@id/dur" n5:bx8="@id/dun" n5:bxb="@id/duu" style="@style/a77" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="vertical" n1:id="@id/dur" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:bwt="60.0dp" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.12q0 n1:id="@id/duo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="20.0dp" n7:bwk="owf" n7:bwq="owf" n7:bxc="owf" style="@style/a69" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

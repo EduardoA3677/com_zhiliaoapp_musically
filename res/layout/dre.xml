@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/nbm" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/lln" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginRight="52.0dp" n1:layout_marginBottom="16.0dp">
+        <RelativeLayout n1:id="@id/mnq" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.bytedance.lighten.loader.SmartImageView n1:id="@id/nbk" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n2:etn="@drawable/cp3" n2:eto="d4s" n2:eyl="@dimen/b8" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <View n1:id="@id/nbl" n1:background="@drawable/ddb" n1:layout_width="40.0dp" n1:layout_height="40.0dp" />
+        </RelativeLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/nb8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/mnq" n1:layout_centerVertical="true" n1:layout_marginStart="10.0dp">
+            <LinearLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Dramabox" n3:fj2="p0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/j68" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:contentDescription="@null" n1:layout_marginStart="2.0dp" n1:clipToOutline="true" n4:fjq="@raw/icon_chevron_right_fill_ltr" n4:fmy="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:gravity="start" n1:layout_gravity="start" n1:id="@id/v99" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Stream Drama Shorts" n1:maxLines="1" n5:fj2="px" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/wjp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="15.0dp" n1:text="@null" n6:fj2="p3" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/djb" n1:layout_width="@dimen/r8" n1:layout_height="@dimen/r8" n1:layout_marginTop="12.0dp" n1:layout_alignParentRight="true" n1:contentDescription="close" n7:fjq="@raw/icon_x_mark_small" n7:fmy="?zw" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

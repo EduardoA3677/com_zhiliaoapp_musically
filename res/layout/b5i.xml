@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/fzr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CHZ n1:id="@id/s_e" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0CHa n1:id="@id/lmr" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ile" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="138.0dp" n1:baselineAligned="true" n1:layout_centerHorizontal="true">
+        <X.12ij n1:layout_gravity="center_vertical" n1:id="@id/ild" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/il6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n2:fjq="@raw/icon_play_fill" n2:fjt="12.0dp" n2:fk6="8.0dp" n2:fmy="?xx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ik_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:importantForAccessibility="no" n3:fjq="@raw/icon_play_fill" n3:fjt="12.0dp" n3:fk6="8.0dp" n3:fmy="?xx" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</RelativeLayout>

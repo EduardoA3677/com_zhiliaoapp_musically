@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:gravity="center" n1:id="@id/h5c" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="24.0dp" n2:bxc="owf" n2:fj2="px" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/h5g" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n3:bxb="@id/h5c" n3:fie="rbs" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0oaU n1:id="@id/h5h" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n4:bxb="@id/h5g" n4:fie="rbs" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0qTA n1:id="@id/h5i" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n5:bxb="@id/h5h" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.0D2z n1:enabled="false" n1:id="@id/h5k" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dp" n1:layout_marginBottom="30.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n6:bwk="owf" n6:bxb="@id/h5i" n6:fib="l9r" n6:fid="qhx" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

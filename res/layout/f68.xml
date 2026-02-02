@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/sb_" n1:layout_width="match_parent" n1:layout_height="@dimen/az0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/sba" n1:background="?sz" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/bao" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/ban" n1:padding="10.0dp" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginLeft="6.0dp" n1:layout_marginStart="6.0dp" n2:fjq="@raw/icon_arrow_left_ltr" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/swn" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_centerVertical="true" n1:layout_toStartOf="@id/t3o" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/t3o" n1:visibility="gone" n1:layout_width="32.0dp" n1:layout_height="40.0dp" n1:layout_centerVertical="true" n1:contentDescription="@null" n1:layout_marginStart="8.0dp" n1:layout_toStartOf="@id/t41" n3:fjt="24.0dp" n3:fk6="24.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="center_vertical" n1:id="@id/t41" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?yi" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/ymo" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:text="@string/qed" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="44.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/kz3" n1:visibility="gone" n1:clickable="false" n1:layout_width="56.0dp" n1:layout_height="44.0dp" n5:fjq="@raw/icon_control" n5:fjt="24.0dp" n5:fk6="24.0dp" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/t3n" n1:visibility="gone" n1:clickable="false" n1:layout_width="36.0dp" n1:layout_height="40.0dp" n1:contentDescription="@null" n6:fjq="@raw/icon_ellipsis_horizontal" n6:fjt="24.0dp" n6:fk6="24.0dp" n6:fmy="?zw" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </FrameLayout>
+    <include n1:layout_gravity="center_vertical" n1:layout_width="match_parent" n1:layout_height="36.0dp" n1:layout_toRightOf="@id/bao" n1:layout_centerInParent="true" n1:layout_toStartOf="@id/swn" n1:layout_toEndOf="@id/bao" layout="@layout/f67" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vvy" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0Cru n1:id="@id/ijc" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwk="@id/ikj" n2:bwq="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ikj" n1:layout_width="94.0dp" n1:layout_height="94.0dp" n1:layout_marginEnd="10.0dp" n3:b41="d4s" n3:bne="?bv" n3:bwr="@id/ijc" n3:bxc="owf" n3:etn="?bv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ijb" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginStart="32.0dp" n4:bwk="@id/ijj" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <X.0oMU n1:id="@id/ijj" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="12.0dp" n1:layout_marginStart="74.0dp" n1:layout_marginEnd="74.0dp" n1:paddingVertical="10.0dp" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/ikj" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/wnr" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_alignParentStart="true" n2:bai="true" n2:br4="@raw/icon_robot" n2:bra="0.75" n2:bro="0.75" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.12nN n1:textColor="?ehx" n1:gravity="center_vertical" n1:id="@id/wof" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:paddingStart="8.0dp" n1:layout_toEndOf="@id/wnr" style="@style/a6u" />
+        <X.12q2 n1:id="@id/aeq" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <X.12nN n1:textColor="?ei4" n1:gravity="start" n1:id="@id/aen" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lineSpacingExtra="3.0dp" n1:paddingStart="32.0dp" style="@style/a77" />
+</LinearLayout>

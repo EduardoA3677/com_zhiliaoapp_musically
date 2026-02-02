@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="@drawable/d3r" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/qrn" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" n1:adjustViewBounds="true" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/qqc" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n1:layout_marginBottom="147.0dp" n2:bwk="owf" n2:bwq="owf" n2:bww="346.0dp" n2:bx9="owf" n2:bxc="owf" n2:bxh="295.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/qrj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="39.0dp" n1:layout_marginStart="16.0dp" n3:bx9="owf" n3:bxc="owf" n3:fjq="@raw/icon_arrow_left_ltr" n3:fmy="?c6" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/qrk" n1:background="@drawable/d3t" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwk="owf" n4:bx8="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/qrm" n1:background="@drawable/d3u" n1:layout_width="match_parent" n1:layout_height="44.0dp">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:layout_marginStart="16.0dp">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?c6" n1:gravity="center" n1:id="@id/qro" n1:layout_width="wrap_content" n1:layout_height="0.0dp" n1:text="@null" n1:layout_weight="1.0" n4:fj2="p0" />
+                <View n1:background="?c6" n1:layout_width="match_parent" n1:layout_height="2.0dp" />
+            </LinearLayout>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView n1:layout_gravity="center_horizontal" n1:id="@id/qrl" n1:paddingTop="15.0dp" n1:paddingBottom="15.0dp" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="230.0dp" n1:overScrollMode="never" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

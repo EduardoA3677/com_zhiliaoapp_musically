@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0CMW n1:theme="@style/xr" n1:orientation="vertical" n1:id="@id/mg7" n1:background="?y1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="185.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:orientation="vertical" n1:id="@id/ean" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <FrameLayout n1:id="@id/whs" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/gr5" n1:layout_width="match_parent" n1:layout_height="0.0dp" n3:bx9="owf" n3:bxb="@id/whs" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/hiy" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:minHeight="115.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/gr5" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/gdu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="135.0dp">
+        <X.12nN n1:textSize="14.0dp" n1:textColor="?e2" n1:layout_gravity="center" n1:id="@id/xya" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" style="@style/a76" />
+        <ViewStub n1:id="@id/view_stub_loading_container" n1:layout="@layout/dmd" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub n1:id="@id/view_stub_nearby_entrance_container" n1:layout="@layout/dmf" n1:layout_width="match_parent" n1:layout_height="@dimen/a3h" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" />
+    <ViewStub n1:id="@id/view_stub_nearby_entrance_container_v2" n1:layout="@layout/dmg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" />
+    <ViewStub n1:id="@id/view_stub_nearby_entrance_container_v3" n1:layout="@layout/dmh" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/c1h" n1:layout_width="0.0dp" n1:layout_height="30.0dp" />
+</X.0CMW>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Онлайн дыбыстар кітапханасы</item>
+        <item>Менің музыкам</item>
+    </string-array>
+    <string-array name="l">
+        <item>Тазалау</item>
+    </string-array>
+    <string-array name="q">
+        <item>Жою</item>
+        <item>Бас тарту</item>
+    </string-array>
+    <string-array name="t">
+        <item>Трендте</item>
+        <item>Соңғы</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>Алғашқы 20</item>
+        <item>Алғашқы 40</item>
+        <item>Алғашқы 60</item>
+        <item>Алғашқы 80</item>
+        <item>Алғашқы 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Галереядан таңдау</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Жексенбі</item>
+        <item>Дүйсенбі</item>
+        <item>Сейсенбі</item>
+        <item>Сәрсенбі</item>
+        <item>Бейсенбі</item>
+        <item>Жұма</item>
+        <item>Сенбі</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Жеңілдетілген қытай тілі</item>
+        <item>Дәстүрлі қытай тілі</item>
+        <item>Ағылшынша</item>
+        <item>Жапонша</item>
+        <item>Корей</item>
+        <item>Орысша</item>
+        <item>Индонезиялық</item>
+        <item>Малай</item>
+        <item>Португалша</item>
+        <item>Тай</item>
+        <item>Вьетнамша</item>
+        <item>Хинди</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Қалыпты</item>
+        <item>Қара-ақ</item>
+        <item>Өнер</item>
+        <item>Винтаж</item>
+        <item>Ретро-люкс</item>
+        <item>Контраст</item>
+        <item>Хроматикалық</item>
+    </string-array>
+    <string-array name="af">
+        <item>Қаң</item>
+        <item>Ақп</item>
+        <item>Нау</item>
+        <item>Сәу</item>
+        <item>Мам</item>
+        <item>Мау</item>
+        <item>Шіл</item>
+        <item>Там</item>
+        <item>Қыр</item>
+        <item>Қаз</item>
+        <item>Қар</item>
+        <item>Жел</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Трафикті үнемдеу</item>
+        <item>Жоғары ажыратымдылық</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Барлығы</item>
+        <item>Тек достар</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Дүйсенбі</item>
+        <item>Сейсенбі</item>
+        <item>Сәрсенбі</item>
+        <item>Бейсенбі</item>
+        <item>Жұма</item>
+        <item>Сенбі</item>
+        <item>Жексенбі</item>
+    </string-array>
+</resources>

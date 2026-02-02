@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/u4s" n1:focusable="true" n1:clickable="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/cha" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/r5" n1:layout_marginStart="@dimen/qf" n1:clipToOutline="true">
+        <X.0Da0 n1:layout_gravity="start" n1:id="@id/chk" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout n1:id="@id/u4t" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ebi" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <FrameLayout n1:id="@id/u6p" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <X.0DAJ n1:id="@id/qav" n1:background="?zq" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:overScrollMode="never" n3:bwk="@id/o83" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/u6p" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <FrameLayout n1:id="@id/o83" n1:layout_width="match_parent" n1:layout_height="wrap_content" n4:bwl="@id/by_" n4:bwq="owf" n4:bx9="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                <include n1:id="@id/c1z" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" layout="@layout/axy" />
+                <include n1:id="@id/u6h" n1:background="?dp" n1:paddingTop="10.0dp" n1:paddingBottom="10.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" layout="@layout/ay6" />
+                <X.0DR2 n1:id="@id/qcp" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </FrameLayout>
+            <FrameLayout n1:id="@id/by_" n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bwk="owf" n5:bwq="owf" n5:bx9="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            <X.0D1L n1:id="@id/u5k" n1:visibility="visible" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginTop="@dimen/qg" n1:layout_marginEnd="@dimen/qi" n6:b_a="@drawable/b7f" n6:brt="2.0dp" n6:bru="@raw/icon_x_mark" n6:brv="?e0" n6:bwq="owf" n6:bxc="@id/qav" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.cardview.widget.CardView n1:gravity="center" n1:id="@id/wqq" n1:padding="@dimen/qz" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="130.0dp" n1:layout_alignParentBottom="true" n1:layout_marginEnd="@dimen/mj" n1:layout_alignParentEnd="true" n7:ba3="?bx" n7:ba4="@dimen/b7" xmlns:n7="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.icon.TuxIconView n1:padding="8.0dp" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:importantForAccessibility="no" n7:fjq="@raw/icon_arrow_to_top" n7:fmy="?su" />
+        </androidx.cardview.widget.CardView>
+        <include n1:layout_gravity="center" n1:id="@id/u63" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true" layout="@layout/b2c" />
+    </RelativeLayout>
+</LinearLayout>

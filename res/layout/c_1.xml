@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:id="@id/nin" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginStart="16.0dp" n2:bwk="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/nim" n1:visibility="gone" n1:layout="@layout/d73" n1:inflatedId="@id/xh" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginBottom="4.0dp" n3:b5p="true" n3:bk8="true" n3:bwk="@id/nin" n3:bwq="@id/nin" n3:f6x="?c3" n3:f6y="3.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/nir" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" n4:bwk="owf" n4:bwr="@id/nis" n4:bx8="@id/nin" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/nip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n4:fj2="pv" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?sw" n1:id="@id/nil" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:fj2="px" />
+    </LinearLayout>
+    <LinearLayout n1:id="@id/nis" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <com.ss.android.ugc.aweme.relation.follow.ui.RelationButton n1:layout_gravity="center_vertical" n1:id="@id/niq" n1:layout_width="88.0dp" n1:layout_height="28.0dp" n1:layout_marginEnd="16.0dp" n5:fib="u9x" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/nio" n1:padding="12.0dp" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:contentDescription="@null" n1:paddingEnd="16.0dp" n1:layout_marginStart="-16.0dp" n5:fjq="@raw/icon_ellipsis_horizontal" n5:fjt="24.0dp" n5:fk6="24.0dp" n5:fmy="?zz" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

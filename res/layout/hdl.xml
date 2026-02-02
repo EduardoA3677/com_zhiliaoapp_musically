@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@drawable/drq" n1:layout_width="match_parent" n1:layout_height="@dimen/am7" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12hi n1:textColor="@android:color/black" n1:id="@id/hwi" n1:paddingTop="3.0dp" n1:paddingBottom="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" n1:layout_centerVertical="true" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="130.0dp" n1:layout_alignParentStart="true" style="@style/q7" />
+    <X.0D0r n1:id="@id/hwh" n1:layout_width="120.0dp" n1:layout_height="50.0dp" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" />
+</RelativeLayout>

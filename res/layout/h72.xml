@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sf8" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/wxr" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="3.0" />
+    <FrameLayout n1:background="@drawable/f1k" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="7.0">
+        <X.0rmm n1:id="@id/mw2" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bg5="@layout/h71" n2:bli="@layout/h74" n2:bm7="@id/glw" n2:bmd="@layout/h6p" n2:elu="@layout/h70" n2:erg="@id/of4" n2:erh="@layout/h74" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

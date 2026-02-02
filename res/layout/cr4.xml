@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/g2c" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/qr" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/lln" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bwk="owf" n2:bwr="@id/jzf" n2:bx9="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/jzf" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwr="@id/s95" n3:bx8="@id/lln" n3:bxb="@id/wr4" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/jzi" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="@id/jzf" n3:bx9="@id/jzf" />
+            <FrameLayout n1:id="@id/ru2" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:bwq="@id/jzf" n3:bx9="@id/jzf" n3:bxc="@id/jzf" />
+            <FrameLayout n1:id="@id/jzg" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwr="@id/jzj" n3:bx8="@id/jzi" n3:bxb="@id/ru2" />
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/jzj" n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="@id/jzf" n3:bwq="@id/jzf" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/s95" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:bwk="owf" n4:bwq="owf" n4:bx8="@id/jzf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/wr4" n1:clipChildren="false" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n5:bwq="owf" n5:bx9="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:id="@id/ov7" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

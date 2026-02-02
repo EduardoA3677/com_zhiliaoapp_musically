@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/e87" n1:background="?bm" n1:focusable="true" n1:focusableInTouchMode="true" n1:fitsSystemWindows="true" n1:descendantFocusability="beforeDescendants" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/wvd" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" layout="@layout/b5l" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/plp" n1:layout_width="match_parent" n1:layout_height="1.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/wvd" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0Cg1 n1:layout_gravity="center" n1:id="@id/sgb" n1:background="?c7" n1:layout_width="120.0dp" n1:layout_height="match_parent" n3:eyn="4.0dp">
+            <FrameLayout n1:id="@id/zx8" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/zu5" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n3:fjq="@raw/icon_play_fill" n3:fjz="true" n3:fmy="?e0" />
+            <FrameLayout n1:layout_gravity="start|bottom" n1:orientation="horizontal" n1:id="@id/cxk" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="88.0dp">
+                <FrameLayout n1:orientation="horizontal" n1:id="@id/cxj" n1:background="@drawable/b_4" n1:padding="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="40.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:layout_gravity="start" n1:id="@id/cxh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="168.0dp" n1:paddingStart="3.0dp" n1:paddingEnd="15.0dp" n3:fj2="qg" />
+                    <ImageView n1:layout_gravity="end|bottom" n1:id="@id/x0c" n1:padding="1.0dp" n1:layout_width="11.0dp" n1:layout_height="11.0dp" n1:src="@drawable/b8h" />
+                </FrameLayout>
+            </FrameLayout>
+        </X.0Cg1>
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/g1i" n1:background="?bn" n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxb="@id/plp" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <include n1:id="@id/g5l" n1:layout_width="match_parent" n1:layout_height="52.0dp" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" layout="@layout/b5l" />
+        <FrameLayout n1:id="@id/rnb" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_marginTop="12.0dp" n1:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView n1:id="@id/g17" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <X.0oCE n1:id="@id/mlj" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+            <include n1:id="@id/s2y" n1:visibility="gone" layout="@layout/ba0" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

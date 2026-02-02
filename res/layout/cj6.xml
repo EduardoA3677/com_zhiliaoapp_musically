@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/zvz" n1:layout_width="match_parent" n1:layout_height="44.0dp" n2:ax0="?zq" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0o6h n1:id="@id/zrf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n3:azo="?zq" n3:bxb="@id/zvz" n3:fmi="text" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center_vertical" n1:id="@id/zr_" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:text="@null" n1:layout_marginStart="16.0dp" n4:bxb="@id/zrf" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0tSW n1:id="@id/zrg" n1:layout_width="match_parent" n1:layout_height="0.0dp" n5:bwk="owf" n5:bxb="@id/zr_" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ProgressBar n1:id="@id/ufw" n1:layout_width="match_parent" n1:layout_height="2.0dp" n1:max="100" n1:progress="0" n1:progressDrawable="@drawable/dbk" style="?android:progressBarStyleHorizontal" />
+</LinearLayout>

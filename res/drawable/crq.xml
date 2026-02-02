@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns="">
+    <item n1:state_selected="true"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <inset n1:insetLeft="@dimen/f0" n1:insetRight="@dimen/f0" n1:insetTop="@dimen/f0" n1:insetBottom="@dimen/f0">
+            <shape n1:shape="oval">
+                <solid n1:color="@color/cy" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset n2:insetLeft="@dimen/f0" n2:insetRight="@dimen/f0" n2:insetTop="@dimen/f0" n2:insetBottom="@dimen/f0"
+          xmlns:n2="http://schemas.android.com/apk/res/android">
+            <shape n2:shape="oval">
+                <solid n2:color="#7ffe2c55" />
+            </shape>
+        </inset>
+    </item>
+</selector>

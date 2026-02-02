@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/cka" n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/cpf" n1:layout_width="180.0dp" n1:layout_height="320.0dp" n2:b41="d4s" n2:etn="?br" n2:eto="d4s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.11RT n1:layout_gravity="bottom" n1:id="@id/cpg" n1:layout_width="180.0dp" n1:layout_height="68.0dp" n3:fi7="0.0" n3:fiy="0.5" n3:flv="?dm" n3:flw="frr" n3:fm_="zn0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:layout_gravity="start|bottom" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginBottom="12.0dp" n1:layout_marginHorizontal="12.0dp">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:id="@id/cku" n1:layout_width="18.0dp" n1:layout_height="18.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:layout_gravity="center_vertical" n1:id="@id/ckv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="134.0dp" n1:maxLines="1" n1:importantForAccessibility="no" n1:layout_marginStart="4.0dp" n4:fj2="pz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:importantForAccessibility="no" n5:fjq="@raw/icon_play_fill" n5:fjz="true" n5:fmy="?e1" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

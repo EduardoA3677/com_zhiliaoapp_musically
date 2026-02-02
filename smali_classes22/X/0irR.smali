@@ -1,0 +1,26 @@
+.class public final LX/0irR;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static final LIZ(Landroid/view/View;)V
+    .locals 1
+
+    if-eqz p0, :cond_0
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    const/4 v0, 0x0
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0, v0}, Landroid/view/View;->setBackgroundResource(I)V
+
+    invoke-virtual {p0, v0}, Landroid/view/View;->setBackgroundColor(I)V
+
+    :cond_0
+    return-void
+.end method

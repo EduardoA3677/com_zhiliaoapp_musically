@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Online na sound library</item>
+        <item>Aking Tunog</item>
+    </string-array>
+    <string-array name="q">
+        <item>Burahin</item>
+        <item>Kanselahin</item>
+    </string-array>
+    <string-array name="t">
+        <item>Nagte-trending</item>
+        <item>Pinakabago</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>First 20</item>
+        <item>First 40</item>
+        <item>First 60</item>
+        <item>First 80</item>
+        <item>First 100</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Linggo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+        <item>Sabado</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Pinadaling maintindihang Tsino</item>
+        <item>Tradisyonal na Chinese</item>
+        <item>Ingles</item>
+        <item>Hapones</item>
+        <item>Korean</item>
+        <item>Ruso</item>
+        <item>Indonesian</item>
+        <item>Malay</item>
+        <item>Portuguese</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Itim/Puti</item>
+        <item>Sining</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturated</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Enero</item>
+        <item>Peb</item>
+        <item>Marso</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Hunyo</item>
+        <item>Hulyo</item>
+        <item>Agosto</item>
+        <item>Set</item>
+        <item>Okt</item>
+        <item>Nob</item>
+        <item>Dis</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Unahin ang data-saving</item>
+        <item>Unahin ang high-resolution</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Bawat isa</item>
+        <item>Mga Kaibigan Lamang</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+        <item>Sabado</item>
+        <item>Linggo</item>
+    </string-array>
+</resources>

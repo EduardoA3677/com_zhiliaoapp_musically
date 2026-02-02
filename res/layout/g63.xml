@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sed" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/hee" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <FrameLayout n1:id="@id/bai" n1:layout_width="50.0dp" n1:layout_height="52.0dp" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginStart="16.0dp" n2:br4="?cty" n2:brl="?ehx" />
+        </FrameLayout>
+        <X.12nN n1:textSize="17.0sp" n1:textColor="?ehx" n1:id="@id/title" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n3:bp3="n2i" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout n1:id="@id/c8e" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="match_parent" n4:bwk="owf" n4:bwr="@id/cal" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginEnd="16.0dp" n4:br4="?dvi" n4:brl="?ehx" />
+        </FrameLayout>
+        <FrameLayout n1:id="@id/cal" n1:layout_width="wrap_content" n1:layout_height="match_parent" n5:bwk="owf" n5:bwq="owf" n5:bxc="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.android.live.design.view.icon.LiveIconView n1:layout_gravity="center_vertical" n1:id="@id/gye" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginEnd="16.0dp" n5:br4="@drawable/ero" n5:brl="?ehx" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/mxc" n1:background="@drawable/e58" n1:paddingTop="8.0dp" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:paddingVertical="8.0dp" />
+        <X.0oCE n1:layout_gravity="center" n1:id="@id/mxd" n1:layout_width="match_parent" n1:layout_height="match_parent" n6:fkf="j0v" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/dah" n1:layout_width="263.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="20.0dp" n1:layout_marginBottom="32.0dp" n1:layout_marginStart="20.0dp" n1:layout_marginEnd="20.0dp">
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="14.0dp" n1:src="@drawable/daf" n1:importantForAccessibility="no" />
+        <X.11Dd n1:layout_gravity="center_horizontal" n1:id="@id/tof" n1:layout_width="223.0dp" n1:layout_height="223.0dp" n1:layout_marginTop="8.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?do" n1:layout_gravity="center_horizontal" n1:id="@id/tog" n1:layout_width="wrap_content" n1:layout_height="15.0dp" n1:layout_marginTop="8.0dp" n2:fj2="q1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="center_horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="32.0dp">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_marginEnd="8.0dp" n3:bwk="owf" n3:bwr="@id/tob" n3:bwz="0.0" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e5" n1:ellipsize="end" n1:gravity="center_vertical" n1:layout_gravity="start" n1:id="@id/tod" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n3:fj2="ow" n3:fl1="15.0dp" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?do" n1:ellipsize="end" n1:gravity="top" n1:layout_gravity="start" n1:id="@id/toc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="4.0dp" n1:maxLines="2" n3:fj2="p5" />
+            </LinearLayout>
+            <X.0Cru n1:id="@id/tob" n1:layout_width="56.0dp" n1:layout_height="56.0dp" n1:layout_marginStart="8.0dp" n4:bwk="owf" n4:bwq="owf" n4:bwz="1.0" n4:bxc="owf" n4:etn="?br" n4:fhr="u23" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.widget.RadiusLayout n1:background="?zr" n1:layout_width="match_parent" n1:layout_height="54.0dp" n1:layout_marginStart="58.0dp" n1:layout_marginEnd="58.0dp" n2:bgh="@dimen/b5" n2:bgj="@dimen/b5" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/qk" n1:text="@null" n2:fj2="qb" />
+    </com.bytedance.tux.widget.RadiusLayout>
+    <View n1:id="@id/aw3" n1:layout_width="match_parent" n1:layout_height="37.0dp" n1:layout_marginTop="100.0dp" n1:layout_marginStart="58.0dp" n1:layout_marginEnd="58.0dp" />
+    <RelativeLayout n1:layout_gravity="center_horizontal" n1:id="@id/aw5" n1:background="?y1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="54.0dp" n1:layout_marginStart="37.0dp" n1:layout_marginEnd="37.0dp">
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/aw6" n1:background="?ya" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:layout_marginTop="5.0dp" n1:layout_marginBottom="5.0dp" n1:layout_centerVertical="true" n1:layout_marginStart="10.0dp" n1:layout_marginEnd="6.0dp" n1:layout_alignParentStart="true" n3:bgf="@dimen/b7" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.icon.TuxIconView n1:theme="@style/wa" n1:layout_gravity="center" n1:id="@id/v67" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:importantForAccessibility="no" n3:fjt="36.0dp" n3:fk6="36.0dp" />
+        </com.bytedance.tux.widget.RadiusLayout>
+        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_toEndOf="@id/aw6">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_marginEnd="28.0dp" n4:fj2="q2" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.widget.RadiusLayout n1:background="?yh" n1:layout_width="@dimen/r4" n1:layout_height="@dimen/qc" n1:layout_marginTop="6.0dp" n5:bgf="@dimen/ba" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <X.0CU3 n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:layout_marginEnd="12.0dp" n1:layout_alignParentEnd="true" n6:fi6="fh_" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</FrameLayout>

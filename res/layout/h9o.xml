@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/beg" n1:background="@drawable/dzg" n1:layout_width="match_parent" n1:layout_height="60.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:id="@id/bew" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:ey4="false" n2:ey5="false" n2:eya="true" n2:eyb="true" n2:eyl="@dimen/qi" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/bfi" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:layout_marginStart="24.0dp" n1:layout_marginEnd="12.0dp" n3:bwr="@id/bex" n3:bwz="0.0" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:id="@id/bfn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/a6t" />
+        <com.bytedance.android.live.design.view.icon.LiveIconView n1:gravity="end" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n3:br4="@raw/icon_chevron_right_offset_fill_ltr" n3:brl="?ekp" />
+    </LinearLayout>
+    <X.137w n1:id="@id/bex" n1:layout_width="wrap_content" n1:layout_height="49.0dp" n1:layout_marginEnd="12.0dp" n4:bwq="owf" n4:bxc="owf" n4:ey4="false" n4:ey5="false" n4:eya="false" n4:eyb="true" n4:eyl="@dimen/qi" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

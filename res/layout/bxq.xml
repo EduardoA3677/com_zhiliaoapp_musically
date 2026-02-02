@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/k8z" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:id="@id/urb" n1:layout_width="60.0dp" n1:layout_height="60.0dp" n1:layout_marginTop="2.0dp" n1:layout_marginBottom="8.0dp" n2:ba3="@color/a10" n2:ba4="@dimen/b3" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.0mER n1:layout_gravity="center" n1:id="@id/klq" n1:layout_width="52.0dp" n1:layout_height="52.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/klc" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_margin="1.0dp" n1:scaleType="fitXY" n1:importantForAccessibility="no" n2:fjq="@raw/icon_arrow_down_circle_fill" n2:fmy="?e1" />
+        <X.0mtB n1:layout_gravity="end|bottom" n1:id="@id/kt3" n1:background="@drawable/a9a" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_margin="1.0dp" n2:fdp="5.0dp" />
+        <X.0mtC n1:layout_gravity="center" n1:id="@id/kt6" n1:visibility="gone" n1:layout_width="52.0dp" n1:layout_height="52.0dp" n2:fdo="3.0dp" n2:fdp="15.0dp" />
+        <ImageView n1:layout_gravity="end|bottom" n1:id="@id/kli" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_margin="1.0dp" n1:src="@drawable/by7" n1:scaleType="fitXY" n1:contentDescription="@null" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/kn1" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_margin="7.0dp" n1:scaleType="fitXY" n1:importantForAccessibility="no" n2:fjq="@raw/icon_bookmark_fill" n2:fmy="?xx" />
+    </androidx.cardview.widget.CardView>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="marquee" n1:gravity="center_horizontal" n1:id="@id/xy3" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="74.0dp" n1:layout_height="wrap_content" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" n1:importantForAccessibility="no" n3:fj2="q2" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

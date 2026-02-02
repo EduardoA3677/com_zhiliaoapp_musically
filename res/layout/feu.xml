@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/wkg" n1:layout_width="match_parent" n1:layout_height="@dimen/aeu" n1:minHeight="@dimen/aev" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_gravity="start|center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:layout_marginStart="6.0dp">
+        <X.0Cfh n1:id="@id/kfz" n1:padding="10.0dp" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/dbe" />
+        <X.0Cfh n1:layout_gravity="center_vertical" n1:id="@id/kif" n1:padding="10.0dp" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/dbh" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TextView n1:textSize="17.0sp" n1:textStyle="bold" n1:textColor="@color/nm" n1:ellipsize="end" n1:id="@id/yti" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:maxEms="9" />
+        <TextView n1:textSize="10.0sp" n1:textStyle="normal" n1:textColor="@color/nm" n1:ellipsize="end" n1:id="@id/yqa" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:lines="1" n1:maxEms="15" />
+    </LinearLayout>
+    <X.0Cfh n1:layout_gravity="end|center" n1:id="@id/kty" n1:padding="10.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/dbi" n1:contentDescription="more" n1:layout_marginStart="6.0dp" n1:layout_marginEnd="6.0dp" />
+</FrameLayout>

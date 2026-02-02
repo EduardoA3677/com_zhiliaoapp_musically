@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0MIW n1:theme="@style/hg" n1:id="@id/ftp" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/fto" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ftq" n1:background="@drawable/bji" n1:layout_width="match_parent" n1:layout_height="326.0dp" n2:bwk="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="center" n1:id="@id/ftu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="15.0dp" n1:maxLines="2" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwl="@id/ftm" n2:fj2="p7" />
+            <FrameLayout n1:id="@id/ftm" n1:background="@drawable/bjh" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginBottom="34.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwl="@id/fts" n2:bwq="owf" n2:bx9="owf">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e5" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ftn" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:maxLines="1" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:fj2="p7" n2:fmy="?e5" />
+            </FrameLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/fts" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="32.0dp" n1:layout_marginEnd="32.0dp" n2:bwk="owf">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?e3" n1:ellipsize="end" n1:id="@id/ftt" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:bwg="true" n2:bwr="@id/ftr" n2:bx0="ori" n2:bx9="owf" n2:fj2="q1" />
+                <com.bytedance.tux.icon.TuxIconView n1:id="@id/ftr" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="2.0dp" n2:bwq="owf" n2:bx8="@id/ftt" n2:fjq="@raw/icon_chevron_up_double" n2:fmy="?e3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</X.0MIW>

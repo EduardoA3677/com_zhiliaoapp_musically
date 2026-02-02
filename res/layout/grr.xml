@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="81.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:id="@id/thf" n1:layout_width="match_parent" n1:layout_height="81.0dp" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n2:ba4="12.0dp" n2:ba5="0.0dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <View n1:id="@id/vote_percentage" n1:layout_width="0.0dp" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bwz="0.0" n2:bx9="owf" n2:bxc="owf" n2:bxj="1.0" />
+            <View n1:id="@id/q4v" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <X.137w n1:id="@id/gcr" n1:layout_width="65.0dp" n1:layout_height="65.0dp" n1:layout_marginStart="8.0dp" n3:bwk="@id/thf" n3:bx9="@id/thf" n3:bxc="@id/thf" n3:etn="?c3r" n3:ffh="8.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekp" n1:id="@id/xqd" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" n4:bwk="@id/thf" n4:bx8="@id/gcr" n4:bxc="@id/thf" style="@style/a6u" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0D0r n1:id="@id/b64" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginStart="4.0dp" n5:bne="@drawable/ewh" n5:bnf="d4s" n5:bwk="@id/thf" n5:bx8="@id/xqd" n5:bxc="@id/thf" n5:etn="?c3r" n5:ey2="true" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:gravity="start" n1:id="@id/ybf" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:lines="1" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="8.0dp" n6:bwk="@id/thf" n6:bwr="@id/ydo" n6:bx8="@id/b64" n6:bxc="@id/thf" style="@style/a6u" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/j97" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="8.0dp" n7:br4="?cu7" n7:bwk="@id/thf" n7:bwq="@id/thf" n7:bxc="@id/thf" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekp" n1:id="@id/ydo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="4.0dp" n8:bwk="@id/thf" n8:bwr="@id/j97" n8:bxc="@id/thf" style="@style/a6s" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emz">Włącz</string>
+    <string name="en0">Aplikacja %1$s nie będzie działać, jeśli nie włączysz Usług Google Play.</string>
+    <string name="en1">Włącz Usługi Google Play</string>
+    <string name="en2">Zainstaluj</string>
+    <string name="en3">%1$s nie będzie działać, jeśli nie zainstalujesz na urządzeniu Usług Google Play.</string>
+    <string name="en4">Pobierz Usługi Google Play</string>
+    <string name="en5">Dostępność Usług Google Play</string>
+    <string name="en6">Błąd Usług Google Play</string>
+    <string name="en7">%1$s ma problem z dostępem do Usług Google Play. Spróbuj jeszcze raz.</string>
+    <string name="en8">%1$s nie będzie działać bez Usług Google Play, które nie są obecnie obsługiwane przez urządzenie.</string>
+    <string name="en9">Aktualizuj</string>
+    <string name="en_">Aplikacja %1$s nie będzie działać, jeśli nie zaktualizujesz Usług Google Play.</string>
+    <string name="ena">Zaktualizuj Usługi Google Play</string>
+    <string name="enb">Aplikacja %1$s nie będzie działać bez Usług Google Play, które są obecnie aktualizowane.</string>
+    <string name="enc">Wymagana jest nowa wersja Usług Google Play. Wkrótce nastąpi automatyczna aktualizacja.</string>
+    <string name="jwa">Oryginał</string>
+    <string name="jwo">Aparat</string>
+    <string name="k7o">@android:string/ok</string>
+</resources>

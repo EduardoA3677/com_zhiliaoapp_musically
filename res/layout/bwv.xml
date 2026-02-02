@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/ql1" n1:background="@drawable/bku" n1:paddingLeft="8.0dp" n1:paddingTop="8.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="10.0dp" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="8.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?z4" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="TODO: MOCKING" n1:maxLines="2" n1:textAlignment="center" n2:bx9="owf" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/fd6" n1:background="?xy" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="8.0dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ql6" n1:layout_width="match_parent" n1:layout_height="72.0dp">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/qlm" n1:layout_width="72.0dp" n1:layout_height="72.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:eyl="@dimen/b8" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/qh1" n1:layout_width="72.0dp" n1:layout_height="wrap_content" n1:maxHeight="27.0dp" n1:minHeight="22.0dp" n4:bwk="@id/qlm" n4:bx9="@id/qlm" xmlns:n4="http://schemas.android.com/apk/res-auto">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/eri" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" n1:textAlignment="center" n4:fj2="q2" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/onj" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-2.0dp" n1:maxLines="1" n4:fj2="q1" />
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:id="@id/qlu" n1:layout_width="26.0dp" n1:layout_height="16.0dp" n1:textAlignment="center" n5:bx9="@id/qlm" n5:bxc="@id/qlm" n5:fj2="qg" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?xx" n1:ellipsize="end" n1:id="@id/qnm" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="Code: QSMTX128397" n1:maxLines="2" n1:textAlignment="center" n6:fj2="q1" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/jtv" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="2.0dp" n1:layout_marginTop="18.0dp">
+        <FrameLayout n1:id="@id/jtt" n1:layout_width="wrap_content" n1:layout_height="2.0dp" />
+    </FrameLayout>
+</LinearLayout>

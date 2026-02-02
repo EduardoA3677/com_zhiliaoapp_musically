@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/wo" n1:id="@id/fos" n1:background="?y1" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0oBn n1:layout_gravity="center_horizontal" n1:id="@id/n7a" n1:layout_width="36.0dp" n1:layout_height="36.0dp" />
+</FrameLayout>

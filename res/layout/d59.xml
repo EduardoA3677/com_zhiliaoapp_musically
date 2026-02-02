@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/mat" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e2" n1:id="@id/xxa" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="19.0dp" n1:layout_marginBottom="12.0dp" n1:text="@null" n1:drawableLeft="@drawable/ch1" n1:drawablePadding="5.0dp" n1:drawableStart="@drawable/ch1" n1:layout_marginStart="16.0dp" n2:fj2="pw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout n1:id="@id/bf1" n1:background="?br" n1:layout_width="match_parent" n1:layout_height="165.0dp">
+        <X.0GEV n1:id="@id/viewpager" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_alignParentTop="true" />
+        <View n1:id="@id/uo8" n1:layout_width="match_parent" n1:layout_height="0.0dp" />
+        <X.0kkB n1:id="@id/fhi" n1:paddingBottom="4.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n3:bsj="5.0dp" n3:bsl="5.0dp" n3:bsp="0.34" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

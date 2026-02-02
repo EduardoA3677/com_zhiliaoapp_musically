@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/sw5" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingVertical="12.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <X.0CpV n1:id="@id/t4d" n1:layout_width="0.0dp" n1:layout_height="36.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" n2:bwk="owf" n2:bwr="@id/c9h" n2:bx9="owf" n2:bxc="owf" />
+            <TextView n1:textSize="15.0sp" n1:textColor="@color/bw" n1:id="@id/c9h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/effect_tool_cancel" n1:layout_marginEnd="13.0dp" n2:bwk="@id/t4d" n2:bx8="owf" n2:bxc="@id/t4d" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView n1:textSize="13.0sp" n1:textColor="@color/by" n1:id="@id/i4f" n1:paddingTop="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp" />
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/i4b" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="4.0dp" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/mjt" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="60.0dp" />
+    <TextView n1:textSize="14.0sp" n1:textColor="@color/by" n1:layout_gravity="center" n1:id="@id/gey" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" />
+</FrameLayout>

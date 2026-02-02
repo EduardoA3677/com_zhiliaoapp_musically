@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/lq8" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center" n1:orientation="vertical" n1:background="@drawable/dp9" n1:layout_width="310.0dp" n1:layout_height="wrap_content">
+        <X.12nN n1:textColor="@color/df" n1:gravity="center" n1:id="@id/lqd" n1:layout_width="270.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:text="@null" style="@style/a6m" />
+        <X.12nN n1:textColor="@color/dl" n1:gravity="center" n1:id="@id/lq9" n1:layout_width="270.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" style="@style/a6s" />
+        <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/ehq" n1:layout_width="match_parent" n1:layout_height="50.0dp" n1:layout_marginTop="12.0dp" n1:layoutDirection="ltr">
+            <X.12nN n1:textColor="@color/df" n1:gravity="center" n1:id="@id/ehg" n1:background="@drawable/dp_" n1:layout_width="50.0dp" n1:layout_height="50.0dp" style="@style/a6j" />
+            <ImageView n1:gravity="center" n1:id="@id/eha" n1:layout_width="20.0dp" n1:layout_height="24.0dp" n1:src="@drawable/eqx" n1:scaleType="center" />
+            <X.12nN n1:textColor="@color/df" n1:gravity="center" n1:id="@id/ehj" n1:background="@drawable/dp_" n1:layout_width="50.0dp" n1:layout_height="50.0dp" style="@style/a6j" />
+        </LinearLayout>
+        <View n1:id="@id/lq_" n1:background="@color/c_" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="20.0dp" />
+        <X.12nN n1:textColor="@color/df" n1:gravity="center" n1:id="@id/lqa" n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:text="@null" style="@style/a6u" />
+    </LinearLayout>
+</FrameLayout>

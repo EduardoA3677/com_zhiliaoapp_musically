@@ -1,0 +1,99 @@
+.class public final LX/0Kl5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0KrE;
+
+
+# instance fields
+.field public final synthetic LIZ:Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0Kl5;->LIZ:Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final LIZJ()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final LIZLLL()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final LJIIIZ()V
+    .locals 1
+
+    iget-object v0, p0, LX/0Kl5;->LIZ:Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;
+
+    iget-object v0, v0, Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;->LLJJJJLIIL:Lcom/ss/android/ugc/aweme/search/ecommerce/live/ITopLiveProductView;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/search/ecommerce/live/ITopLiveProductView;->resumeDisplay()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final LLLZIIL()V
+    .locals 1
+
+    iget-object v0, p0, LX/0Kl5;->LIZ:Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;
+
+    iget-object v0, v0, Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;->LLJJJJLIIL:Lcom/ss/android/ugc/aweme/search/ecommerce/live/ITopLiveProductView;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/search/ecommerce/live/ITopLiveProductView;->resumeDisplay()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final onBuffering(Z)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final onLoading()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final onPause()V
+    .locals 1
+
+    iget-object v0, p0, LX/0Kl5;->LIZ:Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;
+
+    iget-object v0, v0, Lcom/ss/android/ugc/aweme/ecommerce/search/general/SearchProductAnchorAssem;->LLJJJJLIIL:Lcom/ss/android/ugc/aweme/search/ecommerce/live/ITopLiveProductView;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/ss/android/ugc/aweme/search/ecommerce/live/ITopLiveProductView;->pauseDisplay()V
+
+    :cond_0
+    return-void
+.end method

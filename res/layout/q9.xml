@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0mMc n1:layout_gravity="center" n1:id="@id/ndx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:bt8="true" n2:btg="false" n2:bti="false" n2:btj="false" n2:btk="false" n2:bu4="34.0dp" n2:bu5="34.0dp" n2:erj="true" n2:ery="5.0dp" n2:etk="@drawable/cfe" n2:f1u="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.12nR n1:id="@id/eek" n1:background="@color/a0r" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/uvn" n1:background="@color/a0r" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:soundEffectsEnabled="false" />
+    <FrameLayout n1:id="@id/vna" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <include layout="@layout/d8k" />
+        <include layout="@layout/d8l" />
+        <include layout="@layout/de1" />
+        <include layout="@layout/d8e" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/lb7" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <include layout="@layout/rn" />
+        <FrameLayout n1:id="@id/urj" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+</X.12nR>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="23.0dp" n1:layout_marginRight="105.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="105.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/de_" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/e1u" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.1295 n1:id="@id/e1t" n1:visibility="gone" n1:layout_width="40.0dp" n1:layout_height="40.0dp" n1:layout_marginBottom="8.0dp" n1:scaleType="centerInside" n2:eyl="3.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.0Cxq n1:textSize="15.0sp" n1:textColor="@color/abj" n1:ellipsize="end" n1:layout_gravity="center" n1:id="@id/e1s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="2" />
+            <X.0Cxq n1:textSize="12.0sp" n1:textColor="@color/abl" n1:ellipsize="end" n1:id="@id/e1v" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" n1:text="@null" n1:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

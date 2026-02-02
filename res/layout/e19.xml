@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/bam" n1:layout_width="0.0dp" n1:layout_height="match_parent" n2:bwk="@id/bax" n2:bwp="1:1" n2:bwq="@id/bax" n2:bx9="@id/bax" n2:bxc="@id/bax" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/bax" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:contentDescription="back" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="4.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" n3:fjq="@raw/icon_chevron_left_offset_ltr" n3:fjt="24.0dp" n3:fk6="24.0dp" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.0Cru n1:id="@id/iq5" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:alpha="0.4" n1:layout_marginStart="2.0dp" n4:bwk="owf" n4:bx8="@id/bax" n4:bxc="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:gravity="start" n1:id="@id/iri" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:alpha="0.4" n1:textDirection="locale" n1:layout_marginStart="8.0dp" n5:bwk="owf" n5:bx8="@id/iq5" n5:bxc="owf" n5:fj2="p7" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/wk7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" n6:fj2="p0" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/hxe" n1:layout_width="0.0dp" n1:layout_height="match_parent" n7:bwk="@id/hxi" n7:bwp="1:1" n7:bwq="@id/hxi" n7:bx9="@id/hxi" n7:bxc="@id/hxi" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/hxi" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:contentDescription="Full Screen" n1:layout_marginEnd="@dimen/qi" n8:bwk="owf" n8:bwq="owf" n8:bxc="owf" n8:fjq="@raw/icon_full_screen" n8:fmy="?zw" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

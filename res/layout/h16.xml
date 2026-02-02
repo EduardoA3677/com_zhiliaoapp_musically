@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout n1:id="@id/veo" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/rn2" n1:paddingLeft="8.0dp" n1:paddingTop="4.0dp" n1:paddingRight="8.0dp" n1:paddingBottom="4.0dp" n1:clipToPadding="false" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/gda" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:background="@drawable/esi" n1:layout_width="224.0dp" n1:layout_height="96.0dp" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?ekp" n1:gravity="center_horizontal" n1:id="@id/gex" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="48.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="48.0dp" n1:text="@null" n2:fj2="p3" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?eks" n1:gravity="center_horizontal" n1:id="@id/gew" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="48.0dp" n1:layout_marginTop="8.0dp" n1:layout_marginRight="48.0dp" n1:text="@null" n3:fj2="pu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <X.0oCE n1:id="@id/s2y" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_centerInParent="true" />
+    <X.0rBl n1:id="@id/mlu" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</FrameLayout>

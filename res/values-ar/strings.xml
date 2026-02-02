@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AME_editEffect_inspector_aberration">انحراف</string>
+    <string name="AME_editEffect_inspector_angle">الزاوية</string>
+    <string name="AME_editEffect_inspector_bending">انحناء</string>
+    <string name="AME_editEffect_inspector_bling">لمعان</string>
+    <string name="AME_editEffect_inspector_blur">ضبابية</string>
+    <string name="AME_editEffect_inspector_border">الحد</string>
+    <string name="AME_editEffect_inspector_brightness">السطوع</string>
+    <string name="AME_editEffect_inspector_color">اللون</string>
+    <string name="AME_editEffect_inspector_coolness">برودة</string>
+    <string name="AME_editEffect_inspector_crease">طيّة</string>
+    <string name="AME_editEffect_inspector_definition">حدة الوضوح</string>
+    <string name="AME_editEffect_inspector_deformation">تغيير الشكل</string>
+    <string name="AME_editEffect_inspector_degree">الزاوية</string>
+    <string name="AME_editEffect_inspector_diameter">القطر</string>
+    <string name="AME_editEffect_inspector_direction">الاتجاه</string>
+    <string name="AME_editEffect_inspector_displacement1">الإزاحة 1</string>
+    <string name="AME_editEffect_inspector_displacement2">الإزاحة 2</string>
+    <string name="AME_editEffect_inspector_frequency">التردد</string>
+    <string name="AME_editEffect_inspector_glare">وهج</string>
+    <string name="AME_editEffect_inspector_grain">مُحبَّب</string>
+    <string name="AME_editEffect_inspector_haze">ضباب خفيف</string>
+    <string name="AME_editEffect_inspector_height">الطول</string>
+    <string name="AME_editEffect_inspector_horizontal">أفقي</string>
+    <string name="AME_editEffect_inspector_intensity">الكثافة</string>
+    <string name="AME_editEffect_inspector_leftright">أفقي</string>
+    <string name="AME_editEffect_inspector_leftsize">حجم الجانب الأيسر</string>
+    <string name="AME_editEffect_inspector_lowQuality">جودة منخفضة</string>
+    <string name="AME_editEffect_inspector_luminous">توهج</string>
+    <string name="AME_editEffect_inspector_material1">الملمس</string>
+    <string name="AME_editEffect_inspector_noise">الضوضاء</string>
+    <string name="AME_editEffect_inspector_offset">إزاحة</string>
+    <string name="AME_editEffect_inspector_offset1">الإزاحة 1</string>
+    <string name="AME_editEffect_inspector_offset2">الإزاحة 2</string>
+    <string name="AME_editEffect_inspector_opacity">التعتيم</string>
+    <string name="AME_editEffect_inspector_pattern">نمط</string>
+    <string name="AME_editEffect_inspector_position">الموضع</string>
+    <string name="AME_editEffect_inspector_position1">الموضع 1</string>
+    <string name="AME_editEffect_inspector_position2">الموضع 2</string>
+    <string name="AME_editEffect_inspector_quantity">الكمية</string>
+    <string name="AME_editEffect_inspector_radius">نصف القطر</string>
+    <string name="AME_editEffect_inspector_rate">السرعة</string>
+    <string name="AME_editEffect_inspector_ratio">النسبة</string>
+    <string name="AME_editEffect_inspector_ridges">حواف</string>
+    <string name="AME_editEffect_inspector_rightsize">حجم الجانب الأيمن</string>
+    <string name="AME_editEffect_inspector_ripple">تموج</string>
+    <string name="AME_editEffect_inspector_rotation">تدوير</string>
+    <string name="AME_editEffect_inspector_rotation1">دوران المحور ص</string>
+    <string name="AME_editEffect_inspector_rotation2">دوران المحور س</string>
+    <string name="AME_editEffect_inspector_rotationspeed">تدوير</string>
+    <string name="AME_editEffect_inspector_roughness">مُحبَّب</string>
+    <string name="AME_editEffect_inspector_saturation">التشبع</string>
+    <string name="AME_editEffect_inspector_scope">تكبير</string>
+    <string name="AME_editEffect_inspector_scratch">خربشة</string>
+    <string name="AME_editEffect_inspector_screenratio">النسبة</string>
+    <string name="AME_editEffect_inspector_sharpness">الحدة</string>
+    <string name="AME_editEffect_inspector_size">الحجم</string>
+    <string name="AME_editEffect_inspector_size1">تكبير 1</string>
+    <string name="AME_editEffect_inspector_size2">تكبير 2</string>
+    <string name="AME_editEffect_inspector_size3">تكبير 3</string>
+    <string name="AME_editEffect_inspector_speed">السرعة</string>
+    <string name="AME_editEffect_inspector_stroke">العرض</string>
+    <string name="AME_editEffect_inspector_tempo">الإيقاع</string>
+    <string name="AME_editEffect_inspector_texture">الملمس</string>
+    <string name="AME_editEffect_inspector_updown">عمودي</string>
+    <string name="AME_editEffect_inspector_vertical">عمودي</string>
+    <string name="AME_editEffect_inspector_vibe">تخطيط</string>
+    <string name="AME_editEffect_inspector_vignette">تظليل الصورة</string>
+    <string name="AME_editEffect_inspector_vortex">دوامة</string>
+    <string name="AME_editEffect_inspector_width">العرض</string>
+    <string name="AME_editEffect_inspector_xAxis">دوران المحور س</string>
+    <string name="AME_editEffect_inspector_xaxis">المحور الأفقي</string>
+    <string name="AME_editEffect_inspector_xoffset">نقطة البداية الأفقية</string>
+    <string name="AME_editEffect_inspector_yAxis">دوران المحور ص</string>
+    <string name="AME_editEffect_inspector_yaxis">المحور الرأسي</string>
+    <string name="AME_editEffect_inspector_yoffset">نقطة البداية الرأسية</string>
+    <string name="AME_editEffect_inspector_zoom1">تكبير 1</string>
+    <string name="AME_editEffect_inspector_zoom2">تكبير 2</string>
+    <string name="AME_editEffect_inspector_zoom3">تكبير 3</string>
+    <string name="AME_makeup_color">اللون</string>
+    <string name="AME_makeup_finish">الملمس</string>
+    <string name="AME_makeup_selectProperty_toast">حدد الخاصية الحالية أولاً</string>
+    <string name="AME_makeup_style">الأسلوب</string>
+    <string name="AME_makeup_switchProperty_tooltip">اضغط لتبديل الخصائص</string>
+    <string name="bu_">اختر من المعرض</string>
+    <string name="bua">التقاط صورة</string>
+    <string name="bz3">معرفة المزيد</string>
+    <string name="c_l">العثور على أصدقاء</string>
+    <string name="c_z">أضف إلى المفضلات</string>
+    <string name="ca8">تمت الإضافة إلى المفضلات</string>
+    <string name="cd3">أوافق</string>
+    <string name="cs6">الألبوم</string>
+    <string name="cu0">الجميع</string>
+    <string name="cvc">جارٍ التنزيل...</string>
+    <string name="cys">TikTok</string>
+    <string name="cyu">‏TikTok</string>
+    <string name="d1k">ابحث عن حساب لذكره</string>
+    <string name="d5y">قيد الترجمة...</string>
+    <string name="d6z">الشكل</string>
+    <string name="d77">تجاهل</string>
+    <string name="d7a">الصوت المضاف</string>
+    <string name="dcu">رجوع</string>
+    <string name="dez">الجمال</string>
+    <string name="dgk">إضافة رقم الهاتف</string>
+    <string name="dm8">حظر</string>
+    <string name="dpx">متابعة</string>
+    <string name="dq0">فتح</string>
+    <string name="dzv">تعذر حفظ الفيديو بهذا الصوت نظرًا لقوانين حقوق النشر.</string>
+    <string name="dzy">إلغاء</string>
+    <string name="e0b">تمت الإزالة من المفضلات</string>
+    <string name="e2r">‏%1$s مشاهدة</string>
+    <string name="e46">تم تحديده</string>
+    <string name="e47">عرض الصورة</string>
+    <string name="e7j">اتصل بالإنترنت وحاول مرة أخرى.</string>
+    <string name="e8i">حدد البلد/المنطقة</string>
+    <string name="ecs">سيارات</string>
+    <string name="efk">علامات الهاشتاج</string>
+    <string name="eh_">تعليق</string>
+    <string name="eji">تعذرت إضافة تعليق</string>
+    <string name="emz">تفعيل</string>
+    <string name="en0">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string name="en1">‏تفعيل خدمات Google Play</string>
+    <string name="en2">تثبيت</string>
+    <string name="en3">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="en4">‏الحصول على خدمات Google Play</string>
+    <string name="en5">‏مدى توفّر خدمات Google Play</string>
+    <string name="en6">‏خطأ في خدمات Google Play</string>
+    <string name="en7">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="en8">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="en9">تحديث</string>
+    <string name="en_">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="ena">‏تحديث خدمات Google Play</string>
+    <string name="enb">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="enc">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="eq1">إرشادات المجتمع</string>
+    <string name="eqj">تأكيد</string>
+    <string name="eqk">فتح الإعدادات</string>
+    <string name="etu">تم النسخ</string>
+    <string name="etw">تم نسخ الرابط</string>
+    <string name="eu4">ابدأ التسجيل</string>
+    <string name="creation_autocut_entry_point">‏AutoCut</string>
+    <string name="ffh">تسجيل فيديو</string>
+    <string name="ffi">مشاهدة الفيديوهات</string>
+    <string name="fgl">جمهورية التشيك</string>
+    <string name="fi4">حذف</string>
+    <string name="fix">هل تريد تجاهل المقطع الأخير؟</string>
+    <string name="fkw">تسجيل إعجاب</string>
+    <string name="fkz">وضع تقييد المحتوى</string>
+    <string name="dm_fortuneCookie_001">أتمنى أن يكون عامك أحلى من الحلوى!</string>
+    <string name="dm_fortuneCookie_002">أتمنى أن يكون عامك مليئًا بالضحك والأوقات الطيبة!</string>
+    <string name="dm_fortuneCookie_003">استعد للتألق مثل النجوم!</string>
+    <string name="dm_fortuneCookie_004">أتمنى أن يكون عامك مليئًا بالمغامرات الملحمية!</string>
+    <string name="dm_fortuneCookie_005">أتمنى أن تكون قراراتك جريئة مثل وجباتك الخفيفة!</string>
+    <string name="dm_fortuneCookie_006">استعد لعام مليء بالمفاجآت الرائعة!</string>
+    <string name="dm_fortuneCookie_007">دع المشاعر الطيبة تتدفق إلى العام الجديد!</string>
+    <string name="dm_fortuneCookie_008">أتمنى أن يكون عامك مليئًا بالضحك!</string>
+    <string name="dm_fortuneCookie_009">حان وقت المغامرات الجديدة!</string>
+    <string name="dm_fortuneCookie_010">دع الاحتفالات تبدأ!</string>
+    <string name="dm_fortuneCookie_011">أتمنى لك عامًا مليئًا بالمرح!</string>
+    <string name="dm_fortuneCookie_012">السعادة على الأبواب!</string>
+    <string name="dm_fortuneCookie_013">استمتع بالأجواء الإيجابية!</string>
+    <string name="dm_fortuneCookie_014">أتمنى أن تتألق هذا العام!</string>
+    <string name="dm_fortuneCookie_015">حان وقت الذكريات الجميلة!</string>
+    <string name="dm_fortuneCookie_016">ليكن الفرح طريقك!</string>
+    <string name="dm_fortuneCookie_017">اجعل هذا العام أسطوريًا!</string>
+    <string name="dm_fortuneCookie_018">أتمنى لك متعة مضاعفة!</string>
+    <string name="dm_fortuneCookie_019">أتمنى أن يسعد قلبك!</string>
+    <string name="dm_fortuneCookie_020">احلم أحلامًا كبيرة واضحك كثيرًا!</string>
+    <string name="dm_fortuneCookie_021">أتمنى لك عامًا رائعًا!</string>
+    <string name="dm_fortuneCookie_022">استعد للتألق!</string>
+    <string name="dm_fortuneCookie_023">أتمنى أن تنال كل ما هو جميل!</string>
+    <string name="dm_fortuneCookie_024">عِش الحياة بألوانها الزاهية!</string>
+    <string name="dm_fortuneCookie_025">أتمنى أن يكون عامك كحلوتك المفضلة!</string>
+    <string name="dm_fortuneCookie_026">الحظ في انتظارك، لذا استعد واستمتع بالرحلة!</string>
+    <string name="dm_fortuneCookie_027">دع الأوقات الجيدة تتدفق!</string>
+    <string name="dm_fortuneCookie_028">أتمنى لك ضحكًا لا ينتهي!</string>
+    <string name="dm_fortuneCookie_029">فلنصنع ذكريات هذا العام!</string>
+    <string name="dm_fortuneCookie_030">أتمنى أن تنال حظًا من السعادة كل يوم!</string>
+    <string name="dm_fortuneCookie_031">تمنياتي بمغامرات مجنونة!</string>
+    <string name="dm_fortuneCookie_032">استعد للتألق!</string>
+    <string name="dm_fortuneCookie_033">تمنياتي بالمرح والضحك!</string>
+    <string name="dm_fortuneCookie_034">اجعل كل لحظة مميزة!</string>
+    <string name="dm_fortuneCookie_035">أتمنى لك الدفء والابتسامات!</string>
+    <string name="dm_fortuneCookie_036">لنجعل هذا العام لا يُنسى!</string>
+    <string name="dm_fortuneCookie_037">أتمنى لك السعادة!</string>
+    <string name="dm_fortuneCookie_038">أتمنى لك أوقاتًا رائعة وممتعة!</string>
+    <string name="dm_fortuneCookie_039">أتمنى لك عامًا مليئًا بالمرح!</string>
+    <string name="dm_fortuneCookie_040">عام جديد، ومغامرات جديدة تنتظرك!</string>
+    <string name="dm_fortuneCookie_041">الفرح والنجاح في الأفق.</string>
+    <string name="dm_fortuneCookie_042">المغامرة تنتظرك - اغتنمها!</string>
+    <string name="dm_fortuneCookie_043">حان الوقت لتتألق مثل النجوم!</string>
+    <string name="dm_fortuneCookie_044">أتمنى لك عامًا مليئًا بالمفاجآت الحلوة!</string>
+    <string name="dm_fortuneCookie_045">أتمنى أن تكون سعادتك بلا حدود مثل مخزونك من التسالي!</string>
+    <string name="dm_fortuneCookie_046">استعد للتألق ونشر الفرح!</string>
+    <string name="dm_fortuneCookie_047">أتمنى لك عامًا تشعر فيه وكأن كل يوم فيه عطلة!</string>
+    <string name="dm_fortuneCookie_048">حان وقت السطوع كالبرق!</string>
+    <string name="dm_fortuneCookie_049">أتمنى أن تحلق أحلامك عاليًا!</string>
+    <string name="dm_fortuneCookie_050">أتمنى لك لحظات لذيذة قادمة!</string>
+    <string name="dm_fortuneCookie_110">فليكن كل يوم مليئًا بالضحك والدفء.</string>
+    <string name="dm_fortuneCookie_111">أتمنى أن يكون عامك مليئًا بالفرح والحب.</string>
+    <string name="dm_fortuneCookie_112">الفرح والمغامرة على بعد خطوات!</string>
+    <string name="dm_fortuneCookie_113">أتمنى لك عامًا مليئًا باللحظات الرائعة!</string>
+    <string name="dm_fortuneCookie_114">أتمنى أن يحمل كل يوم سببًا جديدًا للابتسامة.</string>
+    <string name="dm_fortuneCookie_115">استمتع بكل لحظة.</string>
+    <string name="dm_fortuneCookie_116">أتمنى لك سنة مليئة بالسعادة المستمرة!</string>
+    <string name="dm_fortuneCookie_117">فلتكتشف مغامرة العام الجديد!</string>
+    <string name="dm_fortuneCookie_118">أتمنى أن تكون أيامك حلوة مثل العسل.</string>
+    <string name="dm_fortuneCookie_119">احتفل بكل انتصار صغير!</string>
+    <string name="dm_fortuneCookie_120">أتمنى لك سنة مليئة باللحظات المميزة!</string>
+    <string name="dm_fortuneCookie_121">أتمنى أن تشع سعادتك بريقًا كالألماس!</string>
+    <string name="dm_fortuneCookie_122">فليكن الضحك رفيقك الدائم.</string>
+    <string name="dm_fortuneCookie_123">أتمنى لك عامًا مليئًا بالإمكانيات اللامحدودة!</string>
+    <string name="dm_fortuneCookie_124">استمتع بسحر البدايات الجديدة!</string>
+    <string name="dm_fortuneCookie_125">أتمنى لك سنة مليئة بالضحك والسرور!</string>
+    <string name="dm_fortuneCookie_126">فلنجعل هذا العام قصة سعادة ملحمية!</string>
+    <string name="dm_fortuneCookie_127">أتمنى أن تتألق أحلامك.</string>
+    <string name="dm_fortuneCookie_128">أتمنى لك عامًا حلوًا مثل الشوكولاتة!</string>
+    <string name="dm_fortuneCookie_129">أتمنى لك لحظات من الفرح والنعيم الخالص!</string>
+    <string name="dm_fortuneCookie_130">أتمنى أن تكون أيامك مليئة بالضحك والحب.</string>
+    <string name="dm_fortuneCookie_131">أتمنى لك رحلة مليئة بالاكتشافات المبهجة!</string>
+    <string name="dm_fortuneCookie_132">دع السعادة تقود طريقك.</string>
+    <string name="dm_fortuneCookie_133">أتمنى لك سنة مليئة بالمرح!</string>
+    <string name="dm_fortuneCookie_134">احتفل بفرحة كل يوم جديد!</string>
+    <string name="dm_fortuneCookie_135">أتمنى أن يكون عامك مليئًا بالمغامرات السعيدة!</string>
+    <string name="dm_fortuneCookie_136">أتمنى لكم عامًا مليئًا بالابتسامات والمفاجآت!</string>
+    <string name="dm_fortuneCookie_137">أتمنى لك سعادة لامتناهية وأيام هانئة!</string>
+    <string name="dm_fortuneCookie_138">فلنجعل هذا العام مليئًا بالذكريات السعيدة!</string>
+    <string name="dm_fortuneCookie_139">أتمنى أن يكون عامك مليئًا باللحظات المشرقة.</string>
+    <string name="dm_fortuneCookie_140">أتمنى لك عامًا مليئًا بالاحتفالات السعيدة!</string>
+    <string name="dm_fortuneCookie_141">أتمنى لك سنة مشرقة مثل يوم مشمس!</string>
+    <string name="dm_fortuneCookie_142">استمتع بالمغامرة وابحث عن الفرح!</string>
+    <string name="dm_fortuneCookie_143">أتمنى أن يكون كل يوم صفحة في قصة سعيدة.</string>
+    <string name="dm_fortuneCookie_144">أتمنى لك عامًا مليئًا بالمفاجآت الجميلة والمبهجة!</string>
+    <string name="dm_fortuneCookie_145">أتمنى لك سنة مليئة بالضحك والنور.</string>
+    <string name="dm_fortuneCookie_146">اجعل الفرح البوصلة التي توجهك هذا العام.</string>
+    <string name="dm_fortuneCookie_147">أتمنى أن يكون عامك مليئًا بالمغامرات!</string>
+    <string name="dm_fortuneCookie_148">احتفل بكل فجر جديد بفرح!</string>
+    <string name="dm_fortuneCookie_149">أتمنى لك سنة مليئة باللحظات الرائعة!</string>
+    <string name="dm_fortuneCookie_150">دع روحك تحلق بفرح!</string>
+    <string name="dm_fortuneCookie_151">أتمنى لك عامًا مليئًا بالابتسامات المشرقة!</string>
+    <string name="dm_fortuneCookie_152">نتمنى أن تكون أيامك مليئة بالاكتشافات المبهجة!</string>
+    <string name="dm_fortuneCookie_153">استمتع بفرحة كل يوم جديد.</string>
+    <string name="dm_fortuneCookie_154">أتمنى لك الكثير من الضحك والمرح!</string>
+    <string name="dm_fortuneCookie_155">أتمنى أن يكون عامك مليئًا بالبهجة والسرور!</string>
+    <string name="dm_fortuneCookie_156">دع فرحة الحياة تملأ قلبك.</string>
+    <string name="dm_fortuneCookie_157">أتمنى لك عامًا مليئًا بالمفاجآت السعيدة!</string>
+    <string name="dm_fortuneCookie_158">أتمنى لك لحظات لا تنسى من الفرح!</string>
+    <string name="dm_fortuneCookie_159">لنجعل هذا العام رحلة سعيدة!</string>
+    <string name="dm_fortuneCookie_160">أتمنى أن يكون عامك مليئًا بالضحك والحب!</string>
+    <string name="dm_fortuneCookie_161">احتفل بفرحة الحياة كل يوم!</string>
+    <string name="dm_fortuneCookie_162">أتمنى لك عامًا من المغامرات السعيدة!</string>
+    <string name="dm_fortuneCookie_163">لتكن أيامك مليئة بالفرح!</string>
+    <string name="dm_fortuneCookie_164">أتمنى لك عامًا من الذكريات المبهجة والسعيدة!</string>
+    <string name="dm_fortuneCookie_165">أتمنى أن يكون قلبك ينبوعًا للبهجة!</string>
+    <string name="dm_fortuneCookie_166">أتمنى لك سيلًا من اللحظات السعيدة!</string>
+    <string name="dm_fortuneCookie_167">ليكن عامك مليئًا بالبهجة التي لا تنتهي!</string>
+    <string name="dm_fortuneCookie_168">ستنعم بأفراح غير متوقعة في هذا العام الجديد.</string>
+    <string name="dm_fortuneCookie_169">سيكون هذا العام مليئًا بالفرص المثيرة.</string>
+    <string name="dm_fortuneCookie_170">ستجلب جهودك الكثير من العوائد السعيدة.</string>
+    <string name="dm_fortuneCookie_171">ستسعدك المفاجآت هذا العام.</string>
+    <string name="dm_fortuneCookie_172">ستجد السعادة طريقها إليك بدون توقع.</string>
+    <string name="dm_fortuneCookie_173">لحظات سعيدة بانتظارك.</string>
+    <string name="dm_fortuneCookie_174">استعد للمفاجآت الممتعة.</string>
+    <string name="dm_fortuneCookie_175">السعادة غير المتوقعة في انتظارك.</string>
+    <string name="dm_fortuneCookie_176">استمتع بالأحداث السعيدة غير المتوقعة.</string>
+    <string name="dm_fortuneCookie_177">ستأتيك السعادة من حيث لا تتوقعها.</string>
+    <string name="dm_fortuneCookie_178">ترقب المفاجآت السارة.</string>
+    <string name="dm_fortuneCookie_179">أتمنى أن تحل عليك البركات!</string>
+    <string name="dm_fortuneCookie_180">عام مليء بالمفاجآت السعيدة.</string>
+    <string name="dm_fortuneCookie_181">ستدهشك الفرص الجديدة.</string>
+    <string name="dm_fortuneCookie_182">فرص مثيرة في انتظارك هذا العام.</string>
+    <string name="dm_fortuneCookie_183">ستطرق الفرص بابك كثيرًا في العام الجديد.</string>
+    <string name="dm_fortuneCookie_184">يحمل مستقبلك فرصًا مشوقة.</string>
+    <string name="dm_fortuneCookie_185">اغتنم الفرص الجديدة والمثيرة.</string>
+    <string name="dm_fortuneCookie_186">ترقب مغامرات جديدة وممتعة.</string>
+    <string name="dm_fortuneCookie_187">ستجد الفرص طريقها إليك.</string>
+    <string name="dm_fortuneCookie_188">مشاريع مثيرة في انتظارك.</string>
+    <string name="dm_fortuneCookie_189">يجلب لك هذا العام فرصًا مثيرة.</string>
+    <string name="dm_fortuneCookie_190">عام من التغييرات المثيرة في انتظارك.</string>
+    <string name="dm_fortuneCookie_191">جهودك ستثمر هذا العام!</string>
+    <string name="dm_fortuneCookie_actionBar_fortuneCookie">‏🥠 بسكويت الحظ</string>
+    <string name="dm_fortuneCookie_actionBar_panel_body">أرسل بسكويت الحظ الذي يحتوي على تحيات مفاجئة وأطيب التمنيات. من يدري ما الذي سيحصل عليه؟</string>
+    <string name="dm_fortuneCookie_actionBar_panel_header">إرسال بسكويت الحظ!</string>
+    <string name="dm_fortuneCookie_inAppPush_receiver">أرسل لك بسكويت الحظ 🥠</string>
+    <string name="dm_fortuneCookie_inboxPreview_receiver">أرسل لك 🥠</string>
+    <string name="dm_fortuneCookie_inline_YouGot_receiver">لقد حصلت على بسكويت الحظ! اضغط لمعرفة ما بداخله.</string>
+    <string name="dm_fortuneCookie_inline_fortuneCookieSent_sender">تم إرسال بسكويت الحظ.</string>
+    <string name="dm_fortuneCookie_inline_fortuneCookieSent_sender2">تم إرسال بسكويت الحظ وفي انتظار فتحه.</string>
+    <string name="dm_fortuneCookie_inline_nickOpenedCookie">فتح %1$s بسكويت الحظ!</string>
+    <string name="dm_fortuneCookie_outAppPush_receiver">أرسل لك بسكويت الحظ 🥠</string>
+    <string name="dm_fortuneCookie_quote_text">‏[بسكويت الحظ]</string>
+    <string name="dm_remix_NYEprompts_bye_2025">وداعًا 2025 👋</string>
+    <string name="dm_remix_NYEprompts_champagne_pop">وقت المشروبات 🍾</string>
+    <string name="dm_remix_NYEprompts_cheers_to_2026">فلنستقبل عام 2026 🥂</string>
+    <string name="dm_remix_NYEprompts_countdownChaos">فوضى العد التنازلي ⏰</string>
+    <string name="dm_remix_NYEprompts_countdownKiss">قبلات العد التنازلي 💋</string>
+    <string name="dm_remix_NYEprompts_fireworkFever">شغف المفرقعات💥</string>
+    <string name="dm_remix_NYEprompts_freshStart">مشاعر البداية الجديدة ✨</string>
+    <string name="dm_remix_NYEprompts_glow_up_2026">توهَّج في 2026 🌟</string>
+    <string name="dm_remix_NYEprompts_happy_new_year">عام جديد سعيد! 🎇</string>
+    <string name="dm_remix_NYEprompts_make_a_wish">تمنَّ أمنية 🌟</string>
+    <string name="dm_remix_NYEprompts_midnightConfetti">احتفالات منتصف الليل 🎊</string>
+    <string name="dm_remix_NYEprompts_newYearWoe">متاعب العام الجديد 😭</string>
+    <string name="dm_remix_NYEprompts_new_year_new_me">سنة جديدة، وشخصية جديدة</string>
+    <string name="dm_remix_NYEprompts_new_year_same_me">سنة جديدة، وذاتي لم تتغير</string>
+    <string name="dm_remix_NYEprompts_nye">ليلة رأس السنة 🎉</string>
+    <string name="dm_remix_NYEprompts_party_vibes">أجواء الاحتفال 🎉</string>
+    <string name="dm_remix_NYEprompts_resolutionTime">وقت القرار ✍️</string>
+    <string name="dm_remix_prompts_christmas_feast">وليمة رأس السنة 🍗</string>
+    <string name="dm_remix_prompts_christmas_magic">سحر رأس السنة ✨</string>
+    <string name="dm_remix_prompts_elf_yourself">حوّل نفسك إلى قزم 🧝‍♂️</string>
+    <string name="dm_remix_prompts_evilXmas">رأس السنة الشرير 😈</string>
+    <string name="dm_remix_prompts_frosty_the_snowman">الرجل الثلجي فروستي ☃️</string>
+    <string name="dm_remix_prompts_happy_holidays">أعياد سعيدة 🎁</string>
+    <string name="dm_remix_prompts_ho_ho_ho">ها ها ها 🎅</string>
+    <string name="dm_remix_prompts_jingleBell">أجراس 🔔</string>
+    <string name="dm_remix_prompts_merry_christmas">رأس سنة سعيد 🎄</string>
+    <string name="dm_remix_prompts_mistletoe_magic">طقوس الهدال الساحرة ✨</string>
+    <string name="dm_remix_prompts_naughty_or_nice">شقي أم لطيف 😏</string>
+    <string name="dm_remix_prompts_restGrinch">وجه غرينش المستريح 😈</string>
+    <string name="dm_remix_prompts_santaExplain">بابا نويل، يمكنني أن أشرح...🎅🏻</string>
+    <string name="dm_remix_prompts_santa_claus">بابا نويل 🎅</string>
+    <string name="dm_remix_prompts_santas_reindeer">رنّة بابا نويل 🦌</string>
+    <string name="dm_remix_prompts_seasons_greetings">تحيات الأعياد 💌</string>
+    <string name="dm_remix_prompts_snowman">رجل الثلج ☃️</string>
+    <string name="dm_remix_prompts_white_christmas">رأس سنة أبيض ❄️</string>
+    <string name="dm_remix_prompts_winter_wonderland">بلاد العجائب الشتوية ❄️</string>
+    <string name="dm_remix_prompts_wrapping_a_gift">تغليف هدية 🎁</string>
+    <string name="gkb">Doctor</string>
+    <string name="gkz">تم</string>
+    <string name="gl5">الأصدقاء</string>
+    <string name="gl8">تنزيل</string>
+    <string name="gld">تعذر التنزيل</string>
+    <string name="gnz">المدة</string>
+    <string name="gol">تيمور الشرقية</string>
+    <string name="h4z">تغيير</string>
+    <string name="h50">عرض</string>
+    <string name="h5o">تعديل عنوان الصوت</string>
+    <string name="h6a">تعديل الملف الشخصي</string>
+    <string name="effect_tool_Angry">غاضب</string>
+    <string name="effect_tool_AnimationPlayMode_Loop">تكرار</string>
+    <string name="effect_tool_AnimationPlayMode_Once">مرة واحدة</string>
+    <string name="effect_tool_Appear">ظهور</string>
+    <string name="effect_tool_BarrageScrollHorizontal">تمرير لليسار</string>
+    <string name="effect_tool_BarrageScrollHorizontalReverse">تمرير لليمين</string>
+    <string name="effect_tool_BigV">‏V</string>
+    <string name="effect_tool_BounceIn">ارتداد للداخل</string>
+    <string name="effect_tool_BounceOut">ارتداد للخارج</string>
+    <string name="effect_tool_Cabbage">ضم الأصابع</string>
+    <string name="effect_tool_Dance">ارتداد</string>
+    <string name="effect_tool_DanceSlightly">تحريك خفيف</string>
+    <string name="effect_tool_Disappear">اختفاء</string>
+    <string name="effect_tool_FPS">سرعة ثابتة</string>
+    <string name="effect_tool_Fear">خائف</string>
+    <string name="effect_tool_Fist">قبضة</string>
+    <string name="effect_tool_FistBow">ضم الكف</string>
+    <string name="effect_tool_Flicker">رمش</string>
+    <string name="effect_tool_Flip">برم</string>
+    <string name="effect_tool_FlipOverIn">قلب للأعلى</string>
+    <string name="effect_tool_FlipOverOut">قلب للأسفل</string>
+    <string name="effect_tool_Four">‏4 أصابع لأعلى</string>
+    <string name="effect_tool_HandOpen">كف مفتوح</string>
+    <string name="effect_tool_Happy">سعيد</string>
+    <string name="effect_tool_HeartA">قلب باليد (إبهام لأعلى)</string>
+    <string name="effect_tool_HeartB">قلب باليد (إبهام لأسفل)</string>
+    <string name="effect_tool_HeartC">كف قلب مفتوح</string>
+    <string name="effect_tool_HeartD">أصابع قلب</string>
+    <string name="effect_tool_Heartbeat">نبض</string>
+    <string name="effect_tool_HoldFace">لمس المعصم</string>
+    <string name="effect_tool_HomA">‏\"أحبك\"</string>
+    <string name="effect_tool_HomB">قرون</string>
+    <string name="effect_tool_HornA">‏\"أحبك\"</string>
+    <string name="effect_tool_HornB">قرون</string>
+    <string name="effect_tool_InOrder">تكرار مرة واحدة</string>
+    <string name="effect_tool_IndexFingerUp">سبابة لأعلى</string>
+    <string name="effect_tool_Loop">تكرار</string>
+    <string name="effect_tool_Namaste">‏\"شكرًا لك\"</string>
+    <string name="effect_tool_Nausea">الشعور بالقرف</string>
+    <string name="effect_tool_NoAnimation">لا شيء</string>
+    <string name="effect_tool_NoTriggerAction">لا شيء</string>
+    <string name="effect_tool_Nod">إيماءة</string>
+    <string name="effect_tool_OK">موافق</string>
+    <string name="effect_tool_ObjectEnd">اختفاء عنصر</string>
+    <string name="effect_tool_ObjectStart">ظهور عنصر</string>
+    <string name="effect_tool_OnStart">يبدأ المؤثر</string>
+    <string name="effect_tool_OpacityIn">اختفاء تدريجي</string>
+    <string name="effect_tool_OpacityOut">ظهور تدريجي</string>
+    <string name="effect_tool_OpenMouth">فتح الفم</string>
+    <string name="effect_tool_PalmUp">كف لأعلى</string>
+    <string name="effect_tool_Pendulum">تدلي</string>
+    <string name="effect_tool_PhoneCall">رفع الإبهام والخنصر</string>
+    <string name="effect_tool_PokerFace">محايد</string>
+    <string name="effect_tool_PoutMouth">ضم الشفتين</string>
+    <string name="effect_tool_Pray">‏\"دعاء\"</string>
+    <string name="effect_tool_RaiseEyebrows">رفع الحاجب</string>
+    <string name="effect_tool_Random">خلط</string>
+    <string name="effect_tool_Rotate">دوران</string>
+    <string name="effect_tool_Sad">حزين</string>
+    <string name="effect_tool_Salute">تحية</string>
+    <string name="effect_tool_Second">المؤقت</string>
+    <string name="effect_tool_ShakeHead">هز الرأس</string>
+    <string name="effect_tool_ShootA">إبهام يشير (ممتاز)</string>
+    <string name="effect_tool_ShootB">إصبعان يشيرا</string>
+    <string name="effect_tool_SlowlyZoomIn">تكبير</string>
+    <string name="effect_tool_SlowlyZoomOut">تصغير</string>
+    <string name="effect_tool_StartPlay">الظهور بالترتيب بعد الكشف عن المشغل</string>
+    <string name="effect_tool_StopPlay">الخلط حتى يتم اكتشاف المشغل</string>
+    <string name="effect_tool_SubtitleScrollVertical">تمرير لأعلى</string>
+    <string name="effect_tool_SubtitleScrollVerticalReverse">تمرير لأسفل</string>
+    <string name="effect_tool_Surprise">مندهش</string>
+    <string name="effect_tool_Swing">هز</string>
+    <string name="effect_tool_SwitchFeature">التبديل في كل مرة يتم فيها الكشف عن المشغل</string>
+    <string name="effect_tool_TapScreen">اضغط على الشاشة</string>
+    <string name="effect_tool_Thanks">تحية كونغ فو</string>
+    <string name="effect_tool_Three">ثلاثة</string>
+    <string name="effect_tool_ThumbDown">لا يعجبني</string>
+    <string name="effect_tool_Toggle">تبديل الإظهار والإخفاء</string>
+    <string name="effect_tool_Tremble">اهتزاز</string>
+    <string name="effect_tool_UsePreEndAsStart">مستمر</string>
+    <string name="effect_tool_Victory">‏\"السلام\"</string>
+    <string name="effect_tool_Vow">‏3 أصابع لأعلى</string>
+    <string name="effect_tool_WhichObject">أي عنصر</string>
+    <string name="effect_tool_WinkEyes">اغمز</string>
+    <string name="effect_tool_Wiper">تلويح</string>
+    <string name="effect_tool_alert_back_content">لن يتم إضافة شد الوجه إلى المؤثر.</string>
+    <string name="effect_tool_alert_deleteobj">هل تريد حذف هذا العنصر؟</string>
+    <string name="effect_tool_alert_deleteseq">سيتم أيضًا حذف جميع العناصر في هذا التسلسل.</string>
+    <string name="effect_tool_alert_discardedit_content">لن يتم حفظ التغييرات الأخيرة التي أجريتها.</string>
+    <string name="effect_tool_alert_discardedit_title">هل تريد مسح أحدث التغييرات؟</string>
+    <string name="effect_tool_alert_emptyseq">يمكنك إضافة عناصر في لوحة التفاعل لاحقًا.</string>
+    <string name="effect_tool_alert_emptyseq_add">إضافة تسلسل</string>
+    <string name="effect_tool_alert_emptyseq_title">هل تريد إضافة تسلسلًا فارغًا؟</string>
+    <string name="effect_tool_alert_exceed7M">يتجاوز هذا المؤثر حد الحجم البالغ 7 ميجابايت. قم بإزالة بعض العناصر وحاول مرة أخرى.</string>
+    <string name="effect_tool_alert_exit_distortion">هل تريد الخروج من شد الوجه؟</string>
+    <string name="effect_tool_alert_reset_content">سيتم مسح كل التغييرات.</string>
+    <string name="effect_tool_alert_reset_title">هل تريد إعادة ضبط شد الوجه؟</string>
+    <string name="effect_tool_alert_triggerconflict">تتم إعادة تعيين بعض مشغلات الإنهاء إلى \"لا شيء\" لتجنب التعارض.</string>
+    <string name="effect_tool_back">رجوع</string>
+    <string name="effect_tool_cancel">إلغاء</string>
+    <string name="effect_tool_canvas_body">الجسم</string>
+    <string name="effect_tool_canvas_camera">كاميرا</string>
+    <string name="effect_tool_canvas_face">الوجه</string>
+    <string name="effect_tool_canvas_hand">يد</string>
+    <string name="effect_tool_clear">حذف</string>
+    <string name="effect_tool_copy">تكرار</string>
+    <string name="effect_tool_copy_suffix">‏(نسخ)</string>
+    <string name="effect_tool_create_album">الألبوم</string>
+    <string name="effect_tool_create_camera">كاميرا</string>
+    <string name="effect_tool_create_draw">رسم</string>
+    <string name="effect_tool_create_draw_brush">فرشاة</string>
+    <string name="effect_tool_create_draw_crop">قص</string>
+    <string name="effect_tool_create_draw_eraser">ممحاة</string>
+    <string name="effect_tool_create_stickerlib">مكتبة الملصقات</string>
+    <string name="effect_tool_create_text">نص</string>
+    <string name="effect_tool_createsticker_title">إنشاء ملصق</string>
+    <string name="effect_tool_delete">حذف</string>
+    <string name="effect_tool_delete_object">حذف العنصر</string>
+    <string name="effect_tool_delete_sequence">حذف التتابع</string>
+    <string name="effect_tool_distortion_mirror">مرآة</string>
+    <string name="effect_tool_distortion_reset">إعادة تعيين</string>
+    <string name="effect_tool_distortion_symmetry">تجانس</string>
+    <string name="effect_tool_done">تم</string>
+    <string name="effect_tool_exit">خروج</string>
+    <string name="effect_tool_exit_discard">تجاهل</string>
+    <string name="effect_tool_gotit">فهمت</string>
+    <string name="effect_tool_group_release">تجاهل</string>
+    <string name="effect_tool_guide_noshow_content">تعمل بعض المؤثرات فقط على قوالب محددة. إذا كان العنصر الذي تحدده لا يعمل، فجرب تغيير القالب.</string>
+    <string name="effect_tool_guide_noshow_title">المعاينة باستخدام النموذج الصحيح</string>
+    <string name="effect_tool_guide_startcreating">ابدأ الإبداع</string>
+    <string name="effect_tool_guide_tooltip1">اضغط لإضافة عناصر</string>
+    <string name="effect_tool_guide_tooltip2">اختر نوع العنصر</string>
+    <string name="effect_tool_guide_tooltip3">حدد عنصرًا لإضافته إلى نموذجك</string>
+    <string name="effect_tool_guide_tooltip4">معاينة المؤثر الذي أنشأته واختباره</string>
+    <string name="effect_tool_guide_tooltip5">حان الوقت الآن لإنشاء مؤثر من إبداعك!</string>
+    <string name="effect_tool_interaction">التفاعلات</string>
+    <string name="effect_tool_interaction_addobject">إضافة عنصر</string>
+    <string name="effect_tool_interaction_addseq">إضافة تتابع</string>
+    <string name="effect_tool_interaction_animation">رسوم متحركة</string>
+    <string name="effect_tool_interaction_end">إخفاء</string>
+    <string name="effect_tool_interaction_endtrigger">الإخفاء عند</string>
+    <string name="effect_tool_interaction_mode">الترتيب</string>
+    <string name="effect_tool_interaction_null">لا توجد عناصر حتى الآن</string>
+    <string name="effect_tool_interaction_pleaseadd">إضافة عناصر لإنشاء تفاعلات لمؤثر أنشأته</string>
+    <string name="effect_tool_interaction_selectobj">تحديد العناصر</string>
+    <string name="effect_tool_interaction_selectobjs">حدد العناصر</string>
+    <string name="effect_tool_interaction_seq">تسلسل</string>
+    <string name="effect_tool_interaction_seq_addobj">إضافة عناصر</string>
+    <string name="effect_tool_interaction_seq_editobj">تعديل العناصر</string>
+    <string name="effect_tool_interaction_seq_null">لا توجد عناصر متاحة</string>
+    <string name="effect_tool_interaction_seq_pleaseadd">أضف عناصر في لوحة التفاعلات لتسلسلك</string>
+    <string name="effect_tool_interaction_start">ظهور</string>
+    <string name="effect_tool_interaction_starttrigger">الإظهار عند</string>
+    <string name="effect_tool_interaction_stop">إيقاف</string>
+    <string name="effect_tool_interaction_stoptrigger">إيقاف المشغلات</string>
+    <string name="effect_tool_interaction_switch">التبديل</string>
+    <string name="effect_tool_interaction_switchtrigger">تبديل المشغلات</string>
+    <string name="effect_tool_interaction_trigger">مشغل</string>
+    <string name="effect_tool_layer">طبقات</string>
+    <string name="effect_tool_layer_body">الجسم</string>
+    <string name="effect_tool_more">المزيد</string>
+    <string name="effect_tool_noconnection1">لا يوجد اتصال بالإنترنت</string>
+    <string name="effect_tool_noconnection2">اتصل بالإنترنت وحاول مرة أخرى</string>
+    <string name="effect_tool_noconnection_retry">إعادة المحاولة</string>
+    <string name="effect_tool_object">عنصر</string>
+    <string name="effect_tool_object_delete">حذف</string>
+    <string name="effect_tool_object_edit">تعديل</string>
+    <string name="effect_tool_object_hide">إخفاء</string>
+    <string name="effect_tool_object_lock">قفل</string>
+    <string name="effect_tool_object_name">الاسم</string>
+    <string name="effect_tool_object_rename">إعادة تسمية</string>
+    <string name="effect_tool_object_show">إظهار</string>
+    <string name="effect_tool_object_unlock">فتح</string>
+    <string name="effect_tool_onboard_step1">استكشف</string>
+    <string name="effect_tool_onboard_step1_content">جرب إنشاء مؤثر باستخدام قالب لبدء سريع.</string>
+    <string name="effect_tool_onboard_step2">إنشاء</string>
+    <string name="effect_tool_onboard_step2_content">استخدم الملصقات والتفاعلات لتصميم مؤثرك وجعله فريدًا.</string>
+    <string name="effect_tool_onboard_step3">مشاركة</string>
+    <string name="effect_tool_onboard_step3_content">انشر مؤثرًا من إبداعك على TikTok لمشاركته مع مجتمعنا العالمي.</string>
+    <string name="effect_tool_onboard_title">إنشاء مؤثر من إبداعك</string>
+    <string name="effect_tool_onboard_trynow">حاول الآن</string>
+    <string name="effect_tool_open_camera_authorization">يريد TikTok الوصول إلى الكاميرا</string>
+    <string name="effect_tool_open_network_authorization">اسمح لـ Tiktok باستخدام البيانات اللاسلكية؟</string>
+    <string name="effect_tool_popup_switchmodel_content">يمكنك العثور على كل العناصر في الطبقات.</string>
+    <string name="effect_tool_popup_switchmodel_title">قمنا بتبديل النموذج ليتناسب مع اختيارك للعنصر</string>
+    <string name="effect_tool_preview">معاينة</string>
+    <string name="effect_tool_preview_flip">قلب</string>
+    <string name="effect_tool_preview_reset">إعادة التشغيل</string>
+    <string name="effect_tool_save">حفظ</string>
+    <string name="effect_tool_savedraft">حفظ المسودة</string>
+    <string name="effect_tool_selecteffect_title">العناصر</string>
+    <string name="effect_tool_sequence_name">الاسم</string>
+    <string name="effect_tool_starttutorial">ابدأ البرنامج التعليمي</string>
+    <string name="effect_tool_sticker_animation">رسوم متحركة</string>
+    <string name="effect_tool_sticker_replace">استبدال</string>
+    <string name="effect_tool_template_beginner">مبتدئ</string>
+    <string name="effect_tool_template_intermediate">متوسط</string>
+    <string name="effect_tool_templateadd_alert">سيحل هذا محل جميع التغييرات الأخيرة.</string>
+    <string name="effect_tool_templateadd_cancel">إلغاء</string>
+    <string name="effect_tool_templateadd_confirm">تقديم</string>
+    <string name="effect_tool_templateadd_title">هل تريد تطبيق القالب؟</string>
+    <string name="effect_tool_timerhits">وصول المؤقت إلى</string>
+    <string name="effect_tool_toast_gif_importfailed">يتجاوز حجم Gif حد %d ميجابايت</string>
+    <string name="effect_tool_toast_gif_incompatible">لا يدعم إصدار المشروع هذا النوع من الأصول</string>
+    <string name="effect_tool_toast_invalideffect">أنشئ مؤثرًا من إبداعك أولاً ثم أرسله</string>
+    <string name="effect_tool_toast_modelmismatch">لا يتطابق العنصر مع النموذج الحالي</string>
+    <string name="effect_tool_toast_switchmodel_fail">قم بالتبديل إلى نموذج يطابق فئة العنصر لديك</string>
+    <string name="effect_tool_tooltip_objectshere">عرض كل العناصر هنا</string>
+    <string name="effect_tool_update_toast">يرجى تحديث TikTok لاستخدام هذا المؤثر</string>
+    <string name="effect_tool_use_template">استخدم القالب</string>
+    <string name="ho_">تحميل الصورة</string>
+    <string name="hv2">اتصل بالإنترنت وحاول مرة أخرى.</string>
+    <string name="i03">الأصوات المفضلة</string>
+    <string name="i04">ستظهر الأصوات المفضلة لديك هنا</string>
+    <string name="i3i">إرسال</string>
+    <string name="i4_">فلاتر</string>
+    <string name="i82">متابعة</string>
+    <string name="i8j">حدث خطأ، يرجى المحاولة مرة أخرى.</string>
+    <string name="i92">أتابعه</string>
+    <string name="i94">متابعون جدد</string>
+    <string name="i9b">تم الطلب</string>
+    <string name="i9m">أتابعه</string>
+    <string name="i9q">متابع</string>
+    <string name="i_k">أتابعه</string>
+    <string name="iai">لك</string>
+    <string name="ick">الأصدقاء فقط</string>
+    <string name="ig6">إنهاء</string>
+    <string name="igm">موافق</string>
+    <string name="ih2">Graduate degree</string>
+    <string name="ivj">‏%d س</string>
+    <string name="iz6">فتح</string>
+    <string name="izm">إدارة</string>
+    <string name="izz">‏%s مقطع فيديو</string>
+    <string name="j04">الأصدقاء</string>
+    <string name="j0b">موافق</string>
+    <string name="j0z">الأحدث</string>
+    <string name="j1j">لم يتم العثور على نتائج</string>
+    <string name="j1v">تم الإرسال</string>
+    <string name="j1x">دعم الإعلانات</string>
+    <string name="j26">تحديثات الحساب</string>
+    <string name="j3b">فشلت العملية</string>
+    <string name="imagineLab_prompting_samplePrompts_tag1">أخبرتك</string>
+    <string name="imagineLab_prompting_samplePrompts_tag10">هذا كسرني 💔</string>
+    <string name="imagineLab_prompting_samplePrompts_tag11">احمل مشروبي</string>
+    <string name="imagineLab_prompting_samplePrompts_tag12">لحظة مميزة كبيرة</string>
+    <string name="imagineLab_prompting_samplePrompts_tag13">لحظة ذهنية كبيرة 🧠</string>
+    <string name="imagineLab_prompting_samplePrompts_tag14">أشعر بكل المشاعر</string>
+    <string name="imagineLab_prompting_samplePrompts_tag15">أزمة وجودية</string>
+    <string name="imagineLab_prompting_samplePrompts_tag16">أنا رضيع 👶</string>
+    <string name="imagineLab_prompting_samplePrompts_tag17">مزاج رائع</string>
+    <string name="imagineLab_prompting_samplePrompts_tag18">ليس سيئًا يا أوباما</string>
+    <string name="imagineLab_prompting_samplePrompts_tag19">عقلي لا يصدق 🤯</string>
+    <string name="imagineLab_prompting_samplePrompts_tag2">طاقة رجل رائع</string>
+    <string name="imagineLab_prompting_samplePrompts_tag20">إطلاق ناعم</string>
+    <string name="imagineLab_prompting_samplePrompts_tag21">فوق السحاب ☁️</string>
+    <string name="imagineLab_prompting_samplePrompts_tag22">سأعود باكيًا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag23">الدموع تغمرني 😢</string>
+    <string name="imagineLab_prompting_samplePrompts_tag24">المستوى الصغير 100</string>
+    <string name="imagineLab_prompting_samplePrompts_tag25">أشعر بالحرارة 🌶️</string>
+    <string name="imagineLab_prompting_samplePrompts_tag26">لا أحد لديه الوقت</string>
+    <string name="imagineLab_prompting_samplePrompts_tag27">قليل من الغضب 💢</string>
+    <string name="imagineLab_prompting_samplePrompts_tag28">أجواء النوم 😴</string>
+    <string name="imagineLab_prompting_samplePrompts_tag29">لا توجد صلة</string>
+    <string name="imagineLab_prompting_samplePrompts_tag3">التفكير المفرط في كل شيء 🧠</string>
+    <string name="imagineLab_prompting_samplePrompts_tag30">تفاخر غير تقليدي</string>
+    <string name="imagineLab_prompting_samplePrompts_tag31">التقاط بجودة 4K 📸</string>
+    <string name="imagineLab_prompting_samplePrompts_tag32">ضحك خارج نطاق السيطرة 😂</string>
+    <string name="imagineLab_prompting_samplePrompts_tag33">على عرش الشرير</string>
+    <string name="imagineLab_prompting_samplePrompts_tag34">محرج لكن حر</string>
+    <string name="imagineLab_prompting_samplePrompts_tag35">أنا كائن بري 🐾</string>
+    <string name="imagineLab_prompting_samplePrompts_tag36">فوضى سعيدة 😊</string>
+    <string name="imagineLab_prompting_samplePrompts_tag37">مصدوم للغاية</string>
+    <string name="imagineLab_prompting_samplePrompts_tag38">أشعر بالتميز</string>
+    <string name="imagineLab_prompting_samplePrompts_tag39">صرخة داخلية</string>
+    <string name="imagineLab_prompting_samplePrompts_tag4">تألق مذهل 💅</string>
+    <string name="imagineLab_prompting_samplePrompts_tag40">مجنون متحمس 🔥</string>
+    <string name="imagineLab_prompting_samplePrompts_tag41">سيد الملح</string>
+    <string name="imagineLab_prompting_samplePrompts_tag42">ليس رائعًا 🧊</string>
+    <string name="imagineLab_prompting_samplePrompts_tag43">ليس أوانه اليوم 🙅</string>
+    <string name="imagineLab_prompting_samplePrompts_tag44">حزين لكن لطيف</string>
+    <string name="imagineLab_prompting_samplePrompts_tag45">وقت الوجبة الخفيفة 🍟</string>
+    <string name="imagineLab_prompting_samplePrompts_tag46">وضع الخجل 😳</string>
+    <string name="imagineLab_prompting_samplePrompts_tag47">خلل في المصفوفة</string>
+    <string name="imagineLab_prompting_samplePrompts_tag48">تم بنسبة 100% ✅</string>
+    <string name="imagineLab_prompting_samplePrompts_tag49">القليل من الذعر</string>
+    <string name="imagineLab_prompting_samplePrompts_tag5">لحظة السطوع</string>
+    <string name="imagineLab_prompting_samplePrompts_tag50">غير متاح عاطفيًا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag51">طاقة القط 🐱</string>
+    <string name="imagineLab_prompting_samplePrompts_tag6">وضع الذعر 😱</string>
+    <string name="imagineLab_prompting_samplePrompts_tag7">لماذا</string>
+    <string name="imagineLab_prompting_samplePrompts_tag8">دراما لاما 🦙</string>
+    <string name="imagineLab_prompting_samplePrompts_tag9">أعيش عصر الفشل</string>
+    <string name="jb9">أدخل رقم الهاتف</string>
+    <string name="jbe">التثبيت الآن</string>
+    <string name="jdh">الأردن</string>
+    <string name="jdm">‏Junior college</string>
+    <string name="jdn">الآن</string>
+    <string name="jgz">ربما لاحقًا</string>
+    <string name="jh0">مشاهدة</string>
+    <string name="jis">تسجيلات الإعجاب</string>
+    <string name="jl2">ليتوانيا</string>
+    <string name="jl3">‏LIVE</string>
+    <string name="jmi">انتهى الـ LIVE</string>
+    <string name="joa">تعذر التحميل</string>
+    <string name="joe">تعذر التحميل. اضغط للمحاولة مرة أخرى.</string>
+    <string name="jp6">سماح</string>
+    <string name="jqr">تعذر تسجيل الدخول</string>
+    <string name="jqs">و</string>
+    <string name="jsb">اربح مكافآت</string>
+    <string name="jwa">صورة أصلية</string>
+    <string name="jwo">التقاط صورة</string>
+    <string name="k0m">ميكرونيسيا</string>
+    <string name="k1f">‏%dد</string>
+    <string name="mixStudio_remix_prompt_baguette">حمل رغيف فرنسي، والعيش على الطراز الباريسي</string>
+    <string name="mixStudio_remix_prompt_baseball">لاعب بيسبول منتصر في منتصف اللعب</string>
+    <string name="mixStudio_remix_prompt_basketball">لاعب كرة سلة رائع يرتدي قميصًا بدون أكمام</string>
+    <string name="mixStudio_remix_prompt_beer">يبتسم بثقة أثناء رفع كوب مشروب</string>
+    <string name="mixStudio_remix_prompt_boxing">يرتدي قفازات الملاكمة الحمراء، على استعداد للضرب</string>
+    <string name="mixStudio_remix_prompt_brb">سأعود حالاً</string>
+    <string name="mixStudio_remix_prompt_broken">عبوس حزين مع وضع اليد على الصدر وقلب أحمر كبير مكسور</string>
+    <string name="mixStudio_remix_prompt_builder">لاعب كمال الأجسام</string>
+    <string name="mixStudio_remix_prompt_bulb">إيماءة التفكر مع مصباح أصفر كبير</string>
+    <string name="mixStudio_remix_prompt_burger">أكل برجر ضخم</string>
+    <string name="mixStudio_remix_prompt_cash">إيماءة دعاء وعينان مغلقتان، مع تساقط النقود كالمطر في المقدمة</string>
+    <string name="mixStudio_remix_prompt_chopsticks">تناول السوشي بعيدان تناول الطعام</string>
+    <string name="mixStudio_remix_prompt_cocktail">كوكتيل الشاطئ</string>
+    <string name="mixStudio_remix_prompt_confused">تعبير مرتبك مع علامة ؟</string>
+    <string name="mixStudio_remix_prompt_donut">أكل دونات ضخمة</string>
+    <string name="mixStudio_remix_prompt_fierce">تعبير شرس مع قبضات مشدودة وشخص محاط بالنار</string>
+    <string name="mixStudio_remix_prompt_finger">إشارة المسدس بالإصبع</string>
+    <string name="mixStudio_remix_prompt_flabbergasted">مندهش</string>
+    <string name="mixStudio_remix_prompt_graduated">تخرج للتو</string>
+    <string name="mixStudio_remix_prompt_heart">معانقة قلب أحمر كبير</string>
+    <string name="mixStudio_remix_prompt_hi">التلويح بحماس وقول مرحبًا</string>
+    <string name="mixStudio_remix_prompt_horrified">مذعور</string>
+    <string name="mixStudio_remix_prompt_kimono">الرقص بالكيمونو</string>
+    <string name="mixStudio_remix_prompt_kiss">إرسال قبلة ضخمة 🩷</string>
+    <string name="mixStudio_remix_prompt_laptop">الكتابة على الكمبيوتر المحمول بملل</string>
+    <string name="mixStudio_remix_prompt_mcdonalds">بطاطس ماكدونالدز كبيرة الحجم</string>
+    <string name="mixStudio_remix_prompt_neutral">عادي</string>
+    <string name="mixStudio_remix_prompt_night">يشعر بالنعاس يرتدي قبعة الليل</string>
+    <string name="mixStudio_remix_prompt_ninja">نينجا ملثم شرس</string>
+    <string name="mixStudio_remix_prompt_party">قبعة حفلات 🥳</string>
+    <string name="mixStudio_remix_prompt_pizza">أكل شريحة كبيرة من البيتزا</string>
+    <string name="mixStudio_remix_prompt_police">ضابط شرطة جاد يحمل جهاز اتصال لاسلكي</string>
+    <string name="mixStudio_remix_prompt_puppy">معانقة جرو</string>
+    <string name="mixStudio_remix_prompt_ramen">أكل الرامن</string>
+    <string name="mixStudio_remix_prompt_rugby">لاعب رجبي محترف</string>
+    <string name="mixStudio_remix_prompt_sadness">حزن عميق</string>
+    <string name="mixStudio_remix_prompt_shopping">جولة تسوق مكثفة</string>
+    <string name="mixStudio_remix_prompt_sighing">التنهد مع نفخة صغيرة من الضجر إلى الجانب، وذراعان متقاطعتان</string>
+    <string name="mixStudio_remix_prompt_snowboard">يحمل بحماس لوح التزلج، بزي شتوي</string>
+    <string name="mixStudio_remix_prompt_soccer">لعب كرة القدم</string>
+    <string name="mixStudio_remix_prompt_sunglasses">ضبط النظارات الشمسية بثقة</string>
+    <string name="mixStudio_remix_prompt_teddy">عناق شديد لدمية دب</string>
+    <string name="mixStudio_remix_prompt_terrified">مرعوب</string>
+    <string name="mixStudio_remix_prompt_thumbs">إعطاء إشارة إعجاب كبيرة جدًا</string>
+    <string name="mixStudio_remix_prompt_tilted">يهز كتفيه بابتسامة ساخرة ورأس مائل</string>
+    <string name="mixStudio_remix_prompt_tired">متعب مع عيون باهتة، يستند على اليد</string>
+    <string name="mixStudio_remix_prompt_toast">بدء نخب</string>
+    <string name="mixStudio_remix_prompt_vacation">في عطلة ⛱️</string>
+    <string name="mixStudio_remix_prompt_winking">لطيف ويغمز</string>
+    <string name="mixStudio_remix_prompt_zzz">نعسان للغاية مع كتابة ZZZ بالأزرق</string>
+    <string name="mixedEdits_editingPage_autoEdit_btn">تعديل تلقائي</string>
+    <string name="mixedEdits_editingPage_editsForYou_btn">تعديلات لك</string>
+    <string name="mixedEdits_editingPage_madeForYou_btn">صُمم لك</string>
+    <string name="mixedEdits_editingPage_quickEdits_btn">تعديلات سريعة</string>
+    <string name="k5w">المزيد</string>
+    <string name="k7o">@android:string/ok</string>
+    <string name="k9y">تغيير الفيديو</string>
+    <string name="k9z">إزالة الفيديو</string>
+    <string name="k_0">مشاهدة الفيديو</string>
+    <string name="k_o">تسجيل الدخول</string>
+    <string name="kao">الأصوات</string>
+    <string name="kc6">الأصوات</string>
+    <string name="kcn">الصوت الأصلي</string>
+    <string name="kd5">المفضلات</string>
+    <string name="kfx">ميانمار</string>
+    <string name="khn">لا يوجد اتصال بالإنترنت</string>
+    <string name="km6">التالي</string>
+    <string name="kmq">لا</string>
+    <string name="koa">لا شيء</string>
+    <string name="kpm">ليس الآن</string>
+    <string name="kq2">الإشعارات</string>
+    <string name="kqg">الذِكر</string>
+    <string name="kqk">الربح</string>
+    <string name="kr6">السابق</string>
+    <string name="kxk">إيقاف تشغيل</string>
+    <string name="lcf">إيقاف مؤقت</string>
+    <string name="lm9">الصورة غير موجودة</string>
+    <string name="pipo_common_quit">إنهاء</string>
+    <string name="pipo_payin_quit_content">تبقى بضع خطوات لإنهاء الدفع</string>
+    <string name="pipo_payin_quit_continue_pay">متابعة للدفع</string>
+    <string name="pipo_payin_quit_title">هل تريد إنهاء المعاملة؟</string>
+    <string name="lwx">قائمة التشغيل</string>
+    <string name="n5s">ألقِ نظرة على أحدث فيديوهات LIVE من مبدعي LIVE الذين تتابعهم</string>
+    <string name="n5t">استكشف فيديوهات LIVE الرائجة على TikTok!</string>
+    <string name="n5u">المشاهدة الآن</string>
+    <string name="n5v">في بث LIVE الآن</string>
+    <string name="n5w">أتابعه</string>
+    <string name="n5x">تسجيل الدخول</string>
+    <string name="n5y">سجّل الدخول لمشاهدة فيديوهات LIVE من مبدعي LIVE الذين تتابعهم</string>
+    <string name="n5z">%s في بث LIVE</string>
+    <string name="n60" formatted="false">%s و%s في بث LIVE حاليًا</string>
+    <string name="n61" formatted="false">%s و%d من مبدعي LIVE الآخرين في بث LIVE حاليًا</string>
+    <string name="p6e">معاينة</string>
+    <string name="p91">سياسة الخصوصية</string>
+    <string name="pag">خاص</string>
+    <string name="pb9">جارٍ المعالجة</string>
+    <string name="pib">شروط البرنامج الترويجي</string>
+    <string name="pj7">شروط الخدمة</string>
+    <string name="pjk">عام</string>
+    <string name="pk_">تعذر تحميل الفيديو. تم حفظ المسودة.</string>
+    <string name="pmy">الإشعارات</string>
+    <string name="pmz">بدء دويتو</string>
+    <string name="pnh">رمز QR</string>
+    <string name="poh">هل تريد إنهاء تعديل المشروع؟</string>
+    <string name="poz">لا يوجد المزيد من النتائج</string>
+    <string name="pso">إعادة المحاولة</string>
+    <string name="pug">إزالة</string>
+    <string name="pwj">إبلاغ</string>
+    <string name="pyh">مولدوفيا</string>
+    <string name="q0d">إعادة الإرسال</string>
+    <string name="q5x">سانت لوسيا</string>
+    <string name="q6_">حفظ</string>
+    <string name="q81">تعذر الحفظ</string>
+    <string name="q8l">تم الحفظ</string>
+    <string name="q8y">مسح</string>
+    <string name="qed">بحث</string>
+    <string name="qff">أتابعه</string>
+    <string name="qfg">نشر</string>
+    <string name="qfh">صندوق الوارد</string>
+    <string name="qfi">أداة واجهة البحث</string>
+    <string name="qfj">ابحث عن المحتوى الذي يثير اهتمامك.</string>
+    <string name="qfm">البحث على TikTok</string>
+    <string name="qiv">انظر الأصلي</string>
+    <string name="qiy">مشاهدة خطة الإعلانات</string>
+    <string name="ql8">إرسال</string>
+    <string name="qs4">كلمة السر الجديدة</string>
+    <string name="qs_">تم تعيين الفيديو إلى \"الأصدقاء فقط\"</string>
+    <string name="qsj">الخصوصية والأمان</string>
+    <string name="qsz">التحليلات</string>
+    <string name="qu3">رقم الهاتف</string>
+    <string name="qy1">مشاركة</string>
+    <string name="r01">المشاركة إلى</string>
+    <string name="r03">مراسلة</string>
+    <string name="r0c">مشاركة الملف الشخصي</string>
+    <string name="r4a">استخدم هذا الصوت</string>
+    <string name="r86">تخطي</string>
+    <string name="r90">عرض الشرائح (%d)</string>
+    <string name="r93">سلوفاكيا</string>
+    <string name="rfw">كوريا الجنوبية</string>
+    <string name="ri0">تعذر التحميل. حاول مرة أخرى لاحقًا.</string>
+    <string name="ri1">جار التحميل...</string>
+    <string name="ric">سانت بارتيليمي</string>
+    <string name="rih">سانت بيير وميكلون</string>
+    <string name="rmw">جارٍ مزامنة المقاطع تلقائيًا...</string>
+    <string name="rru">شاهد ما يفعله أصدقاؤك على الصفحة الرئيسية</string>
+    <string name="rrv">قصص TikTok</string>
+    <string name="sar">تم تمكين وضع تقييد المحتوى</string>
+    <string name="sl7">أدخل رمز مرور إدارة مدة الاستخدام</string>
+    <string name="soa">المؤثرات</string>
+    <string name="sod">جارٍ التحميل...</string>
+    <string name="spc">أتابعه</string>
+    <string name="spd">قريب</string>
+    <string name="spe">جديد</string>
+    <string name="spf">لك</string>
+    <string name="sqq">ترجمة</string>
+    <string name="sri">رائج</string>
+    <string name="tteh_newCreatorBonus_entry_createEffects">إنشاء المؤثرات</string>
+    <string name="tteh_newCreatorBonus_h5_head">أنشئ المؤثرات، واحصل على مكافأة!</string>
+    <string name="thi">LIVE</string>
+    <string name="ttlive_mutliTopLIVE_tabName_discover">اكتشف</string>
+    <string name="ttlive_mutliTopLIVE_tabName_hangout">جمعات</string>
+    <string name="w30">كاميرا TikTok</string>
+    <string name="w8_">لا توجد رسائل حتى الآن</string>
+    <string name="w8e">لا تتابع أي شخص حتى الآن</string>
+    <string name="w8t">إلغاء الحظر</string>
+    <string name="w9h">‏Bachelor</string>
+    <string name="w_a">إلغاء التثبيت</string>
+    <string name="w_b">مسح ذاكرة التخزين المؤقتة</string>
+    <string name="w_c">إزالة TikTok</string>
+    <string name="w_l">تعذر إلغاء ربط الحساب</string>
+    <string name="waw">تغيير كلمة السر</string>
+    <string name="wbc">يُرجى تثبيت أحدث إصدار من TikTok</string>
+    <string name="wdf">إلغاء المتابعة</string>
+    <string name="wfl">الفيديوهات</string>
+    <string name="wp0">حفظ الصورة</string>
+    <string name="wqy">أداة الواجهة غير متاحة في منطقتك.</string>
+    <string name="wqz">إنشاء قصة</string>
+    <string name="wra">تم تجاوز الحد الأقصى للحروف</string>
+    <string name="wrc">فيديوهات</string>
+    <string name="wrp">نعم</string>
+    <string name="ws3">جزر أولاند</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="start|center" n1:id="@id/dpv" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginStart="12.0dp">
+        <X.0Cie n1:layout_gravity="center" n1:id="@id/dpy" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="28.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/dpw" n1:visibility="gone" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n2:fjq="@raw/icon_straw" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <X.0CUD n1:id="@id/fzt" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:f7i="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <X.0CoT n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/dpm" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        </X.0CoT>
+    </X.0CUD>
+</merge>

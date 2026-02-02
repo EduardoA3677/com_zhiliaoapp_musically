@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Onlayn səs kitabxanası</item>
+        <item>Mənim Səsim</item>
+    </string-array>
+    <string-array name="l">
+        <item>Təmizlə</item>
+        <item>Keş təmizlənmişdir</item>
+    </string-array>
+    <string-array name="q">
+        <item>Sil</item>
+        <item>Ləğv et</item>
+    </string-array>
+    <string-array name="t">
+        <item>Trendlər</item>
+        <item>Ən sonuncu</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>İlk 20</item>
+        <item>İlk 40</item>
+        <item>İlk 60</item>
+        <item>İlk 80</item>
+        <item>İlk 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Qalereyadan seçin</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Bazar</item>
+        <item>Bazar ertəsi</item>
+        <item>Çərşənbə axşamı</item>
+        <item>Çərşənbə</item>
+        <item>Cümə axşamı</item>
+        <item>Cümə</item>
+        <item>Şənbə</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Sadələşdirilmiş Çin</item>
+        <item>Ənənəvi Çin</item>
+        <item>İngilis</item>
+        <item>Yapon</item>
+        <item>Koreya</item>
+        <item>Rus</item>
+        <item>İndoneziya</item>
+        <item>Malayziya</item>
+        <item>Portuqal</item>
+        <item>Tay</item>
+        <item>Vyetnam</item>
+        <item>Hind</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Qara/Ağ</item>
+        <item>İncəsənət</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Doymuş</item>
+        <item>Xrom</item>
+    </string-array>
+    <string-array name="af">
+        <item>Yan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>İyun</item>
+        <item>İyul</item>
+        <item>Avq</item>
+        <item>Sen</item>
+        <item>Okt</item>
+        <item>Noy</item>
+        <item>Dek</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Məlumatları qənaət etmək birincidir</item>
+        <item>Yüksək çözünürlük birincidir</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Hər kəs</item>
+        <item>Yalnız dostlar</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Bazar ertəsi</item>
+        <item>Çərşənbə axşamı</item>
+        <item>Çərşənbə</item>
+        <item>Cümə axşamı</item>
+        <item>Cümə</item>
+        <item>Şənbə</item>
+        <item>Bazar</item>
+    </string-array>
+</resources>

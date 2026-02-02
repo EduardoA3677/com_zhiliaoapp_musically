@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/pr4" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/pr8" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <FrameLayout n1:id="@id/pr_" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:ellipsize="end" n1:id="@id/pr7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n2:fj2="ow" />
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_gravity="end|center" n1:id="@id/pr9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="8.0dp" n2:fj2="pz" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/pr6" n1:layout_width="14.0dp" n1:layout_height="14.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_chevron_right_ltr" n2:fjt="14.0dp" n2:fk6="14.0dp" n2:fmy="?zz" />
+    </LinearLayout>
+    <X.0o06 n1:id="@id/pr5" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n3:bwq="owf" n3:bx9="owf" n3:bxb="@id/pr8" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

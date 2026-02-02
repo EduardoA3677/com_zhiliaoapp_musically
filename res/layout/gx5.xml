@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/vz2" n1:layout_width="40.0dp" n1:layout_height="16.0dp" n2:bwq="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0d3Z n1:id="@id/vz0" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="6.5dp" n3:bwk="@id/vz2" n3:bwq="@id/vz2" n3:bxc="@id/vz2" n3:bxd="0.5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekr" n1:id="@id/vyz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="1.0dp" n4:bwk="@id/vz2" n4:bwr="@id/vz0" n4:bxc="@id/vz2" n4:bxd="0.5" style="@style/a7_" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <ProgressBar n1:id="@id/m15" n1:layout_width="65.0dp" n1:layout_height="12.0dp" n1:progress="50" n1:progressDrawable="@drawable/eww" n1:layout_marginEnd="4.0dp" n5:bwk="@id/vz2" n5:bwr="@id/vz2" n5:bxc="@id/vz2" n5:bxd="0.5" style="@android:style/Widget.ProgressBar.Horizontal" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekr" n1:gravity="start" n1:id="@id/m16" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="1.0dp" n1:layout_marginStart="8.0dp" n6:bwk="@id/m15" n6:bx9="@id/m15" n6:bxc="@id/m15" n6:bxd="0.5" style="@style/a7i" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekr" n1:ellipsize="end" n1:gravity="start" n1:id="@id/m17" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_marginEnd="20.0dp" n7:bwr="@id/m15" n7:bx9="owf" n7:bxc="owf" style="@style/a77" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

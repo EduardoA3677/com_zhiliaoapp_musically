@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView n1:id="@id/d04" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="15.0dp" n1:elevation="8.0dp" n2:ba3="@color/a10" n2:ba4="@dimen/xq" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:background="?zu" n1:layout_width="176.0dp" n1:layout_height="220.0dp">
+            <X.12vl n1:ellipsize="end" n1:id="@id/jal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:text="@null" n1:maxLines="1" n1:textAlignment="center" n1:layout_marginHorizontal="16.0dp" n2:fj2="p0" n2:fjw="20.0dp" n2:fjy="5.0dp" n2:fk4="@raw/icon_color_ai_group_shot" n2:fk9="20.0dp" n2:fl1="15.0dp" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dp" n1:layout_marginTop="5.0dp" n1:layout_marginRight="10.0dp" n1:text="@null" n1:maxLines="1" n1:textAlignment="center" n1:layout_marginHorizontal="10.0dp" n2:fj2="q1" n2:fl1="10.0dp" />
+            <X.0CfU n1:layout_width="0.0dp" n1:layout_height="12.0dp" />
+            <include layout="@layout/cf5" />
+            <X.0D2z n1:id="@id/i3n" n1:layout_width="152.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="4.0dp" n1:maxWidth="152.0dp" n1:minWidth="152.0dp" n1:text="@null" n2:fib="u9x" n2:fid="t69" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/fc3" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginTop="-5.0dp" n1:layout_alignTop="@id/d04" n1:importantForAccessibility="no" n1:layout_marginEnd="-5.0dp" n1:layout_alignEnd="@id/d04" n1:elevation="12.0dp" n3:fjq="@raw/icon_x_mark_circle_fill" n3:fjt="20.0dp" n3:fk6="20.0dp" n3:fmy="?yf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

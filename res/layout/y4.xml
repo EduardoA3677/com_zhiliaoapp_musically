@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/lpq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" n1:paddingStart="10.0dp" n1:layout_toStartOf="@id/ip8" n2:bwr="@id/ip8" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/ks2" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="20.0dp" n1:layout_height="24.0dp" n1:paddingStart="1.0dp" n1:paddingEnd="1.0dp" n2:fjq="@raw/icon_heart_fill" n2:fmy="?yi" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kl6" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="20.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:paddingStart="1.0dp" n1:paddingEnd="1.0dp" n2:fjq="@raw/icon_heart" n2:fmy="?zz" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="start|center" n1:id="@id/y7l" n1:paddingTop="2.0dp" n1:paddingBottom="2.0dp" n1:layout_width="wrap_content" n1:layout_height="24.0dp" n1:minWidth="26.0dp" n1:maxLines="1" n1:layout_marginStart="2.0dp" n1:layout_toEndOf="@id/kl6" n2:fj2="q1" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/ip8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" n1:layout_alignParentEnd="true" n3:bwq="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kp4" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="40.0dp" n1:layout_height="24.0dp" n1:rotation="180.0" n1:paddingStart="11.0dp" n1:paddingEnd="11.0dp" n3:fjq="@raw/icon_thumbs_up_fill" n3:fmy="?zw" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/l37" n1:paddingTop="3.0dp" n1:paddingBottom="3.0dp" n1:layout_width="40.0dp" n1:layout_height="24.0dp" n1:rotation="180.0" n1:importantForAccessibility="no" n1:paddingStart="11.0dp" n1:paddingEnd="11.0dp" n3:fjq="@raw/icon_thumbs_up" n3:fmy="?zz" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

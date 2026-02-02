@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="match_parent" n1:layout_height="28.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?sz" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/uzv" n1:background="@drawable/ddc" n1:paddingLeft="12.0dp" n1:paddingRight="12.0dp" n1:layout_width="wrap_content" n1:layout_height="28.0dp" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.ss.android.ugc.aweme.views.TransEdgeView n1:gravity="center" n1:layout_width="match_parent" n1:layout_height="28.0dp" n1:layout_marginLeft="10.0dp" n1:layout_marginRight="10.0dp" n3:bkv="s88|ll3" n3:bkw="76.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <androidx.recyclerview.widget.RecyclerView n1:id="@id/uzw" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    </com.ss.android.ugc.aweme.views.TransEdgeView>
+</merge>

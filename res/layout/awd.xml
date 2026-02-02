@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/mj" n1:paddingEnd="@dimen/mj" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zy" n1:ellipsize="end" n1:gravity="start|center" n1:id="@id/u5p" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n1:layout_alignTop="@id/u4n" n1:layout_alignBottom="@id/u4n" n1:layout_marginEnd="8.0dp" n1:layout_toStartOf="@id/u4n" n1:layout_alignParentStart="true" n2:fj2="pz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/u4n" n1:layout_width="wrap_content" n1:layout_height="32.0dp" n1:layout_alignParentEnd="true">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/u5n" n1:padding="8.0dp" n1:layout_width="32.0dp" n1:layout_height="match_parent" n1:importantForAccessibility="no" n3:fjq="@raw/icon_minus" n3:fmy="?zw" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <View n1:background="?yh" n1:layout_width="1.0dp" n1:layout_height="14.0dp" />
+        <X.0x9L n1:textColor="?zw" n1:gravity="center" n1:id="@id/u5m" n1:layout_width="48.0dp" n1:layout_height="match_parent" n1:maxLines="1" n1:digits="0123456789" n1:inputType="number" n1:imeOptions="actionDone" n4:fj2="@integer/r" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:background="?yh" n1:layout_width="1.0dp" n1:layout_height="14.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/u5o" n1:padding="8.0dp" n1:layout_width="32.0dp" n1:layout_height="match_parent" n1:importantForAccessibility="no" n5:fjq="@raw/icon_plus" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?a00" n1:ellipsize="end" n1:gravity="end" n1:id="@id/o8e" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n1:maxLines="1" n1:layout_below="@id/u4n" n6:fj2="@integer/a7" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

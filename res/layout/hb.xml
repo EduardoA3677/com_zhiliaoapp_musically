@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.114L n1:id="@id/rqr" n1:background="?y1" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/naa" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/nbc" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/nab" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <RelativeLayout n1:id="@id/nc0" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.0oCE n1:id="@id/nc1" n1:background="?y1" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/rqt" n2:fkf="h_s" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <include n1:id="@id/nb2" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_below="@id/rqt" n3:fkf="h_s" layout="@layout/dr8" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="32.0dp" n1:layout_marginRight="32.0dp" n1:layout_marginBottom="112.0dp" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true">
+                <X.0D2z n1:gravity="center" n1:id="@id/ro1" n1:paddingLeft="24.0dp" n1:paddingTop="14.0dp" n1:paddingRight="24.0dp" n1:paddingBottom="14.0dp" n1:visibility="gone" n1:layout_width="146.0dp" n1:layout_height="@dimen/r0" n1:layout_marginRight="24.0dp" n1:text="@null" n4:fj2="p0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <X.0D2z n1:gravity="center" n1:id="@id/lto" n1:paddingLeft="24.0dp" n1:paddingTop="14.0dp" n1:paddingRight="24.0dp" n1:paddingBottom="14.0dp" n1:visibility="gone" n1:layout_width="146.0dp" n1:layout_height="@dimen/r0" n1:text="@null" n5:fj2="p0" n5:fmy="?yi" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout n1:id="@id/nbn" n1:background="?y5" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <TextView n1:gravity="center" n1:id="@id/nbp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:layout_centerInParent="true" />
+            <TextView n1:id="@id/nbo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="" n1:layout_below="@id/nbp" n1:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout n1:id="@id/rqt" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/a6y" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+        <RelativeLayout n1:id="@id/rqu" n1:background="@drawable/ct3" n1:paddingLeft="10.0dp" n1:paddingTop="6.0dp" n1:paddingRight="10.0dp" n1:paddingBottom="6.0dp" n1:layout_width="81.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp" n1:layout_marginRight="6.0dp" n1:layout_marginBottom="10.0dp" n1:layout_alignParentRight="true">
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/jqm" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" n1:contentDescription="operation_more" n6:fjq="@raw/icon_ellipsis_horizontal" n6:fmy="?zw" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/jqo" n1:layout_width="1.0dp" n1:layout_height="20.0dp" n1:layout_centerHorizontal="true" n1:layout_centerVertical="true" n1:contentDescription="separator" n7:fjq="@raw/icon_vertical_line" n7:fmy="?yg" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+            <com.bytedance.tux.icon.TuxIconView n1:id="@id/jql" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:contentDescription="operation_close" n8:fjq="@raw/icon_x_mark" n8:fmy="?zw" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView n1:scrollbarStyle="insideInset" n1:id="@id/nbi" n1:visibility="gone" n1:scrollbars="vertical" n1:fadingEdge="vertical" n1:fadingEdgeLength="10.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="300.0dp" n1:layout_marginBottom="60.0dp">
+        <TextView n1:textSize="16.0sp" n1:id="@id/nbj" n1:padding="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="" n1:lineSpacingExtra="4.0dp" />
+    </ScrollView>
+    <FrameLayout n1:id="@id/nc6" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ImageView n1:layout_gravity="end|bottom" n1:id="@id/nc5" n1:layout_width="104.0dp" n1:layout_height="48.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="50.0dp" n1:src="@drawable/coz" n1:scaleType="fitCenter" n1:contentDescription="vconsole icon" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/nam" n1:background="@drawable/cp0" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="60.0dp" n1:layout_marginRight="100.0dp">
+        <LinearLayout n1:orientation="vertical" n1:padding="5.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dp">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="Client Key:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/nac" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="FPS:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/nag" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="SDK Version:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/nan" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="System Info:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/nb1" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="Error:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/naf" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/nae" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="Disable Domain Verification:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/nad" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/nak" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="Enable IAP Mock:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/naj" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/nai" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="5.0dp">
+                <TextView n1:textSize="13.0sp" n1:textColor="@android:color/white" n1:gravity="right" n1:layout_width="110.0dp" n1:layout_height="wrap_content" n1:text="Enable IAA Mock:" />
+                <TextView n1:textSize="13.0sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@id/nah" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dp" n1:text="" n1:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|top" n1:id="@id/nal" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_marginTop="5.0dp" n1:contentDescription="operation_close" n1:layout_marginEnd="5.0dp" n9:fjq="@raw/icon_x_mark" n9:fmy="@android:color/white" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</X.114L>

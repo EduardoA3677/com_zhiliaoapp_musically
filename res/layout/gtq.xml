@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="wrap_content" n1:layout_height="44.0dp" n1:layout_marginStart="@dimen/qz" n1:layout_marginEnd="@dimen/qz" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/yya" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="64.0dp" n1:minHeight="28.0dp" n1:layout_centerVertical="true" n1:paddingStart="10.0dp" n1:paddingEnd="10.0dp">
+        <X.03HG n1:textSize="14.0dp" n1:textColor="?c3r" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/wk8" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="48.0dp" n1:maxLines="1" />
+    </FrameLayout>
+    <X.0CWL n1:layout_gravity="end|bottom" n1:id="@id/uom" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:layout_marginBottom="-5.0dp" n1:layout_alignBottom="@id/yya" n1:layout_marginEnd="0.0dp" n1:layout_alignEnd="@id/yya" />
+</RelativeLayout>

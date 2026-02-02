@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingTop="12.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:baselineAligned="false" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Space n1:id="@id/umw" n1:layout_width="16.0dp" n1:layout_height="match_parent" />
+    <include n1:layout_width="wrap_content" n1:layout_height="wrap_content" layout="@layout/eq6" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginStart="14.0dp" n1:layout_marginEnd="16.0dp">
+        <include n1:id="@id/n8g" n1:layout_width="match_parent" n1:layout_height="wrap_content" layout="@layout/epw" />
+        <include n1:id="@id/gfu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="11.0dp" layout="@layout/ept" />
+    </LinearLayout>
+</LinearLayout>

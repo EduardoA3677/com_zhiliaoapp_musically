@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/ipl" n1:background="?bx" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:alpha="0.96" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/bjl" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:eto="h_j" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:id="@id/wt_" n1:layout_width="match_parent" n1:layout_height="20.0dp" />
+        <HorizontalScrollView n1:scrollbars="none" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <GridView n1:id="@id/usj" n1:paddingLeft="16.0dp" n1:paddingRight="16.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:horizontalSpacing="16.0dp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View n1:id="@id/wt0" n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="1.0px" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/jwf" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp">
+            <FrameLayout n1:id="@id/hj8" n1:layout_width="0.0dp" n1:layout_height="0.0dp" n3:bwp="1:1" n3:bww="120.0dp" n3:bx9="owf" n3:bxc="owf" n3:bxh="120.0dp" n3:bxj="0.3" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <X.0CWu n1:id="@id/uu1" n1:background="@drawable/ams" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:b41="h_j" n3:etn="@drawable/dcf" n3:f1f="sg8" />
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:layout_gravity="end|bottom" n1:id="@id/uu2" n1:visibility="visible" n1:layout_width="30.0dp" n1:layout_height="30.0dp" n1:layout_marginRight="10.0dp" n1:layout_marginBottom="10.0dp" n1:layout_marginEnd="10.0dp" n3:b41="h_f" n3:etn="@drawable/aal" />
+                <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/z3g" n1:visibility="gone" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:layout_marginBottom="5.0dp" n1:scaleType="fitCenter" n1:layout_marginEnd="7.0dp" n3:fjq="@raw/icon_pen" n3:fjz="true" n3:fmy="?e0" />
+            </FrameLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginStart="16.0dp" n4:bwq="owf" n4:bx8="@id/hj8" xmlns:n4="http://schemas.android.com/apk/res-auto">
+                <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="start|center" n1:id="@id/uu3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp" n1:textDirection="locale" n1:textAlignment="viewStart" n1:layout_toStartOf="@id/tmg" n4:fj2="p0" />
+                    <com.bytedance.tux.icon.TuxIconView n1:id="@id/tmg" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:importantForAccessibility="no" n1:layout_alignParentEnd="true" n4:fjq="@raw/icon_arrow_turn_up_right" n4:fmy="?zw" />
+                </RelativeLayout>
+                <include layout="@layout/ft9" />
+                <FrameLayout n1:id="@id/lid" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="6.0dp">
+                        <X.0D1c n1:id="@id/b8m" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginEnd="9.0dp" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/ybi" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:singleLine="true" n4:fj2="px" />
+                        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:ellipsize="end" n1:id="@id/ybg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:layout_weight="1.0" n4:fj2="px" />
+                        <com.bytedance.tux.icon.TuxIconView n1:id="@id/axg" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n4:fjq="@raw/icon_chevron_right_ltr" n4:fmy="?zz" />
+                    </LinearLayout>
+                </FrameLayout>
+                <ViewStub n1:id="@id/a44" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dp" />
+                <View n1:id="@id/oqu" n1:background="?ly" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="1.0px" n1:layout_marginTop="3.0dp" n1:layout_marginBottom="8.0dp" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/zdq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:textDirection="locale" n4:fj2="px" />
+                <LinearLayout n1:orientation="horizontal" n1:id="@id/utz" n1:background="@drawable/dgz" n1:paddingLeft="12.0dp" n1:paddingTop="6.0dp" n1:paddingRight="12.0dp" n1:paddingBottom="6.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="24.0dp" n1:layout_centerVertical="true">
+                    <X.0ChY n1:layout_gravity="center_vertical" n1:id="@id/uu0" n1:layout_width="15.0dp" n1:layout_height="15.0dp" n1:src="@drawable/cir" />
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:layout_gravity="center_vertical" n1:id="@id/ypp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dp" n1:text="@null" n1:layout_marginStart="6.0dp" n4:fj2="pv" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:id="@id/zty" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="25.0dp" n5:bwk="owf" n5:bxb="@id/hj8" xmlns:n5="http://schemas.android.com/apk/res-auto">
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/yw2" n1:text="@null" style="@style/ac9" />
+                <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/yti" n1:text="@null" n1:drawablePadding="4.0dp" n1:drawableEnd="@drawable/bxx" n1:layout_marginStart="6.0dp" style="@style/ac9" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub n1:id="@id/lib" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" />
+        <ViewStub n1:id="@id/a2n" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" />
+        <ViewStub n1:id="@id/lj_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginBottom="16.0dp" />
+        <ViewStub n1:id="@id/vs_disclaimer_container" n1:layout="@layout/ffi" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+        <ViewStub n1:id="@id/ley" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" />
+        <ViewStub n1:id="@id/lez" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" />
+        <include n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" layout="@layout/bj4" />
+        <ViewStub n1:layout_gravity="center_horizontal" n1:id="@id/ld6" n1:layout="@layout/ft8" n1:layout_width="match_parent" n1:layout_height="56.0dp" n1:layout_marginBottom="16.0dp" n1:layout_marginStart="16.0dp" n1:layout_marginEnd="16.0dp" />
+        <ViewStub n1:layout_gravity="center_horizontal" n1:id="@id/nds" n1:layout="@layout/dbg" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" />
+        <ViewStub n1:id="@id/vs_original_owner_cell" n1:layout="@layout/dbz" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

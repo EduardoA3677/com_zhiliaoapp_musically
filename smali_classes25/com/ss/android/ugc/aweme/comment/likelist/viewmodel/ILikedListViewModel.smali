@@ -1,0 +1,19 @@
+.class public abstract Lcom/ss/android/ugc/aweme/comment/likelist/viewmodel/ILikedListViewModel;
+.super Lcom/ss/android/ugc/aweme/arch/widgets/base/DataCenter;
+.source "SourceFile"
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/ss/android/ugc/aweme/arch/widgets/base/DataCenter;-><init>()V
+
+    return-void
+.end method

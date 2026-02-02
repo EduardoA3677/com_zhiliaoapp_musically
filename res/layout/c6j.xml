@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/h4g" n1:background="?dm" n1:visibility="gone" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="181.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0CqV n1:layout_gravity="bottom" n1:id="@id/h4f" n1:visibility="visible" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

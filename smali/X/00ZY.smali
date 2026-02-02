@@ -1,0 +1,121 @@
+.class public final LX/00ZY;
+.super Lcom/squareup/wire/Message$Builder;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lshop/data/proto/LogisticArea;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/squareup/wire/Message$Builder<",
+        "Lshop/data/proto/LogisticArea;",
+        "LX/00ZY;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public LIZLLL:Lcommon/proto/ECRichText;
+
+.field public LJ:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lshop/data/proto/LogisticExpressionArea;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public LJFF:Ljava/lang/Integer;
+
+.field public LJI:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcommon/proto/ECRichText;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public LJII:Ljava/lang/String;
+
+.field public LJIIIIZZ:Lcommon/proto/Color;
+
+.field public LJIIIZ:Ljava/lang/Boolean;
+
+.field public LJIIJ:Lcommon/proto/ECRichText;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Lcom/squareup/wire/Message$Builder;-><init>()V
+
+    invoke-static {}, LX/0bSS;->LJIIIIZZ()LX/0IIF;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/00ZY;->LJ:Ljava/util/List;
+
+    invoke-static {}, LX/0bSS;->LJIIIIZZ()LX/0IIF;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/00ZY;->LJI:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZIZ()Lshop/data/proto/LogisticArea;
+    .locals 10
+
+    new-instance v0, Lshop/data/proto/LogisticArea;
+
+    iget-object v1, p0, LX/00ZY;->LIZLLL:Lcommon/proto/ECRichText;
+
+    iget-object v2, p0, LX/00ZY;->LJ:Ljava/util/List;
+
+    iget-object v3, p0, LX/00ZY;->LJFF:Ljava/lang/Integer;
+
+    iget-object v4, p0, LX/00ZY;->LJI:Ljava/util/List;
+
+    iget-object v5, p0, LX/00ZY;->LJII:Ljava/lang/String;
+
+    iget-object v6, p0, LX/00ZY;->LJIIIIZZ:Lcommon/proto/Color;
+
+    iget-object v7, p0, LX/00ZY;->LJIIIZ:Ljava/lang/Boolean;
+
+    iget-object v8, p0, LX/00ZY;->LJIIJ:Lcommon/proto/ECRichText;
+
+    invoke-virtual {p0}, Lcom/squareup/wire/Message$Builder;->buildUnknownFields()Lokio/ByteString;
+
+    move-result-object v9
+
+    invoke-direct/range {v0 .. v9}, Lshop/data/proto/LogisticArea;-><init>(Lcommon/proto/ECRichText;Ljava/util/List;Ljava/lang/Integer;Ljava/util/List;Ljava/lang/String;Lcommon/proto/Color;Ljava/lang/Boolean;Lcommon/proto/ECRichText;Lokio/ByteString;)V
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic build()Lcom/squareup/wire/Message;
+    .locals 1
+
+    invoke-virtual {p0}, LX/00ZY;->LIZIZ()Lshop/data/proto/LogisticArea;
+
+    move-result-object v0
+
+    return-object v0
+.end method

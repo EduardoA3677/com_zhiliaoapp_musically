@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/f7k" n1:paddingTop="4.0dp" n1:layout_width="match_parent" n1:layout_height="52.0dp">
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="start" n1:id="@id/f76" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:contentDescription="@null" n1:layout_marginHorizontal="8.0dp" n2:fjq="@raw/icon_flag" n2:fjt="24.0dp" n2:fk6="24.0dp" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/fhu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="60.0dp" n1:layout_marginRight="60.0dp" n1:layout_marginHorizontal="60.0dp">
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/f7l" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:textAlignment="center" n3:fj2="pa" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <X.12vl n1:textColor="?zz" n1:id="@id/f5u" n1:paddingBottom="8.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:textAlignment="center" n4:fj2="qd" n4:fjs="@raw/icon_chevron_right_slim_thin_ltr" n4:fjv="14.0dp" n4:fjy="2.0dp" n4:fk8="8.0dp" n4:fn0="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end" n1:id="@id/f6a" n1:layout_width="44.0dp" n1:layout_height="44.0dp" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="8.0dp" n1:contentDescription="@null" n1:layout_marginHorizontal="8.0dp" n5:fjq="@raw/icon_x_mark" n5:fjt="24.0dp" n5:fk6="24.0dp" n5:fmy="?zw" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/ust" n1:layout_width="180.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:contentDescription="@null" n6:b41="h_f" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:id="@id/c3p" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n7:fj2="pu" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <X.12vl n1:textColor="?zw" n1:id="@id/watch_video_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="12.0dp" n1:text="@null" n8:fj2="p7" n8:fjs="@raw/icon_chevron_right_slim_thin_ltr" n8:fjv="14.0dp" n8:fjy="2.0dp" n8:fk8="8.0dp" n8:fn0="?zw" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/eqt" n1:paddingLeft="16.0dp" n1:paddingTop="12.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingHorizontal="16.0dp" n1:paddingVertical="12.0dp">
+        <X.0D2z n1:id="@id/er4" n1:layout_width="0.0dp" n1:layout_height="48.0dp" n1:layout_weight="1.0" />
+        <X.0D2z n1:id="@id/er_" n1:layout_width="0.0dp" n1:layout_height="48.0dp" n1:layout_weight="1.0" n1:layout_marginStart="8.0dp" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/rkk" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="28.0dp">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginRight="16.0dp" n1:layout_marginHorizontal="16.0dp">
+            <View n1:background="?ly" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_weight="1.0" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="12.0dp" n1:layout_marginEnd="12.0dp" n9:fj2="pu" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+            <View n1:background="?ly" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

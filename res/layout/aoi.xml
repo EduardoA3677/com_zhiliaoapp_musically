@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:background="?xr" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/oq5" n1:background="?sz" n1:layout_width="match_parent" n1:layout_height="0.0dp" n2:bwl="@id/imh" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0l1c n1:orientation="horizontal" n1:id="@id/imh" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwu="0.15" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="0.0dp" n4:bwk="owf" n4:bxb="@id/imh" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <View n1:id="@id/k13" n1:background="?sz" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+        <com.bytedance.tux.widget.RadiusLayout n1:id="@id/uhk" n1:background="?bx" n1:visibility="invisible" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:clipToOutline="true" n4:bgh="@dimen/b5" n4:bgj="@dimen/b5" n4:bwk="owf" n4:bxb="@id/imh">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+                <FrameLayout n1:id="@id/nvd" n1:background="?c3" n1:paddingLeft="6.0dp" n1:paddingRight="6.0dp" n1:layout_width="match_parent" n1:layout_height="52.0dp" n1:paddingHorizontal="6.0dp">
+                    <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/nvp" n1:layout_width="match_parent" n1:layout_height="44.0dp" n4:fj2="p0" />
+                    <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|center" n1:id="@id/djj" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginLeft="10.0dp" n1:layout_marginRight="10.0dp" n1:contentDescription="close_icon" n1:layout_marginHorizontal="10.0dp" n4:fjq="@raw/icon_x_mark_small" n4:fmy="?zw" />
+                </FrameLayout>
+                <FrameLayout n1:id="@id/s4k" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
+            </LinearLayout>
+        </com.bytedance.tux.widget.RadiusLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/wo" n1:id="@id/wwv" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.0Czg n1:id="@id/ron" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:fll="rol" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <X.12nR n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <X.12nk n1:id="@id/av2" n1:background="?sz" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:elevation="0.0dp" n2:bzd="true">
+                <X.12pB n1:id="@id/dnu" n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:byn="spv|gqf">
+                    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+                        <FrameLayout n1:id="@id/n77" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                        <FrameLayout n1:id="@id/n7_" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_marginTop="20.0dp" />
+                    </LinearLayout>
+                    <X.12xz n1:layout_gravity="bottom" n1:id="@id/pbs" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_marginTop="20.0dp" n2:bfv="0.0dp" n2:bwd="pa6">
+                        <FrameLayout n1:id="@id/n79" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+                    </X.12xz>
+                </X.12pB>
+            </X.12nk>
+            <FrameLayout n1:id="@id/n73" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="12.0dp" n2:bw_="@null">
+                <X.0o06 n1:id="@id/n72" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:overScrollMode="always" />
+            </FrameLayout>
+        </X.12nR>
+    </X.0Czg>
+</FrameLayout>

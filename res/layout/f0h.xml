@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:paddingTop="6.0dp" n1:paddingBottom="6.0dp" n1:layout_width="wrap_content" n1:layout_height="32.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e1" n1:id="@id/ymu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Search:" n1:layout_marginStart="@dimen/qi" n2:bwk="owf" n2:bwr="@id/ymg" n2:bx0="ori" n2:bx9="owf" n2:fj2="p5" n2:fmy="?zw" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:id="@id/ymg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginStart="@dimen/qz" n3:bwg="true" n3:bwk="owf" n3:bwr="@id/j_p" n3:bwz="0.0" n3:bx8="@id/ymu" n3:fj2="p7" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/j_p" n1:layout_width="10.0dp" n1:layout_height="10.0dp" n1:layout_marginEnd="@dimen/qi" n4:bwq="owf" n4:bx8="@id/ymg" n4:bxc="owf" n4:fjq="@raw/icon_magnifying_glass_fill" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

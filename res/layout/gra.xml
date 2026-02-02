@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="42.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:padding="3.0dp" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n2:br4="?cv9" n2:fb9="?ehx" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textSize="16.0sp" n1:textColor="?ehx" n1:ellipsize="end" n1:id="@id/xtk" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="8.0dp" n1:layout_marginRight="4.0dp" n1:maxLines="1" n1:layout_weight="1.0" n1:textAlignment="viewStart" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="4.0dp" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/kkg" n1:layout_width="20.0dp" n1:layout_height="20.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" n3:br4="?ea0" n3:fb9="?ehy" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/ljm" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="4.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.137w n1:id="@id/bbc" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="58.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" n2:ffh="6.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.android.live.design.view.icon.LiveIconView n1:id="@id/ljn" n1:layout_width="32.0dp" n1:layout_height="32.0dp" n1:layout_marginTop="@dimen/qf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.137w n1:id="@id/taw" n1:visibility="gone" n1:layout_width="44.0dp" n1:layout_height="58.0dp" n4:bwk="@id/bbc" n4:bwq="@id/bbc" n4:bx9="@id/bbc" n4:bxc="@id/bbc" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0xDi n1:id="@id/epz" n1:background="@color/bb" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.11F6 n1:id="@id/kjf" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <X.0xDV n1:id="@id/kk4" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+</X.0xDi>

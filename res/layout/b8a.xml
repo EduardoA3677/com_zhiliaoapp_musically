@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.1628 n1:id="@id/ad_play_fun_root" n1:visibility="gone" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/a2v" n1:background="@color/d1" n1:clickable="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:alpha="0.0" />
+    <com.bytedance.lighten.loader.SmartImageView n1:id="@id/a2w" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:scaleType="fitCenter" n1:alpha="0.0" n2:b41="h_f" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:ellipsize="end" n1:gravity="bottom" n1:id="@id/a2x" n1:paddingTop="24.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="224.0dp" n1:maxLines="1" n1:alpha="0.0" n3:fj2="p5" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</X.1628>

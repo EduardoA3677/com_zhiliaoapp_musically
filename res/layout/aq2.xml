@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:paddingStart="16.0dp" n1:paddingEnd="16.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/s5a" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp">
+        <X.0mMn n1:id="@id/s5b" n1:layout_width="match_parent" n1:layout_height="22.0dp" n1:layout_marginBottom="6.0dp" n2:fly="22.0dp" n2:flz="true" n2:fm7="mzu" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0mMn n1:id="@id/s5c" n1:layout_width="match_parent" n1:layout_height="22.0dp" n3:fly="22.0dp" n3:flz="true" n3:fm7="mzu" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/ip_" n1:paddingBottom="8.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/ree" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:fj2="ow" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_vertical" n1:id="@id/rek" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginStart="4.0dp" n5:fjq="@raw/icon_star_fill" n5:fmy="?ul" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/s5h" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="·" n1:layout_marginStart="4.0dp" n6:fj2="p5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/s5i" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="4.0dp" n7:fj2="p5" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:id="@id/o54" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/o55" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n8:fj2="px" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/o53" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:text="@null" n9:fj2="p5" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:gravity="center" n1:id="@id/tw1" n1:background="@drawable/b04" n1:layout_width="match_parent" n1:layout_height="44.0dp" n1:layout_marginTop="16.0dp" n1:text="@null" n10:fj2="p7" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:gravity="center" n1:id="@id/tw0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:layout_marginBottom="16.0dp" n11:fj2="q2" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/o5q" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/o5r" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n12:fj2="px" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/o5p" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:layout_marginBottom="16.0dp" n1:text="@null" n13:fj2="p5" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

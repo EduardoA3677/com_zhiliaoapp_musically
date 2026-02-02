@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/csx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@null" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/xgb" n1:padding="6.0dp" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_camera_fill" n2:fmy="?e0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.0D1z n1:id="@id/g95" n1:visibility="gone" n1:layout_width="36.0dp" n1:layout_height="36.0dp" n1:importantForAccessibility="no" n3:b41="h_j" n3:eyo="?lz" n3:eyq="0.5dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

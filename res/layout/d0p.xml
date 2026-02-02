@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="96.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="68.0dp" n1:layout_height="wrap_content">
+        <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <X.0mER n1:layout_gravity="center" n1:id="@id/usu" n1:layout_width="52.0dp" n1:layout_height="52.0dp" />
+            <X.0mEY n1:layout_gravity="end|bottom" n1:id="@id/klr" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_margin="1.0dp" n1:src="@drawable/a9_" n1:scaleType="fitXY" n2:bt6="true" n2:erj="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <X.0mEX n1:ellipsize="end" n1:gravity="center" n1:id="@id/uvi" n1:layout_width="60.0dp" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:maxLines="2" />
+    </LinearLayout>
+    <ImageView n1:layout_gravity="end" n1:id="@id/kli" n1:visibility="gone" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="3.0dp" n1:layout_marginTop="37.0dp" n1:src="@drawable/by7" n1:scaleType="fitXY" n1:layout_marginStart="3.0dp" />
+</FrameLayout>

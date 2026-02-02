@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_gravity="end" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="3.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/kqv" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:src="@drawable/aqu" n1:importantForAccessibility="no" n2:bwq="@id/cg8" n2:bx9="@id/cg8" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/l21" n1:visibility="gone" n1:layout_width="48.0dp" n1:layout_height="48.0dp" n1:src="@drawable/aqu" n1:importantForAccessibility="no" n3:bwk="owf" n3:bwq="@id/wo_" n3:bx9="@id/wo_" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cg6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="69.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:layout_gravity="center" android:id="@id/cg8" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="34.0dp" app:bwq="owf" app:bx9="owf" app:bxc="owf">
+            <ViewStub android:layout_gravity="center" android:id="@id/view_stub_progress" android:layout="@layout/fud" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+            <com.bytedance.lighten.loader.SmartImageView android:layout_gravity="center" android:id="@id/wnr" android:focusable="true" android:layout_width="24.0dp" android:layout_height="24.0dp" android:importantForAccessibility="yes" />
+            <com.bytedance.tux.icon.TuxIconView android:layout_gravity="center" android:id="@id/wo5" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="2.0dp" android:importantForAccessibility="no" app:fjq="@raw/icon_color_right_bottom_checkbox" />
+        </FrameLayout>
+        <X.13dw android:layout_gravity="center" android:id="@id/wo1" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+        <ViewStub android:layout_gravity="center" android:id="@id/view_stub_ai_live_plugin" android:layout="@layout/ftm" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/wo9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dp" app:bwq="owf" app:bx9="owf" app:bxb="@id/cg8">
+            <com.bytedance.tux.icon.TuxIconView android:id="@id/wnx" android:visibility="gone" android:layout_width="9.0dp" android:layout_height="9.0dp" android:layout_marginTop="2.0dp" android:layout_marginEnd="1.0dp" app:fmy="?xx" />
+            <com.bytedance.tux.input.TuxTextView android:textColor="?xx" android:gravity="center_horizontal" android:id="@id/wo_" android:layout_width="wrap_content" android:layout_height="23.0dp" app:fj2="qg" style="@style/add" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.0D1z n1:layout_gravity="center" n1:id="@id/ux0" n1:layout_width="22.0dp" n1:layout_height="22.0dp" n1:importantForAccessibility="no" />
+        <X.0Hgy n1:layout_gravity="center" n1:id="@id/b6p" n1:layout_width="28.0dp" n1:layout_height="28.0dp" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="right|bottom" n1:id="@id/uwy" n1:layout_width="16.0dp" n1:layout_height="16.0dp" n1:layout_marginRight="-2.0dp" n1:layout_marginBottom="-2.0dp" n1:importantForAccessibility="no" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

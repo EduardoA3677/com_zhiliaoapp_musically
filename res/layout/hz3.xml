@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:theme="@style/wa" n1:id="@id/sfg" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/g7f" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:importantForAccessibility="no" />
+    <LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="40.0dp" n1:layout_marginEnd="40.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?gz" n1:ellipsize="end" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/p_c" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="20.0dp" n1:maxLines="3" n1:shadowColor="?xq" n1:shadowDx="0.0" n1:shadowDy="0.8" n1:shadowRadius="1.0" n1:importantForAccessibility="yes" n2:fj2="oz" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:enabled="true" n1:id="@id/x2c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:fi9="true" n3:fib="l9r" n3:fid="t69" n3:fjt="20.0dp" n3:fk4="@raw/icon_camera_fill" n3:fk6="20.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

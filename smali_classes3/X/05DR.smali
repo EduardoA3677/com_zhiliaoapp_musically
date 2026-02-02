@@ -1,0 +1,29 @@
+.class public final LX/05DR;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final LIZ:LX/05ta;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/05DR;
+
+    const/16 v0, 0x68
+
+    invoke-static {v0}, Lkotlin/jvm/internal/AFwS170S0000000_2;->get$arr$(I)Lkotlin/jvm/internal/AFwS170S0000000_2;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/03KV;->LIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    sput-object v0, LX/05DR;->LIZ:LX/05ta;
+
+    return-void
+.end method

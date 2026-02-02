@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Bibliothèque de sons en ligne</item>
+        <item>Mon son</item>
+    </string-array>
+    <string-array name="l">
+        <item>Vider</item>
+    </string-array>
+    <string-array name="q">
+        <item>Supprimer</item>
+        <item>Annuler</item>
+    </string-array>
+    <string-array name="t">
+        <item>Tendance</item>
+        <item>Récents</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="y">
+        <item>Sélectionner dans la galerie</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Chinois simplifié</item>
+        <item>Chinois traditionnel</item>
+        <item>Anglais</item>
+        <item>Japonais</item>
+        <item>Coréen</item>
+        <item>Russe</item>
+        <item>Indonésien</item>
+        <item>Malais</item>
+        <item>Portugais</item>
+        <item>Thaïlandais</item>
+        <item>Vietnamien</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Normal</item>
+        <item>Noir/Blanc</item>
+        <item>Art</item>
+        <item>Vintage</item>
+        <item>Retrolux</item>
+        <item>Saturé</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Fév</item>
+        <item>Mar</item>
+        <item>Avr</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Jui</item>
+        <item>Août</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Déc</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Économie de données prioritaire</item>
+        <item>Haute résolution prioritaire</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Tout le monde</item>
+        <item>Amis uniquement</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+</resources>

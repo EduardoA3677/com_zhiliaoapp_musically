@@ -1,0 +1,102 @@
+.class public final LX/16By;
+.super LX/0PAm;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LX/0PAm;",
+        "Lkotlin/jvm/functions/Function1<",
+        "LX/0UsN;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic LL:I
+
+.field public final synthetic LLILIL:J
+
+.field public final synthetic LLILL:Z
+
+
+# direct methods
+.method public constructor <init>(IJZ)V
+    .locals 1
+
+    iput p1, p0, LX/16By;->LL:I
+
+    iput-wide p2, p0, LX/16By;->LLILIL:J
+
+    iput-boolean p4, p0, LX/16By;->LLILL:Z
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/0PAm;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    check-cast p1, LX/0UsN;
+
+    sget-object v0, LX/16Bw;->LIZ:LX/16Bw;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-object v2, LX/16Bw;->LIZIZ:LX/0Urc;
+
+    iget v0, p0, LX/16By;->LL:I
+
+    int-to-long v0, v0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v2, v0}, LX/0UsN;->withParam(LX/0UsQ;Ljava/lang/Object;)V
+
+    sget-object v2, LX/16Bw;->LIZJ:LX/0Urc;
+
+    iget-wide v0, p0, LX/16By;->LLILIL:J
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v2, v0}, LX/0UsN;->withParam(LX/0UsQ;Ljava/lang/Object;)V
+
+    sget-object v2, LX/16Bw;->LIZLLL:LX/0Urc;
+
+    iget-boolean v0, p0, LX/16By;->LLILL:Z
+
+    if-eqz v0, :cond_0
+
+    const-wide/16 v0, 0x1
+
+    :goto_0
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v2, v0}, LX/0UsN;->withParam(LX/0UsQ;Ljava/lang/Object;)V
+
+    sget-object v0, Lkotlin/Unit;->LIZ:Lkotlin/Unit;
+
+    return-object v0
+
+    :cond_0
+    const-wide/16 v0, 0x2
+
+    goto :goto_0
+.end method

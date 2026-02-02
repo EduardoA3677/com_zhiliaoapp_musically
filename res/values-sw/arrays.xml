@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="k">
+        <item>Maktaba ya sauti ya mtandaoni</item>
+        <item>Sauti Yangu</item>
+    </string-array>
+    <string-array name="l">
+        <item>Safisha</item>
+        <item>Kashe imefutwa</item>
+    </string-array>
+    <string-array name="q">
+        <item>Futa</item>
+        <item>Ghairi</item>
+    </string-array>
+    <string-array name="t">
+        <item>Zinazovuma</item>
+        <item>Mpya Kabisa</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+    </string-array>
+    <string-array name="w">
+        <item>Za Kwanza 20</item>
+        <item>Za Kwanza 40</item>
+        <item>Za Kwanza 60</item>
+        <item>Za Kwanza 80</item>
+        <item>Za Kwanza 100</item>
+    </string-array>
+    <string-array name="y">
+        <item>Chagua kutoka kwenye Ghala</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Jumapili</item>
+        <item>Jumatatu</item>
+        <item>Jumanne</item>
+        <item>Jumatano</item>
+        <item>Alhamisi</item>
+        <item>Ijumaa</item>
+        <item>Jumamosi</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Kichina Rahisi</item>
+        <item>Utamaduni wa Kichina</item>
+        <item>Kiingereza</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kirusi</item>
+        <item>Kiindonesia</item>
+        <item>Kimalesia</item>
+        <item>Kireno</item>
+        <item>Kithai</item>
+        <item>Kivietinamu</item>
+        <item>Kihindi</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Kawaida</item>
+        <item>Nyeusi/Nyeupe</item>
+        <item>Sanaa</item>
+        <item>Za Kale</item>
+        <item>Retrolux</item>
+        <item>Iliyokoleza</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="af">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Machi</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Zinazookoa data kwanza</item>
+        <item>Za ubora wa juu kwanza</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Kila mtu</item>
+        <item>Marafiki Pekee</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Jumatatu</item>
+        <item>Jumanne</item>
+        <item>Jumatano</item>
+        <item>Alhamisi</item>
+        <item>Ijumaa</item>
+        <item>Jumamosi</item>
+        <item>Jumapili</item>
+    </string-array>
+</resources>

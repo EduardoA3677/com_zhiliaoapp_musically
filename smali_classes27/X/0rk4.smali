@@ -1,0 +1,518 @@
+.class public final LX/0rk4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX/0bmR;
+
+
+# static fields
+.field public static LJIILL:LX/0a9X;
+
+
+# instance fields
+.field public final LIZ:Lcom/bytedance/ies/sdk/datachannel/DataChannel;
+
+.field public final LIZIZ:Ljava/lang/String;
+
+.field public final LIZJ:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "LX/0cGd;",
+            "LX/0cGd;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final LIZLLL:Lkotlin/jvm/functions/Function0;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function0<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public LJ:LX/0cGd;
+
+.field public LJFF:J
+
+.field public volatile LJI:J
+
+.field public final LJII:J
+
+.field public volatile LJIIIIZZ:Z
+
+.field public LJIIIZ:Z
+
+.field public LJIIJ:Z
+
+.field public final LJIIJJI:LX/0riv;
+
+.field public LJIIL:LX/0pzW;
+
+.field public final LJIILIIL:LX/05ta;
+
+.field public LJIILJJIL:J
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/bytedance/ies/sdk/datachannel/DataChannel;Ljava/lang/String;LY/AObjectS338S0100000_18;LY/AObjectS471S0100000_18;)V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/0rk4;->LIZ:Lcom/bytedance/ies/sdk/datachannel/DataChannel;
+
+    iput-object p2, p0, LX/0rk4;->LIZIZ:Ljava/lang/String;
+
+    iput-object p4, p0, LX/0rk4;->LIZJ:Lkotlin/jvm/functions/Function2;
+
+    iput-object p3, p0, LX/0rk4;->LIZLLL:Lkotlin/jvm/functions/Function0;
+
+    sget-object v0, LX/0cGd;->LEVEL_NORMAL:LX/0cGd;
+
+    iput-object v0, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    sget-object v0, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->INSTANCE:Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;
+
+    invoke-virtual {v0}, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->upgradeIntervalMs()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, LX/0rk4;->LJII:J
+
+    new-instance v0, LX/0riv;
+
+    invoke-direct {v0, p0}, LX/0riv;-><init>(LX/0rk4;)V
+
+    iput-object v0, p0, LX/0rk4;->LJIIJJI:LX/0riv;
+
+    const/4 v0, 0x4
+
+    invoke-static {v0}, Lkotlin/jvm/internal/AFwS193S0000000_18;->get$arr$(I)Lkotlin/jvm/internal/AFwS193S0000000_18;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/03L8;->LIZIZ(Lkotlin/jvm/functions/Function0;)LX/05ta;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/0rk4;->LJIILIIL:LX/05ta;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final LIZ()V
+    .locals 7
+
+    iget-boolean v0, p0, LX/0rk4;->LJIIJ:Z
+
+    if-nez v0, :cond_0
+
+    sget-object v0, LX/0E34;->LIZ:LX/0rAP;
+
+    iget v6, v0, LX/0rAP;->LJ:F
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "batteryTemperature: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const-string v0, ", lastRoomFps: "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v0, LX/0rk4;->LJIILL:LX/0a9X;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "PerfDowngradeTrigger"
+
+    invoke-static {v0, v1}, LX/0YAi;->LIZ(Ljava/lang/String;Ljava/lang/String;)V
+
+    sget-object v3, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->INSTANCE:Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;
+
+    invoke-virtual {v3}, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->hotTemperature()I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    cmpl-float v0, v6, v0
+
+    const/4 v2, 0x1
+
+    if-gtz v0, :cond_2
+
+    sget-object v0, LX/0rk4;->LJIILL:LX/0a9X;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, v0, LX/0a9X;->LIZLLL:LX/0rik;
+
+    if-eqz v0, :cond_1
+
+    :goto_0
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    sget-object v0, LX/0rik;->POOR:LX/0rik;
+
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v0
+
+    if-le v1, v0, :cond_2
+
+    iget-object v1, p0, LX/0rk4;->LIZJ:Lkotlin/jvm/functions/Function2;
+
+    sget-object v0, LX/0cGd;->LEVEL_NORMAL:LX/0cGd;
+
+    invoke-interface {v1, v0, v0}, Lkotlin/jvm/functions/Function2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, LX/0rk4;->LJIILJJIL:J
+
+    :goto_1
+    iput-boolean v2, p0, LX/0rk4;->LJIIJ:Z
+
+    :cond_0
+    return-void
+
+    :cond_1
+    sget-object v0, LX/0rik;->PERFECT:LX/0rik;
+
+    goto :goto_0
+
+    :cond_2
+    sget-object v0, LX/0cGd;->LEVEL_HIGH:LX/0cGd;
+
+    iput-object v0, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "level: Init to "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    sget-object v0, LX/0rUO;->LIZ:Ljava/util/Map;
+
+    invoke-virtual {v3, v2}, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->setDisableLog(Z)V
+
+    const-string v0, "livesdk_scalable_downgrade_change"
+
+    invoke-static {v0}, LX/0E0g;->LIZ(Ljava/lang/String;)LX/0qns;
+
+    move-result-object v5
+
+    iget-object v0, p0, LX/0rk4;->LIZ:Lcom/bytedance/ies/sdk/datachannel/DataChannel;
+
+    invoke-virtual {v5, v0}, LX/0qns;->LJIJI(Lcom/bytedance/ies/sdk/datachannel/DataChannel;)V
+
+    sget-object v4, LX/0cGd;->LEVEL_NORMAL:LX/0cGd;
+
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const-string v0, "from_level"
+
+    invoke-virtual {v5, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v0, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const-string v0, "to_level"
+
+    invoke-virtual {v5, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v0, p0, LX/0rk4;->LIZLLL:Lkotlin/jvm/functions/Function0;
+
+    invoke-interface {v0}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    move-result-object v1
+
+    const-string v0, "member_count"
+
+    invoke-virtual {v5, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object v0, LX/0rk4;->LJIILL:LX/0a9X;
+
+    if-eqz v0, :cond_3
+
+    iget v0, v0, LX/0a9X;->LIZIZ:F
+
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v1
+
+    :goto_2
+    const-string v0, "fps"
+
+    invoke-virtual {v5, v1, v0}, LX/0qns;->LJJ(Ljava/lang/Float;Ljava/lang/String;)V
+
+    const/4 v3, 0x0
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const-string v0, "msg_qps"
+
+    invoke-virtual {v5, v1, v0}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "last_level_duration"
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {v5, v0, v1}, LX/0qns;->LJJI(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "battery_temperature"
+
+    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v0
+
+    invoke-virtual {v5, v0, v1}, LX/0qns;->LJJ(Ljava/lang/Float;Ljava/lang/String;)V
+
+    invoke-virtual {v5}, LX/0qns;->LIZ()V
+
+    iget-object v1, p0, LX/0rk4;->LIZJ:Lkotlin/jvm/functions/Function2;
+
+    iget-object v0, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    invoke-interface {v1, v4, v0}, Lkotlin/jvm/functions/Function2;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, LX/0rk4;->LJIILJJIL:J
+
+    goto/16 :goto_1
+
+    :cond_3
+    const/4 v1, 0x0
+
+    goto :goto_2
+.end method
+
+.method public final LIZIZ()LX/0cGd;
+    .locals 1
+
+    iget-object v0, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    return-object v0
+.end method
+
+.method public final LIZJ(LX/0pzW;)V
+    .locals 0
+
+    iput-object p1, p0, LX/0rk4;->LJIIL:LX/0pzW;
+
+    return-void
+.end method
+
+.method public final LIZLLL()Ljava/util/Map;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "LX/0cGd;",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v2, p0, LX/0rk4;->LJ:LX/0cGd;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    invoke-virtual {p0, v2, v0, v1}, LX/0rk4;->LJ(LX/0cGd;J)V
+
+    iget-object v0, p0, LX/0rk4;->LJIILIIL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/Map;
+
+    return-object v0
+.end method
+
+.method public final LJ(LX/0cGd;J)V
+    .locals 4
+
+    iget-wide v0, p0, LX/0rk4;->LJIILJJIL:J
+
+    sub-long/2addr p2, v0
+
+    iget-object v0, p0, LX/0rk4;->LJIILIIL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/Map;
+
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Long;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v2
+
+    :goto_0
+    iget-object v0, p0, LX/0rk4;->LJIILIIL:LX/05ta;
+
+    invoke-interface {v0}, LX/05ta;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/Map;
+
+    add-long/2addr v2, p2
+
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+
+    :cond_0
+    const-wide/16 v2, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final destroy()V
+    .locals 2
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, LX/0rk4;->LJIIIIZZ:Z
+
+    sget-object v1, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->INSTANCE:Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v1, v0}, Lcom/bytedance/android/livesdk/livesetting/performance/degrade/hotroom/ScalableDowngradeSetting;->setDisableLog(Z)V
+
+    iget-object v1, p0, LX/0rk4;->LJIIL:LX/0pzW;
+
+    if-eqz v1, :cond_0
+
+    iget-object v0, p0, LX/0rk4;->LJIIJJI:LX/0riv;
+
+    invoke-interface {v1, v0}, LX/0pzW;->LJIIIIZZ(LX/0rip;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final onPause()V
+    .locals 2
+
+    const-wide/16 v0, -0x1
+
+    iput-wide v0, p0, LX/0rk4;->LJI:J
+
+    return-void
+.end method
+
+.method public final onResume()V
+    .locals 2
+
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, LX/0rk4;->LJI:J
+
+    return-void
+.end method
+
+.method public final start()V
+    .locals 2
+
+    iget-boolean v0, p0, LX/0rk4;->LJIIIIZZ:Z
+
+    if-nez v0, :cond_0
+
+    iget-boolean v0, p0, LX/0rk4;->LJIIIZ:Z
+
+    if-nez v0, :cond_0
+
+    iget-object v1, p0, LX/0rk4;->LJIIL:LX/0pzW;
+
+    if-eqz v1, :cond_0
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, LX/0rk4;->LJIIIZ:Z
+
+    iget-object v0, p0, LX/0rk4;->LJIIJJI:LX/0riv;
+
+    invoke-interface {v1, v0}, LX/0pzW;->LJIIJ(LX/0rip;)V
+
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,441 @@
+.class public final LX/0kQc;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/ss/android/ugc/governance/eventbus/IEvent;
+
+
+# instance fields
+.field public final LIZ:Z
+
+.field public final LIZIZ:Ljava/lang/String;
+
+.field public final LIZJ:Ljava/lang/String;
+
+.field public final LIZLLL:Ljava/lang/String;
+
+.field public final LJ:Ljava/lang/String;
+
+.field public final LJFF:Z
+
+.field public final LJI:Z
+
+.field public final LJII:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZI)V
+    .locals 9
+
+    move v6, p6
+
+    move-object v4, p4
+
+    move-object v3, p3
+
+    move/from16 v7, p7
+
+    move-object v2, p2
+
+    and-int/lit8 v0, p8, 0x2
+
+    const/4 v5, 0x0
+
+    if-eqz v0, :cond_0
+
+    move-object v2, v5
+
+    :cond_0
+    and-int/lit8 v0, p8, 0x4
+
+    if-eqz v0, :cond_1
+
+    move-object v3, v5
+
+    :cond_1
+    and-int/lit8 v0, p8, 0x8
+
+    if-eqz v0, :cond_2
+
+    move-object v4, v5
+
+    :cond_2
+    and-int/lit8 v0, p8, 0x10
+
+    if-nez v0, :cond_3
+
+    move-object v5, p5
+
+    :cond_3
+    and-int/lit8 v0, p8, 0x20
+
+    if-eqz v0, :cond_4
+
+    const/4 v6, 0x0
+
+    :cond_4
+    and-int/lit8 v0, p8, 0x40
+
+    if-eqz v0, :cond_5
+
+    const/4 v7, 0x0
+
+    :cond_5
+    const/4 v8, 0x0
+
+    move v1, p1
+
+    move-object v0, p0
+
+    invoke-direct/range {v0 .. v8}, LX/0kQc;-><init>(ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-boolean p1, p0, LX/0kQc;->LIZ:Z
+
+    iput-object p2, p0, LX/0kQc;->LIZIZ:Ljava/lang/String;
+
+    iput-object p3, p0, LX/0kQc;->LIZJ:Ljava/lang/String;
+
+    iput-object p4, p0, LX/0kQc;->LIZLLL:Ljava/lang/String;
+
+    iput-object p5, p0, LX/0kQc;->LJ:Ljava/lang/String;
+
+    iput-boolean p6, p0, LX/0kQc;->LJFF:Z
+
+    iput-boolean p7, p0, LX/0kQc;->LJI:Z
+
+    iput-boolean p8, p0, LX/0kQc;->LJII:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v3
+
+    :cond_0
+    instance-of v0, p1, LX/0kQc;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, LX/0kQc;
+
+    iget-boolean v1, p0, LX/0kQc;->LIZ:Z
+
+    iget-boolean v0, p1, LX/0kQc;->LIZ:Z
+
+    if-eq v1, v0, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, LX/0kQc;->LIZIZ:Ljava/lang/String;
+
+    iget-object v0, p1, LX/0kQc;->LIZIZ:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, LX/0kQc;->LIZJ:Ljava/lang/String;
+
+    iget-object v0, p1, LX/0kQc;->LIZJ:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, LX/0kQc;->LIZLLL:Ljava/lang/String;
+
+    iget-object v0, p1, LX/0kQc;->LIZLLL:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, LX/0kQc;->LJ:Ljava/lang/String;
+
+    iget-object v0, p1, LX/0kQc;->LJ:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->LJFF(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    return v2
+
+    :cond_6
+    iget-boolean v1, p0, LX/0kQc;->LJFF:Z
+
+    iget-boolean v0, p1, LX/0kQc;->LJFF:Z
+
+    if-eq v1, v0, :cond_7
+
+    return v2
+
+    :cond_7
+    iget-boolean v1, p0, LX/0kQc;->LJI:Z
+
+    iget-boolean v0, p1, LX/0kQc;->LJI:Z
+
+    if-eq v1, v0, :cond_8
+
+    return v2
+
+    :cond_8
+    iget-boolean v1, p0, LX/0kQc;->LJII:Z
+
+    iget-boolean v0, p1, LX/0kQc;->LJII:Z
+
+    if-eq v1, v0, :cond_9
+
+    return v2
+
+    :cond_9
+    return v3
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    iget-boolean v0, p0, LX/0kQc;->LIZ:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    mul-int/lit8 v1, v0, 0x1f
+
+    iget-object v0, p0, LX/0kQc;->LIZIZ:Ljava/lang/String;
+
+    const/4 v2, 0x0
+
+    if-nez v0, :cond_3
+
+    const/4 v0, 0x0
+
+    :goto_0
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, LX/0kQc;->LIZJ:Ljava/lang/String;
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    :goto_1
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, LX/0kQc;->LIZLLL:Ljava/lang/String;
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x0
+
+    :goto_2
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-object v0, p0, LX/0kQc;->LJ:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v2
+
+    :cond_0
+    add-int/2addr v1, v2
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-boolean v0, p0, LX/0kQc;->LJFF:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-boolean v0, p0, LX/0kQc;->LJI:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    mul-int/lit8 v1, v1, 0x1f
+
+    iget-boolean v0, p0, LX/0kQc;->LJII:Z
+
+    invoke-static {v0}, LX/0X3I;->c(Z)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    return v1
+
+    :cond_1
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_2
+
+    :cond_2
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_1
+
+    :cond_3
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    goto :goto_0
+.end method
+
+.method public final synthetic post()Lcom/ss/android/ugc/governance/eventbus/IEvent;
+    .locals 0
+
+    invoke-static {p0}, LX/0GEY;->LIZ(Lcom/ss/android/ugc/governance/eventbus/IEvent;)Lcom/ss/android/ugc/governance/eventbus/IEvent;
+
+    return-object p0
+.end method
+
+.method public final synthetic postSticky()Lcom/ss/android/ugc/governance/eventbus/IEvent;
+    .locals 0
+
+    invoke-static {p0}, LX/0GEY;->LIZIZ(Lcom/ss/android/ugc/governance/eventbus/IEvent;)Lcom/ss/android/ugc/governance/eventbus/IEvent;
+
+    return-object p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    invoke-static {}, LX/0Y9f;->LIZ()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "CollectStatusChangeEvent(isCollected="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, LX/0kQc;->LIZ:Z
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", poiId="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0kQc;->LIZIZ:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", poiName="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0kQc;->LIZJ:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", poiAddress="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0kQc;->LIZLLL:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", collectStatusAssemHashCode="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0kQc;->LJ:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", isFromList="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, LX/0kQc;->LJFF:Z
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", isFromMapMode="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, LX/0kQc;->LJI:Z
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", isFromPoiRevisit="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-boolean v0, p0, LX/0kQc;->LJII:Z
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0x29
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-static {v1}, LX/0Y9f;->LIZIZ(Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

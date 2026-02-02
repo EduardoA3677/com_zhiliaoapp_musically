@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/os4" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/vcq" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <FrameLayout n1:id="@id/mlu" n1:visibility="visible" n1:layout_width="match_parent" n1:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:theme="@style/wo" n1:orientation="vertical" n1:id="@id/uwf" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <com.bytedance.tux.navigation.TuxNavBar n1:id="@id/wh4" n1:layout_width="match_parent" n1:layout_height="52.0dp" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?mu" n1:id="@id/title" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:translationY="-40.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" n3:bxc="owf" n3:bxd="0.5" n3:fj2="pk" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0D2z n1:textColor="?zw" n1:id="@id/cps" n1:background="?yg" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bx9="owf" n4:bxc="owf" n4:bxd="0.9" n4:fi8="true" n4:fi9="true" n4:fib="l9r" n4:fid="t69" n4:fj2="p7" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/cei" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="16.0dp" n1:text="@null" n5:bwq="owf" n5:bx9="owf" n5:bxb="@id/cps" n5:fj2="pa" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.status.loading.TuxSpinner n1:id="@id/mj6" n1:visibility="gone" n1:layout_width="27.5dp" n1:layout_height="27.5dp" n6:bwk="owf" n6:bwq="owf" n6:bx9="owf" n6:bxc="owf" n6:fjq="@raw/icon_spinner_normal" n6:fkk="@string/ri1" n6:fmy="?zw" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

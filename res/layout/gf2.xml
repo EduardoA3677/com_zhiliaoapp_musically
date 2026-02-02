@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12dF n1:id="@id/sqq" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+            <androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="117.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="24.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginHorizontal="20.0dp" n2:ba3="?eko" n2:ba4="20.0dp" n2:ba5="0.0dp" n2:ba7="0.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto">
+                <ImageView n1:layout_gravity="end" n1:id="@id/j37" n1:layout_width="350.0dp" n1:layout_height="117.0dp" />
+                <LinearLayout n1:orientation="horizontal" n1:paddingLeft="14.0dp" n1:paddingRight="14.0dp" n1:layout_width="match_parent" n1:layout_height="117.0dp" n1:paddingHorizontal="14.0dp">
+                    <LinearLayout n1:layout_gravity="center_vertical" n1:orientation="vertical" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                        <X.12nN n1:textColor="?ekp" n1:id="@id/d00" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/a6j" />
+                        <X.12nN n1:textColor="?eks" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:text="@null" style="@style/a6s" />
+                    </LinearLayout>
+                    <View n1:layout_gravity="center_vertical" n1:layout_width="112.0dp" n1:layout_height="84.0dp" n1:layout_marginStart="12.0dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="17.0dp" n1:layout_marginLeft="20.0dp" n1:layout_marginTop="32.0dp" n1:layout_marginRight="20.0dp" n1:layout_marginHorizontal="20.0dp">
+                <View n1:layout_gravity="center_vertical" n1:background="?ej8" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_weight="1.0" />
+                <X.12nN n1:textColor="?eks" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="7.0dp" n1:layout_marginRight="7.0dp" n1:text="@null" n1:layout_marginHorizontal="7.0dp" style="@style/a79" />
+                <View n1:layout_gravity="center_vertical" n1:background="?ej8" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:id="@id/qjj" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_margin="20.0dp">
+                <include n1:id="@id/mbm" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" layout="@layout/gdk" />
+                <include n1:id="@id/mfl" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" layout="@layout/gdk" />
+                <include n1:id="@id/mh0" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" layout="@layout/gdk" />
+                <include n1:id="@id/mbq" n1:layout_width="0.0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" layout="@layout/gdk" />
+            </LinearLayout>
+        </LinearLayout>
+    </X.12dF>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <View n1:background="?ej8" n1:layout_width="match_parent" n1:layout_height="0.5dp" />
+        <X.12nN n1:textColor="?eks" n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="16.0dp" n1:layout_marginTop="15.0dp" n1:layout_marginRight="16.0dp" n1:text="@null" n1:layout_marginHorizontal="16.0dp" style="@style/a77" />
+        <androidx.cardview.widget.CardView n1:layout_width="match_parent" n1:layout_height="48.0dp" n1:layout_margin="16.0dp" n3:ba3="?ej6" n3:ba4="24.0dp" n3:ba5="0.0dp" n3:ba7="0.0dp" xmlns:n3="http://schemas.android.com/apk/res-auto">
+            <X.12nN n1:textColor="?ejv" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/l46" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" style="@style/a6x" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

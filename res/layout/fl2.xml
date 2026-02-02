@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/e9o" n1:layout_width="wrap_content" n1:layout_height="18.0dp">
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zz" n1:id="@id/xvx" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:text="@null" n2:fj2="pv" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <X.13dw n1:id="@id/asd" n1:layout_width="wrap_content" n1:layout_height="match_parent" n1:scaleType="centerCrop" n3:emb="social_dm_input_loading_light_tux_lottie.json" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/kke" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:importantForAccessibility="no" n1:layout_marginStart="8.0dp" n4:fjq="@raw/icon_chevron_up" n4:fmy="?zz" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/e9n" n1:paddingTop="12.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+        <X.0oR1 n1:id="@id/mx9" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

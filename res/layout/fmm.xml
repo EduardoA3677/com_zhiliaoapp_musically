@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat n1:id="@id/bvf" n1:layout_width="220.0dp" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/vrq" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:layout_marginEnd="25.0dp" n2:bwk="owf" n2:bwr="@id/bvd" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.lighten.loader.SmartImageView n1:id="@id/vrp" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginStart="5.0dp" n2:bwk="owf" n2:bwr="@id/vrs" n2:bx9="owf" n2:bxc="owf" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?zw" n1:id="@id/vrs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="4.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx8="@id/vrp" n2:bxc="owf" n2:fj2="p0" />
+        <View n1:id="@id/vrr" n1:background="?a08" n1:layout_width="60.0dp" n1:layout_height="3.0dp" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/bvq" n1:layout_width="0.0dp" n1:layout_height="match_parent" n1:layout_weight="1.0" n1:layout_marginStart="25.0dp" n1:layout_marginEnd="5.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/vrq" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <com.bytedance.tux.icon.TuxIconView n1:id="@id/bvc" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:importantForAccessibility="no" n3:bwk="owf" n3:bwr="@id/bvg" n3:bx9="owf" n3:bxc="owf" n3:fjq="@raw/icon_story_star" n3:fmy="?a04" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?a04" n1:id="@id/bvg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="4.0dp" n1:layout_marginEnd="5.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx8="@id/bvc" n3:bxc="owf" n3:fj2="p0" />
+        <X.0CU3 n1:id="@id/bv8" n1:layout_width="8.0dp" n1:layout_height="8.0dp" n3:bwl="@id/bvg" n3:bwq="@id/bvg" n3:bx8="@id/bvg" n3:bxc="@id/bvg" n3:fi6="fh_" />
+        <View n1:id="@id/bve" n1:layout_width="60.0dp" n1:layout_height="3.0dp" n3:bwk="owf" n3:bwq="owf" n3:bx9="owf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="?ej8" n1:layout_width="match_parent" n1:layout_height="0.5dp" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ekp" n1:id="@id/eh_" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginStart="16.0dp" n3:bwk="owf" n3:bx9="owf" n3:bxc="owf" style="@style/a76" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <X.12nN n1:textColor="?ehx" n1:id="@id/qhs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingEnd="16.0dp" n4:bwk="owf" n4:bwq="owf" n4:bxc="owf" style="@style/a76" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dqk" n1:paddingTop="8.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginEnd="16.0dp" n5:bwl="@id/dql" n5:bwq="owf" n5:bxc="owf" n5:bxe="ori" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:gravity="bottom" n1:id="@id/yub" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:maxLines="1" n5:bwk="owf" n5:bwr="@id/yfs" n5:bx9="owf" style="@style/q8" />
+        <X.12nN n1:textColor="?ekp" n1:ellipsize="end" n1:gravity="bottom" n1:id="@id/yfs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="73.0dp" n1:maxLines="1" n5:b5h="16.0dp" n5:b5i="12.0dp" n5:b5l="z1f" n5:bwk="owf" n5:bwr="@id/yco" n5:bx8="@id/yub" style="@style/pz" />
+        <X.12nN n1:textColor="?fff" n1:ellipsize="end" n1:gravity="bottom" n1:id="@id/yco" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxWidth="55.0dp" n1:maxLines="1" n5:bwk="owf" n5:bwq="owf" n5:bx8="@id/yfs" style="@style/qd" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <X.12nN n1:textColor="?ekz" n1:ellipsize="end" n1:gravity="bottom" n1:id="@id/dql" n1:paddingBottom="8.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_marginEnd="16.0dp" n6:bwk="owf" n6:bwq="owf" n6:bxb="@id/dqk" style="@style/qb" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

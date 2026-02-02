@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:clipChildren="false" n1:descendantFocusability="blocksDescendants" n1:layout_width="64.0dp" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_gravity="center_horizontal" n1:id="@id/b6v" n1:clipChildren="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView n1:layout_gravity="center_horizontal" n1:id="@id/b80" n1:layout_width="@dimen/xm" n1:layout_height="@dimen/xm" n2:eyo="?ly" n2:eyq="0.5dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="end|bottom" n1:id="@id/fft" n1:paddingTop="1.5dp" n1:visibility="gone" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n1:layout_marginBottom="-3.0dp" n1:layout_marginEnd="-3.0dp" n3:fjq="@raw/icon_paperplane_fill" n3:fjt="12.0dp" n3:fk6="12.0dp" n3:fmy="?yi" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <X.0kLD n1:layout_gravity="end|bottom" n1:id="@id/y7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:translationX="3.0dp" n1:translationY="2.0dp" n4:bjv="?c3" n4:bjw="2.5dp" n4:f27="false" n4:fa1="@integer/ad" n4:fa3="3.0dp" n4:fa4="4.0dp" n4:fag="?c3" n4:fah="2.5dp" n4:faj="0.0dp" n4:fp0="14.0dp" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <View n1:layout_gravity="end|bottom" n1:id="@id/io7" n1:background="@drawable/cbp" n1:visibility="gone" n1:layout_width="28.0dp" n1:layout_height="28.0dp" n1:layout_marginBottom="-2.0dp" n1:layout_marginEnd="-2.0dp" />
+        <X.0Ci6 n1:layout_gravity="end|bottom" n1:id="@id/io8" n1:visibility="gone" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n5:fih="dbb" n5:fii="u9x" n5:fij="@color/dx" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:gravity="center" n1:layout_gravity="center|bottom" n1:id="@id/lt9" n1:background="@drawable/cbt" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="3.0dp" n1:text="@null" n6:fj2="q2" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center" n1:id="@id/jj2" n1:background="@drawable/cbs" n1:visibility="gone" n1:layout_width="@dimen/xm" n1:layout_height="@dimen/xm" n7:fjq="@raw/icon_arrow_turn_left" n7:fjt="24.0dp" n7:fk6="24.0dp" n7:fmy="?e0" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <X.12vl n1:textColor="?zy" n1:ellipsize="end" n1:gravity="center|top" n1:id="@id/nv6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:maxLines="2" n8:fj2="qc" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+        <X.12vl n1:textColor="?zy" n1:ellipsize="end" n1:gravity="center|top" n1:id="@id/nv7" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dp" n1:lines="2" n9:fj2="qc" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout n1:gravity="center" n1:id="@id/uyr" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dp" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?yi" n1:ellipsize="end" n1:gravity="center|top" n1:id="@id/jj1" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="8.0dp" n1:maxLines="2" n1:lines="2" n1:lineSpacingMultiplier="0.9" n10:fj2="qd" n10:fl1="10.0dp" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

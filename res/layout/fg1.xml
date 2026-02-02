@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n2:bp9="h_y" n2:fps="1.0" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <FrameLayout n1:id="@id/hju" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_margin="3.0dp">
+        <FrameLayout n1:layout_gravity="center" n1:paddingTop="4.0dp" n1:layout_width="wrap_content" n1:layout_height="37.0dp">
+            <com.bytedance.tux.icon.TuxIconView n1:layout_gravity="center_horizontal" n1:layout_width="18.0dp" n1:layout_height="18.0dp" n1:importantForAccessibility="no" n2:fjq="@raw/icon_camera_plus_fill" n2:fjt="@dimen/qk" n2:fk6="@dimen/qk" n2:fmy="?xo" />
+            <com.bytedance.tux.input.TuxTextView n1:textColor="?xo" n1:gravity="center_vertical" n1:layout_gravity="center|bottom" n1:id="@id/ytz" n1:layout_width="wrap_content" n1:layout_height="17.0dp" n1:text="@null" n2:fj2="qg" />
+        </FrameLayout>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="wrap_content" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <X.12nN n1:textColor="?ekp" n1:gravity="center" n1:id="@id/gey" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="57.0dp" n1:layout_marginBottom="60.0dp" n1:text="@null" n1:layout_marginStart="14.0dp" n1:layout_marginEnd="14.0dp" style="@style/a6r" />
+    <X.12nN n1:textColor="?c3u" n1:gravity="center" n1:id="@id/ggo" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="45.0dp" n1:layout_marginBottom="40.0dp" n1:text="@null" style="@style/a77" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="13.0dp">
+        <View n1:background="?edb" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_weight="1.0" />
+        <X.12nN n1:textColor="?c3t" n1:id="@id/fnx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@null" n1:layout_marginStart="8.0dp" n1:layout_marginEnd="8.0dp" style="@style/a6u" />
+        <View n1:background="?edb" n1:layout_width="0.0dp" n1:layout_height="0.5dp" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

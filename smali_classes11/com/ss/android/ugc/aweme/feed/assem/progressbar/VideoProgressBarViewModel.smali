@@ -1,0 +1,106 @@
+.class public final Lcom/ss/android/ugc/aweme/feed/assem/progressbar/VideoProgressBarViewModel;
+.super Lcom/ss/android/ugc/aweme/feed/assem/base/FeedBaseViewModel;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/ss/android/ugc/aweme/feed/assem/base/FeedBaseViewModel<",
+        "LX/0xz1;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public LL:J
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/ss/android/ugc/aweme/feed/assem/base/FeedBaseViewModel;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final defaultState()LX/00sA;
+    .locals 2
+
+    new-instance v1, LX/0xz1;
+
+    const/4 v0, 0x0
+
+    invoke-direct {v1, v0}, LX/0xz1;-><init>(I)V
+
+    return-object v1
+.end method
+
+.method public final hu2(IZ)V
+    .locals 3
+
+    new-instance v2, LX/0NRQ;
+
+    invoke-virtual {p0}, Lcom/bytedance/ext_power_list/AssemViewModelWithItem;->getItem()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/ss/android/ugc/aweme/feed/model/VideoItemParams;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/ss/android/ugc/aweme/feed/model/VideoItemParams;->getAweme()Lcom/ss/android/ugc/aweme/feed/model/Aweme;
+
+    move-result-object v1
+
+    :goto_0
+    iget-object v0, p0, Lcom/ss/android/ugc/aweme/feed/assem/base/FeedBaseViewModel;->eventType:Ljava/lang/String;
+
+    invoke-direct {v2, v1, v0}, LX/0NRQ;-><init>(Lcom/ss/android/ugc/aweme/feed/model/Aweme;Ljava/lang/String;)V
+
+    iput-boolean p2, v2, LX/0NRQ;->LIZJ:Z
+
+    invoke-static {v2}, LX/0GEY;->LIZ(Lcom/ss/android/ugc/governance/eventbus/IEvent;)Lcom/ss/android/ugc/governance/eventbus/IEvent;
+
+    return-void
+
+    :cond_0
+    const/4 v1, 0x0
+
+    goto :goto_0
+.end method
+
+.method public final paramSync2StateAccept(LX/00sA;Lcom/ss/android/ugc/aweme/feed/model/VideoItemParams;)LX/00sA;
+    .locals 1
+
+    check-cast p1, LX/0xz1;
+
+    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/feed/assem/base/FeedBaseViewModel;->isRebind()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    new-instance p1, LX/0xz1;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p1, v0}, LX/0xz1;-><init>(I)V
+
+    return-object p1
+
+    :cond_0
+    invoke-super {p0, p1, p2}, Lcom/ss/android/ugc/aweme/feed/assem/base/FeedBaseViewModel;->paramSync2StateAccept(LX/00sA;Lcom/ss/android/ugc/aweme/feed/model/VideoItemParams;)LX/00sA;
+
+    return-object p1
+.end method

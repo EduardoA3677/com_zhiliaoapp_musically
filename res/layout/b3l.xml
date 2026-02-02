@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="?bx" n1:padding="16.0dp" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="?c7" n1:layout_width="204.0dp" n1:layout_height="16.0dp" />
+    <View n1:background="?c7" n1:layout_width="233.0dp" n1:layout_height="16.0dp" n1:layout_marginTop="12.0dp" />
+    <View n1:background="?ly" n1:layout_width="match_parent" n1:layout_height="0.5dp" n1:layout_marginTop="16.0dp" />
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_marginTop="16.5dp">
+        <X.0Cg1 n1:id="@id/sg1" n1:background="?c7" n1:layout_width="24.0dp" n1:layout_height="24.0dp" n2:eyn="12.0dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <View n1:background="?c7" n1:layout_width="96.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="10.0dp" n1:layout_toRightOf="@id/sg1" n1:layout_centerVertical="true" n1:layout_marginStart="10.0dp" n1:layout_toEndOf="@id/sg1" />
+    </RelativeLayout>
+    <RelativeLayout n1:layout_width="match_parent" n1:layout_height="93.0dp" n1:layout_marginTop="16.0dp">
+        <View n1:id="@id/ujo" n1:background="?c7" n1:layout_width="93.0dp" n1:layout_height="93.0dp" />
+        <View n1:id="@id/rmn" n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_toRightOf="@id/ujo" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/ujo" />
+        <View n1:background="?c7" n1:layout_width="136.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginTop="32.0dp" n1:layout_toRightOf="@id/ujo" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/ujo" />
+        <View n1:background="?c7" n1:layout_width="89.0dp" n1:layout_height="16.0dp" n1:layout_marginLeft="12.0dp" n1:layout_toRightOf="@id/ujo" n1:layout_alignParentBottom="true" n1:layout_marginStart="12.0dp" n1:layout_toEndOf="@id/ujo" />
+    </RelativeLayout>
+    <View n1:background="?c7" n1:layout_width="218.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="20.0dp" />
+    <View n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginTop="20.0dp" />
+    <View n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginTop="34.0dp" />
+    <View n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginTop="34.0dp" n1:layout_marginBottom="20.0dp" />
+    <LinearLayout n1:orientation="vertical" n1:paddingTop="@dimen/mj" n1:paddingBottom="@dimen/mj" n1:layout_width="match_parent" n1:layout_height="89.0dp" n1:paddingStart="@dimen/mj" n1:paddingEnd="@dimen/mj">
+        <View n1:background="?c7" n1:layout_width="202.0dp" n1:layout_height="18.0dp" />
+        <View n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginTop="20.0dp" />
+    </LinearLayout>
+    <View n1:background="?c7" n1:layout_width="match_parent" n1:layout_height="18.0dp" n1:layout_marginTop="28.0dp" />
+    <View n1:background="?c7" n1:layout_width="218.0dp" n1:layout_height="18.0dp" n1:layout_marginTop="28.0dp" />
+</LinearLayout>

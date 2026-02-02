@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns="">
+    <item>
+        <shape n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <padding n1:left="1.1999817dp" n1:top="1.1999817dp" n1:right="1.1999817dp" n1:bottom="1.1999817dp" />
+            <solid n1:color="?f9q" />
+            <corners n1:radius="@dimen/b6" />
+        </shape>
+    </item>
+    <item>
+        <shape n2:shape="rectangle"
+          xmlns:n2="http://schemas.android.com/apk/res/android">
+            <padding n2:left="1.1999817dp" n2:top="1.1999817dp" n2:right="1.1999817dp" n2:bottom="1.1999817dp" />
+            <solid n2:color="?f9r" />
+            <corners n2:radius="@dimen/b6" />
+        </shape>
+    </item>
+    <item>
+        <shape n3:shape="rectangle"
+          xmlns:n3="http://schemas.android.com/apk/res/android">
+            <padding n3:left="1.1999817dp" n3:top="1.1999817dp" n3:right="1.1999817dp" n3:bottom="1.1999817dp" />
+            <solid n3:color="?f9s" />
+            <corners n3:radius="@dimen/b6" />
+        </shape>
+    </item>
+    <item>
+        <shape n4:shape="rectangle"
+          xmlns:n4="http://schemas.android.com/apk/res/android">
+            <padding n4:left="1.1999817dp" n4:top="1.1999817dp" n4:right="1.1999817dp" n4:bottom="1.1999817dp" />
+            <solid n4:color="?f9t" />
+            <corners n4:radius="@dimen/b6" />
+        </shape>
+    </item>
+    <item>
+        <shape n5:shape="rectangle"
+          xmlns:n5="http://schemas.android.com/apk/res/android">
+            <padding n5:left="1.1999817dp" n5:top="1.1999817dp" n5:right="1.1999817dp" n5:bottom="1.1999817dp" />
+            <solid n5:color="?f9u" />
+            <corners n5:radius="@dimen/b6" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X.0bSW n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/ru9" n1:layout_width="match_parent" n1:layout_height="match_parent" n2:bwk="owf" n2:bwq="owf" n2:bx9="owf" n2:bxc="owf" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:id="@id/rg_" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="match_parent" n3:bxc="owf" xmlns:n3="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout n1:layout_gravity="center" n1:id="@id/rg9" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content">
+            <X.0CfU n1:id="@id/rga" n1:layout_width="match_parent" n1:layout_height="8.0dp" n1:layout_alignParentTop="true" />
+            <X.0bEB n1:layout_gravity="center_horizontal" n1:id="@id/rgl" n1:layout_width="wrap_content" n1:layout_height="37.0dp" n1:layout_below="@id/rga" n1:layout_centerHorizontal="true" />
+            <X.0CfU n1:id="@id/rgb" n1:layout_width="match_parent" n1:layout_height="32.0dp" n1:layout_below="@id/rgl" />
+            <ViewFlipper n1:id="@id/rgm" n1:clipChildren="false" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:inAnimation="@anim/c_" n1:outAnimation="@anim/ca" n1:layout_below="@id/rgb">
+                <X.0bEQ n1:layout_gravity="center|top" n1:orientation="horizontal" n1:id="@id/r_9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <X.0JXH n1:layout_gravity="center|top" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+                <X.0bEG n1:layout_gravity="center|top" n1:orientation="horizontal" n1:id="@id/r9n" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+            </ViewFlipper>
+        </RelativeLayout>
+    </FrameLayout>
+    <View n1:id="@id/rtx" n1:background="@drawable/cao" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="96.0dp" n4:bwk="owf" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <X.0bG2 n1:orientation="vertical" n1:id="@id/ru8" n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="wrap_content" n5:bwk="owf" xmlns:n5="http://schemas.android.com/apk/res-auto">
+        <include layout="@layout/crs" />
+    </X.0bG2>
+</X.0bSW>

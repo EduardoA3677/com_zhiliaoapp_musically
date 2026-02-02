@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout n1:id="@id/dyc" n1:layout_width="match_parent" n1:layout_height="40.0dp" n1:layout_marginLeft="12.0dp" n1:layout_marginRight="12.0dp" n1:layout_marginHorizontal="12.0dp" xmlns=""
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView n1:id="@id/dyd" n1:layout_width="12.0dp" n1:layout_height="12.0dp" n1:layout_marginEnd="6.0dp" n2:bwk="owf" n2:bwr="@id/dye" n2:bwz="0.5" n2:bx0="ori" n2:bx9="owf" n2:bxc="owf" n2:eme="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.input.TuxTextView n1:textColor="?e0" n1:id="@id/dye" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:bwk="owf" n3:bwr="@id/dyb" n3:bwz="0.5" n3:bx8="@id/dyd" n3:bxc="owf" n3:fj2="pz" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.bytedance.tux.icon.TuxIconView n1:id="@id/dyb" n1:paddingTop="0.5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:scaleType="fitCenter" n1:layout_marginStart="2.0dp" n4:bwk="owf" n4:bwq="owf" n4:bwz="0.5" n4:bx8="@id/dye" n4:bxc="owf" n4:fjq="@raw/icon_chevron_right_offset_fill_ltr" n4:fjt="10.0dp" n4:fk6="10.0dp" n4:fmy="?e0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</androidx.constraintlayout.widget.ConstraintLayout>
