@@ -36,11 +36,12 @@ This repository contains a decompiled Android APK for TikTok (com.zhiliaoapp.mus
 ## Development Guidelines
 
 ### When Working with Smali Files
-1. **Code Modification:** You can analyze AND modify smali bytecode based on user requirements
+1. **Code Modification:** You MUST analyze AND modify smali bytecode directly in the actual `.smali` files based on user requirements. **NEVER** create documentation files or example files to show modifications - always implement changes directly in the real smali code.
 2. **Package Structure:** The codebase is split across 41 smali_classes directories due to the large size
 3. **Obfuscation:** Many classes use short names (e.g., `x7.smali`, `c4.smali`) indicating code obfuscation
 4. **Native Code:** The app includes native libraries in the `lib/` directory
 5. **Validation:** Always validate smali syntax after modifications and test when possible
+6. **Implementation Location:** ALL modifications must be implemented in the actual repository files (smali/, smali_classes*, res/, AndroidManifest.xml, etc.), NOT in documentation or example files
 
 ### When Working with Resources
 1. **Resource Files:** Standard Android resource structure in `res/` directory - can be modified
@@ -54,7 +55,8 @@ When working with this codebase:
 - Reference the AndroidManifest.xml for app permissions, components, and configuration
 - Check apktool.yml for version information and build configuration
 - Examine assets/ for application data files and configurations
-- Modify smali code, resources, and manifest based on user requirements
+- **CRITICAL: Modify smali code, resources, and manifest DIRECTLY in the actual repository files** - never create documentation or example files to demonstrate changes
+- **ALL modifications must be implemented in the real codebase** (smali/, smali_classes*, res/, AndroidManifest.xml, lib/, assets/, etc.)
 - Validate all modifications to ensure proper syntax and functionality
 - Use `apktool b` to rebuild the APK after making changes
 
@@ -65,6 +67,7 @@ When working with this codebase:
 - Can rebuild APK with `apktool b` and sign with custom keystore
 - Always validate modifications before rebuilding
 - Test rebuilt APK to ensure modifications work as expected
+- **CRITICAL RULE: All code modifications MUST be implemented directly in the actual smali files in the repository - NEVER create documentation files, example files, or markdown files to demonstrate code changes. Edit the real .smali files directly.**
 
 ### Best Practices
 1. **Search Efficiently:** Use tools like `grep` or `rg` across all smali_classes directories
