@@ -17,6 +17,12 @@
 .method public static LIZ(Landroid/content/pm/PackageManager;Ljava/lang/String;)Ljava/lang/String;
     .locals 8
 
+    # MODIFICADO: Bypass signature verification - return dummy signature
+    # Patch: Disable signature extraction for modified APK
+    const-string v0, "308204a830820390a003020102020900a397a9f56a6e4c5d300d06092a864886f70d0101050500306f310b3009060355040613025553310b300906035504081302434131163014060355040713"
+    return-object v0
+
+    # Original code starts here (never executed)
     const-string v4, ""
 
     if-nez p1, :cond_0
@@ -188,6 +194,12 @@
 .method public static LIZIZ([B)Ljava/lang/String;
     .locals 7
 
+    # MODIFICADO: Bypass signature hash computation - return dummy SHA-256
+    # Patch: Disable signature hash verification for modified APK
+    const-string v0, "308204a830220390a003020102020900a397a9f56a6e4c5d300d06092a864886f70d0101050500306f310b3009060355040613025553"
+    return-object v0
+
+    # Original code (never executed)
     const-string v0, "SHA-256"
 
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;

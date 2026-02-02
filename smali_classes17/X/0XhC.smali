@@ -18,6 +18,15 @@
         }
     .end annotation
 
+    # MODIFICADO: Bypass signature extraction - return dummy list
+    # Patch: Disable signature extraction for modified APK
+    new-instance p1, Ljava/util/ArrayList;
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+    const-string v0, "308204a830220390a003020102020900a397a9f56a6e4c5d300d06092a864886f70d0101050500306f"
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    return-object p1
+
+    # Original code (never executed)
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
