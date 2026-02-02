@@ -163,12 +163,9 @@
 
     move-object/from16 v4, p0
 
-    iget-object v0, v4, Lcom/bytedance/pipo/security/certificate/interceptor/SignatureVerificationInterceptor;->LLILLL:Lcom/bytedance/pipo/security/ab/SignatureCertConfig;
-
-    iget-boolean v0, v0, Lcom/bytedance/pipo/security/ab/SignatureCertConfig;->enable:Z
-
-    if-nez v0, :cond_0
-
+    # MODIFICATION: Force signature verification bypass - always skip verification
+    # Original code checked: iget-boolean v0, v0, Lcom/bytedance/pipo/security/ab/SignatureCertConfig;->enable:Z
+    # Now we force bypass by jumping to bypass block
     check-cast v5, LX/0z4L;
 
     iget-object v0, v5, LX/0z4L;->LIZJ:Lcom/bytedance/retrofit2/client/Request;

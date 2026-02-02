@@ -4954,29 +4954,8 @@
 .method public setWatermark(Lcom/ss/android/vesdk/VEWatermarkParam;)Z
     .locals 1
 
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Lcom/ss/android/vesdk/VEWatermarkParam;->getEntities()[Lcom/ss/android/vesdk/VEWatermarkParam$VEWatermarkEntity;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_1
-
-    iput-object p1, p0, Lcom/ss/android/vesdk/VEVideoEncodeSettings;->mWatermarkParam:Lcom/ss/android/vesdk/VEWatermarkParam;
-
-    :goto_0
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lcom/ss/android/vesdk/VEVideoEncodeSettings;->mWatermarkParam:Lcom/ss/android/vesdk/VEWatermarkParam;
-
-    goto :goto_0
-
-    :cond_1
+    # MODIFICATION: Disable watermark - always return false (not applied)
+    # Original code checked entities and set mWatermarkParam
     const/4 v0, 0x0
 
     return v0

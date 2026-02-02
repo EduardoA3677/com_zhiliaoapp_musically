@@ -1647,23 +1647,34 @@
 
     if-eqz v0, :cond_2
 
-    if-eqz v2, :cond_1e
+    # MODIFICATION: Disable hook/root app detection - always return false
+    # Original checked for: Magisk, Xposed, VirtualApp
+    const/4 v0, 0x0
 
-    const-string v4, "io.va.exposed"
-
-    const-string v3, "com.topjohnwu.magisk"
-
-    const-string v0, "de.robv.android.xposed.installer"
-
-    filled-new-array {v0, v4, v3}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, LX/0PDl;->LJIIJJI([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v4
 
-    invoke-virtual {v2}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
+    goto/16 :goto_5
+
+    :cond_1e
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v4
+
+    goto/16 :goto_5
+
+    # Original detection code disabled:
+    # const-string v4, "io.va.exposed"
+    # const-string v3, "com.topjohnwu.magisk"
+    # const-string v0, "de.robv.android.xposed.installer"
+    # filled-new-array {v0, v4, v3}, [Ljava/lang/String;
+    # move-result-object v0
+    # invoke-static {v0}, LX/0PDl;->LJIIJJI([Ljava/lang/Object;)Ljava/util/List;
+    # move-result-object v4
+    # invoke-virtual {v2}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
 
@@ -1677,7 +1688,6 @@
 
     if-eqz v0, :cond_1f
 
-    :cond_1e
     :goto_17
     invoke-static {v8}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 

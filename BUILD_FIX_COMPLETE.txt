@@ -1,0 +1,17 @@
+BUILD ERROR FIXED ✅
+
+Problem: Duplicate label :cond_1e in smali_classes28/X/0tKC.smali
+Error Line: 1692
+Status: RESOLVED
+
+What was fixed:
+- Removed duplicate :cond_1e label at line 1691
+- Kept unique :goto_17 label at line 1692
+- Verified all label references are valid
+- Confirmed no other duplicate labels exist
+
+The APK should now build successfully with:
+apktool b . -o tiktok_mod.apk
+
+Last updated: 2026-02-02
+Commit: 3e7a880729

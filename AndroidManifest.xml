@@ -1587,7 +1587,8 @@
         <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base,df_bytebench,df_c2pa_fake,df_camera,df_ccdc_impl_ocr,df_kids_mode,df_live_cast,df_live_cmaf,df_live_p2p,df_live_quic,df_live_rtmglobal,df_location,df_music_dsp,df_oppo_hyperboost,df_oppo_push,df_pipo_bnpl,df_pipo_external_payments,df_pitaya,df_placeholder,df_player,df_search_adblock,df_ship,df_tiktok_font,df_tiktok_font_fallback,df_ttwebview,df_ve_codec,df_ve_enc8,df_vmsdk"/>
         <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
         <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
-        <meta-data android:name="com.android.vending.splits" android:resource="@1460600832"/>
+        <!-- Fixed: Removed invalid resource reference @1460600832 that caused build error -->
+        <!-- <meta-data android:name="com.android.vending.splits" android:resource="@1460600832"/> -->
         <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
     </application>
 </manifest>

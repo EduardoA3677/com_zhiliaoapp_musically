@@ -132,9 +132,9 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/ss/android/ugc/profile/business/ci/viewer/api/ProfileViewerApiService;->LIZ:Lcom/ss/android/ugc/profile/business/ci/viewer/api/IProfileViewerApi;
-
-    invoke-interface {v0, p1, p2, p3}, Lcom/ss/android/ugc/profile/business/ci/viewer/api/IProfileViewerApi;->reportView(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LX/0aLQ;
+    # MODIFICATION: Disable profile view tracking - return empty observable
+    # Original: invoke-interface {v0, p1, p2, p3}, Lcom/ss/android/ugc/profile/business/ci/viewer/api/IProfileViewerApi;->reportView(...)
+    invoke-static {}, LX/0aLM;->LIZIZ()LX/0aLQ;
 
     move-result-object v0
 
