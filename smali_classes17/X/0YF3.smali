@@ -1660,51 +1660,44 @@
 .end method
 
 .method public static LJIL()Z
-    .locals 3
+    .locals 1
 
-    sget-object v1, Landroid/os/Build;->TAGS:Ljava/lang/String;
+    # MODIFICATION: Disable root detection - always return false (not rooted)
+    # Original code checked for: test-keys, Superuser.apk, su binary
+    const/4 v0, 0x0
 
-    const/4 v2, 0x1
+    return v0
 
-    if-eqz v1, :cond_0
-
-    const-string/jumbo v0, "test-keys"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return v2
+    # Original detection code disabled below:
+    # sget-object v1, Landroid/os/Build;->TAGS:Ljava/lang/String;
+    # const/4 v2, 0x1
+    # if-eqz v1, :cond_0
+    # const-string/jumbo v0, "test-keys"
+    # invoke-virtual {v1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    # move-result v0
+    # if-eqz v0, :cond_0
+    # return v2
 
     :cond_0
     :try_start_0
-    new-instance v1, LX/0XgT;
-
-    const-string v0, "/system/app/Superuser.apk"
-
-    invoke-direct {v1, v0}, LX/0XgT;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Ljava/io/File;->exists()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    return v2
+    nop
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     :catch_0
     :cond_1
+    nop
+
+    :cond_2
+    nop
+
     const-string v0, "/system/xbin/which su"
 
     invoke-static {v0}, LX/0YF3;->LIZ(Ljava/lang/String;)Z
 
     move-result v0
 
-    if-nez v0, :cond_2
+    nop
 
     const-string v0, "/system/bin/which su"
 
@@ -1712,7 +1705,7 @@
 
     move-result v0
 
-    if-nez v0, :cond_2
+    nop
 
     const-string/jumbo v0, "which su"
 
