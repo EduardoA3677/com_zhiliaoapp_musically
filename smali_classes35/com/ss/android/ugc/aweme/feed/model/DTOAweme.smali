@@ -2785,7 +2785,8 @@
 .method public getDownloadWithoutWatermark()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->downloadWithoutWatermark:Z
+    # Always download without watermark
+    const/4 v0, 0x1
 
     return v0
 .end method
