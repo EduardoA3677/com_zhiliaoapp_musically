@@ -98,19 +98,7 @@
 .method public isVPN()Z
     .locals 2
 
-    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/services/NetworkStateServiceImpl;->getMultiNetworkState()LX/11Gp;
-
-    move-result-object v1
-
-    sget-object v0, LX/11Gp;->DEFAULT_VPN:LX/11Gp;
-
-    if-ne v1, v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
+    # Always return false to bypass VPN detection
     const/4 v0, 0x0
 
     return v0

@@ -4603,19 +4603,7 @@
 .method public isAd()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->isAd:Z
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->awemeRawAd:Lcom/ss/android/ugc/aweme/feed/model/AwemeRawAd;
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
+    # Always return false to disable ads
     const/4 v0, 0x0
 
     return v0
@@ -4751,7 +4739,8 @@
 .method public isPreventDownload()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->preventDownload:Z
+    # Always return false to allow downloads
+    const/4 v0, 0x0
 
     return v0
 .end method
@@ -4767,19 +4756,7 @@
 .method public isSoftAd()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->isSoftAd:Z
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/ss/android/ugc/aweme/feed/model/DTOAweme;->awemeRawAd:Lcom/ss/android/ugc/aweme/feed/model/AwemeRawAd;
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
+    # Always return false to disable ads
     const/4 v0, 0x0
 
     return v0
