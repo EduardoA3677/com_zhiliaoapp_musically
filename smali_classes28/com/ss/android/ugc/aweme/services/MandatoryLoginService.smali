@@ -933,19 +933,12 @@
 .method public enableForcedLogin(Z)Z
     .locals 25
 
-    move-object/from16 v11, p0
+    # MODIFICADO: Deshabilitar login obligatorio
+    # Patch: Disable login requirement (ReVanced)
+    const/4 v0, 0x0
 
-    invoke-direct {v11}, Lcom/ss/android/ugc/aweme/services/MandatoryLoginService;->isMockPopup()Z
-
-    move-result v0
-
-    const/16 v17, 0x0
-
-    if-eqz v0, :cond_0
-
-    return v17
-
-    :cond_0
+    return v0
+.end method
     invoke-static {}, LX/11kj;->LIZ()Ljava/lang/String;
 
     move-result-object v1
@@ -1784,17 +1777,12 @@
 .method public shouldShowForcedLogin(Z)Z
     .locals 6
 
-    invoke-virtual {p0}, Lcom/ss/android/ugc/aweme/services/MandatoryLoginService;->disableForTest()Z
+    # MODIFICADO: Deshabilitar login obligatorio
+    # Patch: Disable login requirement (ReVanced)
+    const/4 v0, 0x0
 
-    move-result v0
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_0
-
-    return v1
-
-    :cond_0
+    return v0
+.end method
     const-class v0, Lcom/ss/android/ugc/aweme/IAccountService;
 
     const/16 v4, 0xe

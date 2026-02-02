@@ -740,8 +740,48 @@
 .method public final isAvailable()Z
     .locals 3
 
-    # MODIFICADO: Deshabilitar Google Auth
-    # Siempre retorna false para evitar uso de Google Pass/Passkeys
+    const/4 v2, 0x1
+
+    :try_start_0
+    invoke-static {}, Lcom/google/android/gms/common/GoogleApiAvailability;->getInstance()Lcom/google/android/gms/common/GoogleApiAvailability;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/bytedance/lobby/internal/LobbyCore;->getApplication()Landroid/app/Application;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, LX/0X3I;->d0(Lcom/google/android/gms/common/GoogleApiAvailability;Landroid/content/Context;)I
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    :cond_0
+    const/4 v1, 0x0
+
+    goto :goto_1
+
+    :goto_0
+    const/4 v1, 0x1
+
+    :goto_1
+    invoke-super {p0}, Lcom/bytedance/lobby/internal/BaseProvider;->isAvailable()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    if-eqz v1, :cond_1
+
+    return v2
+
+    :cond_1
     const/4 v2, 0x0
 
     return v2
