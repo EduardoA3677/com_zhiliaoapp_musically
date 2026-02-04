@@ -49,6 +49,12 @@
 .method public static final LIZ(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 9
 
+    # MODIFICADO: Bypass signature whitelist check - always return true
+    # Patch: Disable signature verification for modified APK
+    const/4 v1, 0x1
+    return v1
+
+    # Original code (never executed)
     sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;

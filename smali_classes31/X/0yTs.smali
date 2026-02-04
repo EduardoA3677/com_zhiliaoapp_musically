@@ -15,52 +15,10 @@
 .method public static LIZIZ(Landroid/content/pm/PackageManager;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 5
 
-    const/16 v0, 0x40
-
-    const/4 v4, 0x0
-
-    :try_start_0
-    invoke-static {p0, p1, v0}, LX/0X3I;->a0(Landroid/content/pm/PackageManager;Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
-
-    move-result-object v0
-    :try_end_0
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    iget-object v3, v0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
-
-    array-length v2, v3
-
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v2, :cond_1
-
-    aget-object v0, v3, v1
-
-    invoke-virtual {v0}, Landroid/content/pm/Signature;->toCharsString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    return v4
-
-    :cond_0
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
+    # MODIFICADO: Bypass signature verification - always return true
+    # Patch: Disable signature check for modified APK
     const/4 v0, 0x1
-
     return v0
-
-    :catch_0
-    return v4
 .end method
 
 

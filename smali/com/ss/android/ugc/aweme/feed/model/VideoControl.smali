@@ -80,5 +80,12 @@
 
     iput-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->isAllowMusic:Z
 
+    # Always allow downloads
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    
+    move-result-object v0
+    
+    iput-object v0, p0, Lcom/ss/android/ugc/aweme/feed/model/VideoControl;->allowDownload:Ljava/lang/Boolean;
+
     return-void
 .end method

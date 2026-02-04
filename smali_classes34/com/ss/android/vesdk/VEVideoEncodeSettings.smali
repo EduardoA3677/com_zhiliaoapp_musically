@@ -4954,30 +4954,13 @@
 .method public setWatermark(Lcom/ss/android/vesdk/VEWatermarkParam;)Z
     .locals 1
 
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Lcom/ss/android/vesdk/VEWatermarkParam;->getEntities()[Lcom/ss/android/vesdk/VEWatermarkParam$VEWatermarkEntity;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_1
-
-    iput-object p1, p0, Lcom/ss/android/vesdk/VEVideoEncodeSettings;->mWatermarkParam:Lcom/ss/android/vesdk/VEWatermarkParam;
-
-    :goto_0
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
+    # Disable watermark by always setting null
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/ss/android/vesdk/VEVideoEncodeSettings;->mWatermarkParam:Lcom/ss/android/vesdk/VEWatermarkParam;
 
-    goto :goto_0
-
-    :cond_1
-    const/4 v0, 0x0
+    # Return true so encoding continues
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -4985,12 +4968,7 @@
 .method public setWatermarkVideoRes(II)V
     .locals 1
 
-    iget-object v0, p0, Lcom/ss/android/vesdk/VEVideoEncodeSettings;->watermarkSize:Lcom/ss/android/vesdk/VESize;
-
-    iput p1, v0, Lcom/ss/android/vesdk/VESize;->width:I
-
-    iput p2, v0, Lcom/ss/android/vesdk/VESize;->height:I
-
+    # Disable watermark size - do nothing, just return
     return-void
 .end method
 

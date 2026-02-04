@@ -196,68 +196,9 @@
 .method public static LJFF()Z
     .locals 11
 
-    const-string v0, "/data/local/su"
-
-    const-string v1, "/data/local/bin/su"
-
-    const-string v2, "/data/local/xbin/su"
-
-    const-string v3, "/system/xbin/su"
-
-    const-string v4, "/system/bin/su"
-
-    const-string v5, "/system/bin/.ext/su"
-
-    const-string v6, "/system/bin/failsafe/su"
-
-    const-string v7, "/system/sd/xbin/su"
-
-    const-string v8, "/system/usr/we-need-root/su"
-
-    const-string v9, "/sbin/su"
-
-    const-string v10, "/su/bin/su"
-
-    filled-new-array/range {v0 .. v10}, [Ljava/lang/String;
-
-    move-result-object v4
-
+    # Disable root detection - always return false (not rooted)
     const/4 v3, 0x0
 
-    const/4 v2, 0x0
-
-    :goto_0
-    aget-object v1, v4, v2
-
-    :try_start_0
-    new-instance v0, LX/0XgT;
-
-    invoke-direct {v0, v1}, LX/0XgT;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    goto :goto_1
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    :catchall_0
-    :cond_0
-    add-int/lit8 v2, v2, 0x1
-
-    const/16 v0, 0xb
-
-    if-ge v2, v0, :cond_1
-
-    goto :goto_0
-
-    :goto_1
-    const/4 v3, 0x1
-
-    :cond_1
     return v3
 .end method
 

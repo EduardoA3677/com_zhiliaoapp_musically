@@ -3040,6 +3040,8 @@
 .method public final isLogin()Z
     .locals 1
 
+    # RESTAURADO: Usar lógica original
+    # El modo invitado se maneja vía isGuestMode()
     sget-object v0, LX/0u9n;->LL:LX/0u9n;
 
     invoke-static {}, LX/0u9n;->LJI()Z

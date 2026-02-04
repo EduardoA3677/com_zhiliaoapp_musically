@@ -434,6 +434,9 @@
 .method public final isGuestMode()Z
     .locals 3
 
+    # REVERTED: Restore original logic to fix performance and account issues
+    # Original logic: Check if age gate passed AND user is not logged in
+    
     iget-object v1, p0, Lcom/ss/android/ugc/aweme/account/guestmode/GuestModeServiceImpl;->LIZ:Lcom/bytedance/keva/Keva;
 
     const-string v0, "age_gate_consent_complete"

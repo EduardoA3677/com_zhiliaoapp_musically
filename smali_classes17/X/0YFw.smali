@@ -27,6 +27,12 @@
 .method public final LIZ(Lorg/json/JSONObject;)Z
     .locals 4
 
+    # MODIFICADO: Bypass signature MD5 check - always return true
+    # Patch: Disable signature verification for modified APK
+    const/4 v0, 0x1
+    return v0
+
+    # Original code (never executed)
     iget-object v0, p0, LX/0YFw;->LJ:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
