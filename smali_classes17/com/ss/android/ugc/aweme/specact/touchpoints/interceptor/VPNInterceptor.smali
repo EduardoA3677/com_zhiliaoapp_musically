@@ -150,6 +150,7 @@
     goto :goto_0
 
     :cond_3
+    # Always return 0 (VPN not detected)
     const/4 v0, 0x0
 
     goto :goto_1
@@ -157,13 +158,15 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :catchall_0
-    const/4 v0, -0x1
+    # Always return 0 (VPN not detected) on error
+    const/4 v0, 0x0
 
     goto :goto_1
 
     :cond_4
     :goto_0
-    const/4 v0, 0x1
+    # Always return 0 (VPN not detected)
+    const/4 v0, 0x0
 
     :goto_1
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -212,7 +215,8 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     :catchall_1
-    const/4 v7, -0x1
+    # Always return 0 (proxy not detected) on error
+    const/4 v7, 0x0
 
     goto :goto_4
 

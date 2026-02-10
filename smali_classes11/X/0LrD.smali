@@ -3359,58 +3359,6 @@
 .method public final reportStoryViewed(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
 
-    sget-object v1, Lcom/ss/android/ugc/aweme/story/api/StoryApi;->LIZIZ:Lcom/ss/android/ugc/aweme/story/api/StoryApi;
-
-    if-nez p2, :cond_1
-
-    const-string v0, ""
-
-    :goto_0
-    invoke-virtual {v1, p1, v0}, Lcom/ss/android/ugc/aweme/story/api/StoryApi;->reportStoryViewed(Ljava/lang/String;Ljava/lang/String;)LX/0aLS;
-
-    move-result-object v1
-
-    invoke-static {}, LX/0aO1;->LIZ()LX/0aNa;
-
-    move-result-object v0
-
-    invoke-virtual {v1, v0}, LX/0aLS;->LJJIJ(LX/0aNa;)LX/0aFW;
-
-    move-result-object v3
-
-    new-instance v2, LY/AfS30S1000000_8;
-
-    const/4 v0, 0x3
-
-    invoke-direct {v2, p1, v0}, LY/AfS30S1000000_8;-><init>(Ljava/lang/String;I)V
-
-    new-instance v1, LY/AfS30S1000000_8;
-
-    const/4 v0, 0x4
-
-    invoke-direct {v1, p1, v0}, LY/AfS30S1000000_8;-><init>(Ljava/lang/String;I)V
-
-    invoke-virtual {v3, v2, v1}, LX/0aLS;->LJJIIJZLJL(LX/0E38;LX/0E38;)LX/02SD;
-
-    invoke-static {}, LX/04JI;->LIZ()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    new-instance v1, LY/ARunnableS2S2000000_8;
-
-    const/4 v0, 0x1
-
-    invoke-direct {v1, p1, p2, v0}, LY/ARunnableS2S2000000_8;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
-
-    invoke-static {v1}, LX/0MDk;->LIZIZ(Ljava/lang/Runnable;)V
-
-    :cond_0
+    # DISABLED: Do not report story view
     return-void
-
-    :cond_1
-    move-object v0, p2
-
-    goto :goto_0
 .end method

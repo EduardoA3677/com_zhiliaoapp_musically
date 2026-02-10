@@ -167,6 +167,9 @@
 
     iget-boolean v0, v0, Lcom/bytedance/pipo/security/ab/SignatureCertConfig;->enable:Z
 
+    # Bypass signature verification - always disabled
+    const/4 v0, 0x0
+
     if-nez v0, :cond_0
 
     check-cast v5, LX/0z4L;

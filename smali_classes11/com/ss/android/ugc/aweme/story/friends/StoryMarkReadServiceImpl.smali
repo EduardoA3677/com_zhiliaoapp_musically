@@ -20,43 +20,14 @@
 .method public final LIZ(Ljava/util/List;)V
     .locals 2
 
-    sget-object v1, LX/0N15;->LIZIZ:LX/0N15;
-
-    sget-object v0, LX/0Mwc;->STORY:LX/0Mwc;
-
-    invoke-virtual {v1, v0, p1}, LX/0N15;->LIZIZ(LX/0Mwc;Ljava/util/List;)V
-
+    # Disabled: Do not mark story as read
     return-void
 .end method
 
 .method public final LIZIZ(Lcom/ss/android/ugc/aweme/profile/model/User;Ljava/util/List;Ljava/lang/String;)V
     .locals 1
 
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Lcom/ss/android/ugc/aweme/profile/model/User;->getUid()Ljava/lang/String;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    if-eqz p2, :cond_0
-
-    invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    sget-object v0, LX/172Z;->LIZIZ:LX/172Z;
-
-    invoke-virtual {v0}, LX/172Z;->LJJIII()LX/0MMY;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1, p2, p3}, LX/0MMY;->LIZJ(Lcom/ss/android/ugc/aweme/profile/model/User;Ljava/util/List;Ljava/lang/String;)Lcom/ss/android/ugc/aweme/feed/model/Aweme;
-
-    :cond_0
+    # Disabled: Do not mark user story as read
     return-void
 .end method
 
@@ -72,20 +43,7 @@
         }
     .end annotation
 
-    sget-object v3, LX/0N15;->LIZIZ:LX/0N15;
-
-    sget-object v2, LX/0Mwc;->STORY:LX/0Mwc;
-
-    sget-object v1, LX/0rMb;->FEED:LX/0rMb;
-
-    const/16 v0, 0x275
-
-    invoke-static {v0}, Lkotlin/jvm/internal/AFwS227S0000000_10;->get$arr$(I)Lkotlin/jvm/internal/AFwS227S0000000_10;
-
-    move-result-object v0
-
-    invoke-virtual {v3, v2, v1, p1, v0}, LX/0N15;->LJ(LX/0Mwc;LX/0rMb;Ljava/util/List;Lkotlin/jvm/functions/Function1;)V
-
+    # Disabled: Do not mark stories as read from feed
     return-void
 .end method
 
@@ -104,14 +62,7 @@
 .method public final LJ(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    sget-object v0, LX/172Z;->LIZIZ:LX/172Z;
-
-    invoke-virtual {v0}, LX/172Z;->LJJIII()LX/0MMY;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1, p2}, LX/0MMY;->LIZIZ(Ljava/lang/String;Ljava/lang/String;)Z
-
+    # Disabled: Do not notify server of story view
     return-void
 .end method
 
